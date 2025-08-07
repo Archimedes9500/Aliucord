@@ -126,6 +126,10 @@
 
     if-eq v0, v1, :cond_1a
 
+    const/4 v1, 0x4
+
+    if-eq v0, v1, :cond_gif
+
     const/4 v1, 0x3
 
     if-ne v0, v1, :cond_14
@@ -149,6 +153,11 @@
 
     :cond_1d
     const-string v0, ""
+
+    goto :goto_1f
+
+    :cond_gif
+    const-string v0, ".gif"
 
     :goto_1f
     return-object v0
