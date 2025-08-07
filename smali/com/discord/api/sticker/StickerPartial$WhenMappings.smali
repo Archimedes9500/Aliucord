@@ -30,7 +30,7 @@
 
     invoke-static {}, Lcom/discord/api/sticker/StickerFormatType;->values()[Lcom/discord/api/sticker/StickerFormatType;
 
-    const/4 v0, 0x4
+    const/4 v0, 0x5
 
     new-array v1, v0, [I
 
@@ -67,6 +67,16 @@
     aput v3, v1, v2
 
     sget-object v2, Lcom/discord/api/sticker/StickerFormatType;->LOTTIE:Lcom/discord/api/sticker/StickerFormatType;
+
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v2
+
+    const/4 v3, 0x4
+
+    aput v3, v1, v2
+
+    sget-object v2, Lcom/discord/api/sticker/StickerFormatType;->GIF:Lcom/discord/api/sticker/StickerFormatType;
 
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
