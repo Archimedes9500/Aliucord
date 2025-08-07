@@ -1,0 +1,76 @@
+.class public final Ld0/e0/p/d/m0/o/l$d;
+.super Ld0/e0/p/d/m0/o/l;
+.source "modifierChecks.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ld0/e0/p/d/m0/o/l;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "d"
+.end annotation
+
+
+# static fields
+.field public static final b:Ld0/e0/p/d/m0/o/l$d;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Ld0/e0/p/d/m0/o/l$d;
+
+    invoke-direct {v0}, Ld0/e0/p/d/m0/o/l$d;-><init>()V
+
+    sput-object v0, Ld0/e0/p/d/m0/o/l$d;->b:Ld0/e0/p/d/m0/o/l$d;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 2
+
+    const-string v0, "must have a single value parameter"
+
+    const/4 v1, 0x0
+
+    .line 1
+    invoke-direct {p0, v0, v1}, Ld0/e0/p/d/m0/o/l;-><init>(Ljava/lang/String;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public check(Ld0/e0/p/d/m0/c/x;)Z
+    .locals 1
+
+    const-string v0, "functionDescriptor"
+
+    invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-interface {p1}, Ld0/e0/p/d/m0/c/a;->getValueParameters()Ljava/util/List;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    move-result p1
+
+    const/4 v0, 0x1
+
+    if-ne p1, v0, :cond_11
+
+    goto :goto_12
+
+    :cond_11
+    const/4 v0, 0x0
+
+    :goto_12
+    return v0
+.end method

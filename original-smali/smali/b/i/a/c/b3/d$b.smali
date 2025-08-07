@@ -1,0 +1,141 @@
+.class public final Lb/i/a/c/b3/d$b;
+.super Ljava/lang/Object;
+.source "ExoplayerCuesDecoder.java"
+
+# interfaces
+.implements Lb/i/a/c/b3/g;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lb/i/a/c/b3/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# instance fields
+.field public final j:J
+
+.field public final k:Lb/i/b/b/p;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lb/i/b/b/p<",
+            "Lb/i/a/c/b3/b;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(JLb/i/b/b/p;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(J",
+            "Lb/i/b/b/p<",
+            "Lb/i/a/c/b3/b;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-wide p1, p0, Lb/i/a/c/b3/d$b;->j:J
+
+    .line 3
+    iput-object p3, p0, Lb/i/a/c/b3/d$b;->k:Lb/i/b/b/p;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public f(J)I
+    .locals 3
+
+    .line 1
+    iget-wide v0, p0, Lb/i/a/c/b3/d$b;->j:J
+
+    cmp-long v2, v0, p1
+
+    if-lez v2, :cond_8
+
+    const/4 p1, 0x0
+
+    goto :goto_9
+
+    :cond_8
+    const/4 p1, -0x1
+
+    :goto_9
+    return p1
+.end method
+
+.method public g(I)J
+    .locals 2
+
+    if-nez p1, :cond_4
+
+    const/4 p1, 0x1
+
+    goto :goto_5
+
+    :cond_4
+    const/4 p1, 0x0
+
+    .line 1
+    :goto_5
+    invoke-static {p1}, Lb/c/a/a0/d;->j(Z)V
+
+    .line 2
+    iget-wide v0, p0, Lb/i/a/c/b3/d$b;->j:J
+
+    return-wide v0
+.end method
+
+.method public h(J)Ljava/util/List;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(J)",
+            "Ljava/util/List<",
+            "Lb/i/a/c/b3/b;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-wide v0, p0, Lb/i/a/c/b3/d$b;->j:J
+
+    cmp-long v2, p1, v0
+
+    if-ltz v2, :cond_9
+
+    iget-object p1, p0, Lb/i/a/c/b3/d$b;->k:Lb/i/b/b/p;
+
+    goto :goto_d
+
+    .line 2
+    :cond_9
+    sget-object p1, Lb/i/b/b/p;->k:Lb/i/b/b/a;
+
+    sget-object p1, Lb/i/b/b/h0;->l:Lb/i/b/b/p;
+
+    :goto_d
+    return-object p1
+.end method
+
+.method public i()I
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method

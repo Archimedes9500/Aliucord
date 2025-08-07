@@ -1,0 +1,120 @@
+.class public final Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet$configureBottomContent$3;
+.super Ld0/z/d/o;
+.source "WidgetVoiceBottomSheet.kt"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->configureBottomContent(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet$BottomContent;Lcom/discord/api/channel/Channel;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ld0/z/d/o;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000\u0008\n\u0002\u0010\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
+    }
+    d2 = {
+        "",
+        "invoke",
+        "()V",
+        "<anonymous>"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x4,
+        0x2
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;
+
+
+# direct methods
+.method public constructor <init>(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet$configureBottomContent$3;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Ld0/z/d/o;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet$configureBottomContent$3;->invoke()V
+
+    sget-object v0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    return-object v0
+.end method
+
+.method public final invoke()V
+    .locals 3
+
+    .line 2
+    sget-object v0, Lb/a/a/f/a/a;->k:Lb/a/a/f/a/a$b;
+
+    iget-object v1, p0, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet$configureBottomContent$3;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;
+
+    invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->getParentFragmentManager()Landroidx/fragment/app/FragmentManager;
+
+    move-result-object v1
+
+    const-string/jumbo v2, "parentFragmentManager"
+
+    invoke-static {v1, v2}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 3
+    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v0, "fragmentManager"
+
+    invoke-static {v1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    new-instance v0, Lb/a/a/f/a/a;
+
+    invoke-direct {v0}, Lb/a/a/f/a/a;-><init>()V
+
+    .line 5
+    const-class v2, Lb/a/a/f/a/a;
+
+    invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v1, v2}, Lcom/discord/app/AppDialog;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
+
+    return-void
+.end method

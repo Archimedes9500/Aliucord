@@ -1,0 +1,92 @@
+.class public final Ld0/e0/p/d/m0/o/l$a;
+.super Ld0/e0/p/d/m0/o/l;
+.source "modifierChecks.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ld0/e0/p/d/m0/o/l;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# instance fields
+.field public final b:I
+
+
+# direct methods
+.method public constructor <init>(I)V
+    .locals 2
+
+    const-string v0, "must have at least "
+
+    const-string v1, " value parameter"
+
+    .line 1
+    invoke-static {v0, p1, v1}, Lb/d/b/a/a;->V(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    if-le p1, v1, :cond_e
+
+    const-string v1, "s"
+
+    goto :goto_10
+
+    :cond_e
+    const-string v1, ""
+
+    :goto_10
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-direct {p0, v0, v1}, Ld0/e0/p/d/m0/o/l;-><init>(Ljava/lang/String;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    iput p1, p0, Ld0/e0/p/d/m0/o/l$a;->b:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public check(Ld0/e0/p/d/m0/c/x;)Z
+    .locals 1
+
+    const-string v0, "functionDescriptor"
+
+    invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-interface {p1}, Ld0/e0/p/d/m0/c/a;->getValueParameters()Ljava/util/List;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    move-result p1
+
+    iget v0, p0, Ld0/e0/p/d/m0/o/l$a;->b:I
+
+    if-lt p1, v0, :cond_13
+
+    const/4 p1, 0x1
+
+    goto :goto_14
+
+    :cond_13
+    const/4 p1, 0x0
+
+    :goto_14
+    return p1
+.end method

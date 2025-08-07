@@ -1,0 +1,223 @@
+.class public final Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;
+.super Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;
+.source "ContactSyncFriendSuggestionListAdapter.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter$ItemFriendSuggestion;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple<",
+        "Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$Item;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000<\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0010\t\n\u0002\u0010\u000b\n\u0002\u0010\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001\u001aB\u000f\u0012\u0006\u0010\u0017\u001a\u00020\u0016\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J)\u0010\u0008\u001a\u000c\u0012\u0002\u0008\u0003\u0012\u0004\u0012\u00020\u00020\u00072\u0006\u0010\u0004\u001a\u00020\u00032\u0006\u0010\u0006\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tR4\u0010\u000e\u001a\u0014\u0012\u0004\u0012\u00020\u000b\u0012\u0004\u0012\u00020\u000c\u0012\u0004\u0012\u00020\r0\n8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000e\u0010\u000f\u001a\u0004\u0008\u0010\u0010\u0011\"\u0004\u0008\u0012\u0010\u0013R\u0016\u0010\u0014\u001a\u00020\u00058\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0014\u0010\u0015\u00a8\u0006\u001b"
+    }
+    d2 = {
+        "Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;",
+        "Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;",
+        "Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$Item;",
+        "Landroid/view/ViewGroup;",
+        "parent",
+        "",
+        "viewType",
+        "Lcom/discord/utilities/mg_recycler/MGRecyclerViewHolder;",
+        "onCreateViewHolder",
+        "(Landroid/view/ViewGroup;I)Lcom/discord/utilities/mg_recycler/MGRecyclerViewHolder;",
+        "Lkotlin/Function2;",
+        "",
+        "",
+        "",
+        "onClickFriendSuggestion",
+        "Lkotlin/jvm/functions/Function2;",
+        "getOnClickFriendSuggestion",
+        "()Lkotlin/jvm/functions/Function2;",
+        "setOnClickFriendSuggestion",
+        "(Lkotlin/jvm/functions/Function2;)V",
+        "spacing",
+        "I",
+        "Landroidx/recyclerview/widget/RecyclerView;",
+        "recycler",
+        "<init>",
+        "(Landroidx/recyclerview/widget/RecyclerView;)V",
+        "ItemFriendSuggestion",
+        "app_productionGoogleRelease"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x4,
+        0x2
+    }
+.end annotation
+
+
+# instance fields
+.field private onClickFriendSuggestion:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "-",
+            "Ljava/lang/Long;",
+            "-",
+            "Ljava/lang/Boolean;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final spacing:I
+
+
+# direct methods
+.method public constructor <init>(Landroidx/recyclerview/widget/RecyclerView;)V
+    .locals 3
+
+    const-string v0, "recycler"
+
+    invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x2
+
+    const/4 v2, 0x0
+
+    .line 1
+    invoke-direct {p0, p1, v0, v1, v2}, Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;-><init>(Landroidx/recyclerview/widget/RecyclerView;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    .line 2
+    sget-object v0, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter$onClickFriendSuggestion$1;->INSTANCE:Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter$onClickFriendSuggestion$1;
+
+    iput-object v0, p0, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;->onClickFriendSuggestion:Lkotlin/jvm/functions/Function2;
+
+    .line 3
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    const-string v0, "recycler.context"
+
+    invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p1
+
+    const v0, 0x7f070231
+
+    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+
+    move-result p1
+
+    iput p1, p0, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;->spacing:I
+
+    return-void
+.end method
+
+.method public static final synthetic access$getSpacing$p(Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;)I
+    .locals 0
+
+    .line 1
+    iget p0, p0, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;->spacing:I
+
+    return p0
+.end method
+
+
+# virtual methods
+.method public final getOnClickFriendSuggestion()Lkotlin/jvm/functions/Function2;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Ljava/lang/Long;",
+            "Ljava/lang/Boolean;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;->onClickFriendSuggestion:Lkotlin/jvm/functions/Function2;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/discord/utilities/mg_recycler/MGRecyclerViewHolder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/discord/utilities/mg_recycler/MGRecyclerViewHolder;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/view/ViewGroup;",
+            "I)",
+            "Lcom/discord/utilities/mg_recycler/MGRecyclerViewHolder<",
+            "*",
+            "Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$Item;",
+            ">;"
+        }
+    .end annotation
+
+    const-string p2, "parent"
+
+    invoke-static {p1, p2}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    new-instance p1, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter$ItemFriendSuggestion;
+
+    invoke-direct {p1, p0}, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter$ItemFriendSuggestion;-><init>(Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;)V
+
+    return-object p1
+.end method
+
+.method public final setOnClickFriendSuggestion(Lkotlin/jvm/functions/Function2;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/jvm/functions/Function2<",
+            "-",
+            "Ljava/lang/Long;",
+            "-",
+            "Ljava/lang/Boolean;",
+            "Lkotlin/Unit;",
+            ">;)V"
+        }
+    .end annotation
+
+    const-string v0, "<set-?>"
+
+    invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iput-object p1, p0, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;->onClickFriendSuggestion:Lkotlin/jvm/functions/Function2;
+
+    return-void
+.end method

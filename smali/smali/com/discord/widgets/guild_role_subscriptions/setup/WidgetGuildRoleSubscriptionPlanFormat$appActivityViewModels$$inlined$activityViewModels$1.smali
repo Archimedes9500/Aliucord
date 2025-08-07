@@ -1,0 +1,90 @@
+.class public final Lcom/discord/widgets/guild_role_subscriptions/setup/WidgetGuildRoleSubscriptionPlanFormat$appActivityViewModels$$inlined$activityViewModels$1;
+.super Ld0/z/d/o;
+.source "FragmentViewModelLazy.kt"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ld0/z/d/o;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Landroidx/lifecycle/ViewModelStore;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000\u000e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u0006\u001a\u00020\u0002\"\n\u0008\u0000\u0010\u0001\u0018\u0001*\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u00a8\u0006\u0005"
+    }
+    d2 = {
+        "Landroidx/lifecycle/ViewModel;",
+        "VM",
+        "Landroidx/lifecycle/ViewModelStore;",
+        "invoke",
+        "()Landroidx/lifecycle/ViewModelStore;",
+        "androidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$1",
+        "<anonymous>"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x4,
+        0x2
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic $this_activityViewModels:Landroidx/fragment/app/Fragment;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/fragment/app/Fragment;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/discord/widgets/guild_role_subscriptions/setup/WidgetGuildRoleSubscriptionPlanFormat$appActivityViewModels$$inlined$activityViewModels$1;->$this_activityViewModels:Landroidx/fragment/app/Fragment;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Ld0/z/d/o;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Landroidx/lifecycle/ViewModelStore;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/discord/widgets/guild_role_subscriptions/setup/WidgetGuildRoleSubscriptionPlanFormat$appActivityViewModels$$inlined$activityViewModels$1;->$this_activityViewModels:Landroidx/fragment/app/Fragment;
+
+    const-string v1, "requireActivity()"
+
+    const-string v2, "requireActivity().viewModelStore"
+
+    invoke-static {v0, v1, v2}, Lb/d/b/a/a;->p0(Landroidx/fragment/app/Fragment;Ljava/lang/String;Ljava/lang/String;)Landroidx/lifecycle/ViewModelStore;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/discord/widgets/guild_role_subscriptions/setup/WidgetGuildRoleSubscriptionPlanFormat$appActivityViewModels$$inlined$activityViewModels$1;->invoke()Landroidx/lifecycle/ViewModelStore;
+
+    move-result-object v0
+
+    return-object v0
+.end method
