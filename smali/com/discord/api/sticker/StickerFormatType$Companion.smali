@@ -77,7 +77,7 @@
     const/4 v2, 0x0
 
     :goto_6
-    const/4 v3, 0x4
+    const/4 v3, 0x5
 
     if-ge v2, v3, :cond_1a
 
