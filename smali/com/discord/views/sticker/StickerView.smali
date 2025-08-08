@@ -479,6 +479,10 @@
 
     if-eq v3, v12, :cond_107
 
+	const/4 v12, 0x4
+
+	if-eq v3, v12, :cond_107
+
     const/4 v7, 0x3
 
     if-eq v3, v7, :cond_92
