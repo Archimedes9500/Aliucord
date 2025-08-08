@@ -1,4 +1,4 @@
-name: Create smali patches
+name: Deploy smali patches
 on:
   workflow_dispatch
 permissions:
