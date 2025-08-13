@@ -8,7 +8,7 @@ on:
     paths-ignore:
       - "**.md"
   workflow_run:
-    workflows: ["diff"]
+    workflows: ["smali-diff", "smali-deploy"]
     types:
       - completed
 
