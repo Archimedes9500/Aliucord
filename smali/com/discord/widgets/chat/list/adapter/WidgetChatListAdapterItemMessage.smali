@@ -1967,6 +1967,8 @@
 
     invoke-static/range {v1 .. v6}, Lcom/discord/utilities/logging/Logger;->e$default(Lcom/discord/utilities/logging/Logger;Ljava/lang/String;Ljava/lang/Throwable;Ljava/util/Map;ILjava/lang/Object;)V
 
+    goto :goto_171
+
     :cond_120
     :goto_120
     const p1, 0x7f1221f6
