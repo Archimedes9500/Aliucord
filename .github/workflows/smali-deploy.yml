@@ -16,6 +16,7 @@ jobs:
       - name: Checkout smali
         uses: actions/checkout@v4
         with:
+          ref: "explode-fix-smali"
           path: "smali"
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
