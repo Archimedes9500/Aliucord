@@ -43,4 +43,4 @@ jobs:
           git add .
           git commit -m "Added patches" || exit 0 #do not error if nothing to commit
           git blame-someone-else "Archimedes9500 <82618548+Archimedes9500@users.noreply.github.com>" "$(git rev-parse HEAD)"
-          git push --force origin main
+          git push --force origin main:explode-fix
