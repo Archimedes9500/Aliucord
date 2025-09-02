@@ -254,6 +254,22 @@ fun patchVoice() {
     Patcher.addPatch(b.a.q.n0.a::class.java.getDeclaredMethod("k"), InsteadHook.DO_NOTHING)
 }
 
+fun patchMessageEmbeds() {
+	patcher.after<MessageEmbed>("k"){frame ->
+		if(frame.result == "rich"){
+			if(frame.c() != null || (frame.f() != null && frame.m() != null)){
+				frame.result = "article";
+			}else if(frame.f() != null){
+				frame.result = "image";
+			}else if(frame.m() != null){
+				frame.result = "video";
+			}else{
+				frame.result = null;
+			}
+		}
+	}
+}
+
 // TODO: display gradient changes for role colors
 fun patchAuditLog() {
     Patcher.addPatch(Model.JsonReader::class.java.getDeclaredMethod("parseUnknown", Model.JsonReader.ItemFactory::class.java), PreHook {
