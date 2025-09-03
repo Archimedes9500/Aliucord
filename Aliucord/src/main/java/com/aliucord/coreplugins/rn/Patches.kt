@@ -52,6 +52,7 @@ import java.util.Collections
 import com.discord.models.user.User as ModelUser
 import com.discord.api.message.embed.MessageEmbed
 import com.discord.api.message.embed.EmbedType
+import java.lang.reflect.Field
 import java.lang.reflect.Modifier
 
 fun patchNextCallAdapter() {
@@ -261,10 +262,10 @@ fun patchMessageEmbeds() {
 	val field = MessageEmbed::class.java.getDeclaredField("type").apply{isAccessible = true};
 	Patcher.addPatch(MessageEmbed::class.java.getDeclaredMethod("k"), Hook{
 		val embed = it.thisObject as MessageEmbed;
-		MessageEmbed::class.java.getDeclaredField("modifiers").apply{isAccessible = true}.setInt(embed, field.modifiers and Modifier.FINAL.inv());
+		Field::class.java.getDeclaredField("modifiers").apply{isAccessible = true}.setInt(embed, field.modifiers and Modifier.FINAL.inv());
 		if(it.result == EmbedType.RICH && embed.m() != null){
-			it.result = EmbedType.VIDEO;
 			field.set(embed, EmbedType.VIDEO);
+			it.result = EmbedType.VIDEO;
 		}
 	});
 }
