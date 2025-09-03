@@ -260,14 +260,12 @@ fun patchMessageEmbeds() {
 	Patcher.addPatch(MessageEmbed::class.java.getDeclaredMethod("k"), Hook{
 		val embed = it.thisObject as MessageEmbed;
 		if(it.result == RICH){
-			if(embed.c() != null || (embed.f() != null && embed.m() != null)){
+			if(embed.m() != null){
+				it.result = VIDEO;
+			}else if(embed.c() != null && embed.f() != null){
 				it.result = ARTICLE;
 			}else if(embed.f() != null){
 				it.result = IMAGE;
-			}else if(embed.m() != null){
-				it.result = VIDEO;
-			}else{
-				it.result = null;
 			}
 		}
 	});
