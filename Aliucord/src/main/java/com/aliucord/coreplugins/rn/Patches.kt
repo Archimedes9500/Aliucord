@@ -50,7 +50,7 @@ import rx.Observable
 import java.lang.reflect.Type
 import java.util.Collections
 import com.discord.models.user.User as ModelUser
-import com.aliucord.patcher;
+import com.aliucord.patcher.after;
 import com.discord.api.message.embed.MessageEmbed;
 
 fun patchNextCallAdapter() {
