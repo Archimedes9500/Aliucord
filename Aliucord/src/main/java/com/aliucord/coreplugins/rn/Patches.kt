@@ -259,7 +259,7 @@ fun patchVoice() {
 
 fun patchMessageEmbeds() {
 	val field = MessageEmbed::class.java.getDeclaredField("type").apply{isAccessible = true};
-	MessageEmbed::class.java.getDeclaredField("modifiers").apply{isAccessible = true}.setInt(field.modifiers and Modifier.FINAL.inv());
+	MessageEmbed::class.java.getDeclaredField("modifiers").apply{isAccessible = true}.setInt(embed, field.modifiers and Modifier.FINAL.inv());
 	Patcher.addPatch(MessageEmbed::class.java.getDeclaredConstructor(), Hook{
 		val embed = it.thisObject as MessageEmbed;
 		val type = field.get(embed) as EmbedType?;
