@@ -50,8 +50,8 @@ import rx.Observable
 import java.lang.reflect.Type
 import java.util.Collections
 import com.discord.models.user.User as ModelUser
-import com.aliucord.patcher.after;
 import com.discord.api.message.embed.MessageEmbed;
+import com.discord.api.message.embed.EmbedType.*;
 
 fun patchNextCallAdapter() {
     val oldUserProfile = TypeToken.getParameterized(Observable::class.java, UserProfile::class.java).type
@@ -257,14 +257,15 @@ fun patchVoice() {
 }
 
 fun patchMessageEmbeds() {
-	patcher.after<MessageEmbed>("k"){frame ->
-		if(frame.result == "rich"){
+	com.aliucord.patcher.after<MessageEmbed>("k"){
+		frame ->
+		if(frame.result == RICH){
 			if(frame.c() != null || (frame.f() != null && frame.m() != null)){
-				frame.result = "article";
+				frame.result = ARTICLE;
 			}else if(frame.f() != null){
-				frame.result = "image";
+				frame.result = IMAGE;
 			}else if(frame.m() != null){
-				frame.result = "video";
+				frame.result = VIDEO;
 			}else{
 				frame.result = null;
 			}
