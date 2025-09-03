@@ -259,18 +259,12 @@ fun patchVoice() {
 
 fun patchMessageEmbeds() {
 	val field = MessageEmbed::class.java.getDeclaredField("type").apply{isAccessible = true};
-	Patcher.addPatch(MessageEmbed::class.java.getDeclaredConstructor(), Hook{
-		val embed = it.thisObject as MessageEmbed;
-		MessageEmbed::class.java.getDeclaredField("modifiers").apply{isAccessible = true}.setInt(embed, field.modifiers and Modifier.FINAL.inv());
-		val type = field.get(embed) as EmbedType?;
-		if(type == EmbedType.RICH && embed.m() != null){
-			field.set(embed, EmbedType.VIDEO);
-		}
-	});
 	Patcher.addPatch(MessageEmbed::class.java.getDeclaredMethod("k"), Hook{
 		val embed = it.thisObject as MessageEmbed;
+		MessageEmbed::class.java.getDeclaredField("modifiers").apply{isAccessible = true}.setInt(embed, field.modifiers and Modifier.FINAL.inv());
 		if(it.result == EmbedType.RICH && embed.m() != null){
 			it.result = EmbedType.VIDEO;
+			field.set(embed, EmbedType.VIDEO);
 		}
 	});
 }
