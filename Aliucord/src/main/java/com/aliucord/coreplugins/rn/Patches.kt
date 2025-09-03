@@ -50,8 +50,9 @@ import rx.Observable
 import java.lang.reflect.Type
 import java.util.Collections
 import com.discord.models.user.User as ModelUser
-import com.discord.api.message.embed.MessageEmbed;
-import com.discord.api.message.embed.EmbedType;
+import com.discord.api.message.embed.MessageEmbed
+import com.discord.api.message.embed.EmbedType
+import java.lang.reflect.Modifier
 
 fun patchNextCallAdapter() {
     val oldUserProfile = TypeToken.getParameterized(Observable::class.java, UserProfile::class.java).type
@@ -258,7 +259,7 @@ fun patchVoice() {
 
 fun patchMessageEmbeds() {
 	val field = MessageEmbed::class.java.getDeclaredField("type").apply{isAccessible = true};
-	MessageEmbed::class.java.getDeclaredField("modifiers").apply{isAccessible = true}.setInt(field.getModifiers() & ~Modifier.FINAL);
+	MessageEmbed::class.java.getDeclaredField("modifiers").apply{isAccessible = true}.setInt(field.modifiers & ~Modifier.FINAL);
 	Patcher.addPatch(MessageEmbed::class.java.getDeclaredConstructor(), Hook{
 		val embed = it.thisObject as MessageEmbed;
 		val type = field.get(embed) as EmbedType?;
