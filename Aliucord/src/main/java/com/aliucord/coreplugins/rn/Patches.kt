@@ -257,20 +257,20 @@ fun patchVoice() {
 }
 
 fun patchMessageEmbeds() {
-	com.aliucord.patcher.after<MessageEmbed>("k"){
-		frame ->
-		if(frame.result == RICH){
-			if(frame.c() != null || (frame.f() != null && frame.m() != null)){
-				frame.result = ARTICLE;
-			}else if(frame.f() != null){
-				frame.result = IMAGE;
-			}else if(frame.m() != null){
-				frame.result = VIDEO;
+	Patcher.addPatch(MessageEmbed::class.java.getDeclaredMethod("k"), Hook{
+		val embed = it.thisObject as MessageEmbed;
+		if(it.result == RICH){
+			if(embed.c() != null || (embed.f() != null && embed.m() != null)){
+				it.result = ARTICLE;
+			}else if(embed.f() != null){
+				it.result = IMAGE;
+			}else if(embed.m() != null){
+				it.result = VIDEO;
 			}else{
-				frame.result = null;
+				it.result = null;
 			}
 		}
-	}
+	});
 }
 
 // TODO: display gradient changes for role colors
