@@ -23,10 +23,12 @@ import com.discord.utilities.color.ColorCompat
 import com.discord.widgets.chat.list.actions.WidgetChatListActions
 import com.lytefast.flexinput.R
 import java.util.regex.Pattern
+import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterEventsHandler;
 
 internal val logger = Logger("PluginDownloader")
 
 private val viewId = View.generateViewId()
+private val urlViewId = View.generateViewId()
 private val repoPattern = Pattern.compile("https?://github\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)")
 private val zipPattern =
     Pattern.compile("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
@@ -80,6 +82,14 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                         }
                     }
                 }
+            }
+        )
+        //also for link context menu
+        patcher.patch(
+            `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`::class.java.getDeclaredMethod("invoke2", String::class.java),
+            InsteadHook { (param, str: String) ->
+                val t = (param.thisObject as `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`).`this$0` as WidgetChatListAdapterItemMessage
+                WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler().onUrlLongClicked(str, t);
             }
         )
     }
@@ -137,5 +147,85 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
             layout.addView(this, idx)
         }
+    }
+
+    private fun handlePluginZipUrl(str: String, layout: ViewGroup, actions: WidgetUrlActions) {
+        zipPattern.matcher(str).run {
+            while (find()) {
+                val author = group(1)!!
+                val repo = group(2)!!
+				val commit = group(3)!!
+                val name = group(4)!!
+
+                // Don't accidentally install core as a plugin
+                if (name == "Aliucord") continue
+
+                val plugin = PluginFile(name)
+                addEntry(layout, "${if (plugin.isInstalled) "Reinstall" else "Install"} $name") {
+                    plugin.install("https://github.com/$author/$repo/raw/$commit/$name.zip")
+                    actions.dismiss()
+                }
+            }
+        }
+    }
+
+    class WidgetUrlActionsWithSource extends WidgetUrlActions{
+        val original: WidgetUrlActions
+        val source: WidgetChatListAdapterItemMessage
+        WidgetUrlActionsWithSource(actions: WidgetUrlActions, message: WidgetChatListAdapterItemMessage) {
+            this.original = actions
+            this.source = message
+        }
+        override fun getUrl(): String {
+            return super.`url$delegate`.getValue() as String
+        }
+        override fun onViewCreated(view: View, bundle: android.os.Bundle) {
+            val actions = this
+            val layout = actions.getRoot() as ViewGroup
+            val adapter = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(source)
+            val url = actions.getUrl()
+
+            if (layout.findViewById<View>(linkViewId) != null) return
+
+            val msg = StoreMessages.getMessage(adapter.Data.getChannelId(), adapter.Data.getMessageId())
+            val content = msg?.content ?: return
+            when (msg.channelId) {
+                PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
+                    handlePluginZipUrl(url, layout, actions)
+
+                SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
+                    val member = StoreStream.getGuilds().getMember(ALIUCORD_GUILD_ID, msg.author.id)
+                    val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
+
+                    if (isTrusted) handlePluginZipUrl(url, layout, actions)
+                }
+
+                PLUGIN_LINKS_CHANNEL_ID -> {
+                    repoPattern.matcher(url).takeIf { it.find() }?.run {
+                        val author = group(1)!!
+                        val repo = group(2)!!
+
+                        addEntry(layout, "Open Plugin Downloader") {
+                            Utils.openPageWithProxy(it.context, Modal(author, repo))
+                            actions.dismiss()
+                        }
+                    }
+                }
+            }
+            super.onViewCreated(view, bundle)
+        }
+    }
+
+    fun WidgetChatListAdapterEventsHandler.onUrlLongClicked(str: String, source: WidgetChatListAdapterItemMessage) {
+        WidgetUrlActions.launch(this.getFragmentManager(), str, source);
+    }
+
+    fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, source: WidgetChatListAdapterItemMessage) {
+        this.source = source
+        val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
+        val bundle = android.os.Bundle();
+        bundle.putString(WidgetUrlActions.INTENT_URL, str);
+        widgetUrlActions.setArguments(bundle);
+        widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
 }
