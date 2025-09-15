@@ -23,7 +23,10 @@ import com.discord.utilities.color.ColorCompat
 import com.discord.widgets.chat.list.actions.WidgetChatListActions
 import com.lytefast.flexinput.R
 import java.util.regex.Pattern
-import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterEventsHandler;
+
+import com.discord.widgets.chat.WidgetUrlActions
+import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterItemMessage
+import com.discord.widgets.chat.list.adapter.`WidgetChatListAdapterItemMessage$getMessageRenderContext$2`
 
 internal val logger = Logger("PluginDownloader")
 
@@ -169,13 +172,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    class WidgetUrlActionsWithSource extends WidgetUrlActions{
-        val original: WidgetUrlActions
-        val source: WidgetChatListAdapterItemMessage
-        WidgetUrlActionsWithSource(actions: WidgetUrlActions, message: WidgetChatListAdapterItemMessage) {
-            this.original = actions
-            this.source = message
-        }
+    class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: WidgetChatListAdapterItemMessage) : WidgetUrlActions() {
         override fun getUrl(): String {
             return super.`url$delegate`.getValue() as String
         }
