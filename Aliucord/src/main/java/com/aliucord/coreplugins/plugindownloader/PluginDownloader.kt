@@ -83,7 +83,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     }
 
     inner class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
-        fun onViewCreated(view: View, bundle: android.os.Bundle) {
+        override fun onViewCreated(view: View, bundle: android.os.Bundle) {
             val actions = this
             val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as Lazy<*>)
                 .getValue(this as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
