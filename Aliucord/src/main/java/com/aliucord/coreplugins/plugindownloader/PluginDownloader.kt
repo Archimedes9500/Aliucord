@@ -27,6 +27,8 @@ import java.util.regex.Pattern
 import com.discord.widgets.chat.WidgetUrlActions
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterItemMessage
 import com.discord.widgets.chat.list.adapter.`WidgetChatListAdapterItemMessage$getMessageRenderContext$2`
+import kotlin.Lazy
+import java.lang.reflect.Class
 
 internal val logger = Logger("PluginDownloader")
 
@@ -38,6 +40,20 @@ private val zipPattern =
 
 internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     override val isRequired = true
+
+    class ExtField(val c: Class<*>){
+        var map = HashMap<Int, Any?>();
+        fun set(instance: Any, value: Any?){
+            if(c.isInstance(instance)){
+                map[System.identityHashCode(instance)] = value;
+            }
+        }
+        fun get(instance: Any): Any?{
+            if(c.isInstance(instance)){
+                return map[System.identityHashCode(instance)];
+            }
+        }
+    }
 
     init {
         manifest.description = "Utility for installing plugins directly from the Aliucord server's plugins channels"
@@ -88,11 +104,21 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             }
         )
         //also for link context menu
+        val fUrlSource = ExtField(WidgetChatListAdapterItemMessage::class.java)
+        patcher.patch(
+            WidgetChatListAdapterItemMessage::class.java.getDeclaredMethod("onConfigure", Int::class.java, ChatListEntry::class.java),
+            Hook { (param, i: Int, chatListEntry: ChatListEntry) ->
+                val messageEntry = chatListEntry as MessageEntry
+                val message = messageEntry.message as Message
+                (param.thisObject as WidgetChatListAdapterItemMessage).setExt(fUrlSource, message)
+            }
+        )
         patcher.patch(
             `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`::class.java.getDeclaredMethod("invoke2", String::class.java),
             InsteadHook { (param, str: String) ->
                 val t = (param.thisObject as `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`).`this$0` as WidgetChatListAdapterItemMessage
-                WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler().onUrlLongClicked(str, t);
+                val urlSource = t.getExt(fUrlSource)
+                WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler().onUrlLongClicked(str, urlSource);
             }
         )
     }
@@ -172,19 +198,16 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: WidgetChatListAdapterItemMessage) : WidgetUrlActions() {
-        override fun getUrl(): String {
-            return super.`url$delegate`.getValue() as String
-        }
+    class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
         override fun onViewCreated(view: View, bundle: android.os.Bundle) {
             val actions = this
-            val layout = actions.getRoot() as ViewGroup
-            val adapter = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(source)
-            val url = actions.getUrl()
+            val layout = actions.getBinding().getRoot() as ViewGroup
+            //val adapter = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(source)
+            val url = (ReflectUtils.getField(original, "url$delegate") as Lazy).getValue() as String
 
-            if (layout.findViewById<View>(linkViewId) != null) return
+            if (layout.findViewById<View>(urlViewId) != null) return
 
-            val msg = StoreMessages.getMessage(adapter.Data.getChannelId(), adapter.Data.getMessageId())
+            val msg = source
             val content = msg?.content ?: return
             when (msg.channelId) {
                 PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
@@ -213,16 +236,23 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    fun WidgetChatListAdapterEventsHandler.onUrlLongClicked(str: String, source: WidgetChatListAdapterItemMessage) {
+    fun WidgetChatListAdapterEventsHandler.onUrlLongClicked(str: String, source: Message) {
         WidgetUrlActions.launch(this.getFragmentManager(), str, source);
     }
 
-    fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, source: WidgetChatListAdapterItemMessage) {
+    fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, source: Message) {
         this.source = source
         val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
         val bundle = android.os.Bundle();
         bundle.putString(WidgetUrlActions.INTENT_URL, str);
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
+    }
+
+    fun <T> T.setExt(field: ExtField, value: Any?){
+        field.set(this, value);
+    }
+    fun <T> T.getExt(field: ExtField): Any?{
+        return field.get(this);
     }
 }
