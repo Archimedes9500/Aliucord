@@ -27,8 +27,10 @@ import java.util.regex.Pattern
 import com.discord.widgets.chat.WidgetUrlActions
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterItemMessage
 import com.discord.widgets.chat.list.adapter.`WidgetChatListAdapterItemMessage$getMessageRenderContext$2`
+import com.discord.widgets.chat.list.entries.ChatListEntry
+import com.discord.widgets.chat.list.entries.MessageEntry
+import com.aliucord.utils.ReflectUtils
 import kotlin.Lazy
-import java.lang.reflect.Class
 
 internal val logger = Logger("PluginDownloader")
 
@@ -49,9 +51,11 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             }
         }
         fun get(instance: Any): Any?{
+            var o = null;
             if(c.isInstance(instance)){
-                return map[System.identityHashCode(instance)];
+                o = map[System.identityHashCode(instance)];
             }
+            return o;
         }
     }
 
@@ -117,7 +121,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`::class.java.getDeclaredMethod("invoke2", String::class.java),
             InsteadHook { (param, str: String) ->
                 val t = (param.thisObject as `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`).`this$0` as WidgetChatListAdapterItemMessage
-                val urlSource = t.getExt(fUrlSource)
+                val urlSource = t.getExt(fUrlSource) as Message
                 WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler().onUrlLongClicked(str, urlSource);
             }
         )
