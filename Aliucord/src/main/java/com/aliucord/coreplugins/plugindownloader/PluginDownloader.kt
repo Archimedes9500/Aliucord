@@ -125,7 +125,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
         val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
         val bundle = android.os.Bundle();
-        bundle.putString(ReflectUtils.getField(null, "WidgetUrlActions.INTENT_URL") as String, str);
+        bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str);
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
