@@ -92,8 +92,8 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
     
-    fun WidgetChatListAdapterEventsHandler.onSourcedUrlLongClicked(str: String, source: Message) {
-        sourcedLaunch(WidgetChatListAdapterEventsHandler.`access$getFragmentManager$p`(this), str, source);
+    fun WidgetChatListAdapterEventsHandler.onSourcedUrlLongClicked(str: String, source: Message, field: ExtField) {
+        sourcedLaunch(WidgetChatListAdapterEventsHandler.`access$getFragmentManager$p`(this), str, source, field);
     }
 
     override fun start(context: Context) {
