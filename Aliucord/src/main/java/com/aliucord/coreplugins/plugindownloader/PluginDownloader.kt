@@ -24,6 +24,7 @@ import com.discord.widgets.chat.list.actions.WidgetChatListActions
 import com.lytefast.flexinput.R
 import java.util.regex.Pattern
 
+import androidx.fragment.app.FragmentManager
 import com.discord.widgets.chat.WidgetUrlActions
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterItemMessage
 import com.discord.widgets.chat.list.adapter.`WidgetChatListAdapterItemMessage$getMessageRenderContext$2`
@@ -41,8 +42,61 @@ private val repoPattern = Pattern.compile("https?://github\\.com/([A-Za-z0-9\\-_
 private val zipPattern =
     Pattern.compile("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
 
+    class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
+        override fun onViewCreated(view: View, bundle: android.os.Bundle) {
+            val actions = this
+            val layout = actions.getBinding().getRoot() as ViewGroup
+            //val adapter = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(source)
+            val url = (ReflectUtils.getField(original, "url\$delegate") as Lazy<*>).getValue() as String
+
+            if (layout.findViewById<View>(urlViewId) != null) return
+
+            val msg = source
+            val content = msg?.content ?: return
+            when (msg.channelId) {
+                PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
+                    handlePluginZipUrl(url, layout, actions)
+
+                SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
+                    val member = StoreStream.getGuilds().getMember(ALIUCORD_GUILD_ID, msg.author.id)
+                    val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
+
+                    if (isTrusted) handlePluginZipUrl(url, layout, actions)
+                }
+
+                PLUGIN_LINKS_CHANNEL_ID -> {
+                    repoPattern.matcher(url).takeIf { it.find() }?.run {
+                        val author = group(1)!!
+                        val repo = group(2)!!
+
+                        addEntry(layout, "Open Plugin Downloader") {
+                            Utils.openPageWithProxy(it.context, Modal(author, repo))
+                            actions.dismiss()
+                        }
+                    }
+                }
+            }
+            super.onViewCreated(view, bundle)
+        }
+    }
+
+    class ExtField(val c: Class<*>) {
+        var map = HashMap<Int, Any?>()
+        fun set(instance: Any, value: Any?){
+            if (c.isInstance(instance)) {
+                map[System.identityHashCode(instance)] = value
+            }
+        }
+        fun get(instance: Any): Any?{
+           return if (c.isInstance(instance)) {
+                map[System.identityHashCode(instance)]
+            } else {
+                null
+            }
+        }
+    }
+
 fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, source: Message) {
-    this.source = source
     val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
     val bundle = android.os.Bundle();
     bundle.putString(WidgetUrlActions.INTENT_URL, str);
@@ -204,60 +258,6 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             }
 
             layout.addView(this, idx)
-        }
-    }
-
-    class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
-        override fun onViewCreated(view: View, bundle: android.os.Bundle) {
-            val actions = this
-            val layout = actions.getBinding().getRoot() as ViewGroup
-            //val adapter = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(source)
-            val url = (ReflectUtils.getField(original, "url\$delegate") as Lazy<*>).getValue() as String
-
-            if (layout.findViewById<View>(urlViewId) != null) return
-
-            val msg = source
-            val content = msg?.content ?: return
-            when (msg.channelId) {
-                PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
-                    handlePluginZipUrl(url, layout, actions)
-
-                SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
-                    val member = StoreStream.getGuilds().getMember(ALIUCORD_GUILD_ID, msg.author.id)
-                    val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
-
-                    if (isTrusted) handlePluginZipUrl(url, layout, actions)
-                }
-
-                PLUGIN_LINKS_CHANNEL_ID -> {
-                    repoPattern.matcher(url).takeIf { it.find() }?.run {
-                        val author = group(1)!!
-                        val repo = group(2)!!
-
-                        addEntry(layout, "Open Plugin Downloader") {
-                            Utils.openPageWithProxy(it.context, Modal(author, repo))
-                            actions.dismiss()
-                        }
-                    }
-                }
-            }
-            super.onViewCreated(view, bundle)
-        }
-    }
-
-    class ExtField(val c: Class<*>) {
-        var map = HashMap<Int, Any?>()
-        fun set(instance: Any, value: Any?){
-            if (c.isInstance(instance)) {
-                map[System.identityHashCode(instance)] = value
-            }
-        }
-        fun get(instance: Any): Any?{
-           return if (c.isInstance(instance)) {
-                map[System.identityHashCode(instance)]
-            } else {
-                null
-            }
         }
     }
 }
