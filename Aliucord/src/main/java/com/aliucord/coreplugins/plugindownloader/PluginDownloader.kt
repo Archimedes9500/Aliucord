@@ -44,13 +44,13 @@ private val zipPattern =
     Pattern.compile("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
 
 class ExtField(val c: Class<*>) {
-    var map = WeakHashMap<Int, Any?>()
-    fun set(instance: Object, value: Any?){
+    var map = WeakHashMap<Any, Any?>()
+    fun set(instance: Any, value: Any?){
         if (c.isInstance(instance)) {
             map[instance] = value
         }
     }
-    fun get(instance: Object): Any?{
+    fun get(instance: Any): Any?{
        return if (c.isInstance(instance)) {
             map[instance]
         } else {
@@ -59,10 +59,10 @@ class ExtField(val c: Class<*>) {
     }
 }
 
-fun <T> T.setExt(field: ExtField, value: Any?){
+fun Any.setExt(field: ExtField, value: Any?){
     field.set(this, value);
 }
-fun <T> T.getExt(field: ExtField): Any?{
+fun Any.getExt(field: ExtField): Any?{
     return field.get(this);
 }
 
@@ -80,7 +80,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
+    inner class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
         fun onViewCreated(view: View, bundle: android.os.Bundle) {
             val actions = this
             val layout = actions.getBinding().getRoot() as ViewGroup
