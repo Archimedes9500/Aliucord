@@ -118,7 +118,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, source: Message) {
+    fun WidgetUrlActions.sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
         val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
         val bundle = android.os.Bundle();
         bundle.putString(WidgetUrlActions.INTENT_URL, str);
@@ -126,8 +126,8 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
     
-    fun WidgetChatListAdapterEventsHandler.onUrlLongClicked(str: String, source: Message) {
-        WidgetUrlActions.launch(this.getFragmentManager(), str, source);
+    fun WidgetChatListAdapterEventsHandler.onSourcedUrlLongClicked(str: String, source: Message) {
+        WidgetUrlActions.sourcedLaunch(this.getFragmentManager(), str, source);
     }
 
     override fun start(context: Context) {
@@ -182,7 +182,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             InsteadHook { (param, str: String) ->
                 val t = (param.thisObject as `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`).`this$0` as WidgetChatListAdapterItemMessage
                 val urlSource = t.getExt(fUrlSource) as Message
-                WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler().onUrlLongClicked(str, urlSource);
+                WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler().onSourcedUrlLongClicked(str, urlSource);
             }
         )
     }
