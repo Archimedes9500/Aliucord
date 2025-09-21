@@ -41,6 +41,26 @@ private val repoPattern = Pattern.compile("https?://github\\.com/([A-Za-z0-9\\-_
 private val zipPattern =
     Pattern.compile("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
 
+fun WidgetChatListAdapterEventsHandler.onUrlLongClicked(str: String, source: Message) {
+    WidgetUrlActions.launch(this.getFragmentManager(), str, source);
+}
+
+fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, source: Message) {
+    this.source = source
+    val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
+    val bundle = android.os.Bundle();
+    bundle.putString(WidgetUrlActions.INTENT_URL, str);
+    widgetUrlActions.setArguments(bundle);
+    widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
+}
+
+fun <T> T.setExt(field: ExtField, value: Any?){
+    field.set(this, value);
+}
+fun <T> T.getExt(field: ExtField): Any?{
+    return field.get(this);
+}
+
 internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     override val isRequired = true
 
@@ -114,64 +134,6 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
     override fun stop(context: Context) {}
 
-    class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
-        override fun onViewCreated(view: View, bundle: android.os.Bundle) {
-            val actions = this
-            val layout = actions.getBinding().getRoot() as ViewGroup
-            //val adapter = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(source)
-            val url = (ReflectUtils.getField(original, "url\$delegate") as Lazy<*>).getValue() as String
-
-            if (layout.findViewById<View>(urlViewId) != null) return
-
-            val msg = source
-            val content = msg?.content ?: return
-            when (msg.channelId) {
-                PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
-                    handlePluginZipUrl(url, layout, actions)
-
-                SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
-                    val member = StoreStream.getGuilds().getMember(ALIUCORD_GUILD_ID, msg.author.id)
-                    val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
-
-                    if (isTrusted) handlePluginZipUrl(url, layout, actions)
-                }
-
-                PLUGIN_LINKS_CHANNEL_ID -> {
-                    repoPattern.matcher(url).takeIf { it.find() }?.run {
-                        val author = group(1)!!
-                        val repo = group(2)!!
-
-                        addEntry(layout, "Open Plugin Downloader") {
-                            Utils.openPageWithProxy(it.context, Modal(author, repo))
-                            actions.dismiss()
-                        }
-                    }
-                }
-            }
-            super.onViewCreated(view, bundle)
-        }
-    }
-
-    fun WidgetChatListAdapterEventsHandler.onUrlLongClicked(str: String, source: Message) {
-        WidgetUrlActions.launch(this.getFragmentManager(), str, source);
-    }
-
-    fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, source: Message) {
-        this.source = source
-        val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
-        val bundle = android.os.Bundle();
-        bundle.putString(WidgetUrlActions.INTENT_URL, str);
-        widgetUrlActions.setArguments(bundle);
-        widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
-    }
-
-    fun <T> T.setExt(field: ExtField, value: Any?){
-        field.set(this, value);
-    }
-    fun <T> T.getExt(field: ExtField): Any?{
-        return field.get(this);
-    }
-
     private fun handlePluginZipUrl(str: String, layout: ViewGroup, actions: WidgetUrlActions) {
         zipPattern.matcher(str).run {
             while (find()) {
@@ -242,6 +204,44 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             }
 
             layout.addView(this, idx)
+        }
+    }
+
+    class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
+        override fun onViewCreated(view: View, bundle: android.os.Bundle) {
+            val actions = this
+            val layout = actions.getBinding().getRoot() as ViewGroup
+            //val adapter = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(source)
+            val url = (ReflectUtils.getField(original, "url\$delegate") as Lazy<*>).getValue() as String
+
+            if (layout.findViewById<View>(urlViewId) != null) return
+
+            val msg = source
+            val content = msg?.content ?: return
+            when (msg.channelId) {
+                PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
+                    handlePluginZipUrl(url, layout, actions)
+
+                SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
+                    val member = StoreStream.getGuilds().getMember(ALIUCORD_GUILD_ID, msg.author.id)
+                    val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
+
+                    if (isTrusted) handlePluginZipUrl(url, layout, actions)
+                }
+
+                PLUGIN_LINKS_CHANNEL_ID -> {
+                    repoPattern.matcher(url).takeIf { it.find() }?.run {
+                        val author = group(1)!!
+                        val repo = group(2)!!
+
+                        addEntry(layout, "Open Plugin Downloader") {
+                            Utils.openPageWithProxy(it.context, Modal(author, repo))
+                            actions.dismiss()
+                        }
+                    }
+                }
+            }
+            super.onViewCreated(view, bundle)
         }
     }
 
