@@ -42,8 +42,8 @@ private val repoPattern = Pattern.compile("https?://github\\.com/([A-Za-z0-9\\-_
 private val zipPattern =
     Pattern.compile("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
 
-    class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
-        override fun onViewCreated(view: View, bundle: android.os.Bundle) {
+    inner class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
+        fun onViewCreated(view: View, bundle: android.os.Bundle) {
             val actions = this
             val layout = actions.getBinding().getRoot() as ViewGroup
             //val adapter = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(source)
@@ -80,16 +80,16 @@ private val zipPattern =
         }
     }
 
-    class ExtField(val c: Class<*>) {
-        var map = HashMap<Int, Any?>()
-        fun set(instance: Any, value: Any?){
+    inner class ExtField(val c: Class<*>) {
+        var map = WeakHashMap<Int, Any?>()
+        fun set(instance: Object, value: Any?){
             if (c.isInstance(instance)) {
-                map[System.identityHashCode(instance)] = value
+                map[instance] = value
             }
         }
-        fun get(instance: Any): Any?{
+        fun get(instance: Object): Any?{
            return if (c.isInstance(instance)) {
-                map[System.identityHashCode(instance)]
+                map[instance]
             } else {
                 null
             }
