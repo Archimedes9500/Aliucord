@@ -158,13 +158,13 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             Hook { (param, view: View, bundle: android.os.Bundle) ->
                 val actions = param.thisObject as WidgetUrlActions
                 val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as Lazy<*>)
-                    .getValue(this as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
+                    .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
                 val url = (ReflectUtils.getField(actions, "url\$delegate") as Lazy<*>).getValue() as String
     
                 if (layout.findViewById<View>(urlViewId) != null) return@Hook
     
-                val msg = actions.getExt(fUrlSource2) as Message
+                val msg = actions.getExt(fUrlSource2) as? Message?
                 val content = msg?.content ?: return@Hook
                 when (msg.channelId) {
                     PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
