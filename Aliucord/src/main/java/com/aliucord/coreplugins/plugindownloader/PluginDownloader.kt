@@ -36,7 +36,7 @@ import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterEventsHandler
 import com.discord.widgets.chat.list.entries.ChatListEntry
 import com.discord.widgets.chat.list.entries.MessageEntry
 import com.aliucord.utils.ReflectUtils
-import com.aliucord.wrappers.WidgetUrlActionsWrapper
+
 
 internal val logger = Logger("PluginDownloader")
 
@@ -83,9 +83,9 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
+    fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message, field: ExtField) {
         val widgetUrlActions = WidgetUrlActions()
-        widgetUrlActions.setExt(fUrlSource2, source)
+        widgetUrlActions.setExt(field, source)
         val bundle = android.os.Bundle();
         bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str);
         widgetUrlActions.setArguments(bundle);
@@ -150,22 +150,22 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 val t = (param.thisObject as `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`).`this$0` as WidgetChatListAdapterItemMessage
                 val urlSource = t.getExt(fUrlSource) as Message
                 val eventHandler = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler() as WidgetChatListAdapterEventsHandler
-                eventHandler.onSourcedUrlLongClicked(str, urlSource)
+                eventHandler.onSourcedUrlLongClicked(str, urlSource, fUrlSource2)
             }
         )
         patcher.patch(
             WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, android.os.Bundle::class.java),
             Hook { (param, view: View, bundle: android.os.Bundle) ->
-                val actions = param.thisObject
+                val actions = param.thisObject as WidgetUrlActions
                 val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as Lazy<*>)
                     .getValue(this as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
-                val url = (ReflectUtils.getField(original, "url\$delegate") as Lazy<*>).getValue() as String
+                val url = (ReflectUtils.getField(actions, "url\$delegate") as Lazy<*>).getValue() as String
     
-                if (layout.findViewById<View>(urlViewId) != null) return
+                if (layout.findViewById<View>(urlViewId) != null) return@Hook
     
-                val msg = actions.getExt(fUrlSource2)
-                val content = msg?.content ?: return
+                val msg = actions.getExt(fUrlSource2) as Message
+                val content = msg?.content ?: return@Hook
                 when (msg.channelId) {
                     PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
                         handlePluginZipUrl(url, layout, actions)
