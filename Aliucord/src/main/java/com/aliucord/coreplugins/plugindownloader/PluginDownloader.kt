@@ -24,6 +24,7 @@ import com.discord.widgets.chat.list.actions.WidgetChatListActions
 import com.lytefast.flexinput.R
 import java.util.regex.Pattern
 
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.discord.widgets.chat.WidgetUrlActions
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterItemMessage
@@ -83,7 +84,9 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     inner class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
         fun onViewCreated(view: View, bundle: android.os.Bundle) {
             val actions = this
-            val layout = actions.getBinding().getRoot() as ViewGroup
+            val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as Lazy<*>)
+                    .getValue(this as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
+                    ).getRoot() as ViewGroup
             //val adapter = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(source)
             val url = (ReflectUtils.getField(original, "url\$delegate") as Lazy<*>).getValue() as String
 
@@ -121,7 +124,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
         val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
         val bundle = android.os.Bundle();
-        bundle.putString(WidgetUrlActions.INTENT_URL, str);
+        bundle.putString(ReflectUtils.getField(WidgetUrlActions, "INTENT_URL") as String, str);
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
