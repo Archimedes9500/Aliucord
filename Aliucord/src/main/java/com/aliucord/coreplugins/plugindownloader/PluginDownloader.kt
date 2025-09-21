@@ -182,7 +182,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             }
         )
         patcher.patch(
-            `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`::class.java.getDeclaredMethod("invoke2", String::class.java),
+            `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`::class.java.getDeclaredMethod("invoke", String::class.java),
             InsteadHook { (param, str: String) ->
                 val t = (param.thisObject as `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`).`this$0` as WidgetChatListAdapterItemMessage
                 val urlSource = t.getExt(fUrlSource) as Message
