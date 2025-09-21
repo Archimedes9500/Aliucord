@@ -24,6 +24,8 @@ import com.discord.widgets.chat.list.actions.WidgetChatListActions
 import com.lytefast.flexinput.R
 import java.util.regex.Pattern
 
+import kotlin.Lazy
+import java.util.WeakHashMap
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.discord.widgets.chat.WidgetUrlActions
@@ -34,8 +36,7 @@ import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterEventsHandler
 import com.discord.widgets.chat.list.entries.ChatListEntry
 import com.discord.widgets.chat.list.entries.MessageEntry
 import com.aliucord.utils.ReflectUtils
-import kotlin.Lazy
-import java.util.WeakHashMap
+import com.aliucord.wrappers.WidgetUrlActionsWrapper
 
 internal val logger = Logger("PluginDownloader")
 
@@ -82,48 +83,9 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    inner class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
-        @JvmName("onViewCreatedOverride")
-        fun onViewCreated(view: View, bundle: android.os.Bundle) {
-            val actions = this
-            val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as Lazy<*>)
-                .getValue(this as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
-                ).getRoot() as ViewGroup
-            val url = (ReflectUtils.getField(original, "url\$delegate") as Lazy<*>).getValue() as String
-
-            if (layout.findViewById<View>(urlViewId) != null) return
-
-            val msg = source
-            val content = msg?.content ?: return
-            when (msg.channelId) {
-                PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
-                    handlePluginZipUrl(url, layout, actions)
-
-                SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
-                    val member = StoreStream.getGuilds().getMember(ALIUCORD_GUILD_ID, msg.author.id)
-                    val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
-
-                    if (isTrusted) handlePluginZipUrl(url, layout, actions)
-                }
-
-                PLUGIN_LINKS_CHANNEL_ID -> {
-                    repoPattern.matcher(url).takeIf { it.find() }?.run {
-                        val author = group(1)!!
-                        val repo = group(2)!!
-
-                        addEntry(layout, "Open Plugin Downloader") {
-                            Utils.openPageWithProxy(it.context, Modal(author, repo))
-                            actions.dismiss()
-                        }
-                    }
-                }
-            }
-            super.onViewCreated(view, bundle)
-        }
-    }
-
     fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
-        val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
+        val widgetUrlActions = WidgetUrlActions()
+        widgetUrlActions.setExt(fUrlSource2, source)
         val bundle = android.os.Bundle();
         bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str);
         widgetUrlActions.setArguments(bundle);
@@ -173,6 +135,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         )
         //also for link context menu
         val fUrlSource = ExtField(WidgetChatListAdapterItemMessage::class.java)
+        val fUrlSource2 = ExtField(WidgetUrlActions::class.java)
         patcher.patch(
             WidgetChatListAdapterItemMessage::class.java.getDeclaredMethod("onConfigure", Int::class.java, ChatListEntry::class.java),
             Hook { (param, i: Int, chatListEntry: ChatListEntry) ->
@@ -188,6 +151,44 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 val urlSource = t.getExt(fUrlSource) as Message
                 val eventHandler = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler() as WidgetChatListAdapterEventsHandler
                 eventHandler.onSourcedUrlLongClicked(str, urlSource)
+            }
+        )
+        patcher.patch(
+            WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, android.os.Bundle::class.java),
+            Hook { (param, view: View, bundle: android.os.Bundle) ->
+                val actions = param.thisObject
+                val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as Lazy<*>)
+                    .getValue(this as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
+                    ).getRoot() as ViewGroup
+                val url = (ReflectUtils.getField(original, "url\$delegate") as Lazy<*>).getValue() as String
+    
+                if (layout.findViewById<View>(urlViewId) != null) return
+    
+                val msg = actions.getExt(fUrlSource2)
+                val content = msg?.content ?: return
+                when (msg.channelId) {
+                    PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
+                        handlePluginZipUrl(url, layout, actions)
+    
+                    SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
+                        val member = StoreStream.getGuilds().getMember(ALIUCORD_GUILD_ID, msg.author.id)
+                        val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
+    
+                        if (isTrusted) handlePluginZipUrl(url, layout, actions)
+                    }
+    
+                    PLUGIN_LINKS_CHANNEL_ID -> {
+                        repoPattern.matcher(url).takeIf { it.find() }?.run {
+                            val author = group(1)!!
+                            val repo = group(2)!!
+    
+                            addEntry(layout, "Open Plugin Downloader") {
+                                Utils.openPageWithProxy(it.context, Modal(author, repo))
+                                actions.dismiss()
+                            }
+                        }
+                    }
+                }
             }
         )
     }
