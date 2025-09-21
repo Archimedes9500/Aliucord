@@ -41,10 +41,6 @@ private val repoPattern = Pattern.compile("https?://github\\.com/([A-Za-z0-9\\-_
 private val zipPattern =
     Pattern.compile("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
 
-fun WidgetChatListAdapterEventsHandler.onUrlLongClicked(str: String, source: Message) {
-    WidgetUrlActions.launch(this.getFragmentManager(), str, source);
-}
-
 fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, source: Message) {
     this.source = source
     val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
@@ -52,6 +48,10 @@ fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, sourc
     bundle.putString(WidgetUrlActions.INTENT_URL, str);
     widgetUrlActions.setArguments(bundle);
     widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
+}
+
+fun WidgetChatListAdapterEventsHandler.onUrlLongClicked(str: String, source: Message) {
+    WidgetUrlActions.launch(this.getFragmentManager(), str, source);
 }
 
 fun <T> T.setExt(field: ExtField, value: Any?){
