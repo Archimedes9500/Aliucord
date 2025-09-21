@@ -33,6 +33,7 @@ import com.discord.widgets.chat.list.entries.ChatListEntry
 import com.discord.widgets.chat.list.entries.MessageEntry
 import com.aliucord.utils.ReflectUtils
 import kotlin.Lazy
+import java.util.WeakHashMap
 
 internal val logger = Logger("PluginDownloader")
 
@@ -42,7 +43,44 @@ private val repoPattern = Pattern.compile("https?://github\\.com/([A-Za-z0-9\\-_
 private val zipPattern =
     Pattern.compile("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
 
-    inner class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
+class ExtField(val c: Class<*>) {
+    var map = WeakHashMap<Int, Any?>()
+    fun set(instance: Object, value: Any?){
+        if (c.isInstance(instance)) {
+            map[instance] = value
+        }
+    }
+    fun get(instance: Object): Any?{
+       return if (c.isInstance(instance)) {
+            map[instance]
+        } else {
+            null
+        }
+    }
+}
+
+fun <T> T.setExt(field: ExtField, value: Any?){
+    field.set(this, value);
+}
+fun <T> T.getExt(field: ExtField): Any?{
+    return field.get(this);
+}
+
+internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
+    override val isRequired = true
+
+    init {
+        manifest.description = "Utility for installing plugins directly from the Aliucord server's plugins channels"
+
+        PluginFile("PluginDownloader").takeIf { it.exists() }?.let {
+            if (it.delete())
+                Utils.showToast("PluginDownloader has been merged into Aliucord, so I deleted the plugin for you.", true)
+            else
+                Utils.showToast("PluginDownloader has been merged into Aliucord. Please delete the plugin.", true)
+        }
+    }
+
+    class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
         fun onViewCreated(view: View, bundle: android.os.Bundle) {
             val actions = this
             val layout = actions.getBinding().getRoot() as ViewGroup
@@ -80,53 +118,16 @@ private val zipPattern =
         }
     }
 
-    inner class ExtField(val c: Class<*>) {
-        var map = WeakHashMap<Int, Any?>()
-        fun set(instance: Object, value: Any?){
-            if (c.isInstance(instance)) {
-                map[instance] = value
-            }
-        }
-        fun get(instance: Object): Any?{
-           return if (c.isInstance(instance)) {
-                map[instance]
-            } else {
-                null
-            }
-        }
+    fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, source: Message) {
+        val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
+        val bundle = android.os.Bundle();
+        bundle.putString(WidgetUrlActions.INTENT_URL, str);
+        widgetUrlActions.setArguments(bundle);
+        widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
-
-fun WidgetUrlActions.launch(fragmentManager: FragmentManager, str: String, source: Message) {
-    val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
-    val bundle = android.os.Bundle();
-    bundle.putString(WidgetUrlActions.INTENT_URL, str);
-    widgetUrlActions.setArguments(bundle);
-    widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
-}
-
-fun WidgetChatListAdapterEventsHandler.onUrlLongClicked(str: String, source: Message) {
-    WidgetUrlActions.launch(this.getFragmentManager(), str, source);
-}
-
-fun <T> T.setExt(field: ExtField, value: Any?){
-    field.set(this, value);
-}
-fun <T> T.getExt(field: ExtField): Any?{
-    return field.get(this);
-}
-
-internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
-    override val isRequired = true
-
-    init {
-        manifest.description = "Utility for installing plugins directly from the Aliucord server's plugins channels"
-
-        PluginFile("PluginDownloader").takeIf { it.exists() }?.let {
-            if (it.delete())
-                Utils.showToast("PluginDownloader has been merged into Aliucord, so I deleted the plugin for you.", true)
-            else
-                Utils.showToast("PluginDownloader has been merged into Aliucord. Please delete the plugin.", true)
-        }
+    
+    fun WidgetChatListAdapterEventsHandler.onUrlLongClicked(str: String, source: Message) {
+        WidgetUrlActions.launch(this.getFragmentManager(), str, source);
     }
 
     override fun start(context: Context) {
@@ -188,7 +189,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
     override fun stop(context: Context) {}
 
-    private fun handlePluginZipUrl(str: String, layout: ViewGroup, actions: WidgetUrlActions) {
+    fun handlePluginZipUrl(str: String, layout: ViewGroup, actions: WidgetUrlActions) {
         zipPattern.matcher(str).run {
             while (find()) {
                 val author = group(1)!!
@@ -208,7 +209,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    private fun handlePluginZipMessage(msg: Message, layout: ViewGroup, actions: WidgetChatListActions) {
+    fun handlePluginZipMessage(msg: Message, layout: ViewGroup, actions: WidgetChatListActions) {
         zipPattern.matcher(msg.content).run {
             while (find()) {
                 val author = group(1)!!
@@ -242,7 +243,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    private fun addEntry(layout: ViewGroup, text: String, onClick: View.OnClickListener) {
+    fun addEntry(layout: ViewGroup, text: String, onClick: View.OnClickListener) {
         val replyView =
             layout.findViewById<View>(Utils.getResId("dialog_chat_actions_edit", "id")) ?: return
         val idx = layout.indexOfChild(replyView)
