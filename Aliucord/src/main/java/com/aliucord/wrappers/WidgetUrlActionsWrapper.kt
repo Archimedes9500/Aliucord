@@ -7,6 +7,7 @@ import com.discord.widgets.chat.`WidgetUrlActions$binding$2`
 import com.discord.databinding.WidgetUrlActionsBinding
 import com.discord.utilities.viewbinding.FragmentViewBindingDelegate
 import kotlin.Lazy
+import kotlin.reflect.KProperty
 
 /**
  * Wraps the final [WidgetUrlActions] class to provide extendable class
@@ -14,7 +15,7 @@ import kotlin.Lazy
 @Suppress("unused")
 class WidgetUrlActionsWrapper(private val actions: WidgetUrlActions) {
 
-  private val `binding$delegate`: FragmentViewBindingDelegate = FragmentViewBindingDelegate.`viewBinding$default`(actions, `WidgetUrlActions$binding$2`.INSTANCE, null, 2, null)
+  private val `binding$delegate`: FragmentViewBindingDelegate<WidgetUrlActionsBinding> = FragmentViewBindingDelegate.`viewBinding$default`(actions, `WidgetUrlActions$binding$2`.INSTANCE, null, 2, null)
 
   /** Returns the raw [WidgetUrlActions] Object associated with this wrapper */
   fun raw() = actions
@@ -23,7 +24,7 @@ class WidgetUrlActionsWrapper(private val actions: WidgetUrlActions) {
     get() = actions.`$$delegatedProperties`
 
   val binding
-    get() = `binding$delegate`.getValue(actions as Fragment, actions`$$delegatedProperties`[0])
+    get() = `binding$delegate`.getValue(actions as Fragment, actions.`$$delegatedProperties`[0])
 
   val url
     get() = WidgetUrlActions.`access$getUrl`(actions)
@@ -55,12 +56,12 @@ class WidgetUrlActionsWrapper(private val actions: WidgetUrlActions) {
   companion object {
     @JvmStatic
     fun `access$getArgumentsOrDefault$p`(p1: WidgetUrlActions) {
-      actions.`access$getArgumentsOrDefault$p`(p1)
+      WidgetUrlActions.`access$getArgumentsOrDefault$p`(p1)
     }
 
     @JvmStatic
     fun `access$getUrl`(p1: WidgetUrlActions) {
-      actions.`access$getUrl`(p1)
+      WidgetUrlActions.`access$getUrl`(p1)
     }
     @JvmStatic
     fun launch(p1: FragmentManager, p2: String){
