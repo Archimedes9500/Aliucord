@@ -59,7 +59,7 @@ class WidgetUrlActionsWrapper(private val actions: WidgetUrlActions) {
     }
 
     @JvmStatic
-    fun `access$getUrl`p1: WidgetUrlActions) {
+    fun `access$getUrl`(p1: WidgetUrlActions) {
       actions.`access$getUrl`(p1)
     }
     @JvmStatic
