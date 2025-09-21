@@ -83,12 +83,12 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     }
 
     inner class WidgetUrlActionsWithSource(val original: WidgetUrlActions, val source: Message) : WidgetUrlActions() {
-        override fun onViewCreated(view: View, bundle: android.os.Bundle) {
+        @JvmName("onViewCreatedOverride")
+        fun onViewCreated(view: View, bundle: android.os.Bundle) {
             val actions = this
             val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as Lazy<*>)
                 .getValue(this as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                 ).getRoot() as ViewGroup
-            //val adapter = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(source)
             val url = (ReflectUtils.getField(original, "url\$delegate") as Lazy<*>).getValue() as String
 
             if (layout.findViewById<View>(urlViewId) != null) return
@@ -125,7 +125,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
         val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
         val bundle = android.os.Bundle();
-        bundle.putString(ReflectUtils.getField(WidgetUrlActions(), "INTENT_URL") as String, str);
+        bundle.putString(ReflectUtils.getField(null, "WidgetUrlActions.INTENT_URL") as String, str);
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
