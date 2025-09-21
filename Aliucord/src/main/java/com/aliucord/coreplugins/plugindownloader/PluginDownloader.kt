@@ -118,7 +118,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    fun WidgetUrlActions.sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
+    fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
         val widgetUrlActions = WidgetUrlActionsWithSource(WidgetUrlActions(), source)
         val bundle = android.os.Bundle();
         bundle.putString(WidgetUrlActions.INTENT_URL, str);
@@ -127,7 +127,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     }
     
     fun WidgetChatListAdapterEventsHandler.onSourcedUrlLongClicked(str: String, source: Message) {
-        WidgetUrlActions.sourcedLaunch(this.getFragmentManager(), str, source);
+        sourcedLaunch(this.getFragmentManager(), str, source);
     }
 
     override fun start(context: Context) {
