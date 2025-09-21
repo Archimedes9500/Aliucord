@@ -182,7 +182,8 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             InsteadHook { (param, str: String) ->
                 val t = (param.thisObject as `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`).`this$0` as WidgetChatListAdapterItemMessage
                 val urlSource = t.getExt(fUrlSource) as Message
-                WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler().onSourcedUrlLongClicked(str, urlSource);
+                val eventHandler = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler() as WidgetChatListAdapterEventsHandler
+                eventHandler.onSourcedUrlLongClicked(str, urlSource)
             }
         )
     }
