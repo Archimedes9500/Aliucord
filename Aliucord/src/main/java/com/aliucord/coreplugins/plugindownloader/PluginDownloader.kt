@@ -11,32 +11,30 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.core.content.ContextCompat
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 import com.aliucord.*
 import com.aliucord.Constants.*
 import com.aliucord.entities.CorePlugin
 import com.aliucord.patcher.*
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.filename
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.url
+import com.discord.databinding.WidgetUrlActionsBinding
 import com.discord.models.message.Message
 import com.discord.stores.StoreStream
 import com.discord.utilities.color.ColorCompat
-import com.discord.widgets.chat.list.actions.WidgetChatListActions
-import com.lytefast.flexinput.R
-import java.util.regex.Pattern
-
-import kotlin.Lazy
-import java.util.WeakHashMap
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
-import com.discord.databinding.WidgetUrlActionsBinding
 import com.discord.utilities.viewbinding.FragmentViewBindingDelegate
-import com.discord.widgets.chat.WidgetUrlActions
+import com.discord.widgets.chat.list.actions.WidgetChatListActions
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterItemMessage
 import com.discord.widgets.chat.list.adapter.`WidgetChatListAdapterItemMessage$getMessageRenderContext$2`
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterEventsHandler
 import com.discord.widgets.chat.list.entries.ChatListEntry
 import com.discord.widgets.chat.list.entries.MessageEntry
-import com.aliucord.utils.ReflectUtils
+import com.discord.widgets.chat.WidgetUrlActions
+import com.lytefast.flexinput.R
+import java.util.regex.Pattern
+
+import com.aliucord.utils.ReflectUtils //import com.aliucord.utils.ReflectUtils
 
 internal val logger = Logger("PluginDownloader")
 
@@ -45,29 +43,6 @@ private val urlViewId = View.generateViewId()
 private val repoPattern = Pattern.compile("https?://github\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)")
 private val zipPattern =
     Pattern.compile("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
-
-class ExtField(val c: Class<*>) {
-    var map = WeakHashMap<Any, Any?>()
-    fun set(instance: Any, value: Any?){
-        if (c.isInstance(instance)) {
-            map[instance] = value
-        }
-    }
-    fun get(instance: Any): Any?{
-       return if (c.isInstance(instance)) {
-            map[instance]
-        } else {
-            null
-        }
-    }
-}
-
-fun Any.setExt(field: ExtField, value: Any?){
-    field.set(this, value);
-}
-fun Any.getExt(field: ExtField): Any?{
-    return field.get(this);
-}
 
 internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     override val isRequired = true
@@ -87,7 +62,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         val widgetUrlActions = WidgetUrlActions()
         widgetUrlActions.setExt(field, source)
         val bundle = android.os.Bundle();
-        bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str);
+        bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str) //bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str)
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
@@ -157,7 +132,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, android.os.Bundle::class.java),
             Hook { (param, view: View, bundle: android.os.Bundle) ->
                 val actions = param.thisObject as WidgetUrlActions
-                val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>)
+                val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>) //val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>)
                     .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
                 val url = WidgetUrlActions.`access$getUrl$p`(actions)
