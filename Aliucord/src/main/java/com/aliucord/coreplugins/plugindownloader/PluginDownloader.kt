@@ -38,7 +38,6 @@ import com.discord.widgets.chat.list.entries.ChatListEntry
 import com.discord.widgets.chat.list.entries.MessageEntry
 import com.aliucord.utils.ReflectUtils
 
-
 internal val logger = Logger("PluginDownloader")
 
 private val viewId = View.generateViewId()
@@ -162,11 +161,13 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                     .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
                 val url = WidgetUrlActions.`access$getUrl$p`(actions)
+                logger.debug("1: "+url)
     
                 if (layout.findViewById<View>(urlViewId) != null) return@Hook
     
                 val msg = actions.getExt(fUrlSource2) as? Message?
                 val content = msg?.content ?: return@Hook
+                logger.debug("2: "+content)
                 when (msg.channelId) {
                     PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
                         handlePluginZipUrl(url, layout, actions)
