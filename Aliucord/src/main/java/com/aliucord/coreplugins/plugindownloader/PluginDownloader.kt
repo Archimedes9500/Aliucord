@@ -28,8 +28,9 @@ import kotlin.Lazy
 import java.util.WeakHashMap
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import com.discord.widgets.chat.WidgetUrlActions
 import com.discord.databinding.WidgetUrlActionsBinding
+import com.discord.utilities.viewbinding.FragmentViewBindingDelegate
+import com.discord.widgets.chat.WidgetUrlActions
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterItemMessage
 import com.discord.widgets.chat.list.adapter.`WidgetChatListAdapterItemMessage$getMessageRenderContext$2`
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterEventsHandler
@@ -157,10 +158,10 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, android.os.Bundle::class.java),
             Hook { (param, view: View, bundle: android.os.Bundle) ->
                 val actions = param.thisObject as WidgetUrlActions
-                val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as Lazy<*>)
+                val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate)
                     .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
-                val url = (ReflectUtils.getField(actions, "url\$delegate") as Lazy<*>).getValue() as String
+                val url = WidgetUrlActions.`access$getUrl`(actions)
     
                 if (layout.findViewById<View>(urlViewId) != null) return@Hook
     
