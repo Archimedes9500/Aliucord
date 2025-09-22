@@ -161,13 +161,11 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                     .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
                 val url = WidgetUrlActions.`access$getUrl$p`(actions)
-                logger.debug("1: "+url)
     
                 if (layout.findViewById<View>(urlViewId) != null) return@Hook
     
                 val msg = actions.getExt(fUrlSource2) as? Message?
                 val content = msg?.content ?: return@Hook
-                logger.debug("2: "+content)
                 when (msg.channelId) {
                     PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
                         handlePluginZipUrl(url, layout, actions)
@@ -184,7 +182,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                             val author = group(1)!!
                             val repo = group(2)!!
     
-                            addEntry(layout, "Open Plugin Downloader") {
+                            addUrlEntry(layout, "Open Plugin Downloader") {
                                 Utils.openPageWithProxy(it.context, Modal(author, repo))
                                 actions.dismiss()
                             }
@@ -209,7 +207,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 if (name == "Aliucord") continue
 
                 val plugin = PluginFile(name)
-                addEntry(layout, "${if (plugin.isInstalled) "Reinstall" else "Install"} $name") {
+                addUrlEntry(layout, "${if (plugin.isInstalled) "Reinstall" else "Install"} $name") {
                     plugin.install("https://github.com/$author/$repo/raw/$commit/$name.zip")
                     actions.dismiss()
                 }
@@ -248,6 +246,25 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                     callback = actions::dismiss,
                 )
             }
+        }
+    }
+
+    fun addUrlEntry(layout: ViewGroup, text: String, onClick: View.OnClickListener) {
+        val copyView =
+            layout.findViewById<View>(Utils.getResId("dialog_url_actions_copy", "id")) ?: return
+        val idx = layout.indexOfChild(copyView)
+
+        TextView(layout.context, null, 0, R.i.UiKit_Settings_Item_Icon).run {
+            id = viewId
+            setText(text)
+            setOnClickListener(onClick)
+            ContextCompat.getDrawable(layout.context, R.e.ic_file_download_white_24dp)?.run {
+                mutate()
+                setTint(ColorCompat.getThemedColor(layout.context, R.b.colorInteractiveNormal))
+                setCompoundDrawablesRelativeWithIntrinsicBounds(this, null, null, null)
+            }
+
+            layout.addView(this, idx)
         }
     }
 
