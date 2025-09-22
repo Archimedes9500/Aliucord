@@ -158,10 +158,10 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, android.os.Bundle::class.java),
             Hook { (param, view: View, bundle: android.os.Bundle) ->
                 val actions = param.thisObject as WidgetUrlActions
-                val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate)
+                val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>)
                     .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
-                val url = WidgetUrlActions.`access$getUrl`(actions)
+                val url = WidgetUrlActions.`access$getUrl$p`(actions)
     
                 if (layout.findViewById<View>(urlViewId) != null) return@Hook
     
