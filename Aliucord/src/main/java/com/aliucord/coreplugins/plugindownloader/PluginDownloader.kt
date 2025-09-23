@@ -42,6 +42,8 @@ private val urlViewId = View.generateViewId()
 private val repoPattern = Pattern.compile("https?://github\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)")
 private val zipPattern =
     Pattern.compile("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
+private val fUrlSource = ExtField(WidgetChatListAdapterItemMessage::class.java)
+private val fUrlSource2 = ExtField(WidgetUrlActions::class.java)
 
 internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     override val isRequired = true
@@ -57,16 +59,17 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message, field: ExtField) {
+    //extension functions that allow passing URL's source message for context
+    fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
         val widgetUrlActions = WidgetUrlActions()
-        widgetUrlActions.setExt(field, source)
+        widgetUrlActions.setExt(fUrlSource2, source)
         val bundle = android.os.Bundle();
         bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str) //bundle.putString(fINTENT_URL.getValue(null), str)
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
-    fun WidgetChatListAdapterEventsHandler.onSourcedUrlLongClicked(str: String, source: Message, field: ExtField) {
-        sourcedLaunch(WidgetChatListAdapterEventsHandler.`access$getFragmentManager$p`(this), str, source, field);
+    fun WidgetChatListAdapterEventsHandler.onSourcedUrlLongClicked(str: String, source: Message) {
+        sourcedLaunch(WidgetChatListAdapterEventsHandler.`access$getFragmentManager$p`(this), str, source);
     }
 
     override fun start(context: Context) {
@@ -107,8 +110,6 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             }
         )
         //also for link context menu
-        val fUrlSource = ExtField(WidgetChatListAdapterItemMessage::class.java)
-        val fUrlSource2 = ExtField(WidgetUrlActions::class.java)
         patcher.patch(
             WidgetChatListAdapterItemMessage::class.java.getDeclaredMethod("onConfigure", Int::class.java, ChatListEntry::class.java),
             Hook { (param, i: Int, chatListEntry: ChatListEntry) ->
@@ -124,7 +125,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 val t = (param.thisObject as `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`).`this$0` as WidgetChatListAdapterItemMessage
                 val urlSource = t.getExt(fUrlSource) as Message
                 val eventHandler = WidgetChatListAdapterItemMessage.`access$getAdapter$p`(t).getEventHandler() as WidgetChatListAdapterEventsHandler
-                eventHandler.onSourcedUrlLongClicked(str, urlSource, fUrlSource2)
+                eventHandler.onSourcedUrlLongClicked(str, urlSource)
             }
         )
         //val `fBinding$delegate` = LazyField<FragmentViewBindingDelegate<WidgetUrlActionsBinding>>(WidgetUrlActions::class.java, "binding\$delegate")
