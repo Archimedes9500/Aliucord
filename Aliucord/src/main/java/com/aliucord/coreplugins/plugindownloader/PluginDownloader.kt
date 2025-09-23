@@ -17,6 +17,7 @@ import com.aliucord.*
 import com.aliucord.Constants.*
 import com.aliucord.entities.CorePlugin
 import com.aliucord.patcher.*
+import com.aliucord.utils.ReflectUtils //import com.aliucord.utils.ReflectDelegates.LazyField
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.filename
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.url
 import com.discord.databinding.WidgetUrlActionsBinding
@@ -33,8 +34,6 @@ import com.discord.widgets.chat.list.entries.MessageEntry
 import com.discord.widgets.chat.WidgetUrlActions
 import com.lytefast.flexinput.R
 import java.util.regex.Pattern
-
-import com.aliucord.utils.ReflectUtils //import com.aliucord.utils.ReflectUtils
 
 internal val logger = Logger("PluginDownloader")
 
@@ -62,11 +61,10 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         val widgetUrlActions = WidgetUrlActions()
         widgetUrlActions.setExt(field, source)
         val bundle = android.os.Bundle();
-        bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str) //bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str)
+        bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str) //bundle.putString(fINTENT_URL.getValue(null), str)
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
-    
     fun WidgetChatListAdapterEventsHandler.onSourcedUrlLongClicked(str: String, source: Message, field: ExtField) {
         sourcedLaunch(WidgetChatListAdapterEventsHandler.`access$getFragmentManager$p`(this), str, source, field);
     }
@@ -119,6 +117,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 (param.thisObject as WidgetChatListAdapterItemMessage).setExt(fUrlSource, message)
             }
         )
+        //val fINTENT_URL = LazyField<String>(WidgetUrlActions::class.java, "INTENT_URL")
         patcher.patch(
             `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`::class.java.getDeclaredMethod("invoke", String::class.java),
             InsteadHook { (param, str: String) ->
@@ -128,11 +127,12 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 eventHandler.onSourcedUrlLongClicked(str, urlSource, fUrlSource2)
             }
         )
+        //val `fBinding$delegate` = LazyField<FragmentViewBindingDelegate<WidgetUrlActionsBinding>>(WidgetUrlActions::class.java, "binding\$delegate")
         patcher.patch(
             WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, android.os.Bundle::class.java),
             Hook { (param, view: View, bundle: android.os.Bundle) ->
                 val actions = param.thisObject as WidgetUrlActions
-                val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>) //val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>)
+                val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>) //val layout = `fBinding$delegate`.getValue(actions)
                     .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
                 val url = WidgetUrlActions.`access$getUrl$p`(actions)
