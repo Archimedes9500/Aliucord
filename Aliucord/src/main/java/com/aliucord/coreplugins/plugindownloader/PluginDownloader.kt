@@ -107,8 +107,8 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                             }
                         }
                     }
-                } else if(msg.author.id === me.id){
-                    handlePluginZipMessage(msg, layout, actions)
+
+                    else -> if(msg.author.id === me.id) handlePluginZipMessage(msg, layout, actions)
                 }
             }
         )
