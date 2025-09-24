@@ -83,9 +83,10 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
                 val msg = model.message
                 val content = msg?.content ?: return@Hook
+                val me = StoreStream.getUsers().me
 
                 when (msg.channelId) {
-                    PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID ->
+                    PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID, if(msg.author.id === me.id) msg.channelId else -1 ->
                         handlePluginZipMessage(msg, layout, actions)
 
                     SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
@@ -106,6 +107,8 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                             }
                         }
                     }
+                } else if(msg.author.id === me.id){
+                    handlePluginZipMessage(msg, layout, actions)
                 }
             }
         )
