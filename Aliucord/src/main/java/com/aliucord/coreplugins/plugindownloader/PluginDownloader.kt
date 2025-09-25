@@ -107,7 +107,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, android.os.Bundle::class.java),
             Hook { (param, view: View, bundle: android.os.Bundle) ->
                 val actions = param.thisObject as WidgetUrlActions
-                val msg = actions.getExt(fUrlSource2) as? Message
+                val msg = actions.getExt(fUrlSource2) as Message
 
                 addPluginDownloadOptions(msg, actions)
             }
@@ -117,7 +117,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     override fun stop(context: Context) {}
 
     fun addPluginDownloadOptions(msg: Message, actions: AppBottomSheet) {
-        var layout = null
+        var layout: ViewGroup? = null
         var target = ""
         var str = ""
 
