@@ -39,9 +39,9 @@ internal val logger = Logger("PluginDownloader")
 
 private val viewId = View.generateViewId()
 private val urlViewId = View.generateViewId()
-private val repoPattern = Regex("https?://github\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)", setOf())
+private val repoPattern = Regex("https?://github\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)")
 private val zipPattern =
-    Regex("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip", setOf())
+    Regex("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
 private val fUrlSource = ExtField(WidgetChatListAdapterItemMessage::class.java)
 private val fUrlSource2 = ExtField(WidgetUrlActions::class.java)
 
@@ -139,13 +139,13 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         val me = StoreStream.getUsers().me
 
         if(msg.author.id == me.id){
-            handlePluginMessage(str, layout, actions)
-            handlePluginRepoMessage(str, layout, actions)
+            handlePluginMessage(str, layout, actions, targetId)
+            handlePluginRepoMessage(str, layout, actions, targetId)
             handlePluginAttachments(msg, layout, actions)
         } else {
             when (msg.channelId) {
                 PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID -> {
-                    handlePluginMessage(str, layout, actions)
+                    handlePluginMessage(str, layout, actions, targetId)
                     handlePluginAttachments(msg, layout, actions)
                 }
     
@@ -154,21 +154,21 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                     val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
     
                     if (isTrusted) {
-                        handlePluginMessage(str, layout, actions)
+                        handlePluginMessage(str, layout, actions, targetId)
                         handlePluginAttachments(msg, layout, actions)
                     }
                 }
     
                 PLUGIN_LINKS_CHANNEL_ID -> {
-                    handlePluginMessage(str, layout, actions)
+                    handlePluginMessage(str, layout, actions, targetId)
                 }
             }
         }
     }
 
-    fun handlePluginRepoMessage(str: String, layout: ViewGroup, actions: AppBottomSheet) {
+    fun handlePluginRepoMessage(str: String, layout: ViewGroup, actions: AppBottomSheet, targetId: String) {
         if (repoPattern.containsMatchIn(str)) {
-            val (author, repo) = repoPattern.find(str).destructured
+            val (author, repo) = repoPattern.find(str)!!.destructured
 
             addEntryBefore(layout, "Open Plugin Downloader", targetId) {
                 Utils.openPageWithProxy(it.context, Modal(author, repo))
@@ -177,7 +177,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    fun handlePluginMessage(str: String, layout: ViewGroup, actions: AppBottomSheet) {
+    fun handlePluginMessage(str: String, layout: ViewGroup, actions: AppBottomSheet, targetId: String) {
         if (zipPattern.containsMatchIn(str)) {
             for (match in zipPattern.findAll(str)) {
                 val (author, repo, commit, name) = match.destructured
@@ -194,7 +194,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    fun handlePluginAttachments(msg: Message, layout: ViewGroup, actions: AppBottomSheet) {
+    fun handlePluginAttachments(msg: Message, layout: ViewGroup, actions: AppBottomSheet, targetId: String) {
         for (attachment in msg.attachments) {
             if (attachment.filename.run { !endsWith(".zip") || equals("Aliucord.zip") }) continue
 
