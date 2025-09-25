@@ -20,6 +20,7 @@ import com.aliucord.patcher.*
 import com.aliucord.utils.ReflectUtils //import com.aliucord.utils.ReflectDelegates.*
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.filename
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.url
+import com.discord.app.AppBottomSheet
 import com.discord.databinding.WidgetUrlActionsBinding
 import com.discord.models.message.Message
 import com.discord.stores.StoreStream
@@ -73,15 +74,13 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     }
 
     override fun start(context: Context) {
-        fun addPluginDownloadOptions("
-
         patcher.patch(
             WidgetChatListActions::class.java.getDeclaredMethod("configureUI", WidgetChatListActions.Model::class.java),
             Hook { (param, model: WidgetChatListActions.Model) ->
                 val actions = param.thisObject as WidgetChatListActions
                 val msg = model.message
 
-                addPluginDownloadOptions(msg, actions:)
+                addPluginDownloadOptions(msg, actions)
             }
         )
         //also for link context menu
@@ -108,7 +107,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, android.os.Bundle::class.java),
             Hook { (param, view: View, bundle: android.os.Bundle) ->
                 val actions = param.thisObject as WidgetUrlActions
-                val msg = actions.getExt(fUrlSource2) as? Message?
+                val msg = actions.getExt(fUrlSource2) as? Message
 
                 addPluginDownloadOptions(msg, actions)
             }
@@ -118,21 +117,25 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     override fun stop(context: Context) {}
 
     fun addPluginDownloadOptions(msg: Message, actions: AppBottomSheet) {
+        var layout = null
+        var target = ""
+        var str = ""
+
         when(actions) {
             is WidgetChatListActions -> {
-                val layout = (actions.requireView() as ViewGroup).getChildAt(0) as ViewGroup
-                val target = "dialog_chat_actions_edit"
-                val str = msg?.content ?: return
+                layout = (actions.requireView() as ViewGroup).getChildAt(0) as ViewGroup
+                target = "dialog_chat_actions_edit"
+                str = msg?.content ?: return
  
                 if (layout.findViewById<View>(viewId) != null) return
             }
 
             is WidgetUrlActions -> {
-                val layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>) //val layout = actions.`binding$delegate`
+                layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>) //val layout = actions.`binding$delegate`
                     .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
-                val target = "dialog_url_actions_copy"
-                val str = WidgetUrlActions.`access$getUrl$p`(actions)
+                target = "dialog_url_actions_copy"
+                str = WidgetUrlActions.`access$getUrl$p`(actions)
 
                 if (layout.findViewById<View>(urlViewId) != null) return
             }
