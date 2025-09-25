@@ -34,15 +34,14 @@ import com.discord.widgets.chat.list.entries.ChatListEntry
 import com.discord.widgets.chat.list.entries.MessageEntry
 import com.discord.widgets.chat.WidgetUrlActions
 import com.lytefast.flexinput.R
-import java.util.regex.Pattern
 
 internal val logger = Logger("PluginDownloader")
 
 private val viewId = View.generateViewId()
 private val urlViewId = View.generateViewId()
-private val repoPattern = Pattern.compile("https?://github\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)")
+private val repoPattern = Regex("https?://github\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)", setOf())
 private val zipPattern =
-    Pattern.compile("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip")
+    Regex("https?://(?:github|raw\\.githubusercontent)\\.com/([A-Za-z0-9\\-_.]+)/([A-Za-z0-9\\-_.]+)/(?:raw|blob)?/?(\\w+)/(\\w+).zip", setOf())
 private val fUrlSource = ExtField(WidgetChatListAdapterItemMessage::class.java)
 private val fUrlSource2 = ExtField(WidgetUrlActions::class.java)
 
@@ -117,15 +116,12 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     override fun stop(context: Context) {}
 
     fun addPluginDownloadOptions(msg: Message, actions: AppBottomSheet) {
-        var layout: ViewGroup? = null
-        var target = ""
-        var str = ""
+        var layout = (actions.requireView() as ViewGroup).getChildAt(0) as ViewGroup
+        var target = "dialog_chat_actions_edit"
+        var str = msg?.content ?: return
 
         when(actions) {
             is WidgetChatListActions -> {
-                layout = (actions.requireView() as ViewGroup).getChildAt(0) as ViewGroup
-                target = "dialog_chat_actions_edit"
-                str = msg?.content ?: return
  
                 if (layout.findViewById<View>(viewId) != null) return
             }
