@@ -117,7 +117,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
     fun addPluginDownloadOptions(msg: Message, actions: AppBottomSheet) {
         var layout = (actions.requireView() as ViewGroup).getChildAt(0) as ViewGroup
-        var target = "dialog_chat_actions_edit"
+        var targetId = "dialog_chat_actions_edit"
         var str = msg?.content ?: return
 
         when(actions) {
@@ -130,7 +130,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>) //val layout = actions.`binding$delegate`
                     .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
-                target = "dialog_url_actions_copy"
+                targetId = "dialog_url_actions_copy"
                 str = WidgetUrlActions.`access$getUrl$p`(actions)
 
                 if (layout.findViewById<View>(urlViewId) != null) return
