@@ -7,6 +7,7 @@
 package com.aliucord.coreplugins.plugindownloader
 
 import android.content.Context
+import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
@@ -63,7 +64,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
         val widgetUrlActions = WidgetUrlActions()
         widgetUrlActions.setExt(fUrlSource2, source)
-        val bundle = android.os.Bundle();
+        val bundle = Bundle();
         bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str) //bundle.putString(WidgetUrlActions.INTENT_URL, str)
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
@@ -103,8 +104,8 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         )
         //val WidgetUrlActions.`binding$delegate` by accessField<FragmentViewBindingDelegate<WidgetUrlActionsBinding>>()
         patcher.patch(
-            WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, android.os.Bundle::class.java),
-            Hook { (param, view: View, bundle: android.os.Bundle) ->
+            WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, Bundle::class.java),
+            Hook { (param, view: View, bundle: Bundle) ->
                 val actions = param.thisObject as WidgetUrlActions
                 val msg = actions.getExt(fUrlSource2) as Message
 
