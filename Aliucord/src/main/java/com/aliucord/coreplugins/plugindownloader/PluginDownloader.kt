@@ -168,7 +168,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
     fun handlePluginRepoMessage(str: String, layout: ViewGroup, actions: AppBottomSheet, targetId: String) {
         if (repoPattern.containsMatchIn(str)) {
-            val (author, repo) = repoPattern.find(str)!!.destructured
+            val (author, repo) = repoPattern.find(str, 0)!!.groups.drop(1).map { it.value }
 
             addEntryBefore(layout, "Open Plugin Downloader", targetId) {
                 Utils.openPageWithProxy(it.context, Modal(author, repo))
@@ -179,8 +179,8 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
     fun handlePluginMessage(str: String, layout: ViewGroup, actions: AppBottomSheet, targetId: String) {
         if (zipPattern.containsMatchIn(str)) {
-            for (match in zipPattern.findAll(str)) {
-                val (author, repo, commit, name) = match.destructured
+            for (match in zipPattern.findAll(str, 0)) {
+                val (author, repo, commit, name) = match.groups.drop(1).map { it.value }
 
                 // Don't accidentally install core as a plugin
                 if (name == "Aliucord") continue
