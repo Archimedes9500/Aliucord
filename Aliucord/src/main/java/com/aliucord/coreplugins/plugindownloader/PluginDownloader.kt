@@ -141,12 +141,12 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         if(msg.author.id == me.id){
             handlePluginMessage(str, layout, actions, targetId)
             handlePluginRepoMessage(str, layout, actions, targetId)
-            handlePluginAttachments(msg, layout, actions)
+            handlePluginAttachments(msg, layout, actions, targetId)
         } else {
             when (msg.channelId) {
                 PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID -> {
                     handlePluginMessage(str, layout, actions, targetId)
-                    handlePluginAttachments(msg, layout, actions)
+                    handlePluginAttachments(msg, layout, actions, targetId)
                 }
     
                 SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
@@ -155,7 +155,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     
                     if (isTrusted) {
                         handlePluginMessage(str, layout, actions, targetId)
-                        handlePluginAttachments(msg, layout, actions)
+                        handlePluginAttachments(msg, layout, actions, targetId)
                     }
                 }
     
