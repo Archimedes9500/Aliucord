@@ -116,9 +116,9 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     override fun stop(context: Context) {}
 
     fun addPluginDownloadOptions(msg: Message, actions: AppBottomSheet) {
-        var layout: ViewGroup? = null
-        var targetId: String? = null
-        var str: String? = null
+        var layout: ViewGroup
+        var targetId: String
+        var str: String
 
         when(actions) {
             is WidgetChatListActions -> {
@@ -138,13 +138,15 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
                 if (layout.findViewById<View>(urlViewId) != null) return
             }
+
+            else -> return
         }
         val me = StoreStream.getUsers().me
 
         when (msg.channelId) {
             PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID -> {
-                handlePluginMessage(str!!, layout!!, actions, targetId!!)
-                handlePluginAttachments(msg, layout!!, actions, targetId!!)
+                handlePluginMessage(str, layout, actions, targetId)
+                handlePluginAttachments(msg, layout, actions, targetId)
             }
 
             SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
@@ -152,13 +154,13 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
 
                 if (isTrusted) {
-                    handlePluginMessage(str!!, layout!!, actions, targetId!!)
-                    handlePluginAttachments(msg, layout!!, actions, targetId!!)
+                    handlePluginMessage(str, layout, actions, targetId)
+                    handlePluginAttachments(msg, layout, actions, targetId)
                 }
             }
 
             PLUGIN_LINKS_CHANNEL_ID -> {
-                handlePluginMessage(str!!, layout!!, actions, targetId!!)
+                handlePluginMessage(str, layout, actions, targetId)
             }
         }
     }
