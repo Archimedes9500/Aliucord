@@ -201,7 +201,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             val name = attachment.filename.removeSuffix(".zip")
             val isInstalled = PluginManager.plugins.containsKey(name)
 
-            addEntryBefore(layout, "${if (isInstalled) "Reinstall" else "Install"} $name") {
+            addEntryBefore(layout, "${if (isInstalled) "Reinstall" else "Install"} $name", targetId) {
                 PluginFile(name).install(
                     url = attachment.url,
                     callback = actions::dismiss,
