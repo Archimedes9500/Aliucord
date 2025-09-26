@@ -116,18 +116,21 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     override fun stop(context: Context) {}
 
     fun addPluginDownloadOptions(msg: Message, actions: AppBottomSheet) {
-        var layout = (actions.requireView() as ViewGroup).getChildAt(0) as ViewGroup
-        var targetId = "dialog_chat_actions_edit"
-        var str = msg?.content ?: return
+        var layout: ViewGroup? = null
+        var targetId: String? = null
+        var str: String? = null
 
         when(actions) {
             is WidgetChatListActions -> {
+                layout = (actions.requireView() as ViewGroup).getChildAt(0) as ViewGroup
+                targetId = "dialog_chat_actions_edit"
+                str = msg.content ?: return
  
                 if (layout.findViewById<View>(viewId) != null) return
             }
 
             is WidgetUrlActions -> {
-                layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>) //val layout = actions.`binding$delegate`
+                layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>) //layout = actions.`binding$delegate`
                     .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
                     ).getRoot() as ViewGroup
                 targetId = "dialog_url_actions_copy"
@@ -140,8 +143,8 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
         when (msg.channelId) {
             PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID -> {
-                handlePluginMessage(str, layout, actions, targetId)
-                handlePluginAttachments(msg, layout, actions, targetId)
+                handlePluginMessage(str!!, layout!!, actions, targetId!!)
+                handlePluginAttachments(msg, layout!!, actions, targetId!!)
             }
 
             SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
@@ -149,13 +152,13 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
 
                 if (isTrusted) {
-                    handlePluginMessage(str, layout, actions, targetId)
-                    handlePluginAttachments(msg, layout, actions, targetId)
+                    handlePluginMessage(str!!, layout!!, actions, targetId!!)
+                    handlePluginAttachments(msg, layout!!, actions, targetId!!)
                 }
             }
 
             PLUGIN_LINKS_CHANNEL_ID -> {
-                handlePluginMessage(str, layout, actions, targetId)
+                handlePluginMessage(str!!, layout!!, actions, targetId!!)
             }
         }
     }
