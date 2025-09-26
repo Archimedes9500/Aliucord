@@ -141,7 +141,6 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
             else -> return
         }
-        val me = StoreStream.getUsers().me
 
         when (msg.channelId) {
             PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID -> {
@@ -160,7 +159,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             }
 
             PLUGIN_LINKS_CHANNEL_ID -> {
-                handlePluginMessage(str, layout, actions, targetId)
+                handlePluginRepoMessage(str, layout, actions, targetId)
             }
         }
     }
