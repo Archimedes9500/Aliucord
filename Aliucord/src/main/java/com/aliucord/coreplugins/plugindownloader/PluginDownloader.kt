@@ -60,7 +60,10 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    //extension functions that allow passing URL's source message for context
+    val WidgetUrlActions.INTENT_URL by accessField<String>()
+    val WidgetUrlActions.binding by accessField<WidgetUrlActionsBinding>()
+
+    //allow passing URL's source message for context
     fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
         val widgetUrlActions = WidgetUrlActions()
         widgetUrlActions.setExt(fUrlSource2, source)
@@ -92,7 +95,6 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 (param.thisObject as WidgetChatListAdapterItemMessage).setExt(fUrlSource, message)
             }
         )
-        val WidgetUrlActions.INTENT_URL by accessField<String>()
         patcher.patch(
             `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`::class.java.getDeclaredMethod("invoke", String::class.java),
             InsteadHook { (param, str: String) ->
@@ -102,7 +104,6 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 eventHandler.onSourcedUrlLongClicked(str, urlSource)
             }
         )
-        val WidgetUrlActions.binding by accessField<WidgetUrlActionsBinding>()
         patcher.patch(
             WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, Bundle::class.java),
             Hook { (param, view: View, bundle: Bundle) ->
