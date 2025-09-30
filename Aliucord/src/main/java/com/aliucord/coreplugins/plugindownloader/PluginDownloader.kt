@@ -18,7 +18,7 @@ import com.aliucord.*
 import com.aliucord.Constants.*
 import com.aliucord.entities.CorePlugin
 import com.aliucord.patcher.*
-import com.aliucord.utils.ReflectUtils //import com.aliucord.utils.ReflectDelegates.*
+import com.aliucord.utils.ReflectDelegates.*
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.filename
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.url
 import com.discord.app.AppBottomSheet
@@ -65,7 +65,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         val widgetUrlActions = WidgetUrlActions()
         widgetUrlActions.setExt(fUrlSource2, source)
         val bundle = Bundle();
-        bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str) //bundle.putString(WidgetUrlActions.INTENT_URL, str)
+        bundle.putString(WidgetUrlActions.INTENT_URL, str)
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
@@ -92,7 +92,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 (param.thisObject as WidgetChatListAdapterItemMessage).setExt(fUrlSource, message)
             }
         )
-        //val WidgetUrlActions.INTENT_URL by accessField<String>()
+        val WidgetUrlActions.INTENT_URL by accessField<String>()
         patcher.patch(
             `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`::class.java.getDeclaredMethod("invoke", String::class.java),
             InsteadHook { (param, str: String) ->
@@ -102,7 +102,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 eventHandler.onSourcedUrlLongClicked(str, urlSource)
             }
         )
-        //val WidgetUrlActions.`binding$delegate` by accessField<FragmentViewBindingDelegate<WidgetUrlActionsBinding>>()
+        val WidgetUrlActions.binding by accessField<WidgetUrlActionsBinding>()
         patcher.patch(
             WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, Bundle::class.java),
             Hook { (param, view: View, bundle: Bundle) ->
@@ -131,9 +131,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
             }
 
             is WidgetUrlActions -> {
-                layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>) //layout = actions.`binding$delegate`
-                    .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
-                    ).getRoot() as ViewGroup
+                layout = actions.binding.getRoot() as ViewGroup
                 targetId = "dialog_url_actions_copy"
                 str = WidgetUrlActions.`access$getUrl$p`(actions)
 
