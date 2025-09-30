@@ -60,7 +60,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    val WidgetUrlActions.INTENT_URL by accessField<String>()
+    val WidgetUrlActions.Companion.INTENT_URL by accessField<String>()
     val WidgetUrlActions.binding by accessField<WidgetUrlActionsBinding>()
 
     //allow passing URL's source message for context
