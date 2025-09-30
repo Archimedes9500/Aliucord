@@ -68,7 +68,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         val widgetUrlActions = WidgetUrlActions()
         widgetUrlActions.setExt(fUrlSource2, source)
         val bundle = Bundle();
-        bundle.putString(WidgetUrlActions.INTENT_URL, str)
+        bundle.putString(WidgetUrlActions.Companion.INTENT_URL, str)
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
