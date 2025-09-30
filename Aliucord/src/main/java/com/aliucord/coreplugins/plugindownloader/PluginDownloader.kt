@@ -18,7 +18,7 @@ import com.aliucord.*
 import com.aliucord.Constants.*
 import com.aliucord.entities.CorePlugin
 import com.aliucord.patcher.*
-import com.aliucord.utils.accessField
+import com.aliucord.utils.accessGetter
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.filename
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.url
 import com.discord.app.AppBottomSheet
@@ -60,7 +60,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    val WidgetUrlActions.binding by accessField<WidgetUrlActionsBinding>()
+    val WidgetUrlActions.binding by accessGetter<WidgetUrlActionsBinding>("getBinding")
 
     //allow passing URL's source message for context
     fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
