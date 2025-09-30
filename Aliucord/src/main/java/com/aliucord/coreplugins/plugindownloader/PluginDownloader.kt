@@ -18,7 +18,7 @@ import com.aliucord.*
 import com.aliucord.Constants.*
 import com.aliucord.entities.CorePlugin
 import com.aliucord.patcher.*
-import com.aliucord.utils.ReflectDelegates.*
+import com.aliucord.utils.accessField
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.filename
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.url
 import com.discord.app.AppBottomSheet
