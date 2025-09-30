@@ -60,7 +60,6 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    val WidgetUrlActions.Companion.INTENT_URL by accessField<String>()
     val WidgetUrlActions.binding by accessField<WidgetUrlActionsBinding>()
 
     //allow passing URL's source message for context
@@ -68,7 +67,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         val widgetUrlActions = WidgetUrlActions()
         widgetUrlActions.setExt(fUrlSource2, source)
         val bundle = Bundle();
-        bundle.putString(WidgetUrlActions.Companion.INTENT_URL, str)
+        bundle.putString("INTENT_URL", str)
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
