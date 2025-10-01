@@ -7,6 +7,7 @@
 package com.aliucord.coreplugins.plugindownloader
 
 import android.content.Context
+import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
@@ -17,7 +18,7 @@ import com.aliucord.*
 import com.aliucord.Constants.*
 import com.aliucord.entities.CorePlugin
 import com.aliucord.patcher.*
-import com.aliucord.utils.ReflectUtils //import com.aliucord.utils.ReflectDelegates.*
+import com.aliucord.utils.accessGetter
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.filename
 import com.aliucord.wrappers.messages.AttachmentWrapper.Companion.url
 import com.discord.app.AppBottomSheet
@@ -59,12 +60,14 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    //extension functions that allow passing URL's source message for context
+    val WidgetUrlActions.binding by accessGetter<WidgetUrlActionsBinding>("getBinding")
+
+    //allow passing URL's source message for context
     fun sourcedLaunch(fragmentManager: FragmentManager, str: String, source: Message) {
         val widgetUrlActions = WidgetUrlActions()
         widgetUrlActions.setExt(fUrlSource2, source)
-        val bundle = android.os.Bundle();
-        bundle.putString(ReflectUtils.getField(WidgetUrlActions::class.java, null, "INTENT_URL") as String, str) //bundle.putString(WidgetUrlActions.INTENT_URL, str)
+        val bundle = Bundle();
+        bundle.putString("INTENT_URL", str)
         widgetUrlActions.setArguments(bundle);
         widgetUrlActions.show(fragmentManager, WidgetUrlActions::class.java.getName());
     }
@@ -82,6 +85,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 addPluginDownloadOptions(msg, actions)
             }
         )
+
         //also for link context menu
         patcher.patch(
             WidgetChatListAdapterItemMessage::class.java.getDeclaredMethod("onConfigure", Int::class.java, ChatListEntry::class.java),
@@ -91,7 +95,6 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 (param.thisObject as WidgetChatListAdapterItemMessage).setExt(fUrlSource, message)
             }
         )
-        //val WidgetUrlActions.INTENT_URL by accessField<String>()
         patcher.patch(
             `WidgetChatListAdapterItemMessage$getMessageRenderContext$2`::class.java.getDeclaredMethod("invoke", String::class.java),
             InsteadHook { (param, str: String) ->
@@ -101,10 +104,9 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 eventHandler.onSourcedUrlLongClicked(str, urlSource)
             }
         )
-        //val WidgetUrlActions.`binding$delegate` by accessField<FragmentViewBindingDelegate<WidgetUrlActionsBinding>>()
         patcher.patch(
-            WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, android.os.Bundle::class.java),
-            Hook { (param, view: View, bundle: android.os.Bundle) ->
+            WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, Bundle::class.java),
+            Hook { (param, view: View, bundle: Bundle) ->
                 val actions = param.thisObject as WidgetUrlActions
                 val msg = actions.getExt(fUrlSource2) as Message
 
@@ -116,31 +118,35 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
     override fun stop(context: Context) {}
 
     fun addPluginDownloadOptions(msg: Message, actions: AppBottomSheet) {
-        var layout = (actions.requireView() as ViewGroup).getChildAt(0) as ViewGroup
-        var targetId = "dialog_chat_actions_edit"
-        var str = msg?.content ?: return
+        var layout: ViewGroup
+        var targetId: String
+        var str: String
 
         when(actions) {
             is WidgetChatListActions -> {
+                layout = (actions.requireView() as ViewGroup).getChildAt(0) as ViewGroup
+                targetId = "dialog_chat_actions_edit"
+                str = msg.content ?: return
  
                 if (layout.findViewById<View>(viewId) != null) return
             }
 
             is WidgetUrlActions -> {
-                layout = ((ReflectUtils.getField(actions, "binding\$delegate") as FragmentViewBindingDelegate<WidgetUrlActionsBinding>) //val layout = actions.`binding$delegate`
-                    .getValue(actions as Fragment, WidgetUrlActions.`$$delegatedProperties`[0]) as WidgetUrlActionsBinding
-                    ).getRoot() as ViewGroup
+                layout = actions.binding.getRoot() as ViewGroup
                 targetId = "dialog_url_actions_copy"
                 str = WidgetUrlActions.`access$getUrl$p`(actions)
 
                 if (layout.findViewById<View>(urlViewId) != null) return
             }
+
+            else -> return
         }
         val me = StoreStream.getUsers().me
 
-        if(msg.author.id == me.id){
-            handlePluginMessage(str, layout, actions, targetId)
-            handlePluginRepoMessage(str, layout, actions, targetId)
+        if (msg.author.id == me.id) {
+            if (!handlePluginMessage(str, layout, actions, targetId)) {
+            	handlePluginRepoMessage(str, layout, actions, targetId)
+			}
             handlePluginAttachments(msg, layout, actions, targetId)
         } else {
             when (msg.channelId) {
@@ -160,7 +166,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 }
     
                 PLUGIN_LINKS_CHANNEL_ID -> {
-                    handlePluginMessage(str, layout, actions, targetId)
+                    handlePluginRepoMessage(str, layout, actions, targetId)
                 }
             }
         }
@@ -177,7 +183,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    fun handlePluginMessage(str: String, layout: ViewGroup, actions: AppBottomSheet, targetId: String) {
+    fun handlePluginMessage(str: String, layout: ViewGroup, actions: AppBottomSheet, targetId: String): Boolean {
         if (zipPattern.containsMatchIn(str)) {
             for (match in zipPattern.findAll(str, 0)) {
                 val (author, repo, commit, name) = match.groups.drop(1).map { it.value }
@@ -191,7 +197,10 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                     actions.dismiss()
                 }
             }
-        }
+            return true
+        } else {
+			return false
+		}
     }
 
     fun handlePluginAttachments(msg: Message, layout: ViewGroup, actions: AppBottomSheet, targetId: String) {
