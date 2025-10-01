@@ -141,25 +141,33 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
 
             else -> return
         }
+        val me = StoreStream.getUsers().me
 
-        when (msg.channelId) {
-            PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID -> {
-                handlePluginMessage(str, layout, actions, targetId)
-                handlePluginAttachments(msg, layout, actions, targetId)
+        if (msg.author.id == me.id) {
+            if (!handlePluginMessage(str, layout, actions, targetId)) {
+                handlePluginRepoMessage(str, layout, actions, targetId)
             }
-
-            SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
-                val member = StoreStream.getGuilds().getMember(ALIUCORD_GUILD_ID, msg.author.id)
-                val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
-
-                if (isTrusted) {
+            handlePluginAttachments(msg, layout, actions, targetId)
+        } else {
+            when (msg.channelId) {
+                PLUGIN_LINKS_UPDATES_CHANNEL_ID, PLUGIN_DEVELOPMENT_CHANNEL_ID -> {
                     handlePluginMessage(str, layout, actions, targetId)
                     handlePluginAttachments(msg, layout, actions, targetId)
                 }
-            }
-
-            PLUGIN_LINKS_CHANNEL_ID -> {
-                handlePluginRepoMessage(str, layout, actions, targetId)
+    
+                SUPPORT_CHANNEL_ID, PLUGIN_SUPPORT_CHANNEL_ID -> {
+                    val member = StoreStream.getGuilds().getMember(ALIUCORD_GUILD_ID, msg.author.id)
+                    val isTrusted = member?.roles?.any { it in arrayOf(SUPPORT_HELPER_ROLE_ID, PLUGIN_DEVELOPER_ROLE_ID) } ?: false
+    
+                    if (isTrusted) {
+                        handlePluginMessage(str, layout, actions, targetId)
+                        handlePluginAttachments(msg, layout, actions, targetId)
+                    }
+                }
+    
+                PLUGIN_LINKS_CHANNEL_ID -> {
+                    handlePluginRepoMessage(str, layout, actions, targetId)
+                }
             }
         }
     }
@@ -175,7 +183,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         }
     }
 
-    fun handlePluginMessage(str: String, layout: ViewGroup, actions: AppBottomSheet, targetId: String) {
+    fun handlePluginMessage(str: String, layout: ViewGroup, actions: AppBottomSheet, targetId: String): Boolean {
         if (zipPattern.containsMatchIn(str)) {
             for (match in zipPattern.findAll(str, 0)) {
                 val (author, repo, commit, name) = match.groups.drop(1).map { it.value }
@@ -189,6 +197,9 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                     actions.dismiss()
                 }
             }
+            return true
+        } else {
+            return false
         }
     }
 
