@@ -85,6 +85,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
                 addPluginDownloadOptions(msg, actions)
             }
         )
+
         //also for link context menu
         patcher.patch(
             WidgetChatListAdapterItemMessage::class.java.getDeclaredMethod("onConfigure", Int::class.java, ChatListEntry::class.java),
