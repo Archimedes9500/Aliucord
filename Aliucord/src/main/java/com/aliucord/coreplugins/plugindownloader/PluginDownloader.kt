@@ -89,7 +89,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         //also for link context menu
         patcher.patch(
             WidgetChatListAdapterItemMessage::class.java.getDeclaredMethod("onConfigure", Int::class.java, ChatListEntry::class.java),
-            Hook { (param, i: Int, chatListEntry: ChatListEntry) ->
+            Hook { (param, _, chatListEntry: ChatListEntry) ->
                 val messageEntry = chatListEntry as MessageEntry
                 val message = messageEntry.message as Message
                 (param.thisObject as WidgetChatListAdapterItemMessage).setExt(fUrlSource, message)
@@ -106,7 +106,7 @@ internal class PluginDownloader : CorePlugin(Manifest("PluginDownloader")) {
         )
         patcher.patch(
             WidgetUrlActions::class.java.getDeclaredMethod("onViewCreated", View::class.java, Bundle::class.java),
-            Hook { (param, view: View, bundle: Bundle) ->
+            Hook { param ->
                 val actions = param.thisObject as WidgetUrlActions
                 val msg = actions.getExt(fUrlSource2) as Message
 
