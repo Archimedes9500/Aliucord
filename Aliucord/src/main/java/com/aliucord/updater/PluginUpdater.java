@@ -56,7 +56,7 @@ public class PluginUpdater {
         }
         if (!notify || (updates.size() == 0 && !(!Updater.usingDexFromStorage() && Updater.isAliucordOutdated()))) return;
 
-        List<String> lastUpdates = Main.settings.getObject(AliucordPageKt.LAST_PLUGIN_UPDATES_NOTIF, null);
+        List<String> lastUpdates = Main.settings.getObject(AliucordPageKt.LAST_PLUGIN_UPDATES_NOTIF, new List<String>);
         if (updates.equals(lastUpdates)) return;
 
         Main.settings.setObject(AliucordPageKt.LAST_PLUGIN_UPDATES_NOTIF, updates);
