@@ -56,6 +56,11 @@ public class PluginUpdater {
         }
         if (!notify || (updates.size() == 0 && !(!Updater.usingDexFromStorage() && Updater.isAliucordOutdated()))) return;
 
+        List<String> lastUpdates = Main.settings.getObject(AliucordPageKt.LAST_PLUGIN_UPDATES_NOTIF, null);
+        if (updates.equals(lastUpdates)) return;
+
+        Main.settings.setObject(AliucordPageKt.LAST_PLUGIN_UPDATES_NOTIF, updates);
+
         NotificationData notificationData = new NotificationData()
                 .setTitle("Updater")
                 .setAutoDismissPeriodSecs(10)
