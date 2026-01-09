@@ -124,7 +124,7 @@ public class Updater {
      */
     public static boolean usingDexFromStorage() {
         var balls = Main.settings.getJSONArray("balls", new JSONArray());
-        com.aliucord.Utils.showToast(balls, true);
+        com.aliucord.Utils.showToast(balls.toString(), true);
         return Main.settings.getBool(AliucordPageKt.ALIUCORD_FROM_STORAGE_KEY, false);
     }
 }
