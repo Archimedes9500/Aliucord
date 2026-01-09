@@ -14,6 +14,8 @@ import com.aliucord.utils.ReflectUtils;
 import java.io.File;
 import java.io.IOException;
 
+import org.json.JSONArray;
+
 public class Updater {
     /**
      * Compares two SemVer-style versions to determine whether a component is outdated
@@ -121,7 +123,7 @@ public class Updater {
      * @return Whether preference {@link AliucordPageKt#ALIUCORD_FROM_STORAGE_KEY} is set to true
      */
     public static boolean usingDexFromStorage() {
-        var balls = Main.settings.getJSONArray("balls", org.json.JSONArray());
+        var balls = Main.settings.getJSONArray("balls", JSONArray());
         com.aliucord.Utils.showToast(balls, showLonger = true);
         return Main.settings.getBool(AliucordPageKt.ALIUCORD_FROM_STORAGE_KEY, false);
     }
