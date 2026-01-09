@@ -121,7 +121,7 @@ public class Updater {
      * @return Whether preference {@link AliucordPageKt#ALIUCORD_FROM_STORAGE_KEY} is set to true
      */
     public static boolean usingDexFromStorage() {
-        val balls = Main.settings.getJSONArray("balls", org.json.JSONArray());
+        var balls = Main.settings.getJSONArray("balls", org.json.JSONArray());
         com.aliucord.Utils.showToast(balls, showLonger = true);
         return Main.settings.getBool(AliucordPageKt.ALIUCORD_FROM_STORAGE_KEY, false);
     }
