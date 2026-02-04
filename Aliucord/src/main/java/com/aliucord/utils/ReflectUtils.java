@@ -70,16 +70,21 @@ public final class ReflectUtils {
         }
 
         try{   
-            Constructor<? extends T> c = cCache.get(new ConstructorSignature(clazz, argTypes));
-            if(c == null){
-                c = clazz.getDeclaredConstructor(argTypes);
+            Constructor<?> _c = cCache.get(new ConstructorSignature(clazz, argTypes));
+            if(_c == null){
+                _c = clazz.getDeclaredConstructor(argTypes);
+            };
+            if(_c instanceof Constructor<T>){
+                Constructor<T> c = (Constructor<T>) _c;
+            }else{
+                throw new NoSuchMethodException("Cached constructor is of wrong class - expected "+T.getClass().toString()+", but got "+_c.getDeclaringClass().toString());
             };
             c.setAccessible(true);
             cCache.put(new ConstructorSignature(clazz, argTypes), c);
             return c;
         }catch(NoSuchMethodException e){
             //Fallback to finding by arg count since signature might not use runtime type
-            Constructor<T>[] cs = Arrays.stream(clazz.getDeclaredConstructors()).filter(c -> c.getParameterCount() == args.length);
+            Constructor<T>[] cs = Arrays.stream(clazz.getDeclaredConstructors()).filter(c -> c.getParameterCount() == args.length).toArray(Constructor<T>::new);
             if(cs != null && cs.length != 1){
                 throw e;
             }
@@ -137,7 +142,7 @@ public final class ReflectUtils {
             return m;
         }catch(NoSuchMethodException e){
             //Fallback to finding by arg count since signature might not use runtime type
-            Method[] ms = Arrays.stream(clazz.getDeclaredMethods()).filter(m -> m.getParameterCount() == args.length && m.getName() == methodName);
+            Method[] ms = Arrays.stream(clazz.getDeclaredMethods()).filter(m -> m.getParameterCount() == args.length && m.getName().equals(methodName)).toArray(Method[]::new);
             if(ms != null && ms.length != 1){
                 throw e;
             }
