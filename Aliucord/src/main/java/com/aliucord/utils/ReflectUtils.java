@@ -69,12 +69,12 @@ public final class ReflectUtils {
         }
 
         try{   
-            Constructor<T> c = cCache.get(ConstructorSignature(clazz, argTypes));
+            Constructor<T> c = cCache.get(new ConstructorSignature(clazz, argTypes));
             if(c == null){
                 c = clazz.getDeclaredConstructor(argTypes);
             };
             c.setAccessible(true);
-            cCache.set(ConstructorSignature(clazz, argTypes), c);
+            cCache.set(new ConstructorSignature(clazz, argTypes), c);
             return c;
         }catch(NoSuchMethodException e){
             //Fallback to finding by arg count since signature might not use runtime type
@@ -84,7 +84,7 @@ public final class ReflectUtils {
             }
             Constructor<T> c = cs[0];
             c.setAccessible(true);
-            cCache.set(ConstructorSignature(clazz, argTypes), c);
+            cCache.set(new ConstructorSignature(clazz, argTypes), c);
             return c;
         }
     }
@@ -127,12 +127,12 @@ public final class ReflectUtils {
         }
 
         try{
-            Method m = mCache.get(MethodSignature(clazz, methodName, argTypes));
+            Method m = mCache.get(new MethodSignature(clazz, methodName, argTypes));
             if(m == null){
                 m = clazz.getDeclaredMethod(methodName, argTypes);
             }
             m.setAccessible(true);
-            mCache.set(MethodSignature(clazz, methodName, argTypes), m);
+            mCache.set(new MethodSignature(clazz, methodName, argTypes), m);
             return m;
         }catch(NoSuchMethodException e){
             //Fallback to finding by arg count since signature might not use runtime type
@@ -142,7 +142,7 @@ public final class ReflectUtils {
             }
             Method m = ms[0];
             m.setAccessible(true);
-            mCache.set(MethodSignature(clazz, methodName, argTypes), m);
+            mCache.set(new MethodSignature(clazz, methodName, argTypes), m);
             return m;
         }
     }
@@ -214,12 +214,12 @@ public final class ReflectUtils {
      */
     @Nullable
     public static Object getField(@NonNull Class<?> clazz, @Nullable Object instance, @NonNull String fieldName) throws NoSuchFieldException, IllegalAccessException {
-        Field f = fCache.get(FieldSignature(clazz, fieldName));
+        Field f = fCache.get(new FieldSignature(clazz, fieldName));
         if(f == null){
             f = clazz.getDeclaredField(fieldName);
         };
         f.setAccessible(true);
-        fCache.set(FieldSignature(clazz, fieldName), f);
+        fCache.set(new FieldSignature(clazz, fieldName), f);
         return f.get(instance);
     }
 
@@ -251,13 +251,13 @@ public final class ReflectUtils {
      * @throws IllegalAccessException If the field is inaccessible. Shouldn't happen.
      */
     public static void setField(@NonNull Class<?> clazz, @Nullable Object instance, @NonNull String fieldName, @Nullable Object v) throws NoSuchFieldException, IllegalAccessException {
-        Field f = fCache.get(FieldSignature(clazz, fieldName));
+        Field f = fCache.get(new FieldSignature(clazz, fieldName));
         if(f == null){
             f = clazz.getDeclaredField(fieldName);
         };
         f.setAccessible(true);
         f.set(instance, v);
-        fCache.set(FieldSignature(clazz, fieldName), f);
+        fCache.set(new FieldSignature(clazz, fieldName), f);
     }
 
     /**
@@ -303,13 +303,13 @@ public final class ReflectUtils {
             accessFlagsFields.setAccessible(true);
         }
 
-        Field f = fCache.get(FieldSignature(clazz, fieldName));
+        Field f = fCache.get(new FieldSignature(clazz, fieldName));
         if(f == null){
             f = clazz.getDeclaredField(fieldName);
         };
         f.setAccessible(true);
         accessFlagsFields.set(f, f.getModifiers() & ~Modifier.FINAL);
         f.set(instance, v);
-        fCache.set(FieldSignature(clazz, fieldName), f);
+        fCache.set(new FieldSignature(clazz, fieldName), f);
     }
 }
