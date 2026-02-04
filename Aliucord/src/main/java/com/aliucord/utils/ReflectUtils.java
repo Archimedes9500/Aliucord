@@ -29,8 +29,8 @@ public final class ReflectUtils {
     private static Field accessFlagsFields;
 
     public static Map<MethodSignature, Method> mCache = new HashMap<>();
-    public static Map<FieldSignature, Method> fCache = new HashMap<>();
-    public static Map<ConstructorSignature, Method> cCache = new HashMap<>();
+    public static Map<FieldSignature, Field> fCache = new HashMap<>();
+    public static Map<ConstructorSignature, Constructor<?>> cCache = new HashMap<>();
 
     /**
      * Creates new class instance without using a constructor
