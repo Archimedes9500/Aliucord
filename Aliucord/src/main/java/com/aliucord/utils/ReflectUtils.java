@@ -16,6 +16,7 @@ import com.aliucord.utils.ConstructorSignature;
 import com.aliucord.utils.MethodSignature;
 import com.aliucord.utils.FieldSignature;
 
+import java.util.Arrays;
 import java.util.Map;
 import java.util.HashMap;
 import java.lang.reflect.*;
@@ -69,7 +70,7 @@ public final class ReflectUtils {
         }
 
         try{   
-            Constructor<T> c = cCache.get(new ConstructorSignature(clazz, argTypes));
+            Constructor<? extends T> c = cCache.get(new ConstructorSignature(clazz, argTypes));
             if(c == null){
                 c = clazz.getDeclaredConstructor(argTypes);
             };
@@ -78,7 +79,7 @@ public final class ReflectUtils {
             return c;
         }catch(NoSuchMethodException e){
             //Fallback to finding by arg count since signature might not use runtime type
-            Constructor<T>[] cs = clazz.getDeclaredConstructors().filter(c -> c.getParameterCount() == args.length);
+            Constructor<T>[] cs = Arrays.stream(clazz.getDeclaredConstructors()).filter(c -> c.getParameterCount() == args.length);
             if(cs != null && cs.length != 1){
                 throw e;
             }
@@ -136,7 +137,7 @@ public final class ReflectUtils {
             return m;
         }catch(NoSuchMethodException e){
             //Fallback to finding by arg count since signature might not use runtime type
-            Method[] ms = clazz.getDeclaredMethods().filter(m -> m.getParameterCount() == args.length && m.getName() == methodName);
+            Method[] ms = Arrays.stream(clazz.getDeclaredMethods()).filter(m -> m.getParameterCount() == args.length && m.getName() == methodName);
             if(ms != null && ms.length != 1){
                 throw e;
             }
