@@ -74,7 +74,7 @@ public final class ReflectUtils {
                 c = clazz.getDeclaredConstructor(argTypes);
             };
             c.setAccessible(true);
-            cCache.set(new ConstructorSignature(clazz, argTypes), c);
+            cCache.put(new ConstructorSignature(clazz, argTypes), c);
             return c;
         }catch(NoSuchMethodException e){
             //Fallback to finding by arg count since signature might not use runtime type
@@ -84,7 +84,7 @@ public final class ReflectUtils {
             }
             Constructor<T> c = cs[0];
             c.setAccessible(true);
-            cCache.set(new ConstructorSignature(clazz, argTypes), c);
+            cCache.put(new ConstructorSignature(clazz, argTypes), c);
             return c;
         }
     }
@@ -132,7 +132,7 @@ public final class ReflectUtils {
                 m = clazz.getDeclaredMethod(methodName, argTypes);
             }
             m.setAccessible(true);
-            mCache.set(new MethodSignature(clazz, methodName, argTypes), m);
+            mCache.put(new MethodSignature(clazz, methodName, argTypes), m);
             return m;
         }catch(NoSuchMethodException e){
             //Fallback to finding by arg count since signature might not use runtime type
@@ -142,7 +142,7 @@ public final class ReflectUtils {
             }
             Method m = ms[0];
             m.setAccessible(true);
-            mCache.set(new MethodSignature(clazz, methodName, argTypes), m);
+            mCache.put(new MethodSignature(clazz, methodName, argTypes), m);
             return m;
         }
     }
@@ -219,7 +219,7 @@ public final class ReflectUtils {
             f = clazz.getDeclaredField(fieldName);
         };
         f.setAccessible(true);
-        fCache.set(new FieldSignature(clazz, fieldName), f);
+        fCache.put(new FieldSignature(clazz, fieldName), f);
         return f.get(instance);
     }
 
@@ -257,7 +257,7 @@ public final class ReflectUtils {
         };
         f.setAccessible(true);
         f.set(instance, v);
-        fCache.set(new FieldSignature(clazz, fieldName), f);
+        fCache.put(new FieldSignature(clazz, fieldName), f);
     }
 
     /**
@@ -310,6 +310,6 @@ public final class ReflectUtils {
         f.setAccessible(true);
         accessFlagsFields.set(f, f.getModifiers() & ~Modifier.FINAL);
         f.set(instance, v);
-        fCache.set(new FieldSignature(clazz, fieldName), f);
+        fCache.put(new FieldSignature(clazz, fieldName), f);
     }
 }
