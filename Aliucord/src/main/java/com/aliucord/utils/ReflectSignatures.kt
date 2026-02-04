@@ -31,7 +31,7 @@ class ConstructorSignature(
 	val clazz: Class<*>,
 	vararg argTypes: Class<*>
 ){
-	val argTypes = argTypee;
+	val argTypes = argTypes;
 
 	constructor(c: Constructor<*>):
 		this(c.declaringClass, *c.parameterTypes)
