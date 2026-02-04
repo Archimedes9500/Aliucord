@@ -16,6 +16,8 @@ import com.aliucord.utils.ConstructorSignature;
 import com.aliucord.utils.MethodSignature;
 import com.aliucord.utils.FieldSignature;
 
+import java.util.Map;
+import java.util.HashMap;
 import java.lang.reflect.*;
 
 /** Utility class to ease Reflection */
@@ -26,9 +28,9 @@ public final class ReflectUtils {
     private static Method unsafeAllocIns;
     private static Field accessFlagsFields;
 
-    public static MutableMap<MethodSignature, Method> mCache = new HashMap<>();
-    public static MutableMap<FieldSignature, Method> fCache = new HashMap<>();
-    public static MutableMap<ConstructorSignature, Method> cCache = new HashMap<>();
+    public static Map<MethodSignature, Method> mCache = new HashMap<>();
+    public static Map<FieldSignature, Method> fCache = new HashMap<>();
+    public static Map<ConstructorSignature, Method> cCache = new HashMap<>();
 
     /**
      * Creates new class instance without using a constructor
