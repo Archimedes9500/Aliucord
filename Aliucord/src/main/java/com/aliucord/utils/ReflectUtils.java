@@ -71,7 +71,7 @@ public final class ReflectUtils {
 
         try{
             @SuppressWarnings("unchecked")
-            Constructor<T> c = cCache.get(new ConstructorSignature(clazz, argTypes));
+            Constructor<T> c = (Constructor<T>) cCache.get(new ConstructorSignature(clazz, argTypes));
             if(c == null){
                 c = clazz.getDeclaredConstructor(argTypes);
             }
