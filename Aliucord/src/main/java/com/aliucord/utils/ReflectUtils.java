@@ -125,7 +125,7 @@ public final class ReflectUtils {
         }
 
         try{
-            Method m = mCache.get(MethodSignature(clazz, methodName, argTypes);
+            Method m = mCache.get(MethodSignature(clazz, methodName, argTypes));
             if(m == null){
                 m = clazz.getDeclaredMethod(methodName, argTypes);
             }
