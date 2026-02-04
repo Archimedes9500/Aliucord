@@ -12,6 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.aliucord.Main;
+import com.aliucord.utils.ConstructorSignature;
+import com.aliucord.utils.MethodSignature;
+import com.aliucord.utils.FieldSignature;
 
 import java.lang.reflect.*;
 
@@ -22,6 +25,10 @@ public final class ReflectUtils {
     private static Object unsafe;
     private static Method unsafeAllocIns;
     private static Field accessFlagsFields;
+
+    public static MutableMap<MethodSignature, Method> mCache = new HashMap<>();
+    public static MutableMap<FieldSignature, Method> fCache = new HashMap<>();
+    public static MutableMap<ConstructorSignature, Method> cCache = new HashMap<>();
 
     /**
      * Creates new class instance without using a constructor
@@ -59,9 +66,25 @@ public final class ReflectUtils {
             }
         }
 
-        Constructor<T> c = clazz.getDeclaredConstructor(argTypes);
-        c.setAccessible(true);
-        return c;
+        try{   
+            Constructor<T> c = cCache.get(ConstructorSignature(clazz, argTypes));
+            if(c == null){
+                c = clazz.getDeclaredConstructor(argTypes);
+            };
+            c.setAccessible(true);
+            cCache.set(ConstructorSignature(clazz, argTypes), c);
+            return c;
+        }catch(NoSuchMethodException e){
+            //Fallback to finding by arg count since signature might not use runtime type
+            Constructor<T>[] cs = clazz.getDeclaredConstructors().filter(c -> c.getParameterCount() == args.length);
+            if(cs != null && cs.length != 1){
+                throw e;
+            }
+            Constructor<T> c = cs[0];
+            c.setAccessible(true);
+            cCache.set(ConstructorSignature(clazz, argTypes), c);
+            return c;
+        }
     }
 
     /**
@@ -82,8 +105,8 @@ public final class ReflectUtils {
 
     /**
      * Attempts to find and invoke the method matching the specified arguments
-     * Please note that this does not cache the lookup result, so if you need to call this many times
-     * you should do it manually and cache the {@link Method} to improve performance drastically
+     * Please note that this does cache the lookup result, so if you need to call this many times
+     * you can
      *
      * @param clazz      The class
      * @param methodName The name of the method
@@ -101,15 +124,31 @@ public final class ReflectUtils {
             }
         }
 
-        Method m = clazz.getDeclaredMethod(methodName, argTypes);
-        m.setAccessible(true);
-        return m;
+        try{
+            Method m = mCache.get(MethodSignature(clazz, methodName, argTypes);
+            if(m == null){
+                m = clazz.getDeclaredMethod(methodName, argTypes);
+            }
+            m.setAccessible(true);
+            mCache.set(MethodSignature(clazz, methodName, argTypes), m);
+            return m;
+        }catch(NoSuchMethodException e){
+            //Fallback to finding by arg count since signature might not use runtime type
+            Method[] ms = clazz.getDeclaredMethods().filter(m -> m.getParameterCount() == args.length && m.getName() == methodName);
+            if(ms != null && ms.length != 1){
+                throw e;
+            }
+            Method m = ms[0];
+            m.setAccessible(true);
+            mCache.set(MethodSignature(clazz, methodName, argTypes), m);
+            return m;
+        }
     }
 
     /**
      * Attempts to find and invoke the method matching the specified arguments
-     * Please note that this does not cache the lookup result, so if you need to call this many times
-     * you should do it manually and cache the {@link Method} to improve performance drastically
+     * Please note that this does cache the lookup result, so if you need to call this many times
+     * you can
      *
      * @param clazz      The class holding the method
      * @param instance   The instance of the class to invoke the method on or null to invoke static method
@@ -127,8 +166,8 @@ public final class ReflectUtils {
 
     /**
      * Attempts to find and invoke the method matching the specified arguments
-     * Please note that this does not cache the lookup result, so if you need to call this many times
-     * you should do it manually and cache the {@link Method} to improve performance drastically
+     * Please note that this does cache the lookup result, so if you need to call this many times
+     * you can
      *
      * @param instance   The instance of the class to invoke the method on
      * @param methodName The name of the method
@@ -145,8 +184,8 @@ public final class ReflectUtils {
 
     /**
      * Gets a field declared in the class.
-     * Please note that this does not cache the lookup result, so if you need to call this many times
-     * you should do it manually and cache the {@link Field} to improve performance drastically
+     * Please note that this does cache the lookup result, so if you need to call this many times
+     * you can
      *
      * @param instance  Instance of the class where the field is located.
      * @param fieldName Name of the field.
@@ -161,8 +200,8 @@ public final class ReflectUtils {
 
     /**
      * Gets a field declared in the class.
-     * Please note that this does not cache the lookup result, so if you need to call this many times
-     * you should do it manually and cache the {@link Field} to improve performance drastically
+     * Please note that this does cache the lookup result, so if you need to call this many times
+     * you can
      *
      * @param clazz     {@link Class} where the field is located.
      * @param instance  Instance of the <code>clazz</code> or null to get static field
@@ -173,15 +212,19 @@ public final class ReflectUtils {
      */
     @Nullable
     public static Object getField(@NonNull Class<?> clazz, @Nullable Object instance, @NonNull String fieldName) throws NoSuchFieldException, IllegalAccessException {
-        Field field = clazz.getDeclaredField(fieldName);
-        field.setAccessible(true);
-        return field.get(instance);
+        Field f = fCache.get(FieldSignature(clazz, fieldName));
+        if(f == null){
+            f = clazz.getDeclaredField(fieldName);
+        };
+        f.setAccessible(true);
+        fCache.set(FieldSignature(clazz, fieldName), f);
+        return f.get(instance);
     }
 
     /**
      * Override a field of a class.
-     * Please note that this does not cache the lookup result, so if you need to call this many times
-     * you should do it manually and cache the {@link Field} to improve performance drastically
+     * Please note that this does cache the lookup result, so if you need to call this many times
+     * you can
      *
      * @param instance  Instance of the class where the field is located.
      * @param fieldName Name of the field.
@@ -195,8 +238,8 @@ public final class ReflectUtils {
 
     /**
      * Override a field of a class.
-     * Please note that this does not cache the lookup result, so if you need to call this many times
-     * you should do it manually and cache the {@link Field} to improve performance drastically
+     * Please note that this does cache the lookup result, so if you need to call this many times
+     * you can
      *
      * @param clazz     {@link Class} where the field is located.
      * @param instance  Instance of the <code>clazz</code> or null to set static field.
@@ -206,16 +249,20 @@ public final class ReflectUtils {
      * @throws IllegalAccessException If the field is inaccessible. Shouldn't happen.
      */
     public static void setField(@NonNull Class<?> clazz, @Nullable Object instance, @NonNull String fieldName, @Nullable Object v) throws NoSuchFieldException, IllegalAccessException {
-        Field field = clazz.getDeclaredField(fieldName);
-        field.setAccessible(true);
-        field.set(instance, v);
+        Field f = fCache.get(FieldSignature(clazz, fieldName));
+        if(f == null){
+            f = clazz.getDeclaredField(fieldName);
+        };
+        f.setAccessible(true);
+        f.set(instance, v);
+        fCache.set(FieldSignature(clazz, fieldName), f);
     }
 
     /**
      * Override a final field of a class.
      * WARNING: If this field is of a primitive type, setting it may have no effect as the compiler will inline final primitives.
-     * Please note that this does not cache the lookup result, so if you need to call this many times
-     * you should do it manually and cache the {@link Field} to improve performance drastically
+     * Please note that this does cache the lookup result, so if you need to call this many times
+     * you can
      *
      * @param instance  Instance of the <code>clazz</code> or null to set static field.
      * @param fieldName Name of the field.
@@ -230,8 +277,8 @@ public final class ReflectUtils {
     /**
      * Override a final field of a class.
      * WARNING: If this field is of a primitive type, setting it may have no effect as the compiler will inline final primitives.
-     * Please note that this does not cache the lookup result, so if you need to call this many times
-     * you should do it manually and cache the {@link Field} to improve performance drastically
+     * Please note that this does cache the lookup result, so if you need to call this many times
+     * you can
      *
      * @param clazz     {@link Class} where the field is located.
      * @param instance  Instance of the <code>clazz</code> or null to set static field.
@@ -254,9 +301,13 @@ public final class ReflectUtils {
             accessFlagsFields.setAccessible(true);
         }
 
-        var field = clazz.getDeclaredField(fieldName);
-        field.setAccessible(true);
-        accessFlagsFields.set(field, field.getModifiers() & ~Modifier.FINAL);
-        field.set(instance, v);
+        Field f = fCache.get(FieldSignature(clazz, fieldName));
+        if(f == null){
+            f = clazz.getDeclaredField(fieldName);
+        };
+        f.setAccessible(true);
+        accessFlagsFields.set(f, f.getModifiers() & ~Modifier.FINAL);
+        f.set(instance, v);
+        fCache.set(FieldSignature(clazz, fieldName), f);
     }
 }
