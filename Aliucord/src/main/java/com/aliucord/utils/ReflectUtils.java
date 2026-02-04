@@ -69,16 +69,12 @@ public final class ReflectUtils {
             }
         }
 
-        try{   
-            Constructor<?> _c = cCache.get(new ConstructorSignature(clazz, argTypes));
-            if(_c == null){
-                _c = clazz.getDeclaredConstructor(argTypes);
-            };
-            if(_c instanceof Constructor<T>){
-                Constructor<T> c = (Constructor<T>) _c;
-            }else{
-                throw new NoSuchMethodException("Cached constructor is of wrong class - expected "+T.getClass().toString()+", but got "+_c.getDeclaringClass().toString());
-            };
+        try{
+            @SuppressWarnings("unchecked")
+            Constructor<T> c = cCache.get(new ConstructorSignature(clazz, argTypes));
+            if(c == null){
+                c = clazz.getDeclaredConstructor(argTypes);
+            }
             c.setAccessible(true);
             cCache.put(new ConstructorSignature(clazz, argTypes), c);
             return c;
