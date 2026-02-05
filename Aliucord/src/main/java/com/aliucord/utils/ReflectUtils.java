@@ -80,11 +80,12 @@ public final class ReflectUtils {
             return c;
         }catch(NoSuchMethodException e){
             //Fallback to finding by arg count since signature might not use runtime type
-            Constructor<T>[] cs = Arrays.stream(clazz.getDeclaredConstructors()).filter(c -> c.getParameterCount() == args.length).toArray(Constructor<T>::new);
+            Constructor<?>[] cs = Arrays.stream(clazz.getDeclaredConstructors()).filter(c -> c.getParameterCount() == args.length).toArray(Constructor<?>::new);
             if(cs != null && cs.length != 1){
                 throw e;
             }
-            Constructor<T> c = cs[0];
+            @SuppressWarnings("unchecked")
+            Constructor<T> c = (Constructor<T>) cs[0];
             c.setAccessible(true);
             cCache.put(new ConstructorSignature(clazz, argTypes), c);
             return c;
