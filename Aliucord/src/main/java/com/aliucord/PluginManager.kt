@@ -55,7 +55,7 @@ object PluginManager {
     @Suppress("UNCHECKED_CAST")
     fun loadPlugin(context: Context, file: File) {
         val fileName = file.name.replace(".zip", "")
-        logger.info("Loading plugin: $fileName".trimIndent())
+        logger.info("Loading plugin: $fileName")
         try {
             val loader = PathClassLoader(file.absolutePath, context.classLoader)
             val manifest = loader.getResourceAsStream("manifest.json").use { stream ->
@@ -203,7 +203,7 @@ object PluginManager {
             val millis = measureTimeMillis {
                 plugins[name]!!.start(appContext)
             }
-            logger.info("Started plugin: $name in $millis milliseconds")
+            logger.info("Started plugin: $name in $millis milliseconds".trimIndent())
         } catch (e: Throwable) {
             logger.error("Exception while starting plugin: $name", e)
         }
