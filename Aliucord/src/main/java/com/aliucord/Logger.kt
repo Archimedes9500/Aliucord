@@ -16,7 +16,7 @@ import com.discord.app.AppLog
  */
 @Suppress("unused", "MemberVisibilityCanBePrivate")
 class Logger(var module: String = "Aliucord") {
-    private fun format(msg: String) = "[$module] $msg"
+    private fun format(msg: String) = "[$module] $msg".trimIndent()
 
     /**
      * Logs a [Log.VERBOSE] message
