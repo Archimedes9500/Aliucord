@@ -33,7 +33,7 @@ internal class ButtonsAPI : CorePlugin(Manifest("ButtonsAPI")) {
         }
     }
 
-    override fun start(context: Context) {}
+    override fun start(context: Context) {loggger.debug("".trimIndent()}
     override fun stop(context: Context) {}
 
     companion object {
