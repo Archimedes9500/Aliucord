@@ -29,6 +29,9 @@ import java.io.File
 import java.io.InputStreamReader
 import kotlin.system.measureTimeMillis
 
+typealias IntIterator = d0.t.c0
+typealias IntProgressionIterator = d0.d0.b
+
 /** Aliucord's Plugin Manager  */
 object PluginManager {
     /** Map containing all loaded plugins  */
@@ -203,7 +206,7 @@ object PluginManager {
             val millis = measureTimeMillis {
                 plugins[name]!!.start(appContext)
             }
-            logger.info("Started plugin: $name in $millis milliseconds".trimIndent())
+            logger.info("Started plugin: $name in $millis milliseconds")
         } catch (e: Throwable) {
             logger.error("Exception while starting plugin: $name", e)
         }
