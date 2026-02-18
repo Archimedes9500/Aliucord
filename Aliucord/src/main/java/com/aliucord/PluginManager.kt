@@ -55,7 +55,7 @@ object PluginManager {
     @Suppress("UNCHECKED_CAST")
     fun loadPlugin(context: Context, file: File) {
         val fileName = file.name.replace(".zip", "")
-        logger.info("Loading plugin: $fileName")
+        logger.info("Loading plugin: $fileName".trimIndent())
         try {
             val loader = PathClassLoader(file.absolutePath, context.classLoader)
             val manifest = loader.getResourceAsStream("manifest.json").use { stream ->
