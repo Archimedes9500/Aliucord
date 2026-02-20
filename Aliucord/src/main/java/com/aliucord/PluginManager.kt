@@ -29,8 +29,8 @@ import java.io.File
 import java.io.InputStreamReader
 import kotlin.system.measureTimeMillis
 
-typealias IntIterator = d0.t.c0
-typealias IntProgressionIterator = d0.d0.b
+//typealias IntIterator = d0.t.c0
+//typealias IntProgressionIterator = d0.d0.b
 
 /** Aliucord's Plugin Manager  */
 object PluginManager {
