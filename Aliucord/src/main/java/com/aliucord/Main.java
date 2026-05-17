@@ -277,10 +277,10 @@ public final class Main {
                         update.getInfo().getVersion().toString()));
             }
 
-            msg.insert(0, String.format("Updates for %d plugins: ", updates.size()));
             var notification = new NotificationData()
                 .setTitle("Updater")
-                .setBody(MDUtils.render(msg))
+                .setBody(MDUtils.render(String.format("Updates for %d plugins: ", updates.size())
+                    + msg))
                 .setAutoDismissPeriodSecs(30)
                 .setOnClick((view)-> {
                     Utils.openPage(Utils.appActivity, UpdaterScreen.class);
@@ -292,11 +292,9 @@ public final class Main {
         }
 
         var succeeded = 0;
-        var succeededMsg = new StringBuilder(
-            String.format("Automatically updated %s plugins: ", succeeded));
+        var succeededMsg = new StringBuilder();
         var failed = 0;
-        var failedMsg = new StringBuilder(
-            String.format("Failed to update %s plugins: ", failed));
+        var failedMsg = new StringBuilder();
         for (var update : updates) {
             if (!update.isUpdatePossible()) continue;
             if (PluginUpdater.updatePlugin(update)) {
@@ -319,12 +317,14 @@ public final class Main {
         if (failed == 0) {
             notification
                 .setAutoDismissPeriodSecs(10)
-                .setBody(MDUtils.render(succeededMsg))
+                .setBody(MDUtils.render(String.format("Automatically updated %s plugins: ", succeeded)
+                    + succeededMsg))
                 .setOnClick((view) -> Unit.a);
         } else {
             notification
                 .setAutoDismissPeriodSecs(30)
-                .setBody(MDUtils.render(failedMsg))
+                .setBody(MDUtils.render(String.format("Failed to update %s plugins: ", failed)
+                    + failedMsg))
                 .setOnClick((view) -> {
                     Utils.openPage(Utils.appActivity, UpdaterScreen.class);
                     return Unit.a;
