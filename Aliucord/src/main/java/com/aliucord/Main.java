@@ -272,17 +272,12 @@ public final class Main {
             var msg = new StringBuilder();
             for (var update : updates) {
                 if (msg.length() > 0) msg.append(", ");
-                msg
-                    .append("**")
-                    .append(update.getPluginName())
-                    .append("**\u00A0(")//NBSP
-                    .append(update.getInfo().getVersion().toString())
-                    .append(")");
+                msg.append(
+                    String.format("**%s**\u00A0(%s)", update.getPluginName(),
+                        update.getInfo().getVersion().toString()));
             }
 
-            msg
-                .replace(msg.length()-2, msg.length(), ".")
-                .insert(0, String.format("Updates for %d plugins: ", updates.size()));
+            msg.insert(0, String.format("Updates for %d plugins: ", updates.size()));
             var notification = new NotificationData()
                 .setTitle("Updater")
                 .setBody(MDUtils.render(msg))
@@ -297,46 +292,36 @@ public final class Main {
         }
 
         var succeeded = 0;
-        var succeededMsg = new StringBuilder();
+        var succeededMsg = new StringBuilder(
+            String.format("Automatically updated %s plugins: ", succeeded));
         var failed = 0;
-        var failedMsg = new StringBuilder();
+        var failedMsg = new StringBuilder(
+            String.format("Failed to update %s plugins: ", failed));
         for (var update : updates) {
             if (!update.isUpdatePossible()) continue;
             if (PluginUpdater.updatePlugin(update)) {
                 if(succeeded > 0) succeededMsg.append(", ");
                 succeeded++;
-                succeededMsg
-                    .append("**")
-                    .append(update.getPluginName())
-                    .append("**\u00A0(")//NBSP
-                    .append(update.getInfo().getVersion().toString())
-                    .append(")");
+                succeededMsg.append(
+                    String.format("**%s**\u00A0(%s)", update.getPluginName(),
+                        update.getInfo().getVersion().toString()));
             } else {
                 if(failed > 0) failedMsg.append(", ");
                 failed++;
-                failedMsg
-                    .append("**")
-                    .append(update.getPluginName())
-                    .append("**\u00A0(")//NBSP
-                    .append(update.getInfo().getVersion().toString())
-                    .append(")");
+                failedMsg.append(
+                    String.format("**%s**\u00A0(%s)", update.getPluginName(),
+                        update.getInfo().getVersion().toString()));
             }
         }
 
         var notification = new NotificationData()
             .setTitle("Updater");
         if (failed == 0) {
-            succeededMsg
-                .replace(succeededMsg.length()-2, succeededMsg.length(), ".")
-                .insert(0, String.format("Automatically updated %s plugins: ", succeeded));
             notification
                 .setAutoDismissPeriodSecs(10)
                 .setBody(MDUtils.render(succeededMsg))
                 .setOnClick((view) -> Unit.a);
         } else {
-            failedMsg
-                .replace(failedMsg.length()-2, failedMsg.length(), ".")
-                .insert(0, String.format("Failed to update %s plugins: ", failed));
             notification
                 .setAutoDismissPeriodSecs(30)
                 .setBody(MDUtils.render(failedMsg))
