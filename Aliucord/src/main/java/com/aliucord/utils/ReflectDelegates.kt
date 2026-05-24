@@ -11,6 +11,17 @@ import kotlin.properties.ReadOnlyProperty
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 
+val Field.accessFlags: Int by
+    try {
+        FieldAccessor()
+    } catch (e: ReflectiveOperationException) {
+        try {
+            FieldAccessor("modifiers")
+        } catch (e: ReflectiveOperationException) {
+           logger.error(e);
+        }
+    }
+
 /**
  * A lazy field delegate designed to improve the performance in field reflection.
  *
@@ -68,6 +79,7 @@ class FieldAccessor<T>(private val fieldName: String?): ReadWriteProperty<Any, T
             ).apply {
                 isAccessible = true
                 fields.add(this)
+                accessFlags = modifiers and Modifier.FINAL.inv()
             }
     }
 
