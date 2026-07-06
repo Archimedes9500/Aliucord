@@ -1,0 +1,42 @@
+name: Create smali patches
+on:
+  workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          path: "src"
+      - name: Checkout smali
+        uses: actions/checkout@v4
+        with:
+          ref: "smali"
+          path: "smali"
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+      - name: Assemble smali
+        run: |
+          cd $GITHUB_WORKSPACE/src
+          chmod +x ./gradlew
+          ./gradlew :patches:disassembleWithPatches
+          cp -R -T $GITHUB_WORKSPACE/smali/smali/. $GITHUB_WORKSPACE/src/patches/smali/
+          chmod +x ./gradlew
+          ./gradlew :patches:writePatches :patches:testPatches
+      - name: Setup git-blame-someone-else
+        run: |
+          git clone https://github.com/jayphelps/git-blame-someone-else.git
+          cd git-blame-someone-else
+          make install
+      - name: Push smali
+        run: |
+          cd $GITHUB_WORKSPACE/src
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "Added patches" || exit 0 #do not error if nothing to commit
+          git blame-someone-else "Archimedes9500 <82618548+Archimedes9500@users.noreply.github.com>" "$(git rev-parse HEAD)"
+          git push
