@@ -8,6 +8,10 @@ on:
   pull_request:
     paths-ignore:
       - "**.md"
+  workflow_run:
+    workflows: ["smali-diff", "smali-deploy"]
+    types:
+      - completed
 
 jobs:
   inspect:
