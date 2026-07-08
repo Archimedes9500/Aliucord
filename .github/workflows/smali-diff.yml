@@ -30,7 +30,8 @@ jobs:
           ./gradlew :patches:disassembleWithPatches
           cp -R -T $GITHUB_WORKSPACE/smali/smali/. $GITHUB_WORKSPACE/src/patches/smali/
           chmod +x ./gradlew
-          ./gradlew :patches:writePatches :patches:testPatches
+          ./gradlew :patches:writePatches
+          ./gradlew :patches:testPatches -x :patches:writePatches
       - name: Setup git-blame-someone-else
         run: |
           git clone https://github.com/jayphelps/git-blame-someone-else.git
