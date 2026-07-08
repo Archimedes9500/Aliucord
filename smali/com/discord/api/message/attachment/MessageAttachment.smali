@@ -90,6 +90,8 @@
 
 .field private final width:Ljava/lang/Integer;
 
+.field public final flags:I
+
 
 # direct methods
 .method public static constructor <clinit>()V
@@ -422,7 +424,16 @@
 
     move-result v0
 
+    iget v1, p0, Lcom/discord/api/message/attachment/MessageAttachment;->flags:I
+
+    const/4 v2, 0x8
+
+    if-eq v1, v2, :is_spoiler
+
     return v0
+
+    :is_spoiler
+    return 0x1
 .end method
 
 .method public hashCode()I
