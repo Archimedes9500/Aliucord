@@ -426,9 +426,9 @@
 
     iget v1, p0, Lcom/discord/api/message/attachment/MessageAttachment;->flags:I
 
-    const/4 v2, 0x8
+    and-int/lit8 v1, v1, 0x8
 
-    if-eq v1, v2, :is_spoiler
+    if-nez v1, :is_spoiler
 
     return v0
 
