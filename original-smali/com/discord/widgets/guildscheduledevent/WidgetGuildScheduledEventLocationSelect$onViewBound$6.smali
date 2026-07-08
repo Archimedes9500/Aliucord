@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect$onViewBound$6;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;->navigateNext()V
     invoke-static {p1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;->access$navigateNext(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;)V
 
     return-void

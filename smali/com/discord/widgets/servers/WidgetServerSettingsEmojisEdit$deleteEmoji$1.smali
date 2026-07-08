@@ -96,14 +96,12 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit$deleteEmoji$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;->guildId:J
     invoke-static {v0}, Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;->access$getGuildId$p(Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;)J
 
     move-result-wide v0
 
     iget-object v2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit$deleteEmoji$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;->emojiId:J
     invoke-static {v2}, Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;->access$getEmojiId$p(Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;)J
 
     move-result-wide v2

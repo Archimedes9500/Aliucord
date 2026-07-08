@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreChat$toggleBlockedMessageGroup$1;->this$0:Lcom/discord/stores/StoreChat;
 
-    # getter for: Lcom/discord/stores/StoreChat;->expandedBlockedMessageGroups:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/stores/StoreChat;->access$getExpandedBlockedMessageGroups$p(Lcom/discord/stores/StoreChat;)Ljava/util/List;
 
     move-result-object v0
@@ -109,7 +108,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreChat$toggleBlockedMessageGroup$1;->this$0:Lcom/discord/stores/StoreChat;
 
-    # getter for: Lcom/discord/stores/StoreChat;->expandedBlockedMessageGroups:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/stores/StoreChat;->access$getExpandedBlockedMessageGroups$p(Lcom/discord/stores/StoreChat;)Ljava/util/List;
 
     move-result-object v0
@@ -128,7 +126,6 @@
     :cond_22
     iget-object v0, p0, Lcom/discord/stores/StoreChat$toggleBlockedMessageGroup$1;->this$0:Lcom/discord/stores/StoreChat;
 
-    # getter for: Lcom/discord/stores/StoreChat;->expandedBlockedMessageGroups:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/stores/StoreChat;->access$getExpandedBlockedMessageGroups$p(Lcom/discord/stores/StoreChat;)Ljava/util/List;
 
     move-result-object v0

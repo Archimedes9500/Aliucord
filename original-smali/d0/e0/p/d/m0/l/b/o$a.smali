@@ -56,7 +56,6 @@
     .line 2
     iget-object p1, p0, Ld0/e0/p/d/m0/l/b/o$a;->this$0:Ld0/e0/p/d/m0/l/b/o;
 
-    # getter for: Ld0/e0/p/d/m0/l/b/o;->q:Ld0/e0/p/d/m0/l/b/e0/f;
     invoke-static {p1}, Ld0/e0/p/d/m0/l/b/o;->access$getContainerSource$p(Ld0/e0/p/d/m0/l/b/o;)Ld0/e0/p/d/m0/l/b/e0/f;
 
     move-result-object p1

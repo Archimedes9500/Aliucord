@@ -107,7 +107,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->handleConnectionsState(Ljava/util/List;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->access$handleConnectionsState(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;Ljava/util/List;)V
 
     return-void

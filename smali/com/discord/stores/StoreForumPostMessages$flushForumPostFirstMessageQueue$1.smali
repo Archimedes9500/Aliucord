@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreForumPostMessages$flushForumPostFirstMessageQueue$1;->this$0:Lcom/discord/stores/StoreForumPostMessages;
 
-    # getter for: Lcom/discord/stores/StoreForumPostMessages;->forumPostRequestQueueProcessing:Z
     invoke-static {v0}, Lcom/discord/stores/StoreForumPostMessages;->access$getForumPostRequestQueueProcessing$p(Lcom/discord/stores/StoreForumPostMessages;)Z
 
     move-result v0
@@ -111,7 +110,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreForumPostMessages$flushForumPostFirstMessageQueue$1;->$parentChannelId:J
 
-    # invokes: Lcom/discord/stores/StoreForumPostMessages;->flushForumPostFirstMessageQueueHelper(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreForumPostMessages;->access$flushForumPostFirstMessageQueueHelper(Lcom/discord/stores/StoreForumPostMessages;J)V
 
     return-void

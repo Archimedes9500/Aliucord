@@ -93,7 +93,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/mobile_reports/WidgetMobileReports$configureUI$2;->this$0:Lcom/discord/widgets/mobile_reports/WidgetMobileReports;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/WidgetMobileReports;->getBinding()Lcom/discord/databinding/WidgetMobileReportsBinding;
     invoke-static {v0}, Lcom/discord/widgets/mobile_reports/WidgetMobileReports;->access$getBinding$p(Lcom/discord/widgets/mobile_reports/WidgetMobileReports;)Lcom/discord/databinding/WidgetMobileReportsBinding;
 
     move-result-object v0
@@ -105,7 +104,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/mobile_reports/WidgetMobileReports$configureUI$2;->this$0:Lcom/discord/widgets/mobile_reports/WidgetMobileReports;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/WidgetMobileReports;->getBinding()Lcom/discord/databinding/WidgetMobileReportsBinding;
     invoke-static {v0}, Lcom/discord/widgets/mobile_reports/WidgetMobileReports;->access$getBinding$p(Lcom/discord/widgets/mobile_reports/WidgetMobileReports;)Lcom/discord/databinding/WidgetMobileReportsBinding;
 
     move-result-object v0

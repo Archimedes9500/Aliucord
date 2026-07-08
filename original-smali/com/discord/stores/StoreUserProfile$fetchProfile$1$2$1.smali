@@ -91,7 +91,6 @@
 
     iget-wide v2, v0, Lcom/discord/stores/StoreUserProfile$fetchProfile$1;->$userId:J
 
-    # invokes: Lcom/discord/stores/StoreUserProfile;->handleFailure(J)V
     invoke-static {v1, v2, v3}, Lcom/discord/stores/StoreUserProfile;->access$handleFailure(Lcom/discord/stores/StoreUserProfile;J)V
 
     return-void

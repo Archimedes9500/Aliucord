@@ -1289,7 +1289,6 @@
     move-object/from16 v24, v6
 
     .line 50
-    # getter for: Ld0/e0/p/d/m0/e/a/l0/l;->a:Ld0/e0/p/d/m0/e/a/c;
     invoke-static {v14}, Ld0/e0/p/d/m0/e/a/l0/l;->access$getAnnotationTypeQualifierResolver$p(Ld0/e0/p/d/m0/e/a/l0/l;)Ld0/e0/p/d/m0/e/a/c;
 
     move-result-object v6
@@ -2271,7 +2270,6 @@
     .line 115
     iget-object v4, v0, Ld0/e0/p/d/m0/e/a/l0/l$b;->h:Ld0/e0/p/d/m0/e/a/l0/l;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/l0/l;->c:Ld0/e0/p/d/m0/e/a/l0/d;
     invoke-static {v4}, Ld0/e0/p/d/m0/e/a/l0/l;->access$getTypeEnhancement$p(Ld0/e0/p/d/m0/e/a/l0/l;)Ld0/e0/p/d/m0/e/a/l0/d;
 
     move-result-object v4

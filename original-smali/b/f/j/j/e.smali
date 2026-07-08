@@ -1152,7 +1152,7 @@
 
     if-eq v8, v9, :cond_183
 
-    const v10, 0x4d4d002a    # 2.14958752E8f
+    const v10, 0x4d4d002a    # 2.1495875E8f
 
     if-eq v8, v10, :cond_183
 

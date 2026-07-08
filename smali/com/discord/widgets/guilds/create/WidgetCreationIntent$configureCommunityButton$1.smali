@@ -68,7 +68,6 @@
 
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    # invokes: Lcom/discord/widgets/guilds/create/WidgetCreationIntent;->onSelectionPressed(Ljava/lang/Boolean;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/guilds/create/WidgetCreationIntent;->access$onSelectionPressed(Lcom/discord/widgets/guilds/create/WidgetCreationIntent;Ljava/lang/Boolean;)V
 
     return-void

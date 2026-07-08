@@ -225,7 +225,6 @@
     check-cast v2, Ld0/e0/p/d/m0/i/n;
 
     .line 5
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/h;->c:Ld0/e0/p/d/m0/l/b/l;
     invoke-static {p1}, Ld0/e0/p/d/m0/l/b/e0/h;->access$getC(Ld0/e0/p/d/m0/l/b/e0/h;)Ld0/e0/p/d/m0/l/b/l;
 
     move-result-object v3
@@ -307,7 +306,6 @@
     check-cast v1, Ld0/e0/p/d/m0/i/n;
 
     .line 17
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/h;->c:Ld0/e0/p/d/m0/l/b/l;
     invoke-static {p1}, Ld0/e0/p/d/m0/l/b/e0/h;->access$getC(Ld0/e0/p/d/m0/l/b/e0/h;)Ld0/e0/p/d/m0/l/b/l;
 
     move-result-object v2
@@ -410,7 +408,6 @@
     check-cast v0, Ld0/e0/p/d/m0/i/n;
 
     .line 32
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/h;->c:Ld0/e0/p/d/m0/l/b/l;
     invoke-static {p1}, Ld0/e0/p/d/m0/l/b/e0/h;->access$getC(Ld0/e0/p/d/m0/l/b/e0/h;)Ld0/e0/p/d/m0/l/b/l;
 
     move-result-object v1

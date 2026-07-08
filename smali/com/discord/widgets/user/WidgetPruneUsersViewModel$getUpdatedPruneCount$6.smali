@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/WidgetPruneUsersViewModel;
 
     .line 2
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->access$updateViewState(Lcom/discord/widgets/user/WidgetPruneUsersViewModel;Lcom/discord/widgets/user/WidgetPruneUsersViewModel$ViewState;)V
 
     return-void

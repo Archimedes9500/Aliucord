@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreNotices$init$2;->this$0:Lcom/discord/stores/StoreNotices;
 
-    # invokes: Lcom/discord/stores/StoreNotices;->processNextNotice()V
     invoke-static {p1}, Lcom/discord/stores/StoreNotices;->access$processNextNotice(Lcom/discord/stores/StoreNotices;)V
 
     return-void

@@ -135,7 +135,6 @@
 
     move-object v1, p1
 
-    # invokes: Lcom/discord/restapi/utils/RetryWithDelay;->retryWithDelay(Lrx/Observable;JLjava/lang/Integer;Ljava/lang/Integer;Lkotlin/jvm/functions/Function1;)Lrx/Observable;
     invoke-static/range {v0 .. v6}, Lcom/discord/restapi/utils/RetryWithDelay;->access$retryWithDelay(Lcom/discord/restapi/utils/RetryWithDelay;Lrx/Observable;JLjava/lang/Integer;Ljava/lang/Integer;Lkotlin/jvm/functions/Function1;)Lrx/Observable;
 
     move-result-object p1

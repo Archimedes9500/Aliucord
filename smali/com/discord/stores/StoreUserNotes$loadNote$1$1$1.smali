@@ -95,7 +95,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreUserNotes$loadNote$1$1$1;->$note:Lcom/discord/models/domain/ModelUserNote;
 
-    # invokes: Lcom/discord/stores/StoreUserNotes;->handleRequestUserNoteSuccess(Lcom/discord/models/domain/ModelUserNote;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreUserNotes;->access$handleRequestUserNoteSuccess(Lcom/discord/stores/StoreUserNotes;Lcom/discord/models/domain/ModelUserNote;)V
 
     return-void

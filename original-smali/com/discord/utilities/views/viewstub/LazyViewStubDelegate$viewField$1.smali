@@ -86,7 +86,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/utilities/views/viewstub/LazyViewStubDelegate$viewField$1;->this$0:Lcom/discord/utilities/views/viewstub/LazyViewStubDelegate;
 
-    # getter for: Lcom/discord/utilities/views/viewstub/LazyViewStubDelegate;->listener:Landroid/view/View$OnClickListener;
     invoke-static {v1}, Lcom/discord/utilities/views/viewstub/LazyViewStubDelegate;->access$getListener$p(Lcom/discord/utilities/views/viewstub/LazyViewStubDelegate;)Landroid/view/View$OnClickListener;
 
     move-result-object v1

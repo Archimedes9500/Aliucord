@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationAssets$fetchIfNonExisting$1;->this$0:Lcom/discord/stores/StoreApplicationAssets;
 
-    # getter for: Lcom/discord/stores/StoreApplicationAssets;->embeddedAppBackgrounds:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationAssets;->access$getEmbeddedAppBackgrounds$p(Lcom/discord/stores/StoreApplicationAssets;)Ljava/util/Map;
 
     move-result-object v0
@@ -109,7 +108,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationAssets$fetchIfNonExisting$1;->this$0:Lcom/discord/stores/StoreApplicationAssets;
 
-    # getter for: Lcom/discord/stores/StoreApplicationAssets;->embeddedAppBackgroundsLoading:Ljava/util/HashSet;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationAssets;->access$getEmbeddedAppBackgroundsLoading$p(Lcom/discord/stores/StoreApplicationAssets;)Ljava/util/HashSet;
 
     move-result-object v0
@@ -132,7 +130,6 @@
     :cond_25
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationAssets$fetchIfNonExisting$1;->this$0:Lcom/discord/stores/StoreApplicationAssets;
 
-    # getter for: Lcom/discord/stores/StoreApplicationAssets;->restApi:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationAssets;->access$getRestApi$p(Lcom/discord/stores/StoreApplicationAssets;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0

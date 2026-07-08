@@ -97,7 +97,6 @@
 
     check-cast p1, Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$ViewState$Loaded;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->showContent(Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$ViewState$Loaded;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$showContent(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$ViewState$Loaded;)V
 
     goto :goto_1f
@@ -110,7 +109,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->showLoadingUI()V
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$showLoadingUI(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;)V
 
     goto :goto_1f
@@ -123,7 +121,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->showFailureUI()V
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$showFailureUI(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;)V
 
     :cond_1f

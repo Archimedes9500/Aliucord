@@ -96,7 +96,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/servers/WidgetServerSettingsChannels$configureUI$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsChannels;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsChannels;->channelSortTypeSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/servers/WidgetServerSettingsChannels;->access$getChannelSortTypeSubject$p(Lcom/discord/widgets/servers/WidgetServerSettingsChannels;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

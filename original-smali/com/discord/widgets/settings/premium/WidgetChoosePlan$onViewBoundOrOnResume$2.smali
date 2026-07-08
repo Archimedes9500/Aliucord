@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/premium/WidgetChoosePlan;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetChoosePlan;->configureUI(Lcom/discord/widgets/settings/premium/ChoosePlanViewModel$ViewState;)Lkotlin/Unit;
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/WidgetChoosePlan;->access$configureUI(Lcom/discord/widgets/settings/premium/WidgetChoosePlan;Lcom/discord/widgets/settings/premium/ChoosePlanViewModel$ViewState;)Lkotlin/Unit;
 
     return-void

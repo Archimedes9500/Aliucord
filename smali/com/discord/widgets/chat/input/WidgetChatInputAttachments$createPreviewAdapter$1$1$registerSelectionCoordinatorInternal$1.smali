@@ -109,7 +109,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$createPreviewAdapter$1$1$registerSelectionCoordinatorInternal$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$createPreviewAdapter$1$1;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$createPreviewAdapter$1$1;->track(Lcom/lytefast/flexinput/model/Attachment;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$createPreviewAdapter$1$1;->access$track(Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$createPreviewAdapter$1$1;Lcom/lytefast/flexinput/model/Attachment;)V
 
     .line 3

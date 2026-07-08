@@ -86,7 +86,6 @@
 
     if-eqz v0, :cond_40
 
-    # getter for: Ld0/z/d/f;->m:Ljava/util/HashMap;
     invoke-static {}, Ld0/z/d/f;->access$getClassFqNames$cp()Ljava/util/HashMap;
 
     move-result-object v0
@@ -123,7 +122,6 @@
 
     .line 6
     :cond_46
-    # getter for: Ld0/z/d/f;->m:Ljava/util/HashMap;
     invoke-static {}, Ld0/z/d/f;->access$getClassFqNames$cp()Ljava/util/HashMap;
 
     move-result-object v0
@@ -314,7 +312,6 @@
 
     if-eqz v0, :cond_9c
 
-    # getter for: Ld0/z/d/f;->n:Ljava/util/Map;
     invoke-static {}, Ld0/z/d/f;->access$getSimpleNames$cp()Ljava/util/Map;
 
     move-result-object v0
@@ -342,7 +339,6 @@
 
     .line 10
     :cond_a0
-    # getter for: Ld0/z/d/f;->n:Ljava/util/Map;
     invoke-static {}, Ld0/z/d/f;->access$getSimpleNames$cp()Ljava/util/Map;
 
     move-result-object v0

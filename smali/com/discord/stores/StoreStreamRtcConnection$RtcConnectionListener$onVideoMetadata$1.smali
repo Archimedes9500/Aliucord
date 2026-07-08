@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->storeStream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getStoreStream$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

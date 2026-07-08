@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StorePendingReplies$onDeletePendingReply$1;->this$0:Lcom/discord/stores/StorePendingReplies;
 
-    # getter for: Lcom/discord/stores/StorePendingReplies;->pendingReplies:Lcom/discord/utilities/collections/SnowflakePartitionMap$CopiablePartitionMap;
     invoke-static {v0}, Lcom/discord/stores/StorePendingReplies;->access$getPendingReplies$p(Lcom/discord/stores/StorePendingReplies;)Lcom/discord/utilities/collections/SnowflakePartitionMap$CopiablePartitionMap;
 
     move-result-object v0

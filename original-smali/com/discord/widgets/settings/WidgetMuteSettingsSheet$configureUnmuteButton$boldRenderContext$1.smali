@@ -93,7 +93,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetMuteSettingsSheet$configureUnmuteButton$boldRenderContext$1;->this$0:Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;->getBinding()Lcom/discord/databinding/WidgetMuteSettingsSheetBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;)Lcom/discord/databinding/WidgetMuteSettingsSheetBinding;
 
     move-result-object v0

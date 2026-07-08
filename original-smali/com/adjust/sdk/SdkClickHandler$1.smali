@@ -45,7 +45,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/SdkClickHandler$1;->this$0:Lcom/adjust/sdk/SdkClickHandler;
 
-    # getter for: Lcom/adjust/sdk/SdkClickHandler;->packageQueue:Ljava/util/List;
     invoke-static {v0}, Lcom/adjust/sdk/SdkClickHandler;->access$000(Lcom/adjust/sdk/SdkClickHandler;)Ljava/util/List;
 
     move-result-object v0
@@ -57,7 +56,6 @@
     .line 2
     iget-object v0, p0, Lcom/adjust/sdk/SdkClickHandler$1;->this$0:Lcom/adjust/sdk/SdkClickHandler;
 
-    # getter for: Lcom/adjust/sdk/SdkClickHandler;->logger:Lcom/adjust/sdk/ILogger;
     invoke-static {v0}, Lcom/adjust/sdk/SdkClickHandler;->access$100(Lcom/adjust/sdk/SdkClickHandler;)Lcom/adjust/sdk/ILogger;
 
     move-result-object v0
@@ -68,7 +66,6 @@
 
     iget-object v3, p0, Lcom/adjust/sdk/SdkClickHandler$1;->this$0:Lcom/adjust/sdk/SdkClickHandler;
 
-    # getter for: Lcom/adjust/sdk/SdkClickHandler;->packageQueue:Ljava/util/List;
     invoke-static {v3}, Lcom/adjust/sdk/SdkClickHandler;->access$000(Lcom/adjust/sdk/SdkClickHandler;)Ljava/util/List;
 
     move-result-object v3
@@ -92,7 +89,6 @@
     .line 3
     iget-object v0, p0, Lcom/adjust/sdk/SdkClickHandler$1;->this$0:Lcom/adjust/sdk/SdkClickHandler;
 
-    # getter for: Lcom/adjust/sdk/SdkClickHandler;->logger:Lcom/adjust/sdk/ILogger;
     invoke-static {v0}, Lcom/adjust/sdk/SdkClickHandler;->access$100(Lcom/adjust/sdk/SdkClickHandler;)Lcom/adjust/sdk/ILogger;
 
     move-result-object v0
@@ -114,7 +110,6 @@
     .line 4
     iget-object v0, p0, Lcom/adjust/sdk/SdkClickHandler$1;->this$0:Lcom/adjust/sdk/SdkClickHandler;
 
-    # invokes: Lcom/adjust/sdk/SdkClickHandler;->sendNextSdkClick()V
     invoke-static {v0}, Lcom/adjust/sdk/SdkClickHandler;->access$200(Lcom/adjust/sdk/SdkClickHandler;)V
 
     return-void

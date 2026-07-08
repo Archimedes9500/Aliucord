@@ -73,7 +73,6 @@
 
     sget-object v1, Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;->INSTANCE:Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;
 
-    # getter for: Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;->MIN_ID_HASH:J
     invoke-static {v1}, Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;->access$getMIN_ID_HASH$p(Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;)J
 
     move-result-wide v2
@@ -115,7 +114,6 @@
 
     check-cast v0, Ljava/lang/Long;
 
-    # getter for: Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;->MAX_ID_HASH:J
     invoke-static {v1}, Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;->access$getMAX_ID_HASH$p(Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;)J
 
     move-result-wide v1

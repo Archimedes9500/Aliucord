@@ -60,14 +60,12 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/c/s0;->this$0:Ld0/e0/p/d/m0/c/r0;
 
-    # getter for: Ld0/e0/p/d/m0/c/r0;->d:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Ld0/e0/p/d/m0/c/r0;->access$getScopeFactory$p(Ld0/e0/p/d/m0/c/r0;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0
 
     iget-object v1, p0, Ld0/e0/p/d/m0/c/s0;->this$0:Ld0/e0/p/d/m0/c/r0;
 
-    # getter for: Ld0/e0/p/d/m0/c/r0;->e:Ld0/e0/p/d/m0/n/l1/g;
     invoke-static {v1}, Ld0/e0/p/d/m0/c/r0;->access$getKotlinTypeRefinerForOwnerModule$p(Ld0/e0/p/d/m0/c/r0;)Ld0/e0/p/d/m0/n/l1/g;
 
     move-result-object v1

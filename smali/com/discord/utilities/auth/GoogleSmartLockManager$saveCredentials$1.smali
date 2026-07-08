@@ -169,7 +169,6 @@
     .line 12
     iget-object v0, p0, Lcom/discord/utilities/auth/GoogleSmartLockManager$saveCredentials$1;->this$0:Lcom/discord/utilities/auth/GoogleSmartLockManager;
 
-    # getter for: Lcom/discord/utilities/auth/GoogleSmartLockManager;->credentialsClient:Lcom/google/android/gms/auth/api/credentials/CredentialsClient;
     invoke-static {v0}, Lcom/discord/utilities/auth/GoogleSmartLockManager;->access$getCredentialsClient$p(Lcom/discord/utilities/auth/GoogleSmartLockManager;)Lcom/google/android/gms/auth/api/credentials/CredentialsClient;
 
     move-result-object v0

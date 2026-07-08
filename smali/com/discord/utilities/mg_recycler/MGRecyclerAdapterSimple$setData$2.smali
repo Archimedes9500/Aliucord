@@ -107,7 +107,6 @@
     iget-object v2, p0, Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple$setData$2;->$newData:Ljava/util/List;
 
     .line 5
-    # invokes: Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;->dispatchUpdates(Landroidx/recyclerview/widget/DiffUtil$DiffResult;Ljava/util/List;Ljava/util/List;)V
     invoke-static {v0, p1, v1, v2}, Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;->access$dispatchUpdates(Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;Landroidx/recyclerview/widget/DiffUtil$DiffResult;Ljava/util/List;Ljava/util/List;)V
 
     return-void

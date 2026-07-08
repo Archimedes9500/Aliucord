@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/user/profile/UserProfileHeaderView$updateViewState$2;->$viewState:Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel$ViewState$Loaded;
 
-    # invokes: Lcom/discord/widgets/user/profile/UserProfileHeaderView;->editAvatar(Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel$ViewState$Loaded;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/user/profile/UserProfileHeaderView;->access$editAvatar(Lcom/discord/widgets/user/profile/UserProfileHeaderView;Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel$ViewState$Loaded;)V
 
     return-void

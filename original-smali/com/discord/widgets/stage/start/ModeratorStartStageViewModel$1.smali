@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel;->handleStoreState(Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel;->access$handleStoreState(Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel;Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel$StoreState;)V
 
     return-void

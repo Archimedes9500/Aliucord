@@ -173,7 +173,6 @@
     .locals 2
 
     .line 1
-    # getter for: Lcom/discord/utilities/rest/RestAPI;->api:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {}, Lcom/discord/utilities/rest/RestAPI;->access$getApi$cp()Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0
@@ -192,7 +191,6 @@
     .locals 2
 
     .line 1
-    # getter for: Lcom/discord/utilities/rest/RestAPI;->apiClientVersions:Lcom/discord/restapi/RestAPIInterface$Dynamic;
     invoke-static {}, Lcom/discord/utilities/rest/RestAPI;->access$getApiClientVersions$cp()Lcom/discord/restapi/RestAPIInterface$Dynamic;
 
     move-result-object v0
@@ -211,7 +209,6 @@
     .locals 2
 
     .line 1
-    # getter for: Lcom/discord/utilities/rest/RestAPI;->apiFiles:Lcom/discord/restapi/RestAPIInterface$Files;
     invoke-static {}, Lcom/discord/utilities/rest/RestAPI;->access$getApiFiles$cp()Lcom/discord/restapi/RestAPIInterface$Files;
 
     move-result-object v0
@@ -230,7 +227,6 @@
     .locals 2
 
     .line 1
-    # getter for: Lcom/discord/utilities/rest/RestAPI;->apiRtcLatency:Lcom/discord/restapi/RestAPIInterface$RtcLatency;
     invoke-static {}, Lcom/discord/utilities/rest/RestAPI;->access$getApiRtcLatency$cp()Lcom/discord/restapi/RestAPIInterface$RtcLatency;
 
     move-result-object v0
@@ -249,7 +245,6 @@
     .locals 2
 
     .line 1
-    # getter for: Lcom/discord/utilities/rest/RestAPI;->apiSerializeNulls:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {}, Lcom/discord/utilities/rest/RestAPI;->access$getApiSerializeNulls$cp()Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0
@@ -268,7 +263,6 @@
     .locals 2
 
     .line 1
-    # getter for: Lcom/discord/utilities/rest/RestAPI;->apiSpotify:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {}, Lcom/discord/utilities/rest/RestAPI;->access$getApiSpotify$cp()Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0

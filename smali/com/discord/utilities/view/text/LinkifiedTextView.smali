@@ -258,7 +258,6 @@
     .line 3
     sget-object p1, Lcom/discord/utilities/view/text/LinkifiedTextView;->Companion:Lcom/discord/utilities/view/text/LinkifiedTextView$Companion;
 
-    # invokes: Lcom/discord/utilities/view/text/LinkifiedTextView$Companion;->getLogger()Lcom/discord/utilities/logging/Logger;
     invoke-static {p1}, Lcom/discord/utilities/view/text/LinkifiedTextView$Companion;->access$getLogger$p(Lcom/discord/utilities/view/text/LinkifiedTextView$Companion;)Lcom/discord/utilities/logging/Logger;
 
     move-result-object v1

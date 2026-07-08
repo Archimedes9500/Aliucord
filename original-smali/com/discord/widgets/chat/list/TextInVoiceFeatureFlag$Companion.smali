@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/chat/list/TextInVoiceFeatureFlag;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/chat/list/TextInVoiceFeatureFlag;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/chat/list/TextInVoiceFeatureFlag;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

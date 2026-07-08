@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/channels/threads/WidgetThreadDraftArchiveSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/threads/WidgetThreadDraftArchiveSheet;->configureUI(Lcom/discord/widgets/channels/threads/WidgetThreadDraftArchiveSheet$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/threads/WidgetThreadDraftArchiveSheet;->access$configureUI(Lcom/discord/widgets/channels/threads/WidgetThreadDraftArchiveSheet;Lcom/discord/widgets/channels/threads/WidgetThreadDraftArchiveSheet$Model;)V
 
     return-void

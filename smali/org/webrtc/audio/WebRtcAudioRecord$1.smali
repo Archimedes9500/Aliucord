@@ -52,7 +52,6 @@
     new-array v0, v0, [Ljava/lang/Object;
 
     .line 2
-    # getter for: Lorg/webrtc/audio/WebRtcAudioRecord;->nextSchedulerId:Ljava/util/concurrent/atomic/AtomicInteger;
     invoke-static {}, Lorg/webrtc/audio/WebRtcAudioRecord;->access$1000()Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object v1

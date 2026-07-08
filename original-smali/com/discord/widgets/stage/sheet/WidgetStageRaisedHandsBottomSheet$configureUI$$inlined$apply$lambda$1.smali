@@ -73,7 +73,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet$configureUI$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;->getViewModel()Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel;
     invoke-static {p1}, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;->access$getViewModel$p(Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;)Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel;
 
     move-result-object p1

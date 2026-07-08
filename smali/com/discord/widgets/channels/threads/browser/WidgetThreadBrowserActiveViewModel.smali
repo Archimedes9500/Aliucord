@@ -422,7 +422,6 @@
 
     move-object/from16 v13, v20
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserActiveViewModel$Companion;->observeStoreState(JJLcom/discord/stores/StoreUser;Lcom/discord/stores/StoreThreadsActive;Lcom/discord/stores/StoreThreadsActiveJoined;Lcom/discord/stores/StoreThreadMessages;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StorePermissions;)Lrx/Observable;
     invoke-static/range {v2 .. v13}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserActiveViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserActiveViewModel$Companion;JJLcom/discord/stores/StoreUser;Lcom/discord/stores/StoreThreadsActive;Lcom/discord/stores/StoreThreadsActiveJoined;Lcom/discord/stores/StoreThreadMessages;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StorePermissions;)Lrx/Observable;
 
     move-result-object v0

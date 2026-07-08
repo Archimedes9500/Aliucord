@@ -73,7 +73,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$configureUI$3;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->getBinding()Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
     invoke-static {p1}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getBinding$p(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;)Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
 
     move-result-object p1
@@ -94,7 +93,6 @@
 
     add-int/2addr v0, p2
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->getBitrateDisplayString(I)Ljava/lang/String;
     invoke-static {p3, v0}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getBitrateDisplayString(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;I)Ljava/lang/String;
 
     move-result-object p2

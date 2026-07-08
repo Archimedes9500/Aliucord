@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/servers/WidgetServerSettingsModeration;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsModeration;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsModeration$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsModeration;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsModeration;Lcom/discord/widgets/servers/WidgetServerSettingsModeration$Model;)V
 
     return-void

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/directories/WidgetDirectoriesSearch$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/directories/WidgetDirectoriesSearch;
 
-    # invokes: Lcom/discord/widgets/directories/WidgetDirectoriesSearch;->configureUI(Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/directories/WidgetDirectoriesSearch;->access$configureUI(Lcom/discord/widgets/directories/WidgetDirectoriesSearch;Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel$ViewState;)V
 
     return-void

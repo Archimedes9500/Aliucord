@@ -76,7 +76,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/tos/WidgetTosReportViolation$viewModel$2;->this$0:Lcom/discord/widgets/tos/WidgetTosReportViolation;
 
-    # invokes: Lcom/discord/widgets/tos/WidgetTosReportViolation;->getArgs()Lcom/discord/widgets/tos/WidgetTosReportViolation$Companion$Arguments;
     invoke-static {v1}, Lcom/discord/widgets/tos/WidgetTosReportViolation;->access$getArgs$p(Lcom/discord/widgets/tos/WidgetTosReportViolation;)Lcom/discord/widgets/tos/WidgetTosReportViolation$Companion$Arguments;
 
     move-result-object v1
@@ -87,7 +86,6 @@
 
     iget-object v3, p0, Lcom/discord/widgets/tos/WidgetTosReportViolation$viewModel$2;->this$0:Lcom/discord/widgets/tos/WidgetTosReportViolation;
 
-    # invokes: Lcom/discord/widgets/tos/WidgetTosReportViolation;->getArgs()Lcom/discord/widgets/tos/WidgetTosReportViolation$Companion$Arguments;
     invoke-static {v3}, Lcom/discord/widgets/tos/WidgetTosReportViolation;->access$getArgs$p(Lcom/discord/widgets/tos/WidgetTosReportViolation;)Lcom/discord/widgets/tos/WidgetTosReportViolation$Companion$Arguments;
 
     move-result-object v3

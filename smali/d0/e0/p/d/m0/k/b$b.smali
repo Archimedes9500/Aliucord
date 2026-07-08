@@ -108,7 +108,6 @@
 
     invoke-direct {v2, v3, v4}, Ld0/e0/p/d/m0/k/b$b$a;-><init>(Ld0/e0/p/d/m0/c/a;Ld0/e0/p/d/m0/c/a;)V
 
-    # invokes: Ld0/e0/p/d/m0/k/b;->a(Ld0/e0/p/d/m0/c/z0;Ld0/e0/p/d/m0/c/z0;ZLkotlin/jvm/functions/Function2;)Z
     invoke-static {v0, p1, p2, v1, v2}, Ld0/e0/p/d/m0/k/b;->access$areTypeParametersEquivalent(Ld0/e0/p/d/m0/k/b;Ld0/e0/p/d/m0/c/z0;Ld0/e0/p/d/m0/c/z0;ZLkotlin/jvm/functions/Function2;)Z
 
     move-result p1

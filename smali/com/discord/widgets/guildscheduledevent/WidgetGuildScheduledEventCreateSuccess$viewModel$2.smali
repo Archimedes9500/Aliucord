@@ -81,7 +81,6 @@
     .line 3
     iget-object v2, v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess$viewModel$2;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->getChannelId()Ljava/lang/Long;
     invoke-static {v2}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->access$getChannelId$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;)Ljava/lang/Long;
 
     move-result-object v2
@@ -89,7 +88,6 @@
     .line 4
     iget-object v3, v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess$viewModel$2;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->getGuildId()J
     invoke-static {v3}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->access$getGuildId$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;)J
 
     move-result-wide v3
@@ -97,7 +95,6 @@
     .line 5
     iget-object v5, v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess$viewModel$2;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->getGuildScheduledEventId()J
     invoke-static {v5}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->access$getGuildScheduledEventId$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;)J
 
     move-result-wide v5

@@ -75,7 +75,6 @@
     .locals 1
 
     .line 2
-    # getter for: Lcom/discord/utilities/collections/SnowflakePartitionMap;->PARTITION_SNOWFLAKE_ID_STRATEGY:Lkotlin/jvm/functions/Function1;
     invoke-static {}, Lcom/discord/utilities/collections/SnowflakePartitionMap;->access$getPARTITION_SNOWFLAKE_ID_STRATEGY$cp()Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

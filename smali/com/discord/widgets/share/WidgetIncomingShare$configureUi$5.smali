@@ -166,7 +166,6 @@
     .line 6
     iget-object v0, p0, Lcom/discord/widgets/share/WidgetIncomingShare$configureUi$5;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # getter for: Lcom/discord/widgets/share/WidgetIncomingShare;->contentPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getContentPublisher$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/guild_role_subscriptions/WidgetPriceTierPickerBottomSheet;->configureUI(Lcom/discord/widgets/guild_role_subscriptions/PriceTierPickerBottomSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guild_role_subscriptions/WidgetPriceTierPickerBottomSheet;->access$configureUI(Lcom/discord/widgets/guild_role_subscriptions/WidgetPriceTierPickerBottomSheet;Lcom/discord/widgets/guild_role_subscriptions/PriceTierPickerBottomSheetViewModel$ViewState;)V
 
     return-void

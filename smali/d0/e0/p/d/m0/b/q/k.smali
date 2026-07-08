@@ -127,7 +127,6 @@
     goto :goto_44
 
     :cond_40
-    # invokes: Ld0/e0/p/d/m0/b/q/g;->a(Ld0/e0/p/d/m0/c/e;)Ld0/e0/p/d/m0/e/a/i0/l/f;
     invoke-static {v0, v2}, Ld0/e0/p/d/m0/b/q/g;->access$getJavaAnalogue(Ld0/e0/p/d/m0/b/q/g;Ld0/e0/p/d/m0/c/e;)Ld0/e0/p/d/m0/e/a/i0/l/f;
 
     move-result-object v3

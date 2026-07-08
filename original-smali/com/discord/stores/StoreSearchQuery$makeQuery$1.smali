@@ -106,7 +106,6 @@
 
     iget-boolean v2, p0, Lcom/discord/stores/StoreSearchQuery$makeQuery$1;->$isInitialLoad:Z
 
-    # invokes: Lcom/discord/stores/StoreSearchQuery;->handleResponse(Lcom/discord/utilities/search/network/SearchQuery;Lcom/discord/models/domain/ModelSearchResponse;Z)V
     invoke-static {v0, v1, p1, v2}, Lcom/discord/stores/StoreSearchQuery;->access$handleResponse(Lcom/discord/stores/StoreSearchQuery;Lcom/discord/utilities/search/network/SearchQuery;Lcom/discord/models/domain/ModelSearchResponse;Z)V
 
     return-void

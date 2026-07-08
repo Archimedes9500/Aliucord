@@ -138,7 +138,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel;->DEFAULT_EXPIRATION:Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$FormState$Expiration;
     invoke-static {}, Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel;->access$getDEFAULT_EXPIRATION$cp()Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$FormState$Expiration;
 
     move-result-object v0

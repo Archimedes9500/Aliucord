@@ -43,7 +43,6 @@
 
     const-string/jumbo v1, "sdk"
 
-    # setter for: Lcom/adjust/sdk/AttributionHandler;->lastInitiatedBy:Ljava/lang/String;
     invoke-static {v0, v1}, Lcom/adjust/sdk/AttributionHandler;->access$102(Lcom/adjust/sdk/AttributionHandler;Ljava/lang/String;)Ljava/lang/String;
 
     .line 2
@@ -51,7 +50,6 @@
 
     const-wide/16 v1, 0x0
 
-    # invokes: Lcom/adjust/sdk/AttributionHandler;->getAttributionI(J)V
     invoke-static {v0, v1, v2}, Lcom/adjust/sdk/AttributionHandler;->access$200(Lcom/adjust/sdk/AttributionHandler;J)V
 
     return-void

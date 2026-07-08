@@ -96,7 +96,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet$configureEmptyStateUI$$inlined$with$lambda$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->analyticsSource:Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->access$getAnalyticsSource$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;)Ljava/lang/String;
 
     move-result-object v2

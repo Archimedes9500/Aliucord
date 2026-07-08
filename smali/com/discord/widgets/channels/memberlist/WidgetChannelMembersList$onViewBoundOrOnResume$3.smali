@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList$onViewBoundOrOnResume$3;->this$0:Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;
 
-    # invokes: Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;->updateRanges()V
     invoke-static {p1}, Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;->access$updateRanges(Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;)V
 
     return-void

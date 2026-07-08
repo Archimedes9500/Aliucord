@@ -102,7 +102,6 @@
     .line 3
     iget-object v2, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep$configureUI$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;
 
-    # getter for: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;->toastManager:Lcom/discord/utilities/view/ToastManager;
     invoke-static {v2}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;->access$getToastManager$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;)Lcom/discord/utilities/view/ToastManager;
 
     move-result-object v2
@@ -116,7 +115,6 @@
     :cond_24
     iget-object p1, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep$configureUI$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;->getViewModel()Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;->access$getViewModel$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;)Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
 
     move-result-object p1

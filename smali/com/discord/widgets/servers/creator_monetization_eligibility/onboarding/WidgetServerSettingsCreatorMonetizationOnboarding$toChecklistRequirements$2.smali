@@ -106,7 +106,6 @@
 
     move-result v1
 
-    # invokes: Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/WidgetServerSettingsCreatorMonetizationOnboarding;->formatDurationFromDays(I)Ljava/lang/CharSequence;
     invoke-static {v0, v1}, Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/WidgetServerSettingsCreatorMonetizationOnboarding;->access$formatDurationFromDays(Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/WidgetServerSettingsCreatorMonetizationOnboarding;I)Ljava/lang/CharSequence;
 
     move-result-object v0

@@ -114,7 +114,6 @@
 
     move-result-object v1
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, v1}, Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsGuildRoleSubscriptionViewModel;->access$updateViewState(Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsGuildRoleSubscriptionViewModel;Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsGuildRoleSubscriptionViewModel$ViewState;)V
 
     .line 3
@@ -124,7 +123,6 @@
 
     invoke-direct {v1, p1}, Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsGuildRoleSubscriptionViewModel$Event$SubmitFailure;-><init>(Lcom/discord/utilities/error/Error;)V
 
-    # invokes: Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsGuildRoleSubscriptionViewModel;->emitEvent(Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsGuildRoleSubscriptionViewModel$Event;)V
     invoke-static {v0, v1}, Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsGuildRoleSubscriptionViewModel;->access$emitEvent(Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsGuildRoleSubscriptionViewModel;Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsGuildRoleSubscriptionViewModel$Event;)V
 
     return-void

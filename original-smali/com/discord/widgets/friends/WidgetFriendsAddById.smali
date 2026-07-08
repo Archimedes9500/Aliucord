@@ -250,7 +250,6 @@
     .line 2
     sget-object v1, Lcom/discord/widgets/friends/WidgetFriendsAddById;->Companion:Lcom/discord/widgets/friends/WidgetFriendsAddById$Companion;
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsAddById$Companion;->extractUsernameAndDiscriminator(Ljava/lang/CharSequence;)Lcom/discord/widgets/friends/WidgetFriendsAddById$Companion$UserNameDiscriminator;
     invoke-static {v1, v0}, Lcom/discord/widgets/friends/WidgetFriendsAddById$Companion;->access$extractUsernameAndDiscriminator(Lcom/discord/widgets/friends/WidgetFriendsAddById$Companion;Ljava/lang/CharSequence;)Lcom/discord/widgets/friends/WidgetFriendsAddById$Companion$UserNameDiscriminator;
 
     move-result-object v1

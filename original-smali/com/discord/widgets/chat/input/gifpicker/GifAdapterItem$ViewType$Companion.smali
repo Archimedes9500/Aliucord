@@ -71,7 +71,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/chat/input/gifpicker/GifAdapterItem$ViewType;->values:[Lcom/discord/widgets/chat/input/gifpicker/GifAdapterItem$ViewType;
     invoke-static {}, Lcom/discord/widgets/chat/input/gifpicker/GifAdapterItem$ViewType;->access$getValues$cp()[Lcom/discord/widgets/chat/input/gifpicker/GifAdapterItem$ViewType;
 
     move-result-object v0

@@ -77,7 +77,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreApplicationInteractions;->ComponentStateUpdate:Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
     invoke-static {}, Lcom/discord/stores/StoreApplicationInteractions;->access$getComponentStateUpdate$cp()Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
 
     move-result-object v0
@@ -89,7 +88,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreApplicationInteractions;->SentInteractionsUpdate:Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
     invoke-static {}, Lcom/discord/stores/StoreApplicationInteractions;->access$getSentInteractionsUpdate$cp()Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
 
     move-result-object v0

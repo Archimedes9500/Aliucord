@@ -92,7 +92,6 @@
 
     iget-object v2, p0, Ld0/e0/p/d/m0/l/b/e0/h$e;->this$0:Ld0/e0/p/d/m0/l/b/e0/h;
 
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/h;->d:Ld0/e0/p/d/m0/l/b/e0/h$a;
     invoke-static {v2}, Ld0/e0/p/d/m0/l/b/e0/h;->access$getImpl$p(Ld0/e0/p/d/m0/l/b/e0/h;)Ld0/e0/p/d/m0/l/b/e0/h$a;
 
     move-result-object v2

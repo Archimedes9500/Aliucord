@@ -240,7 +240,6 @@
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
-    # getter for: Landroidx/constraintlayout/motion/widget/MotionLayout;->mEndState:I
     invoke-static {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->access$000(Landroidx/constraintlayout/motion/widget/MotionLayout;)I
 
     move-result v0
@@ -250,7 +249,6 @@
     .line 2
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
-    # getter for: Landroidx/constraintlayout/motion/widget/MotionLayout;->mBeginState:I
     invoke-static {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->access$100(Landroidx/constraintlayout/motion/widget/MotionLayout;)I
 
     move-result v0

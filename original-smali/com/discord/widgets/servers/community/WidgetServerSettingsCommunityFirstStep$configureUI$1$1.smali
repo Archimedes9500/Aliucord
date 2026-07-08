@@ -86,7 +86,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep$configureUI$1;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;->getBinding()Lcom/discord/databinding/WidgetServerSettingsCommunitySetupFirstStepBinding;
     invoke-static {v2}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;->access$getBinding$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;)Lcom/discord/databinding/WidgetServerSettingsCommunitySetupFirstStepBinding;
 
     move-result-object v2

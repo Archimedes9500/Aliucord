@@ -98,7 +98,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/widgets/friends/FriendsListViewModel;->emitLaunchVoiceCallEvent(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/friends/FriendsListViewModel;->access$emitLaunchVoiceCallEvent(Lcom/discord/widgets/friends/FriendsListViewModel;J)V
 
     return-void

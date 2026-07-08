@@ -30,7 +30,7 @@
     const/4 v7, 0x0
 
     :goto_b
-    const v8, -0x3361d2af    # -8.2930312E7f
+    const v8, -0x3361d2af    # -8.293031E7f
 
     if-ge v3, v1, :cond_ae
 

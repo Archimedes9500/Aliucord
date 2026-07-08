@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$showHolyLight$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->getBinding()Lcom/discord/databinding/WidgetSettingsAppearanceBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsAppearance;)Lcom/discord/databinding/WidgetSettingsAppearanceBinding;
 
     move-result-object p1
@@ -112,7 +111,6 @@
 
     const/4 v0, 0x0
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->tryEnableTorchMode(Z)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$tryEnableTorchMode(Lcom/discord/widgets/settings/WidgetSettingsAppearance;Z)V
 
     return-void

@@ -100,7 +100,6 @@
     .line 2
     iget-object v1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration$expiryBehaviorRadios$2;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->getBinding()Lcom/discord/databinding/WidgetServerSettingsEditIntegrationBinding;
     invoke-static {v1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;)Lcom/discord/databinding/WidgetServerSettingsEditIntegrationBinding;
 
     move-result-object v1
@@ -114,7 +113,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration$expiryBehaviorRadios$2;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->getBinding()Lcom/discord/databinding/WidgetServerSettingsEditIntegrationBinding;
     invoke-static {v1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;)Lcom/discord/databinding/WidgetServerSettingsEditIntegrationBinding;
 
     move-result-object v1

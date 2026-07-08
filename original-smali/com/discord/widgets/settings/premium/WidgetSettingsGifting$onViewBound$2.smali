@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsGifting$onViewBound$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;->getBinding()Lcom/discord/databinding/WidgetSettingsGiftingBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;->access$getBinding$p(Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;)Lcom/discord/databinding/WidgetSettingsGiftingBinding;
 
     move-result-object p1
@@ -142,7 +141,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsGifting$onViewBound$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;->getViewModel()Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
     invoke-static {v0}, Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;->access$getViewModel$p(Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;)Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
 
     move-result-object v0

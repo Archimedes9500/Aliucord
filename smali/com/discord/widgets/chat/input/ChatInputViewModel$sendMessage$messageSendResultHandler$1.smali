@@ -173,7 +173,6 @@
     .line 12
     iget-object p1, p0, Lcom/discord/widgets/chat/input/ChatInputViewModel$sendMessage$messageSendResultHandler$1;->this$0:Lcom/discord/widgets/chat/input/ChatInputViewModel;
 
-    # getter for: Lcom/discord/widgets/chat/input/ChatInputViewModel;->storeThreadDraft:Lcom/discord/stores/StoreThreadDraft;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/ChatInputViewModel;->access$getStoreThreadDraft$p(Lcom/discord/widgets/chat/input/ChatInputViewModel;)Lcom/discord/stores/StoreThreadDraft;
 
     move-result-object p1

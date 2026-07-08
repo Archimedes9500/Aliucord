@@ -126,7 +126,6 @@
 
     iget-object v2, p0, Ld0/e0/p/d/m0/e/a/i0/m/f$a;->$attr:Ld0/e0/p/d/m0/e/a/i0/m/a;
 
-    # invokes: Ld0/e0/p/d/m0/e/a/i0/m/f;->a(Ld0/e0/p/d/m0/n/j0;Ld0/e0/p/d/m0/c/e;Ld0/e0/p/d/m0/e/a/i0/m/a;)Lkotlin/Pair;
     invoke-static {v0, v1, p1, v2}, Ld0/e0/p/d/m0/e/a/i0/m/f;->access$eraseInflexibleBasedOnClassDescriptor(Ld0/e0/p/d/m0/e/a/i0/m/f;Ld0/e0/p/d/m0/n/j0;Ld0/e0/p/d/m0/c/e;Ld0/e0/p/d/m0/e/a/i0/m/a;)Lkotlin/Pair;
 
     move-result-object p1

@@ -82,7 +82,6 @@
 
     iget-wide v1, p0, Lcom/discord/widgets/nux/WidgetNuxChannelPrompt$onViewBound$3;->$guildId:J
 
-    # invokes: Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;->finishActivity(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;->access$finishActivity(Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;J)V
 
     .line 3

@@ -82,7 +82,6 @@
 
     move-result p1
 
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->maybeCheckClaimedPromos(Z)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->access$maybeCheckClaimedPromos(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;Z)V
 
     return-void

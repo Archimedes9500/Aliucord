@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSync;->handleEvent(Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$handleEvent(Lcom/discord/widgets/contact_sync/WidgetContactSync;Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$Event;)V
 
     return-void

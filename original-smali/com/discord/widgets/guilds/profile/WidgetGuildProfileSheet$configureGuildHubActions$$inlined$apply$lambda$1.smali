@@ -105,7 +105,6 @@
 
     iget-wide v0, p0, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet$configureGuildHubActions$$inlined$apply$lambda$1;->$guildId$inlined:J
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;->showLeaveServerDialog(J)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;->access$showLeaveServerDialog(Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;J)V
 
     return-void

@@ -260,7 +260,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->badgeGravity:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$500(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -278,7 +277,6 @@
 
     iget-object v2, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->verticalOffset:I
     invoke-static {v2}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$700(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v2
@@ -297,7 +295,6 @@
 
     iget-object v2, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->verticalOffset:I
     invoke-static {v2}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$700(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v2
@@ -403,7 +400,6 @@
     .line 15
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->badgeGravity:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$500(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -436,7 +432,6 @@
     iget-object p1, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
     .line 17
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->horizontalOffset:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$600(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result p1
@@ -463,7 +458,6 @@
     iget-object p1, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
     .line 18
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->horizontalOffset:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$600(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result p1
@@ -500,7 +494,6 @@
     iget-object p1, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
     .line 20
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->horizontalOffset:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$600(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result p1
@@ -527,7 +520,6 @@
     iget-object p1, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
     .line 21
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->horizontalOffset:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$600(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result p1
@@ -949,7 +941,6 @@
     .end param
 
     .line 1
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->maxCharacterCount:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$100(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -957,7 +948,6 @@
     invoke-virtual {p0, v0}, Lcom/google/android/material/badge/BadgeDrawable;->setMaxCharacterCount(I)V
 
     .line 2
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->number:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$200(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -967,7 +957,6 @@
     if-eq v0, v1, :cond_15
 
     .line 3
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->number:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$200(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -976,7 +965,6 @@
 
     .line 4
     :cond_15
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->backgroundColor:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$300(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -984,7 +972,6 @@
     invoke-virtual {p0, v0}, Lcom/google/android/material/badge/BadgeDrawable;->setBackgroundColor(I)V
 
     .line 5
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->badgeTextColor:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$400(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -992,7 +979,6 @@
     invoke-virtual {p0, v0}, Lcom/google/android/material/badge/BadgeDrawable;->setBadgeTextColor(I)V
 
     .line 6
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->badgeGravity:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$500(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1000,7 +986,6 @@
     invoke-virtual {p0, v0}, Lcom/google/android/material/badge/BadgeDrawable;->setBadgeGravity(I)V
 
     .line 7
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->horizontalOffset:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$600(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1008,7 +993,6 @@
     invoke-virtual {p0, v0}, Lcom/google/android/material/badge/BadgeDrawable;->setHorizontalOffset(I)V
 
     .line 8
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->verticalOffset:I
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$700(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1016,7 +1000,6 @@
     invoke-virtual {p0, v0}, Lcom/google/android/material/badge/BadgeDrawable;->setVerticalOffset(I)V
 
     .line 9
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->isVisible:Z
     invoke-static {p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$000(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)Z
 
     move-result p1
@@ -1418,7 +1401,6 @@
 
     const/4 v1, -0x1
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->number:I
     invoke-static {v0, v1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$202(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     .line 2
@@ -1487,7 +1469,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->alpha:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$800(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1520,7 +1501,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->badgeGravity:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$500(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1574,7 +1554,6 @@
     .line 3
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->contentDescriptionQuantityStrings:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$1000(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1616,7 +1595,6 @@
     iget-object v1, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
     .line 7
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->contentDescriptionQuantityStrings:I
     invoke-static {v1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$1000(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v1
@@ -1649,7 +1627,6 @@
     iget-object v1, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
     .line 10
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->contentDescriptionExceedsMaxBadgeNumberRes:I
     invoke-static {v1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$1100(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v1
@@ -1678,7 +1655,6 @@
     :cond_60
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->contentDescriptionNumberless:Ljava/lang/CharSequence;
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$900(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -1717,7 +1693,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->horizontalOffset:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$600(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1757,7 +1732,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->maxCharacterCount:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$100(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1783,7 +1757,6 @@
     :cond_8
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->number:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$200(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1816,7 +1789,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->verticalOffset:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$700(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1830,7 +1802,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->number:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$200(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1889,7 +1860,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->alpha:I
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$802(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     .line 2
@@ -1917,7 +1887,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->backgroundColor:I
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$302(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     .line 2
@@ -1952,7 +1921,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->badgeGravity:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$500(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -1962,7 +1930,6 @@
     .line 2
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->badgeGravity:I
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$502(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     .line 3
@@ -2019,7 +1986,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->badgeTextColor:I
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$402(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     .line 2
@@ -2067,7 +2033,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->contentDescriptionExceedsMaxBadgeNumberRes:I
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$1102(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     return-void
@@ -2079,7 +2044,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->contentDescriptionNumberless:Ljava/lang/CharSequence;
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$902(Lcom/google/android/material/badge/BadgeDrawable$SavedState;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     return-void
@@ -2095,7 +2059,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->contentDescriptionQuantityStrings:I
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$1002(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     return-void
@@ -2107,7 +2070,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->horizontalOffset:I
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$602(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     .line 2
@@ -2122,7 +2084,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->maxCharacterCount:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$100(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -2132,7 +2093,6 @@
     .line 2
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->maxCharacterCount:I
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$102(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     .line 3
@@ -2168,7 +2128,6 @@
     .line 2
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # getter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->number:I
     invoke-static {v0}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$200(Lcom/google/android/material/badge/BadgeDrawable$SavedState;)I
 
     move-result v0
@@ -2178,7 +2137,6 @@
     .line 3
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->number:I
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$202(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     .line 4
@@ -2204,7 +2162,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->verticalOffset:I
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$702(Lcom/google/android/material/badge/BadgeDrawable$SavedState;I)I
 
     .line 2
@@ -2224,7 +2181,6 @@
     .line 2
     iget-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->savedState:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    # setter for: Lcom/google/android/material/badge/BadgeDrawable$SavedState;->isVisible:Z
     invoke-static {v0, p1}, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->access$002(Lcom/google/android/material/badge/BadgeDrawable$SavedState;Z)Z
 
     .line 3

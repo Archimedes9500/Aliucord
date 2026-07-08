@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/settings/premium/WidgetSettingsGifting$onViewBound$chooseGiftCallback$1;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;->enableGiftingButtons()V
     invoke-static {v0}, Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;->access$enableGiftingButtons(Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;)V
 
     return-void

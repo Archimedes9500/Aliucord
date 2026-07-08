@@ -72,7 +72,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog$configureLoadedUI$1;->this$0:Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;->getViewModel()Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;->access$getViewModel$p(Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;)Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel;
 
     move-result-object p1
@@ -96,7 +95,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog$configureLoadedUI$1;->this$0:Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;->getViewModel()Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;->access$getViewModel$p(Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;)Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel;
 
     move-result-object p1

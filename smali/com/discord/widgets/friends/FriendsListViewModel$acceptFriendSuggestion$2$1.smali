@@ -106,7 +106,6 @@
 
     iget v0, v0, Lcom/discord/widgets/friends/FriendsListViewModel$acceptFriendSuggestion$2;->$discriminator:I
 
-    # invokes: Lcom/discord/widgets/friends/FriendsListViewModel;->emitCaptchaErrorEvent(Lcom/discord/utilities/error/Error;Ljava/lang/String;I)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/widgets/friends/FriendsListViewModel;->access$emitCaptchaErrorEvent(Lcom/discord/widgets/friends/FriendsListViewModel;Lcom/discord/utilities/error/Error;Ljava/lang/String;I)V
 
     :cond_15

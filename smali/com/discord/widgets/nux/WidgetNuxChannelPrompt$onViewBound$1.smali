@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/nux/WidgetNuxChannelPrompt$onViewBound$1;->this$0:Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;
 
-    # invokes: Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;->handleGuild(Lcom/discord/models/guild/Guild;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;->access$handleGuild(Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;Lcom/discord/models/guild/Guild;)V
 
     return-void

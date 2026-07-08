@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreInstantInvites$fetchGuildInvites$1$1;->$invites:Ljava/util/List;
 
-    # invokes: Lcom/discord/stores/StoreInstantInvites;->onLoadedInvites(Ljava/util/List;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreInstantInvites;->access$onLoadedInvites(Lcom/discord/stores/StoreInstantInvites;Ljava/util/List;)V
 
     return-void

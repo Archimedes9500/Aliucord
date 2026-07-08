@@ -91,7 +91,6 @@
     .line 2
     iget-object v1, v0, Lcom/discord/stores/StoreAnalytics$trackCallReportProblem$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v1}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v1
@@ -111,7 +110,6 @@
     .line 3
     iget-object v1, v0, Lcom/discord/stores/StoreAnalytics$trackCallReportProblem$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v1}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v1
@@ -136,7 +134,6 @@
     .line 5
     iget-object v1, v0, Lcom/discord/stores/StoreAnalytics$trackCallReportProblem$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v1}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v1
@@ -148,7 +145,6 @@
     .line 6
     iget-object v2, v0, Lcom/discord/stores/StoreAnalytics$trackCallReportProblem$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v2}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v2
@@ -174,7 +170,6 @@
     .line 9
     iget-object v7, v0, Lcom/discord/stores/StoreAnalytics$trackCallReportProblem$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v7}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v7

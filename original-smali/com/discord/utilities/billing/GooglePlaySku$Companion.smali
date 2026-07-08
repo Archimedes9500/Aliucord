@@ -86,7 +86,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lcom/discord/utilities/billing/GooglePlaySku;->skusBySkuName:Ljava/util/Map;
     invoke-static {}, Lcom/discord/utilities/billing/GooglePlaySku;->access$getSkusBySkuName$cp()Ljava/util/Map;
 
     move-result-object v0
@@ -112,7 +111,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/utilities/billing/GooglePlaySku;->ALL_SKU_NAMES:Ljava/util/List;
     invoke-static {}, Lcom/discord/utilities/billing/GooglePlaySku;->access$getALL_SKU_NAMES$cp()Ljava/util/List;
 
     move-result-object v0

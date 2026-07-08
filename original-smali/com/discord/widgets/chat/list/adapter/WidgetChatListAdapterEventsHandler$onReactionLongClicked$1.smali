@@ -103,7 +103,6 @@
 
     iget-object v5, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$onReactionLongClicked$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;->getContext()Landroid/content/Context;
     invoke-static {v5}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;->access$getContext$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;)Landroid/content/Context;
 
     move-result-object v5

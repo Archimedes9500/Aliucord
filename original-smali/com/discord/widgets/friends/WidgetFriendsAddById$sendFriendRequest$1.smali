@@ -137,7 +137,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/friends/WidgetFriendsAddById$sendFriendRequest$1;->this$0:Lcom/discord/widgets/friends/WidgetFriendsAddById;
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsAddById;->getBinding()Lcom/discord/databinding/WidgetFriendsAddByIdBinding;
     invoke-static {p1}, Lcom/discord/widgets/friends/WidgetFriendsAddById;->access$getBinding$p(Lcom/discord/widgets/friends/WidgetFriendsAddById;)Lcom/discord/databinding/WidgetFriendsAddByIdBinding;
 
     move-result-object p1

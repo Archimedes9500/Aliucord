@@ -93,7 +93,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogFilterAdapter;->onFilterSelectedCallback:Lkotlin/jvm/functions/Function0;
     invoke-static {p1}, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogFilterAdapter;->access$getOnFilterSelectedCallback$p(Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogFilterAdapter;)Lkotlin/jvm/functions/Function0;
 
     move-result-object p1

@@ -144,7 +144,6 @@
 
     invoke-static {p1, v2}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase;->computeShouldDismiss(ZZLcom/discord/models/requiredaction/RequiredAction;)Z
     invoke-static {p2, v0, v1, p1}, Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase;->access$computeShouldDismiss(Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase;ZZLcom/discord/models/requiredaction/RequiredAction;)Z
 
     move-result p1

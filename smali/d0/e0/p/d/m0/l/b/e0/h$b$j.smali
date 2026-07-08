@@ -76,7 +76,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/l/b/e0/h$b$j;->this$0:Ld0/e0/p/d/m0/l/b/e0/h$b;
 
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/h$b;->c:Ljava/util/List;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/e0/h$b;->access$getPropertyList$p(Ld0/e0/p/d/m0/l/b/e0/h$b;)Ljava/util/List;
 
     move-result-object v1
@@ -108,7 +107,6 @@
     check-cast v3, Ld0/e0/p/d/m0/i/n;
 
     .line 6
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/h;->c:Ld0/e0/p/d/m0/l/b/l;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/e0/h;->access$getC(Ld0/e0/p/d/m0/l/b/e0/h;)Ld0/e0/p/d/m0/l/b/l;
 
     move-result-object v4

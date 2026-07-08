@@ -109,14 +109,12 @@
 
     iget-object p1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$updateMenu$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->getGuildId()J
     invoke-static {p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getGuildId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)J
 
     move-result-wide v2
 
     iget-object p1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$updateMenu$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->getChannelId()J
     invoke-static {p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getChannelId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)J
 
     move-result-wide v4
@@ -136,14 +134,12 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$updateMenu$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->getGuildId()J
     invoke-static {p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getGuildId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)J
 
     move-result-wide v1
 
     iget-object p1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$updateMenu$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->getChannelId()J
     invoke-static {p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getChannelId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)J
 
     move-result-wide v3

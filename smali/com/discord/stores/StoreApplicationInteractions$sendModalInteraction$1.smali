@@ -111,7 +111,6 @@
     .line 2
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationInteractions$sendModalInteraction$1;->this$0:Lcom/discord/stores/StoreApplicationInteractions;
 
-    # getter for: Lcom/discord/stores/StoreApplicationInteractions;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationInteractions;->access$getRestAPI$p(Lcom/discord/stores/StoreApplicationInteractions;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v1
@@ -147,7 +146,6 @@
     .line 7
     iget-object v2, v0, Lcom/discord/stores/StoreApplicationInteractions$sendModalInteraction$1;->this$0:Lcom/discord/stores/StoreApplicationInteractions;
 
-    # getter for: Lcom/discord/stores/StoreApplicationInteractions;->sessionId:Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/stores/StoreApplicationInteractions;->access$getSessionId$p(Lcom/discord/stores/StoreApplicationInteractions;)Ljava/lang/String;
 
     move-result-object v12

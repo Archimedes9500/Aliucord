@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->onGuildClicked(Lcom/discord/widgets/chat/input/sticker/StickerCategoryItem$GuildItem;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$onGuildClicked(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;Lcom/discord/widgets/chat/input/sticker/StickerCategoryItem$GuildItem;)V
 
     return-void

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->onHandleGiftCode(Lcom/discord/stores/StoreGifting$GiftState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->access$onHandleGiftCode(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;Lcom/discord/stores/StoreGifting$GiftState;)V
 
     return-void

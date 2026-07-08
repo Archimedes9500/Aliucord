@@ -85,12 +85,10 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium$getPremiumSubscriptionViewCallbacks$5;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->getViewModel()Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;
     invoke-static {v0}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$getViewModel$p(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;)Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;
 
     move-result-object v1
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->showCancelConfirmationAlert(Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;)V
     invoke-static {v0, v1}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$showCancelConfirmationAlert(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;)V
 
     return-void

@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/emoji/EmojiSheetViewModel;->handleStoreState(Lcom/discord/widgets/emoji/EmojiSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/emoji/EmojiSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/emoji/EmojiSheetViewModel;Lcom/discord/widgets/emoji/EmojiSheetViewModel$StoreState;)V
 
     return-void

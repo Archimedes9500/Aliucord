@@ -93,7 +93,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/tabs/TabsHostViewModel$3;->this$0:Lcom/discord/widgets/tabs/TabsHostViewModel;
 
-    # invokes: Lcom/discord/widgets/tabs/TabsHostViewModel;->dismissSearchDialog()V
     invoke-static {p1}, Lcom/discord/widgets/tabs/TabsHostViewModel;->access$dismissSearchDialog(Lcom/discord/widgets/tabs/TabsHostViewModel;)V
 
     return-void

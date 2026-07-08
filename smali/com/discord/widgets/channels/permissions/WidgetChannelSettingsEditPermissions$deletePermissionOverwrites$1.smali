@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$deletePermissionOverwrites$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getState$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1

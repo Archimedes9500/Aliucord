@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/utilities/friendsuggestions/FriendSuggestionsFetcher$maybeFetch$2;->this$0:Lcom/discord/utilities/friendsuggestions/FriendSuggestionsFetcher;
 
-    # getter for: Lcom/discord/utilities/friendsuggestions/FriendSuggestionsFetcher;->onFetchSuccess:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Lcom/discord/utilities/friendsuggestions/FriendSuggestionsFetcher;->access$getOnFetchSuccess$p(Lcom/discord/utilities/friendsuggestions/FriendSuggestionsFetcher;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

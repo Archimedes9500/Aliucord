@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreMediaEngine$setupMediaEngineSettingsSubscription$1;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # getter for: Lcom/discord/stores/StoreMediaEngine;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreMediaEngine;->access$getDispatcher$p(Lcom/discord/stores/StoreMediaEngine;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

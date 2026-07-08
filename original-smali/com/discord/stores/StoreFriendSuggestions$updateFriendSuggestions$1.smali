@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreFriendSuggestions$updateFriendSuggestions$1;->this$0:Lcom/discord/stores/StoreFriendSuggestions;
 
-    # getter for: Lcom/discord/stores/StoreFriendSuggestions;->storeStream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreFriendSuggestions;->access$getStoreStream$p(Lcom/discord/stores/StoreFriendSuggestions;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

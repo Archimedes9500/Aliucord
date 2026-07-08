@@ -102,7 +102,6 @@
     .line 2
     iget-object v1, v0, Lcom/discord/stores/StoreCalls$stopRinging$1;->this$0:Lcom/discord/stores/StoreCalls;
 
-    # getter for: Lcom/discord/stores/StoreCalls;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v1}, Lcom/discord/stores/StoreCalls;->access$getStream$p(Lcom/discord/stores/StoreCalls;)Lcom/discord/stores/StoreStream;
 
     move-result-object v1

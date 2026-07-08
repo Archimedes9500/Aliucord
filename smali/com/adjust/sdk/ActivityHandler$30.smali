@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/ActivityHandler$30;->this$0:Lcom/adjust/sdk/ActivityHandler;
 
-    # getter for: Lcom/adjust/sdk/ActivityHandler;->adjustConfig:Lcom/adjust/sdk/AdjustConfig;
     invoke-static {v0}, Lcom/adjust/sdk/ActivityHandler;->access$3000(Lcom/adjust/sdk/ActivityHandler;)Lcom/adjust/sdk/AdjustConfig;
 
     move-result-object v0
@@ -52,7 +51,6 @@
 
     move-result v0
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->setEnabledI(Z)V
     invoke-static {p1, v0}, Lcom/adjust/sdk/ActivityHandler;->access$1100(Lcom/adjust/sdk/ActivityHandler;Z)V
 
     return-void

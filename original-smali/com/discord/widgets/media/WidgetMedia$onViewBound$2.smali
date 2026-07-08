@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/media/WidgetMedia$onViewBound$2;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # invokes: Lcom/discord/widgets/media/WidgetMedia;->onMediaClick()V
     invoke-static {p1}, Lcom/discord/widgets/media/WidgetMedia;->access$onMediaClick(Lcom/discord/widgets/media/WidgetMedia;)V
 
     return-void

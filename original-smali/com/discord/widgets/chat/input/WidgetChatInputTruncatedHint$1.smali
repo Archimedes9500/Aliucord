@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;->hintIsTruncated:Z
     invoke-static {v0}, Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;->access$getHintIsTruncated$p(Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;)Z
 
     move-result v0

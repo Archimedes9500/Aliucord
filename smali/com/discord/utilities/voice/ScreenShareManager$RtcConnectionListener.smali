@@ -83,7 +83,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/utilities/voice/ScreenShareManager$RtcConnectionListener;->this$0:Lcom/discord/utilities/voice/ScreenShareManager;
 
-    # getter for: Lcom/discord/utilities/voice/ScreenShareManager;->previousState:Lcom/discord/utilities/voice/ScreenShareManager$State;
     invoke-static {p1}, Lcom/discord/utilities/voice/ScreenShareManager;->access$getPreviousState$p(Lcom/discord/utilities/voice/ScreenShareManager;)Lcom/discord/utilities/voice/ScreenShareManager$State;
 
     move-result-object p1
@@ -105,7 +104,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/utilities/voice/ScreenShareManager$RtcConnectionListener;->this$0:Lcom/discord/utilities/voice/ScreenShareManager;
 
-    # getter for: Lcom/discord/utilities/voice/ScreenShareManager;->screenshareIntent:Landroid/content/Intent;
     invoke-static {v0}, Lcom/discord/utilities/voice/ScreenShareManager;->access$getScreenshareIntent$p(Lcom/discord/utilities/voice/ScreenShareManager;)Landroid/content/Intent;
 
     move-result-object v0
@@ -113,7 +111,6 @@
     .line 5
     iget-object v1, p0, Lcom/discord/utilities/voice/ScreenShareManager$RtcConnectionListener;->this$0:Lcom/discord/utilities/voice/ScreenShareManager;
 
-    # invokes: Lcom/discord/utilities/voice/ScreenShareManager;->createThumbnailEmitter()Lcom/discord/rtcconnection/mediaengine/ThumbnailEmitter;
     invoke-static {v1}, Lcom/discord/utilities/voice/ScreenShareManager;->access$createThumbnailEmitter(Lcom/discord/utilities/voice/ScreenShareManager;)Lcom/discord/rtcconnection/mediaengine/ThumbnailEmitter;
 
     move-result-object v1
@@ -124,7 +121,6 @@
     .line 7
     iget-object p1, p0, Lcom/discord/utilities/voice/ScreenShareManager$RtcConnectionListener;->this$0:Lcom/discord/utilities/voice/ScreenShareManager;
 
-    # invokes: Lcom/discord/utilities/voice/ScreenShareManager;->uploadScreenSharePreviews()V
     invoke-static {p1}, Lcom/discord/utilities/voice/ScreenShareManager;->access$uploadScreenSharePreviews(Lcom/discord/utilities/voice/ScreenShareManager;)V
 
     goto :goto_3e

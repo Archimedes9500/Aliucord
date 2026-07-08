@@ -151,7 +151,6 @@
 
     move-result-object p2
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->confirmDelete(Lcom/discord/api/channel/Channel;)V
     invoke-static {p1, p2}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$confirmDelete(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;Lcom/discord/api/channel/Channel;)V
 
     goto :goto_4a
@@ -166,7 +165,6 @@
 
     move-result p2
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->cannotDeleteWarn(Z)V
     invoke-static {p1, p2}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$cannotDeleteWarn(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;Z)V
 
     :goto_4a

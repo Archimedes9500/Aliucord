@@ -73,14 +73,12 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived$onViewBound$4;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;->getGuildId()J
     invoke-static {p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;->access$getGuildId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;)J
 
     move-result-wide v1
 
     iget-object p1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived$onViewBound$4;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;->getChannelId()J
     invoke-static {p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;->access$getChannelId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;)J
 
     move-result-wide v3

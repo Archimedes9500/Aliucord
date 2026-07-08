@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/gateway/GatewaySocket$discover$3;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->discoveryFailed()V
     invoke-static {p1}, Lcom/discord/gateway/GatewaySocket;->access$discoveryFailed(Lcom/discord/gateway/GatewaySocket;)V
 
     return-void

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventDetailsBottomSheet$getButtonConfiguration$6;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventDetailsBottomSheet;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventDetailsBottomSheet;->getViewModel()Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDetailsViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventDetailsBottomSheet;->access$getViewModel$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventDetailsBottomSheet;)Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDetailsViewModel;
 
     move-result-object p1

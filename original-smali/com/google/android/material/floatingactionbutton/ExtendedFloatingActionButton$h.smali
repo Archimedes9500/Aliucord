@@ -70,7 +70,6 @@
 
     iget-boolean v1, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$h;->h:Z
 
-    # setter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->isExtended:Z
     invoke-static {v0, v1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$702(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;Z)Z
 
     .line 2
@@ -157,7 +156,6 @@
 
     iget-object v1, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$h;->i:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;
 
-    # getter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->isExtended:Z
     invoke-static {v1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$700(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;)Z
 
     move-result v1
@@ -210,7 +208,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->isTransforming:Z
     invoke-static {v0, v1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$802(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;Z)Z
 
     .line 3
@@ -571,7 +568,6 @@
 
     iget-boolean v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$h;->h:Z
 
-    # setter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->isExtended:Z
     invoke-static {p1, v0}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$702(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;Z)Z
 
     .line 6
@@ -579,7 +575,6 @@
 
     const/4 v0, 0x1
 
-    # setter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->isTransforming:Z
     invoke-static {p1, v0}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$802(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;Z)Z
 
     .line 7

@@ -103,13 +103,11 @@
     move-result-object p1
 
     .line 5
-    # invokes: Lcom/discord/widgets/share/WidgetIncomingShare;->initialize(Lcom/discord/widgets/share/WidgetIncomingShare$ContentModel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$initialize(Lcom/discord/widgets/share/WidgetIncomingShare;Lcom/discord/widgets/share/WidgetIncomingShare$ContentModel;)V
 
     .line 6
     iget-object p1, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBound$5;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # getter for: Lcom/discord/widgets/share/WidgetIncomingShare;->selectedReceiverPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getSelectedReceiverPublisher$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1

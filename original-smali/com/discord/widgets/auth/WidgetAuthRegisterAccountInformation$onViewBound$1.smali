@@ -100,7 +100,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation$onViewBound$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->getBinding()Lcom/discord/databinding/WidgetAuthRegisterAccountInformationBinding;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;)Lcom/discord/databinding/WidgetAuthRegisterAccountInformationBinding;
 
     move-result-object v0

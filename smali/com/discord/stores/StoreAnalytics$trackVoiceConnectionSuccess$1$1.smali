@@ -109,7 +109,6 @@
     .line 5
     iget-object v1, v1, Lcom/discord/stores/StoreAnalytics$trackVoiceConnectionSuccess$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v1}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v1

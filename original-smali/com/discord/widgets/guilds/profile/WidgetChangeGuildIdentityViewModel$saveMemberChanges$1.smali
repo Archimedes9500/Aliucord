@@ -199,7 +199,6 @@
     :goto_6a
     iget-object v0, p0, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel$saveMemberChanges$1;->this$0:Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;
 
-    # getter for: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v0}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;->access$getEventSubject$p(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object v0
@@ -240,7 +239,6 @@
 
     move-result-object v0
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;->access$updateViewState(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel$ViewState;)V
 
     return-void

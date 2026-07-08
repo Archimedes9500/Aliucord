@@ -1031,7 +1031,6 @@
     .line 12
     iget-object v6, p0, Lcom/google/android/material/tabs/TabLayout$TabView;->tab:Lcom/google/android/material/tabs/TabLayout$Tab;
 
-    # getter for: Lcom/google/android/material/tabs/TabLayout$Tab;->labelVisibilityMode:I
     invoke-static {v6}, Lcom/google/android/material/tabs/TabLayout$Tab;->access$1100(Lcom/google/android/material/tabs/TabLayout$Tab;)I
 
     move-result v6
@@ -1150,7 +1149,6 @@
 
     if-eqz p1, :cond_ac
 
-    # getter for: Lcom/google/android/material/tabs/TabLayout$Tab;->contentDesc:Ljava/lang/CharSequence;
     invoke-static {p1}, Lcom/google/android/material/tabs/TabLayout$Tab;->access$200(Lcom/google/android/material/tabs/TabLayout$Tab;)Ljava/lang/CharSequence;
 
     move-result-object v1
@@ -2126,7 +2124,6 @@
     if-eqz v0, :cond_e9
 
     .line 40
-    # getter for: Lcom/google/android/material/tabs/TabLayout$Tab;->contentDesc:Ljava/lang/CharSequence;
     invoke-static {v0}, Lcom/google/android/material/tabs/TabLayout$Tab;->access$200(Lcom/google/android/material/tabs/TabLayout$Tab;)Ljava/lang/CharSequence;
 
     move-result-object v1
@@ -2138,7 +2135,6 @@
     if-nez v1, :cond_e9
 
     .line 41
-    # getter for: Lcom/google/android/material/tabs/TabLayout$Tab;->contentDesc:Ljava/lang/CharSequence;
     invoke-static {v0}, Lcom/google/android/material/tabs/TabLayout$Tab;->access$200(Lcom/google/android/material/tabs/TabLayout$Tab;)Ljava/lang/CharSequence;
 
     move-result-object v1

@@ -100,7 +100,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel$saveCommunityGuildSettings$2;->$updateGuild:Lcom/discord/restapi/RestAPIParams$UpdateGuild;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;->isDisableCommunityTapped(Lcom/discord/restapi/RestAPIParams$UpdateGuild;)Z
     invoke-static {p1, v0}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;->access$isDisableCommunityTapped(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;Lcom/discord/restapi/RestAPIParams$UpdateGuild;)Z
 
     move-result p1
@@ -112,13 +111,11 @@
 
     const/4 v0, 0x0
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;->handleDisableCommunityButtonState(Z)V
     invoke-static {p1, v0}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;->access$handleDisableCommunityButtonState(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;Z)V
 
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel$saveCommunityGuildSettings$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;
 
-    # getter for: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;->access$getEventSubject$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1
@@ -136,7 +133,6 @@
     :cond_23
     iget-object p1, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel$saveCommunityGuildSettings$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;
 
-    # getter for: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;->access$getEventSubject$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

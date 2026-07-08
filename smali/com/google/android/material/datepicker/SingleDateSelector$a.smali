@@ -59,7 +59,6 @@
     .line 1
     iget-object p1, p0, Lcom/google/android/material/datepicker/SingleDateSelector$a;->q:Lcom/google/android/material/datepicker/SingleDateSelector;
 
-    # invokes: Lcom/google/android/material/datepicker/SingleDateSelector;->clearSelection()V
     invoke-static {p1}, Lcom/google/android/material/datepicker/SingleDateSelector;->access$000(Lcom/google/android/material/datepicker/SingleDateSelector;)V
 
     goto :goto_11

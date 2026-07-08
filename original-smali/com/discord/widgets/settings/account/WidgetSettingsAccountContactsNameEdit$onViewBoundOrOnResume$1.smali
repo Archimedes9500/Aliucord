@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;->configureUI(Ljava/util/List;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;->access$configureUI(Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;Ljava/util/List;)V
 
     return-void

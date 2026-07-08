@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$discover$2;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->gatewayUrlTransform:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getGatewayUrlTransform$p(Lcom/discord/gateway/GatewaySocket;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v1
@@ -112,7 +111,6 @@
     move-object p1, v1
 
     :cond_16
-    # invokes: Lcom/discord/gateway/GatewaySocket;->connect(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/gateway/GatewaySocket;->access$connect(Lcom/discord/gateway/GatewaySocket;Ljava/lang/String;)V
 
     return-void

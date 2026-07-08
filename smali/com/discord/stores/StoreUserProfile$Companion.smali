@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreUserProfile;->EMPTY_PROFILE:Lcom/discord/api/user/UserProfile;
     invoke-static {}, Lcom/discord/stores/StoreUserProfile;->access$getEMPTY_PROFILE$cp()Lcom/discord/api/user/UserProfile;
 
     move-result-object v0

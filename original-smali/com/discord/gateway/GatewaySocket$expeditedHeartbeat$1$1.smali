@@ -98,7 +98,6 @@
 
     iget-object v0, v0, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->logger:Lcom/discord/utilities/logging/Logger;
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getLogger$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/utilities/logging/Logger;
 
     move-result-object v2
@@ -134,7 +133,6 @@
 
     iget-object p1, p1, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->gatewayBackoff:Lcom/discord/utilities/networking/Backoff;
     invoke-static {p1}, Lcom/discord/gateway/GatewaySocket;->access$getGatewayBackoff$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/utilities/networking/Backoff;
 
     move-result-object p1
@@ -155,7 +153,6 @@
 
     iget-object p1, p1, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->connectionState:I
     invoke-static {p1}, Lcom/discord/gateway/GatewaySocket;->access$getConnectionState$p(Lcom/discord/gateway/GatewaySocket;)I
 
     move-result p1
@@ -167,7 +164,6 @@
 
     iget-object p1, p1, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->discover()V
     invoke-static {p1}, Lcom/discord/gateway/GatewaySocket;->access$discover(Lcom/discord/gateway/GatewaySocket;)V
 
     :cond_50

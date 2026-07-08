@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->configureUI(Lcom/discord/widgets/chat/input/autocomplete/ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->access$configureUI(Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;Lcom/discord/widgets/chat/input/autocomplete/ViewState;)V
 
     return-void

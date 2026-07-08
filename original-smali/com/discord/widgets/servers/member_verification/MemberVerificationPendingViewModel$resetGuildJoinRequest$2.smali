@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel$resetGuildJoinRequest$2;->this$0:Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;->onResetSuccess()V
     invoke-static {p1}, Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;->access$onResetSuccess(Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;)V
 
     return-void

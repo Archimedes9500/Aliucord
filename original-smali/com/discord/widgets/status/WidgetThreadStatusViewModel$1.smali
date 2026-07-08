@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/status/WidgetThreadStatusViewModel$1;->this$0:Lcom/discord/widgets/status/WidgetThreadStatusViewModel;
 
-    # invokes: Lcom/discord/widgets/status/WidgetThreadStatusViewModel;->handleStoreState(Lcom/discord/widgets/status/WidgetThreadStatusViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/status/WidgetThreadStatusViewModel;->access$handleStoreState(Lcom/discord/widgets/status/WidgetThreadStatusViewModel;Lcom/discord/widgets/status/WidgetThreadStatusViewModel$StoreState;)V
 
     return-void

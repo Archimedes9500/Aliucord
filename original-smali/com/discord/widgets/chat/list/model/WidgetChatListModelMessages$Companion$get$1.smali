@@ -302,7 +302,6 @@
     move-wide/from16 v12, v27
 
     :goto_7f
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->willAddTimestamp(JJ)Z
     invoke-static {v11, v12, v13, v1, v2}, Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->access$willAddTimestamp(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;JJ)Z
 
     move-result v12
@@ -310,7 +309,6 @@
     if-eqz v12, :cond_89
 
     .line 6
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->addBlockedMessage(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Items;Lcom/discord/models/message/Message;IZ)I
     invoke-static {v11, v7, v4, v5, v6}, Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->access$addBlockedMessage(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Items;Lcom/discord/models/message/Message;IZ)I
 
     move-result v5
@@ -347,7 +345,6 @@
     move-wide/from16 v22, v1
 
     .line 9
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->tryAddTimestamp(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Items;JJJ)J
     invoke-static/range {v16 .. v23}, Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->access$tryAddTimestamp(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Items;JJJ)J
 
     move-result-wide v33
@@ -398,7 +395,6 @@
 
     move-object/from16 v12, p2
 
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->getThreadStarterMessageAndChannel(Lcom/discord/api/channel/Channel;Lcom/discord/api/channel/Channel;Lcom/discord/models/message/Message;Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$MessagesWithMetadata;)Lkotlin/Pair;
     invoke-static {v11, v12, v1, v9, v15}, Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->access$getThreadStarterMessageAndChannel(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;Lcom/discord/api/channel/Channel;Lcom/discord/api/channel/Channel;Lcom/discord/models/message/Message;Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$MessagesWithMetadata;)Lkotlin/Pair;
 
     move-result-object v1
@@ -518,7 +514,6 @@
     .line 17
     :cond_125
     :goto_125
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->addBlockedMessage(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Items;Lcom/discord/models/message/Message;IZ)I
     invoke-static {v11, v7, v6, v5, v3}, Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->access$addBlockedMessage(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Items;Lcom/discord/models/message/Message;IZ)I
 
     move-result v4
@@ -560,7 +555,6 @@
     .line 18
     :cond_144
     :goto_144
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->shouldConcatMessage(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Items;Lcom/discord/models/message/Message;Lcom/discord/models/message/Message;)Z
     invoke-static {v11, v7, v9, v8}, Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->access$shouldConcatMessage(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Items;Lcom/discord/models/message/Message;Lcom/discord/models/message/Message;)Z
 
     move-result v16
@@ -835,7 +829,6 @@
     move/from16 v6, v35
 
     .line 36
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->tryAddNewMessagesSeparator(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Items;JZJLcom/discord/api/channel/Channel;)Z
     invoke-static/range {v2 .. v9}, Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;->access$tryAddNewMessagesSeparator(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Companion;Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages$Items;JZJLcom/discord/api/channel/Channel;)Z
 
     move-result v31

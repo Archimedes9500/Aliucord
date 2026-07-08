@@ -86,12 +86,10 @@
 
     iget-object v2, p0, Lcom/discord/utilities/views/FloatingButtonMenuInitializer$initialize$1;->$mainFab:Landroid/view/View;
 
-    # invokes: Lcom/discord/utilities/views/FloatingButtonMenuInitializer;->getMenuAnimators(Landroid/view/ViewGroup;Landroid/view/View;)[Landroid/animation/Animator;
     invoke-static {v0, v1, v2}, Lcom/discord/utilities/views/FloatingButtonMenuInitializer;->access$getMenuAnimators(Lcom/discord/utilities/views/FloatingButtonMenuInitializer;Landroid/view/ViewGroup;Landroid/view/View;)[Landroid/animation/Animator;
 
     move-result-object v1
 
-    # invokes: Lcom/discord/utilities/views/FloatingButtonMenuInitializer;->configureEntranceAnimator([Landroid/animation/Animator;)Landroid/animation/Animator;
     invoke-static {v0, v1}, Lcom/discord/utilities/views/FloatingButtonMenuInitializer;->access$configureEntranceAnimator(Lcom/discord/utilities/views/FloatingButtonMenuInitializer;[Landroid/animation/Animator;)Landroid/animation/Animator;
 
     move-result-object v0

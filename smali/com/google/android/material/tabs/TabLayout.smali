@@ -1514,7 +1514,6 @@
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setMinimumWidth(I)V
 
     .line 6
-    # getter for: Lcom/google/android/material/tabs/TabLayout$Tab;->contentDesc:Ljava/lang/CharSequence;
     invoke-static {p1}, Lcom/google/android/material/tabs/TabLayout$Tab;->access$200(Lcom/google/android/material/tabs/TabLayout$Tab;)Ljava/lang/CharSequence;
 
     move-result-object v1
@@ -1526,7 +1525,6 @@
     if-eqz v1, :cond_37
 
     .line 7
-    # getter for: Lcom/google/android/material/tabs/TabLayout$Tab;->text:Ljava/lang/CharSequence;
     invoke-static {p1}, Lcom/google/android/material/tabs/TabLayout$Tab;->access$300(Lcom/google/android/material/tabs/TabLayout$Tab;)Ljava/lang/CharSequence;
 
     move-result-object p1
@@ -1537,7 +1535,6 @@
 
     .line 8
     :cond_37
-    # getter for: Lcom/google/android/material/tabs/TabLayout$Tab;->contentDesc:Ljava/lang/CharSequence;
     invoke-static {p1}, Lcom/google/android/material/tabs/TabLayout$Tab;->access$200(Lcom/google/android/material/tabs/TabLayout$Tab;)Ljava/lang/CharSequence;
 
     move-result-object p1
@@ -2610,7 +2607,6 @@
     iput-object v1, v0, Lcom/google/android/material/tabs/TabLayout$Tab;->view:Lcom/google/android/material/tabs/TabLayout$TabView;
 
     .line 4
-    # getter for: Lcom/google/android/material/tabs/TabLayout$Tab;->id:I
     invoke-static {v0}, Lcom/google/android/material/tabs/TabLayout$Tab;->access$000(Lcom/google/android/material/tabs/TabLayout$Tab;)I
 
     move-result v1
@@ -2622,7 +2618,6 @@
     .line 5
     iget-object v1, v0, Lcom/google/android/material/tabs/TabLayout$Tab;->view:Lcom/google/android/material/tabs/TabLayout$TabView;
 
-    # getter for: Lcom/google/android/material/tabs/TabLayout$Tab;->id:I
     invoke-static {v0}, Lcom/google/android/material/tabs/TabLayout$Tab;->access$000(Lcom/google/android/material/tabs/TabLayout$Tab;)I
 
     move-result v2
@@ -2727,7 +2722,6 @@
     .line 4
     check-cast v1, Lcom/google/android/material/tabs/TabLayout$TabView;
 
-    # invokes: Lcom/google/android/material/tabs/TabLayout$TabView;->drawBackground(Landroid/graphics/Canvas;)V
     invoke-static {v1, p1}, Lcom/google/android/material/tabs/TabLayout$TabView;->access$400(Lcom/google/android/material/tabs/TabLayout$TabView;Landroid/graphics/Canvas;)V
 
     :cond_18
@@ -4062,7 +4056,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/google/android/material/tabs/TabLayout$TabView;->updateBackgroundDrawable(Landroid/content/Context;)V
     invoke-static {v0, v1}, Lcom/google/android/material/tabs/TabLayout$TabView;->access$100(Lcom/google/android/material/tabs/TabLayout$TabView;Landroid/content/Context;)V
 
     :cond_22
@@ -4189,7 +4182,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/google/android/material/tabs/TabLayout$TabView;->updateBackgroundDrawable(Landroid/content/Context;)V
     invoke-static {v0, v1}, Lcom/google/android/material/tabs/TabLayout$TabView;->access$100(Lcom/google/android/material/tabs/TabLayout$TabView;Landroid/content/Context;)V
 
     :cond_22

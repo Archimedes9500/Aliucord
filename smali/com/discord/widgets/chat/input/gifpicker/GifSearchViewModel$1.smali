@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$1;->this$0:Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel;
 
-    # invokes: Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel;->handleStoreState(Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel;->access$handleStoreState(Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel;Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$StoreState;)V
 
     return-void

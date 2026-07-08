@@ -76,7 +76,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/user/email/WidgetUserEmailVerify$configureUI$1;->this$0:Lcom/discord/widgets/user/email/WidgetUserEmailVerify;
 
-    # invokes: Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase;->getMode()Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase$Mode;
     invoke-static {p1}, Lcom/discord/widgets/user/email/WidgetUserEmailVerify;->access$getMode$p(Lcom/discord/widgets/user/email/WidgetUserEmailVerify;)Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase$Mode;
 
     move-result-object v2

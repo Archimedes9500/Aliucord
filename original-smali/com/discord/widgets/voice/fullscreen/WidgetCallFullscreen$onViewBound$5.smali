@@ -110,7 +110,6 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->finishActivity(ZZ)V
     invoke-static {v0, v2, v1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$finishActivity(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;ZZ)V
 
     .line 3

@@ -88,7 +88,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet$onViewCreated$3;->this$0:Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;
 
-    # invokes: Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;->getViewModel()Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;->access$getViewModel$p(Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;)Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel;
 
     move-result-object v0

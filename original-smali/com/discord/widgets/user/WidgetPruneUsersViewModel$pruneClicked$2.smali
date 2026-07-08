@@ -87,7 +87,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->pruneInProgress(Z)V
     invoke-static {v0, v1}, Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->access$pruneInProgress(Lcom/discord/widgets/user/WidgetPruneUsersViewModel;Z)V
 
     return-void

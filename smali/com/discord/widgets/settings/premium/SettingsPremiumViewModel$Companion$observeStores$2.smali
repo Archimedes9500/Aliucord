@@ -119,7 +119,6 @@
     const/4 v2, 0x0
 
     .line 5
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$Companion;->getSubscriptionsAndInvoicePreview(Lcom/discord/utilities/rest/RestAPI;Lcom/discord/stores/StoreSubscriptions$SubscriptionsState;Z)Lrx/Observable;
     invoke-static {v0, v1, p1, v2}, Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$Companion;->access$getSubscriptionsAndInvoicePreview(Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$Companion;Lcom/discord/utilities/rest/RestAPI;Lcom/discord/stores/StoreSubscriptions$SubscriptionsState;Z)Lrx/Observable;
 
     move-result-object p1

@@ -114,7 +114,6 @@
     iget-object p1, p1, Lcom/discord/widgets/voice/call/WidgetCallFailed$sendFriendRequest$2;->$username:Ljava/lang/String;
 
     .line 5
-    # invokes: Lcom/discord/widgets/voice/call/WidgetCallFailed;->sendFriendRequest(JLjava/lang/String;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
     invoke-static {v0, v1, v2, p1, p2}, Lcom/discord/widgets/voice/call/WidgetCallFailed;->access$sendFriendRequest(Lcom/discord/widgets/voice/call/WidgetCallFailed;JLjava/lang/String;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
 
     return-void

@@ -47,7 +47,6 @@
 
     iget-object v1, p0, Lcom/adjust/sdk/ActivityHandler$13;->val$sessionResponseData:Lcom/adjust/sdk/SessionResponseData;
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->launchSessionResponseTasksI(Lcom/adjust/sdk/SessionResponseData;)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/ActivityHandler;->access$1900(Lcom/adjust/sdk/ActivityHandler;Lcom/adjust/sdk/SessionResponseData;)V
 
     return-void

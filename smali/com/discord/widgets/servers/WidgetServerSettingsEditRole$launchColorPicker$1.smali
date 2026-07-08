@@ -111,7 +111,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->patchRole(JLcom/discord/restapi/RestAPIParams$Role;)V
     invoke-static {v0, v1, v2, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->access$patchRole(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;JLcom/discord/restapi/RestAPIParams$Role;)V
 
     return-void
@@ -156,7 +155,6 @@
 
     move-result-wide v0
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->patchRole(JLcom/discord/restapi/RestAPIParams$Role;)V
     invoke-static {p2, v0, v1, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->access$patchRole(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;JLcom/discord/restapi/RestAPIParams$Role;)V
 
     return-void

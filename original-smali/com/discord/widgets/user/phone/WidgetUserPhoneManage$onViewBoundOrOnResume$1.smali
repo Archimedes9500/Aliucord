@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;
 
-    # invokes: Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->configureUI(Lcom/discord/models/user/MeUser;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->access$configureUI(Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;Lcom/discord/models/user/MeUser;)V
 
     return-void

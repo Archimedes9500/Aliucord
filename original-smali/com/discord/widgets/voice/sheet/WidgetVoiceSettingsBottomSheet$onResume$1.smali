@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet$onResume$1;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;->configureUI(Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;->access$configureUI(Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet$ViewState;)V
 
     return-void

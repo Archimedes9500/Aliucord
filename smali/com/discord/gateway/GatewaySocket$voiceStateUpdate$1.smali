@@ -117,7 +117,6 @@
 
     iget-object v2, v0, Lcom/discord/gateway/GatewaySocket$voiceStateUpdate$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->logger:Lcom/discord/utilities/logging/Logger;
     invoke-static {v2}, Lcom/discord/gateway/GatewaySocket;->access$getLogger$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/utilities/logging/Logger;
 
     move-result-object v2

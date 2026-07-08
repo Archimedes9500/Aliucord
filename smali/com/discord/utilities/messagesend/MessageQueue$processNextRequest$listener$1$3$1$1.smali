@@ -69,7 +69,6 @@
 
     iget-object v0, v0, Lcom/discord/utilities/messagesend/MessageQueue$processNextRequest$listener$1;->this$0:Lcom/discord/utilities/messagesend/MessageQueue;
 
-    # invokes: Lcom/discord/utilities/messagesend/MessageQueue;->processNextRequest()V
     invoke-static {v0}, Lcom/discord/utilities/messagesend/MessageQueue;->access$processNextRequest(Lcom/discord/utilities/messagesend/MessageQueue;)V
 
     return-void

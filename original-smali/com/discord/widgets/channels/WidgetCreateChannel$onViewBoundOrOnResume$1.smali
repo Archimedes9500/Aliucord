@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/channels/WidgetCreateChannel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel;->configureUI(Lcom/discord/widgets/channels/WidgetCreateChannel$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/WidgetCreateChannel;->access$configureUI(Lcom/discord/widgets/channels/WidgetCreateChannel;Lcom/discord/widgets/channels/WidgetCreateChannel$Model;)V
 
     return-void

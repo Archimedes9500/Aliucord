@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel$generateInviteForChannel$2;->this$0:Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;->handleInviteCreationFailure()V
     invoke-static {p1}, Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;->access$handleInviteCreationFailure(Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;)V
 
     return-void

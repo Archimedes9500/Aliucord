@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreAnalytics;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreAnalytics;->onScreenViewed(Lcom/discord/stores/StoreAnalytics$ScreenViewed;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreAnalytics;->access$onScreenViewed(Lcom/discord/stores/StoreAnalytics;Lcom/discord/stores/StoreAnalytics$ScreenViewed;)V
 
     return-void

@@ -67,7 +67,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory$setWindowInsetsListeners$2;->this$0:Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;
 
-    # invokes: Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;->getBinding()Lcom/discord/databinding/WidgetGifCategoryBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;->access$getBinding$p(Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;)Lcom/discord/databinding/WidgetGifCategoryBinding;
 
     move-result-object p1

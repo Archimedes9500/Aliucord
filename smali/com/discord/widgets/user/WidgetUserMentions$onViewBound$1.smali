@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetUserMentions$onViewBound$1;->this$0:Lcom/discord/widgets/user/WidgetUserMentions;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserMentions;->getDismissViewModel()Lcom/discord/widgets/user/search/WidgetGlobalSearchDismissModel;
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetUserMentions;->access$getDismissViewModel$p(Lcom/discord/widgets/user/WidgetUserMentions;)Lcom/discord/widgets/user/search/WidgetGlobalSearchDismissModel;
 
     move-result-object p1

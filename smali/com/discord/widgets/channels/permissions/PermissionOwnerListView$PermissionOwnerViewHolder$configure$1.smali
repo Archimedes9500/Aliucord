@@ -147,7 +147,6 @@
     :cond_3b
     iget-object p1, p0, Lcom/discord/widgets/channels/permissions/PermissionOwnerListView$PermissionOwnerViewHolder$configure$1;->this$0:Lcom/discord/widgets/channels/permissions/PermissionOwnerListView$PermissionOwnerViewHolder;
 
-    # getter for: Lcom/discord/widgets/channels/permissions/PermissionOwnerListView$PermissionOwnerViewHolder;->binding:Lcom/discord/databinding/RemovablePermissionOwnerViewBinding;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/PermissionOwnerListView$PermissionOwnerViewHolder;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/PermissionOwnerListView$PermissionOwnerViewHolder;)Lcom/discord/databinding/RemovablePermissionOwnerViewBinding;
 
     move-result-object p1
@@ -178,7 +177,6 @@
     :cond_55
     iget-object p1, p0, Lcom/discord/widgets/channels/permissions/PermissionOwnerListView$PermissionOwnerViewHolder$configure$1;->this$0:Lcom/discord/widgets/channels/permissions/PermissionOwnerListView$PermissionOwnerViewHolder;
 
-    # getter for: Lcom/discord/widgets/channels/permissions/PermissionOwnerListView$PermissionOwnerViewHolder;->binding:Lcom/discord/databinding/RemovablePermissionOwnerViewBinding;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/PermissionOwnerListView$PermissionOwnerViewHolder;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/PermissionOwnerListView$PermissionOwnerViewHolder;)Lcom/discord/databinding/RemovablePermissionOwnerViewBinding;
 
     move-result-object p1

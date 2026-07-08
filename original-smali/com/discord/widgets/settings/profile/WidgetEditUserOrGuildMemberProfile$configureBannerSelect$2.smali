@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$configureBannerSelect$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # getter for: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->avatarRepresentativeColorHexSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$getAvatarRepresentativeColorHexSubject$p(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

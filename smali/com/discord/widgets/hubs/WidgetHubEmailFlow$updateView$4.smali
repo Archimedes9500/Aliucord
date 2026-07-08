@@ -142,7 +142,6 @@
     .line 6
     iget-object v2, p0, Lcom/discord/widgets/hubs/WidgetHubEmailFlow$updateView$4;->this$0:Lcom/discord/widgets/hubs/WidgetHubEmailFlow;
 
-    # getter for: Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->activityResultHandler:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v2}, Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->access$getActivityResultHandler$p(Lcom/discord/widgets/hubs/WidgetHubEmailFlow;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v2
@@ -217,7 +216,6 @@
     .line 16
     iget-object p1, p0, Lcom/discord/widgets/hubs/WidgetHubEmailFlow$updateView$4;->this$0:Lcom/discord/widgets/hubs/WidgetHubEmailFlow;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->getViewModel()Lcom/discord/widgets/hubs/WidgetHubEmailViewModel;
     invoke-static {p1}, Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->access$getViewModel$p(Lcom/discord/widgets/hubs/WidgetHubEmailFlow;)Lcom/discord/widgets/hubs/WidgetHubEmailViewModel;
 
     move-result-object p1
@@ -265,7 +263,6 @@
     .line 20
     iget-object v1, p0, Lcom/discord/widgets/hubs/WidgetHubEmailFlow$updateView$4;->this$0:Lcom/discord/widgets/hubs/WidgetHubEmailFlow;
 
-    # getter for: Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->activityResultHandler:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v1}, Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->access$getActivityResultHandler$p(Lcom/discord/widgets/hubs/WidgetHubEmailFlow;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v1
@@ -286,7 +283,6 @@
     .line 24
     iget-object p1, p0, Lcom/discord/widgets/hubs/WidgetHubEmailFlow$updateView$4;->this$0:Lcom/discord/widgets/hubs/WidgetHubEmailFlow;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->getViewModel()Lcom/discord/widgets/hubs/WidgetHubEmailViewModel;
     invoke-static {p1}, Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->access$getViewModel$p(Lcom/discord/widgets/hubs/WidgetHubEmailFlow;)Lcom/discord/widgets/hubs/WidgetHubEmailViewModel;
 
     move-result-object p1

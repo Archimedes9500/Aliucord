@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$1;->this$0:Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel;->handleStoreState(Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel;->access$handleStoreState(Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel;Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$StoreState;)V
 
     return-void

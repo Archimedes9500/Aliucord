@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings$configureIcon$3;->this$0:Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;->getViewModel()Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;->access$getViewModel$p(Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;)Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;
 
     move-result-object p1

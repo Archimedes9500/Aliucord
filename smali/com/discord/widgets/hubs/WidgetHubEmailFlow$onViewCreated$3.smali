@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/hubs/WidgetHubEmailFlow$onViewCreated$3;->this$0:Lcom/discord/widgets/hubs/WidgetHubEmailFlow;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->getViewModel()Lcom/discord/widgets/hubs/WidgetHubEmailViewModel;
     invoke-static {p1}, Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->access$getViewModel$p(Lcom/discord/widgets/hubs/WidgetHubEmailFlow;)Lcom/discord/widgets/hubs/WidgetHubEmailViewModel;
 
     move-result-object p1

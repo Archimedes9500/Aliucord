@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAViewModel$enableMFA$2;->this$0:Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAViewModel;
 
-    # invokes: Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAViewModel;->handleMFAFailure()V
     invoke-static {p1}, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAViewModel;->access$handleMFAFailure(Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAViewModel;)V
 
     return-void

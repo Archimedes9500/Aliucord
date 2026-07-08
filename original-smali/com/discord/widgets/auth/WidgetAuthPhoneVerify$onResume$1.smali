@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify$onResume$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->tryPasteCodeFromClipboard()V
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->access$tryPasteCodeFromClipboard(Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;)V
 
     return-void

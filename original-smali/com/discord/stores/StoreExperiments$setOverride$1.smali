@@ -93,7 +93,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreExperiments$setOverride$1;->this$0:Lcom/discord/stores/StoreExperiments;
 
-    # getter for: Lcom/discord/stores/StoreExperiments;->experimentOverrides:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreExperiments;->access$getExperimentOverrides$p(Lcom/discord/stores/StoreExperiments;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -130,7 +129,6 @@
 
     iget v2, p0, Lcom/discord/stores/StoreExperiments$setOverride$1;->$bucket:I
 
-    # invokes: Lcom/discord/stores/StoreExperiments;->handleSetOverride(Ljava/lang/String;I)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreExperiments;->access$handleSetOverride(Lcom/discord/stores/StoreExperiments;Ljava/lang/String;I)V
 
     return-void

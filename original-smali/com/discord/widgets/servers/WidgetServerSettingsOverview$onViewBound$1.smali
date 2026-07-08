@@ -115,7 +115,6 @@
     .line 3
     iget-object p2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$onViewBound$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p2}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p2
@@ -127,14 +126,12 @@
     .line 4
     iget-object p2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$onViewBound$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p2}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p2
 
     iget-object p3, p0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$onViewBound$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {p3}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object p3
@@ -146,7 +143,6 @@
     .line 5
     iget-object p2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$onViewBound$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->configureAfkChannel(Lcom/discord/api/channel/Channel;)V
     invoke-static {p2, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$configureAfkChannel(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;Lcom/discord/api/channel/Channel;)V
 
     return-void

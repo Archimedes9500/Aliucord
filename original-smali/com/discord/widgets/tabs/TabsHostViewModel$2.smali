@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/tabs/TabsHostViewModel$2;->this$0:Lcom/discord/widgets/tabs/TabsHostViewModel;
 
-    # invokes: Lcom/discord/widgets/tabs/TabsHostViewModel;->handleBottomNavHeight(I)V
     invoke-static {v0, p1}, Lcom/discord/widgets/tabs/TabsHostViewModel;->access$handleBottomNavHeight(Lcom/discord/widgets/tabs/TabsHostViewModel;I)V
 
     return-void

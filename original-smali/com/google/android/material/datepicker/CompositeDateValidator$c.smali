@@ -69,7 +69,6 @@
     if-ne p1, v1, :cond_16
 
     .line 4
-    # getter for: Lcom/google/android/material/datepicker/CompositeDateValidator;->ALL_OPERATOR:Lcom/google/android/material/datepicker/CompositeDateValidator$d;
     invoke-static {}, Lcom/google/android/material/datepicker/CompositeDateValidator;->access$000()Lcom/google/android/material/datepicker/CompositeDateValidator$d;
 
     move-result-object p1
@@ -82,7 +81,6 @@
     if-ne p1, v1, :cond_1e
 
     .line 5
-    # getter for: Lcom/google/android/material/datepicker/CompositeDateValidator;->ANY_OPERATOR:Lcom/google/android/material/datepicker/CompositeDateValidator$d;
     invoke-static {}, Lcom/google/android/material/datepicker/CompositeDateValidator;->access$100()Lcom/google/android/material/datepicker/CompositeDateValidator$d;
 
     move-result-object p1
@@ -91,7 +89,6 @@
 
     .line 6
     :cond_1e
-    # getter for: Lcom/google/android/material/datepicker/CompositeDateValidator;->ALL_OPERATOR:Lcom/google/android/material/datepicker/CompositeDateValidator$d;
     invoke-static {}, Lcom/google/android/material/datepicker/CompositeDateValidator;->access$000()Lcom/google/android/material/datepicker/CompositeDateValidator$d;
 
     move-result-object p1

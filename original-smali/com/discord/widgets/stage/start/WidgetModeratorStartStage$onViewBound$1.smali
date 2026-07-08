@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;
 
     .line 2
-    # invokes: Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;->handleListItemClick(Lcom/discord/widgets/stage/start/ModeratorStartStageItem;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;->access$handleListItemClick(Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;Lcom/discord/widgets/stage/start/ModeratorStartStageItem;)V
 
     return-void

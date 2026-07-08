@@ -49,7 +49,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/ActivityHandler$41;->this$0:Lcom/adjust/sdk/ActivityHandler;
 
-    # getter for: Lcom/adjust/sdk/ActivityHandler;->adjustConfig:Lcom/adjust/sdk/AdjustConfig;
     invoke-static {v0}, Lcom/adjust/sdk/ActivityHandler;->access$3000(Lcom/adjust/sdk/ActivityHandler;)Lcom/adjust/sdk/AdjustConfig;
 
     move-result-object v0
@@ -64,7 +63,6 @@
     .line 2
     iget-object v1, p0, Lcom/adjust/sdk/ActivityHandler$41;->this$0:Lcom/adjust/sdk/ActivityHandler;
 
-    # getter for: Lcom/adjust/sdk/ActivityHandler;->adjustConfig:Lcom/adjust/sdk/AdjustConfig;
     invoke-static {v1}, Lcom/adjust/sdk/ActivityHandler;->access$3000(Lcom/adjust/sdk/ActivityHandler;)Lcom/adjust/sdk/AdjustConfig;
 
     move-result-object v1
@@ -76,7 +74,6 @@
     .line 3
     iget-object v0, p0, Lcom/adjust/sdk/ActivityHandler$41;->this$0:Lcom/adjust/sdk/ActivityHandler;
 
-    # getter for: Lcom/adjust/sdk/ActivityHandler;->adjustConfig:Lcom/adjust/sdk/AdjustConfig;
     invoke-static {v0}, Lcom/adjust/sdk/ActivityHandler;->access$3000(Lcom/adjust/sdk/ActivityHandler;)Lcom/adjust/sdk/AdjustConfig;
 
     move-result-object v0
@@ -99,7 +96,6 @@
 
     iget-object v2, p0, Lcom/adjust/sdk/ActivityHandler$41;->val$deeplink:Landroid/net/Uri;
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->launchDeeplinkMain(Landroid/content/Intent;Landroid/net/Uri;)V
     invoke-static {v0, v1, v2}, Lcom/adjust/sdk/ActivityHandler;->access$3200(Lcom/adjust/sdk/ActivityHandler;Landroid/content/Intent;Landroid/net/Uri;)V
 
     :cond_2d

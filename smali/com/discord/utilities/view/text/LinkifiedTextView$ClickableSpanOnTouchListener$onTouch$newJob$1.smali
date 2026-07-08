@@ -195,7 +195,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener$onTouch$newJob$1;->this$0:Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;
 
-    # getter for: Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;->longPressDelayInMs:J
     invoke-static {v1}, Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;->access$getLongPressDelayInMs$p(Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;)J
 
     move-result-wide v3
@@ -219,7 +218,6 @@
     :goto_35
     iget-object p1, p0, Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener$onTouch$newJob$1;->this$0:Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;
 
-    # getter for: Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;->isClickHandled:Ljava/util/concurrent/atomic/AtomicBoolean;
     invoke-static {p1}, Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;->access$isClickHandled$p(Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;)Ljava/util/concurrent/atomic/AtomicBoolean;
 
     move-result-object p1

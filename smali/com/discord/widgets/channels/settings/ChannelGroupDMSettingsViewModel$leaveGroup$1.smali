@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel$leaveGroup$1;->this$0:Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;->access$getEventSubject$p(Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

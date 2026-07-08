@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/servers/WidgetServerSettingsChannels;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsChannels;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsChannels$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsChannels;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsChannels;Lcom/discord/widgets/servers/WidgetServerSettingsChannels$Model;)V
 
     return-void

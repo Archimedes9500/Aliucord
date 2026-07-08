@@ -100,7 +100,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreThreadMessages$observeThreadCountAndLatestMessage$1;->this$0:Lcom/discord/stores/StoreThreadMessages;
 
-    # getter for: Lcom/discord/stores/StoreThreadMessages;->threadsSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreThreadMessages;->access$getThreadsSnapshot$p(Lcom/discord/stores/StoreThreadMessages;)Ljava/util/Map;
 
     move-result-object v0

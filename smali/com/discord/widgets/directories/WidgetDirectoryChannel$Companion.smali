@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/directories/WidgetDirectoryChannel;->TAB_LAYOUT_MARGINS:I
     invoke-static {}, Lcom/discord/widgets/directories/WidgetDirectoryChannel;->access$getTAB_LAYOUT_MARGINS$cp()I
 
     move-result v0

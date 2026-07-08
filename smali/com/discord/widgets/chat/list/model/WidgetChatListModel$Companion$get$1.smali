@@ -150,7 +150,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;->getChannel(Lcom/discord/api/channel/Channel;)Lrx/Observable;
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;->access$getChannel(Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;Lcom/discord/api/channel/Channel;)Lrx/Observable;
 
     move-result-object p1
@@ -176,7 +175,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;->getThreadDraft(Lcom/discord/api/channel/Channel;Ljava/lang/Long;)Lrx/Observable;
     invoke-static {v0, v1, p1}, Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;->access$getThreadDraft(Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;Lcom/discord/api/channel/Channel;Ljava/lang/Long;)Lrx/Observable;
 
     move-result-object p1

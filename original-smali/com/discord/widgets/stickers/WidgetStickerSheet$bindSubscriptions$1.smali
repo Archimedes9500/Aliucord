@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/stickers/WidgetStickerSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/stickers/WidgetStickerSheet;->configureUI(Lcom/discord/widgets/stickers/StickerSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/stickers/WidgetStickerSheet;->access$configureUI(Lcom/discord/widgets/stickers/WidgetStickerSheet;Lcom/discord/widgets/stickers/StickerSheetViewModel$ViewState;)V
 
     return-void

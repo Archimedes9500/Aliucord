@@ -67,7 +67,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/Dispatcher$schedule$1;->this$0:Lcom/discord/stores/Dispatcher;
 
-    # getter for: Lcom/discord/stores/Dispatcher;->dispatcherThread:Ljava/lang/Thread;
     invoke-static {v0}, Lcom/discord/stores/Dispatcher;->access$getDispatcherThread$p(Lcom/discord/stores/Dispatcher;)Ljava/lang/Thread;
 
     move-result-object v0

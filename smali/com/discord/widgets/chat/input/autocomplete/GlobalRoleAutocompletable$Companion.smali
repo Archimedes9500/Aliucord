@@ -71,7 +71,6 @@
 .method public final getEveryone()Lcom/discord/widgets/chat/input/autocomplete/GlobalRoleAutocompletable;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/GlobalRoleAutocompletable;->everyone$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/chat/input/autocomplete/GlobalRoleAutocompletable;->access$getEveryone$cp()Lkotlin/Lazy;
 
     move-result-object v0
@@ -90,7 +89,6 @@
 .method public final getHere()Lcom/discord/widgets/chat/input/autocomplete/GlobalRoleAutocompletable;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/GlobalRoleAutocompletable;->here$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/chat/input/autocomplete/GlobalRoleAutocompletable;->access$getHere$cp()Lkotlin/Lazy;
 
     move-result-object v0

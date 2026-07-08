@@ -100,7 +100,6 @@
 
     iget-object v1, p0, Lcom/discord/utilities/messagesend/MessageQueue$doEdit$2;->$drainListener:Lcom/discord/utilities/messagesend/MessageQueue$DrainListener;
 
-    # invokes: Lcom/discord/utilities/messagesend/MessageQueue;->handleSuccess(Lcom/discord/api/message/Message;Lcom/discord/utilities/messagesend/MessageQueue$DrainListener;)V
     invoke-static {v0, p1, v1}, Lcom/discord/utilities/messagesend/MessageQueue;->access$handleSuccess(Lcom/discord/utilities/messagesend/MessageQueue;Lcom/discord/api/message/Message;Lcom/discord/utilities/messagesend/MessageQueue$DrainListener;)V
 
     return-void

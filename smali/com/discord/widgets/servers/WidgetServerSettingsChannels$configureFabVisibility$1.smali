@@ -103,7 +103,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsChannels$configureFabVisibility$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsChannels;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsChannels;->getBinding()Lcom/discord/databinding/WidgetServerSettingsChannelsBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsChannels;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsChannels;)Lcom/discord/databinding/WidgetServerSettingsChannelsBinding;
 
     move-result-object p1

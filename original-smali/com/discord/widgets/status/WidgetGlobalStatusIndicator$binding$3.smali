@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;
 
     .line 2
-    # invokes: Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;->onViewBindingDestroy(Lcom/discord/databinding/WidgetGlobalStatusIndicatorBinding;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;->access$onViewBindingDestroy(Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;Lcom/discord/databinding/WidgetGlobalStatusIndicatorBinding;)V
 
     return-void

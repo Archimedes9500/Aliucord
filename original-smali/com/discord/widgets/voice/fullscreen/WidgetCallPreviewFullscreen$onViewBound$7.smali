@@ -97,7 +97,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen$onViewBound$7;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->getBinding()Lcom/discord/databinding/WidgetCallPreviewFullscreenBinding;
     invoke-static {v0}, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->access$getBinding$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;)Lcom/discord/databinding/WidgetCallPreviewFullscreenBinding;
 
     move-result-object v0

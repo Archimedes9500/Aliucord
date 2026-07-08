@@ -123,7 +123,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity$registerViaPhone$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->phoneVerifyLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->access$getPhoneVerifyLauncher$p(Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v8
@@ -131,7 +130,6 @@
     .line 6
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity$registerViaPhone$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->getBinding()Lcom/discord/databinding/WidgetAuthRegisterIdentityBinding;
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;)Lcom/discord/databinding/WidgetAuthRegisterIdentityBinding;
 
     move-result-object p1

@@ -131,7 +131,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreLibrary$fetchApplications$2;->this$0:Lcom/discord/stores/StoreLibrary;
 
-    # getter for: Lcom/discord/stores/StoreLibrary;->libraryApplications:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreLibrary;->access$getLibraryApplications$p(Lcom/discord/stores/StoreLibrary;)Ljava/util/Map;
 
     move-result-object v1
@@ -143,7 +142,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreLibrary$fetchApplications$2;->this$0:Lcom/discord/stores/StoreLibrary;
 
-    # getter for: Lcom/discord/stores/StoreLibrary;->libraryApplications:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreLibrary;->access$getLibraryApplications$p(Lcom/discord/stores/StoreLibrary;)Ljava/util/Map;
 
     move-result-object v1

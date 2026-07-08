@@ -70,7 +70,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureUI$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->getBinding()Lcom/discord/databinding/WidgetSettingsAppearanceBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsAppearance;)Lcom/discord/databinding/WidgetSettingsAppearanceBinding;
 
     move-result-object v0
@@ -96,7 +95,6 @@
     :cond_15
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureUI$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # getter for: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->pureEvilEasterEggCounter:Ljava/util/concurrent/atomic/AtomicInteger;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$getPureEvilEasterEggCounter$p(Lcom/discord/widgets/settings/WidgetSettingsAppearance;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object v0
@@ -181,7 +179,6 @@
     .line 7
     iget-object v1, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureUI$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # getter for: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->toastManager:Lcom/discord/utilities/view/ToastManager;
     invoke-static {v1}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$getToastManager$p(Lcom/discord/widgets/settings/WidgetSettingsAppearance;)Lcom/discord/utilities/view/ToastManager;
 
     move-result-object v1
@@ -207,7 +204,6 @@
     .line 10
     iget-object v1, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureUI$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # getter for: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->toastManager:Lcom/discord/utilities/view/ToastManager;
     invoke-static {v1}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$getToastManager$p(Lcom/discord/widgets/settings/WidgetSettingsAppearance;)Lcom/discord/utilities/view/ToastManager;
 
     move-result-object v1
@@ -218,7 +214,6 @@
     .line 12
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureUI$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->getPureEvilEasterEggSubject()Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$getPureEvilEasterEggSubject$p(Lcom/discord/widgets/settings/WidgetSettingsAppearance;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1

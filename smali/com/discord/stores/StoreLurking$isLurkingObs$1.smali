@@ -133,7 +133,6 @@
 
     invoke-static {p1, p2}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StoreLurking$Companion;->isLurking(ZJLjava/util/Set;)Z
     invoke-static {v1, v0, v2, v3, p1}, Lcom/discord/stores/StoreLurking$Companion;->access$isLurking(Lcom/discord/stores/StoreLurking$Companion;ZJLjava/util/Set;)Z
 
     move-result v0

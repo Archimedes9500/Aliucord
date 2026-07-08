@@ -41,7 +41,6 @@
     .line 1
     iget-object p2, p0, Lcom/google/android/material/tooltip/TooltipDrawable$a;->j:Lcom/google/android/material/tooltip/TooltipDrawable;
 
-    # invokes: Lcom/google/android/material/tooltip/TooltipDrawable;->updateLocationOnScreen(Landroid/view/View;)V
     invoke-static {p2, p1}, Lcom/google/android/material/tooltip/TooltipDrawable;->access$000(Lcom/google/android/material/tooltip/TooltipDrawable;Landroid/view/View;)V
 
     return-void

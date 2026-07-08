@@ -515,9 +515,11 @@
     .line 13
     new-instance p1, Lcom/discord/utilities/persister/Persister;
 
-    const-string p2, "CACHE_KEY_STICKER_SUGGESTIONS"
+    sget-object p2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    invoke-direct {p1, p2, v0}, Lcom/discord/utilities/persister/Persister;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
+    const-string v1, "CACHE_KEY_STICKER_SUGGESTIONS"
+
+    invoke-direct {p1, v1, p2}, Lcom/discord/utilities/persister/Persister;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
 
     iput-object p1, p0, Lcom/discord/stores/StoreUserSettings;->stickerSuggestionsPublisher:Lcom/discord/utilities/persister/Persister;
 
@@ -2496,7 +2498,6 @@
     move-result-object v2
 
     .line 5
-    # invokes: Lcom/discord/stores/StoreUserSettings$Companion;->updateUserSettings(Lcom/discord/app/AppActivity;Lcom/discord/restapi/RestAPIParams$UserSettings;Ljava/lang/Integer;)V
     invoke-static {v0, p1, v1, v2}, Lcom/discord/stores/StoreUserSettings$Companion;->access$updateUserSettings(Lcom/discord/stores/StoreUserSettings$Companion;Lcom/discord/app/AppActivity;Lcom/discord/restapi/RestAPIParams$UserSettings;Ljava/lang/Integer;)V
 
     .line 6

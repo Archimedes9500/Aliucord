@@ -125,7 +125,6 @@
     :cond_26
     iget-object v0, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify$passwordVerifyLauncher$1;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;
 
-    # invokes: Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase;->getMode()Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase$Mode;
     invoke-static {v0}, Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;->access$getMode$p(Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;)Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase$Mode;
 
     move-result-object v0

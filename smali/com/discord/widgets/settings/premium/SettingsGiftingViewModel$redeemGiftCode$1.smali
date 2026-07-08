@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$redeemGiftCode$1;->this$0:Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->subscriptions:Lrx/subscriptions/CompositeSubscription;
     invoke-static {v0}, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->access$getSubscriptions$p(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;)Lrx/subscriptions/CompositeSubscription;
 
     move-result-object v0

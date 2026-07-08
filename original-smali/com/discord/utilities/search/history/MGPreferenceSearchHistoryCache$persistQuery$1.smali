@@ -124,7 +124,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/search/history/MGPreferenceSearchHistoryCache$persistQuery$1;->$query:Ljava/util/List;
 
-    # invokes: Lcom/discord/utilities/search/history/MGPreferenceSearchHistoryCache;->putAndCopy(Ljava/util/LinkedList;Lcom/discord/stores/StoreSearch$SearchTarget;Ljava/util/List;)Ljava/util/LinkedList;
     invoke-static {v0, p1, v1, v2}, Lcom/discord/utilities/search/history/MGPreferenceSearchHistoryCache;->access$putAndCopy(Lcom/discord/utilities/search/history/MGPreferenceSearchHistoryCache;Ljava/util/LinkedList;Lcom/discord/stores/StoreSearch$SearchTarget;Ljava/util/List;)Ljava/util/LinkedList;
 
     move-result-object p1

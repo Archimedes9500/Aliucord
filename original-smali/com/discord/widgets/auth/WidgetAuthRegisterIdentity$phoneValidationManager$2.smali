@@ -84,7 +84,6 @@
     .line 4
     iget-object v4, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity$phoneValidationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->getBinding()Lcom/discord/databinding/WidgetAuthRegisterIdentityBinding;
     invoke-static {v4}, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;)Lcom/discord/databinding/WidgetAuthRegisterIdentityBinding;
 
     move-result-object v4

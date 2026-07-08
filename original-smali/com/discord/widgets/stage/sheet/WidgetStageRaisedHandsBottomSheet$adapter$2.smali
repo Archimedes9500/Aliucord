@@ -77,7 +77,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet$adapter$2;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;->getBinding()Lcom/discord/databinding/WidgetStageRaisedHandsBottomSheetBinding;
     invoke-static {v1}, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;->access$getBinding$p(Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;)Lcom/discord/databinding/WidgetStageRaisedHandsBottomSheetBinding;
 
     move-result-object v1

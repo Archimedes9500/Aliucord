@@ -89,7 +89,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreApplicationStreamPreviews$handleFetchFailed$3;->$streamKey:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreApplicationStreamPreviews;->fetchStreamPreviewIfNotFetching(Ljava/lang/String;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreApplicationStreamPreviews;->access$fetchStreamPreviewIfNotFetching(Lcom/discord/stores/StoreApplicationStreamPreviews;Ljava/lang/String;)V
 
     return-void

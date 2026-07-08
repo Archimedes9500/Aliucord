@@ -91,7 +91,6 @@
 
     iget-object v1, v1, Lcom/discord/models/experiments/dto/GuildExperimentBucketDto$Parser$parse$2;->$reader:Lcom/discord/models/domain/Model$JsonReader;
 
-    # invokes: Lcom/discord/models/experiments/dto/GuildExperimentBucketDto$Parser;->parsePosition(Lcom/discord/models/domain/Model$JsonReader;)Lkotlin/ranges/IntRange;
     invoke-static {v0, v1}, Lcom/discord/models/experiments/dto/GuildExperimentBucketDto$Parser;->access$parsePosition(Lcom/discord/models/experiments/dto/GuildExperimentBucketDto$Parser;Lcom/discord/models/domain/Model$JsonReader;)Lkotlin/ranges/IntRange;
 
     move-result-object v0

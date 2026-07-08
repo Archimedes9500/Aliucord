@@ -87,7 +87,6 @@
     :cond_e
     iget-object p1, p0, Lcom/discord/widgets/channels/list/WidgetChannelListUnreads$1;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;->handleVisibleRangeUpdate()V
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;->access$handleVisibleRangeUpdate(Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;)V
 
     :goto_13
@@ -116,7 +115,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/channels/list/WidgetChannelListUnreads$1;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;->handleVisibleRangeUpdate()V
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;->access$handleVisibleRangeUpdate(Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;)V
 
     :cond_15

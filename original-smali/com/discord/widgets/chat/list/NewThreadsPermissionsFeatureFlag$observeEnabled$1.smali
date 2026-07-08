@@ -86,7 +86,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/list/NewThreadsPermissionsFeatureFlag$observeEnabled$1;->this$0:Lcom/discord/widgets/chat/list/NewThreadsPermissionsFeatureFlag;
 
-    # invokes: Lcom/discord/widgets/chat/list/NewThreadsPermissionsFeatureFlag;->isEnabled(Lcom/discord/models/experiments/domain/Experiment;Lcom/discord/models/guild/Guild;)Z
     invoke-static {v0, p1, p2}, Lcom/discord/widgets/chat/list/NewThreadsPermissionsFeatureFlag;->access$isEnabled(Lcom/discord/widgets/chat/list/NewThreadsPermissionsFeatureFlag;Lcom/discord/models/experiments/domain/Experiment;Lcom/discord/models/guild/Guild;)Z
 
     move-result p1

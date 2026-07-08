@@ -51,7 +51,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/l/e$b;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/e;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/e;->c:Ld0/e0/p/d/m0/e/a/k0/a;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/l/e;->access$getJavaAnnotation$p(Ld0/e0/p/d/m0/e/a/i0/l/e;)Ld0/e0/p/d/m0/e/a/k0/a;
 
     move-result-object v0

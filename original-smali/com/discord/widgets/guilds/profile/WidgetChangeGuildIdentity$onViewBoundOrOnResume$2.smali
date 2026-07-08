@@ -127,7 +127,6 @@
 
     const v0, 0x7f12058e
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->showToast(I)V
     invoke-static {p1, v0}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$showToast(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;I)V
 
     goto :goto_4f
@@ -140,7 +139,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->showToast(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$showToast(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;Ljava/lang/String;)V
 
     goto :goto_4f
@@ -156,13 +154,11 @@
 
     const v0, 0x7f121e01
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->showToast(I)V
     invoke-static {p1, v0}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$showToast(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;I)V
 
     .line 8
     iget-object p1, p0, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;
 
-    # getter for: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->discardConfirmed:Ljava/util/concurrent/atomic/AtomicBoolean;
     invoke-static {p1}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$getDiscardConfirmed$p(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;)Ljava/util/concurrent/atomic/AtomicBoolean;
 
     move-result-object p1

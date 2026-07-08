@@ -145,7 +145,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/e/b/c$a$a;->c:Ld0/e0/p/d/m0/e/b/c$a;
 
-    # getter for: Ld0/e0/p/d/m0/e/b/c$a;->a:Ljava/util/HashMap;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/b/c$a;->access$getArguments$p(Ld0/e0/p/d/m0/e/b/c$a;)Ljava/util/HashMap;
 
     move-result-object v0

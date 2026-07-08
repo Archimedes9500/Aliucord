@@ -78,7 +78,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;->declineHandler:Lkotlin/jvm/functions/Function2;
     invoke-static {p1}, Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;->access$getDeclineHandler$p(Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;)Lkotlin/jvm/functions/Function2;
 
     move-result-object p1

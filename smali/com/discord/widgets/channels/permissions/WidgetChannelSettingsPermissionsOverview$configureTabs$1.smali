@@ -124,7 +124,6 @@
     :goto_16
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview$configureTabs$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;->getViewModel()Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverviewViewModel;
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;->access$getViewModel$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;)Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverviewViewModel;
 
     move-result-object v0

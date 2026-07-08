@@ -892,7 +892,6 @@
 
     const v1, 0x7f121bb1
 
-    # invokes: Lcom/discord/utilities/error/Error$Response;->getMessageToast(Landroid/content/Context;I)Ljava/lang/String;
     invoke-static {v0, p1, v1}, Lcom/discord/utilities/error/Error$Response;->access$100(Lcom/discord/utilities/error/Error$Response;Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object p1
@@ -909,7 +908,6 @@
 
     const v1, 0x7f121bb5
 
-    # invokes: Lcom/discord/utilities/error/Error$Response;->getMessageToast(Landroid/content/Context;I)Ljava/lang/String;
     invoke-static {v0, p1, v1}, Lcom/discord/utilities/error/Error$Response;->access$100(Lcom/discord/utilities/error/Error$Response;Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object p1
@@ -968,7 +966,6 @@
 
     const v1, 0x7f121bb7
 
-    # invokes: Lcom/discord/utilities/error/Error$Response;->getMessageToast(Landroid/content/Context;I)Ljava/lang/String;
     invoke-static {v0, p1, v1}, Lcom/discord/utilities/error/Error$Response;->access$100(Lcom/discord/utilities/error/Error$Response;Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object p1

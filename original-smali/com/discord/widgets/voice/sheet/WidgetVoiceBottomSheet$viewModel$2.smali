@@ -80,14 +80,12 @@
 
     iget-object v2, v0, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->getChannelId()J
     invoke-static {v2}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->access$getChannelId$p(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;)J
 
     move-result-wide v2
 
     iget-object v4, v0, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->getForwardToFullscreenIfVideoActivated()Z
     invoke-static {v4}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->access$getForwardToFullscreenIfVideoActivated$p(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;)Z
 
     move-result v4

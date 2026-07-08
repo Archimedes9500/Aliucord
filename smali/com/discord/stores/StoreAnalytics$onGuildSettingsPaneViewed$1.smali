@@ -95,7 +95,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreAnalytics$onGuildSettingsPaneViewed$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreAnalytics;->getGuildAnalyticsPropertiesInternal(J)Ljava/util/Map;
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreAnalytics;->access$getGuildAnalyticsPropertiesInternal(Lcom/discord/stores/StoreAnalytics;J)Ljava/util/Map;
 
     move-result-object v0

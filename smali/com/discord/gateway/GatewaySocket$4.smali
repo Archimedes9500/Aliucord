@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$4;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->logger:Lcom/discord/utilities/logging/Logger;
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getLogger$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/utilities/logging/Logger;
 
     move-result-object v1

@@ -156,7 +156,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/guilds/invite/WidgetGuildInvite$configureLoadedUI$onAcceptClick$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInvite;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInvite;->configureUIFailure(Lcom/discord/utilities/error/Error;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInvite;->access$configureUIFailure(Lcom/discord/widgets/guilds/invite/WidgetGuildInvite;Lcom/discord/utilities/error/Error;)V
 
     .line 3

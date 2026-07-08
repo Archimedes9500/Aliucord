@@ -1015,7 +1015,6 @@
     check-cast v4, Lcom/discord/models/domain/ModelNotificationSettings$ChannelOverride;
 
     .line 7
-    # getter for: Lcom/discord/models/domain/ModelNotificationSettings$ChannelOverride;->muteConfig:Lcom/discord/models/domain/ModelMuteConfig;
     invoke-static {v4}, Lcom/discord/models/domain/ModelNotificationSettings$ChannelOverride;->access$000(Lcom/discord/models/domain/ModelNotificationSettings$ChannelOverride;)Lcom/discord/models/domain/ModelMuteConfig;
 
     move-result-object v4

@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/media/WidgetMedia$showControls$2;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # invokes: Lcom/discord/widgets/media/WidgetMedia;->hideControls()V
     invoke-static {p1}, Lcom/discord/widgets/media/WidgetMedia;->access$hideControls(Lcom/discord/widgets/media/WidgetMedia;)V
 
     return-void

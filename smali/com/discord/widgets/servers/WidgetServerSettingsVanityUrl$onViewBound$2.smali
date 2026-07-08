@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$onViewBound$2;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->getBinding()Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;)Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
 
     move-result-object v0

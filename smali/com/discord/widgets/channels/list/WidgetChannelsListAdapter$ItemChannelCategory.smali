@@ -92,7 +92,6 @@
     const/4 v1, 0x1
 
     .line 1
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;->getAnimation(Z)Landroid/view/animation/RotateAnimation;
     invoke-static {v0, v1}, Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;->access$getAnimation(Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;Z)Landroid/view/animation/RotateAnimation;
 
     move-result-object v1
@@ -102,7 +101,6 @@
     const/4 v1, 0x0
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;->getAnimation(Z)Landroid/view/animation/RotateAnimation;
     invoke-static {v0, v1}, Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;->access$getAnimation(Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;Z)Landroid/view/animation/RotateAnimation;
 
     move-result-object v0
@@ -368,7 +366,6 @@
 
     invoke-static {v0, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;->getChannelColor(Lcom/discord/widgets/channels/list/items/ChannelListItemCategory;Landroid/content/Context;)I
     invoke-static {p2, p1, v0}, Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;->access$getChannelColor(Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;Lcom/discord/widgets/channels/list/items/ChannelListItemCategory;Landroid/content/Context;)I
 
     move-result v0
@@ -396,7 +393,6 @@
 
     iget-object v1, v1, Lcom/discord/databinding/WidgetChannelsListItemCategoryBinding;->c:Landroid/widget/ImageView;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;->getArrowDrawable(Lcom/discord/widgets/channels/list/items/ChannelListItemCategory;)I
     invoke-static {p2, p1}, Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;->access$getArrowDrawable(Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelCategory$Companion;Lcom/discord/widgets/channels/list/items/ChannelListItemCategory;)I
 
     move-result p2

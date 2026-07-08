@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint$addBindedTextWatcher$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;->syncHint()V
     invoke-static {p1}, Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;->access$syncHint(Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;)V
 
     return-void

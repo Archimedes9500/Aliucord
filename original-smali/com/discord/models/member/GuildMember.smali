@@ -156,6 +156,10 @@
 
 .field private final userId:J
 
+.field public avatarDecorationData:Lcom/discord/api/user/AvatarDecoration;
+
+.field public collectibles:Lcom/discord/api/user/Collectibles;
+
 
 # direct methods
 .method public static constructor <clinit>()V
@@ -809,6 +813,16 @@
     move-object/from16 v0, v17
 
     invoke-direct/range {v0 .. v16}, Lcom/discord/models/member/GuildMember;-><init>(IJLjava/util/List;Ljava/lang/String;Ljava/lang/String;ZLcom/discord/api/utcdatetime/UtcDateTime;JJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/discord/api/utcdatetime/UtcDateTime;)V
+
+    move-object/from16 v1, p0
+
+    iget-object v2, v1, Lcom/discord/models/member/GuildMember;->avatarDecorationData:Lcom/discord/api/user/AvatarDecoration;
+
+    iput-object v2, v0, Lcom/discord/models/member/GuildMember;->avatarDecorationData:Lcom/discord/api/user/AvatarDecoration;
+
+    iget-object v2, v1, Lcom/discord/models/member/GuildMember;->collectibles:Lcom/discord/api/user/Collectibles;
+
+    iput-object v2, v0, Lcom/discord/models/member/GuildMember;->collectibles:Lcom/discord/api/user/Collectibles;
 
     return-object v17
 .end method

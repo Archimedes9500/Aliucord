@@ -190,7 +190,6 @@
     invoke-static {v3}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
-    # getter for: Lcom/discord/views/CheckedSetting$ViewType;->VALUES:[Lcom/discord/views/CheckedSetting$ViewType;
     invoke-static {}, Lcom/discord/views/CheckedSetting$ViewType;->access$getVALUES$cp()[Lcom/discord/views/CheckedSetting$ViewType;
 
     move-result-object v3

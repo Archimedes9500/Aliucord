@@ -91,7 +91,6 @@
 
     iget-wide v2, v0, Lcom/discord/stores/StoreGuildVoiceRegions$fetchIfNonexisting$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreGuildVoiceRegions;->handleGuildVoiceRegionsFetchFailed(J)V
     invoke-static {v1, v2, v3}, Lcom/discord/stores/StoreGuildVoiceRegions;->access$handleGuildVoiceRegionsFetchFailed(Lcom/discord/stores/StoreGuildVoiceRegions;J)V
 
     return-void

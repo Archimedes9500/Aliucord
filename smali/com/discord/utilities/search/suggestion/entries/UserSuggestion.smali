@@ -236,7 +236,6 @@
     .line 10
     sget-object p1, Lcom/discord/utilities/search/suggestion/entries/UserSuggestion;->Companion:Lcom/discord/utilities/search/suggestion/entries/UserSuggestion$Companion;
 
-    # invokes: Lcom/discord/utilities/search/suggestion/entries/UserSuggestion$Companion;->getUsernameWithDiscriminator(Ljava/lang/String;I)Ljava/lang/String;
     invoke-static {p1, v0, v1}, Lcom/discord/utilities/search/suggestion/entries/UserSuggestion$Companion;->access$getUsernameWithDiscriminator(Lcom/discord/utilities/search/suggestion/entries/UserSuggestion$Companion;Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1

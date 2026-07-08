@@ -106,7 +106,6 @@
     check-cast v0, Lcom/discord/stores/StoreGooglePlayPurchases;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreGooglePlayPurchases;->shouldRetryDowngrade(Ljava/lang/Throwable;)Z
     invoke-static {v0, p1}, Lcom/discord/stores/StoreGooglePlayPurchases;->access$shouldRetryDowngrade(Lcom/discord/stores/StoreGooglePlayPurchases;Ljava/lang/Throwable;)Z
 
     move-result p1

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAuthLandingViewModel$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthLandingViewModel;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetAuthLandingViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAuthLandingViewModel;->access$getEventSubject$p(Lcom/discord/widgets/auth/WidgetAuthLandingViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object v0

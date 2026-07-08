@@ -92,7 +92,6 @@
 
     move-result-object v2
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsModeration;->updateGuild(JLcom/discord/restapi/RestAPIParams$UpdateGuild;)V
     invoke-static {p1, v0, v1, v2}, Lcom/discord/widgets/servers/WidgetServerSettingsModeration;->access$updateGuild(Lcom/discord/widgets/servers/WidgetServerSettingsModeration;JLcom/discord/restapi/RestAPIParams$UpdateGuild;)V
 
     return-void

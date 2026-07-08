@@ -97,7 +97,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationStreaming$createStream$1;->this$0:Lcom/discord/stores/StoreApplicationStreaming;
 
-    # getter for: Lcom/discord/stores/StoreApplicationStreaming;->rtcConnectionStore:Lcom/discord/stores/StoreRtcConnection;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationStreaming;->access$getRtcConnectionStore$p(Lcom/discord/stores/StoreApplicationStreaming;)Lcom/discord/stores/StoreRtcConnection;
 
     move-result-object v0
@@ -144,7 +143,6 @@
     :cond_24
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationStreaming$createStream$1;->this$0:Lcom/discord/stores/StoreApplicationStreaming;
 
-    # getter for: Lcom/discord/stores/StoreApplicationStreaming;->userStore:Lcom/discord/stores/StoreUser;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationStreaming;->access$getUserStore$p(Lcom/discord/stores/StoreApplicationStreaming;)Lcom/discord/stores/StoreUser;
 
     move-result-object v0
@@ -193,7 +191,6 @@
     :goto_4c
     iget-object v4, p0, Lcom/discord/stores/StoreApplicationStreaming$createStream$1;->this$0:Lcom/discord/stores/StoreApplicationStreaming;
 
-    # getter for: Lcom/discord/stores/StoreApplicationStreaming;->activeApplicationStream:Lcom/discord/stores/StoreApplicationStreaming$ActiveApplicationStream;
     invoke-static {v4}, Lcom/discord/stores/StoreApplicationStreaming;->access$getActiveApplicationStream$p(Lcom/discord/stores/StoreApplicationStreaming;)Lcom/discord/stores/StoreApplicationStreaming$ActiveApplicationStream;
 
     move-result-object v4
@@ -277,14 +274,12 @@
 
     move-result-object v2
 
-    # invokes: Lcom/discord/stores/StoreApplicationStreaming;->stopStreamInternal(Ljava/lang/String;)V
     invoke-static {v1, v2}, Lcom/discord/stores/StoreApplicationStreaming;->access$stopStreamInternal(Lcom/discord/stores/StoreApplicationStreaming;Ljava/lang/String;)V
 
     .line 18
     :cond_96
     iget-object v1, p0, Lcom/discord/stores/StoreApplicationStreaming$createStream$1;->this$0:Lcom/discord/stores/StoreApplicationStreaming;
 
-    # getter for: Lcom/discord/stores/StoreApplicationStreaming;->storeStream:Lcom/discord/stores/StoreStream;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationStreaming;->access$getStoreStream$p(Lcom/discord/stores/StoreApplicationStreaming;)Lcom/discord/stores/StoreStream;
 
     move-result-object v1

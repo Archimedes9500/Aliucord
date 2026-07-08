@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetDisableGuildCommunication;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetDisableGuildCommunication;->configureUI(Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetDisableGuildCommunication;->access$configureUI(Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetDisableGuildCommunication;Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel$ViewState;)V
 
     return-void

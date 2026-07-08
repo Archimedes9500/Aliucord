@@ -81,7 +81,6 @@
     .line 5
     iget-object v0, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar$a;->j:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
 
-    # invokes: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->startFadeInAnimation()V
     invoke-static {v0}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$1400(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
 
     goto :goto_2b
@@ -90,7 +89,6 @@
     :cond_26
     iget-object v0, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar$a;->j:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
 
-    # invokes: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->startSlideInAnimation()V
     invoke-static {v0}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$1500(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
 
     :goto_2b

@@ -75,7 +75,6 @@
     .line 1
     iget-object p2, p0, Lcom/discord/utilities/networking/NetworkMonitor$registerBroadcastAirplaneMode$1;->this$0:Lcom/discord/utilities/networking/NetworkMonitor;
 
-    # getter for: Lcom/discord/utilities/networking/NetworkMonitor;->logger:Lcom/discord/utilities/logging/Logger;
     invoke-static {p2}, Lcom/discord/utilities/networking/NetworkMonitor;->access$getLogger$p(Lcom/discord/utilities/networking/NetworkMonitor;)Lcom/discord/utilities/logging/Logger;
 
     move-result-object v0

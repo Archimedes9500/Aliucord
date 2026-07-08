@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel;->handleStoreState(Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel;->access$handleStoreState(Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel;Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel$StoreState;)V
 
     return-void

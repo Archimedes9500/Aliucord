@@ -137,7 +137,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/stores/StoreReadStates$computeUnreadMarker$4;->this$0:Lcom/discord/stores/StoreReadStates;
 
-    # getter for: Lcom/discord/stores/StoreReadStates;->markAsRead:Lrx/subjects/SerializedSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreReadStates;->access$getMarkAsRead$p(Lcom/discord/stores/StoreReadStates;)Lrx/subjects/SerializedSubject;
 
     move-result-object v0

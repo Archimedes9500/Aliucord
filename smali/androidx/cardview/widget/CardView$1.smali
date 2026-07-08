@@ -106,7 +106,6 @@
     if-le p1, v1, :cond_9
 
     .line 2
-    # invokes: Landroid/widget/FrameLayout;->setMinimumWidth(I)V
     invoke-static {v0, p1}, Landroidx/cardview/widget/CardView;->access$101(Landroidx/cardview/widget/CardView;I)V
 
     .line 3
@@ -118,7 +117,6 @@
     if-le p2, v0, :cond_12
 
     .line 4
-    # invokes: Landroid/widget/FrameLayout;->setMinimumHeight(I)V
     invoke-static {p1, p2}, Landroidx/cardview/widget/CardView;->access$201(Landroidx/cardview/widget/CardView;I)V
 
     :cond_12
@@ -156,7 +154,6 @@
 
     add-int/2addr p4, v1
 
-    # invokes: Landroid/widget/FrameLayout;->setPadding(IIII)V
     invoke-static {v0, p1, p2, p3, p4}, Landroidx/cardview/widget/CardView;->access$001(Landroidx/cardview/widget/CardView;IIII)V
 
     return-void

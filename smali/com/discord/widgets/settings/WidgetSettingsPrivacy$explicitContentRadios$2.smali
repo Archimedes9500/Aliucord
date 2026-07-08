@@ -100,7 +100,6 @@
     .line 2
     iget-object v1, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$explicitContentRadios$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {v1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object v1
@@ -114,7 +113,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$explicitContentRadios$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {v1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object v1
@@ -128,7 +126,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$explicitContentRadios$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {v1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object v1

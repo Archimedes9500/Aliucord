@@ -197,11 +197,9 @@
 
     move-result v2
 
-    # invokes: Lcom/google/android/material/shape/ShapePath$PathArcOperation;->setStartAngle(F)V
     invoke-static {v1, v2}, Lcom/google/android/material/shape/ShapePath$PathArcOperation;->access$600(Lcom/google/android/material/shape/ShapePath$PathArcOperation;F)V
 
     .line 6
-    # invokes: Lcom/google/android/material/shape/ShapePath$PathArcOperation;->setSweepAngle(F)V
     invoke-static {v1, v0}, Lcom/google/android/material/shape/ShapePath$PathArcOperation;->access$700(Lcom/google/android/material/shape/ShapePath$PathArcOperation;F)V
 
     .line 7
@@ -319,11 +317,9 @@
     invoke-direct {v0, p1, p2, p3, p4}, Lcom/google/android/material/shape/ShapePath$PathArcOperation;-><init>(FFFF)V
 
     .line 2
-    # invokes: Lcom/google/android/material/shape/ShapePath$PathArcOperation;->setStartAngle(F)V
     invoke-static {v0, p5}, Lcom/google/android/material/shape/ShapePath$PathArcOperation;->access$600(Lcom/google/android/material/shape/ShapePath$PathArcOperation;F)V
 
     .line 3
-    # invokes: Lcom/google/android/material/shape/ShapePath$PathArcOperation;->setSweepAngle(F)V
     invoke-static {v0, p6}, Lcom/google/android/material/shape/ShapePath$PathArcOperation;->access$700(Lcom/google/android/material/shape/ShapePath$PathArcOperation;F)V
 
     .line 4
@@ -604,11 +600,9 @@
     invoke-direct {v0}, Lcom/google/android/material/shape/ShapePath$PathLineOperation;-><init>()V
 
     .line 2
-    # setter for: Lcom/google/android/material/shape/ShapePath$PathLineOperation;->x:F
     invoke-static {v0, p1}, Lcom/google/android/material/shape/ShapePath$PathLineOperation;->access$002(Lcom/google/android/material/shape/ShapePath$PathLineOperation;F)F
 
     .line 3
-    # setter for: Lcom/google/android/material/shape/ShapePath$PathLineOperation;->y:F
     invoke-static {v0, p2}, Lcom/google/android/material/shape/ShapePath$PathLineOperation;->access$102(Lcom/google/android/material/shape/ShapePath$PathLineOperation;F)F
 
     .line 4
@@ -669,19 +663,15 @@
     invoke-direct {v0}, Lcom/google/android/material/shape/ShapePath$PathQuadOperation;-><init>()V
 
     .line 2
-    # invokes: Lcom/google/android/material/shape/ShapePath$PathQuadOperation;->setControlX(F)V
     invoke-static {v0, p1}, Lcom/google/android/material/shape/ShapePath$PathQuadOperation;->access$200(Lcom/google/android/material/shape/ShapePath$PathQuadOperation;F)V
 
     .line 3
-    # invokes: Lcom/google/android/material/shape/ShapePath$PathQuadOperation;->setControlY(F)V
     invoke-static {v0, p2}, Lcom/google/android/material/shape/ShapePath$PathQuadOperation;->access$300(Lcom/google/android/material/shape/ShapePath$PathQuadOperation;F)V
 
     .line 4
-    # invokes: Lcom/google/android/material/shape/ShapePath$PathQuadOperation;->setEndX(F)V
     invoke-static {v0, p3}, Lcom/google/android/material/shape/ShapePath$PathQuadOperation;->access$400(Lcom/google/android/material/shape/ShapePath$PathQuadOperation;F)V
 
     .line 5
-    # invokes: Lcom/google/android/material/shape/ShapePath$PathQuadOperation;->setEndY(F)V
     invoke-static {v0, p4}, Lcom/google/android/material/shape/ShapePath$PathQuadOperation;->access$500(Lcom/google/android/material/shape/ShapePath$PathQuadOperation;F)V
 
     .line 6

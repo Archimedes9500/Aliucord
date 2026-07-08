@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/AddMemberAdapter$AddMemberAdapterItemItem$onConfigure$2;->$item:Lcom/discord/widgets/channels/permissions/AddMemberAdapter$Item$PermissionOwnerItem;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/AddMemberAdapter$AddMemberAdapterItemItem;->handleClick(Lcom/discord/widgets/channels/permissions/AddMemberAdapter$Item$PermissionOwnerItem;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/channels/permissions/AddMemberAdapter$AddMemberAdapterItemItem;->access$handleClick(Lcom/discord/widgets/channels/permissions/AddMemberAdapter$AddMemberAdapterItemItem;Lcom/discord/widgets/channels/permissions/AddMemberAdapter$Item$PermissionOwnerItem;)V
 
     return-void

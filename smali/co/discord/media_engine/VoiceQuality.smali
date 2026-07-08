@@ -222,7 +222,6 @@
     :goto_54
     const-string v3, "audio_jitter_buffer"
 
-    # invokes: Lco/discord/media_engine/VoiceQualityKt;->explodePlayoutMetric(Ljava/lang/String;Lco/discord/media_engine/PlayoutMetric;Ljava/util/Map;)V
     invoke-static {v3, v0, p1}, Lco/discord/media_engine/VoiceQualityKt;->access$explodePlayoutMetric(Ljava/lang/String;Lco/discord/media_engine/PlayoutMetric;Ljava/util/Map;)V
 
     if-eqz v2, :cond_60
@@ -240,7 +239,6 @@
     :goto_61
     const-string v3, "audio_jitter_target"
 
-    # invokes: Lco/discord/media_engine/VoiceQualityKt;->explodePlayoutMetric(Ljava/lang/String;Lco/discord/media_engine/PlayoutMetric;Ljava/util/Map;)V
     invoke-static {v3, v0, p1}, Lco/discord/media_engine/VoiceQualityKt;->access$explodePlayoutMetric(Ljava/lang/String;Lco/discord/media_engine/PlayoutMetric;Ljava/util/Map;)V
 
     if-eqz v2, :cond_6d
@@ -258,7 +256,6 @@
     :goto_6e
     const-string v3, "audio_jitter_delay"
 
-    # invokes: Lco/discord/media_engine/VoiceQualityKt;->explodePlayoutMetric(Ljava/lang/String;Lco/discord/media_engine/PlayoutMetric;Ljava/util/Map;)V
     invoke-static {v3, v0, p1}, Lco/discord/media_engine/VoiceQualityKt;->access$explodePlayoutMetric(Ljava/lang/String;Lco/discord/media_engine/PlayoutMetric;Ljava/util/Map;)V
 
     if-eqz v2, :cond_7a
@@ -276,7 +273,6 @@
     :goto_7b
     const-string/jumbo v3, "relative_reception_delay"
 
-    # invokes: Lco/discord/media_engine/VoiceQualityKt;->explodePlayoutMetric(Ljava/lang/String;Lco/discord/media_engine/PlayoutMetric;Ljava/util/Map;)V
     invoke-static {v3, v0, p1}, Lco/discord/media_engine/VoiceQualityKt;->access$explodePlayoutMetric(Ljava/lang/String;Lco/discord/media_engine/PlayoutMetric;Ljava/util/Map;)V
 
     if-eqz v2, :cond_87
@@ -289,7 +285,6 @@
     :cond_87
     const-string/jumbo v0, "relative_playout_delay"
 
-    # invokes: Lco/discord/media_engine/VoiceQualityKt;->explodePlayoutMetric(Ljava/lang/String;Lco/discord/media_engine/PlayoutMetric;Ljava/util/Map;)V
     invoke-static {v0, v1, p1}, Lco/discord/media_engine/VoiceQualityKt;->access$explodePlayoutMetric(Ljava/lang/String;Lco/discord/media_engine/PlayoutMetric;Ljava/util/Map;)V
 
     return-void
@@ -1410,12 +1405,10 @@
     const-wide/high16 v33, 0x3ff0000000000000L    # 1.0
 
     .line 35
-    # invokes: Lco/discord/media_engine/VoiceQualityKt;->clamp(DDD)D
     invoke-static/range {v29 .. v34}, Lco/discord/media_engine/VoiceQualityKt;->access$clamp(DDD)D
 
     move-result-wide v1
 
-    # invokes: Lco/discord/media_engine/VoiceQualityKt;->_calculateMos(DD)D
     invoke-static {v13, v14, v1, v2}, Lco/discord/media_engine/VoiceQualityKt;->access$_calculateMos(DD)D
 
     move-result-wide v1

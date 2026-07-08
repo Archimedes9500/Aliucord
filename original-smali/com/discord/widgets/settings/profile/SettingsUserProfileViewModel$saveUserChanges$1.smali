@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$saveUserChanges$1;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getEventSubject$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

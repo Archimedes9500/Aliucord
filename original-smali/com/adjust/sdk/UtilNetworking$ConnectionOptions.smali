@@ -46,7 +46,6 @@
     invoke-virtual {p1, p2}, Ljavax/net/ssl/HttpsURLConnection;->setReadTimeout(I)V
 
     .line 4
-    # getter for: Lcom/adjust/sdk/UtilNetworking;->userAgent:Ljava/lang/String;
     invoke-static {}, Lcom/adjust/sdk/UtilNetworking;->access$000()Ljava/lang/String;
 
     move-result-object p2
@@ -54,7 +53,6 @@
     if-eqz p2, :cond_1d
 
     .line 5
-    # getter for: Lcom/adjust/sdk/UtilNetworking;->userAgent:Ljava/lang/String;
     invoke-static {}, Lcom/adjust/sdk/UtilNetworking;->access$000()Ljava/lang/String;
 
     move-result-object p2

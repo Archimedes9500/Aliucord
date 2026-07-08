@@ -114,7 +114,6 @@
 
     check-cast p1, Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$ViewState$Loaded;
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowser;->configureCreatePostButton(Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$ViewState$Loaded;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/forums/WidgetForumBrowser;->access$configureCreatePostButton(Lcom/discord/widgets/forums/WidgetForumBrowser;Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$ViewState$Loaded;)V
 
     .line 5
@@ -124,7 +123,6 @@
 
     check-cast v0, Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$ViewState$Loaded;
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowser;->configureGuidelinesButton(Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$ViewState$Loaded;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/forums/WidgetForumBrowser;->access$configureGuidelinesButton(Lcom/discord/widgets/forums/WidgetForumBrowser;Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$ViewState$Loaded;)V
 
     :cond_1d

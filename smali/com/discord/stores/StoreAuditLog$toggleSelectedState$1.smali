@@ -93,7 +93,6 @@
 
     iget-wide v2, v0, Lcom/discord/stores/StoreAuditLog$toggleSelectedState$1;->$selectedItemId:J
 
-    # getter for: Lcom/discord/stores/StoreAuditLog;->state:Lcom/discord/stores/StoreAuditLog$AuditLogState;
     invoke-static {v1}, Lcom/discord/stores/StoreAuditLog;->access$getState$p(Lcom/discord/stores/StoreAuditLog;)Lcom/discord/stores/StoreAuditLog$AuditLogState;
 
     move-result-object v4
@@ -118,7 +117,6 @@
     .line 3
     iget-object v2, v0, Lcom/discord/stores/StoreAuditLog$toggleSelectedState$1;->this$0:Lcom/discord/stores/StoreAuditLog;
 
-    # getter for: Lcom/discord/stores/StoreAuditLog;->state:Lcom/discord/stores/StoreAuditLog$AuditLogState;
     invoke-static {v2}, Lcom/discord/stores/StoreAuditLog;->access$getState$p(Lcom/discord/stores/StoreAuditLog;)Lcom/discord/stores/StoreAuditLog$AuditLogState;
 
     move-result-object v3
@@ -160,7 +158,6 @@
     :goto_34
     iget-object v2, v0, Lcom/discord/stores/StoreAuditLog$toggleSelectedState$1;->this$0:Lcom/discord/stores/StoreAuditLog;
 
-    # getter for: Lcom/discord/stores/StoreAuditLog;->state:Lcom/discord/stores/StoreAuditLog$AuditLogState;
     invoke-static {v2}, Lcom/discord/stores/StoreAuditLog;->access$getState$p(Lcom/discord/stores/StoreAuditLog;)Lcom/discord/stores/StoreAuditLog$AuditLogState;
 
     move-result-object v3

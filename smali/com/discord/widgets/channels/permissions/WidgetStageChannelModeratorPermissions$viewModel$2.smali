@@ -76,7 +76,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions$viewModel$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;->getChannelId()J
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;->access$getChannelId$p(Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;)J
 
     move-result-wide v1

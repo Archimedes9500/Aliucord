@@ -91,14 +91,12 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreExperiments$getExperimentalAlpha$1;->this$0:Lcom/discord/stores/StoreExperiments;
 
-    # getter for: Lcom/discord/stores/StoreExperiments;->storeGuilds:Lcom/discord/stores/StoreGuilds;
     invoke-static {v1}, Lcom/discord/stores/StoreExperiments;->access$getStoreGuilds$p(Lcom/discord/stores/StoreExperiments;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/discord/stores/StoreExperiments$getExperimentalAlpha$1;->this$0:Lcom/discord/stores/StoreExperiments;
 
-    # getter for: Lcom/discord/stores/StoreExperiments;->storeUser:Lcom/discord/stores/StoreUser;
     invoke-static {v2}, Lcom/discord/stores/StoreExperiments;->access$getStoreUser$p(Lcom/discord/stores/StoreExperiments;)Lcom/discord/stores/StoreUser;
 
     move-result-object v2

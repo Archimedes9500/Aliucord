@@ -107,7 +107,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet$onResume$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsAddMemberSheetBinding;
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;)Lcom/discord/databinding/WidgetChannelSettingsAddMemberSheetBinding;
 
     move-result-object v0

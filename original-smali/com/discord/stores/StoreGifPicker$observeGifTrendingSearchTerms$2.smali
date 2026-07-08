@@ -96,7 +96,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGifPicker$observeGifTrendingSearchTerms$2;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->getGifTrendingSearchTerms()Ljava/util/List;
     invoke-static {v0}, Lcom/discord/stores/StoreGifPicker;->access$getGifTrendingSearchTerms(Lcom/discord/stores/StoreGifPicker;)Ljava/util/List;
 
     move-result-object v0

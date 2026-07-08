@@ -79,7 +79,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter$setupStickyApplicationHeaders$1;->this$0:Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter;->stickyHeaderManager:Lcom/discord/widgets/chat/input/autocomplete/adapter/StickyHeaderManager;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter;->access$getStickyHeaderManager$p(Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter;)Lcom/discord/widgets/chat/input/autocomplete/adapter/StickyHeaderManager;
 
     move-result-object p1

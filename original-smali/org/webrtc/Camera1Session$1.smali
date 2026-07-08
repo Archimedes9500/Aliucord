@@ -63,7 +63,6 @@
     .line 3
     iget-object v0, p0, Lorg/webrtc/Camera1Session$1;->this$0:Lorg/webrtc/Camera1Session;
 
-    # invokes: Lorg/webrtc/Camera1Session;->stopInternal()V
     invoke-static {v0}, Lorg/webrtc/Camera1Session;->access$000(Lorg/webrtc/Camera1Session;)V
 
     const/4 v0, 0x2
@@ -73,7 +72,6 @@
     .line 4
     iget-object p1, p0, Lorg/webrtc/Camera1Session$1;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->events:Lorg/webrtc/CameraSession$Events;
     invoke-static {p1}, Lorg/webrtc/Camera1Session;->access$100(Lorg/webrtc/Camera1Session;)Lorg/webrtc/CameraSession$Events;
 
     move-result-object p1
@@ -88,7 +86,6 @@
     :cond_26
     iget-object p1, p0, Lorg/webrtc/Camera1Session$1;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->events:Lorg/webrtc/CameraSession$Events;
     invoke-static {p1}, Lorg/webrtc/Camera1Session;->access$100(Lorg/webrtc/Camera1Session;)Lorg/webrtc/CameraSession$Events;
 
     move-result-object p1

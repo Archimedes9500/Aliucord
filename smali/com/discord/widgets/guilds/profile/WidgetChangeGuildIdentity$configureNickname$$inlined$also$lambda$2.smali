@@ -71,7 +71,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity$configureNickname$$inlined$also$lambda$2;->this$0:Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->getViewModel()Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$getViewModel$p(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;)Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;
 
     move-result-object p1

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheet$onResume$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheet;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheet;->configureUI(Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheet;->access$configureUI(Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheet;Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheetViewModel$ViewState;)V
 
     return-void

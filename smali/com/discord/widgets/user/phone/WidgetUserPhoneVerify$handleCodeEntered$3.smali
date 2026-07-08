@@ -78,7 +78,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify$handleCodeEntered$3;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;
 
-    # invokes: Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;->getBinding()Lcom/discord/databinding/WidgetUserPhoneVerifyBinding;
     invoke-static {p1}, Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;->access$getBinding$p(Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;)Lcom/discord/databinding/WidgetUserPhoneVerifyBinding;
 
     move-result-object p1

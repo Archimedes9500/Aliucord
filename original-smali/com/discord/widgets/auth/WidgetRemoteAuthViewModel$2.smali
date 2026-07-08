@@ -116,7 +116,6 @@
 
     sget-object v0, Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel$ViewState$Failed;->INSTANCE:Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel$ViewState$Failed;
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel;->access$updateViewState(Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel;Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel$ViewState;)V
 
     :goto_1e

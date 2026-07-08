@@ -102,7 +102,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/search/history/MGPreferenceSearchHistoryCache$persistQuery$2;->this$0:Lcom/discord/utilities/search/history/MGPreferenceSearchHistoryCache;
 
-    # getter for: Lcom/discord/utilities/search/history/MGPreferenceSearchHistoryCache;->backingCache:Lcom/discord/utilities/persister/Persister;
     invoke-static {v0}, Lcom/discord/utilities/search/history/MGPreferenceSearchHistoryCache;->access$getBackingCache$p(Lcom/discord/utilities/search/history/MGPreferenceSearchHistoryCache;)Lcom/discord/utilities/persister/Persister;
 
     move-result-object v0

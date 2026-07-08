@@ -234,7 +234,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Ld0/e0/p/d/m0/j/d;->t(Ld0/e0/p/d/m0/c/m;Ljava/lang/StringBuilder;Z)V
     invoke-static {v0, p1, p2, v1}, Ld0/e0/p/d/m0/j/d;->access$renderName(Ld0/e0/p/d/m0/j/d;Ld0/e0/p/d/m0/c/m;Ljava/lang/StringBuilder;Z)V
 
     return-void
@@ -495,7 +494,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Ld0/e0/p/d/m0/j/d;->C(Ld0/e0/p/d/m0/c/z0;Ljava/lang/StringBuilder;Z)V
     invoke-static {v0, p1, p2, v1}, Ld0/e0/p/d/m0/j/d;->access$renderTypeParameter(Ld0/e0/p/d/m0/j/d;Ld0/e0/p/d/m0/c/z0;Ljava/lang/StringBuilder;Z)V
 
     return-void
@@ -530,7 +528,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Ld0/e0/p/d/m0/j/d;->G(Ld0/e0/p/d/m0/c/c1;ZLjava/lang/StringBuilder;Z)V
     invoke-static {v0, p1, v1, p2, v1}, Ld0/e0/p/d/m0/j/d;->access$renderValueParameter(Ld0/e0/p/d/m0/j/d;Ld0/e0/p/d/m0/c/c1;ZLjava/lang/StringBuilder;Z)V
 
     return-void

@@ -95,7 +95,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/stores/StoreMediaEngine$handleNewConnection$1;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # getter for: Lcom/discord/stores/StoreMediaEngine;->mediaSettingsStore:Lcom/discord/stores/StoreMediaSettings;
     invoke-static {p1}, Lcom/discord/stores/StoreMediaEngine;->access$getMediaSettingsStore$p(Lcom/discord/stores/StoreMediaEngine;)Lcom/discord/stores/StoreMediaSettings;
 
     move-result-object p1
@@ -141,7 +140,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreMediaEngine$handleNewConnection$1;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # getter for: Lcom/discord/stores/StoreMediaEngine;->onKrispStatusSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/stores/StoreMediaEngine;->access$getOnKrispStatusSubject$p(Lcom/discord/stores/StoreMediaEngine;)Lrx/subjects/PublishSubject;
 
     move-result-object p1
@@ -172,7 +170,6 @@
     :cond_3c
     iget-object p1, p0, Lcom/discord/stores/StoreMediaEngine$handleNewConnection$1;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # getter for: Lcom/discord/stores/StoreMediaEngine;->mediaSettingsStore:Lcom/discord/stores/StoreMediaSettings;
     invoke-static {p1}, Lcom/discord/stores/StoreMediaEngine;->access$getMediaSettingsStore$p(Lcom/discord/stores/StoreMediaEngine;)Lcom/discord/stores/StoreMediaSettings;
 
     move-result-object p1
@@ -187,7 +184,6 @@
     :cond_48
     iget-object p1, p0, Lcom/discord/stores/StoreMediaEngine$handleNewConnection$1;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # getter for: Lcom/discord/stores/StoreMediaEngine;->mediaSettingsStore:Lcom/discord/stores/StoreMediaSettings;
     invoke-static {p1}, Lcom/discord/stores/StoreMediaEngine;->access$getMediaSettingsStore$p(Lcom/discord/stores/StoreMediaEngine;)Lcom/discord/stores/StoreMediaSettings;
 
     move-result-object p1

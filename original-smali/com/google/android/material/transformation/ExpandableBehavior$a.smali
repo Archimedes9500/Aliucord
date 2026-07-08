@@ -62,7 +62,6 @@
     .line 2
     iget-object v0, p0, Lcom/google/android/material/transformation/ExpandableBehavior$a;->m:Lcom/google/android/material/transformation/ExpandableBehavior;
 
-    # getter for: Lcom/google/android/material/transformation/ExpandableBehavior;->currentState:I
     invoke-static {v0}, Lcom/google/android/material/transformation/ExpandableBehavior;->access$000(Lcom/google/android/material/transformation/ExpandableBehavior;)I
 
     move-result v0

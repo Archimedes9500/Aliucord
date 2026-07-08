@@ -99,7 +99,6 @@
     :cond_f
     iget-object p1, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$configureToolbar$1;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSync;->getViewModel()Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
     invoke-static {p1}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$getViewModel$p(Lcom/discord/widgets/contact_sync/WidgetContactSync;)Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
 
     move-result-object p1

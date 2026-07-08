@@ -277,7 +277,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/widgets/media/WidgetMedia$configureMediaImage$1;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # invokes: Lcom/discord/widgets/media/WidgetMedia;->getBinding()Lcom/discord/databinding/WidgetMediaBinding;
     invoke-static {v0}, Lcom/discord/widgets/media/WidgetMedia;->access$getBinding$p(Lcom/discord/widgets/media/WidgetMedia;)Lcom/discord/databinding/WidgetMediaBinding;
 
     move-result-object v0
@@ -576,7 +575,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/media/WidgetMedia$configureMediaImage$1;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # invokes: Lcom/discord/widgets/media/WidgetMedia;->onMediaClick()V
     invoke-static {p1}, Lcom/discord/widgets/media/WidgetMedia;->access$onMediaClick(Lcom/discord/widgets/media/WidgetMedia;)V
 
     const/4 p1, 0x1

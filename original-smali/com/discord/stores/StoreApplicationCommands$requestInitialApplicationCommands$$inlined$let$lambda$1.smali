@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommands$requestInitialApplicationCommands$$inlined$let$lambda$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->builtInCommandsProvider:Lcom/discord/stores/BuiltInCommandsProvider;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommands;->access$getBuiltInCommandsProvider$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/BuiltInCommandsProvider;
 
     move-result-object v1
@@ -99,7 +98,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->handleDiscoverCommandsUpdate(Ljava/util/List;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreApplicationCommands;->access$handleDiscoverCommandsUpdate(Lcom/discord/stores/StoreApplicationCommands;Ljava/util/List;)V
 
     return-void

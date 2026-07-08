@@ -99,7 +99,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreExperiments$observeOverrides$1;->this$0:Lcom/discord/stores/StoreExperiments;
 
-    # getter for: Lcom/discord/stores/StoreExperiments;->experimentOverrides:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreExperiments;->access$getExperimentOverrides$p(Lcom/discord/stores/StoreExperiments;)Ljava/util/HashMap;
 
     move-result-object v0

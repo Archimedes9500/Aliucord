@@ -107,7 +107,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/friends/WidgetFriendsList$handleCaptchaError$1;->this$0:Lcom/discord/widgets/friends/WidgetFriendsList;
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsList;->getViewModel()Lcom/discord/widgets/friends/FriendsListViewModel;
     invoke-static {p1}, Lcom/discord/widgets/friends/WidgetFriendsList;->access$getViewModel$p(Lcom/discord/widgets/friends/WidgetFriendsList;)Lcom/discord/widgets/friends/FriendsListViewModel;
 
     move-result-object p1

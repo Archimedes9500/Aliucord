@@ -56,7 +56,6 @@
 
     iget-object p2, p0, Lcom/google/android/material/tabs/TabLayout$TabView$a;->j:Landroid/view/View;
 
-    # invokes: Lcom/google/android/material/tabs/TabLayout$TabView;->tryUpdateBadgeDrawableBounds(Landroid/view/View;)V
     invoke-static {p1, p2}, Lcom/google/android/material/tabs/TabLayout$TabView;->access$1000(Lcom/google/android/material/tabs/TabLayout$TabView;Landroid/view/View;)V
 
     :cond_f

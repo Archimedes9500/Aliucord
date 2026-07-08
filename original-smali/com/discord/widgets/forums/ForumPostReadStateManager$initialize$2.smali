@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/forums/ForumPostReadStateManager;
 
     .line 2
-    # invokes: Lcom/discord/widgets/forums/ForumPostReadStateManager;->handleSubscription(Lrx/Subscription;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/forums/ForumPostReadStateManager;->access$handleSubscription(Lcom/discord/widgets/forums/ForumPostReadStateManager;Lrx/Subscription;)V
 
     return-void

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guild_role_subscriptions/GuildSubscriptionRoleImageUploadView$initialize$2;->this$0:Lcom/discord/widgets/guild_role_subscriptions/GuildSubscriptionRoleImageUploadView;
 
-    # getter for: Lcom/discord/widgets/guild_role_subscriptions/GuildSubscriptionRoleImageUploadView;->onImageChooserClickListener:Lkotlin/jvm/functions/Function0;
     invoke-static {p1}, Lcom/discord/widgets/guild_role_subscriptions/GuildSubscriptionRoleImageUploadView;->access$getOnImageChooserClickListener$p(Lcom/discord/widgets/guild_role_subscriptions/GuildSubscriptionRoleImageUploadView;)Lkotlin/jvm/functions/Function0;
 
     move-result-object p1

@@ -72,7 +72,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/share/WidgetIncomingShare$Adapter$ViewHolder;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare$Adapter;
 
-    # getter for: Lcom/discord/widgets/share/WidgetIncomingShare$Adapter;->onItemClickListener:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/share/WidgetIncomingShare$Adapter;->access$getOnItemClickListener$p(Lcom/discord/widgets/share/WidgetIncomingShare$Adapter;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

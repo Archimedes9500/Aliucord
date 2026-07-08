@@ -93,7 +93,7 @@
 
 .field public static final ADMINISTRATOR:J = 0x8L
 
-.field public static final ALL:J = 0x17ffff7feffL
+.field public static final ALL:J = 0xa017ffff7feffL
 
 .field public static final ATTACH_FILES:J = 0x8000L
 

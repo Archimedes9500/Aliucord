@@ -69,7 +69,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$configureUI$3;->this$0:Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;
 
-    # getter for: Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->channelId:J
     invoke-static {p1}, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->access$getChannelId$p(Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;)J
 
     move-result-wide v1
@@ -77,7 +76,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$configureUI$3;->this$0:Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;
 
-    # getter for: Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->messageId:J
     invoke-static {p1}, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->access$getMessageId$p(Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;)J
 
     move-result-wide v3

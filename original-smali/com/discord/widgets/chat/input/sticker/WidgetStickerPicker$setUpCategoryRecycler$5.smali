@@ -76,7 +76,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker$setUpCategoryRecycler$5;->this$0:Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
-    # getter for: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->stickerCategoryScrollSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$getStickerCategoryScrollSubject$p(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

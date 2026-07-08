@@ -342,7 +342,6 @@
     invoke-virtual {p0, v0}, Lkotlin/collections/ArrayDeque;->e(I)V
 
     .line 7
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v0
@@ -442,7 +441,6 @@
 
     move-result p1
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v2
@@ -593,7 +591,6 @@
 
     move-result v0
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v2
@@ -605,7 +602,6 @@
     move-result v0
 
     .line 10
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v2
@@ -893,7 +889,6 @@
 
     move-result v0
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v1
@@ -978,7 +973,6 @@
 
     move-result v1
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v2
@@ -1108,7 +1102,6 @@
 
     move-result v0
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v1
@@ -1342,7 +1335,6 @@
     invoke-virtual {v0, p1, v1}, Ld0/t/c$a;->checkElementIndex$kotlin_stdlib(II)V
 
     .line 2
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v0
@@ -1353,7 +1345,6 @@
 
     move-result p1
 
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -1380,7 +1371,6 @@
 
     move-result v0
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v1
@@ -1520,7 +1510,6 @@
 
     move-result v0
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v1
@@ -1691,7 +1680,6 @@
 
     if-nez v0, :cond_c0
 
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -1720,7 +1708,6 @@
 
     move-result v0
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v3
@@ -1732,13 +1719,11 @@
     move-result v0
 
     .line 3
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v3
 
     .line 4
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v4
@@ -1748,7 +1733,6 @@
     if-ge v4, v0, :cond_5c
 
     .line 5
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v4
@@ -1757,7 +1741,6 @@
     if-ge v4, v0, :cond_54
 
     .line 6
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v6
@@ -1774,7 +1757,6 @@
     if-eqz v7, :cond_50
 
     .line 8
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v7
@@ -1797,7 +1779,6 @@
 
     .line 9
     :cond_54
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -1808,12 +1789,10 @@
 
     .line 10
     :cond_5c
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v4
 
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v6
@@ -1826,7 +1805,6 @@
     if-ge v4, v6, :cond_89
 
     .line 11
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v8
@@ -1834,7 +1812,6 @@
     aget-object v8, v8, v4
 
     .line 12
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v9
@@ -1851,7 +1828,6 @@
     if-eqz v9, :cond_85
 
     .line 14
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v9
@@ -1882,7 +1858,6 @@
     if-ge v1, v0, :cond_b1
 
     .line 16
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v4
@@ -1890,7 +1865,6 @@
     aget-object v4, v4, v1
 
     .line 17
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v6
@@ -1907,7 +1881,6 @@
     if-eqz v6, :cond_ad
 
     .line 19
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v6
@@ -1915,7 +1888,6 @@
     aput-object v4, v6, v3
 
     .line 20
-    # invokes: Lkotlin/collections/ArrayDeque;->g(I)I
     invoke-static {p0, v3}, Lkotlin/collections/ArrayDeque;->access$incremented(Lkotlin/collections/ArrayDeque;I)I
 
     move-result v3
@@ -1937,7 +1909,6 @@
     if-eqz v1, :cond_c0
 
     .line 21
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result p1
@@ -1998,7 +1969,6 @@
 
     .line 5
     :cond_1b
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v0
@@ -2010,7 +1980,6 @@
     move-result v0
 
     .line 6
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -2097,7 +2066,6 @@
 
     move-result p1
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v2
@@ -2184,7 +2152,6 @@
     .line 2
     iget v0, p0, Lkotlin/collections/ArrayDeque;->l:I
 
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -2277,7 +2244,6 @@
 
     move-result v0
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v1
@@ -2289,7 +2255,6 @@
     move-result v0
 
     .line 3
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v1
@@ -2350,7 +2315,6 @@
 
     if-nez v0, :cond_bd
 
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -2379,7 +2343,6 @@
 
     move-result v0
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v3
@@ -2391,13 +2354,11 @@
     move-result v0
 
     .line 3
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v3
 
     .line 4
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v4
@@ -2407,7 +2368,6 @@
     if-ge v4, v0, :cond_5b
 
     .line 5
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v4
@@ -2416,7 +2376,6 @@
     if-ge v4, v0, :cond_53
 
     .line 6
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v6
@@ -2431,7 +2390,6 @@
     if-eqz v7, :cond_4f
 
     .line 8
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v7
@@ -2454,7 +2412,6 @@
 
     .line 9
     :cond_53
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object p1
@@ -2465,12 +2422,10 @@
 
     .line 10
     :cond_5b
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v4
 
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v6
@@ -2483,7 +2438,6 @@
     if-ge v4, v6, :cond_87
 
     .line 11
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v8
@@ -2491,7 +2445,6 @@
     aget-object v8, v8, v4
 
     .line 12
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v9
@@ -2506,7 +2459,6 @@
     if-eqz v9, :cond_83
 
     .line 14
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v9
@@ -2537,7 +2489,6 @@
     if-ge v1, v0, :cond_ae
 
     .line 16
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v4
@@ -2545,7 +2496,6 @@
     aget-object v4, v4, v1
 
     .line 17
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v6
@@ -2560,7 +2510,6 @@
     if-eqz v6, :cond_aa
 
     .line 19
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v6
@@ -2568,7 +2517,6 @@
     aput-object v4, v6, v3
 
     .line 20
-    # invokes: Lkotlin/collections/ArrayDeque;->g(I)I
     invoke-static {p0, v3}, Lkotlin/collections/ArrayDeque;->access$incremented(Lkotlin/collections/ArrayDeque;I)I
 
     move-result v3
@@ -2590,7 +2538,6 @@
     if-eqz v1, :cond_bd
 
     .line 21
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result p1
@@ -2626,7 +2573,6 @@
     invoke-virtual {v0, p1, v1}, Ld0/t/c$a;->checkElementIndex$kotlin_stdlib(II)V
 
     .line 2
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v0
@@ -2638,7 +2584,6 @@
     move-result p1
 
     .line 3
-    # getter for: Lkotlin/collections/ArrayDeque;->m:[Ljava/lang/Object;
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getElementData$p(Lkotlin/collections/ArrayDeque;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -2714,7 +2659,6 @@
 
     move-result v0
 
-    # getter for: Lkotlin/collections/ArrayDeque;->l:I
     invoke-static {p0}, Lkotlin/collections/ArrayDeque;->access$getHead$p(Lkotlin/collections/ArrayDeque;)I
 
     move-result v1

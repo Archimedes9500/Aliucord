@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel;->handleNewState(Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel;->access$handleNewState(Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel;Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel$ViewState;)V
 
     return-void

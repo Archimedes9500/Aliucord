@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/attachments/AttachmentBottomSheet$onViewCreated$3;->this$0:Lcom/discord/widgets/chat/input/attachments/AttachmentBottomSheet;
 
-    # getter for: Lcom/discord/widgets/chat/input/attachments/AttachmentBottomSheet;->onFileRemoved:Lkotlin/jvm/functions/Function0;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/attachments/AttachmentBottomSheet;->access$getOnFileRemoved$p(Lcom/discord/widgets/chat/input/attachments/AttachmentBottomSheet;)Lkotlin/jvm/functions/Function0;
 
     move-result-object p1

@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$close$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->connectionState:I
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getConnectionState$p(Lcom/discord/gateway/GatewaySocket;)I
 
     move-result v0
@@ -119,7 +118,6 @@
 
     invoke-direct {v2, v0}, Lcom/discord/gateway/GatewaySocket$close$1$1;-><init>(I)V
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->cleanup(Lkotlin/jvm/functions/Function1;)V
     invoke-static {v1, v2}, Lcom/discord/gateway/GatewaySocket;->access$cleanup(Lcom/discord/gateway/GatewaySocket;Lkotlin/jvm/functions/Function1;)V
 
     .line 5
@@ -136,7 +134,6 @@
 
     const-string v3, "Disconnect requested by client"
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->reset(ZILjava/lang/String;)V
     invoke-static {v1, v2, v0, v3}, Lcom/discord/gateway/GatewaySocket;->access$reset(Lcom/discord/gateway/GatewaySocket;ZILjava/lang/String;)V
 
     return-void

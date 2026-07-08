@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreRtcConnection$init$7$1;->$usersOffScreen:Ljava/util/Map;
 
-    # invokes: Lcom/discord/stores/StoreRtcConnection;->handleUsersOffScreen(Ljava/util/Map;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreRtcConnection;->access$handleUsersOffScreen(Lcom/discord/stores/StoreRtcConnection;Ljava/util/Map;)V
 
     return-void

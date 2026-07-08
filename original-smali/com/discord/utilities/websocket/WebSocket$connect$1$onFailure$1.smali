@@ -101,7 +101,6 @@
 
     const/4 v3, 0x1
 
-    # invokes: Lcom/discord/utilities/websocket/WebSocket;->handleOnFailure(Ljava/lang/Throwable;Lokhttp3/Response;Z)V
     invoke-static {v0, v1, v2, v3}, Lcom/discord/utilities/websocket/WebSocket;->access$handleOnFailure(Lcom/discord/utilities/websocket/WebSocket;Ljava/lang/Throwable;Lokhttp3/Response;Z)V
 
     return-void

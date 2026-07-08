@@ -103,7 +103,6 @@
 
     invoke-static {v2, v3}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StoreGuildTemplates;->handleRequestGuildTemplateError(Ljava/lang/String;Lcom/discord/utilities/error/Error$Type;)V
     invoke-static {v1, v0, v2}, Lcom/discord/stores/StoreGuildTemplates;->access$handleRequestGuildTemplateError(Lcom/discord/stores/StoreGuildTemplates;Ljava/lang/String;Lcom/discord/utilities/error/Error$Type;)V
 
     return-void

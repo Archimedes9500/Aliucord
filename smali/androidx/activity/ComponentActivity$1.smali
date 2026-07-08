@@ -42,7 +42,6 @@
     :try_start_0
     iget-object v0, p0, Landroidx/activity/ComponentActivity$1;->this$0:Landroidx/activity/ComponentActivity;
 
-    # invokes: Landroid/app/Activity;->onBackPressed()V
     invoke-static {v0}, Landroidx/activity/ComponentActivity;->access$001(Landroidx/activity/ComponentActivity;)V
     :try_end_5
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_5} :catch_6

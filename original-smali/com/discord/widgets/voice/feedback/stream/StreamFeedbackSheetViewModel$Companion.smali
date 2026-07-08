@@ -130,7 +130,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetViewModel;->ISSUES_UI_OPTIONS:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetViewModel;->access$getISSUES_UI_OPTIONS$cp()Ljava/util/List;
 
     move-result-object v0

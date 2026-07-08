@@ -72,7 +72,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$createAndConfigureExpressionFragment$stickerPickerListener$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->flexInputFragment:Lcom/lytefast/flexinput/fragment/FlexInputFragment;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->access$getFlexInputFragment$p(Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;)Lcom/lytefast/flexinput/fragment/FlexInputFragment;
 
     move-result-object p1

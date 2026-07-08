@@ -126,7 +126,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet$configureNormalUI$$inlined$doOnLayout$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->getBinding()Lcom/discord/databinding/WidgetGuildInviteShareSheetBinding;
     invoke-static {p1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;)Lcom/discord/databinding/WidgetGuildInviteShareSheetBinding;
 
     move-result-object p1

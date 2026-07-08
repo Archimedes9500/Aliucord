@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialogViewModel$submit$1;->this$0:Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialogViewModel;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialogViewModel;->handleSubmissionComplete()V
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialogViewModel;->access$handleSubmissionComplete(Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialogViewModel;)V
 
     return-void

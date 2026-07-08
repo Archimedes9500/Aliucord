@@ -65,7 +65,6 @@
 
     iget-object v6, p0, Lcom/adjust/sdk/ActivityHandler$10;->val$referrerApi:Ljava/lang/String;
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->sendInstallReferrerI(Ljava/lang/String;JJLjava/lang/String;)V
     invoke-static/range {v0 .. v6}, Lcom/adjust/sdk/ActivityHandler;->access$1600(Lcom/adjust/sdk/ActivityHandler;Ljava/lang/String;JJLjava/lang/String;)V
 
     return-void

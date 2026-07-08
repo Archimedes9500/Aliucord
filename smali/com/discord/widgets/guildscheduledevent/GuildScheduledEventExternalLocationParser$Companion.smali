@@ -92,7 +92,6 @@
         }
     .end annotation
 
-    # getter for: Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventExternalLocationParser;->PARSER$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventExternalLocationParser;->access$getPARSER$cp()Lkotlin/Lazy;
 
     move-result-object v0

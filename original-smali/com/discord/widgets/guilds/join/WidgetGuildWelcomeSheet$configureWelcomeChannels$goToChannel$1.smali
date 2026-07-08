@@ -111,7 +111,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheet$configureWelcomeChannels$goToChannel$1;->this$0:Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheet;
 
-    # invokes: Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheet;->getViewModel()Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheet;->access$getViewModel$p(Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheet;)Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel;
 
     move-result-object v1

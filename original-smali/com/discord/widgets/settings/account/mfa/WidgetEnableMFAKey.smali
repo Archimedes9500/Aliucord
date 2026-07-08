@@ -284,7 +284,6 @@
 
     const-string v2, "com.authy.authy"
 
-    # invokes: Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAKey$Companion;->isPackageInstalled(Ljava/lang/String;Landroid/content/pm/PackageManager;)Z
     invoke-static {v1, v2, v0}, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAKey$Companion;->access$isPackageInstalled(Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAKey$Companion;Ljava/lang/String;Landroid/content/pm/PackageManager;)Z
 
     move-result v2
@@ -358,7 +357,6 @@
     const-string v2, "com.google.android.apps.authenticator2"
 
     .line 6
-    # invokes: Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAKey$Companion;->isPackageInstalled(Ljava/lang/String;Landroid/content/pm/PackageManager;)Z
     invoke-static {v1, v2, v0}, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAKey$Companion;->access$isPackageInstalled(Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAKey$Companion;Ljava/lang/String;Landroid/content/pm/PackageManager;)Z
 
     move-result v1

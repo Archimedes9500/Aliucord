@@ -546,7 +546,6 @@
     :cond_e0
     iget-object v4, v0, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
-    # invokes: Landroid/view/ViewGroup;->awakenScrollBars()Z
     invoke-static {v4}, Landroidx/recyclerview/widget/RecyclerView;->access$200(Landroidx/recyclerview/widget/RecyclerView;)Z
 
     move-result v4

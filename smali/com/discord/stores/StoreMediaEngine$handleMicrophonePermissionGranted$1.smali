@@ -102,7 +102,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/stores/StoreMediaEngine$handleMicrophonePermissionGranted$1;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # invokes: Lcom/discord/stores/StoreMediaEngine;->restartLocalMicrophone()V
     invoke-static {p1}, Lcom/discord/stores/StoreMediaEngine;->access$restartLocalMicrophone(Lcom/discord/stores/StoreMediaEngine;)V
 
     :cond_10

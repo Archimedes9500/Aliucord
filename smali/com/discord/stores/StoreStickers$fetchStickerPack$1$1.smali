@@ -96,7 +96,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreStickers$fetchStickerPack$1;->this$0:Lcom/discord/stores/StoreStickers;
 
-    # getter for: Lcom/discord/stores/StoreStickers;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreStickers;->access$getDispatcher$p(Lcom/discord/stores/StoreStickers;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

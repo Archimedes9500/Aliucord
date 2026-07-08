@@ -90,7 +90,6 @@
     const/4 v1, 0x2
 
     .line 4
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->updateFriendSourceFlags(IZ)V
     invoke-static {v0, v1, p1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$updateFriendSourceFlags(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;IZ)V
 
     return-void

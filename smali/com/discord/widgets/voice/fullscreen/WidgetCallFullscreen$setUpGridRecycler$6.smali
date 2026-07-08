@@ -84,7 +84,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$setUpGridRecycler$6;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getViewModel()Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getViewModel$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
     move-result-object p1
@@ -93,7 +92,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$setUpGridRecycler$6;->$layoutManager:Lcom/discord/widgets/voice/fullscreen/grid/VideoCallGridLayoutManager;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getVisibleParticipants(Lcom/discord/widgets/voice/fullscreen/grid/VideoCallGridLayoutManager;)Ljava/util/List;
     invoke-static {p2, v0}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getVisibleParticipants(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;Lcom/discord/widgets/voice/fullscreen/grid/VideoCallGridLayoutManager;)Ljava/util/List;
 
     move-result-object p2

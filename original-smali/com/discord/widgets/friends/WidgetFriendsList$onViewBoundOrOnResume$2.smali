@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/friends/WidgetFriendsList;
 
     .line 2
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsList;->handleEvent(Lcom/discord/widgets/friends/FriendsListViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/friends/WidgetFriendsList;->access$handleEvent(Lcom/discord/widgets/friends/WidgetFriendsList;Lcom/discord/widgets/friends/FriendsListViewModel$Event;)V
 
     return-void

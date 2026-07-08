@@ -190,7 +190,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsFindNearby$ModelProvider;->getUserModels(Ljava/util/Collection;)Lrx/Observable;
     invoke-static {v0, p1}, Lcom/discord/widgets/friends/WidgetFriendsFindNearby$ModelProvider;->access$getUserModels(Lcom/discord/widgets/friends/WidgetFriendsFindNearby$ModelProvider;Ljava/util/Collection;)Lrx/Observable;
 
     move-result-object p1

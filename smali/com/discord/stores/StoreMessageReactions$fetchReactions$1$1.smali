@@ -139,7 +139,6 @@
     goto :goto_1b
 
     :cond_30
-    # invokes: Lcom/discord/stores/StoreMessageReactions;->handleReactionUsers(JJLcom/discord/api/message/reaction/MessageReactionEmoji;Ljava/util/List;)V
     invoke-static/range {v1 .. v7}, Lcom/discord/stores/StoreMessageReactions;->access$handleReactionUsers(Lcom/discord/stores/StoreMessageReactions;JJLcom/discord/api/message/reaction/MessageReactionEmoji;Ljava/util/List;)V
 
     return-void

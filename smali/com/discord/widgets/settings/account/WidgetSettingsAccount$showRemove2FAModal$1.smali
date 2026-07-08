@@ -130,7 +130,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccount$showRemove2FAModal$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccount;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->getBinding()Lcom/discord/databinding/WidgetSettingsAccountBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetSettingsAccount;)Lcom/discord/databinding/WidgetSettingsAccountBinding;
 
     move-result-object p1

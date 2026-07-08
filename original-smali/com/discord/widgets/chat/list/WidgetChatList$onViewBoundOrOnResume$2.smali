@@ -103,7 +103,6 @@
     check-cast v0, Lcom/discord/widgets/chat/list/WidgetChatList;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/list/WidgetChatList;->scrollTo(J)V
     invoke-static {v0, p1, p2}, Lcom/discord/widgets/chat/list/WidgetChatList;->access$scrollTo(Lcom/discord/widgets/chat/list/WidgetChatList;J)V
 
     return-void

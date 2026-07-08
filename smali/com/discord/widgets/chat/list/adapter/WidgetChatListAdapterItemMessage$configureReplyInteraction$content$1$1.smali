@@ -112,7 +112,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage$configureReplyInteraction$content$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;->replyText:Lcom/discord/utilities/view/text/SimpleDraweeSpanTextView;
     invoke-static {v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;->access$getReplyText$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;)Lcom/discord/utilities/view/text/SimpleDraweeSpanTextView;
 
     move-result-object v0

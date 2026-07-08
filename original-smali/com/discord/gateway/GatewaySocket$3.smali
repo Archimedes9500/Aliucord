@@ -86,7 +86,6 @@
 
     move-result p1
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->handleDeviceConnectivityChange(Z)V
     invoke-static {v0, p1}, Lcom/discord/gateway/GatewaySocket;->access$handleDeviceConnectivityChange(Lcom/discord/gateway/GatewaySocket;Z)V
 
     return-void

@@ -107,7 +107,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreInstantInvites$fetchGuildInvites$1;->this$0:Lcom/discord/stores/StoreInstantInvites;
 
-    # getter for: Lcom/discord/stores/StoreInstantInvites;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreInstantInvites;->access$getDispatcher$p(Lcom/discord/stores/StoreInstantInvites;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

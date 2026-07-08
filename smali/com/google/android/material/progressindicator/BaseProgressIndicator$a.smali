@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/progressindicator/BaseProgressIndicator$a;->j:Lcom/google/android/material/progressindicator/BaseProgressIndicator;
 
-    # invokes: Lcom/google/android/material/progressindicator/BaseProgressIndicator;->internalShow()V
     invoke-static {v0}, Lcom/google/android/material/progressindicator/BaseProgressIndicator;->access$000(Lcom/google/android/material/progressindicator/BaseProgressIndicator;)V
 
     return-void

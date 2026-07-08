@@ -146,7 +146,6 @@
     :cond_17
     sget-object v1, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventExternalLocationParser;->Companion:Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventExternalLocationParser$Companion;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventExternalLocationParser$Companion;->getPARSER()Lcom/discord/simpleast/core/parser/Parser;
     invoke-static {v1}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventExternalLocationParser$Companion;->access$getPARSER$p(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventExternalLocationParser$Companion;)Lcom/discord/simpleast/core/parser/Parser;
 
     move-result-object v1

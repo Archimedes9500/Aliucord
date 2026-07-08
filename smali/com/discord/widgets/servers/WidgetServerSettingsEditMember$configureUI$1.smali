@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember$configureUI$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->getBinding()Lcom/discord/databinding/WidgetServerSettingsEditMemberBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;)Lcom/discord/databinding/WidgetServerSettingsEditMemberBinding;
 
     move-result-object p1
@@ -83,7 +82,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember$configureUI$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->getBinding()Lcom/discord/databinding/WidgetServerSettingsEditMemberBinding;
     invoke-static {v1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;)Lcom/discord/databinding/WidgetServerSettingsEditMemberBinding;
 
     move-result-object v1
@@ -191,7 +189,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember$configureUI$1;->$data:Lcom/discord/widgets/servers/WidgetServerSettingsEditMember$Model;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->getBinding()Lcom/discord/databinding/WidgetServerSettingsEditMemberBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;)Lcom/discord/databinding/WidgetServerSettingsEditMemberBinding;
 
     move-result-object v2
@@ -204,7 +201,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->changeNickname(Lcom/discord/widgets/servers/WidgetServerSettingsEditMember$Model;Ljava/lang/String;)V
     invoke-static {p1, v1, v0}, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->access$changeNickname(Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;Lcom/discord/widgets/servers/WidgetServerSettingsEditMember$Model;Ljava/lang/String;)V
 
     return-void

@@ -149,7 +149,6 @@
     if-eqz p1, :cond_7
 
     .line 1
-    # getter for: Lcom/discord/models/hubs/DirectoryEntryCategoryKt;->HQ_DIRECTORY_CATEGORIES:Ljava/util/List;
     invoke-static {}, Lcom/discord/models/hubs/DirectoryEntryCategoryKt;->access$getHQ_DIRECTORY_CATEGORIES$p()Ljava/util/List;
 
     move-result-object p1
@@ -158,7 +157,6 @@
 
     .line 2
     :cond_7
-    # getter for: Lcom/discord/models/hubs/DirectoryEntryCategoryKt;->HUB_CATEGORIES:Ljava/util/List;
     invoke-static {}, Lcom/discord/models/hubs/DirectoryEntryCategoryKt;->access$getHUB_CATEGORIES$p()Ljava/util/List;
 
     move-result-object p1

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel;->handleStoreState(Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel;->access$handleStoreState(Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel;Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel$StoreState;)V
 
     return-void

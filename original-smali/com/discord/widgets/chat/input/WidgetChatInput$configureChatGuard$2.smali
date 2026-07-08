@@ -93,7 +93,6 @@
     move-result-wide v2
 
     .line 4
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->showFollowSheet(JJ)V
     invoke-static {p1, v0, v1, v2, v3}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$showFollowSheet(Lcom/discord/widgets/chat/input/WidgetChatInput;JJ)V
 
     return-void

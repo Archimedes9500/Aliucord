@@ -43,7 +43,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lorg/webrtc/EglBase14Impl;->CURRENT_SDK_VERSION:I
     invoke-static {}, Lorg/webrtc/EglBase14Impl;->access$000()I
 
     move-result v0

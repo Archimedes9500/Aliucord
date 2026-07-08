@@ -3005,7 +3005,6 @@
     if-nez v1, :cond_22
 
     .line 3
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->getBinding()Lcom/discord/databinding/WidgetStickerPickerBinding;
     invoke-static {p0}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$getBinding$p(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)Lcom/discord/databinding/WidgetStickerPickerBinding;
 
     move-result-object v0
@@ -3133,7 +3132,6 @@
     if-nez v2, :cond_50
 
     .line 3
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->getViewModel()Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel;
     invoke-static {p0}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$getViewModel$p(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel;
 
     move-result-object v0
@@ -3141,7 +3139,6 @@
     invoke-virtual {v0, p1}, Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel;->setSearchText(Ljava/lang/String;)V
 
     .line 4
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->getViewModel()Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel;
     invoke-static {p0}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$getViewModel$p(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel;
 
     move-result-object v0
@@ -3149,7 +3146,6 @@
     invoke-virtual {v0, p2, p3}, Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel;->setSelectedCategoryId(J)V
 
     .line 5
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->getBinding()Lcom/discord/databinding/WidgetStickerPickerBinding;
     invoke-static {p0}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$getBinding$p(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)Lcom/discord/databinding/WidgetStickerPickerBinding;
 
     move-result-object v0

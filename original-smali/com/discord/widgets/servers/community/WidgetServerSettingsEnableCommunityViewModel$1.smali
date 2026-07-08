@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->handleStoreState(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->access$handleStoreState(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel$StoreState;)V
 
     return-void

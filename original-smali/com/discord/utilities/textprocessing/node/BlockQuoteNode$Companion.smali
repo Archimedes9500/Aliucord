@@ -70,7 +70,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/textprocessing/node/BlockQuoteNode;->TOTAL_LEFT_MARGIN:I
     invoke-static {}, Lcom/discord/utilities/textprocessing/node/BlockQuoteNode;->access$getTOTAL_LEFT_MARGIN$cp()I
 
     move-result v0

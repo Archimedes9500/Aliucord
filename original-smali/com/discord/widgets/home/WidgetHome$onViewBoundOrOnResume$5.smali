@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->maybeToggleChannel(Lcom/discord/widgets/home/WidgetHomeModel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/home/WidgetHome;->access$maybeToggleChannel(Lcom/discord/widgets/home/WidgetHome;Lcom/discord/widgets/home/WidgetHomeModel;)V
 
     return-void

@@ -195,7 +195,6 @@
     add-int/2addr v2, v1
 
     .line 3
-    # getter for: Ld0/t/l0;->k:I
     invoke-static {p0}, Ld0/t/l0;->access$getCapacity$p(Ld0/t/l0;)I
 
     move-result v1
@@ -311,7 +310,6 @@
     add-int/2addr v1, p1
 
     .line 3
-    # getter for: Ld0/t/l0;->k:I
     invoke-static {p0}, Ld0/t/l0;->access$getCapacity$p(Ld0/t/l0;)I
 
     move-result p1
@@ -415,7 +413,6 @@
     add-int v2, v0, p1
 
     .line 3
-    # getter for: Ld0/t/l0;->k:I
     invoke-static {p0}, Ld0/t/l0;->access$getCapacity$p(Ld0/t/l0;)I
 
     move-result v3

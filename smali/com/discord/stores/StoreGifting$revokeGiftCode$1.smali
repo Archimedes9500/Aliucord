@@ -101,7 +101,6 @@
 
     invoke-direct {v2, v3}, Lcom/discord/stores/StoreGifting$GiftState$Revoking;-><init>(Lcom/discord/models/domain/ModelGift;)V
 
-    # invokes: Lcom/discord/stores/StoreGifting;->setGifts(Ljava/lang/String;Lcom/discord/stores/StoreGifting$GiftState;)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreGifting;->access$setGifts(Lcom/discord/stores/StoreGifting;Ljava/lang/String;Lcom/discord/stores/StoreGifting$GiftState;)V
 
     return-void

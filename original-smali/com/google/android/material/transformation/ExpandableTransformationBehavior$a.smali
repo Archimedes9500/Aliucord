@@ -40,7 +40,6 @@
 
     const/4 v0, 0x0
 
-    # setter for: Lcom/google/android/material/transformation/ExpandableTransformationBehavior;->currentAnimation:Landroid/animation/AnimatorSet;
     invoke-static {p1, v0}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;->access$002(Lcom/google/android/material/transformation/ExpandableTransformationBehavior;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     return-void

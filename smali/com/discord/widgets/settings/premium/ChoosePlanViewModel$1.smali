@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;->handleStoreState(Lcom/discord/widgets/settings/premium/ChoosePlanViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;->access$handleStoreState(Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;Lcom/discord/widgets/settings/premium/ChoosePlanViewModel$StoreState;)V
 
     return-void

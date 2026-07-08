@@ -112,7 +112,6 @@
     .line 2
     new-instance v6, Lcom/discord/utilities/time/TimeElapsed;
 
-    # getter for: Lcom/discord/utilities/persister/Persister;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {}, Lcom/discord/utilities/persister/Persister;->access$getClock$cp()Lcom/discord/utilities/time/Clock;
 
     move-result-object v1
@@ -135,7 +134,6 @@
     invoke-direct/range {v0 .. v5}, Lcom/discord/utilities/time/TimeElapsed;-><init>(Lcom/discord/utilities/time/Clock;JILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
     .line 3
-    # invokes: Lcom/discord/utilities/persister/Persister;->persist()V
     invoke-static {p1}, Lcom/discord/utilities/persister/Persister;->access$persist(Lcom/discord/utilities/persister/Persister;)V
 
     .line 4

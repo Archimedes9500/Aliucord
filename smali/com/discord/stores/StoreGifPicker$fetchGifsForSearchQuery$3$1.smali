@@ -99,7 +99,6 @@
 
     invoke-static {v2, v3}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->handleGifSearchResults(Ljava/lang/String;Ljava/util/List;)V
     invoke-static {v1, v0, v2}, Lcom/discord/stores/StoreGifPicker;->access$handleGifSearchResults(Lcom/discord/stores/StoreGifPicker;Ljava/lang/String;Ljava/util/List;)V
 
     return-void

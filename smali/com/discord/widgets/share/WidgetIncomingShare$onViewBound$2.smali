@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBound$2;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # getter for: Lcom/discord/widgets/share/WidgetIncomingShare;->searchQueryPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getSearchQueryPublisher$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

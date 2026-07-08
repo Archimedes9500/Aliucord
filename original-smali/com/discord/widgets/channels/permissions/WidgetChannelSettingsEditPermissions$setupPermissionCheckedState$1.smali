@@ -77,7 +77,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$setupPermissionCheckedState$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getState$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v0
@@ -96,7 +95,6 @@
     :cond_11
     iget-object p1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$setupPermissionCheckedState$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getState$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1
@@ -105,7 +103,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$setupPermissionCheckedState$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v0

@@ -42,14 +42,12 @@
 
     invoke-direct {v1}, Lorg/webrtc/ThreadUtils$ThreadChecker;-><init>()V
 
-    # setter for: Lorg/webrtc/AndroidVideoDecoder;->outputThreadChecker:Lorg/webrtc/ThreadUtils$ThreadChecker;
     invoke-static {v0, v1}, Lorg/webrtc/AndroidVideoDecoder;->access$002(Lorg/webrtc/AndroidVideoDecoder;Lorg/webrtc/ThreadUtils$ThreadChecker;)Lorg/webrtc/ThreadUtils$ThreadChecker;
 
     .line 2
     :goto_a
     iget-object v0, p0, Lorg/webrtc/AndroidVideoDecoder$1;->this$0:Lorg/webrtc/AndroidVideoDecoder;
 
-    # getter for: Lorg/webrtc/AndroidVideoDecoder;->running:Z
     invoke-static {v0}, Lorg/webrtc/AndroidVideoDecoder;->access$100(Lorg/webrtc/AndroidVideoDecoder;)Z
 
     move-result v0
@@ -67,7 +65,6 @@
     :cond_18
     iget-object v0, p0, Lorg/webrtc/AndroidVideoDecoder$1;->this$0:Lorg/webrtc/AndroidVideoDecoder;
 
-    # invokes: Lorg/webrtc/AndroidVideoDecoder;->releaseCodecOnOutputThread()V
     invoke-static {v0}, Lorg/webrtc/AndroidVideoDecoder;->access$200(Lorg/webrtc/AndroidVideoDecoder;)V
 
     return-void

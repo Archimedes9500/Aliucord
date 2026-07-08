@@ -299,7 +299,6 @@
     move-result-object p4
 
     .line 6
-    # invokes: Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$Companion;->observeStoreState(Lcom/discord/stores/StoreUserSettings;Lcom/discord/stores/StoreEmoji;)Lrx/Observable;
     invoke-static {p3, p5, p4}, Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$Companion;Lcom/discord/stores/StoreUserSettings;Lcom/discord/stores/StoreEmoji;)Lrx/Observable;
 
     move-result-object p3

@@ -57,7 +57,6 @@
 
     iget-boolean v1, p0, Lcom/discord/panels/OverlappingPanelsLayout$c;->$isFling:Z
 
-    # invokes: Lcom/discord/panels/OverlappingPanelsLayout;->closePanels(Z)V
     invoke-static {v0, v1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$closePanels(Lcom/discord/panels/OverlappingPanelsLayout;Z)V
 
     .line 2

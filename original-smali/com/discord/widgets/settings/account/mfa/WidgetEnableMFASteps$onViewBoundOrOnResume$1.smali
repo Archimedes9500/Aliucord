@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;
 
-    # invokes: Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;->getBinding()Lcom/discord/databinding/WidgetEnableMfaStepsBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;->access$getBinding$p(Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;)Lcom/discord/databinding/WidgetEnableMfaStepsBinding;
 
     move-result-object v0
@@ -127,7 +126,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;
 
-    # invokes: Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;->getBinding()Lcom/discord/databinding/WidgetEnableMfaStepsBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;->access$getBinding$p(Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;)Lcom/discord/databinding/WidgetEnableMfaStepsBinding;
 
     move-result-object v0

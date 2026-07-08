@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreExpressionSuggestions$observeSuggestionsEnabled$1;->this$0:Lcom/discord/stores/StoreExpressionSuggestions;
 
-    # getter for: Lcom/discord/stores/StoreExpressionSuggestions;->suggestionsEnabled:Z
     invoke-static {v0}, Lcom/discord/stores/StoreExpressionSuggestions;->access$getSuggestionsEnabled$p(Lcom/discord/stores/StoreExpressionSuggestions;)Z
 
     move-result v0

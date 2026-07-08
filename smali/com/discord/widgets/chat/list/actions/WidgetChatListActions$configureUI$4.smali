@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$configureUI$4;->$data:Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$Model;
 
-    # invokes: Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->removeAllReactions(Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$Model;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->access$removeAllReactions(Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$Model;)V
 
     return-void

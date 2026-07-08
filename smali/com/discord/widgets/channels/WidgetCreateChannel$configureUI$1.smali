@@ -102,7 +102,6 @@
     .line 4
     iget-object p2, p0, Lcom/discord/widgets/channels/WidgetCreateChannel$configureUI$1;->this$0:Lcom/discord/widgets/channels/WidgetCreateChannel;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel;->getGuildId()J
     invoke-static {p2}, Lcom/discord/widgets/channels/WidgetCreateChannel;->access$getGuildId$p(Lcom/discord/widgets/channels/WidgetCreateChannel;)J
 
     move-result-wide v0
@@ -113,7 +112,6 @@
     .line 6
     iget-object v2, p0, Lcom/discord/widgets/channels/WidgetCreateChannel$configureUI$1;->this$0:Lcom/discord/widgets/channels/WidgetCreateChannel;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel;->getChannelType()I
     invoke-static {v2}, Lcom/discord/widgets/channels/WidgetCreateChannel;->access$getChannelType$p(Lcom/discord/widgets/channels/WidgetCreateChannel;)I
 
     move-result v3
@@ -123,7 +121,6 @@
     .line 7
     iget-object v2, p0, Lcom/discord/widgets/channels/WidgetCreateChannel$configureUI$1;->this$0:Lcom/discord/widgets/channels/WidgetCreateChannel;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel;->getBinding()Lcom/discord/databinding/WidgetCreateChannelBinding;
     invoke-static {v2}, Lcom/discord/widgets/channels/WidgetCreateChannel;->access$getBinding$p(Lcom/discord/widgets/channels/WidgetCreateChannel;)Lcom/discord/databinding/WidgetCreateChannelBinding;
 
     move-result-object v2
@@ -141,7 +138,6 @@
     .line 8
     iget-object v2, p0, Lcom/discord/widgets/channels/WidgetCreateChannel$configureUI$1;->this$0:Lcom/discord/widgets/channels/WidgetCreateChannel;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel;->getCategoryId()Ljava/lang/Long;
     invoke-static {v2}, Lcom/discord/widgets/channels/WidgetCreateChannel;->access$getCategoryId$p(Lcom/discord/widgets/channels/WidgetCreateChannel;)Ljava/lang/Long;
 
     move-result-object v6
@@ -149,7 +145,6 @@
     .line 9
     iget-object v2, p0, Lcom/discord/widgets/channels/WidgetCreateChannel$configureUI$1;->this$0:Lcom/discord/widgets/channels/WidgetCreateChannel;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel;->getPermissionOverwrites()Ljava/util/List;
     invoke-static {v2}, Lcom/discord/widgets/channels/WidgetCreateChannel;->access$getPermissionOverwrites(Lcom/discord/widgets/channels/WidgetCreateChannel;)Ljava/util/List;
 
     move-result-object v7

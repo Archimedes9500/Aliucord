@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;->configureUI(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;->access$configureUI(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate$Model;)V
 
     return-void

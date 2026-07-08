@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/stage/sheet/StageAudienceBlockedBottomSheetViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/stage/sheet/StageAudienceBlockedBottomSheetViewModel;->handleStoreState(Lcom/discord/widgets/stage/sheet/StageAudienceBlockedBottomSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/stage/sheet/StageAudienceBlockedBottomSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/stage/sheet/StageAudienceBlockedBottomSheetViewModel;Lcom/discord/widgets/stage/sheet/StageAudienceBlockedBottomSheetViewModel$StoreState;)V
 
     return-void

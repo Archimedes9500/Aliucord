@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/user/profile/UserProfileHeaderView$configureBanner$3;->this$0:Lcom/discord/widgets/user/profile/UserProfileHeaderView;
 
-    # invokes: Lcom/discord/widgets/user/profile/UserProfileHeaderView;->onTapBanner()V
     invoke-static {p1}, Lcom/discord/widgets/user/profile/UserProfileHeaderView;->access$onTapBanner(Lcom/discord/widgets/user/profile/UserProfileHeaderView;)V
 
     return-void

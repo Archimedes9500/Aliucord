@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleAuthState(Lcom/discord/models/authentication/AuthState;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleAuthState(Lcom/discord/stores/StoreStream;Lcom/discord/models/authentication/AuthState;)V
 
     return-void

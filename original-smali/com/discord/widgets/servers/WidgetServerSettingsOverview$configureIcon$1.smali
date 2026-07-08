@@ -78,7 +78,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureIcon$1;->$iconOriginal:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->openAvatarPicker(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$openAvatarPicker(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void

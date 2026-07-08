@@ -84,7 +84,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventDetailsBottomSheet$getButtonConfiguration$8;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventDetailsBottomSheet;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventDetailsBottomSheet;->getArgs()Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDetailsArgs;
     invoke-static {v1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventDetailsBottomSheet;->access$getArgs$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventDetailsBottomSheet;)Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDetailsArgs;
 
     move-result-object v1

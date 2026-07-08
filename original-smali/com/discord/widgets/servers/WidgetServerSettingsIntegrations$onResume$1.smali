@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrations;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsIntegrations;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsIntegrations$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrations;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsIntegrations;Lcom/discord/widgets/servers/WidgetServerSettingsIntegrations$Model;)V
 
     return-void

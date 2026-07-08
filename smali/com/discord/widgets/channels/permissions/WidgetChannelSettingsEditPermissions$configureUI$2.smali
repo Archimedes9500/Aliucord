@@ -92,7 +92,6 @@
 
     move-result v5
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->updatePermissionOverwrites(JJI)V
     invoke-static/range {v0 .. v5}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$updatePermissionOverwrites(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;JJI)V
 
     return-void

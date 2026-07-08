@@ -96,13 +96,11 @@
     .line 3
     iget-object p3, p0, Lcom/discord/widgets/channels/settings/WidgetThreadSettings$onViewBound$2;->this$0:Lcom/discord/widgets/channels/settings/WidgetThreadSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->setSlowmodeLabel(I)V
     invoke-static {p3, p2}, Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->access$setSlowmodeLabel(Lcom/discord/widgets/channels/settings/WidgetThreadSettings;I)V
 
     .line 4
     iget-object p3, p0, Lcom/discord/widgets/channels/settings/WidgetThreadSettings$onViewBound$2;->this$0:Lcom/discord/widgets/channels/settings/WidgetThreadSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->getViewModel()Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;
     invoke-static {p3}, Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->access$getViewModel$p(Lcom/discord/widgets/channels/settings/WidgetThreadSettings;)Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;
 
     move-result-object p3
@@ -112,7 +110,6 @@
     .line 5
     iget-object p2, p0, Lcom/discord/widgets/channels/settings/WidgetThreadSettings$onViewBound$2;->this$0:Lcom/discord/widgets/channels/settings/WidgetThreadSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->getBinding()Lcom/discord/databinding/WidgetThreadSettingsBinding;
     invoke-static {p2}, Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->access$getBinding$p(Lcom/discord/widgets/channels/settings/WidgetThreadSettings;)Lcom/discord/databinding/WidgetThreadSettingsBinding;
 
     move-result-object p2

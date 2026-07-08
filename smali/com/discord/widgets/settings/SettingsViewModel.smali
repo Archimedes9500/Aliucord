@@ -431,7 +431,6 @@
 
     move-object/from16 p9, v8
 
-    # invokes: Lcom/discord/widgets/settings/SettingsViewModel$Companion;->observeStoreState(Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUserPresence;Lcom/discord/stores/StoreOutboundPromotions;Lcom/discord/stores/StoreNotificationUpsells;Lcom/discord/stores/StoreExperiments;Lcom/discord/stores/StoreSubscriptions;Lcom/discord/stores/updates/ObservationDeck;)Lrx/Observable;
     invoke-static/range {p1 .. p9}, Lcom/discord/widgets/settings/SettingsViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/settings/SettingsViewModel$Companion;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUserPresence;Lcom/discord/stores/StoreOutboundPromotions;Lcom/discord/stores/StoreNotificationUpsells;Lcom/discord/stores/StoreExperiments;Lcom/discord/stores/StoreSubscriptions;Lcom/discord/stores/updates/ObservationDeck;)Lrx/Observable;
 
     move-result-object v0
@@ -544,7 +543,6 @@
     .line 4
     sget-object v4, Lcom/discord/widgets/settings/SettingsViewModel;->Companion:Lcom/discord/widgets/settings/SettingsViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/settings/SettingsViewModel$Companion;->isActiveGuildSubscription(Lcom/discord/models/domain/ModelSubscription;)Z
     invoke-static {v4, v3}, Lcom/discord/widgets/settings/SettingsViewModel$Companion;->access$isActiveGuildSubscription$p(Lcom/discord/widgets/settings/SettingsViewModel$Companion;Lcom/discord/models/domain/ModelSubscription;)Z
 
     move-result v3

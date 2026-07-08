@@ -169,7 +169,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onSendClicked$3;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # invokes: Lcom/discord/widgets/share/WidgetIncomingShare;->onSendCompleted()V
     invoke-static {p1}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$onSendCompleted(Lcom/discord/widgets/share/WidgetIncomingShare;)V
 
     .line 4

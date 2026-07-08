@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsList;->handleGlobalStatusIndicatorState(Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorState$State;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$handleGlobalStatusIndicatorState(Lcom/discord/widgets/channels/list/WidgetChannelsList;Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorState$State;)V
 
     return-void

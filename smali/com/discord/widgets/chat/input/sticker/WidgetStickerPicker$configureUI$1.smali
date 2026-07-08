@@ -108,7 +108,6 @@
     move-result-object v1
 
     .line 4
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->handleNewStickerRecyclerScrollPosition(ILjava/util/List;)V
     invoke-static {v0, p1, v1}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$handleNewStickerRecyclerScrollPosition(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;ILjava/util/List;)V
 
     return-void

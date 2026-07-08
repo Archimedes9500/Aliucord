@@ -98,7 +98,6 @@
     aput-object p1, v1, p2
 
     .line 3
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;->EXTRA_SHOW_ROLES_WITH_GUILD_PERMISSION:Ljava/lang/String;
     invoke-static {}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;->access$getEXTRA_SHOW_ROLES_WITH_GUILD_PERMISSION$cp()Ljava/lang/String;
 
     move-result-object p1

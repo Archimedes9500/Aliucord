@@ -116,7 +116,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage$onConfigure$4;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;->itemText:Lcom/discord/utilities/view/text/SimpleDraweeSpanTextView;
     invoke-static {v1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;->access$getItemText$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;)Lcom/discord/utilities/view/text/SimpleDraweeSpanTextView;
 
     move-result-object v1
@@ -127,7 +126,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage$onConfigure$4;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;->itemText:Lcom/discord/utilities/view/text/SimpleDraweeSpanTextView;
     invoke-static {v2}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;->access$getItemText$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemMessage;)Lcom/discord/utilities/view/text/SimpleDraweeSpanTextView;
 
     move-result-object v2

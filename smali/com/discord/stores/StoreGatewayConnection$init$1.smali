@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGatewayConnection$init$1;->this$0:Lcom/discord/stores/StoreGatewayConnection;
 
-    # invokes: Lcom/discord/stores/StoreGatewayConnection;->handleClientStateUpdate(Lcom/discord/stores/StoreGatewayConnection$ClientState;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreGatewayConnection;->access$handleClientStateUpdate(Lcom/discord/stores/StoreGatewayConnection;Lcom/discord/stores/StoreGatewayConnection$ClientState;)V
 
     return-void

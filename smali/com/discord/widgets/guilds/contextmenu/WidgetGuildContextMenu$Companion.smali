@@ -191,7 +191,6 @@
     if-eqz p2, :cond_1e
 
     .line 3
-    # invokes: Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;->doCircularRemove()V
     invoke-static {v0}, Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;->access$doCircularRemove(Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;)V
 
     goto :goto_6d
@@ -296,7 +295,6 @@
     invoke-static {p2, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;->isShowingContextMenu:Z
     invoke-static {}, Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;->access$isShowingContextMenu$cp()Z
 
     move-result v0
@@ -419,7 +417,6 @@
     sub-int/2addr v0, v1
 
     .line 20
-    # getter for: Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;->SCREEN_BOTTOM_BUFFER:I
     invoke-static {}, Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;->access$getSCREEN_BOTTOM_BUFFER$cp()I
 
     move-result v1

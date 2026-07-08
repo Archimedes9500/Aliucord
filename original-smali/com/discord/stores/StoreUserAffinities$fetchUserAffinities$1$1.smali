@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreUserAffinities$fetchUserAffinities$1$1;->$affinities:Lcom/discord/models/domain/ModelUserAffinities;
 
-    # invokes: Lcom/discord/stores/StoreUserAffinities;->handleUserAffinitiesFetchSuccess(Lcom/discord/models/domain/ModelUserAffinities;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreUserAffinities;->access$handleUserAffinitiesFetchSuccess(Lcom/discord/stores/StoreUserAffinities;Lcom/discord/models/domain/ModelUserAffinities;)V
 
     return-void

@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$handleEvent$2;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->openTextInVoice()V
     invoke-static {v0}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$openTextInVoice(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)V
 
     return-void

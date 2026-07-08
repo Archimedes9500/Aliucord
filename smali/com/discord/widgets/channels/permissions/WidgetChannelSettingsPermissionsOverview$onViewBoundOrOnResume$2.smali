@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;->configureTabs(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverviewViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;->access$configureTabs(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverviewViewModel$ViewState;)V
 
     return-void

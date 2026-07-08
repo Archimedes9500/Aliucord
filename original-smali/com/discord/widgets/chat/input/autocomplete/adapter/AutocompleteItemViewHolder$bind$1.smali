@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/autocomplete/adapter/AutocompleteItemViewHolder$bind$1;->this$0:Lcom/discord/widgets/chat/input/autocomplete/adapter/AutocompleteItemViewHolder;
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/adapter/AutocompleteItemViewHolder;->onItemSelected:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/adapter/AutocompleteItemViewHolder;->access$getOnItemSelected$p(Lcom/discord/widgets/chat/input/autocomplete/adapter/AutocompleteItemViewHolder;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

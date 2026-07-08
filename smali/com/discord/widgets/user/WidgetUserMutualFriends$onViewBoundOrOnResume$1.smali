@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/WidgetUserMutualFriends;
 
     .line 2
-    # invokes: Lcom/discord/widgets/user/WidgetUserMutualFriends;->configureUI(Lcom/discord/widgets/user/WidgetUserMutualFriends$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/WidgetUserMutualFriends;->access$configureUI(Lcom/discord/widgets/user/WidgetUserMutualFriends;Lcom/discord/widgets/user/WidgetUserMutualFriends$Model;)V
 
     return-void

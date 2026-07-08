@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleConnectionOpen(Lcom/discord/models/domain/ModelPayload;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleConnectionOpen(Lcom/discord/stores/StoreStream;Lcom/discord/models/domain/ModelPayload;)V
 
     return-void

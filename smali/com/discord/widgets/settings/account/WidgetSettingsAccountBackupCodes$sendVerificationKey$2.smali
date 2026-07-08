@@ -78,7 +78,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes$sendVerificationKey$2;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;->showPasswordModal()V
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;->access$showPasswordModal(Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;)V
 
     return-void

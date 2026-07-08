@@ -113,7 +113,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/stage/StageRoles;->AUDIENCE:I
     invoke-static {}, Lcom/discord/widgets/stage/StageRoles;->access$getAUDIENCE$cp-1LxfuJo()I
 
     move-result v0

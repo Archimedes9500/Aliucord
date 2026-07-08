@@ -126,7 +126,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/stores/StoreAuthentication;->publishAuthState(Lcom/discord/models/authentication/AuthState;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreAuthentication;->access$publishAuthState(Lcom/discord/stores/StoreAuthentication;Lcom/discord/models/authentication/AuthState;)V
 
     return-void

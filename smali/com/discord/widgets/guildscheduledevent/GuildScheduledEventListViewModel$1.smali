@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListViewModel;->handleStoreState(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListViewModel;->access$handleStoreState(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListViewModel;Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListViewModel$StoreState;)V
 
     return-void

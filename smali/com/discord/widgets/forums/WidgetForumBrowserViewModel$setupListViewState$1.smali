@@ -124,7 +124,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$setupListViewState$1;->this$0:Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;
 
-    # getter for: Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;->guildMemberRequester:Lcom/discord/stores/StoreGuildMemberRequester;
     invoke-static {v0}, Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;->access$getGuildMemberRequester$p(Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;)Lcom/discord/stores/StoreGuildMemberRequester;
 
     move-result-object v0
@@ -144,7 +143,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$setupListViewState$1;->$storeState:Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$StoreState$Loaded;
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;->createPostItem(Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$StoreState$Loaded;Lcom/discord/api/channel/Channel;)Lcom/discord/widgets/forums/ForumBrowserItem$PostItem;
     invoke-static {v0, v1, p1}, Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;->access$createPostItem(Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$StoreState$Loaded;Lcom/discord/api/channel/Channel;)Lcom/discord/widgets/forums/ForumBrowserItem$PostItem;
 
     move-result-object p1

@@ -82,7 +82,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserPasswordVerify;->maybeHandleApiError(Lcom/discord/utilities/error/Error;)Z
     invoke-static {v0, p1}, Lcom/discord/widgets/user/WidgetUserPasswordVerify;->access$maybeHandleApiError(Lcom/discord/widgets/user/WidgetUserPasswordVerify;Lcom/discord/utilities/error/Error;)Z
 
     move-result v0

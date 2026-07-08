@@ -30,7 +30,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/b/f;->f:Ld0/e0/p/d/m0/f/a0/b/f;
     invoke-static {}, Ld0/e0/p/d/m0/e/b/f;->access$getKOTLIN_1_3_RC_METADATA_VERSION$cp()Ld0/e0/p/d/m0/f/a0/b/f;
 
     move-result-object v0
@@ -50,7 +49,6 @@
     .end annotation
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/b/f;->b:Ljava/util/Set;
     invoke-static {}, Ld0/e0/p/d/m0/e/b/f;->access$getKOTLIN_CLASS$cp()Ljava/util/Set;
 
     move-result-object v0

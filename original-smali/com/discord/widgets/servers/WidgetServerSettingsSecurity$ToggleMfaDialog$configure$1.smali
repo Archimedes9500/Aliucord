@@ -81,7 +81,6 @@
     .line 2
     iget-object v1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsSecurity$ToggleMfaDialog$configure$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsSecurity$ToggleMfaDialog;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsSecurity$ToggleMfaDialog;->getBinding()Lcom/discord/databinding/WidgetServerSettingsSecurityDialogBinding;
     invoke-static {v1}, Lcom/discord/widgets/servers/WidgetServerSettingsSecurity$ToggleMfaDialog;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsSecurity$ToggleMfaDialog;)Lcom/discord/databinding/WidgetServerSettingsSecurityDialogBinding;
 
     move-result-object v1

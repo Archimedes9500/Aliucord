@@ -76,14 +76,12 @@
 
     iget-object v0, p0, Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod$viewModel$2;->this$0:Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;
 
-    # invokes: Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;->getChannelId()J
     invoke-static {v0}, Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;->access$getChannelId$p(Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;)J
 
     move-result-wide v1
 
     iget-object v0, p0, Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod$viewModel$2;->this$0:Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;
 
-    # invokes: Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;->getMessageId()J
     invoke-static {v0}, Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;->access$getMessageId$p(Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;)J
 
     move-result-wide v3

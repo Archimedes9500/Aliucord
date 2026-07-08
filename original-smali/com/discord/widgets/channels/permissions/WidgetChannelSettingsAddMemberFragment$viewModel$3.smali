@@ -76,14 +76,12 @@
 
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment$viewModel$3;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;->getChannelId()J
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;->access$getChannelId$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;)J
 
     move-result-wide v1
 
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment$viewModel$3;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;->getShowRolesWithGuildPermission()Z
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;->access$getShowRolesWithGuildPermission$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;)Z
 
     move-result v3

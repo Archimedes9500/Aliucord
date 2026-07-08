@@ -404,7 +404,6 @@
     aput-object v11, v4, v9
 
     .line 7
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v5, v6, v9, v4}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -472,7 +471,6 @@
     const-wide/16 v2, 0xc8
 
     .line 12
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v4, v2, v3, v9, v5}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v2
@@ -548,7 +546,6 @@
     const-wide/16 v4, 0x12c
 
     .line 17
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v4, v5, v10, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -612,7 +609,6 @@
     aput-object v3, v4, v10
 
     .line 21
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v5, v6, v9, v4}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -682,7 +678,6 @@
     const-wide/16 v5, 0xc8
 
     .line 26
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v3, v5, v6, v9, v4}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v2
@@ -772,7 +767,6 @@
     const-wide/16 v4, 0x12c
 
     .line 35
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v4, v5, v0, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -868,7 +862,6 @@
     const-wide/16 v4, 0xc8
 
     .line 41
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v4, v5, v9, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -942,7 +935,6 @@
     const-wide/16 v4, 0x12c
 
     .line 46
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v4, v5, v0, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -1023,7 +1015,6 @@
     aput-object v4, v3, v10
 
     .line 51
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v5, v6, v9, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -1093,7 +1084,6 @@
     const-wide/16 v5, 0xc8
 
     .line 56
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v3, v5, v6, v9, v4}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v2
@@ -1183,7 +1173,6 @@
     const-wide/16 v4, 0x12c
 
     .line 65
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v4, v5, v10, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -1247,7 +1236,6 @@
     aput-object v4, v3, v10
 
     .line 69
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v5, v6, v9, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -1317,7 +1305,6 @@
     const-wide/16 v5, 0xc8
 
     .line 74
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v3, v5, v6, v9, v4}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v2
@@ -1407,7 +1394,6 @@
     const-wide/16 v4, 0x12c
 
     .line 83
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v4, v5, v0, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -1488,7 +1474,6 @@
     aput-object v10, v3, v11
 
     .line 88
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v5, v6, v9, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -1556,7 +1541,6 @@
     const-wide/16 v5, 0xc8
 
     .line 93
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v3, v5, v6, v9, v4}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v2
@@ -1632,7 +1616,6 @@
     const-wide/16 v4, 0x12c
 
     .line 98
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v4, v5, v0, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -1713,7 +1696,6 @@
     aput-object v10, v3, v11
 
     .line 103
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v5, v6, v9, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v2
@@ -1783,7 +1765,6 @@
     const-wide/16 v6, 0xc8
 
     .line 108
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v6, v7, v9, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -1842,7 +1823,6 @@
     const/4 v8, 0x2
 
     .line 112
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v4, v5, v8, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -1906,7 +1886,6 @@
     aput-object v8, v3, v10
 
     .line 116
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v5, v6, v9, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v2
@@ -1978,7 +1957,6 @@
     const-wide/16 v4, 0xc8
 
     .line 121
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v4, v5, v9, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -2054,7 +2032,6 @@
     const-wide/16 v4, 0x12c
 
     .line 126
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v4, v5, v7, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -2118,7 +2095,6 @@
     aput-object v7, v3, v8
 
     .line 130
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v5, v6, v9, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v2
@@ -2173,7 +2149,6 @@
     const-wide/16 v5, 0xc8
 
     .line 134
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v5, v6, v9, v4}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -2234,7 +2209,6 @@
     const-wide/16 v5, 0x12c
 
     .line 138
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v5, v6, v3, v4}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -2298,7 +2272,6 @@
     aput-object v3, v10, v11
 
     .line 142
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v5, v6, v9, v10}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v2
@@ -2387,7 +2360,6 @@
     const-wide/16 v5, 0xc8
 
     .line 148
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v5, v6, v9, v4}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -2481,7 +2453,6 @@
     const-wide/16 v4, 0x12c
 
     .line 157
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v4, v5, v0, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -2558,7 +2529,6 @@
     aput-object v3, v2, v4
 
     .line 162
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v5, v6, v9, v2}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -2613,7 +2583,6 @@
     const/4 v7, 0x2
 
     .line 166
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v4, v5, v7, v3}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0
@@ -2673,7 +2642,6 @@
     aput-object v3, v2, v4
 
     .line 170
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v1, v5, v6, v9, v2}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v1
@@ -2732,7 +2700,6 @@
     const-wide/16 v5, 0xc8
 
     .line 174
-    # invokes: Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
     invoke-static {v2, v5, v6, v0, v4}, Lcom/discord/widgets/guilds/create/StockGuildTemplateKt;->access$createCategorySection(Ljava/lang/String;JI[Lcom/discord/widgets/guilds/create/ChannelTemplate;)Ljava/util/List;
 
     move-result-object v0

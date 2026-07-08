@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreUserTyping$handleTypingStart$2;->this$0:Lcom/discord/stores/StoreUserTyping;
 
-    # getter for: Lcom/discord/stores/StoreUserTyping;->typingUsersRemoveCallbacks:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreUserTyping;->access$getTypingUsersRemoveCallbacks$p(Lcom/discord/stores/StoreUserTyping;)Ljava/util/HashMap;
 
     move-result-object v0

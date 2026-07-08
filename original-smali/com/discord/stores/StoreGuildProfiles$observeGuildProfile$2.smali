@@ -78,7 +78,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildProfiles$observeGuildProfile$2;->this$0:Lcom/discord/stores/StoreGuildProfiles;
 
-    # getter for: Lcom/discord/stores/StoreGuildProfiles;->guildProfilesStateSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildProfiles;->access$getGuildProfilesStateSnapshot$p(Lcom/discord/stores/StoreGuildProfiles;)Ljava/util/Map;
 
     move-result-object v0

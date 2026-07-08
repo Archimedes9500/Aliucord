@@ -75,7 +75,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/home/WidgetHome$setPanelWindowInsetsListeners$3;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->getBinding()Lcom/discord/databinding/WidgetHomeBinding;
     invoke-static {p1}, Lcom/discord/widgets/home/WidgetHome;->access$getBinding$p(Lcom/discord/widgets/home/WidgetHome;)Lcom/discord/databinding/WidgetHomeBinding;
 
     move-result-object p1

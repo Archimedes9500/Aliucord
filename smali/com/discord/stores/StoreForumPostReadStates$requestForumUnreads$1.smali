@@ -109,7 +109,6 @@
 
     iget-object v0, p0, Lcom/discord/stores/StoreForumPostReadStates$requestForumUnreads$1;->this$0:Lcom/discord/stores/StoreForumPostReadStates;
 
-    # getter for: Lcom/discord/stores/StoreForumPostReadStates;->processedForumUnreadRequests:Ljava/util/Set;
     invoke-static {v0}, Lcom/discord/stores/StoreForumPostReadStates;->access$getProcessedForumUnreadRequests$p(Lcom/discord/stores/StoreForumPostReadStates;)Ljava/util/Set;
 
     move-result-object v0
@@ -132,7 +131,6 @@
     :cond_21
     iget-object v0, p0, Lcom/discord/stores/StoreForumPostReadStates$requestForumUnreads$1;->this$0:Lcom/discord/stores/StoreForumPostReadStates;
 
-    # getter for: Lcom/discord/stores/StoreForumPostReadStates;->processedForumUnreadRequests:Ljava/util/Set;
     invoke-static {v0}, Lcom/discord/stores/StoreForumPostReadStates;->access$getProcessedForumUnreadRequests$p(Lcom/discord/stores/StoreForumPostReadStates;)Ljava/util/Set;
 
     move-result-object v0
@@ -148,7 +146,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StoreForumPostReadStates$requestForumUnreads$1;->this$0:Lcom/discord/stores/StoreForumPostReadStates;
 
-    # getter for: Lcom/discord/stores/StoreForumPostReadStates;->storeThreadsActive:Lcom/discord/stores/StoreThreadsActive;
     invoke-static {v0}, Lcom/discord/stores/StoreForumPostReadStates;->access$getStoreThreadsActive$p(Lcom/discord/stores/StoreForumPostReadStates;)Lcom/discord/stores/StoreThreadsActive;
 
     move-result-object v0
@@ -252,7 +249,6 @@
     :cond_87
     iget-object v0, p0, Lcom/discord/stores/StoreForumPostReadStates$requestForumUnreads$1;->this$0:Lcom/discord/stores/StoreForumPostReadStates;
 
-    # getter for: Lcom/discord/stores/StoreForumPostReadStates;->storeMessageAck:Lcom/discord/stores/StoreMessageAck;
     invoke-static {v0}, Lcom/discord/stores/StoreForumPostReadStates;->access$getStoreMessageAck$p(Lcom/discord/stores/StoreForumPostReadStates;)Lcom/discord/stores/StoreMessageAck;
 
     move-result-object v0
@@ -342,7 +338,6 @@
     :cond_d2
     iget-object v0, p0, Lcom/discord/stores/StoreForumPostReadStates$requestForumUnreads$1;->this$0:Lcom/discord/stores/StoreForumPostReadStates;
 
-    # getter for: Lcom/discord/stores/StoreForumPostReadStates;->storeGatewayConnection:Lcom/discord/stores/StoreGatewayConnection;
     invoke-static {v0}, Lcom/discord/stores/StoreForumPostReadStates;->access$getStoreGatewayConnection$p(Lcom/discord/stores/StoreForumPostReadStates;)Lcom/discord/stores/StoreGatewayConnection;
 
     move-result-object v2

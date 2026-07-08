@@ -74,7 +74,6 @@
 
     iget-object v2, v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet$onViewCreated$1;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;->getGuildId()J
     invoke-static {v2}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;->access$getGuildId$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;)J
 
     move-result-wide v2
@@ -118,7 +117,6 @@
     .line 4
     iget-object v1, v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet$onViewCreated$1;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;->getGuildId()J
     invoke-static {v1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;->access$getGuildId$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;)J
 
     move-result-wide v6
@@ -152,7 +150,6 @@
     .line 8
     iget-object v1, v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet$onViewCreated$1;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;->getGuildId()J
     invoke-static {v1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;->access$getGuildId$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventUpsellBottomSheet;)J
 
     move-result-wide v14

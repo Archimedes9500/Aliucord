@@ -187,7 +187,6 @@
     :cond_5f
     iget-object v0, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfUpdates;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->publishInteractionState()V
     invoke-static {v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->access$publishInteractionState(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;)V
 
     return-void

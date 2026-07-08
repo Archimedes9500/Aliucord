@@ -241,7 +241,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSystemMessage$onConfigure$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSystemMessage;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSystemMessage;->binding:Lcom/discord/databinding/WidgetChatListAdapterItemSystemBinding;
     invoke-static {v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSystemMessage;->access$getBinding$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSystemMessage;)Lcom/discord/databinding/WidgetChatListAdapterItemSystemBinding;
 
     move-result-object v0

@@ -98,7 +98,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet$onViewCreated$16;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->getViewModel()Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;
     invoke-static {p1}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$getViewModel$p(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;)Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;
 
     move-result-object p1
@@ -111,7 +110,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet$onViewCreated$16;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->getBinding()Lcom/discord/databinding/WidgetUserSheetBinding;
     invoke-static {v1}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$getBinding$p(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;)Lcom/discord/databinding/WidgetUserSheetBinding;
 
     move-result-object v1
@@ -131,7 +129,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet$onViewCreated$16;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->getBinding()Lcom/discord/databinding/WidgetUserSheetBinding;
     invoke-static {p1}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$getBinding$p(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;)Lcom/discord/databinding/WidgetUserSheetBinding;
 
     move-result-object p1

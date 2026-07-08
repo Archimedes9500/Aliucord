@@ -99,7 +99,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/gateway/GatewaySocket$connect$$inlined$apply$lambda$5;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->handleWebSocketError()V
     invoke-static {p1}, Lcom/discord/gateway/GatewaySocket;->access$handleWebSocketError(Lcom/discord/gateway/GatewaySocket;)V
 
     return-void

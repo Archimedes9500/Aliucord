@@ -113,7 +113,6 @@
 
     invoke-static {p1, v2}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsChannels;->reorderChannels(Lcom/discord/widgets/servers/WidgetServerSettingsChannels$Model;Ljava/util/Map;)V
     invoke-static {v0, v1, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsChannels;->access$reorderChannels(Lcom/discord/widgets/servers/WidgetServerSettingsChannels;Lcom/discord/widgets/servers/WidgetServerSettingsChannels$Model;Ljava/util/Map;)V
 
     return-void

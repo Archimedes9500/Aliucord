@@ -106,7 +106,6 @@
     .line 3
     iget-object v3, v0, Lcom/discord/widgets/chat/input/ChatInputViewModel$observeChatInputViewState$2;->this$0:Lcom/discord/widgets/chat/input/ChatInputViewModel;
 
-    # getter for: Lcom/discord/widgets/chat/input/ChatInputViewModel;->useTimeoutUpdateInterval:Z
     invoke-static {v3}, Lcom/discord/widgets/chat/input/ChatInputViewModel;->access$getUseTimeoutUpdateInterval$p(Lcom/discord/widgets/chat/input/ChatInputViewModel;)Z
 
     move-result v3
@@ -159,7 +158,6 @@
 
     move-result-object v15
 
-    # invokes: Lcom/discord/widgets/chat/input/ChatInputViewModel;->calculateTimeoutLeftMs(Lcom/discord/models/member/GuildMember;)J
     invoke-static {v3, v15}, Lcom/discord/widgets/chat/input/ChatInputViewModel;->access$calculateTimeoutLeftMs(Lcom/discord/widgets/chat/input/ChatInputViewModel;Lcom/discord/models/member/GuildMember;)J
 
     move-result-wide v25
@@ -234,7 +232,6 @@
     .line 8
     iget-object v4, v0, Lcom/discord/widgets/chat/input/ChatInputViewModel$observeChatInputViewState$2;->this$0:Lcom/discord/widgets/chat/input/ChatInputViewModel;
 
-    # getter for: Lcom/discord/widgets/chat/input/ChatInputViewModel;->storeGuilds:Lcom/discord/stores/StoreGuilds;
     invoke-static {v4}, Lcom/discord/widgets/chat/input/ChatInputViewModel;->access$getStoreGuilds$p(Lcom/discord/widgets/chat/input/ChatInputViewModel;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v4

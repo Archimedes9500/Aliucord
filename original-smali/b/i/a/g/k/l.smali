@@ -45,24 +45,20 @@
 
     const/4 v2, 0x1
 
-    # setter for: Lcom/google/android/material/timepicker/MaterialTimePicker;->inputMode:I
     invoke-static {v1, v2}, Lcom/google/android/material/timepicker/MaterialTimePicker;->access$402(Lcom/google/android/material/timepicker/MaterialTimePicker;I)I
 
     .line 6
     iget-object v1, v0, Lcom/google/android/material/timepicker/MaterialTimePicker$a;->a:Lcom/google/android/material/timepicker/MaterialTimePicker;
 
-    # getter for: Lcom/google/android/material/timepicker/MaterialTimePicker;->modeButton:Lcom/google/android/material/button/MaterialButton;
     invoke-static {v1}, Lcom/google/android/material/timepicker/MaterialTimePicker;->access$500(Lcom/google/android/material/timepicker/MaterialTimePicker;)Lcom/google/android/material/button/MaterialButton;
 
     move-result-object v3
 
-    # invokes: Lcom/google/android/material/timepicker/MaterialTimePicker;->updateInputMode(Lcom/google/android/material/button/MaterialButton;)V
     invoke-static {v1, v3}, Lcom/google/android/material/timepicker/MaterialTimePicker;->access$600(Lcom/google/android/material/timepicker/MaterialTimePicker;Lcom/google/android/material/button/MaterialButton;)V
 
     .line 7
     iget-object v0, v0, Lcom/google/android/material/timepicker/MaterialTimePicker$a;->a:Lcom/google/android/material/timepicker/MaterialTimePicker;
 
-    # getter for: Lcom/google/android/material/timepicker/MaterialTimePicker;->timePickerTextInputPresenter:Lb/i/a/g/k/i;
     invoke-static {v0}, Lcom/google/android/material/timepicker/MaterialTimePicker;->access$700(Lcom/google/android/material/timepicker/MaterialTimePicker;)Lb/i/a/g/k/i;
 
     move-result-object v0

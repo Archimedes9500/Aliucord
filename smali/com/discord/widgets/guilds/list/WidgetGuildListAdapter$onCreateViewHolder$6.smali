@@ -98,7 +98,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/list/WidgetGuildListAdapter$onCreateViewHolder$6;->this$0:Lcom/discord/widgets/guilds/list/WidgetGuildListAdapter;
 
-    # getter for: Lcom/discord/widgets/guilds/list/WidgetGuildListAdapter;->interactionListener:Lcom/discord/widgets/guilds/list/WidgetGuildListAdapter$InteractionListener;
     invoke-static {v0}, Lcom/discord/widgets/guilds/list/WidgetGuildListAdapter;->access$getInteractionListener$p(Lcom/discord/widgets/guilds/list/WidgetGuildListAdapter;)Lcom/discord/widgets/guilds/list/WidgetGuildListAdapter$InteractionListener;
 
     move-result-object v0

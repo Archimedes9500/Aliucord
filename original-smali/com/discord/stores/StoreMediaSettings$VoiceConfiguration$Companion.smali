@@ -77,7 +77,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;->DEFAULT_NOISE_PROCESSING:I
     invoke-static {}, Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;->access$getDEFAULT_NOISE_PROCESSING$cp()I
 
     move-result v0
@@ -89,7 +88,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;->DEFAULT_VOICE_CONFIG:Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;
     invoke-static {}, Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;->access$getDEFAULT_VOICE_CONFIG$cp()Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;
 
     move-result-object v0

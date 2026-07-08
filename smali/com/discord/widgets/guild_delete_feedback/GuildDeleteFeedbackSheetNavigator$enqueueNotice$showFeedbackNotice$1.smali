@@ -110,7 +110,6 @@
     .line 2
     sget-object v0, Lcom/discord/widgets/guild_delete_feedback/GuildDeleteFeedbackSheetNavigator;->INSTANCE:Lcom/discord/widgets/guild_delete_feedback/GuildDeleteFeedbackSheetNavigator;
 
-    # getter for: Lcom/discord/widgets/guild_delete_feedback/GuildDeleteFeedbackSheetNavigator;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v0}, Lcom/discord/widgets/guild_delete_feedback/GuildDeleteFeedbackSheetNavigator;->access$getClock$p(Lcom/discord/widgets/guild_delete_feedback/GuildDeleteFeedbackSheetNavigator;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v1
@@ -142,7 +141,6 @@
     iget-wide v1, p0, Lcom/discord/widgets/guild_delete_feedback/GuildDeleteFeedbackSheetNavigator$enqueueNotice$showFeedbackNotice$1;->$guildId:J
 
     .line 5
-    # invokes: Lcom/discord/widgets/guild_delete_feedback/GuildDeleteFeedbackSheetNavigator;->show(Landroidx/fragment/app/FragmentManager;J)V
     invoke-static {v0, p1, v1, v2}, Lcom/discord/widgets/guild_delete_feedback/GuildDeleteFeedbackSheetNavigator;->access$show(Lcom/discord/widgets/guild_delete_feedback/GuildDeleteFeedbackSheetNavigator;Landroidx/fragment/app/FragmentManager;J)V
 
     .line 6

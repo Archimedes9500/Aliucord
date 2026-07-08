@@ -104,7 +104,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage$updatePhoneNumber$2;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;
 
-    # getter for: Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->phoneVerificationLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {p1}, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->access$getPhoneVerificationLauncher$p(Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v2
@@ -112,7 +111,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage$updatePhoneNumber$2;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;
 
-    # invokes: Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase;->getMode()Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase$Mode;
     invoke-static {p1}, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->access$getMode$p(Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;)Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase$Mode;
 
     move-result-object v3

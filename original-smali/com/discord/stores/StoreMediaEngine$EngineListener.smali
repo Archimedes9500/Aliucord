@@ -115,7 +115,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/StoreMediaEngine$EngineListener;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # getter for: Lcom/discord/stores/StoreMediaEngine;->listenerSubject:Lcom/discord/utilities/collections/ListenerCollectionSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreMediaEngine;->access$getListenerSubject$p(Lcom/discord/stores/StoreMediaEngine;)Lcom/discord/utilities/collections/ListenerCollectionSubject;
 
     move-result-object v0
@@ -133,7 +132,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/StoreMediaEngine$EngineListener;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # getter for: Lcom/discord/stores/StoreMediaEngine;->listenerSubject:Lcom/discord/utilities/collections/ListenerCollectionSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreMediaEngine;->access$getListenerSubject$p(Lcom/discord/stores/StoreMediaEngine;)Lcom/discord/utilities/collections/ListenerCollectionSubject;
 
     move-result-object v0
@@ -371,7 +369,6 @@
     :goto_49
     iget-object v0, p0, Lcom/discord/stores/StoreMediaEngine$EngineListener;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # invokes: Lcom/discord/stores/StoreMediaEngine;->handleNativeEngineInitialized()V
     invoke-static {v0}, Lcom/discord/stores/StoreMediaEngine;->access$handleNativeEngineInitialized(Lcom/discord/stores/StoreMediaEngine;)V
 
     return-void
@@ -387,7 +384,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/StoreMediaEngine$EngineListener;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # invokes: Lcom/discord/stores/StoreMediaEngine;->handleNewConnection(Lcom/discord/rtcconnection/mediaengine/MediaEngineConnection;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreMediaEngine;->access$handleNewConnection(Lcom/discord/stores/StoreMediaEngine;Lcom/discord/rtcconnection/mediaengine/MediaEngineConnection;)V
 
     return-void

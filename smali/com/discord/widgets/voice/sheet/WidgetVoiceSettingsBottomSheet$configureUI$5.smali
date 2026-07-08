@@ -73,7 +73,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet$configureUI$5;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;->getBinding()Lcom/discord/databinding/WidgetVoiceSettingsBottomSheetBinding;
     invoke-static {p1}, Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;->access$getBinding$p(Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;)Lcom/discord/databinding/WidgetVoiceSettingsBottomSheetBinding;
 
     move-result-object p1

@@ -113,7 +113,6 @@
     :cond_15
     iget-object v1, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;->getBinding()Lcom/discord/databinding/WidgetEnableCommunityStepsBinding;
     invoke-static {v1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;->access$getBinding$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;)Lcom/discord/databinding/WidgetEnableCommunityStepsBinding;
 
     move-result-object v1
@@ -126,7 +125,6 @@
     :goto_20
     iget-object v0, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;->getBinding()Lcom/discord/databinding/WidgetEnableCommunityStepsBinding;
     invoke-static {v0}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;->access$getBinding$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;)Lcom/discord/databinding/WidgetEnableCommunityStepsBinding;
 
     move-result-object v0
@@ -168,7 +166,6 @@
     .line 8
     iget-object v0, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;->getBinding()Lcom/discord/databinding/WidgetEnableCommunityStepsBinding;
     invoke-static {v0}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;->access$getBinding$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;)Lcom/discord/databinding/WidgetEnableCommunityStepsBinding;
 
     move-result-object v0
@@ -190,7 +187,6 @@
     .line 11
     iget-object v0, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;->getBinding()Lcom/discord/databinding/WidgetEnableCommunityStepsBinding;
     invoke-static {v0}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;->access$getBinding$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;)Lcom/discord/databinding/WidgetEnableCommunityStepsBinding;
 
     move-result-object v0

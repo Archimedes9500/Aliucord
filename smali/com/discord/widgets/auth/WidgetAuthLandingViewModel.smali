@@ -321,7 +321,6 @@
     move-result-object p3
 
     .line 7
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLandingViewModel$Companion;->observeStoreState(Lcom/discord/stores/StoreInviteSettings;Lcom/discord/stores/StoreGuildTemplates;Lcom/discord/stores/StoreAuthentication;)Lrx/Observable;
     invoke-static {p2, p4, p8, p3}, Lcom/discord/widgets/auth/WidgetAuthLandingViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/auth/WidgetAuthLandingViewModel$Companion;Lcom/discord/stores/StoreInviteSettings;Lcom/discord/stores/StoreGuildTemplates;Lcom/discord/stores/StoreAuthentication;)Lrx/Observable;
 
     move-result-object p4

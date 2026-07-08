@@ -123,7 +123,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfScrolls;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->publishInteractionState()V
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->access$publishInteractionState(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;)V
 
     :cond_2f

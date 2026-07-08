@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/StoreUIEventHandler$subscribeToStoreEvents$1;->this$0:Lcom/discord/utilities/StoreUIEventHandler;
 
-    # invokes: Lcom/discord/utilities/StoreUIEventHandler;->handleKrispStatusEvent(Lcom/discord/rtcconnection/KrispOveruseDetector$Status;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/StoreUIEventHandler;->access$handleKrispStatusEvent(Lcom/discord/utilities/StoreUIEventHandler;Lcom/discord/rtcconnection/KrispOveruseDetector$Status;)V
 
     return-void

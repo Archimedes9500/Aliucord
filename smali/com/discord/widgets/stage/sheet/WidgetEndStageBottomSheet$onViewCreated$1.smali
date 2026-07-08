@@ -71,7 +71,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet$onViewCreated$1;->this$0:Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;->callOnActionTaken()V
     invoke-static {p1}, Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;->access$callOnActionTaken(Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;)V
 
     return-void

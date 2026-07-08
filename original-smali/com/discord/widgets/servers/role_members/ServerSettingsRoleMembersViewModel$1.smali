@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;->handleStoreState(Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;->access$handleStoreState(Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel$StoreState;)V
 
     return-void

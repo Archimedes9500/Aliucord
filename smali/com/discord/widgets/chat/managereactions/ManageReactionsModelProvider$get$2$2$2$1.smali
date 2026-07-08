@@ -142,7 +142,6 @@
     move-object v4, p1
 
     .line 9
-    # invokes: Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;->createModel(Ljava/util/List;Lcom/discord/stores/StoreMessageReactions$EmojiResults;Lcom/discord/api/message/reaction/MessageReactionEmoji;ZJLjava/util/Map;)Lcom/discord/widgets/chat/managereactions/ManageReactionsModel;
     invoke-static/range {v2 .. v9}, Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;->access$createModel(Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;Ljava/util/List;Lcom/discord/stores/StoreMessageReactions$EmojiResults;Lcom/discord/api/message/reaction/MessageReactionEmoji;ZJLjava/util/Map;)Lcom/discord/widgets/chat/managereactions/ManageReactionsModel;
 
     move-result-object p1

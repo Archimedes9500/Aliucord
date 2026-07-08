@@ -79,7 +79,6 @@
     move-result v0
 
     .line 2
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->gracePeriodDays:[I
     invoke-static {}, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->access$getGracePeriodDays$cp()[I
 
     move-result-object v1
@@ -102,7 +101,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration$configureUI$3;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->getBinding()Lcom/discord/databinding/WidgetServerSettingsEditIntegrationBinding;
     invoke-static {v2}, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;)Lcom/discord/databinding/WidgetServerSettingsEditIntegrationBinding;
 
     move-result-object v2

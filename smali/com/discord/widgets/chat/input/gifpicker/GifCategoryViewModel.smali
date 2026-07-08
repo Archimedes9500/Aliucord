@@ -324,7 +324,6 @@
 
     move-object/from16 v2, p2
 
-    # invokes: Lcom/discord/widgets/chat/input/gifpicker/GifCategoryViewModel$Companion;->observeStoreState(Lcom/discord/widgets/chat/input/gifpicker/GifCategoryItem;Lcom/discord/stores/StoreGifPicker;)Lrx/Observable;
     invoke-static {v1, v2, v0}, Lcom/discord/widgets/chat/input/gifpicker/GifCategoryViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/chat/input/gifpicker/GifCategoryViewModel$Companion;Lcom/discord/widgets/chat/input/gifpicker/GifCategoryItem;Lcom/discord/stores/StoreGifPicker;)Lrx/Observable;
 
     move-result-object v1

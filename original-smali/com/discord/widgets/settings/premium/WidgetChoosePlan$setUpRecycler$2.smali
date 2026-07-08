@@ -432,7 +432,6 @@
     :cond_12f
     iget-object v3, v0, Lcom/discord/widgets/settings/premium/WidgetChoosePlan$setUpRecycler$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetChoosePlan;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetChoosePlan;->getViewModel()Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;
     invoke-static {v3}, Lcom/discord/widgets/settings/premium/WidgetChoosePlan;->access$getViewModel$p(Lcom/discord/widgets/settings/premium/WidgetChoosePlan;)Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;
 
     move-result-object v3

@@ -71,7 +71,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/community/WidgetConfirmRemoveCommunityDialog$onViewBound$1;->this$0:Lcom/discord/widgets/servers/community/WidgetConfirmRemoveCommunityDialog;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetConfirmRemoveCommunityDialog;->getViewModel()Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/community/WidgetConfirmRemoveCommunityDialog;->access$getViewModel$p(Lcom/discord/widgets/servers/community/WidgetConfirmRemoveCommunityDialog;)Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;
 
     move-result-object p1

@@ -187,7 +187,6 @@
     .line 5
     iget-object v2, v0, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel$updateGuild$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->patchRole(Lcom/discord/restapi/RestAPIParams$Role;)V
     invoke-static {v2, v1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->access$patchRole(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;Lcom/discord/restapi/RestAPIParams$Role;)V
 
     goto :goto_73
@@ -214,13 +213,11 @@
     move-result-object v2
 
     .line 8
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v1, v2}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->access$updateViewState(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel$ViewState;)V
 
     .line 9
     iget-object v1, v0, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel$updateGuild$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
 
-    # getter for: Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->access$getEventSubject$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object v1

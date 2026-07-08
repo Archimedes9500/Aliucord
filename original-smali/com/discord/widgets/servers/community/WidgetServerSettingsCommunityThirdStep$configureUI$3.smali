@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep$configureUI$3;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;->getViewModel()Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;->access$getViewModel$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;)Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
 
     move-result-object p1

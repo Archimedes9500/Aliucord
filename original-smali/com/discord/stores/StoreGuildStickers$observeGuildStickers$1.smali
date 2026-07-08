@@ -107,7 +107,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildStickers$observeGuildStickers$1;->this$0:Lcom/discord/stores/StoreGuildStickers;
 
-    # getter for: Lcom/discord/stores/StoreGuildStickers;->allGuildStickersSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildStickers;->access$getAllGuildStickersSnapshot$p(Lcom/discord/stores/StoreGuildStickers;)Ljava/util/Map;
 
     move-result-object v0

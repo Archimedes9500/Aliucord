@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;
 
     .line 2
-    # invokes: Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;->configureUIVisibility(Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorState$State;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;->access$configureUIVisibility(Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorState$State;)V
 
     return-void

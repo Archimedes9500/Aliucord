@@ -103,7 +103,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/guilds/join/WidgetGuildJoinCaptchaBottomSheet$openCaptcha$1;->this$0:Lcom/discord/widgets/guilds/join/WidgetGuildJoinCaptchaBottomSheet;
 
-    # invokes: Lcom/discord/widgets/guilds/join/WidgetGuildJoinCaptchaBottomSheet;->finishIfCaptchaTokenReceived(Landroid/app/Activity;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/join/WidgetGuildJoinCaptchaBottomSheet;->access$finishIfCaptchaTokenReceived(Lcom/discord/widgets/guilds/join/WidgetGuildJoinCaptchaBottomSheet;Landroid/app/Activity;)V
 
     :cond_12

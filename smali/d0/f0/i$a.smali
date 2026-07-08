@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Ld0/f0/i$a;->l:Ld0/f0/i;
 
-    # getter for: Ld0/f0/i;->a:Lkotlin/jvm/functions/Function0;
     invoke-static {v0}, Ld0/f0/i;->access$getGetInitialValue$p(Ld0/f0/i;)Lkotlin/jvm/functions/Function0;
 
     move-result-object v0
@@ -86,7 +85,6 @@
     :cond_10
     iget-object v0, p0, Ld0/f0/i$a;->l:Ld0/f0/i;
 
-    # getter for: Ld0/f0/i;->b:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Ld0/f0/i;->access$getGetNextValue$p(Ld0/f0/i;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

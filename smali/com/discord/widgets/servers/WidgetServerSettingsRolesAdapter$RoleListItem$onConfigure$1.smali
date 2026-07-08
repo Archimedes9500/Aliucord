@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsRolesAdapter$RoleListItem$onConfigure$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsRolesAdapter$RoleListItem;
 
-    # getter for: Lcom/discord/utilities/mg_recycler/MGRecyclerViewHolder;->adapter:Lcom/discord/utilities/mg_recycler/MGRecyclerAdapter;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsRolesAdapter$RoleListItem;->access$getAdapter$p(Lcom/discord/widgets/servers/WidgetServerSettingsRolesAdapter$RoleListItem;)Lcom/discord/utilities/mg_recycler/MGRecyclerAdapter;
 
     move-result-object p1
@@ -81,7 +80,6 @@
 
     check-cast p1, Lcom/discord/widgets/servers/WidgetServerSettingsRolesAdapter;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsRolesAdapter;->roleSelectedListener:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsRolesAdapter;->access$getRoleSelectedListener$p(Lcom/discord/widgets/servers/WidgetServerSettingsRolesAdapter;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

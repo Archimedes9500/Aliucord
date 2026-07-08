@@ -78,7 +78,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet$onViewCreated$17;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->getBinding()Lcom/discord/databinding/WidgetUserSheetBinding;
     invoke-static {p1}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$getBinding$p(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;)Lcom/discord/databinding/WidgetUserSheetBinding;
 
     move-result-object p1

@@ -123,12 +123,10 @@
     invoke-static {p2, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lcom/discord/utilities/collections/SparseMutableList$Chunk;->startIndex:I
     invoke-static {p1}, Lcom/discord/utilities/collections/SparseMutableList$Chunk;->access$getStartIndex$p(Lcom/discord/utilities/collections/SparseMutableList$Chunk;)I
 
     move-result v0
 
-    # getter for: Lcom/discord/utilities/collections/SparseMutableList$Chunk;->startIndex:I
     invoke-static {p2}, Lcom/discord/utilities/collections/SparseMutableList$Chunk;->access$getStartIndex$p(Lcom/discord/utilities/collections/SparseMutableList$Chunk;)I
 
     move-result v1
@@ -141,12 +139,10 @@
 
     .line 2
     :cond_16
-    # getter for: Lcom/discord/utilities/collections/SparseMutableList$Chunk;->startIndex:I
     invoke-static {p2}, Lcom/discord/utilities/collections/SparseMutableList$Chunk;->access$getStartIndex$p(Lcom/discord/utilities/collections/SparseMutableList$Chunk;)I
 
     move-result v0
 
-    # getter for: Lcom/discord/utilities/collections/SparseMutableList$Chunk;->startIndex:I
     invoke-static {p1}, Lcom/discord/utilities/collections/SparseMutableList$Chunk;->access$getStartIndex$p(Lcom/discord/utilities/collections/SparseMutableList$Chunk;)I
 
     move-result v1
@@ -167,7 +163,6 @@
 
     .line 3
     :goto_26
-    # getter for: Lcom/discord/utilities/collections/SparseMutableList$Chunk;->startIndex:I
     invoke-static {v0}, Lcom/discord/utilities/collections/SparseMutableList$Chunk;->access$getStartIndex$p(Lcom/discord/utilities/collections/SparseMutableList$Chunk;)I
 
     move-result v2
@@ -181,7 +176,6 @@
     add-int/lit8 v3, v3, -0x1
 
     .line 4
-    # getter for: Lcom/discord/utilities/collections/SparseMutableList$Chunk;->startIndex:I
     invoke-static {v1}, Lcom/discord/utilities/collections/SparseMutableList$Chunk;->access$getStartIndex$p(Lcom/discord/utilities/collections/SparseMutableList$Chunk;)I
 
     move-result v2
@@ -189,7 +183,6 @@
     if-ge v3, v2, :cond_56
 
     .line 5
-    # getter for: Lcom/discord/utilities/collections/SparseMutableList$Chunk;->startIndex:I
     invoke-static {v1}, Lcom/discord/utilities/collections/SparseMutableList$Chunk;->access$getStartIndex$p(Lcom/discord/utilities/collections/SparseMutableList$Chunk;)I
 
     move-result p1
@@ -212,7 +205,6 @@
     .line 7
     new-instance p2, Lcom/discord/utilities/collections/SparseMutableList$Chunk;
 
-    # getter for: Lcom/discord/utilities/collections/SparseMutableList$Chunk;->startIndex:I
     invoke-static {v0}, Lcom/discord/utilities/collections/SparseMutableList$Chunk;->access$getStartIndex$p(Lcom/discord/utilities/collections/SparseMutableList$Chunk;)I
 
     move-result v0

@@ -634,7 +634,6 @@
 
     sget-object v2, Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->STREAM:Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;
 
-    # getter for: Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->code:I
     invoke-static {v2}, Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->access$000(Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;)I
 
     move-result v3
@@ -642,7 +641,6 @@
     if-ne v0, v3, :cond_15
 
     .line 3
-    # getter for: Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->name:Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->access$100(Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;)Ljava/lang/String;
 
     move-result-object v1
@@ -655,7 +653,6 @@
 
     sget-object v2, Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->EMBEDDED_APPLICATION:Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;
 
-    # getter for: Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->code:I
     invoke-static {v2}, Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->access$000(Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;)I
 
     move-result v3
@@ -663,7 +660,6 @@
     if-ne v0, v3, :cond_24
 
     .line 5
-    # getter for: Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->name:Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->access$100(Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;)Ljava/lang/String;
 
     move-result-object v1
@@ -683,7 +679,6 @@
     .line 7
     sget-object v0, Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->GDM:Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;
 
-    # getter for: Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->name:Ljava/lang/String;
     invoke-static {v0}, Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->access$100(Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;)Ljava/lang/String;
 
     move-result-object v1
@@ -703,7 +698,6 @@
     .line 9
     sget-object v0, Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->SERVER:Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;
 
-    # getter for: Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->name:Ljava/lang/String;
     invoke-static {v0}, Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;->access$100(Lcom/discord/models/domain/ModelInvite$InviteTargetTypes;)Ljava/lang/String;
 
     move-result-object v1

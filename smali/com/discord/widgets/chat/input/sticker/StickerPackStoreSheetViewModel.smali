@@ -226,7 +226,6 @@
     move-object v3, p3
 
     .line 5
-    # invokes: Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreStickers;Lcom/discord/stores/StoreUserSettings;Lcom/discord/stores/StoreUser;)Lrx/Observable;
     invoke-static/range {v0 .. v5}, Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$Companion;JLcom/discord/stores/StoreStickers;Lcom/discord/stores/StoreUserSettings;Lcom/discord/stores/StoreUser;)Lrx/Observable;
 
     move-result-object p5
@@ -298,7 +297,6 @@
     move-result-object p1
 
     .line 7
-    # invokes: Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$Companion;->buildStoreStickerListItems(Lcom/discord/models/sticker/dto/ModelStickerPack;ILcom/discord/models/user/User;)Ljava/util/List;
     invoke-static {v4, v3, v0, p1}, Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$Companion;->access$buildStoreStickerListItems(Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$Companion;Lcom/discord/models/sticker/dto/ModelStickerPack;ILcom/discord/models/user/User;)Ljava/util/List;
 
     move-result-object p1

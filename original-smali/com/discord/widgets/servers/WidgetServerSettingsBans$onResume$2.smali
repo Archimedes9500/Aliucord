@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsBans$onResume$2;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsBans;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsBans;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsBans;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsBans;Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model;)V
 
     return-void

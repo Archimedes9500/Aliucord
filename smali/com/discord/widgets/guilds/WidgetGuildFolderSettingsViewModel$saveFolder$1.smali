@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$saveFolder$1;->this$0:Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;
 
-    # invokes: Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;->emitUpdateSuccessEvent()V
     invoke-static {p1}, Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;->access$emitUpdateSuccessEvent(Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;)V
 
     return-void

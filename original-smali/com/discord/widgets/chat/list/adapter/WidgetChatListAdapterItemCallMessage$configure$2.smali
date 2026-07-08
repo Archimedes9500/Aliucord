@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$configure$2;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->handleState(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$State;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->access$handleState(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$State;)V
 
     return-void

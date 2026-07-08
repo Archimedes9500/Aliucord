@@ -91,7 +91,6 @@
     .line 1
     iget-object v1, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare$initBottomSheetBehavior$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->getViewModel()Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;
     invoke-static {v1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->access$getViewModel$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;)Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;
 
     move-result-object v1
@@ -101,7 +100,6 @@
     .line 2
     iget-object v1, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare$initBottomSheetBehavior$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->getBinding()Lcom/discord/databinding/WidgetGuildInviteShareBinding;
     invoke-static {v1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;)Lcom/discord/databinding/WidgetGuildInviteShareBinding;
 
     move-result-object v1
@@ -120,7 +118,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare$initBottomSheetBehavior$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->getBinding()Lcom/discord/databinding/WidgetGuildInviteShareBinding;
     invoke-static {v1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;)Lcom/discord/databinding/WidgetGuildInviteShareBinding;
 
     move-result-object v1
@@ -146,7 +143,6 @@
     :goto_37
     iget-object p1, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare$initBottomSheetBehavior$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->getBinding()Lcom/discord/databinding/WidgetGuildInviteShareBinding;
     invoke-static {p1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;)Lcom/discord/databinding/WidgetGuildInviteShareBinding;
 
     move-result-object p1

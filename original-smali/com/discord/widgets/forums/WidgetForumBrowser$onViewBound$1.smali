@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/forums/WidgetForumBrowser;
 
     .line 2
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowser;->openForumPost(Lcom/discord/api/channel/Channel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/forums/WidgetForumBrowser;->access$openForumPost(Lcom/discord/widgets/forums/WidgetForumBrowser;Lcom/discord/api/channel/Channel;)V
 
     return-void

@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel$openStage$1;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;->emitSetStatusFailureEvent()V
     invoke-static {p1}, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;->access$emitSetStatusFailureEvent(Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;)V
 
     return-void

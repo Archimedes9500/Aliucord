@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->handleEvent(Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$handleEvent(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$Event;)V
 
     return-void

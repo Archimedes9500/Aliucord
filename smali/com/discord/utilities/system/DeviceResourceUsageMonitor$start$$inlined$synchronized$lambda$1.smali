@@ -87,7 +87,6 @@
     :try_start_0
     iget-object v0, p0, Lcom/discord/utilities/system/DeviceResourceUsageMonitor$start$$inlined$synchronized$lambda$1;->this$0:Lcom/discord/utilities/system/DeviceResourceUsageMonitor;
 
-    # invokes: Lcom/discord/utilities/system/DeviceResourceUsageMonitor;->monitor()V
     invoke-static {v0}, Lcom/discord/utilities/system/DeviceResourceUsageMonitor;->access$monitor(Lcom/discord/utilities/system/DeviceResourceUsageMonitor;)V
     :try_end_5
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_5} :catch_5

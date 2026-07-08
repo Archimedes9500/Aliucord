@@ -84,7 +84,6 @@
     .line 4
     iget-object v3, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->getBinding()Lcom/discord/databinding/WidgetAuthRegisterAccountInformationBinding;
     invoke-static {v3}, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;)Lcom/discord/databinding/WidgetAuthRegisterAccountInformationBinding;
 
     move-result-object v3
@@ -125,7 +124,6 @@
     .line 8
     iget-object v3, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->getBinding()Lcom/discord/databinding/WidgetAuthRegisterAccountInformationBinding;
     invoke-static {v3}, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;)Lcom/discord/databinding/WidgetAuthRegisterAccountInformationBinding;
 
     move-result-object v3
@@ -172,7 +170,6 @@
 
     iget-object v3, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->getBinding()Lcom/discord/databinding/WidgetAuthRegisterAccountInformationBinding;
     invoke-static {v3}, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;)Lcom/discord/databinding/WidgetAuthRegisterAccountInformationBinding;
 
     move-result-object v3

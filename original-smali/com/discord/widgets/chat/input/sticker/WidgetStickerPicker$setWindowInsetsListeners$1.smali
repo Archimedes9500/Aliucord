@@ -80,7 +80,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker$setWindowInsetsListeners$1;->this$0:Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->getAdditionalBottomPaddingPx()I
     invoke-static {v1}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$getAdditionalBottomPaddingPx(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)I
 
     move-result v1

@@ -72,7 +72,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreEmoji;->DEFAULT_FREQUENT_EMOJIS:[Ljava/lang/String;
     invoke-static {}, Lcom/discord/stores/StoreEmoji;->access$getDEFAULT_FREQUENT_EMOJIS$cp()[Ljava/lang/String;
 
     move-result-object v0

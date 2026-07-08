@@ -52,7 +52,6 @@
     .line 2
     iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider$b;->a:Lcom/google/android/material/slider/BaseSlider;
 
-    # getter for: Lcom/google/android/material/slider/BaseSlider;->labels:Ljava/util/List;
     invoke-static {v0}, Lcom/google/android/material/slider/BaseSlider;->access$100(Lcom/google/android/material/slider/BaseSlider;)Ljava/util/List;
 
     move-result-object v0

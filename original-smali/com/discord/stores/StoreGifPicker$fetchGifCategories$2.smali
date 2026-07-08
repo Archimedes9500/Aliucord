@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreGifPicker;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreGifPicker;->handleFetchGifCategoriesOnNext(Lcom/discord/models/gifpicker/dto/TrendingGifCategoriesResponseDto;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreGifPicker;->access$handleFetchGifCategoriesOnNext(Lcom/discord/stores/StoreGifPicker;Lcom/discord/models/gifpicker/dto/TrendingGifCategoriesResponseDto;)V
 
     return-void

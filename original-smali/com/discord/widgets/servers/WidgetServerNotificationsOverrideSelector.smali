@@ -331,7 +331,6 @@
 
     invoke-static {v3, v4}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerNotificationsOverrideSelector$Companion;->get(JLrx/subjects/BehaviorSubject;)Lrx/Observable;
     invoke-static {v2, v0, v1, v3}, Lcom/discord/widgets/servers/WidgetServerNotificationsOverrideSelector$Companion;->access$get(Lcom/discord/widgets/servers/WidgetServerNotificationsOverrideSelector$Companion;JLrx/subjects/BehaviorSubject;)Lrx/Observable;
 
     move-result-object v0

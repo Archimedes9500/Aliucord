@@ -80,7 +80,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/roles/RoleIconView$setRole$1;->$role:Lcom/discord/api/role/GuildRole;
 
-    # invokes: Lcom/discord/widgets/roles/RoleIconView;->showRoleIconToast(Landroid/content/Context;Lcom/discord/api/role/GuildRole;)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/roles/RoleIconView;->access$showRoleIconToast(Lcom/discord/widgets/roles/RoleIconView;Landroid/content/Context;Lcom/discord/api/role/GuildRole;)V
 
     return-void

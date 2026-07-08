@@ -91,7 +91,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$1;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->storeUserProfile:Lcom/discord/stores/StoreUserProfile;
     invoke-static {v0}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getStoreUserProfile$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Lcom/discord/stores/StoreUserProfile;
 
     move-result-object v1
@@ -102,7 +101,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$1;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->guildId:Ljava/lang/Long;
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getGuildId$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Ljava/lang/Long;
 
     move-result-object v4

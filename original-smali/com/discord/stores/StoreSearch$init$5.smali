@@ -110,7 +110,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StoreSearch;->onStateChanged(Lcom/discord/stores/StoreSearch$DisplayState;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreSearch;->access$onStateChanged(Lcom/discord/stores/StoreSearch;Lcom/discord/stores/StoreSearch$DisplayState;)V
 
     return-void

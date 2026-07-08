@@ -89,7 +89,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/system/RemoteIntentService$IpcCallback$handler$1;->this$0:Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;
 
-    # getter for: Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;->name:Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;->access$getName$p(Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;)Ljava/lang/String;
 
     move-result-object v2
@@ -139,7 +138,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/system/RemoteIntentService$IpcCallback$handler$1;->this$0:Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;
 
-    # getter for: Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;->name:Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;->access$getName$p(Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;)Ljava/lang/String;
 
     move-result-object v2
@@ -202,7 +200,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/system/RemoteIntentService$IpcCallback$handler$1;->this$0:Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;
 
-    # getter for: Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;->name:Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;->access$getName$p(Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;)Ljava/lang/String;
 
     move-result-object v2
@@ -257,7 +254,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/system/RemoteIntentService$IpcCallback$handler$1;->this$0:Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;
 
-    # getter for: Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;->name:Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;->access$getName$p(Lcom/discord/utilities/system/RemoteIntentService$IpcCallback;)Ljava/lang/String;
 
     move-result-object v2
@@ -270,7 +266,6 @@
 
     sget-object v2, Lcom/discord/utilities/system/RemoteIntentService;->Companion:Lcom/discord/utilities/system/RemoteIntentService$Companion;
 
-    # invokes: Lcom/discord/utilities/system/RemoteIntentService$Companion;->messageToString(Landroid/os/Message;)Ljava/lang/String;
     invoke-static {v2, p1}, Lcom/discord/utilities/system/RemoteIntentService$Companion;->access$messageToString(Lcom/discord/utilities/system/RemoteIntentService$Companion;Landroid/os/Message;)Ljava/lang/String;
 
     move-result-object p1

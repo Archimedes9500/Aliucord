@@ -96,7 +96,6 @@
 
     iget-object v1, v1, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$configureBannerSelect$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->getGuildId()Ljava/lang/Long;
     invoke-static {v1}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$getGuildId$p(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)Ljava/lang/Long;
 
     move-result-object v1

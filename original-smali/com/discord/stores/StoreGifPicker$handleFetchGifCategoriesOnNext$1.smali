@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreGifPicker$handleFetchGifCategoriesOnNext$1;->$trendingGifsResponseRaw:Lcom/discord/models/gifpicker/dto/TrendingGifCategoriesResponseDto;
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->handleTrendingCategoriesResponse(Lcom/discord/models/gifpicker/dto/TrendingGifCategoriesResponseDto;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreGifPicker;->access$handleTrendingCategoriesResponse(Lcom/discord/stores/StoreGifPicker;Lcom/discord/models/gifpicker/dto/TrendingGifCategoriesResponseDto;)V
 
     .line 3

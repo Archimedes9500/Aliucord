@@ -93,7 +93,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->onPremiumCtaClicked()V
     invoke-static {v0}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$onPremiumCtaClicked(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)V
 
     return-void

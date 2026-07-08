@@ -96,13 +96,11 @@
     .line 3
     iget-object p3, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$onViewBound$1;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->setSlowmodeLabel(I)V
     invoke-static {p3, p2}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$setSlowmodeLabel(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;I)V
 
     .line 4
     iget-object p3, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$onViewBound$1;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p3}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getState$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p3
@@ -118,14 +116,12 @@
     .line 5
     iget-object p2, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$onViewBound$1;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p2}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getState$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p2
 
     iget-object p3, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$onViewBound$1;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->getBinding()Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
     invoke-static {p3}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getBinding$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
 
     move-result-object p3
@@ -137,7 +133,6 @@
     .line 6
     iget-object p2, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$onViewBound$1;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->getBinding()Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
     invoke-static {p2}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getBinding$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
 
     move-result-object p2

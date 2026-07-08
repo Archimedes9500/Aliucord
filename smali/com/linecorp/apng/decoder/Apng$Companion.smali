@@ -94,7 +94,6 @@
 
     .line 3
     :try_start_f
-    # getter for: Lcom/linecorp/apng/decoder/Apng;->c:I
     invoke-static {p1}, Lcom/linecorp/apng/decoder/Apng;->access$getId$p(Lcom/linecorp/apng/decoder/Apng;)I
 
     move-result p1

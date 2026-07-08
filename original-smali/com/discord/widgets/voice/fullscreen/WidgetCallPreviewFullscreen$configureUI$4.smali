@@ -93,7 +93,6 @@
     check-cast v0, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;
 
     .line 2
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->onDenyNsfw()V
     invoke-static {v0}, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->access$onDenyNsfw(Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;)V
 
     return-void

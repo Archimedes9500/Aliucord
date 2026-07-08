@@ -88,7 +88,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetUserPasswordVerify$removePhoneNumber$1;->this$0:Lcom/discord/widgets/user/WidgetUserPasswordVerify;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserPasswordVerify;->finishWithSuccess()V
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetUserPasswordVerify;->access$finishWithSuccess(Lcom/discord/widgets/user/WidgetUserPasswordVerify;)V
 
     return-void

@@ -87,7 +87,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/friends/WidgetFriendsList$configureToolbar$2;->this$0:Lcom/discord/widgets/friends/WidgetFriendsList;
 
-    # getter for: Lcom/discord/widgets/friends/WidgetFriendsList;->showContactSyncIcon:Z
     invoke-static {v0}, Lcom/discord/widgets/friends/WidgetFriendsList;->access$getShowContactSyncIcon$p(Lcom/discord/widgets/friends/WidgetFriendsList;)Z
 
     move-result v0

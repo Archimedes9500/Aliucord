@@ -210,12 +210,10 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel$tryConnectToVoice$1;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;->channelId:J
     invoke-static {p1}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;->access$getChannelId$p(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;)J
 
     move-result-wide v3
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;->joinVoiceChannel(J)V
     invoke-static {p1, v3, v4}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;->access$joinVoiceChannel(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;J)V
 
     .line 6
@@ -235,7 +233,6 @@
     :cond_46
     iget-object p1, p0, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel$tryConnectToVoice$1;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;->access$getEventSubject$p(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

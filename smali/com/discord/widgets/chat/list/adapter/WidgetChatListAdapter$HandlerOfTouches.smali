@@ -113,7 +113,6 @@
     :goto_d
     iget-object v1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfTouches;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->isTouchedSinceLastJump:Z
     invoke-static {v1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->access$isTouchedSinceLastJump$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;)Z
 
     move-result v1
@@ -130,7 +129,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfTouches;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->publishInteractionState()V
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->access$publishInteractionState(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;)V
 
     .line 5

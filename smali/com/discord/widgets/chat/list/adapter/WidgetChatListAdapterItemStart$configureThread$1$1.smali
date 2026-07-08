@@ -138,7 +138,6 @@
 
     iget-object v1, v1, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStart$configureThread$1;->$threadCreatorMember:Lcom/discord/models/member/GuildMember;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStart;->getAuthorTextColor(Lcom/discord/models/member/GuildMember;)I
     invoke-static {v2, v1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStart;->access$getAuthorTextColor(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStart;Lcom/discord/models/member/GuildMember;)I
 
     move-result v1

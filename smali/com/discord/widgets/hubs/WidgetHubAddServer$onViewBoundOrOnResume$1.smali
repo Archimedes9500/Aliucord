@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/hubs/WidgetHubAddServer$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/hubs/WidgetHubAddServer;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubAddServer;->configureUI(Lcom/discord/widgets/hubs/HubAddServerState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/hubs/WidgetHubAddServer;->access$configureUI(Lcom/discord/widgets/hubs/WidgetHubAddServer;Lcom/discord/widgets/hubs/HubAddServerState;)V
 
     return-void

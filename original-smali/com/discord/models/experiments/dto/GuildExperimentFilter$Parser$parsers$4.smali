@@ -89,7 +89,6 @@
     check-cast v0, Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;
 
     .line 2
-    # invokes: Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;->parseGuildHasFeatureFilter(Lcom/discord/models/domain/Model$JsonReader;)Lcom/discord/models/experiments/dto/GuildExperimentFilter$GuildHasFeatureFilter;
     invoke-static {v0, p1}, Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;->access$parseGuildHasFeatureFilter(Lcom/discord/models/experiments/dto/GuildExperimentFilter$Parser;Lcom/discord/models/domain/Model$JsonReader;)Lcom/discord/models/experiments/dto/GuildExperimentFilter$GuildHasFeatureFilter;
 
     move-result-object p1

@@ -92,7 +92,6 @@
     new-instance v1, Lcom/discord/stores/StoreGooglePlayPurchases$State$Loaded;
 
     .line 3
-    # invokes: Lcom/discord/stores/StoreGooglePlayPurchases;->getSubscriptionPurchases()Ljava/util/List;
     invoke-static {v0}, Lcom/discord/stores/StoreGooglePlayPurchases;->access$getSubscriptionPurchases$p(Lcom/discord/stores/StoreGooglePlayPurchases;)Ljava/util/List;
 
     move-result-object v2
@@ -100,7 +99,6 @@
     .line 4
     iget-object v3, p0, Lcom/discord/stores/StoreGooglePlayPurchases$updatePendingDowngrade$1;->this$0:Lcom/discord/stores/StoreGooglePlayPurchases;
 
-    # invokes: Lcom/discord/stores/StoreGooglePlayPurchases;->getIapPurchases()Ljava/util/List;
     invoke-static {v3}, Lcom/discord/stores/StoreGooglePlayPurchases;->access$getIapPurchases$p(Lcom/discord/stores/StoreGooglePlayPurchases;)Ljava/util/List;
 
     move-result-object v3

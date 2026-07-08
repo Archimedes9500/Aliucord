@@ -76,7 +76,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/nux/WidgetGuildTemplates$onViewBound$1;->this$0:Lcom/discord/widgets/nux/WidgetGuildTemplates;
 
-    # invokes: Lcom/discord/widgets/nux/WidgetGuildTemplates;->trackPostRegistrationSkip()V
     invoke-static {v0}, Lcom/discord/widgets/nux/WidgetGuildTemplates;->access$trackPostRegistrationSkip(Lcom/discord/widgets/nux/WidgetGuildTemplates;)V
 
     .line 3

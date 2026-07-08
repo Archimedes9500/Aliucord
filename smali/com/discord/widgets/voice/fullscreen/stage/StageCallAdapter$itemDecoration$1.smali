@@ -99,7 +99,6 @@
     :cond_20
     iget-object p4, p0, Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter$itemDecoration$1;->this$0:Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;
 
-    # invokes: Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;->getInternalData()Ljava/util/List;
     invoke-static {p4}, Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;->access$getInternalData$p(Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;)Ljava/util/List;
 
     move-result-object p4
@@ -136,7 +135,6 @@
     .line 4
     iget-object p3, p0, Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter$itemDecoration$1;->this$0:Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;->numSpeakers:I
     invoke-static {p3}, Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;->access$getNumSpeakers$p(Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;)I
 
     move-result p3
@@ -176,7 +174,6 @@
     :cond_60
     iget-object p3, p0, Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter$itemDecoration$1;->this$0:Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;->numSpeakers:I
     invoke-static {p3}, Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;->access$getNumSpeakers$p(Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;)I
 
     move-result p3

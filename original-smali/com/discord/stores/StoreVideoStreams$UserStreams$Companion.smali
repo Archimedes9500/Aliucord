@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreVideoStreams$UserStreams;->Empty:Lcom/discord/stores/StoreVideoStreams$UserStreams;
     invoke-static {}, Lcom/discord/stores/StoreVideoStreams$UserStreams;->access$getEmpty$cp()Lcom/discord/stores/StoreVideoStreams$UserStreams;
 
     move-result-object v0

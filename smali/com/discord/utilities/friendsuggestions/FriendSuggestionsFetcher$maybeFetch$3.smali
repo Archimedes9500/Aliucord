@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/utilities/friendsuggestions/FriendSuggestionsFetcher$maybeFetch$3;->this$0:Lcom/discord/utilities/friendsuggestions/FriendSuggestionsFetcher;
 
-    # getter for: Lcom/discord/utilities/friendsuggestions/FriendSuggestionsFetcher;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/utilities/friendsuggestions/FriendSuggestionsFetcher;->access$getDispatcher$p(Lcom/discord/utilities/friendsuggestions/FriendSuggestionsFetcher;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

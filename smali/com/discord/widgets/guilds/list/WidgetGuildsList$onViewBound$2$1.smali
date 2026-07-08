@@ -70,7 +70,6 @@
 
     const/4 v0, 0x1
 
-    # invokes: Lcom/discord/widgets/guilds/list/WidgetGuildsList;->dismissAddGuildHint(Z)V
     invoke-static {p1, v0}, Lcom/discord/widgets/guilds/list/WidgetGuildsList;->access$dismissAddGuildHint(Lcom/discord/widgets/guilds/list/WidgetGuildsList;Z)V
 
     return-void

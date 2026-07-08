@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->handleEvent(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$handleEvent(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$Event;)V
 
     return-void

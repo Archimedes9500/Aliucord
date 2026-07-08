@@ -116,7 +116,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification$viewModel$2;->this$0:Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;->parseInviteGuild()Lcom/discord/models/guild/Guild;
     invoke-static {v0}, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;->access$parseInviteGuild(Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;)Lcom/discord/models/guild/Guild;
 
     move-result-object v8

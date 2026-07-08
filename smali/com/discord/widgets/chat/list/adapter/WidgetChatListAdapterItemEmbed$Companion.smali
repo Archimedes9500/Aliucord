@@ -549,7 +549,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->UI_THREAD_TITLES_PARSER:Lcom/discord/simpleast/core/parser/Parser;
     invoke-static {}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->access$getUI_THREAD_TITLES_PARSER$cp()Lcom/discord/simpleast/core/parser/Parser;
 
     move-result-object v0
@@ -573,7 +572,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->UI_THREAD_VALUES_PARSER:Lcom/discord/simpleast/core/parser/Parser;
     invoke-static {}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->access$getUI_THREAD_VALUES_PARSER$cp()Lcom/discord/simpleast/core/parser/Parser;
 
     move-result-object v0

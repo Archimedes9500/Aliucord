@@ -50,14 +50,12 @@
     .line 3
     iget-object p1, p0, Lcom/google/android/material/progressindicator/BaseProgressIndicator$c;->a:Lcom/google/android/material/progressindicator/BaseProgressIndicator;
 
-    # getter for: Lcom/google/android/material/progressindicator/BaseProgressIndicator;->storedProgress:I
     invoke-static {p1}, Lcom/google/android/material/progressindicator/BaseProgressIndicator;->access$300(Lcom/google/android/material/progressindicator/BaseProgressIndicator;)I
 
     move-result v0
 
     iget-object v1, p0, Lcom/google/android/material/progressindicator/BaseProgressIndicator$c;->a:Lcom/google/android/material/progressindicator/BaseProgressIndicator;
 
-    # getter for: Lcom/google/android/material/progressindicator/BaseProgressIndicator;->storedProgressAnimated:Z
     invoke-static {v1}, Lcom/google/android/material/progressindicator/BaseProgressIndicator;->access$400(Lcom/google/android/material/progressindicator/BaseProgressIndicator;)Z
 
     move-result v1

@@ -101,7 +101,6 @@
 
     move-result v1
 
-    # invokes: Lcom/discord/stores/StoreRtcConnection;->handleSelfVideo(Z)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreRtcConnection;->access$handleSelfVideo(Lcom/discord/stores/StoreRtcConnection;Z)V
 
     return-void

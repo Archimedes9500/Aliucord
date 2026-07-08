@@ -88,7 +88,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/mobile_reports/WidgetMobileReports$viewModel$2;->this$0:Lcom/discord/widgets/mobile_reports/WidgetMobileReports;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/WidgetMobileReports;->getArgs()Lcom/discord/widgets/mobile_reports/MobileReportArgs;
     invoke-static {v0}, Lcom/discord/widgets/mobile_reports/WidgetMobileReports;->access$getArgs$p(Lcom/discord/widgets/mobile_reports/WidgetMobileReports;)Lcom/discord/widgets/mobile_reports/MobileReportArgs;
 
     move-result-object v2

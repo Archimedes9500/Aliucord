@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getFlexInputFragment()Lcom/lytefast/flexinput/fragment/FlexInputFragment;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getFlexInputFragment$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/lytefast/flexinput/fragment/FlexInputFragment;
 
     move-result-object v0
@@ -101,7 +100,6 @@
     iget-object v2, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
     .line 5
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getFlexInputFragment()Lcom/lytefast/flexinput/fragment/FlexInputFragment;
     invoke-static {v2}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getFlexInputFragment$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/lytefast/flexinput/fragment/FlexInputFragment;
 
     move-result-object v3
@@ -109,7 +107,6 @@
     .line 6
     iget-object v1, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getFlexInputViewModel()Lcom/discord/widgets/chat/input/AppFlexInputViewModel;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getFlexInputViewModel$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/widgets/chat/input/AppFlexInputViewModel;
 
     move-result-object v4
@@ -117,7 +114,6 @@
     .line 7
     iget-object v1, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getBinding()Lcom/discord/databinding/WidgetChatInputBinding;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getBinding$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/databinding/WidgetChatInputBinding;
 
     move-result-object v1
@@ -131,7 +127,6 @@
     .line 8
     iget-object v1, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getBinding()Lcom/discord/databinding/WidgetChatInputBinding;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getBinding$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/databinding/WidgetChatInputBinding;
 
     move-result-object v1
@@ -145,7 +140,6 @@
     .line 9
     iget-object v1, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getBinding()Lcom/discord/databinding/WidgetChatInputBinding;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getBinding$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/databinding/WidgetChatInputBinding;
 
     move-result-object v1
@@ -159,7 +153,6 @@
     .line 10
     iget-object v1, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getBinding()Lcom/discord/databinding/WidgetChatInputBinding;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getBinding$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/databinding/WidgetChatInputBinding;
 
     move-result-object v1
@@ -173,7 +166,6 @@
     .line 11
     iget-object v1, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getBinding()Lcom/discord/databinding/WidgetChatInputBinding;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getBinding$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/databinding/WidgetChatInputBinding;
 
     move-result-object v1
@@ -187,7 +179,6 @@
     .line 12
     iget-object v1, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getBinding()Lcom/discord/databinding/WidgetChatInputBinding;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getBinding$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/databinding/WidgetChatInputBinding;
 
     move-result-object v1
@@ -201,7 +192,6 @@
     .line 13
     iget-object v1, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getBinding()Lcom/discord/databinding/WidgetChatInputBinding;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getBinding$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/databinding/WidgetChatInputBinding;
 
     move-result-object v1
@@ -254,7 +244,6 @@
     .line 19
     iget-object v0, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInput;->chatInputTruncatedHint:Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getChatInputTruncatedHint$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;
 
     move-result-object v0

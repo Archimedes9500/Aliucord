@@ -95,7 +95,6 @@
 
     const/4 v2, 0x1
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->configureBannerImage(Ljava/lang/String;Ljava/lang/String;Z)V
     invoke-static {v1, v0, p1, v2}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$configureBannerImage(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;Ljava/lang/String;Ljava/lang/String;Z)V
 
     return-void

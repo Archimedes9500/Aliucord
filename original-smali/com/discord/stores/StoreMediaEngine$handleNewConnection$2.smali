@@ -96,7 +96,6 @@
     .line 2
     iget-object v1, p0, Lcom/discord/stores/StoreMediaEngine$handleNewConnection$2;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # getter for: Lcom/discord/stores/StoreMediaEngine;->selectedVideoInputDevice:Lco/discord/media_engine/VideoInputDeviceDescription;
     invoke-static {v1}, Lcom/discord/stores/StoreMediaEngine;->access$getSelectedVideoInputDevice$p(Lcom/discord/stores/StoreMediaEngine;)Lco/discord/media_engine/VideoInputDeviceDescription;
 
     move-result-object v0

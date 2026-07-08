@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/datepicker/MaterialDatePicker$b;->j:Lcom/google/android/material/datepicker/MaterialDatePicker;
 
-    # getter for: Lcom/google/android/material/datepicker/MaterialDatePicker;->onNegativeButtonClickListeners:Ljava/util/LinkedHashSet;
     invoke-static {v0}, Lcom/google/android/material/datepicker/MaterialDatePicker;->access$100(Lcom/google/android/material/datepicker/MaterialDatePicker;)Ljava/util/LinkedHashSet;
 
     move-result-object v0

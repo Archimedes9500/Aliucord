@@ -82,7 +82,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$i;->h:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;
 
-    # invokes: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->isOrWillBeHidden()Z
     invoke-static {v0}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$1100(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;)Z
 
     move-result v0
@@ -101,7 +100,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->animState:I
     invoke-static {v0, v1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$902(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;I)I
 
     .line 3
@@ -171,7 +169,6 @@
 
     const/4 v0, 0x1
 
-    # setter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->animState:I
     invoke-static {p1, v0}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$902(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;I)I
 
     return-void

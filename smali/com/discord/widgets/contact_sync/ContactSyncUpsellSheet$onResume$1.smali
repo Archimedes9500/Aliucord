@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/contact_sync/ContactSyncUpsellSheet$onResume$1;->this$0:Lcom/discord/widgets/contact_sync/ContactSyncUpsellSheet;
 
-    # invokes: Lcom/discord/widgets/contact_sync/ContactSyncUpsellSheet;->configureUI(Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/contact_sync/ContactSyncUpsellSheet;->access$configureUI(Lcom/discord/widgets/contact_sync/ContactSyncUpsellSheet;Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ViewState;)V
 
     return-void

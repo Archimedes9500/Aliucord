@@ -93,7 +93,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet$setOnItemSelected$1;->this$0:Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;->channelsSpinnerAdapter:Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet$ChannelsSpinnerAdapter;
     invoke-static {p1}, Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;->access$getChannelsSpinnerAdapter$p(Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;)Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet$ChannelsSpinnerAdapter;
 
     move-result-object p1

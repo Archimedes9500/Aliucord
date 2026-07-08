@@ -52,7 +52,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lcom/google/android/material/datepicker/RangeDateSelector;->proposedTextEnd:Ljava/lang/Long;
     invoke-static {v0, v1}, Lcom/google/android/material/datepicker/RangeDateSelector;->access$202(Lcom/google/android/material/datepicker/RangeDateSelector;Ljava/lang/Long;)Ljava/lang/Long;
 
     .line 2
@@ -64,7 +63,6 @@
 
     iget-object v3, p0, Lcom/google/android/material/datepicker/RangeDateSelector$b;->r:Lcom/google/android/material/datepicker/OnSelectionChangedListener;
 
-    # invokes: Lcom/google/android/material/datepicker/RangeDateSelector;->updateIfValidTextProposal(Lcom/google/android/material/textfield/TextInputLayout;Lcom/google/android/material/textfield/TextInputLayout;Lcom/google/android/material/datepicker/OnSelectionChangedListener;)V
     invoke-static {v0, v1, v2, v3}, Lcom/google/android/material/datepicker/RangeDateSelector;->access$100(Lcom/google/android/material/datepicker/RangeDateSelector;Lcom/google/android/material/textfield/TextInputLayout;Lcom/google/android/material/textfield/TextInputLayout;Lcom/google/android/material/datepicker/OnSelectionChangedListener;)V
 
     return-void
@@ -80,7 +78,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/datepicker/RangeDateSelector$b;->s:Lcom/google/android/material/datepicker/RangeDateSelector;
 
-    # setter for: Lcom/google/android/material/datepicker/RangeDateSelector;->proposedTextEnd:Ljava/lang/Long;
     invoke-static {v0, p1}, Lcom/google/android/material/datepicker/RangeDateSelector;->access$202(Lcom/google/android/material/datepicker/RangeDateSelector;Ljava/lang/Long;)Ljava/lang/Long;
 
     .line 2
@@ -92,7 +89,6 @@
 
     iget-object v2, p0, Lcom/google/android/material/datepicker/RangeDateSelector$b;->r:Lcom/google/android/material/datepicker/OnSelectionChangedListener;
 
-    # invokes: Lcom/google/android/material/datepicker/RangeDateSelector;->updateIfValidTextProposal(Lcom/google/android/material/textfield/TextInputLayout;Lcom/google/android/material/textfield/TextInputLayout;Lcom/google/android/material/datepicker/OnSelectionChangedListener;)V
     invoke-static {p1, v0, v1, v2}, Lcom/google/android/material/datepicker/RangeDateSelector;->access$100(Lcom/google/android/material/datepicker/RangeDateSelector;Lcom/google/android/material/textfield/TextInputLayout;Lcom/google/android/material/textfield/TextInputLayout;Lcom/google/android/material/datepicker/OnSelectionChangedListener;)V
 
     return-void

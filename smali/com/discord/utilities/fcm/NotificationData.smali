@@ -1264,7 +1264,6 @@
 
     check-cast v9, Ljava/lang/String;
 
-    # invokes: Lcom/discord/utilities/fcm/NotificationData$Companion;->parseAckChannelIds(Ljava/lang/String;)Ljava/util/List;
     invoke-static {v2, v9}, Lcom/discord/utilities/fcm/NotificationData$Companion;->access$parseAckChannelIds(Lcom/discord/utilities/fcm/NotificationData$Companion;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v12

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/hubs/WidgetHubWaitlist$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/hubs/WidgetHubWaitlist;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubWaitlist;->maybeSubmitSchoolName()V
     invoke-static {p1}, Lcom/discord/widgets/hubs/WidgetHubWaitlist;->access$maybeSubmitSchoolName(Lcom/discord/widgets/hubs/WidgetHubWaitlist;)V
 
     return-void

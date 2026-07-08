@@ -108,7 +108,6 @@
     iget-wide v1, p0, Lcom/discord/stores/StoreStageChannels$observeGuildStageChannels$1;->$guildId:J
 
     .line 4
-    # getter for: Lcom/discord/stores/StoreStageChannels;->channelsStore:Lcom/discord/stores/StoreChannels;
     invoke-static {v0}, Lcom/discord/stores/StoreStageChannels;->access$getChannelsStore$p(Lcom/discord/stores/StoreStageChannels;)Lcom/discord/stores/StoreChannels;
 
     move-result-object v3
@@ -122,7 +121,6 @@
     .line 5
     iget-object v4, p0, Lcom/discord/stores/StoreStageChannels$observeGuildStageChannels$1;->this$0:Lcom/discord/stores/StoreStageChannels;
 
-    # getter for: Lcom/discord/stores/StoreStageChannels;->userStore:Lcom/discord/stores/StoreUser;
     invoke-static {v4}, Lcom/discord/stores/StoreStageChannels;->access$getUserStore$p(Lcom/discord/stores/StoreStageChannels;)Lcom/discord/stores/StoreUser;
 
     move-result-object v4
@@ -138,7 +136,6 @@
     .line 6
     iget-object v6, p0, Lcom/discord/stores/StoreStageChannels$observeGuildStageChannels$1;->this$0:Lcom/discord/stores/StoreStageChannels;
 
-    # getter for: Lcom/discord/stores/StoreStageChannels;->userStore:Lcom/discord/stores/StoreUser;
     invoke-static {v6}, Lcom/discord/stores/StoreStageChannels;->access$getUserStore$p(Lcom/discord/stores/StoreStageChannels;)Lcom/discord/stores/StoreUser;
 
     move-result-object v6
@@ -150,7 +147,6 @@
     .line 7
     iget-object v7, p0, Lcom/discord/stores/StoreStageChannels$observeGuildStageChannels$1;->this$0:Lcom/discord/stores/StoreStageChannels;
 
-    # getter for: Lcom/discord/stores/StoreStageChannels;->voiceStatesStore:Lcom/discord/stores/StoreVoiceStates;
     invoke-static {v7}, Lcom/discord/stores/StoreStageChannels;->access$getVoiceStatesStore$p(Lcom/discord/stores/StoreStageChannels;)Lcom/discord/stores/StoreVoiceStates;
 
     move-result-object v7

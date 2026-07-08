@@ -107,7 +107,6 @@
     .line 3
     iget-object v2, p0, Lcom/discord/stores/StoreMessageAck$postPendingAck$1;->this$0:Lcom/discord/stores/StoreMessageAck;
 
-    # getter for: Lcom/discord/stores/StoreMessageAck;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v2}, Lcom/discord/stores/StoreMessageAck;->access$getDispatcher$p(Lcom/discord/stores/StoreMessageAck;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v2
@@ -121,7 +120,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/stores/StoreMessageAck$postPendingAck$1;->this$0:Lcom/discord/stores/StoreMessageAck;
 
-    # getter for: Lcom/discord/stores/StoreMessageAck;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v2}, Lcom/discord/stores/StoreMessageAck;->access$getRestAPI$p(Lcom/discord/stores/StoreMessageAck;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v2

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/hubs/WidgetHubEmailFlow$updateView$3;->this$0:Lcom/discord/widgets/hubs/WidgetHubEmailFlow;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->verifyEmail()V
     invoke-static {p1}, Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->access$verifyEmail(Lcom/discord/widgets/hubs/WidgetHubEmailFlow;)V
 
     return-void

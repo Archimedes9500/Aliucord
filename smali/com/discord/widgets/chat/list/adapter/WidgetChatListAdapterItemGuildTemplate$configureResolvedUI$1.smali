@@ -80,7 +80,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate$configureResolvedUI$1;->$guildTemplate:Lcom/discord/models/domain/ModelGuildTemplate;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;->openGuildTemplate(Landroid/content/Context;Lcom/discord/models/domain/ModelGuildTemplate;)V
     invoke-static {v0, p1, v1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;->access$openGuildTemplate(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;Landroid/content/Context;Lcom/discord/models/domain/ModelGuildTemplate;)V
 
     return-void

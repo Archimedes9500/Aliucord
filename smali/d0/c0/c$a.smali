@@ -57,7 +57,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/c0/c;->j:Ld0/c0/c;
     invoke-static {}, Ld0/c0/c;->access$getDefaultRandom$cp()Ld0/c0/c;
 
     move-result-object v0
@@ -73,7 +72,6 @@
     .locals 1
 
     .line 2
-    # getter for: Ld0/c0/c;->j:Ld0/c0/c;
     invoke-static {}, Ld0/c0/c;->access$getDefaultRandom$cp()Ld0/c0/c;
 
     move-result-object v0
@@ -93,7 +91,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Ld0/c0/c;->j:Ld0/c0/c;
     invoke-static {}, Ld0/c0/c;->access$getDefaultRandom$cp()Ld0/c0/c;
 
     move-result-object v0
@@ -113,7 +110,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    # getter for: Ld0/c0/c;->j:Ld0/c0/c;
     invoke-static {}, Ld0/c0/c;->access$getDefaultRandom$cp()Ld0/c0/c;
 
     move-result-object v0
@@ -129,7 +125,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/c0/c;->j:Ld0/c0/c;
     invoke-static {}, Ld0/c0/c;->access$getDefaultRandom$cp()Ld0/c0/c;
 
     move-result-object v0
@@ -145,7 +140,6 @@
     .locals 1
 
     .line 2
-    # getter for: Ld0/c0/c;->j:Ld0/c0/c;
     invoke-static {}, Ld0/c0/c;->access$getDefaultRandom$cp()Ld0/c0/c;
 
     move-result-object v0
@@ -161,7 +155,6 @@
     .locals 1
 
     .line 3
-    # getter for: Ld0/c0/c;->j:Ld0/c0/c;
     invoke-static {}, Ld0/c0/c;->access$getDefaultRandom$cp()Ld0/c0/c;
 
     move-result-object v0
@@ -177,7 +170,6 @@
     .locals 2
 
     .line 1
-    # getter for: Ld0/c0/c;->j:Ld0/c0/c;
     invoke-static {}, Ld0/c0/c;->access$getDefaultRandom$cp()Ld0/c0/c;
 
     move-result-object v0

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->configureUI(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$configureUI(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel$ViewState;)V
 
     return-void

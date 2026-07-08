@@ -120,7 +120,6 @@
     iput-boolean v0, p0, Lcom/discord/stores/updates/ObservationDeck$Observer;->isStale:Z
 
     .line 2
-    # getter for: Lcom/discord/stores/updates/ObservationDeck;->ON_UPDATE_EMPTY:Lkotlin/jvm/functions/Function0;
     invoke-static {}, Lcom/discord/stores/updates/ObservationDeck;->access$getON_UPDATE_EMPTY$cp()Lkotlin/jvm/functions/Function0;
 
     move-result-object v0

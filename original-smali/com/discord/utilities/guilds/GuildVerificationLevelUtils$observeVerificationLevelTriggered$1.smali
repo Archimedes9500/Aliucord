@@ -188,7 +188,6 @@
     move-object v8, p6
 
     .line 8
-    # invokes: Lcom/discord/utilities/guilds/GuildVerificationLevelUtils;->computeVerificationLevelTriggered(Lcom/discord/models/user/MeUser;Lcom/discord/models/guild/Guild;Lcom/discord/models/member/GuildMember;Lcom/discord/api/guild/GuildVerificationLevel;JLcom/discord/utilities/time/Clock;Ljava/util/Map;)Lcom/discord/api/guild/GuildVerificationLevel;
     invoke-static/range {v0 .. v8}, Lcom/discord/utilities/guilds/GuildVerificationLevelUtils;->access$computeVerificationLevelTriggered(Lcom/discord/utilities/guilds/GuildVerificationLevelUtils;Lcom/discord/models/user/MeUser;Lcom/discord/models/guild/Guild;Lcom/discord/models/member/GuildMember;Lcom/discord/api/guild/GuildVerificationLevel;JLcom/discord/utilities/time/Clock;Ljava/util/Map;)Lcom/discord/api/guild/GuildVerificationLevel;
 
     move-result-object p1

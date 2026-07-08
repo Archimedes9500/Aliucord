@@ -262,7 +262,6 @@
 
     check-cast v4, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;
 
-    # getter for: Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;->spacing:I
     invoke-static {v4}, Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;->access$getSpacing$p(Lcom/discord/widgets/contact_sync/ContactSyncFriendSuggestionListAdapter;)I
 
     move-result v4

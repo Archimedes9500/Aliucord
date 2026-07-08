@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/ActivityHandler$1;->this$0:Lcom/adjust/sdk/ActivityHandler;
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->initI()V
     invoke-static {v0}, Lcom/adjust/sdk/ActivityHandler;->access$000(Lcom/adjust/sdk/ActivityHandler;)V
 
     return-void

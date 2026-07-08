@@ -824,7 +824,6 @@
 
     move-result-object v6
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->bindUrlOnClick(Landroid/view/View;Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v3, v4, v5, v6}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->access$bindUrlOnClick(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;Landroid/view/View;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3
@@ -986,7 +985,6 @@
 
     const-string v9, "desc"
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->getEmbedFieldVisibleIndices(Ljava/util/Map;ILjava/lang/String;)Ljava/util/List;
     invoke-static {v8, v5, v1, v9}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->access$getEmbedFieldVisibleIndices(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;Ljava/util/Map;ILjava/lang/String;)Ljava/util/List;
 
     move-result-object v5
@@ -1966,7 +1964,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->bindUrlOnClick(Landroid/view/View;Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v0, v1, v2, p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->access$bindUrlOnClick(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;Landroid/view/View;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 5
@@ -2179,7 +2176,6 @@
 
     const-string/jumbo v6, "title"
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->getEmbedFieldVisibleIndices(Ljava/util/Map;ILjava/lang/String;)Ljava/util/List;
     invoke-static {v5, v4, v9, v6}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->access$getEmbedFieldVisibleIndices(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;Ljava/util/Map;ILjava/lang/String;)Ljava/util/List;
 
     move-result-object v4
@@ -2327,7 +2323,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->bindUrlOnClick(Landroid/view/View;Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v2, v3, v4, v1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->access$bindUrlOnClick(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;Landroid/view/View;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
@@ -3602,7 +3597,6 @@
     .line 17
     sget-object p2, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->Companion:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->getModel(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Model;)Lrx/Observable;
     invoke-static {p2, p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->access$getModel(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Model;)Lrx/Observable;
 
     move-result-object p1

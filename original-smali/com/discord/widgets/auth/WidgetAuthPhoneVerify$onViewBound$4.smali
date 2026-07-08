@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;
 
     .line 2
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->inputCode(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->access$inputCode(Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;Ljava/lang/String;)V
 
     return-void

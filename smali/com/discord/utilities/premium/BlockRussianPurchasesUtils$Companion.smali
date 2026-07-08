@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/utilities/premium/BlockRussianPurchasesUtils;
     .locals 2
 
-    # getter for: Lcom/discord/utilities/premium/BlockRussianPurchasesUtils;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/utilities/premium/BlockRussianPurchasesUtils;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

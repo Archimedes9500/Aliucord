@@ -97,7 +97,6 @@
 
     invoke-static {v1, v2}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StoreChannelsSelected;->onSelectedChannelResolved(Lcom/discord/stores/StoreChannelsSelected$ResolvedSelectedChannel;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreChannelsSelected;->access$onSelectedChannelResolved(Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreChannelsSelected$ResolvedSelectedChannel;)V
 
     return-void

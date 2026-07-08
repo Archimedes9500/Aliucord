@@ -65,13 +65,11 @@
 
     iget p1, p1, Landroid/graphics/Insets;->bottom:I
 
-    # setter for: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->extraBottomMarginGestureInset:I
     invoke-static {v0, p1}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$702(Lcom/google/android/material/snackbar/BaseTransientBottomBar;I)I
 
     .line 4
     iget-object p1, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar$p;->a:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
 
-    # invokes: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->updateMargins()V
     invoke-static {p1}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$300(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
 
     :cond_20

@@ -72,7 +72,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/o$a;->this$0:Ld0/e0/p/d/o;
 
-    # invokes: Ld0/e0/p/d/o;->a()Ld0/e0/p/d/m0/c/k0;
     invoke-static {v0}, Ld0/e0/p/d/o;->access$getDescriptor$p(Ld0/e0/p/d/o;)Ld0/e0/p/d/m0/c/k0;
 
     move-result-object v0

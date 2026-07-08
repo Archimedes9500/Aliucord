@@ -58,14 +58,12 @@
 
     iget-object v1, p0, Ld0/e0/p/d/m0/e/a/i0/d$a;->this$0:Ld0/e0/p/d/m0/e/a/i0/d;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/d;->j:Ld0/e0/p/d/m0/e/a/i0/g;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/d;->access$getC$p(Ld0/e0/p/d/m0/e/a/i0/d;)Ld0/e0/p/d/m0/e/a/i0/g;
 
     move-result-object v1
 
     iget-object v2, p0, Ld0/e0/p/d/m0/e/a/i0/d$a;->this$0:Ld0/e0/p/d/m0/e/a/i0/d;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/d;->l:Z
     invoke-static {v2}, Ld0/e0/p/d/m0/e/a/i0/d;->access$getAreAnnotationsFreshlySupported$p(Ld0/e0/p/d/m0/e/a/i0/d;)Z
 
     move-result v2

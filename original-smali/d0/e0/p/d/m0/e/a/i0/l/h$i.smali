@@ -64,7 +64,6 @@
     .line 2
     iget-object v1, v0, Ld0/e0/p/d/m0/e/a/i0/l/h$i;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/h;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/h;->r:Ld0/e0/p/d/m0/m/j;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/l/h;->access$getNestedClassIndex$p(Ld0/e0/p/d/m0/e/a/i0/l/h;)Ld0/e0/p/d/m0/m/j;
 
     move-result-object v1
@@ -86,7 +85,6 @@
     .line 3
     iget-object v1, v0, Ld0/e0/p/d/m0/e/a/i0/l/h$i;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/h;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/h;->s:Ld0/e0/p/d/m0/m/j;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/l/h;->access$getEnumEntryIndex$p(Ld0/e0/p/d/m0/e/a/i0/l/h;)Ld0/e0/p/d/m0/m/j;
 
     move-result-object v1
@@ -214,7 +212,6 @@
     .line 15
     iget-object v3, v0, Ld0/e0/p/d/m0/e/a/i0/l/h$i;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/h;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/h;->o:Ld0/e0/p/d/m0/e/a/k0/g;
     invoke-static {v3}, Ld0/e0/p/d/m0/e/a/i0/l/h;->access$getJClass$p(Ld0/e0/p/d/m0/e/a/i0/l/h;)Ld0/e0/p/d/m0/e/a/k0/g;
 
     move-result-object v6

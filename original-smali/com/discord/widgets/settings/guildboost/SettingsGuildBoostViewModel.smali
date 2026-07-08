@@ -256,7 +256,6 @@
     .line 3
     sget-object p3, Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel;->Companion:Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel$Companion;->observeStores()Lrx/Observable;
     invoke-static {p3}, Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel$Companion;->access$observeStores(Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel$Companion;)Lrx/Observable;
 
     move-result-object p3

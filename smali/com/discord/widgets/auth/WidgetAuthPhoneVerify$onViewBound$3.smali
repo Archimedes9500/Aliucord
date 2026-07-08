@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify$onViewBound$3;->this$0:Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->evaluateCode(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->access$evaluateCode(Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;Ljava/lang/String;)V
 
     return-void

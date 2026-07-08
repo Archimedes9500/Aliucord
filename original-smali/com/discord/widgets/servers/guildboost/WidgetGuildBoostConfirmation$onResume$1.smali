@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;->configureUI(Lcom/discord/widgets/servers/guildboost/GuildBoostInProgressViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;->access$configureUI(Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;Lcom/discord/widgets/servers/guildboost/GuildBoostInProgressViewModel$ViewState;)V
 
     return-void

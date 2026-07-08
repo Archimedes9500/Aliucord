@@ -97,7 +97,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreMessageAck$ack$1;->this$0:Lcom/discord/stores/StoreMessageAck;
 
-    # getter for: Lcom/discord/stores/StoreMessageAck;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreMessageAck;->access$getStream$p(Lcom/discord/stores/StoreMessageAck;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0
@@ -130,7 +129,6 @@
 
     iget-boolean v3, p0, Lcom/discord/stores/StoreMessageAck$ack$1;->$clearLock:Z
 
-    # invokes: Lcom/discord/stores/StoreMessageAck;->internalAck(Lcom/discord/api/channel/Channel;ZZ)V
     invoke-static {v1, v0, v2, v3}, Lcom/discord/stores/StoreMessageAck;->access$internalAck(Lcom/discord/stores/StoreMessageAck;Lcom/discord/api/channel/Channel;ZZ)V
 
     goto :goto_53
@@ -139,7 +137,6 @@
     :cond_23
     iget-object v1, p0, Lcom/discord/stores/StoreMessageAck$ack$1;->this$0:Lcom/discord/stores/StoreMessageAck;
 
-    # getter for: Lcom/discord/stores/StoreMessageAck;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v1}, Lcom/discord/stores/StoreMessageAck;->access$getStream$p(Lcom/discord/stores/StoreMessageAck;)Lcom/discord/stores/StoreStream;
 
     move-result-object v1
@@ -186,7 +183,6 @@
 
     iget-boolean v4, p0, Lcom/discord/stores/StoreMessageAck$ack$1;->$clearLock:Z
 
-    # invokes: Lcom/discord/stores/StoreMessageAck;->internalAck(Lcom/discord/api/channel/Channel;ZZ)V
     invoke-static {v2, v1, v3, v4}, Lcom/discord/stores/StoreMessageAck;->access$internalAck(Lcom/discord/stores/StoreMessageAck;Lcom/discord/api/channel/Channel;ZZ)V
 
     goto :goto_3d

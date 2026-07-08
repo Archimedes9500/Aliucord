@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreGuildTemplates$requestGuildTemplate$1$1;->$guildTemplate:Lcom/discord/models/domain/ModelGuildTemplate;
 
-    # invokes: Lcom/discord/stores/StoreGuildTemplates;->handleRequestGuildTemplateSuccess(Lcom/discord/models/domain/ModelGuildTemplate;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreGuildTemplates;->access$handleRequestGuildTemplateSuccess(Lcom/discord/stores/StoreGuildTemplates;Lcom/discord/models/domain/ModelGuildTemplate;)V
 
     return-void

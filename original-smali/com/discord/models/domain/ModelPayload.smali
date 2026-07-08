@@ -1095,7 +1095,6 @@
     check-cast p1, Lcom/discord/models/domain/ModelPayload$MergedPresences;
 
     .line 24
-    # getter for: Lcom/discord/models/domain/ModelPayload$MergedPresences;->friends:Ljava/util/List;
     invoke-static {p1}, Lcom/discord/models/domain/ModelPayload$MergedPresences;->access$000(Lcom/discord/models/domain/ModelPayload$MergedPresences;)Ljava/util/List;
 
     move-result-object v0
@@ -1103,7 +1102,6 @@
     iput-object v0, p0, Lcom/discord/models/domain/ModelPayload;->presences:Ljava/util/List;
 
     .line 25
-    # getter for: Lcom/discord/models/domain/ModelPayload$MergedPresences;->guilds:Ljava/util/List;
     invoke-static {p1}, Lcom/discord/models/domain/ModelPayload$MergedPresences;->access$100(Lcom/discord/models/domain/ModelPayload$MergedPresences;)Ljava/util/List;
 
     move-result-object p1

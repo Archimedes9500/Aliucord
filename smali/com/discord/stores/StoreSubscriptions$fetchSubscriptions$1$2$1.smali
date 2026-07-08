@@ -89,7 +89,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreSubscriptions$fetchSubscriptions$1;->this$0:Lcom/discord/stores/StoreSubscriptions;
 
-    # invokes: Lcom/discord/stores/StoreSubscriptions;->handleSubscriptionsFetchFailure()V
     invoke-static {v0}, Lcom/discord/stores/StoreSubscriptions;->access$handleSubscriptionsFetchFailure(Lcom/discord/stores/StoreSubscriptions;)V
 
     return-void

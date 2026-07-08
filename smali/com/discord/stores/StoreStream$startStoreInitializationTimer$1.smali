@@ -88,7 +88,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreStream$startStoreInitializationTimer$1;->this$0:Lcom/discord/stores/StoreStream;
 
-    # getter for: Lcom/discord/stores/StoreStream;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreStream;->access$getDispatcher$p(Lcom/discord/stores/StoreStream;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

@@ -131,7 +131,6 @@
 
     iget-object p4, p0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings$previewLauncher$1;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;->getGuildId()J
     invoke-static {p4}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;->access$getGuildId$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;)J
 
     move-result-wide v4

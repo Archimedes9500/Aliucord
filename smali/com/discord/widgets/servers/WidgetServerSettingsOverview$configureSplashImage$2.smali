@@ -78,7 +78,6 @@
     const/4 v2, 0x1
 
     .line 3
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->configureSplashImage(Ljava/lang/String;Ljava/lang/String;Z)V
     invoke-static {p1, v0, v1, v2}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$configureSplashImage(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;Ljava/lang/String;Ljava/lang/String;Z)V
 
     return-void

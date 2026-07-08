@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAuthLogin$onViewBound$9;->this$0:Lcom/discord/widgets/auth/WidgetAuthLogin;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLogin;->getBinding()Lcom/discord/databinding/WidgetAuthLoginBinding;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAuthLogin;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthLogin;)Lcom/discord/databinding/WidgetAuthLoginBinding;
 
     move-result-object v0

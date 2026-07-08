@@ -167,7 +167,6 @@
 
     move-result-object v0
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel;->access$updateViewState(Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel;Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel$ViewState;)V
 
     :cond_39

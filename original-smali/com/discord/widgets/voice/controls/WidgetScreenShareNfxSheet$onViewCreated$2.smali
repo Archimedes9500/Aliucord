@@ -71,7 +71,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/voice/controls/WidgetScreenShareNfxSheet$onViewCreated$2;->this$0:Lcom/discord/widgets/voice/controls/WidgetScreenShareNfxSheet;
 
-    # invokes: Lcom/discord/widgets/voice/controls/WidgetScreenShareNfxSheet;->maybeNavigateToVoiceBottomSheet()V
     invoke-static {p1}, Lcom/discord/widgets/voice/controls/WidgetScreenShareNfxSheet;->access$maybeNavigateToVoiceBottomSheet(Lcom/discord/widgets/voice/controls/WidgetScreenShareNfxSheet;)V
 
     return-void

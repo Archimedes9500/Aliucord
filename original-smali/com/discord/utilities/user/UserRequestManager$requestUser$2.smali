@@ -91,7 +91,6 @@
 
     iget-wide v1, p0, Lcom/discord/utilities/user/UserRequestManager$requestUser$2;->$userId:J
 
-    # invokes: Lcom/discord/utilities/user/UserRequestManager;->onRequestEnded(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/utilities/user/UserRequestManager;->access$onRequestEnded(Lcom/discord/utilities/user/UserRequestManager;J)V
 
     return-void

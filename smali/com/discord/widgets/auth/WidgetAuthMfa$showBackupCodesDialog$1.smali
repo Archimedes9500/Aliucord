@@ -95,7 +95,6 @@
     move-result-object v1
 
     .line 4
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthMfa;->evaluateBackupCode(Landroidx/appcompat/app/AlertDialog;Ljava/lang/String;)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/auth/WidgetAuthMfa;->access$evaluateBackupCode(Lcom/discord/widgets/auth/WidgetAuthMfa;Landroidx/appcompat/app/AlertDialog;Ljava/lang/String;)V
 
     return-void

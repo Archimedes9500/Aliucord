@@ -30,7 +30,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/b/e;->g:Ld0/e0/p/d/m0/b/e;
     invoke-static {}, Ld0/e0/p/d/m0/b/e;->access$getInstance$cp()Ld0/e0/p/d/m0/b/e;
 
     move-result-object v0

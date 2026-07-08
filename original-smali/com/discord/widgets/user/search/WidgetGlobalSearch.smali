@@ -1044,7 +1044,6 @@
     .line 1
     sget-object v0, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->Companion:Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;->getFILTER_OPTIONS_LIST()[Lkotlin/Pair;
     invoke-static {v0}, Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;->access$getFILTER_OPTIONS_LIST$p(Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;)[Lkotlin/Pair;
 
     move-result-object v0

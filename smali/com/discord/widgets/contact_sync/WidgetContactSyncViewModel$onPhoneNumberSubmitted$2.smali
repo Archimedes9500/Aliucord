@@ -109,7 +109,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$onPhoneNumberSubmitted$2;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
 
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->captchaLauncher:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->access$getCaptchaLauncher$p(Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0
@@ -122,7 +121,6 @@
     :cond_1d
     iget-object p1, p0, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$onPhoneNumberSubmitted$2;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->handlePhoneSubmittedError()V
     invoke-static {p1}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->access$handlePhoneSubmittedError(Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;)V
 
     :goto_22

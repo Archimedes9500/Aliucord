@@ -93,7 +93,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationStreaming$targetStream$1;->this$0:Lcom/discord/stores/StoreApplicationStreaming;
 
-    # getter for: Lcom/discord/stores/StoreApplicationStreaming;->activeApplicationStream:Lcom/discord/stores/StoreApplicationStreaming$ActiveApplicationStream;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationStreaming;->access$getActiveApplicationStream$p(Lcom/discord/stores/StoreApplicationStreaming;)Lcom/discord/stores/StoreApplicationStreaming$ActiveApplicationStream;
 
     move-result-object v0
@@ -181,14 +180,12 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/stores/StoreApplicationStreaming;->stopStreamInternal(Ljava/lang/String;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreApplicationStreaming;->access$stopStreamInternal(Lcom/discord/stores/StoreApplicationStreaming;Ljava/lang/String;)V
 
     .line 7
     :cond_4c
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationStreaming$targetStream$1;->this$0:Lcom/discord/stores/StoreApplicationStreaming;
 
-    # getter for: Lcom/discord/stores/StoreApplicationStreaming;->storeStream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationStreaming;->access$getStoreStream$p(Lcom/discord/stores/StoreApplicationStreaming;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

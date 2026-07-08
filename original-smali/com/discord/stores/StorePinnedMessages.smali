@@ -492,7 +492,6 @@
     .line 5
     sget-object v6, Lcom/discord/stores/StorePinnedMessages;->Companion:Lcom/discord/stores/StorePinnedMessages$Companion;
 
-    # invokes: Lcom/discord/stores/StorePinnedMessages$Companion;->getMessageIndex(Ljava/util/List;J)I
     invoke-static {v6, v5, v2, v3}, Lcom/discord/stores/StorePinnedMessages$Companion;->access$getMessageIndex(Lcom/discord/stores/StorePinnedMessages$Companion;Ljava/util/List;J)I
 
     move-result v2

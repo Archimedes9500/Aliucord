@@ -177,7 +177,6 @@
 
     iget-object v2, v2, Lcom/discord/stores/StoreMessages$editMessage$1;->this$0:Lcom/discord/stores/StoreMessages;
 
-    # getter for: Lcom/discord/stores/StoreMessages;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v2}, Lcom/discord/stores/StoreMessages;->access$getClock$p(Lcom/discord/stores/StoreMessages;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v13
@@ -304,7 +303,6 @@
 
     new-instance v3, Lcom/discord/api/utcdatetime/UtcDateTime;
 
-    # getter for: Lcom/discord/stores/StoreMessages;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v2}, Lcom/discord/stores/StoreMessages;->access$getClock$p(Lcom/discord/stores/StoreMessages;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v4
@@ -315,7 +313,6 @@
 
     invoke-direct {v3, v4, v5}, Lcom/discord/api/utcdatetime/UtcDateTime;-><init>(J)V
 
-    # invokes: Lcom/discord/stores/StoreMessages;->handleSendMessageFailureAutoMod(Lcom/discord/models/message/Message;Lcom/discord/api/utcdatetime/UtcDateTime;)V
     invoke-static {v2, v1, v3}, Lcom/discord/stores/StoreMessages;->access$handleSendMessageFailureAutoMod(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;Lcom/discord/api/utcdatetime/UtcDateTime;)V
 
     :cond_b7

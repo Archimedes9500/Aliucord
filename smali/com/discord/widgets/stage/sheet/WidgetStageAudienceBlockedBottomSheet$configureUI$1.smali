@@ -108,7 +108,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/stage/sheet/WidgetStageAudienceBlockedBottomSheet$configureUI$1;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageAudienceBlockedBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageAudienceBlockedBottomSheet;->getLaunchStageFullScreen()Z
     invoke-static {p1}, Lcom/discord/widgets/stage/sheet/WidgetStageAudienceBlockedBottomSheet;->access$getLaunchStageFullScreen$p(Lcom/discord/widgets/stage/sheet/WidgetStageAudienceBlockedBottomSheet;)Z
 
     move-result v6

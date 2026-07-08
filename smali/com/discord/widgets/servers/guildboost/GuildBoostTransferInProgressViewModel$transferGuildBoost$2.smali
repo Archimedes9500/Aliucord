@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel$transferGuildBoost$2;->this$0:Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel;
 
-    # invokes: Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel;->handleGuildBoostingError()V
     invoke-static {p1}, Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel;->access$handleGuildBoostingError(Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel;)V
 
     return-void

@@ -149,7 +149,6 @@
     :cond_2f
     iget-object v0, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsGifting$configureUI$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;->getViewModel()Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
     invoke-static {v0}, Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;->access$getViewModel$p(Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;)Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
 
     move-result-object v0

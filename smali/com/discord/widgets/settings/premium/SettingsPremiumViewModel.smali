@@ -421,7 +421,6 @@
     move-result-object v14
 
     .line 15
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$Companion;->observeStores(Lcom/discord/stores/StorePaymentSources;Lcom/discord/stores/StoreSubscriptions;Lcom/discord/stores/StoreEntitlements;Lcom/discord/stores/StoreGuildBoost;Lcom/discord/stores/StoreGooglePlaySkuDetails;Lcom/discord/stores/StoreGooglePlayPurchases;Lcom/discord/stores/StoreExperiments;Lcom/discord/utilities/rest/RestAPI;)Lrx/Observable;
     invoke-static/range {v6 .. v14}, Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$Companion;->access$observeStores(Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$Companion;Lcom/discord/stores/StorePaymentSources;Lcom/discord/stores/StoreSubscriptions;Lcom/discord/stores/StoreEntitlements;Lcom/discord/stores/StoreGuildBoost;Lcom/discord/stores/StoreGooglePlaySkuDetails;Lcom/discord/stores/StoreGooglePlayPurchases;Lcom/discord/stores/StoreExperiments;Lcom/discord/utilities/rest/RestAPI;)Lrx/Observable;
 
     move-result-object v5

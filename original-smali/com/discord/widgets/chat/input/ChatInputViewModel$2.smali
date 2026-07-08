@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/ChatInputViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/ChatInputViewModel;->handleStoreChatEvent(Lcom/discord/stores/StoreChat$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/ChatInputViewModel;->access$handleStoreChatEvent(Lcom/discord/widgets/chat/input/ChatInputViewModel;Lcom/discord/stores/StoreChat$Event;)V
 
     return-void

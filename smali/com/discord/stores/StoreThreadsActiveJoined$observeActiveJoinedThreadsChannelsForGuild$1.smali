@@ -109,7 +109,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/stores/StoreThreadsActiveJoined$observeActiveJoinedThreadsChannelsForGuild$1;->this$0:Lcom/discord/stores/StoreThreadsActiveJoined;
 
-    # getter for: Lcom/discord/stores/StoreThreadsActiveJoined;->activeJoinedThreadsHierarchicalSnapshot:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreThreadsActiveJoined;->access$getActiveJoinedThreadsHierarchicalSnapshot$p(Lcom/discord/stores/StoreThreadsActiveJoined;)Ljava/util/Map;
 
     move-result-object v1

@@ -95,7 +95,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$configureConnectionStatusText$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getBinding()Lcom/discord/databinding/WidgetCallFullscreenBinding;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getBinding$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/databinding/WidgetCallFullscreenBinding;
 
     move-result-object p1

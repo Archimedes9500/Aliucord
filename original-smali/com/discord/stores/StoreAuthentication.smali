@@ -1378,7 +1378,6 @@
 
     sget-object v1, Lcom/discord/stores/StoreAuthentication;->Companion:Lcom/discord/stores/StoreAuthentication$Companion;
 
-    # invokes: Lcom/discord/stores/StoreAuthentication$Companion;->getRnaAuthToken(Landroid/content/Context;)Ljava/lang/String;
     invoke-static {v1, p1}, Lcom/discord/stores/StoreAuthentication$Companion;->access$getRnaAuthToken(Lcom/discord/stores/StoreAuthentication$Companion;Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
@@ -1426,7 +1425,6 @@
 
     sget-object v2, Lcom/discord/stores/StoreAuthentication;->Companion:Lcom/discord/stores/StoreAuthentication$Companion;
 
-    # invokes: Lcom/discord/stores/StoreAuthentication$Companion;->getDeviceEmail(Landroid/content/Context;)Ljava/lang/String;
     invoke-static {v2, p1}, Lcom/discord/stores/StoreAuthentication$Companion;->access$getDeviceEmail(Lcom/discord/stores/StoreAuthentication$Companion;Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v2

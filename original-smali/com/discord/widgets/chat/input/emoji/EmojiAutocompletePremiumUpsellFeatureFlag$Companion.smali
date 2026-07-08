@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/chat/input/emoji/EmojiAutocompletePremiumUpsellFeatureFlag;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/EmojiAutocompletePremiumUpsellFeatureFlag;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/chat/input/emoji/EmojiAutocompletePremiumUpsellFeatureFlag;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

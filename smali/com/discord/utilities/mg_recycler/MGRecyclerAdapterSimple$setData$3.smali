@@ -104,7 +104,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;->handleError(Ljava/lang/Throwable;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;->access$handleError(Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;Ljava/lang/Throwable;)V
 
     return-void

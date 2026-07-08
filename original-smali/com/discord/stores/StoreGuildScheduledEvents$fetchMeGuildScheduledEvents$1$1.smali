@@ -138,7 +138,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildScheduledEvents$fetchMeGuildScheduledEvents$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->meGuildScheduledEventIds:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getMeGuildScheduledEventIds$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -162,7 +161,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildScheduledEvents$fetchMeGuildScheduledEvents$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->meGuildScheduledEventsFetches:Ljava/util/HashSet;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getMeGuildScheduledEventsFetches$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Ljava/util/HashSet;
 
     move-result-object v0

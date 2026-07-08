@@ -93,7 +93,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGifting$generateGiftCode$3;->$comboId:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreGifting;->removeGiftCode(Ljava/lang/String;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreGifting;->access$removeGiftCode(Lcom/discord/stores/StoreGifting;Ljava/lang/String;)V
 
     .line 3
@@ -113,7 +112,6 @@
 
     invoke-direct {v2, v3}, Lcom/discord/stores/StoreGifting$GiftState$Resolved;-><init>(Lcom/discord/models/domain/ModelGift;)V
 
-    # invokes: Lcom/discord/stores/StoreGifting;->setGifts(Ljava/lang/String;Lcom/discord/stores/StoreGifting$GiftState;)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreGifting;->access$setGifts(Lcom/discord/stores/StoreGifting;Ljava/lang/String;Lcom/discord/stores/StoreGifting$GiftState;)V
 
     return-void

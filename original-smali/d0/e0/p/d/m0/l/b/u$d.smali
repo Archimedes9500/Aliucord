@@ -66,7 +66,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/l/b/u$d;->this$0:Ld0/e0/p/d/m0/l/b/u;
 
-    # getter for: Ld0/e0/p/d/m0/l/b/u;->a:Ld0/e0/p/d/m0/l/b/l;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/u;->access$getC$p(Ld0/e0/p/d/m0/l/b/u;)Ld0/e0/p/d/m0/l/b/l;
 
     move-result-object v1
@@ -75,7 +74,6 @@
 
     move-result-object v1
 
-    # invokes: Ld0/e0/p/d/m0/l/b/u;->a(Ld0/e0/p/d/m0/c/m;)Ld0/e0/p/d/m0/l/b/y;
     invoke-static {v0, v1}, Ld0/e0/p/d/m0/l/b/u;->access$asProtoContainer(Ld0/e0/p/d/m0/l/b/u;Ld0/e0/p/d/m0/c/m;)Ld0/e0/p/d/m0/l/b/y;
 
     move-result-object v0
@@ -85,7 +83,6 @@
     .line 3
     iget-object v1, p0, Ld0/e0/p/d/m0/l/b/u$d;->this$0:Ld0/e0/p/d/m0/l/b/u;
 
-    # getter for: Ld0/e0/p/d/m0/l/b/u;->a:Ld0/e0/p/d/m0/l/b/l;
     invoke-static {v1}, Ld0/e0/p/d/m0/l/b/u;->access$getC$p(Ld0/e0/p/d/m0/l/b/u;)Ld0/e0/p/d/m0/l/b/l;
 
     move-result-object v1

@@ -113,7 +113,6 @@
     check-cast v0, Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;
 
     .line 2
-    # invokes: Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;->requestFlushUnsubscriptions(Lkotlin/jvm/functions/Function0;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;->access$requestFlushUnsubscriptions(Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;Lkotlin/jvm/functions/Function0;)V
 
     return-void

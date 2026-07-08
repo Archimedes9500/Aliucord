@@ -78,7 +78,6 @@
 .method private final getINSTANCE()Lcom/discord/utilities/analytics/InstallReferrer;
     .locals 2
 
-    # getter for: Lcom/discord/utilities/analytics/InstallReferrer;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/utilities/analytics/InstallReferrer;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

@@ -80,7 +80,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/ChatInputViewModel$observeChatInputViewState$1;->this$0:Lcom/discord/widgets/chat/input/ChatInputViewModel;
 
-    # getter for: Lcom/discord/widgets/chat/input/ChatInputViewModel;->useTimeoutUpdateInterval:Z
     invoke-static {v0}, Lcom/discord/widgets/chat/input/ChatInputViewModel;->access$getUseTimeoutUpdateInterval$p(Lcom/discord/widgets/chat/input/ChatInputViewModel;)Z
 
     move-result v0

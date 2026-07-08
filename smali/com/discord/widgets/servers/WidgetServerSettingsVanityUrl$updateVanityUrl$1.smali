@@ -104,7 +104,6 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->showLoadingUI(Z)V
     invoke-static {v1, v2}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$showLoadingUI(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;Z)V
 
     .line 3
@@ -119,13 +118,11 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$updateVanityUrl$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->configureInviteCode(Ljava/lang/String;I)V
     invoke-static {v1, v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$configureInviteCode(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;Ljava/lang/String;I)V
 
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$updateVanityUrl$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1

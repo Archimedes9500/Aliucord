@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog$onResume$1;->this$0:Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;->configureUI(Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialogViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;->access$configureUI(Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialogViewModel$ViewState;)V
 
     return-void

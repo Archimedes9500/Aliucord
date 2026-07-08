@@ -103,7 +103,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/mobile_reports/WidgetMobileReports$createNodeView$1;->this$0:Lcom/discord/widgets/mobile_reports/WidgetMobileReports;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/WidgetMobileReports;->getViewModel()Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;
     invoke-static {v0}, Lcom/discord/widgets/mobile_reports/WidgetMobileReports;->access$getViewModel$p(Lcom/discord/widgets/mobile_reports/WidgetMobileReports;)Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;
 
     move-result-object v0

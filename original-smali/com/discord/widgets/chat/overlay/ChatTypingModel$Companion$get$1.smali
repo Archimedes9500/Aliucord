@@ -129,7 +129,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/overlay/ChatTypingModel$Companion;->getTypingObservableForChannel(Lcom/discord/api/channel/Channel;)Lrx/Observable;
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/overlay/ChatTypingModel$Companion;->access$getTypingObservableForChannel(Lcom/discord/widgets/chat/overlay/ChatTypingModel$Companion;Lcom/discord/api/channel/Channel;)Lrx/Observable;
 
     move-result-object p1
@@ -151,7 +150,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/overlay/ChatTypingModel$Companion;->getTypingObservableForDraft(Lcom/discord/api/channel/Channel;)Lrx/Observable;
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/overlay/ChatTypingModel$Companion;->access$getTypingObservableForDraft(Lcom/discord/widgets/chat/overlay/ChatTypingModel$Companion;Lcom/discord/api/channel/Channel;)Lrx/Observable;
 
     move-result-object p1

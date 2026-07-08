@@ -143,7 +143,6 @@
     move-object v6, p1
 
     .line 8
-    # invokes: Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionUtils;->updateGuildRoleSubscriptionDesign(Lcom/discord/utilities/rest/RestAPI;JLjava/lang/Integer;Ljava/lang/String;Lcom/discord/api/guildrolesubscription/GuildRoleSubscriptionTierListing;)Lrx/Observable;
     invoke-static/range {v0 .. v6}, Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionUtils;->access$updateGuildRoleSubscriptionDesign(Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionUtils;Lcom/discord/utilities/rest/RestAPI;JLjava/lang/Integer;Ljava/lang/String;Lcom/discord/api/guildrolesubscription/GuildRoleSubscriptionTierListing;)Lrx/Observable;
 
     move-result-object p1

@@ -87,7 +87,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium$configureButtons$$inlined$forEach$lambda$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->getBinding()Lcom/discord/databinding/WidgetSettingsPremiumBinding;
     invoke-static {v2}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$getBinding$p(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;)Lcom/discord/databinding/WidgetSettingsPremiumBinding;
 
     move-result-object v2
@@ -137,7 +136,6 @@
     .line 8
     iget-object v2, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium$configureButtons$$inlined$forEach$lambda$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->getAnalyticsLocationSection()Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$getAnalyticsLocationSection$p(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;)Ljava/lang/String;
 
     move-result-object v7
@@ -167,7 +165,6 @@
 
     iget-object v6, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium$configureButtons$$inlined$forEach$lambda$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->getBinding()Lcom/discord/databinding/WidgetSettingsPremiumBinding;
     invoke-static {v6}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$getBinding$p(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;)Lcom/discord/databinding/WidgetSettingsPremiumBinding;
 
     move-result-object v6

@@ -75,7 +75,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/servers/guild_role_subscription/WidgetServerSettingsEmptyGuildRoleSubscriptions$configureUI$$inlined$let$lambda$1;->this$0:Lcom/discord/widgets/servers/guild_role_subscription/WidgetServerSettingsEmptyGuildRoleSubscriptions;
 
-    # invokes: Lcom/discord/widgets/servers/guild_role_subscription/WidgetServerSettingsEmptyGuildRoleSubscriptions;->getGuildId()J
     invoke-static {v1}, Lcom/discord/widgets/servers/guild_role_subscription/WidgetServerSettingsEmptyGuildRoleSubscriptions;->access$getGuildId$p(Lcom/discord/widgets/servers/guild_role_subscription/WidgetServerSettingsEmptyGuildRoleSubscriptions;)J
 
     move-result-wide v1

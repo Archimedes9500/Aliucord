@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/stickers/StickerSheetViewModel$1;->this$0:Lcom/discord/widgets/stickers/StickerSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/stickers/StickerSheetViewModel;->handleStoreState(Lcom/discord/widgets/stickers/StickerSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/stickers/StickerSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/stickers/StickerSheetViewModel;Lcom/discord/widgets/stickers/StickerSheetViewModel$StoreState;)V
 
     return-void

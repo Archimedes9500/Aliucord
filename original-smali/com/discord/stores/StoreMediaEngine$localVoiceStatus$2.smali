@@ -93,7 +93,6 @@
     check-cast v0, Lcom/discord/stores/StoreMediaEngine;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreMediaEngine;->disableLocalVoiceStatusListening()V
     invoke-static {v0}, Lcom/discord/stores/StoreMediaEngine;->access$disableLocalVoiceStatusListening(Lcom/discord/stores/StoreMediaEngine;)V
 
     return-void

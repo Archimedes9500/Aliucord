@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/list/InlineMediaView$updateUI$4;->this$0:Lcom/discord/widgets/chat/list/InlineMediaView;
 
-    # invokes: Lcom/discord/widgets/chat/list/InlineMediaView;->handlePlayerEvent(Lcom/discord/player/AppMediaPlayer$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/InlineMediaView;->access$handlePlayerEvent(Lcom/discord/widgets/chat/list/InlineMediaView;Lcom/discord/player/AppMediaPlayer$Event;)V
 
     return-void

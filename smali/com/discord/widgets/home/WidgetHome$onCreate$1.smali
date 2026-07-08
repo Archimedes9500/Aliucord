@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/home/WidgetHome$onCreate$1;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # getter for: Lcom/discord/widgets/home/WidgetHome;->localeManager:Lcom/discord/utilities/locale/LocaleManager;
     invoke-static {v0}, Lcom/discord/widgets/home/WidgetHome;->access$getLocaleManager$p(Lcom/discord/widgets/home/WidgetHome;)Lcom/discord/utilities/locale/LocaleManager;
 
     move-result-object v0

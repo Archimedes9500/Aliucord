@@ -87,7 +87,6 @@
     .locals 3
 
     .line 1
-    # getter for: Lcom/discord/widgets/friends/WidgetFriendsAddById;->PATTERN_USERNAME:Lkotlin/text/Regex;
     invoke-static {}, Lcom/discord/widgets/friends/WidgetFriendsAddById;->access$getPATTERN_USERNAME$cp()Lkotlin/text/Regex;
 
     move-result-object v0

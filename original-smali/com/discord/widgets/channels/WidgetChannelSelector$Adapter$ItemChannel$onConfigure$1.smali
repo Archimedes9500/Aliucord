@@ -74,7 +74,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/channels/WidgetChannelSelector$Adapter;->dialog:Lcom/discord/widgets/channels/WidgetChannelSelector;
     invoke-static {p1}, Lcom/discord/widgets/channels/WidgetChannelSelector$Adapter;->access$getDialog$p(Lcom/discord/widgets/channels/WidgetChannelSelector$Adapter;)Lcom/discord/widgets/channels/WidgetChannelSelector;
 
     move-result-object p1
@@ -85,7 +84,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelSelector;->onChannelSelected(Lcom/discord/api/channel/Channel;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/channels/WidgetChannelSelector;->access$onChannelSelected(Lcom/discord/widgets/channels/WidgetChannelSelector;Lcom/discord/api/channel/Channel;)V
 
     return-void

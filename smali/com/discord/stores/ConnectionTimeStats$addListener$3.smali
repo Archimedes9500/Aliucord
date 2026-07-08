@@ -69,7 +69,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$3;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->streamConnection:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {v0}, Lcom/discord/stores/ConnectionTimeStats;->access$getStreamConnection$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object v0
@@ -85,7 +84,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$3;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->streamFirstFrame:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {v0}, Lcom/discord/stores/ConnectionTimeStats;->access$getStreamFirstFrame$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object v0
@@ -101,7 +99,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$3;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->streamRequested:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {v0}, Lcom/discord/stores/ConnectionTimeStats;->access$getStreamRequested$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object v0
@@ -117,7 +114,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$3;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->streamConnection:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {v0}, Lcom/discord/stores/ConnectionTimeStats;->access$getStreamConnection$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object v0
@@ -133,7 +129,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$3;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->streamFirstFrame:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {p1}, Lcom/discord/stores/ConnectionTimeStats;->access$getStreamFirstFrame$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object p1
@@ -149,7 +144,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$3;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->connectionStreamFirstFrame:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {p1}, Lcom/discord/stores/ConnectionTimeStats;->access$getConnectionStreamFirstFrame$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object p1

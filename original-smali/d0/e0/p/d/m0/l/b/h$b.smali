@@ -38,7 +38,6 @@
     .end annotation
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/l/b/h;->b:Ljava/util/Set;
     invoke-static {}, Ld0/e0/p/d/m0/l/b/h;->access$getBLACK_LIST$cp()Ljava/util/Set;
 
     move-result-object v0

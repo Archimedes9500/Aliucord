@@ -164,7 +164,6 @@
 
     move-result-wide v2
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->isStageUserVisible(J)Z
     invoke-static {v1, v2, v3}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$isStageUserVisible(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;J)Z
 
     move-result p2
@@ -177,7 +176,6 @@
     :goto_37
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$stageSpeakerPillManagingScrollListener$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getBinding()Lcom/discord/databinding/WidgetCallFullscreenBinding;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getBinding$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/databinding/WidgetCallFullscreenBinding;
 
     move-result-object p1

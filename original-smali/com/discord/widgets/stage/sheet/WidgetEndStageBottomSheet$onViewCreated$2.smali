@@ -71,13 +71,11 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet$onViewCreated$2;->this$0:Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;->onConfirmEnd()V
     invoke-static {p1}, Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;->access$onConfirmEnd(Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;)V
 
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet$onViewCreated$2;->this$0:Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;->callOnActionTaken()V
     invoke-static {p1}, Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;->access$callOnActionTaken(Lcom/discord/widgets/stage/sheet/WidgetEndStageBottomSheet;)V
 
     return-void

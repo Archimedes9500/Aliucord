@@ -57,7 +57,6 @@
 
     iget-object v1, p0, Ld0/e0/p/d/m0/n/f0$a;->this$0:Ld0/e0/p/d/m0/n/f0;
 
-    # getter for: Ld0/e0/p/d/m0/n/f0;->l:Lkotlin/jvm/functions/Function0;
     invoke-static {v1}, Ld0/e0/p/d/m0/n/f0;->access$getComputation$p(Ld0/e0/p/d/m0/n/f0;)Lkotlin/jvm/functions/Function0;
 
     move-result-object v1

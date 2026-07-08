@@ -318,7 +318,6 @@
     .line 2
     sget-object p2, Lcom/discord/widgets/guilds/list/WidgetGuildsListViewModel;->Companion:Lcom/discord/widgets/guilds/list/WidgetGuildsListViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/guilds/list/WidgetGuildsListViewModel$Companion;->observeStores(Lcom/discord/utilities/time/Clock;)Lrx/Observable;
     invoke-static {p2, p1}, Lcom/discord/widgets/guilds/list/WidgetGuildsListViewModel$Companion;->access$observeStores(Lcom/discord/widgets/guilds/list/WidgetGuildsListViewModel$Companion;Lcom/discord/utilities/time/Clock;)Lrx/Observable;
 
     move-result-object p2

@@ -110,7 +110,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreSlowMode$getChannelCooldownObservable$newObservable$2;->this$0:Lcom/discord/stores/StoreSlowMode;
 
-    # getter for: Lcom/discord/stores/StoreSlowMode;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v0}, Lcom/discord/stores/StoreSlowMode;->access$getClock$p(Lcom/discord/stores/StoreSlowMode;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v0

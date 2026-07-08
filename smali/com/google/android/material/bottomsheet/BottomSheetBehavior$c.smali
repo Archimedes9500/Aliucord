@@ -47,7 +47,6 @@
 
     iget p3, p3, Landroidx/core/graphics/Insets;->bottom:I
 
-    # setter for: Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->gestureInsetBottom:I
     invoke-static {p1, p3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->access$102(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;I)I
 
     .line 2
@@ -55,7 +54,6 @@
 
     const/4 p3, 0x0
 
-    # invokes: Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->updatePeekHeight(Z)V
     invoke-static {p1, p3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->access$200(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;Z)V
 
     return-object p2

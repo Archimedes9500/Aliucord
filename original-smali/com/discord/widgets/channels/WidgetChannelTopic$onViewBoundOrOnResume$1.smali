@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetChannelTopic$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/channels/WidgetChannelTopic;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelTopic;->handleEvent(Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/WidgetChannelTopic;->access$handleEvent(Lcom/discord/widgets/channels/WidgetChannelTopic;Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Event;)V
 
     return-void

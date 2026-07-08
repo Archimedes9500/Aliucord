@@ -73,7 +73,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding$configureMedia$4;->this$0:Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;->getBinding()Lcom/discord/databinding/WidgetTextInVoiceOnboardingBinding;
     invoke-static {p1}, Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;->access$getBinding$p(Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;)Lcom/discord/databinding/WidgetTextInVoiceOnboardingBinding;
 
     move-result-object p1
@@ -91,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding$configureMedia$4;->this$0:Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;->getBinding()Lcom/discord/databinding/WidgetTextInVoiceOnboardingBinding;
     invoke-static {p1}, Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;->access$getBinding$p(Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;)Lcom/discord/databinding/WidgetTextInVoiceOnboardingBinding;
 
     move-result-object p1
@@ -113,7 +111,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding$configureMedia$4;->this$0:Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;->getBinding()Lcom/discord/databinding/WidgetTextInVoiceOnboardingBinding;
     invoke-static {p1}, Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;->access$getBinding$p(Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;)Lcom/discord/databinding/WidgetTextInVoiceOnboardingBinding;
 
     move-result-object p1

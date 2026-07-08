@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel;->emitError(Lcom/discord/utilities/error/Error;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel;->access$emitError(Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel;Lcom/discord/utilities/error/Error;)V
 
     return-void

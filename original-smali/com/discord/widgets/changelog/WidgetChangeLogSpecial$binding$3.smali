@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
     .line 2
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->onViewBindingDestroy(Lcom/discord/databinding/WidgetChangeLogSpecialBinding;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$onViewBindingDestroy(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;Lcom/discord/databinding/WidgetChangeLogSpecialBinding;)V
 
     return-void

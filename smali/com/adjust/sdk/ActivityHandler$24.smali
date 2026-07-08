@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/ActivityHandler$24;->this$0:Lcom/adjust/sdk/ActivityHandler;
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->disableThirdPartySharingI()V
     invoke-static {v0}, Lcom/adjust/sdk/ActivityHandler;->access$2400(Lcom/adjust/sdk/ActivityHandler;)V
 
     return-void

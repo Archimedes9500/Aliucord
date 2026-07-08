@@ -278,7 +278,6 @@
 
     move-object v8, v10
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserViewModel$Companion;->observeStoreState(JJLcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StorePermissions;)Lrx/Observable;
     invoke-static/range {v1 .. v8}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserViewModel$Companion;JJLcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StorePermissions;)Lrx/Observable;
 
     move-result-object v1

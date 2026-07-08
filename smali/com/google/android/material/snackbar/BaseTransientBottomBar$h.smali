@@ -55,7 +55,6 @@
     .line 1
     iget-object p1, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar$h;->b:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
 
-    # getter for: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->contentViewCallback:Lcom/google/android/material/snackbar/ContentViewCallback;
     invoke-static {p1}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$1600(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)Lcom/google/android/material/snackbar/ContentViewCallback;
 
     move-result-object p1

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->handleEvent(Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$handleEvent(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel$Event;)V
 
     return-void

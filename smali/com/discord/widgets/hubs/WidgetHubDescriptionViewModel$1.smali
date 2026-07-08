@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/hubs/WidgetHubDescriptionViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubDescriptionViewModel;->handleStoreUpdate(Lcom/discord/widgets/hubs/HubDescriptionState;)Lkotlin/Unit;
     invoke-static {v0, p1}, Lcom/discord/widgets/hubs/WidgetHubDescriptionViewModel;->access$handleStoreUpdate(Lcom/discord/widgets/hubs/WidgetHubDescriptionViewModel;Lcom/discord/widgets/hubs/HubDescriptionState;)Lkotlin/Unit;
 
     return-void

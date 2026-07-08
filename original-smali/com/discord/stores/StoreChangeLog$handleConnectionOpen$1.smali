@@ -145,7 +145,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreChangeLog$handleConnectionOpen$1;->this$0:Lcom/discord/stores/StoreChangeLog;
 
-    # getter for: Lcom/discord/stores/StoreChangeLog;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreChangeLog;->access$getDispatcher$p(Lcom/discord/stores/StoreChangeLog;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

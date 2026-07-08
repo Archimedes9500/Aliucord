@@ -74,7 +74,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/settings/billing/PaymentSourceAdapter;->onEditPaymentSource:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/settings/billing/PaymentSourceAdapter;->access$getOnEditPaymentSource$p(Lcom/discord/widgets/settings/billing/PaymentSourceAdapter;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreUser$userRequestManager$1;->this$0:Lcom/discord/stores/StoreUser;
 
-    # getter for: Lcom/discord/stores/StoreUser;->notifyUserUpdated:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Lcom/discord/stores/StoreUser;->access$getNotifyUserUpdated$p(Lcom/discord/stores/StoreUser;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

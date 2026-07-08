@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsVoice$onViewBoundOrOnResume$3;->this$0:Lcom/discord/widgets/settings/WidgetSettingsVoice;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsVoice;->configureUI(Lcom/discord/widgets/settings/WidgetSettingsVoice$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/WidgetSettingsVoice;->access$configureUI(Lcom/discord/widgets/settings/WidgetSettingsVoice;Lcom/discord/widgets/settings/WidgetSettingsVoice$Model;)V
 
     return-void

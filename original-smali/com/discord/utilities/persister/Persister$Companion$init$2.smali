@@ -103,7 +103,6 @@
     .line 2
     sget-object p1, Lcom/discord/utilities/persister/Persister;->Companion:Lcom/discord/utilities/persister/Persister$Companion;
 
-    # invokes: Lcom/discord/utilities/persister/Persister$Companion;->persistAll()V
     invoke-static {p1}, Lcom/discord/utilities/persister/Persister$Companion;->access$persistAll(Lcom/discord/utilities/persister/Persister$Companion;)V
 
     return-void

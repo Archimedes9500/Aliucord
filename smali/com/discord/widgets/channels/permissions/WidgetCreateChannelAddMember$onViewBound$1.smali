@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetCreateChannelAddMember$onViewBound$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetCreateChannelAddMember;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetCreateChannelAddMember;->configureUI(Lcom/discord/api/channel/Channel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/permissions/WidgetCreateChannelAddMember;->access$configureUI(Lcom/discord/widgets/channels/permissions/WidgetCreateChannelAddMember;Lcom/discord/api/channel/Channel;)V
 
     return-void

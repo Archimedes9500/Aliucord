@@ -97,7 +97,6 @@
 
     iget-wide v3, p0, Lcom/discord/stores/StoreGuilds$handleGuildMemberCommunicationEnabled$1;->$userId:J
 
-    # invokes: Lcom/discord/stores/StoreGuilds;->handleGuildMemberCommunicationEnabledInternal(JJ)V
     invoke-static {v0, v1, v2, v3, v4}, Lcom/discord/stores/StoreGuilds;->access$handleGuildMemberCommunicationEnabledInternal(Lcom/discord/stores/StoreGuilds;JJ)V
 
     return-void

@@ -103,7 +103,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleVoiceChannelSelected(J)V
     invoke-static {v0, p1, p2}, Lcom/discord/stores/StoreStream;->access$handleVoiceChannelSelected(Lcom/discord/stores/StoreStream;J)V
 
     return-void

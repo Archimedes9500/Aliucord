@@ -100,7 +100,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreForumPostMessages$observeForumPostFirstMessages$1;->this$0:Lcom/discord/stores/StoreForumPostMessages;
 
-    # getter for: Lcom/discord/stores/StoreForumPostMessages;->forumPostFirstMessageSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreForumPostMessages;->access$getForumPostFirstMessageSnapshot$p(Lcom/discord/stores/StoreForumPostMessages;)Ljava/util/Map;
 
     move-result-object v0

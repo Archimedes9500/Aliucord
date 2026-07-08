@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEmojis;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEmojis;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEmojis;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsEmojis;Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model;)V
 
     return-void

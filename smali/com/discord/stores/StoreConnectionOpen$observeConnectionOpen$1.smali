@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreConnectionOpen$observeConnectionOpen$1;->this$0:Lcom/discord/stores/StoreConnectionOpen;
 
-    # invokes: Lcom/discord/stores/StoreConnectionOpen;->isConnectionOpen()Z
     invoke-static {v0}, Lcom/discord/stores/StoreConnectionOpen;->access$isConnectionOpen$p(Lcom/discord/stores/StoreConnectionOpen;)Z
 
     move-result v0

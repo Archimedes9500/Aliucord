@@ -71,7 +71,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserAdapter$ItemType;->cachedValues:[Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserAdapter$ItemType;
     invoke-static {}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserAdapter$ItemType;->access$getCachedValues$cp()[Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserAdapter$ItemType;
 
     move-result-object v0

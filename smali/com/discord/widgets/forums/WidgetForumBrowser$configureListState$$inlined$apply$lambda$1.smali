@@ -102,7 +102,6 @@
 
     move-result-wide v3
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowser;->onLayoutCompleted(JJ)V
     invoke-static {v0, v1, v2, v3, v4}, Lcom/discord/widgets/forums/WidgetForumBrowser;->access$onLayoutCompleted(Lcom/discord/widgets/forums/WidgetForumBrowser;JJ)V
 
     return-void

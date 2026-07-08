@@ -129,7 +129,6 @@
     .line 2
     iget-object v1, p0, Lcom/discord/stores/StoreReadStates$computeUnreadChannelIds$2;->this$0:Lcom/discord/stores/StoreReadStates;
 
-    # getter for: Lcom/discord/stores/StoreReadStates;->unreadChannelIds:Lrx/subjects/SerializedSubject;
     invoke-static {v1}, Lcom/discord/stores/StoreReadStates;->access$getUnreadChannelIds$p(Lcom/discord/stores/StoreReadStates;)Lrx/subjects/SerializedSubject;
 
     move-result-object v1
@@ -142,7 +141,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StoreReadStates$computeUnreadChannelIds$2;->this$0:Lcom/discord/stores/StoreReadStates;
 
-    # getter for: Lcom/discord/stores/StoreReadStates;->unreadGuildIds:Lrx/subjects/SerializedSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreReadStates;->access$getUnreadGuildIds$p(Lcom/discord/stores/StoreReadStates;)Lrx/subjects/SerializedSubject;
 
     move-result-object v0

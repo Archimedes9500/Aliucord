@@ -92,7 +92,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/profile/UserProfileHeaderView$updateBannerBackgroundColorAsync$2;->this$0:Lcom/discord/widgets/user/profile/UserProfileHeaderView;
 
-    # getter for: Lcom/discord/widgets/user/profile/UserProfileHeaderView;->binding:Lcom/discord/databinding/UserProfileHeaderViewBinding;
     invoke-static {v0}, Lcom/discord/widgets/user/profile/UserProfileHeaderView;->access$getBinding$p(Lcom/discord/widgets/user/profile/UserProfileHeaderView;)Lcom/discord/databinding/UserProfileHeaderViewBinding;
 
     move-result-object v0

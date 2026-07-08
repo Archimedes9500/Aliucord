@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreAccessibility$observeReducedMotionEnabled$1;->this$0:Lcom/discord/stores/StoreAccessibility;
 
-    # getter for: Lcom/discord/stores/StoreAccessibility;->reducedMotionEnabled:Z
     invoke-static {v0}, Lcom/discord/stores/StoreAccessibility;->access$getReducedMotionEnabled$p(Lcom/discord/stores/StoreAccessibility;)Z
 
     move-result v0

@@ -131,7 +131,6 @@
     .line 6
     iget-object v0, p0, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;
 
-    # invokes: Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;->getGuildId()J
     invoke-static {v0}, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;->access$getGuildId$p(Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;)J
 
     move-result-wide v2

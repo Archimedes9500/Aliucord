@@ -101,7 +101,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreMessages$sendMessage$createRequest$2;->this$0:Lcom/discord/stores/StoreMessages;
 
-    # getter for: Lcom/discord/stores/StoreMessages;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreMessages;->access$getStream$p(Lcom/discord/stores/StoreMessages;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

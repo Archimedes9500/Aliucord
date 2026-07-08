@@ -99,7 +99,6 @@
 
     invoke-static {v0, v4}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StorePinnedMessages;->handlePinnedMessagesLoaded(JLjava/util/List;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StorePinnedMessages;->access$handlePinnedMessagesLoaded(Lcom/discord/stores/StorePinnedMessages;JLjava/util/List;)V
 
     return-void

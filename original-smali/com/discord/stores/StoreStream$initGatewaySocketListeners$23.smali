@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleThreadDelete(Lcom/discord/api/channel/Channel;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleThreadDelete(Lcom/discord/stores/StoreStream;Lcom/discord/api/channel/Channel;)V
 
     return-void

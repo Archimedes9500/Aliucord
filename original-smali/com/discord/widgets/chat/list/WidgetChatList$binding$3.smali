@@ -112,7 +112,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/chat/list/WidgetChatList$binding$3;->this$0:Lcom/discord/widgets/chat/list/WidgetChatList;
 
-    # getter for: Lcom/discord/widgets/chat/list/WidgetChatList;->adapter:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/WidgetChatList;->access$getAdapter$p(Lcom/discord/widgets/chat/list/WidgetChatList;)Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
     move-result-object p1

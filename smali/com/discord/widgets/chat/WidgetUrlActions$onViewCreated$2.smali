@@ -76,7 +76,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/chat/WidgetUrlActions$onViewCreated$2;->this$0:Lcom/discord/widgets/chat/WidgetUrlActions;
 
-    # invokes: Lcom/discord/widgets/chat/WidgetUrlActions;->getUrl()Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/chat/WidgetUrlActions;->access$getUrl$p(Lcom/discord/widgets/chat/WidgetUrlActions;)Ljava/lang/String;
 
     move-result-object v2

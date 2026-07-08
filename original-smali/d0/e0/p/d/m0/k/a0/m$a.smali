@@ -76,7 +76,6 @@
     .line 2
     iget-object v1, p0, Ld0/e0/p/d/m0/k/a0/m$a;->this$0:Ld0/e0/p/d/m0/k/a0/m;
 
-    # getter for: Ld0/e0/p/d/m0/k/a0/m;->c:Ld0/e0/p/d/m0/c/e;
     invoke-static {v1}, Ld0/e0/p/d/m0/k/a0/m;->access$getContainingClass$p(Ld0/e0/p/d/m0/k/a0/m;)Ld0/e0/p/d/m0/c/e;
 
     move-result-object v1
@@ -91,7 +90,6 @@
 
     iget-object v1, p0, Ld0/e0/p/d/m0/k/a0/m$a;->this$0:Ld0/e0/p/d/m0/k/a0/m;
 
-    # getter for: Ld0/e0/p/d/m0/k/a0/m;->c:Ld0/e0/p/d/m0/c/e;
     invoke-static {v1}, Ld0/e0/p/d/m0/k/a0/m;->access$getContainingClass$p(Ld0/e0/p/d/m0/k/a0/m;)Ld0/e0/p/d/m0/c/e;
 
     move-result-object v1

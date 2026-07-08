@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections;
 
-    # invokes: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections;->handleViewState(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections;->access$handleViewState(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections;Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$ViewState;)V
 
     return-void

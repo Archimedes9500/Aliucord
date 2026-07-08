@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/channels/settings/WidgetThreadSettings;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->configureUI(Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->access$configureUI(Lcom/discord/widgets/channels/settings/WidgetThreadSettings;Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel$ViewState;)V
 
     return-void

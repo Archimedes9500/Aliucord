@@ -115,12 +115,10 @@
 
     iget-object p2, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$configureUI$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getTargetId()J
     invoke-static {p2}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getTargetId$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)J
 
     move-result-wide v2
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->deletePermissionOverwrites(JJ)V
     invoke-static {p1, v0, v1, v2, v3}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$deletePermissionOverwrites(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;JJ)V
 
     :goto_24

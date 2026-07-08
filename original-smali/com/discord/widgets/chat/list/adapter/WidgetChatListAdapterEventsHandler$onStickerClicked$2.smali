@@ -100,7 +100,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$onStickerClicked$2;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;->getFragmentManager()Landroidx/fragment/app/FragmentManager;
     invoke-static {v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;->access$getFragmentManager$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;)Landroidx/fragment/app/FragmentManager;
 
     move-result-object v0

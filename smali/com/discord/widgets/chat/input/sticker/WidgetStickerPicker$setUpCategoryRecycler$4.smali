@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->onSelectedCategoryAdapterPositionUpdated(I)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$onSelectedCategoryAdapterPositionUpdated(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;I)V
 
     return-void

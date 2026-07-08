@@ -116,7 +116,6 @@
 
     const/4 v2, 0x1
 
-    # invokes: Lcom/discord/stores/StoreAnalytics;->getChannelSnapshotAnalyticsProperties(Lcom/discord/api/channel/Channel;Z)Ljava/util/Map;
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreAnalytics;->access$getChannelSnapshotAnalyticsProperties(Lcom/discord/stores/StoreAnalytics;Lcom/discord/api/channel/Channel;Z)Ljava/util/Map;
 
     move-result-object v0

@@ -74,7 +74,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/home/WidgetHomePanelNsfw$configureUI$1;->this$0:Lcom/discord/widgets/home/WidgetHomePanelNsfw;
 
-    # getter for: Lcom/discord/widgets/home/WidgetHomePanelNsfw;->guildsNsfwStore:Lcom/discord/stores/StoreGuildsNsfw;
     invoke-static {p1}, Lcom/discord/widgets/home/WidgetHomePanelNsfw;->access$getGuildsNsfwStore$p(Lcom/discord/widgets/home/WidgetHomePanelNsfw;)Lcom/discord/stores/StoreGuildsNsfw;
 
     move-result-object p1

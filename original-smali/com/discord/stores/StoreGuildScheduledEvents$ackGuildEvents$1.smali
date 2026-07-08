@@ -98,7 +98,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreGuildScheduledEvents$ackGuildEvents$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->lastAckedGuildScheduledEventIds:Ljava/util/HashMap;
     invoke-static {p1}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getLastAckedGuildScheduledEventIds$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Ljava/util/HashMap;
 
     move-result-object p1

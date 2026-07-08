@@ -57,12 +57,10 @@
     iput v0, p0, Ld0/g0/d$a;->j:I
 
     .line 3
-    # getter for: Ld0/g0/d;->b:I
     invoke-static {p1}, Ld0/g0/d;->access$getStartIndex$p(Ld0/g0/d;)I
 
     move-result v0
 
-    # getter for: Ld0/g0/d;->a:Ljava/lang/CharSequence;
     invoke-static {p1}, Ld0/g0/d;->access$getInput$p(Ld0/g0/d;)Ljava/lang/CharSequence;
 
     move-result-object p1
@@ -111,7 +109,6 @@
     :cond_c
     iget-object v0, p0, Ld0/g0/d$a;->o:Ld0/g0/d;
 
-    # getter for: Ld0/g0/d;->c:I
     invoke-static {v0}, Ld0/g0/d;->access$getLimit$p(Ld0/g0/d;)I
 
     move-result v0
@@ -130,7 +127,6 @@
 
     iget-object v4, p0, Ld0/g0/d$a;->o:Ld0/g0/d;
 
-    # getter for: Ld0/g0/d;->c:I
     invoke-static {v4}, Ld0/g0/d;->access$getLimit$p(Ld0/g0/d;)I
 
     move-result v4
@@ -142,7 +138,6 @@
 
     iget-object v4, p0, Ld0/g0/d$a;->o:Ld0/g0/d;
 
-    # getter for: Ld0/g0/d;->a:Ljava/lang/CharSequence;
     invoke-static {v4}, Ld0/g0/d;->access$getInput$p(Ld0/g0/d;)Ljava/lang/CharSequence;
 
     move-result-object v4
@@ -161,7 +156,6 @@
 
     iget-object v4, p0, Ld0/g0/d$a;->o:Ld0/g0/d;
 
-    # getter for: Ld0/g0/d;->a:Ljava/lang/CharSequence;
     invoke-static {v4}, Ld0/g0/d;->access$getInput$p(Ld0/g0/d;)Ljava/lang/CharSequence;
 
     move-result-object v4
@@ -183,14 +177,12 @@
     :cond_47
     iget-object v0, p0, Ld0/g0/d$a;->o:Ld0/g0/d;
 
-    # getter for: Ld0/g0/d;->d:Lkotlin/jvm/functions/Function2;
     invoke-static {v0}, Ld0/g0/d;->access$getGetNextMatch$p(Ld0/g0/d;)Lkotlin/jvm/functions/Function2;
 
     move-result-object v0
 
     iget-object v4, p0, Ld0/g0/d$a;->o:Ld0/g0/d;
 
-    # getter for: Ld0/g0/d;->a:Ljava/lang/CharSequence;
     invoke-static {v4}, Ld0/g0/d;->access$getInput$p(Ld0/g0/d;)Ljava/lang/CharSequence;
 
     move-result-object v4
@@ -216,7 +208,6 @@
 
     iget-object v4, p0, Ld0/g0/d$a;->o:Ld0/g0/d;
 
-    # getter for: Ld0/g0/d;->a:Ljava/lang/CharSequence;
     invoke-static {v4}, Ld0/g0/d;->access$getInput$p(Ld0/g0/d;)Ljava/lang/CharSequence;
 
     move-result-object v4

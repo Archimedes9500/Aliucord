@@ -78,7 +78,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment$adapter$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsAddMemberBinding;
     invoke-static {v2}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragment;)Lcom/discord/databinding/WidgetChannelSettingsAddMemberBinding;
 
     move-result-object v2

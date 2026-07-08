@@ -76,7 +76,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$viewModel$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->getGuildId()Ljava/lang/Long;
     invoke-static {v0}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$getGuildId$p(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)Ljava/lang/Long;
 
     move-result-object v1

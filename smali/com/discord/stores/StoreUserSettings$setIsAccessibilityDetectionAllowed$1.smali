@@ -84,7 +84,6 @@
 
     iget-boolean v0, p0, Lcom/discord/stores/StoreUserSettings$setIsAccessibilityDetectionAllowed$1;->$allowAccessibilityDetection:Z
 
-    # invokes: Lcom/discord/stores/StoreUserSettings;->updateAllowAccessibilityDetectionInternal(Z)V
     invoke-static {p1, v0}, Lcom/discord/stores/StoreUserSettings;->access$updateAllowAccessibilityDetectionInternal(Lcom/discord/stores/StoreUserSettings;Z)V
 
     return-void

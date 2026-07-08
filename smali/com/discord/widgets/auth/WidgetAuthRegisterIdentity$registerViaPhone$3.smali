@@ -119,7 +119,6 @@
     .line 5
     iget-object v2, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity$registerViaPhone$3;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->captchaLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v2}, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->access$getCaptchaLauncher$p(Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v2

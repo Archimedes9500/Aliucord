@@ -101,7 +101,6 @@
         }
     .end annotation
 
-    # getter for: Lcom/discord/utilities/intent/StaticChannelRoutes;->routeToName$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/utilities/intent/StaticChannelRoutes;->access$getRouteToName$cp()Lkotlin/Lazy;
 
     move-result-object v0

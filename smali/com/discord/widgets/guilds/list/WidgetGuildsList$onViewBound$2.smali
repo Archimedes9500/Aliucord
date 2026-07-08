@@ -99,7 +99,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/guilds/list/WidgetGuildsList$onViewBound$2;->this$0:Lcom/discord/widgets/guilds/list/WidgetGuildsList;
 
-    # getter for: Lcom/discord/widgets/guilds/list/WidgetGuildsList;->guildListAddHint:Landroid/view/View;
     invoke-static {p1}, Lcom/discord/widgets/guilds/list/WidgetGuildsList;->access$getGuildListAddHint$p(Lcom/discord/widgets/guilds/list/WidgetGuildsList;)Landroid/view/View;
 
     move-result-object p1

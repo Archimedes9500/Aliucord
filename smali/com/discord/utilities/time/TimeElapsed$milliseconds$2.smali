@@ -84,7 +84,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/time/TimeElapsed$milliseconds$2;->this$0:Lcom/discord/utilities/time/TimeElapsed;
 
-    # getter for: Lcom/discord/utilities/time/TimeElapsed;->startTime:J
     invoke-static {v2}, Lcom/discord/utilities/time/TimeElapsed;->access$getStartTime$p(Lcom/discord/utilities/time/TimeElapsed;)J
 
     move-result-wide v2

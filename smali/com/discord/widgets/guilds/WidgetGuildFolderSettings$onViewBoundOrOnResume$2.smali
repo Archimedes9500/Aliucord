@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->handleEvent(Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->access$handleEvent(Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$Event;)V
 
     return-void

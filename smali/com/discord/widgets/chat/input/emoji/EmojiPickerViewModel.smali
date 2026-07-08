@@ -603,7 +603,6 @@
     move/from16 v8, v17
 
     .line 15
-    # invokes: Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;->buildEmojiListItems(Ljava/util/Collection;Lkotlin/jvm/functions/Function1;Ljava/lang/String;ZZZ)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems;
     invoke-static/range {v2 .. v8}, Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;->access$buildEmojiListItems(Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;Ljava/util/Collection;Lkotlin/jvm/functions/Function1;Ljava/lang/String;ZZZ)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems;
 
     move-result-object v2
@@ -745,7 +744,6 @@
     move/from16 v8, v17
 
     .line 30
-    # invokes: Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;->buildEmojiListItems(Ljava/util/Collection;Lkotlin/jvm/functions/Function1;Ljava/lang/String;ZZZ)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems;
     invoke-static/range {v2 .. v8}, Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;->access$buildEmojiListItems(Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;Ljava/util/Collection;Lkotlin/jvm/functions/Function1;Ljava/lang/String;ZZZ)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems;
 
     move-result-object v2
@@ -954,7 +952,6 @@
     move/from16 v8, v17
 
     .line 48
-    # invokes: Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;->buildGuildEmojiListItems(Lcom/discord/models/guild/Guild;Lcom/discord/models/domain/emoji/EmojiSet;Ljava/lang/String;ZZZ)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems;
     invoke-static/range {v2 .. v8}, Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;->access$buildGuildEmojiListItems(Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;Lcom/discord/models/guild/Guild;Lcom/discord/models/domain/emoji/EmojiSet;Ljava/lang/String;ZZZ)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems;
 
     move-result-object v2
@@ -1129,7 +1126,6 @@
 
     move/from16 v8, v17
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;->buildGuildEmojiListItems(Lcom/discord/models/guild/Guild;Lcom/discord/models/domain/emoji/EmojiSet;Ljava/lang/String;ZZZ)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems;
     invoke-static/range {v2 .. v8}, Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;->access$buildGuildEmojiListItems(Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;Lcom/discord/models/guild/Guild;Lcom/discord/models/domain/emoji/EmojiSet;Ljava/lang/String;ZZZ)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems;
 
     move-result-object v2
@@ -1337,7 +1333,6 @@
     move/from16 v8, v20
 
     .line 83
-    # invokes: Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;->buildEmojiListItems(Ljava/util/Collection;Lkotlin/jvm/functions/Function1;Ljava/lang/String;ZZZ)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems;
     invoke-static/range {v2 .. v8}, Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;->access$buildEmojiListItems(Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion;Ljava/util/Collection;Lkotlin/jvm/functions/Function1;Ljava/lang/String;ZZZ)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems;
 
     move-result-object v2

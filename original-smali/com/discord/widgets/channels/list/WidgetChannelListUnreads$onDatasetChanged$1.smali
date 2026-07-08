@@ -184,7 +184,6 @@
     :goto_25
     iget-object p1, p0, Lcom/discord/widgets/channels/list/WidgetChannelListUnreads$onDatasetChanged$1;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;->handleVisibleRangeUpdate()V
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;->access$handleVisibleRangeUpdate(Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;)V
 
     .line 6

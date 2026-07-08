@@ -139,7 +139,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/utilities/auth/GoogleSmartLockManager$resolveResult$notice$1;->this$0:Lcom/discord/utilities/auth/GoogleSmartLockManager;
 
-    # getter for: Lcom/discord/utilities/auth/GoogleSmartLockManager;->resolvableFragments:Ljava/util/List;
     invoke-static {v2}, Lcom/discord/utilities/auth/GoogleSmartLockManager;->access$getResolvableFragments$p(Lcom/discord/utilities/auth/GoogleSmartLockManager;)Ljava/util/List;
 
     move-result-object v2
@@ -176,7 +175,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/auth/GoogleSmartLockManager$resolveResult$notice$1;->$rae:Lcom/google/android/gms/common/api/ResolvableApiException;
 
-    # invokes: Lcom/discord/utilities/auth/GoogleSmartLockManager;->resolveResult(Landroidx/fragment/app/Fragment;ILcom/google/android/gms/common/api/ResolvableApiException;)V
     invoke-static {p1, v0, v1, v2}, Lcom/discord/utilities/auth/GoogleSmartLockManager;->access$resolveResult(Lcom/discord/utilities/auth/GoogleSmartLockManager;Landroidx/fragment/app/Fragment;ILcom/google/android/gms/common/api/ResolvableApiException;)V
 
     :cond_4b

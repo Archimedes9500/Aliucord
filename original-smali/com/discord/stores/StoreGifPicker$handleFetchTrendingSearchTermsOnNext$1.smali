@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreGifPicker$handleFetchTrendingSearchTermsOnNext$1;->$trendingSearchTerms:Ljava/util/List;
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->updateTrendingSearchTerms(Ljava/util/List;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreGifPicker;->access$updateTrendingSearchTerms(Lcom/discord/stores/StoreGifPicker;Ljava/util/List;)V
 
     .line 3

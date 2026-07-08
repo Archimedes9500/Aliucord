@@ -93,7 +93,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleFriendSuggestionsFetchFailure()V
     invoke-static {v0}, Lcom/discord/stores/StoreStream;->access$handleFriendSuggestionsFetchFailure(Lcom/discord/stores/StoreStream;)V
 
     return-void

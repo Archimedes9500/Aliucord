@@ -48,7 +48,6 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    # getter for: Ld0/f0/d;->a:Lkotlin/sequences/Sequence;
     invoke-static {p1}, Ld0/f0/d;->access$getSequence$p(Ld0/f0/d;)Lkotlin/sequences/Sequence;
 
     move-result-object v0
@@ -60,7 +59,6 @@
     iput-object v0, p0, Ld0/f0/d$a;->j:Ljava/util/Iterator;
 
     .line 3
-    # getter for: Ld0/f0/d;->b:I
     invoke-static {p1}, Ld0/f0/d;->access$getCount$p(Ld0/f0/d;)I
 
     move-result p1

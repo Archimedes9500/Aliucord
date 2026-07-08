@@ -104,7 +104,6 @@
     .line 2
     iget-object p3, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverview$onViewBound$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverview;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverview;->getViewModel()Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;
     invoke-static {p3}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverview;->access$getViewModel$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverview;)Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;
 
     move-result-object p3

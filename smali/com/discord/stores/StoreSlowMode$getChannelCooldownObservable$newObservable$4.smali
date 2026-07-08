@@ -75,7 +75,6 @@
 
     iget-object v3, p0, Lcom/discord/stores/StoreSlowMode$getChannelCooldownObservable$newObservable$4;->$type:Lcom/discord/stores/StoreSlowMode$Type;
 
-    # invokes: Lcom/discord/stores/StoreSlowMode;->removeChannelCooldownObservable(JLcom/discord/stores/StoreSlowMode$Type;)Lrx/Observable;
     invoke-static {v0, v1, v2, v3}, Lcom/discord/stores/StoreSlowMode;->access$removeChannelCooldownObservable(Lcom/discord/stores/StoreSlowMode;JLcom/discord/stores/StoreSlowMode$Type;)Lrx/Observable;
 
     return-void

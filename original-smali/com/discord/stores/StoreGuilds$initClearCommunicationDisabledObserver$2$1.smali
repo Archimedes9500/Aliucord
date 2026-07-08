@@ -124,7 +124,6 @@
 
     move-result-wide v5
 
-    # invokes: Lcom/discord/stores/StoreGuilds;->handleGuildMemberCommunicationEnabledInternal(JJ)V
     invoke-static {v2, v3, v4, v5, v6}, Lcom/discord/stores/StoreGuilds;->access$handleGuildMemberCommunicationEnabledInternal(Lcom/discord/stores/StoreGuilds;JJ)V
 
     goto :goto_b

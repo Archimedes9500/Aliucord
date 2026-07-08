@@ -74,7 +74,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/settings/premium/WidgetSettingsGiftingAdapter;->onGenerateClickListener:Lkotlin/jvm/functions/Function2;
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/WidgetSettingsGiftingAdapter;->access$getOnGenerateClickListener$p(Lcom/discord/widgets/settings/premium/WidgetSettingsGiftingAdapter;)Lkotlin/jvm/functions/Function2;
 
     move-result-object p1

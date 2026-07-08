@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreGuildsSorted$setPositions$1;->$guildPositions:Ljava/util/List;
 
-    # invokes: Lcom/discord/stores/StoreGuildsSorted;->handleNewPositionsFromUser(Ljava/util/List;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreGuildsSorted;->access$handleNewPositionsFromUser(Lcom/discord/stores/StoreGuildsSorted;Ljava/util/List;)V
 
     return-void

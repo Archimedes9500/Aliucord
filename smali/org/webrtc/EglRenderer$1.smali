@@ -41,13 +41,11 @@
     .line 1
     iget-object v0, p0, Lorg/webrtc/EglRenderer$1;->this$0:Lorg/webrtc/EglRenderer;
 
-    # invokes: Lorg/webrtc/EglRenderer;->logStatistics()V
     invoke-static {v0}, Lorg/webrtc/EglRenderer;->access$100(Lorg/webrtc/EglRenderer;)V
 
     .line 2
     iget-object v0, p0, Lorg/webrtc/EglRenderer$1;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->handlerLock:Ljava/lang/Object;
     invoke-static {v0}, Lorg/webrtc/EglRenderer;->access$200(Lorg/webrtc/EglRenderer;)Ljava/lang/Object;
 
     move-result-object v0
@@ -58,7 +56,6 @@
     :try_start_c
     iget-object v1, p0, Lorg/webrtc/EglRenderer$1;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->renderThreadHandler:Landroid/os/Handler;
     invoke-static {v1}, Lorg/webrtc/EglRenderer;->access$300(Lorg/webrtc/EglRenderer;)Landroid/os/Handler;
 
     move-result-object v1
@@ -68,14 +65,12 @@
     .line 4
     iget-object v1, p0, Lorg/webrtc/EglRenderer$1;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->renderThreadHandler:Landroid/os/Handler;
     invoke-static {v1}, Lorg/webrtc/EglRenderer;->access$300(Lorg/webrtc/EglRenderer;)Landroid/os/Handler;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/webrtc/EglRenderer$1;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->logStatisticsRunnable:Ljava/lang/Runnable;
     invoke-static {v2}, Lorg/webrtc/EglRenderer;->access$400(Lorg/webrtc/EglRenderer;)Ljava/lang/Runnable;
 
     move-result-object v2
@@ -85,7 +80,6 @@
     .line 5
     iget-object v1, p0, Lorg/webrtc/EglRenderer$1;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->renderThreadHandler:Landroid/os/Handler;
     invoke-static {v1}, Lorg/webrtc/EglRenderer;->access$300(Lorg/webrtc/EglRenderer;)Landroid/os/Handler;
 
     move-result-object v1
@@ -93,7 +87,6 @@
     iget-object v2, p0, Lorg/webrtc/EglRenderer$1;->this$0:Lorg/webrtc/EglRenderer;
 
     .line 6
-    # getter for: Lorg/webrtc/EglRenderer;->logStatisticsRunnable:Ljava/lang/Runnable;
     invoke-static {v2}, Lorg/webrtc/EglRenderer;->access$400(Lorg/webrtc/EglRenderer;)Ljava/lang/Runnable;
 
     move-result-object v2

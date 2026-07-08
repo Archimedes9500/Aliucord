@@ -96,7 +96,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreAudioManagerV2$init$1;->this$0:Lcom/discord/stores/StoreAudioManagerV2;
 
-    # getter for: Lcom/discord/stores/StoreAudioManagerV2;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreAudioManagerV2;->access$getDispatcher$p(Lcom/discord/stores/StoreAudioManagerV2;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

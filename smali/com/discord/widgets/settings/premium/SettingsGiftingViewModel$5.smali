@@ -110,7 +110,6 @@
     check-cast v0, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->combineData(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$StoreState;Ljava/util/List;)Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$GiftAndPromoData;
     invoke-static {v0, p1, p2}, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->access$combineData(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$StoreState;Ljava/util/List;)Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$GiftAndPromoData;
 
     move-result-object p1

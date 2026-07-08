@@ -142,7 +142,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;->getInviteLink(Lcom/discord/models/domain/ModelInvite;)Ljava/lang/String;
     invoke-static {p5, v0}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;->access$getInviteLink$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;Lcom/discord/models/domain/ModelInvite;)Ljava/lang/String;
 
     move-result-object p5

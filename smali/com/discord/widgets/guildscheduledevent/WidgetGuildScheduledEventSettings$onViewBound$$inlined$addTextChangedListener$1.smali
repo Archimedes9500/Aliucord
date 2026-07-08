@@ -87,7 +87,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings$onViewBound$$inlined$addTextChangedListener$1;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;->getViewModel()Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventSettingsViewModel;
     invoke-static {v0}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;->access$getViewModel$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;)Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventSettingsViewModel;
 
     move-result-object v0

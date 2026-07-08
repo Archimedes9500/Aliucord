@@ -104,7 +104,6 @@
 
     iget-object v1, v1, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog$onViewBound$1;->this$0:Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;
 
-    # getter for: Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;->guildId:J
     invoke-static {v1}, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;->access$getGuildId$p(Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;)J
 
     move-result-wide v3
@@ -134,7 +133,6 @@
 
     iget-object v1, v1, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog$onViewBound$1;->this$0:Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;
 
-    # getter for: Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;->guildId:J
     invoke-static {v1}, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;->access$getGuildId$p(Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;)J
 
     move-result-wide v3

@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreAccessibility$init$1$1;->$it:Lcom/discord/utilities/accessibility/AccessibilityState;
 
-    # invokes: Lcom/discord/stores/StoreAccessibility;->updateMonitoredAccessibilityState(Lcom/discord/utilities/accessibility/AccessibilityState;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreAccessibility;->access$updateMonitoredAccessibilityState(Lcom/discord/stores/StoreAccessibility;Lcom/discord/utilities/accessibility/AccessibilityState;)V
 
     return-void

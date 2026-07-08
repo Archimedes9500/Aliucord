@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsBans$onResume$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsBans;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsBans;->filterPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/servers/WidgetServerSettingsBans;->access$getFilterPublisher$p(Lcom/discord/widgets/servers/WidgetServerSettingsBans;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

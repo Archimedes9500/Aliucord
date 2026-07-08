@@ -127,7 +127,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->webSocket:Lcom/discord/utilities/websocket/WebSocket;
     invoke-static {v2}, Lcom/discord/gateway/GatewaySocket;->access$getWebSocket$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/utilities/websocket/WebSocket;
 
     move-result-object v2
@@ -139,7 +138,6 @@
 
     iget-object v1, p0, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->logger:Lcom/discord/utilities/logging/Logger;
     invoke-static {v1}, Lcom/discord/gateway/GatewaySocket;->access$getLogger$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/utilities/logging/Logger;
 
     move-result-object v4
@@ -173,12 +171,10 @@
     .line 6
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->seq:I
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getSeq$p(Lcom/discord/gateway/GatewaySocket;)I
 
     move-result v1
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->heartbeat(I)V
     invoke-static {v0, v1}, Lcom/discord/gateway/GatewaySocket;->access$heartbeat(Lcom/discord/gateway/GatewaySocket;I)V
 
     .line 7
@@ -191,7 +187,6 @@
     .line 8
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->heartbeatExpeditedTimeout:Lcom/discord/gateway/GatewaySocket$Timer;
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getHeartbeatExpeditedTimeout$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/gateway/GatewaySocket$Timer;
 
     move-result-object v0
@@ -225,7 +220,6 @@
 
     iget-object v1, p0, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->logger:Lcom/discord/utilities/logging/Logger;
     invoke-static {v1}, Lcom/discord/gateway/GatewaySocket;->access$getLogger$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/utilities/logging/Logger;
 
     move-result-object v4

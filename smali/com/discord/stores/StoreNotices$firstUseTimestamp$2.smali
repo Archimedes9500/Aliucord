@@ -94,7 +94,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreNotices$firstUseTimestamp$2;->this$0:Lcom/discord/stores/StoreNotices;
 
-    # getter for: Lcom/discord/stores/StoreNotices;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v0}, Lcom/discord/stores/StoreNotices;->access$getClock$p(Lcom/discord/stores/StoreNotices;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v0

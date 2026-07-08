@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple$setData$1;->this$0:Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;
 
-    # getter for: Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;->diffCreator:Lcom/discord/utilities/recycler/DiffCreator;
     invoke-static {v0}, Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;->access$getDiffCreator$p(Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;)Lcom/discord/utilities/recycler/DiffCreator;
 
     move-result-object v0

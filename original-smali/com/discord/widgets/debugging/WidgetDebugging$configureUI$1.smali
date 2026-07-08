@@ -109,7 +109,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/debugging/WidgetDebugging$configureUI$1;->this$0:Lcom/discord/widgets/debugging/WidgetDebugging;
 
-    # getter for: Lcom/discord/widgets/debugging/WidgetDebugging;->filterSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/widgets/debugging/WidgetDebugging;->access$getFilterSubject$p(Lcom/discord/widgets/debugging/WidgetDebugging;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1

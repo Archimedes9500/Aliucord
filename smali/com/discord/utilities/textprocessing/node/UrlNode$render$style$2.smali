@@ -120,7 +120,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/textprocessing/node/UrlNode$render$style$2;->this$0:Lcom/discord/utilities/textprocessing/node/UrlNode;
 
-    # getter for: Lcom/discord/utilities/textprocessing/node/UrlNode;->mask:Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/utilities/textprocessing/node/UrlNode;->access$getMask$p(Lcom/discord/utilities/textprocessing/node/UrlNode;)Ljava/lang/String;
 
     move-result-object v2

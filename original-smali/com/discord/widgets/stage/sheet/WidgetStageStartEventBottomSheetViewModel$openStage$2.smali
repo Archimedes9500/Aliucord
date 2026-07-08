@@ -107,7 +107,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel$openStage$2;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;->setSelfSpeaker()V
     invoke-static {p1}, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;->access$setSelfSpeaker(Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;)V
 
     .line 4
@@ -120,7 +119,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;->emitSetStatusSuccessEvent(Lcom/discord/api/channel/Channel;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;->access$emitSetStatusSuccessEvent(Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;Lcom/discord/api/channel/Channel;)V
 
     return-void

@@ -114,7 +114,6 @@
     .line 2
     sget-object v0, Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetNavigator;->INSTANCE:Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetNavigator;
 
-    # getter for: Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetNavigator;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v0}, Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetNavigator;->access$getClock$p(Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetNavigator;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v1
@@ -149,7 +148,6 @@
     iget-object v2, p0, Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetNavigator$enqueueNotice$showStreamFeedbackSheetNotice$1;->$mediaSessionId:Ljava/lang/String;
 
     .line 6
-    # invokes: Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetNavigator;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v0, p1, v1, v2}, Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetNavigator;->access$show(Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetNavigator;Landroidx/fragment/app/FragmentManager;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 7

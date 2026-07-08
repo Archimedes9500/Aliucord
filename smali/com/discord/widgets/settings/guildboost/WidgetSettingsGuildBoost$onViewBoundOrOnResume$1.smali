@@ -97,7 +97,6 @@
 
     check-cast p1, Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel$ViewState$Loaded;
 
-    # invokes: Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;->showContent(Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel$ViewState$Loaded;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;->access$showContent(Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel$ViewState$Loaded;)V
 
     goto :goto_1f
@@ -110,7 +109,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;
 
-    # invokes: Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;->showLoadingUI()V
     invoke-static {p1}, Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;->access$showLoadingUI(Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;)V
 
     goto :goto_1f
@@ -123,7 +121,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;
 
-    # invokes: Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;->showFailureUI()V
     invoke-static {p1}, Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;->access$showFailureUI(Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;)V
 
     :cond_1f

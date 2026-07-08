@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheetItemViewHolder$bind$1;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheetItemViewHolder;
 
-    # getter for: Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheetItemViewHolder;->onItemSelected:Lkotlin/jvm/functions/Function2;
     invoke-static {p1}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheetItemViewHolder;->access$getOnItemSelected$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheetItemViewHolder;)Lkotlin/jvm/functions/Function2;
 
     move-result-object p1

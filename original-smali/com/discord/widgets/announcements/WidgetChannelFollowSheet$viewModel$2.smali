@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/announcements/WidgetChannelFollowSheet$viewModel$2;->this$0:Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;)Landroid/os/Bundle;
 
     move-result-object v0
@@ -88,7 +87,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/announcements/WidgetChannelFollowSheet$viewModel$2;->this$0:Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;)Landroid/os/Bundle;
 
     move-result-object v0

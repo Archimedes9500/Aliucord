@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreClientVersion;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreClientVersion;->setClientMinVersion(I)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreClientVersion;->access$setClientMinVersion(Lcom/discord/stores/StoreClientVersion;I)V
 
     return-void

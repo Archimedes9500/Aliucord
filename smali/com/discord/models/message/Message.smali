@@ -404,6 +404,8 @@
    .end annotation
 .end field
 
+.field public poll:Lcom/discord/api/message/poll/MessagePoll;
+
 .field private final nonce:Ljava/lang/String;
 
 .field private final numRetries:Ljava/lang/Integer;
@@ -2564,6 +2566,12 @@
     move-object/from16 v0, v42
 
     invoke-direct/range {v0 .. v41}, Lcom/discord/models/message/Message;-><init>(JJLjava/lang/Long;Lcom/discord/api/user/User;Ljava/lang/String;Lcom/discord/api/utcdatetime/UtcDateTime;Lcom/discord/api/utcdatetime/UtcDateTime;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Integer;Lcom/discord/api/message/activity/MessageActivity;Lcom/discord/api/application/Application;Ljava/lang/Long;Lcom/discord/api/message/MessageReference;Ljava/lang/Long;Ljava/util/List;Ljava/util/List;Lcom/discord/api/message/Message;Lcom/discord/api/interaction/Interaction;Lcom/discord/api/channel/Channel;Ljava/util/List;Lcom/discord/api/message/call/MessageCall;Ljava/lang/Boolean;Lcom/discord/api/message/role_subscription/RoleSubscriptionData;ZLcom/discord/api/message/allowedmentions/MessageAllowedMentions;Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
+
+    move-object/from16 v1, p0
+
+    iget-object v2, v1, Lcom/discord/models/message/Message;->poll:Lcom/discord/api/message/poll/MessagePoll;
+
+    iput-object v2, v0, Lcom/discord/models/message/Message;->poll:Lcom/discord/api/message/poll/MessagePoll;
 
     return-object v42
 .end method

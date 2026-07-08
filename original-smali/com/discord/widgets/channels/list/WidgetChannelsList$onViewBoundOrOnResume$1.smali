@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsList;->configureUI(Lcom/discord/widgets/channels/list/WidgetChannelListModel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$configureUI(Lcom/discord/widgets/channels/list/WidgetChannelsList;Lcom/discord/widgets/channels/list/WidgetChannelListModel;)V
 
     return-void

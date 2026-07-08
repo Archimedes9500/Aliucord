@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPackStoreSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPackStoreSheet;->onStickerHeaderItemsClicked(Lcom/discord/widgets/chat/input/sticker/StoreHeaderItem;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPackStoreSheet;->access$onStickerHeaderItemsClicked(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPackStoreSheet;Lcom/discord/widgets/chat/input/sticker/StoreHeaderItem;)V
 
     return-void

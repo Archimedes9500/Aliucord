@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify$onViewBound$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->resendCode()V
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->access$resendCode(Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;)V
 
     return-void

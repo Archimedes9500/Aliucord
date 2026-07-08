@@ -164,7 +164,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/channels/WidgetCreateChannel$configureUI$1;->this$0:Lcom/discord/widgets/channels/WidgetCreateChannel;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel;->getGuildId()J
     invoke-static {p1}, Lcom/discord/widgets/channels/WidgetCreateChannel;->access$getGuildId$p(Lcom/discord/widgets/channels/WidgetCreateChannel;)J
 
     move-result-wide v7

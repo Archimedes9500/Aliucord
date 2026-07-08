@@ -94,7 +94,6 @@
     :cond_29
     iget-object v1, p0, Lcom/google/android/material/chip/ChipGroup$PassThroughHierarchyChangeListener;->k:Lcom/google/android/material/chip/ChipGroup;
 
-    # getter for: Lcom/google/android/material/chip/ChipGroup;->checkedStateTracker:Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;
     invoke-static {v1}, Lcom/google/android/material/chip/ChipGroup;->access$1000(Lcom/google/android/material/chip/ChipGroup;)Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;
 
     move-result-object v1

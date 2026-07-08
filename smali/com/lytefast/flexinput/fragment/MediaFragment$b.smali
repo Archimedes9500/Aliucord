@@ -58,7 +58,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/lytefast/flexinput/fragment/MediaFragment;->hasPermissions([Ljava/lang/String;)Z
     invoke-static {v0, v1}, Lcom/lytefast/flexinput/fragment/MediaFragment;->access$hasPermissions(Lcom/lytefast/flexinput/fragment/MediaFragment;[Ljava/lang/String;)Z
 
     move-result v0
@@ -92,7 +91,6 @@
     :cond_27
     iget-object v0, p0, Lcom/lytefast/flexinput/fragment/MediaFragment$b;->c:Lcom/lytefast/flexinput/fragment/MediaFragment;
 
-    # getter for: Lcom/lytefast/flexinput/fragment/MediaFragment;->swipeRefreshLayout:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
     invoke-static {v0}, Lcom/lytefast/flexinput/fragment/MediaFragment;->access$getSwipeRefreshLayout$p(Lcom/lytefast/flexinput/fragment/MediaFragment;)Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
     move-result-object v0

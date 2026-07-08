@@ -95,7 +95,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$onViewBound$10;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
-    # getter for: Lcom/discord/widgets/channels/list/WidgetChannelsList;->activityResult:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v2}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$getActivityResult$p(Lcom/discord/widgets/channels/list/WidgetChannelsList;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v2

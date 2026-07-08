@@ -76,7 +76,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/stage/start/WidgetModeratorStartStage$viewModel$2;->this$0:Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;
 
-    # invokes: Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;->getChannelId()J
     invoke-static {v0}, Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;->access$getChannelId$p(Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;)J
 
     move-result-wide v1

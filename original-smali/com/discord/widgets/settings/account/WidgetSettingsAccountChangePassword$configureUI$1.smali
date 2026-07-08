@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountChangePassword$configureUI$1;->$meUser:Lcom/discord/models/user/MeUser;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountChangePassword;->saveNewPassword(Lcom/discord/models/user/MeUser;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountChangePassword;->access$saveNewPassword(Lcom/discord/widgets/settings/account/WidgetSettingsAccountChangePassword;Lcom/discord/models/user/MeUser;)V
 
     return-void

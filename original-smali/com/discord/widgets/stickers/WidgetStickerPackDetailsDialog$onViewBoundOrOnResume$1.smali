@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/stickers/WidgetStickerPackDetailsDialog$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/stickers/WidgetStickerPackDetailsDialog;
 
-    # invokes: Lcom/discord/widgets/stickers/WidgetStickerPackDetailsDialog;->configureUI(Lcom/discord/stores/StoreStickers$StickerPackState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/stickers/WidgetStickerPackDetailsDialog;->access$configureUI(Lcom/discord/widgets/stickers/WidgetStickerPackDetailsDialog;Lcom/discord/stores/StoreStickers$StickerPackState;)V
 
     return-void

@@ -79,7 +79,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingDialog$configureLoadedUI$9;->this$0:Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingDialog;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingDialog;->getViewModel()Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingDialog;->access$getViewModel$p(Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingDialog;)Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;
 
     move-result-object p1
@@ -92,7 +91,6 @@
     :cond_12
     iget-object p1, p0, Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingDialog$configureLoadedUI$9;->this$0:Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingDialog;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingDialog;->getViewModel()Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingDialog;->access$getViewModel$p(Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingDialog;)Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;
 
     move-result-object p1

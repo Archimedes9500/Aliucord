@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/status/WidgetThreadStatus$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/status/WidgetThreadStatus;
 
-    # invokes: Lcom/discord/widgets/status/WidgetThreadStatus;->updateView(Lcom/discord/widgets/status/WidgetThreadStatusViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/status/WidgetThreadStatus;->access$updateView(Lcom/discord/widgets/status/WidgetThreadStatus;Lcom/discord/widgets/status/WidgetThreadStatusViewModel$ViewState;)V
 
     return-void

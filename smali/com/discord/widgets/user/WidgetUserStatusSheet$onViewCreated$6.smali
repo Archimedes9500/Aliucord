@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/WidgetUserStatusSheet$onViewCreated$6;->this$0:Lcom/discord/widgets/user/WidgetUserStatusSheet;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserStatusSheet;->clearCustomStatus()V
     invoke-static {v0}, Lcom/discord/widgets/user/WidgetUserStatusSheet;->access$clearCustomStatus(Lcom/discord/widgets/user/WidgetUserStatusSheet;)V
 
     return-void

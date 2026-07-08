@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/chat/list/WidgetChatList;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/list/WidgetChatList;->configureUI(Lcom/discord/widgets/chat/list/model/WidgetChatListModel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/WidgetChatList;->access$configureUI(Lcom/discord/widgets/chat/list/WidgetChatList;Lcom/discord/widgets/chat/list/model/WidgetChatListModel;)V
 
     return-void

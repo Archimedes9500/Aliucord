@@ -176,7 +176,6 @@
 
     sget-object v1, Lcom/discord/stores/StoreMessagesLoader$tryLoadMessages$3$1;->INSTANCE:Lcom/discord/stores/StoreMessagesLoader$tryLoadMessages$3$1;
 
-    # invokes: Lcom/discord/stores/StoreMessagesLoader;->channelLoadedStateUpdate(JLkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v9, v10, v1}, Lcom/discord/stores/StoreMessagesLoader;->access$channelLoadedStateUpdate(Lcom/discord/stores/StoreMessagesLoader;JLkotlin/jvm/functions/Function1;)V
 
     const-wide/16 v0, 0x1
@@ -232,7 +231,6 @@
     .line 6
     iget-object v0, v8, Lcom/discord/stores/StoreMessagesLoader$tryLoadMessages$3;->this$0:Lcom/discord/stores/StoreMessagesLoader;
 
-    # getter for: Lcom/discord/stores/StoreMessagesLoader;->messageRequestSize:I
     invoke-static {v0}, Lcom/discord/stores/StoreMessagesLoader;->access$getMessageRequestSize$p(Lcom/discord/stores/StoreMessagesLoader;)I
 
     move-result v0
@@ -264,7 +262,6 @@
     .line 8
     iget-object v0, v8, Lcom/discord/stores/StoreMessagesLoader$tryLoadMessages$3;->this$0:Lcom/discord/stores/StoreMessagesLoader;
 
-    # getter for: Lcom/discord/stores/StoreMessagesLoader;->messageRequestSize:I
     invoke-static {v0}, Lcom/discord/stores/StoreMessagesLoader;->access$getMessageRequestSize$p(Lcom/discord/stores/StoreMessagesLoader;)I
 
     move-result v4
@@ -283,7 +280,6 @@
     :goto_5b
     iget-object v1, v8, Lcom/discord/stores/StoreMessagesLoader$tryLoadMessages$3;->this$0:Lcom/discord/stores/StoreMessagesLoader;
 
-    # getter for: Lcom/discord/stores/StoreMessagesLoader;->channelMessagesLoadingSubject:Lrx/subjects/SerializedSubject;
     invoke-static {v1}, Lcom/discord/stores/StoreMessagesLoader;->access$getChannelMessagesLoadingSubject$p(Lcom/discord/stores/StoreMessagesLoader;)Lrx/subjects/SerializedSubject;
 
     move-result-object v1

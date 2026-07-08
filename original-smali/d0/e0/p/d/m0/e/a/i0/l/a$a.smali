@@ -73,7 +73,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/l/a$a;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/a;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/a;->b:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/l/a;->access$getMemberFilter$p(Ld0/e0/p/d/m0/e/a/i0/l/a;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

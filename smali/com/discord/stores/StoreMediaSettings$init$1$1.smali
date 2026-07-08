@@ -132,7 +132,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreMediaSettings$init$1;->this$0:Lcom/discord/stores/StoreMediaSettings;
 
-    # getter for: Lcom/discord/stores/StoreMediaSettings;->storePermissions:Lcom/discord/stores/StorePermissions;
     invoke-static {p1}, Lcom/discord/stores/StoreMediaSettings;->access$getStorePermissions$p(Lcom/discord/stores/StoreMediaSettings;)Lcom/discord/stores/StorePermissions;
 
     move-result-object p1

@@ -103,7 +103,6 @@
     invoke-virtual {v0, p1}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
     .line 5
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership;->TAG:Ljava/lang/String;
     invoke-static {}, Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership;->access$getTAG$cp()Ljava/lang/String;
 
     move-result-object p1

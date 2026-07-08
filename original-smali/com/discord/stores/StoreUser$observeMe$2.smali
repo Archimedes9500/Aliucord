@@ -79,7 +79,6 @@
     .locals 1
 
     .line 2
-    # getter for: Lcom/discord/stores/StoreUser;->EMPTY_ME_USER:Lcom/discord/models/user/MeUser;
     invoke-static {}, Lcom/discord/stores/StoreUser;->access$getEMPTY_ME_USER$cp()Lcom/discord/models/user/MeUser;
 
     move-result-object v0

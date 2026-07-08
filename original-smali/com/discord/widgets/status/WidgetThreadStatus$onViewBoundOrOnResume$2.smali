@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/status/WidgetThreadStatus;
 
     .line 2
-    # invokes: Lcom/discord/widgets/status/WidgetThreadStatus;->handleEvent(Lcom/discord/widgets/status/WidgetThreadStatus$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/status/WidgetThreadStatus;->access$handleEvent(Lcom/discord/widgets/status/WidgetThreadStatus;Lcom/discord/widgets/status/WidgetThreadStatus$Event;)V
 
     return-void

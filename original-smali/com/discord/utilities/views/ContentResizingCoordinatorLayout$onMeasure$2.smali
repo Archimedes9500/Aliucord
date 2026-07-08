@@ -106,7 +106,6 @@
     move v1, p2
 
     .line 7
-    # invokes: Lcom/discord/utilities/views/ContentResizingCoordinatorLayout;->updateContentLayoutParams(IIIII)V
     invoke-static/range {v0 .. v5}, Lcom/discord/utilities/views/ContentResizingCoordinatorLayout;->access$updateContentLayoutParams(Lcom/discord/utilities/views/ContentResizingCoordinatorLayout;IIIII)V
 
     return-void

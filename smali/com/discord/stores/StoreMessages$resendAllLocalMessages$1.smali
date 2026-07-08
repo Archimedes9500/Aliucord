@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreMessages$resendAllLocalMessages$1;->this$0:Lcom/discord/stores/StoreMessages;
 
-    # getter for: Lcom/discord/stores/StoreMessages;->initResendFinished:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreMessages;->access$getInitResendFinished$p(Lcom/discord/stores/StoreMessages;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

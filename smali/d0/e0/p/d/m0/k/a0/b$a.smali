@@ -86,7 +86,6 @@
 
     check-cast v1, Ld0/e0/p/d/m0/k/a0/b;
 
-    # getter for: Ld0/e0/p/d/m0/k/a0/b;->d:[Ld0/e0/p/d/m0/k/a0/i;
     invoke-static {v1}, Ld0/e0/p/d/m0/k/a0/b;->access$getScopes$p(Ld0/e0/p/d/m0/k/a0/b;)[Ld0/e0/p/d/m0/k/a0/i;
 
     move-result-object v1

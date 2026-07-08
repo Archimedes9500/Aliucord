@@ -106,7 +106,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StorePermissions$observeAllPermissions$1;->this$0:Lcom/discord/stores/StorePermissions;
 
-    # getter for: Lcom/discord/stores/StorePermissions;->permissionsForChannels:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StorePermissions;->access$getPermissionsForChannels$p(Lcom/discord/stores/StorePermissions;)Ljava/util/Map;
 
     move-result-object v0

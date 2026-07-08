@@ -96,7 +96,6 @@
     move-wide v3, p1
 
     .line 5
-    # invokes: Lcom/discord/stores/StoreChannelMembers;->makeRowMember(JJZ)Lcom/discord/utilities/lazy/memberlist/MemberListRow;
     invoke-static/range {v0 .. v5}, Lcom/discord/stores/StoreChannelMembers;->access$makeRowMember(Lcom/discord/stores/StoreChannelMembers;JJZ)Lcom/discord/utilities/lazy/memberlist/MemberListRow;
 
     move-result-object p1

@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0
@@ -96,7 +95,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0
@@ -110,7 +108,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0
@@ -126,7 +123,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0
@@ -140,7 +136,6 @@
     .line 6
     iget-object v0, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0
@@ -154,7 +149,6 @@
     .line 7
     iget-object v0, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0
@@ -168,7 +162,6 @@
     .line 8
     iget-object v0, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0
@@ -205,7 +198,6 @@
     .line 9
     iget-object v0, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0
@@ -245,7 +237,6 @@
     :goto_8b
     iget-object v0, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0

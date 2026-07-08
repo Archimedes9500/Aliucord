@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/list/PublishActionDialogViewModel$1;->this$0:Lcom/discord/widgets/chat/list/PublishActionDialogViewModel;
 
-    # invokes: Lcom/discord/widgets/chat/list/PublishActionDialogViewModel;->handleStoreState(Lcom/discord/widgets/chat/list/PublishActionDialogViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/PublishActionDialogViewModel;->access$handleStoreState(Lcom/discord/widgets/chat/list/PublishActionDialogViewModel;Lcom/discord/widgets/chat/list/PublishActionDialogViewModel$StoreState;)V
 
     return-void

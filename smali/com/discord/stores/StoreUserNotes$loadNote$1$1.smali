@@ -96,7 +96,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreUserNotes$loadNote$1;->this$0:Lcom/discord/stores/StoreUserNotes;
 
-    # getter for: Lcom/discord/stores/StoreUserNotes;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreUserNotes;->access$getDispatcher$p(Lcom/discord/stores/StoreUserNotes;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

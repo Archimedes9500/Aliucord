@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers$onViewBound$1;->this$0:Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;
 
-    # invokes: Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;->getViewModel()Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;
     invoke-static {v0}, Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;->access$getViewModel$p(Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;)Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;
 
     move-result-object v0

@@ -77,7 +77,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreApplicationStreaming$ActiveApplicationStream$State;->ACTIVE_STATES:Ljava/util/List;
     invoke-static {}, Lcom/discord/stores/StoreApplicationStreaming$ActiveApplicationStream$State;->access$getACTIVE_STATES$cp()Ljava/util/List;
 
     move-result-object v0

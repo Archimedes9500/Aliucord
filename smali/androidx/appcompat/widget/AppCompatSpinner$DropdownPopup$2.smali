@@ -65,7 +65,6 @@
     .line 4
     iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup$2;->this$1:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
 
-    # invokes: Landroidx/appcompat/widget/ListPopupWindow;->show()V
     invoke-static {v0}, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->access$001(Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;)V
 
     :goto_1a

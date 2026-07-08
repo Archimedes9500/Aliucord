@@ -30,7 +30,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lkotlin/ranges/IntRange;->n:Lkotlin/ranges/IntRange;
     invoke-static {}, Lkotlin/ranges/IntRange;->access$getEMPTY$cp()Lkotlin/ranges/IntRange;
 
     move-result-object v0

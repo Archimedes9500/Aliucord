@@ -79,7 +79,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/notice/NoticePopup$enqueue$notice$1;->$noticeName:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/notice/NoticePopup;->dismiss(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/notice/NoticePopup;->access$dismiss(Lcom/discord/widgets/notice/NoticePopup;Ljava/lang/String;)V
 
     .line 2

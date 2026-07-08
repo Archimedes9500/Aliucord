@@ -82,7 +82,6 @@
     iget-wide v1, p0, Lcom/discord/stores/StoreMessageAck$observeThreadAckState$1;->$channelId:J
 
     .line 4
-    # getter for: Lcom/discord/stores/StoreMessageAck;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreMessageAck;->access$getStream$p(Lcom/discord/stores/StoreMessageAck;)Lcom/discord/stores/StoreStream;
 
     move-result-object v3
@@ -98,7 +97,6 @@
     .line 5
     iget-object v4, p0, Lcom/discord/stores/StoreMessageAck$observeThreadAckState$1;->this$0:Lcom/discord/stores/StoreMessageAck;
 
-    # getter for: Lcom/discord/stores/StoreMessageAck;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v4}, Lcom/discord/stores/StoreMessageAck;->access$getStream$p(Lcom/discord/stores/StoreMessageAck;)Lcom/discord/stores/StoreStream;
 
     move-result-object v4

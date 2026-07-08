@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog$onDisableClicked$1;->this$0:Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->getBinding()Lcom/discord/databinding/WidgetDisableDeleteAccountDialogBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;)Lcom/discord/databinding/WidgetDisableDeleteAccountDialogBinding;
 
     move-result-object v0
@@ -155,7 +154,6 @@
     :cond_40
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog$onDisableClicked$1;->this$0:Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->getBinding()Lcom/discord/databinding/WidgetDisableDeleteAccountDialogBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;)Lcom/discord/databinding/WidgetDisableDeleteAccountDialogBinding;
 
     move-result-object v0
@@ -184,7 +182,6 @@
     :cond_5c
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog$onDisableClicked$1;->this$0:Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->getBinding()Lcom/discord/databinding/WidgetDisableDeleteAccountDialogBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;)Lcom/discord/databinding/WidgetDisableDeleteAccountDialogBinding;
 
     move-result-object v0

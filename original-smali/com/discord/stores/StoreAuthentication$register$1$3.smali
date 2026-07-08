@@ -116,7 +116,6 @@
 
     invoke-direct {v3, p1, v5}, Lcom/discord/models/authentication/AuthState;-><init>(Ljava/lang/String;Ljava/util/Set;)V
 
-    # invokes: Lcom/discord/stores/StoreAuthentication;->publishAuthState(Lcom/discord/models/authentication/AuthState;)V
     invoke-static {v1, v3}, Lcom/discord/stores/StoreAuthentication;->access$publishAuthState(Lcom/discord/stores/StoreAuthentication;Lcom/discord/models/authentication/AuthState;)V
 
     .line 7

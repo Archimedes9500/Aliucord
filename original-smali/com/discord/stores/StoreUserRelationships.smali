@@ -140,7 +140,6 @@
     .line 5
     new-instance p1, Lcom/discord/utilities/persister/Persister;
 
-    # getter for: Lcom/discord/stores/StoreUserRelationshipsKt;->UNLOADED_RELATIONSHIPS_SENTINEL:Ljava/util/HashMap;
     invoke-static {}, Lcom/discord/stores/StoreUserRelationshipsKt;->access$getUNLOADED_RELATIONSHIPS_SENTINEL$p()Ljava/util/HashMap;
 
     move-result-object v0
@@ -557,7 +556,6 @@
     check-cast v0, Ljava/util/Map;
 
     .line 2
-    # getter for: Lcom/discord/stores/StoreUserRelationshipsKt;->UNLOADED_RELATIONSHIPS_SENTINEL:Ljava/util/HashMap;
     invoke-static {}, Lcom/discord/stores/StoreUserRelationshipsKt;->access$getUNLOADED_RELATIONSHIPS_SENTINEL$p()Ljava/util/HashMap;
 
     move-result-object v1

@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # invokes: Lcom/discord/stores/StoreStreamRtcConnection;->handleMediaSessionIdReceived()V
     invoke-static {v0}, Lcom/discord/stores/StoreStreamRtcConnection;->access$handleMediaSessionIdReceived(Lcom/discord/stores/StoreStreamRtcConnection;)V
 
     return-void

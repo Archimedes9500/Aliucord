@@ -95,7 +95,6 @@
     .line 2
     sget-object v0, Lcom/discord/widgets/forums/ForumPostCreateManager;->INSTANCE:Lcom/discord/widgets/forums/ForumPostCreateManager;
 
-    # getter for: Lcom/discord/widgets/forums/ForumPostCreateManager;->isCreateInProgressBehaviorSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/forums/ForumPostCreateManager;->access$isCreateInProgressBehaviorSubject$p(Lcom/discord/widgets/forums/ForumPostCreateManager;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

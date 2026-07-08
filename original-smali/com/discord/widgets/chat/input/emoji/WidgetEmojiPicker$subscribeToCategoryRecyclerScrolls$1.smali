@@ -90,12 +90,10 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$subscribeToCategoryRecyclerScrolls$1;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->previousViewState:Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$ViewState;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$getPreviousViewState$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$ViewState;
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->configureUnicodeCategoriesShortcutButton(Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$ViewState;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$configureUnicodeCategoriesShortcutButton(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$ViewState;)V
 
     return-void

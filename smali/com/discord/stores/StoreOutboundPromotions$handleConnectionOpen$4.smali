@@ -103,7 +103,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreOutboundPromotions$handleConnectionOpen$4;->this$0:Lcom/discord/stores/StoreOutboundPromotions;
 
-    # getter for: Lcom/discord/stores/StoreOutboundPromotions;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreOutboundPromotions;->access$getDispatcher$p(Lcom/discord/stores/StoreOutboundPromotions;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

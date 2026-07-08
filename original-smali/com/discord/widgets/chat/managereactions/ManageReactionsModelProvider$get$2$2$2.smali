@@ -128,7 +128,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;->getUsersForReaction(Lcom/discord/api/message/reaction/MessageReactionEmoji;)Lrx/Observable;
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;->access$getUsersForReaction(Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;Lcom/discord/api/message/reaction/MessageReactionEmoji;)Lrx/Observable;
 
     move-result-object v0

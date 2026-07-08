@@ -204,7 +204,6 @@
 
     move-object v5, p5
 
-    # invokes: Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel$Companion;->observeStores(JJLcom/discord/stores/StoreMessages;)Lrx/Observable;
     invoke-static/range {v0 .. v5}, Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel$Companion;->access$observeStores(Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel$Companion;JJLcom/discord/stores/StoreMessages;)Lrx/Observable;
 
     move-result-object p6

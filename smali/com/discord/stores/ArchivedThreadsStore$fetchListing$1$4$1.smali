@@ -118,7 +118,6 @@
 
     iget-object v2, v2, Lcom/discord/stores/ArchivedThreadsStore$fetchListing$1;->this$0:Lcom/discord/stores/ArchivedThreadsStore;
 
-    # getter for: Lcom/discord/stores/ArchivedThreadsStore;->storeStream:Lcom/discord/stores/StoreStream;
     invoke-static {v2}, Lcom/discord/stores/ArchivedThreadsStore;->access$getStoreStream$p(Lcom/discord/stores/ArchivedThreadsStore;)Lcom/discord/stores/StoreStream;
 
     move-result-object v2
@@ -135,7 +134,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/ArchivedThreadsStore$fetchListing$1;->this$0:Lcom/discord/stores/ArchivedThreadsStore;
 
-    # getter for: Lcom/discord/stores/ArchivedThreadsStore;->listings:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/ArchivedThreadsStore;->access$getListings$p(Lcom/discord/stores/ArchivedThreadsStore;)Ljava/util/Map;
 
     move-result-object v0
@@ -189,7 +187,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/ArchivedThreadsStore$fetchListing$1;->this$0:Lcom/discord/stores/ArchivedThreadsStore;
 
-    # getter for: Lcom/discord/stores/ArchivedThreadsStore;->storeForumPostMessages:Lcom/discord/stores/StoreForumPostMessages;
     invoke-static {v1}, Lcom/discord/stores/ArchivedThreadsStore;->access$getStoreForumPostMessages$p(Lcom/discord/stores/ArchivedThreadsStore;)Lcom/discord/stores/StoreForumPostMessages;
 
     move-result-object v1

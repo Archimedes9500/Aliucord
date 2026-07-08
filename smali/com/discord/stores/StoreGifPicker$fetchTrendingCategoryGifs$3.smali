@@ -114,7 +114,6 @@
     check-cast v0, Lcom/discord/stores/StoreGifPicker;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreGifPicker;->handleFetchTrendingGifsOnNext(Ljava/util/List;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreGifPicker;->access$handleFetchTrendingGifsOnNext(Lcom/discord/stores/StoreGifPicker;Ljava/util/List;)V
 
     return-void

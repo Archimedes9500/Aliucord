@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGifPicker$observeGifTrendingSearchTerms$1;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # getter for: Lcom/discord/stores/StoreGifPicker;->gifTrendingSearchTerms:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/stores/StoreGifPicker;->access$getGifTrendingSearchTerms$p(Lcom/discord/stores/StoreGifPicker;)Ljava/util/List;
 
     move-result-object v0
@@ -98,7 +97,6 @@
 
     iget-object v0, p0, Lcom/discord/stores/StoreGifPicker$observeGifTrendingSearchTerms$1;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # getter for: Lcom/discord/stores/StoreGifPicker;->isFetchingTrendingSearchTerms:Z
     invoke-static {v0}, Lcom/discord/stores/StoreGifPicker;->access$isFetchingTrendingSearchTerms$p(Lcom/discord/stores/StoreGifPicker;)Z
 
     move-result v0
@@ -108,7 +106,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreGifPicker$observeGifTrendingSearchTerms$1;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->fetchGifTrendingSearchTerms()V
     invoke-static {v0}, Lcom/discord/stores/StoreGifPicker;->access$fetchGifTrendingSearchTerms(Lcom/discord/stores/StoreGifPicker;)V
 
     :cond_19

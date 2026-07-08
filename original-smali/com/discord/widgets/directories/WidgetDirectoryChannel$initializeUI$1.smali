@@ -76,7 +76,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/directories/WidgetDirectoryChannel$initializeUI$1;->this$0:Lcom/discord/widgets/directories/WidgetDirectoryChannel;
 
-    # getter for: Lcom/discord/widgets/directories/WidgetDirectoryChannel;->activityResult:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v1}, Lcom/discord/widgets/directories/WidgetDirectoryChannel;->access$getActivityResult$p(Lcom/discord/widgets/directories/WidgetDirectoryChannel;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v1

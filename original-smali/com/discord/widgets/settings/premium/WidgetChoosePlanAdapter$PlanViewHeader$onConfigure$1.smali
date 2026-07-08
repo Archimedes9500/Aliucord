@@ -74,7 +74,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/settings/premium/WidgetChoosePlanAdapter;->onClickPlan:Lkotlin/jvm/functions/Function3;
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/WidgetChoosePlanAdapter;->access$getOnClickPlan$p(Lcom/discord/widgets/settings/premium/WidgetChoosePlanAdapter;)Lkotlin/jvm/functions/Function3;
 
     move-result-object p1

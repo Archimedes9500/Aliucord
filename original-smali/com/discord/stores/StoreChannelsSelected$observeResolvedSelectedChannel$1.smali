@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreChannelsSelected$observeResolvedSelectedChannel$1;->this$0:Lcom/discord/stores/StoreChannelsSelected;
 
-    # getter for: Lcom/discord/stores/StoreChannelsSelected;->selectedChannel:Lcom/discord/stores/StoreChannelsSelected$ResolvedSelectedChannel;
     invoke-static {v0}, Lcom/discord/stores/StoreChannelsSelected;->access$getSelectedChannel$p(Lcom/discord/stores/StoreChannelsSelected;)Lcom/discord/stores/StoreChannelsSelected$ResolvedSelectedChannel;
 
     move-result-object v0

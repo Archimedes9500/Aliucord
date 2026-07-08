@@ -92,7 +92,6 @@
 
     const v0, 0x7f120973
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->emitShowToastEvent(I)V
     invoke-static {p1, v0}, Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->access$emitShowToastEvent(Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;I)V
 
     return-void

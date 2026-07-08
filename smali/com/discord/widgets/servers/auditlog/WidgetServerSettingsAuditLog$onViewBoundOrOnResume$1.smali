@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;->configureUI(Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;->access$configureUI(Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog$Model;)V
 
     return-void

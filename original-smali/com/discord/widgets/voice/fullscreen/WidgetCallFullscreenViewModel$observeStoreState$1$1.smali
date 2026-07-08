@@ -120,7 +120,6 @@
 
     iget-object v3, v3, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->channelId:J
     invoke-static {v3}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getChannelId$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)J
 
     move-result-wide v3
@@ -134,7 +133,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->permissionsStore:Lcom/discord/stores/StorePermissions;
     invoke-static {v2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getPermissionsStore$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/stores/StorePermissions;
 
     move-result-object v2
@@ -143,7 +141,6 @@
 
     iget-object v3, v3, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->channelId:J
     invoke-static {v3}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getChannelId$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)J
 
     move-result-wide v3
@@ -157,7 +154,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->streamRtcConnectionStore:Lcom/discord/stores/StoreStreamRtcConnection;
     invoke-static {v2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getStreamRtcConnectionStore$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/stores/StoreStreamRtcConnection;
 
     move-result-object v2
@@ -179,7 +175,6 @@
 
     iget-object v3, v3, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->streamRtcConnectionStore:Lcom/discord/stores/StoreStreamRtcConnection;
     invoke-static {v3}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getStreamRtcConnectionStore$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/stores/StoreStreamRtcConnection;
 
     move-result-object v3
@@ -199,7 +194,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->accessibilityStore:Lcom/discord/stores/StoreAccessibility;
     invoke-static {v2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getAccessibilityStore$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/stores/StoreAccessibility;
 
     move-result-object v2
@@ -213,7 +207,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->mentionsStore:Lcom/discord/stores/StoreMentions;
     invoke-static {v2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getMentionsStore$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/stores/StoreMentions;
 
     move-result-object v2
@@ -227,7 +220,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->connectivityStore:Lcom/discord/stores/StoreConnectivity;
     invoke-static {v2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getConnectivityStore$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/stores/StoreConnectivity;
 
     move-result-object v2
@@ -241,7 +233,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->stageStore:Lcom/discord/stores/StoreStageChannels;
     invoke-static {v2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getStageStore$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/stores/StoreStageChannels;
 
     move-result-object v2
@@ -250,7 +241,6 @@
 
     iget-object v3, v3, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->channelId:J
     invoke-static {v3}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getChannelId$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)J
 
     move-result-wide v3
@@ -272,7 +262,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->experimentsStore:Lcom/discord/stores/StoreExperiments;
     invoke-static {v2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getExperimentsStore$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/stores/StoreExperiments;
 
     move-result-object v2
@@ -319,7 +308,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->channelsSelectedStore:Lcom/discord/stores/StoreChannelsSelected;
     invoke-static {v2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getChannelsSelectedStore$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/stores/StoreChannelsSelected;
 
     move-result-object v2
@@ -351,7 +339,6 @@
 
     iget-object v3, v3, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->channelId:J
     invoke-static {v3}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getChannelId$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)J
 
     move-result-wide v3
@@ -389,7 +376,6 @@
 
     iget-object v3, v3, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->applicationAssetsStore:Lcom/discord/stores/StoreApplicationAssets;
     invoke-static {v3}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getApplicationAssetsStore$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/stores/StoreApplicationAssets;
 
     move-result-object v3

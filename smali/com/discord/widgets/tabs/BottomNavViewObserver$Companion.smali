@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/tabs/BottomNavViewObserver;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/tabs/BottomNavViewObserver;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/tabs/BottomNavViewObserver;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/mobile_reports/ReportsMenuNode;
 
     .line 2
-    # invokes: Lcom/discord/widgets/mobile_reports/ReportsMenuNode;->bottomButtonClickListener(Lcom/discord/api/report/ReportNodeBottomButton;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/mobile_reports/ReportsMenuNode;->access$bottomButtonClickListener(Lcom/discord/widgets/mobile_reports/ReportsMenuNode;Lcom/discord/api/report/ReportNodeBottomButton;)V
 
     return-void

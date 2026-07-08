@@ -118,7 +118,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService$observeStateForGroupDm$2;->this$0:Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;
 
-    # getter for: Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;->storeUser:Lcom/discord/stores/StoreUser;
     invoke-static {v0}, Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;->access$getStoreUser$p(Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;)Lcom/discord/stores/StoreUser;
 
     move-result-object v0
@@ -135,7 +134,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService$observeStateForGroupDm$2;->this$0:Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;
 
-    # getter for: Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;->storePresences:Lcom/discord/stores/StoreUserPresence;
     invoke-static {v1}, Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;->access$getStorePresences$p(Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;)Lcom/discord/stores/StoreUserPresence;
 
     move-result-object v1
@@ -148,7 +146,6 @@
     .line 6
     iget-object v1, p0, Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService$observeStateForGroupDm$2;->this$0:Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;
 
-    # getter for: Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;->storeApplicationStreaming:Lcom/discord/stores/StoreApplicationStreaming;
     invoke-static {v1}, Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;->access$getStoreApplicationStreaming$p(Lcom/discord/widgets/channels/memberlist/PrivateChannelMemberListService;)Lcom/discord/stores/StoreApplicationStreaming;
 
     move-result-object v1

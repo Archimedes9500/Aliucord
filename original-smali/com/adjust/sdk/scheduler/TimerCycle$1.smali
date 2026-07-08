@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/scheduler/TimerCycle$1;->this$0:Lcom/adjust/sdk/scheduler/TimerCycle;
 
-    # getter for: Lcom/adjust/sdk/scheduler/TimerCycle;->logger:Lcom/adjust/sdk/ILogger;
     invoke-static {v0}, Lcom/adjust/sdk/scheduler/TimerCycle;->access$100(Lcom/adjust/sdk/scheduler/TimerCycle;)Lcom/adjust/sdk/ILogger;
 
     move-result-object v0
@@ -52,7 +51,6 @@
 
     iget-object v2, p0, Lcom/adjust/sdk/scheduler/TimerCycle$1;->this$0:Lcom/adjust/sdk/scheduler/TimerCycle;
 
-    # getter for: Lcom/adjust/sdk/scheduler/TimerCycle;->name:Ljava/lang/String;
     invoke-static {v2}, Lcom/adjust/sdk/scheduler/TimerCycle;->access$000(Lcom/adjust/sdk/scheduler/TimerCycle;)Ljava/lang/String;
 
     move-result-object v2
@@ -68,7 +66,6 @@
     .line 2
     iget-object v0, p0, Lcom/adjust/sdk/scheduler/TimerCycle$1;->this$0:Lcom/adjust/sdk/scheduler/TimerCycle;
 
-    # getter for: Lcom/adjust/sdk/scheduler/TimerCycle;->command:Ljava/lang/Runnable;
     invoke-static {v0}, Lcom/adjust/sdk/scheduler/TimerCycle;->access$200(Lcom/adjust/sdk/scheduler/TimerCycle;)Ljava/lang/Runnable;
 
     move-result-object v0

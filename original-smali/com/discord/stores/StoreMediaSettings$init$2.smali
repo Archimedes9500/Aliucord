@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreMediaSettings;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreMediaSettings;->handleCanUseVad(Z)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreMediaSettings;->access$handleCanUseVad(Lcom/discord/stores/StoreMediaSettings;Z)V
 
     return-void

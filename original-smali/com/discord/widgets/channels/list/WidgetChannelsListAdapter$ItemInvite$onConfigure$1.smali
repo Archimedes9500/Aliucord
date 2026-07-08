@@ -86,7 +86,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;->fragmentManager:Landroidx/fragment/app/FragmentManager;
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;->access$getFragmentManager$p(Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;)Landroidx/fragment/app/FragmentManager;
 
     move-result-object v2

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;
 
     .line 2
-    # invokes: Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;->autofillCode(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;->access$autofillCode(Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;Ljava/lang/String;)V
 
     return-void

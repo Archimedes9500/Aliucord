@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$configureContextBarReplying$2;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getViewModel()Lcom/discord/widgets/chat/input/ChatInputViewModel;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getViewModel$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/widgets/chat/input/ChatInputViewModel;
 
     move-result-object p1

@@ -326,7 +326,6 @@
 
     iget-wide v4, v2, Lcom/discord/stores/StoreMessageAck$markUnread$3;->$channelId:J
 
-    # invokes: Lcom/discord/stores/StoreMessageAck;->updateAcks(JLcom/discord/stores/StoreMessageAck$Ack;)V
     invoke-static {v3, v4, v5, v0}, Lcom/discord/stores/StoreMessageAck;->access$updateAcks(Lcom/discord/stores/StoreMessageAck;JLcom/discord/stores/StoreMessageAck$Ack;)V
 
     .line 22
@@ -368,7 +367,6 @@
     invoke-static {v0, v3}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 26
-    # invokes: Lcom/discord/stores/StoreMessageAck;->postPendingAck(Lrx/Observable;I)V
     invoke-static {v2, v0, v1}, Lcom/discord/stores/StoreMessageAck;->access$postPendingAck(Lcom/discord/stores/StoreMessageAck;Lrx/Observable;I)V
 
     return-void

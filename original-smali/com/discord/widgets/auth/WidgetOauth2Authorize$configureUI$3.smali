@@ -68,7 +68,6 @@
 
     const/4 v0, 0x0
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2Authorize;->authorizeApplication(Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/auth/WidgetOauth2Authorize;->access$authorizeApplication(Lcom/discord/widgets/auth/WidgetOauth2Authorize;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
 
     return-void

@@ -136,7 +136,6 @@
 
     move v6, p4
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->handleOnSelected(Lcom/discord/widgets/user/search/WidgetGlobalSearchModel;Landroid/view/View;ILcom/discord/widgets/user/search/WidgetGlobalSearchModel$ItemDataPayload;Z)V
     invoke-static/range {v1 .. v6}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$handleOnSelected(Lcom/discord/widgets/user/search/WidgetGlobalSearch;Lcom/discord/widgets/user/search/WidgetGlobalSearchModel;Landroid/view/View;ILcom/discord/widgets/user/search/WidgetGlobalSearchModel$ItemDataPayload;Z)V
 
     return-void

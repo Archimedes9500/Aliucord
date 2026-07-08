@@ -88,7 +88,6 @@
     .line 3
     iget-object v3, v0, Lcom/discord/widgets/hubs/WidgetHubAddServer$configureUI$1;->this$0:Lcom/discord/widgets/hubs/WidgetHubAddServer;
 
-    # getter for: Lcom/discord/widgets/hubs/WidgetHubAddServer;->launcher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v3}, Lcom/discord/widgets/hubs/WidgetHubAddServer;->access$getLauncher$p(Lcom/discord/widgets/hubs/WidgetHubAddServer;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v3

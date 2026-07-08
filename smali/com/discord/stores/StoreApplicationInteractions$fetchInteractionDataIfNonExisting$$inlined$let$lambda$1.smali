@@ -102,7 +102,6 @@
 
     move-result-object v3
 
-    # invokes: Lcom/discord/stores/StoreApplicationInteractions;->handleInteractionDataFetchSuccess(JLcom/discord/api/commands/ApplicationCommandData;)V
     invoke-static {v0, v1, v2, v3}, Lcom/discord/stores/StoreApplicationInteractions;->access$handleInteractionDataFetchSuccess(Lcom/discord/stores/StoreApplicationInteractions;JLcom/discord/api/commands/ApplicationCommandData;)V
 
     return-void

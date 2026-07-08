@@ -47,14 +47,12 @@
 
     iget-object v1, p0, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler$3;->val$firstRunnable:Ljava/lang/Runnable;
 
-    # invokes: Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->tryExecuteRunnable(Ljava/lang/Runnable;)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->access$000(Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;Ljava/lang/Runnable;)V
 
     .line 2
     :goto_7
     iget-object v0, p0, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler$3;->this$0:Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;
 
-    # getter for: Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->queue:Ljava/util/List;
     invoke-static {v0}, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->access$100(Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;)Ljava/util/List;
 
     move-result-object v0
@@ -65,7 +63,6 @@
     :try_start_e
     iget-object v1, p0, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler$3;->this$0:Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;
 
-    # getter for: Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->isTeardown:Z
     invoke-static {v1}, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->access$200(Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;)Z
 
     move-result v1
@@ -81,7 +78,6 @@
     :cond_18
     iget-object v1, p0, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler$3;->this$0:Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;
 
-    # getter for: Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->queue:Ljava/util/List;
     invoke-static {v1}, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->access$100(Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;)Ljava/util/List;
 
     move-result-object v1
@@ -97,7 +93,6 @@
     .line 6
     iget-object v1, p0, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler$3;->this$0:Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;
 
-    # setter for: Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->isThreadProcessing:Z
     invoke-static {v1, v2}, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->access$302(Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;Z)Z
 
     .line 7
@@ -109,7 +104,6 @@
     :cond_2c
     iget-object v1, p0, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler$3;->this$0:Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;
 
-    # getter for: Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->queue:Ljava/util/List;
     invoke-static {v1}, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->access$100(Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;)Ljava/util/List;
 
     move-result-object v1
@@ -123,7 +117,6 @@
     .line 9
     iget-object v3, p0, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler$3;->this$0:Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;
 
-    # getter for: Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->queue:Ljava/util/List;
     invoke-static {v3}, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->access$100(Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;)Ljava/util/List;
 
     move-result-object v3
@@ -138,7 +131,6 @@
     .line 11
     iget-object v0, p0, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler$3;->this$0:Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;
 
-    # invokes: Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->tryExecuteRunnable(Ljava/lang/Runnable;)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;->access$000(Lcom/adjust/sdk/scheduler/SingleThreadCachedScheduler;Ljava/lang/Runnable;)V
 
     goto :goto_7

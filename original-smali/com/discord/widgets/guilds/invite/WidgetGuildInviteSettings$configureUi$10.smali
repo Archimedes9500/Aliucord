@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteSettings$configureUi$10;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteSettings;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteSettings;->getViewModel()Lcom/discord/widgets/guilds/invite/GuildInviteSettingsViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteSettings;->access$getViewModel$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteSettings;)Lcom/discord/widgets/guilds/invite/GuildInviteSettingsViewModel;
 
     move-result-object p1

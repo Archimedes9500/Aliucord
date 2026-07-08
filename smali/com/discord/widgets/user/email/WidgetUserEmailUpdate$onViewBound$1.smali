@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/email/WidgetUserEmailUpdate$onViewBound$1;->this$0:Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;
 
-    # invokes: Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;->handleTextChanged()V
     invoke-static {p1}, Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;->access$handleTextChanged(Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;)V
 
     return-void

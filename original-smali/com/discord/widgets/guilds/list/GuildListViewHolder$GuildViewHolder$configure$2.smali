@@ -98,7 +98,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/list/GuildListViewHolder$GuildViewHolder$configure$2;->this$0:Lcom/discord/widgets/guilds/list/GuildListViewHolder$GuildViewHolder;
 
-    # getter for: Lcom/discord/widgets/guilds/list/GuildListViewHolder$GuildViewHolder;->onLongPressed:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/guilds/list/GuildListViewHolder$GuildViewHolder;->access$getOnLongPressed$p(Lcom/discord/widgets/guilds/list/GuildListViewHolder$GuildViewHolder;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

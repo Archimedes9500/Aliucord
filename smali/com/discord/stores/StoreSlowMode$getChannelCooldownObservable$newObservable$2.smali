@@ -153,7 +153,6 @@
     .line 6
     iget-object p1, p0, Lcom/discord/stores/StoreSlowMode$getChannelCooldownObservable$newObservable$2;->this$0:Lcom/discord/stores/StoreSlowMode;
 
-    # getter for: Lcom/discord/stores/StoreSlowMode;->messageSendNextSendTimesSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/stores/StoreSlowMode;->access$getMessageSendNextSendTimesSubject$p(Lcom/discord/stores/StoreSlowMode;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1
@@ -164,7 +163,6 @@
     :cond_29
     iget-object p1, p0, Lcom/discord/stores/StoreSlowMode$getChannelCooldownObservable$newObservable$2;->this$0:Lcom/discord/stores/StoreSlowMode;
 
-    # getter for: Lcom/discord/stores/StoreSlowMode;->threadCreateNextSendTimesSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/stores/StoreSlowMode;->access$getThreadCreateNextSendTimesSubject$p(Lcom/discord/stores/StoreSlowMode;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1

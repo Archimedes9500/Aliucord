@@ -4683,7 +4683,6 @@
     .line 6
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
-    # invokes: Landroid/view/ViewGroup;->setMeasuredDimension(II)V
     invoke-static {v0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->access$300(Landroidx/recyclerview/widget/RecyclerView;II)V
 
     return-void

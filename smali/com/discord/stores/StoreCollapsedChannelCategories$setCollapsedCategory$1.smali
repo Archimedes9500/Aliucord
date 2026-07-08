@@ -103,7 +103,6 @@
 
     iget-boolean v5, p0, Lcom/discord/stores/StoreCollapsedChannelCategories$setCollapsedCategory$1;->$collapsed:Z
 
-    # invokes: Lcom/discord/stores/StoreCollapsedChannelCategories;->setCollapsedState(JJZ)V
     invoke-static/range {v0 .. v5}, Lcom/discord/stores/StoreCollapsedChannelCategories;->access$setCollapsedState(Lcom/discord/stores/StoreCollapsedChannelCategories;JJZ)V
 
     return-void

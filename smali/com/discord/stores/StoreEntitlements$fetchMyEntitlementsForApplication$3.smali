@@ -110,7 +110,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreEntitlements$fetchMyEntitlementsForApplication$3;->this$0:Lcom/discord/stores/StoreEntitlements;
 
-    # getter for: Lcom/discord/stores/StoreEntitlements;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreEntitlements;->access$getDispatcher$p(Lcom/discord/stores/StoreEntitlements;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

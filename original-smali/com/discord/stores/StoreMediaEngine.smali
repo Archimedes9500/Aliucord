@@ -2208,7 +2208,6 @@
 
     invoke-direct {v1, v0}, Lcom/discord/stores/StoreMediaEngine$getVideoInputDevicesNativeAsync$2$1;-><init>(Lkotlinx/coroutines/CancellableContinuation;)V
 
-    # invokes: Lcom/discord/stores/StoreMediaEngine;->getVideoInputDevicesNative(Lkotlin/jvm/functions/Function1;)V
     invoke-static {p0, v1}, Lcom/discord/stores/StoreMediaEngine;->access$getVideoInputDevicesNative(Lcom/discord/stores/StoreMediaEngine;Lkotlin/jvm/functions/Function1;)V
 
     .line 4

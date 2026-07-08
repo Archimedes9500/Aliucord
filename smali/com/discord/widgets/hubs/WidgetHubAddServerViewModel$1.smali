@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/hubs/WidgetHubAddServerViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubAddServerViewModel;->handleStoreUpdate(Lcom/discord/widgets/hubs/HubAddServerState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/hubs/WidgetHubAddServerViewModel;->access$handleStoreUpdate(Lcom/discord/widgets/hubs/WidgetHubAddServerViewModel;Lcom/discord/widgets/hubs/HubAddServerState;)V
 
     return-void

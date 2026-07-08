@@ -105,7 +105,6 @@
     .line 5
     iget-object v3, p0, Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel$1;->this$0:Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel;->temporaryBehaviorSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {v3}, Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel;->access$getTemporaryBehaviorSubject$p(Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v3
@@ -134,7 +133,6 @@
     invoke-direct {v1, v2, v3, v4}, Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel$ViewState$Loaded;-><init>(Ljava/lang/String;ZZ)V
 
     .line 7
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, v1}, Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel;->access$updateViewState(Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel;Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel$ViewState;)V
 
     .line 8

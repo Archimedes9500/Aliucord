@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet$configureUI$1;->this$0:Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
-    # invokes: Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->getViewModel()Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheetViewModel;
     invoke-static {p1}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$getViewModel$p(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;)Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheetViewModel;
 
     move-result-object p1

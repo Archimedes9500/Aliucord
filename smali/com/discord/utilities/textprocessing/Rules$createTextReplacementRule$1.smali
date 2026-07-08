@@ -180,7 +180,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/utilities/textprocessing/Rules;->replaceEmojiSurrogates(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, p1}, Lcom/discord/utilities/textprocessing/Rules;->access$replaceEmojiSurrogates(Lcom/discord/utilities/textprocessing/Rules;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

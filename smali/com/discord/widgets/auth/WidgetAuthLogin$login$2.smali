@@ -100,7 +100,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/auth/WidgetAuthLogin$login$2;->$id:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLogin;->handleError(Lcom/discord/utilities/error/Error;Ljava/lang/String;)V
     invoke-static {v0, p1, v1}, Lcom/discord/widgets/auth/WidgetAuthLogin;->access$handleError(Lcom/discord/widgets/auth/WidgetAuthLogin;Lcom/discord/utilities/error/Error;Ljava/lang/String;)V
 
     .line 3

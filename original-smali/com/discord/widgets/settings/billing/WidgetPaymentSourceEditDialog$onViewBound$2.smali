@@ -126,7 +126,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$onViewBound$2;->this$0:Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;->getPaymentSourceId()Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;->access$getPaymentSourceId$p(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;)Ljava/lang/String;
 
     move-result-object v2

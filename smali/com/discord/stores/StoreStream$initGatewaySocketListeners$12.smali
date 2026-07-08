@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleBanRemove(Lcom/discord/models/domain/ModelBan;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleBanRemove(Lcom/discord/stores/StoreStream;Lcom/discord/models/domain/ModelBan;)V
 
     return-void

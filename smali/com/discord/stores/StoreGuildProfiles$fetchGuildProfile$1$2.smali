@@ -96,7 +96,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreGuildProfiles$fetchGuildProfile$1;->this$0:Lcom/discord/stores/StoreGuildProfiles;
 
-    # getter for: Lcom/discord/stores/StoreGuildProfiles;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreGuildProfiles;->access$getDispatcher$p(Lcom/discord/stores/StoreGuildProfiles;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

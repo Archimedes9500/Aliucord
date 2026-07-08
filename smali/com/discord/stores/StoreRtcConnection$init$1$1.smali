@@ -93,7 +93,6 @@
 
     iget-boolean v1, p0, Lcom/discord/stores/StoreRtcConnection$init$1$1;->$isMuted:Z
 
-    # invokes: Lcom/discord/stores/StoreRtcConnection;->handleSelfMuted(Z)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreRtcConnection;->access$handleSelfMuted(Lcom/discord/stores/StoreRtcConnection;Z)V
 
     return-void

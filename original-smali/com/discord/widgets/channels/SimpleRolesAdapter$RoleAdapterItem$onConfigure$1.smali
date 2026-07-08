@@ -74,7 +74,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/channels/SimpleRolesAdapter;->onRoleClickedListener:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/channels/SimpleRolesAdapter;->access$getOnRoleClickedListener$p(Lcom/discord/widgets/channels/SimpleRolesAdapter;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

@@ -111,7 +111,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel$sendInviteToChannel$1;->this$0:Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;->storeAnalytics:Lcom/discord/stores/StoreAnalytics;
     invoke-static {v0}, Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;->access$getStoreAnalytics$p(Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;)Lcom/discord/stores/StoreAnalytics;
 
     move-result-object v0
@@ -200,7 +199,6 @@
     .line 13
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel$sendInviteToChannel$1;->this$0:Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;->updateSentInvites(Ljava/util/Map;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;->access$updateSentInvites(Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;Ljava/util/Map;)V
 
     :cond_5a

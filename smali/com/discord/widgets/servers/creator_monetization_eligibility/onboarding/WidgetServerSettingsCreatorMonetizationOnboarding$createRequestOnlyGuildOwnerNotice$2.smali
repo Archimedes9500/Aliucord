@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/WidgetServerSettingsCreatorMonetizationOnboarding$createRequestOnlyGuildOwnerNotice$2;->this$0:Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/WidgetServerSettingsCreatorMonetizationOnboarding;
 
-    # invokes: Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/WidgetServerSettingsCreatorMonetizationOnboarding;->getCreateRequestBinding()Lcom/discord/databinding/WidgetServerSettingsCreatorMonetizationOnboardingCreateRequestBinding;
     invoke-static {v0}, Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/WidgetServerSettingsCreatorMonetizationOnboarding;->access$getCreateRequestBinding$p(Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/WidgetServerSettingsCreatorMonetizationOnboarding;)Lcom/discord/databinding/WidgetServerSettingsCreatorMonetizationOnboardingCreateRequestBinding;
 
     move-result-object v0

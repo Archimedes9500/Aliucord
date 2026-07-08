@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration$Model;)V
 
     return-void

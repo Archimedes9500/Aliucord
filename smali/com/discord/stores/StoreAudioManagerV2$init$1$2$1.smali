@@ -95,7 +95,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreAudioManagerV2$init$1$2$1;->$it:Lcom/discord/rtcconnection/audio/DiscordAudioManager$DeviceTypes;
 
-    # invokes: Lcom/discord/stores/StoreAudioManagerV2;->updateActiveAudioDevice(Lcom/discord/rtcconnection/audio/DiscordAudioManager$DeviceTypes;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreAudioManagerV2;->access$updateActiveAudioDevice(Lcom/discord/stores/StoreAudioManagerV2;Lcom/discord/rtcconnection/audio/DiscordAudioManager$DeviceTypes;)V
 
     return-void

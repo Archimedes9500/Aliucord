@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$setupColorSetting$1;->$data:Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->launchColorPicker(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->access$launchColorPicker(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model;)V
 
     return-void

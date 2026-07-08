@@ -106,7 +106,6 @@
     .line 2
     iget-object v2, v0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$saveUserChanges$2;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->storeUserProfile:Lcom/discord/stores/StoreUserProfile;
     invoke-static {v2}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getStoreUserProfile$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Lcom/discord/stores/StoreUserProfile;
 
     move-result-object v2
@@ -159,13 +158,11 @@
     move-result-object v2
 
     .line 6
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v1, v2}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$updateViewState(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$ViewState;)V
 
     .line 7
     iget-object v1, v0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$saveUserChanges$2;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v1}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getEventSubject$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object v1

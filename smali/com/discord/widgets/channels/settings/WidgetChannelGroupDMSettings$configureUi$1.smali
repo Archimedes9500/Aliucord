@@ -112,7 +112,6 @@
     iget-object v1, p0, Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings$configureUi$1;->$displayName:Ljava/lang/String;
 
     .line 5
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;->confirmLeave(Landroid/content/Context;Lkotlin/jvm/functions/Function0;Ljava/lang/CharSequence;)V
     invoke-static {p1, p2, v0, v1}, Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;->access$confirmLeave(Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;Landroid/content/Context;Lkotlin/jvm/functions/Function0;Ljava/lang/CharSequence;)V
 
     :cond_1e

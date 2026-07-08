@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;->handleEvent(Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;->access$handleEvent(Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel$Event;)V
 
     return-void

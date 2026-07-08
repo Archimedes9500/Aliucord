@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/bugreports/WidgetBugReport$onViewBound$8;->this$0:Lcom/discord/widgets/bugreports/WidgetBugReport;
 
-    # invokes: Lcom/discord/widgets/bugreports/WidgetBugReport;->submit()V
     invoke-static {p1}, Lcom/discord/widgets/bugreports/WidgetBugReport;->access$submit(Lcom/discord/widgets/bugreports/WidgetBugReport;)V
 
     return-void

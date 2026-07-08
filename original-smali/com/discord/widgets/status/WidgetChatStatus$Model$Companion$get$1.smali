@@ -115,7 +115,6 @@
     check-cast v0, Lcom/discord/widgets/status/WidgetChatStatus$Model$Companion;
 
     .line 2
-    # invokes: Lcom/discord/widgets/status/WidgetChatStatus$Model$Companion;->createModel(ZLjava/util/Set;Lcom/discord/models/application/Unread;)Lcom/discord/widgets/status/WidgetChatStatus$Model;
     invoke-static {v0, p1, p2, p3}, Lcom/discord/widgets/status/WidgetChatStatus$Model$Companion;->access$createModel(Lcom/discord/widgets/status/WidgetChatStatus$Model$Companion;ZLjava/util/Set;Lcom/discord/models/application/Unread;)Lcom/discord/widgets/status/WidgetChatStatus$Model;
 
     move-result-object p1

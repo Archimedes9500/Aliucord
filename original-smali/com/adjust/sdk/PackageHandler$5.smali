@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/PackageHandler$5;->this$0:Lcom/adjust/sdk/PackageHandler;
 
-    # getter for: Lcom/adjust/sdk/PackageHandler;->logger:Lcom/adjust/sdk/ILogger;
     invoke-static {v0}, Lcom/adjust/sdk/PackageHandler;->access$400(Lcom/adjust/sdk/PackageHandler;)Lcom/adjust/sdk/ILogger;
 
     move-result-object v0
@@ -57,7 +56,6 @@
     .line 2
     iget-object v0, p0, Lcom/adjust/sdk/PackageHandler$5;->this$0:Lcom/adjust/sdk/PackageHandler;
 
-    # getter for: Lcom/adjust/sdk/PackageHandler;->isSending:Ljava/util/concurrent/atomic/AtomicBoolean;
     invoke-static {v0}, Lcom/adjust/sdk/PackageHandler;->access$500(Lcom/adjust/sdk/PackageHandler;)Ljava/util/concurrent/atomic/AtomicBoolean;
 
     move-result-object v0

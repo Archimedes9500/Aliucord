@@ -179,7 +179,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$configureSendListeners$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getViewModel()Lcom/discord/widgets/chat/input/ChatInputViewModel;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getViewModel$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/widgets/chat/input/ChatInputViewModel;
 
     move-result-object v1

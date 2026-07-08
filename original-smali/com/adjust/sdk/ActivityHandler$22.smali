@@ -71,7 +71,6 @@
     :cond_14
     iget-object v0, p0, Lcom/adjust/sdk/ActivityHandler$22;->this$0:Lcom/adjust/sdk/ActivityHandler;
 
-    # getter for: Lcom/adjust/sdk/ActivityHandler;->internalState:Lcom/adjust/sdk/ActivityHandler$InternalState;
     invoke-static {v0}, Lcom/adjust/sdk/ActivityHandler;->access$900(Lcom/adjust/sdk/ActivityHandler;)Lcom/adjust/sdk/ActivityHandler$InternalState;
 
     move-result-object v0
@@ -90,7 +89,6 @@
 
     iget-object v1, p0, Lcom/adjust/sdk/ActivityHandler$22;->val$token:Ljava/lang/String;
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->setPushTokenI(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/ActivityHandler;->access$2200(Lcom/adjust/sdk/ActivityHandler;Ljava/lang/String;)V
 
     return-void

@@ -99,7 +99,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetGroupInviteFriends$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/channels/WidgetGroupInviteFriends;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetGroupInviteFriends;->unselectUser(Lcom/discord/models/user/User;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/WidgetGroupInviteFriends;->access$unselectUser(Lcom/discord/widgets/channels/WidgetGroupInviteFriends;Lcom/discord/models/user/User;)V
 
     :cond_d

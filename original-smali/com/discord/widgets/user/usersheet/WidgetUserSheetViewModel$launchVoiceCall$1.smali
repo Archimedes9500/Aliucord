@@ -98,7 +98,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->emitLaunchVoiceCallEvent(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->access$emitLaunchVoiceCallEvent(Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;J)V
 
     return-void

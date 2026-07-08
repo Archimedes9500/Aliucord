@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/forums/WidgetForumBrowser$onResume$2;->this$0:Lcom/discord/widgets/forums/WidgetForumBrowser;
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowser;->handleViewState(Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/forums/WidgetForumBrowser;->access$handleViewState(Lcom/discord/widgets/forums/WidgetForumBrowser;Lcom/discord/widgets/forums/WidgetForumBrowserViewModel$ViewState;)V
 
     return-void

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$1;->this$0:Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;
 
-    # invokes: Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;->handleStoreState(Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;->access$handleStoreState(Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$StoreState;)V
 
     return-void

@@ -82,7 +82,6 @@
     .line 1
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/l0/q$a;->b:Ld0/e0/p/d/m0/e/a/l0/q;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/l0/q;->a:Ljava/util/Map;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/l0/q;->access$getSignatures$p(Ld0/e0/p/d/m0/e/a/l0/q;)Ljava/util/Map;
 
     move-result-object v0

@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/PackageHandler$7;->this$0:Lcom/adjust/sdk/PackageHandler;
 
-    # invokes: Lcom/adjust/sdk/PackageHandler;->flushI()V
     invoke-static {v0}, Lcom/adjust/sdk/PackageHandler;->access$600(Lcom/adjust/sdk/PackageHandler;)V
 
     return-void

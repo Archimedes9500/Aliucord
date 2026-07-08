@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/list/WidgetGuildsList$onResume$1;->this$0:Lcom/discord/widgets/guilds/list/WidgetGuildsList;
 
-    # invokes: Lcom/discord/widgets/guilds/list/WidgetGuildsList;->configureUI(Lcom/discord/widgets/guilds/list/WidgetGuildsListViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/list/WidgetGuildsList;->access$configureUI(Lcom/discord/widgets/guilds/list/WidgetGuildsList;Lcom/discord/widgets/guilds/list/WidgetGuildsListViewModel$ViewState;)V
 
     return-void

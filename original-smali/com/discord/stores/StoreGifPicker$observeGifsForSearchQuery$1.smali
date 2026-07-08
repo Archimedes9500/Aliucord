@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGifPicker$observeGifsForSearchQuery$1;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # getter for: Lcom/discord/stores/StoreGifPicker;->gifSearchHistory:Lcom/discord/stores/StoreGifPicker$CacheHistory;
     invoke-static {v0}, Lcom/discord/stores/StoreGifPicker;->access$getGifSearchHistory$p(Lcom/discord/stores/StoreGifPicker;)Lcom/discord/stores/StoreGifPicker$CacheHistory;
 
     move-result-object v0
@@ -105,7 +104,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreGifPicker$observeGifsForSearchQuery$1;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # getter for: Lcom/discord/stores/StoreGifPicker;->gifSearchHistory:Lcom/discord/stores/StoreGifPicker$CacheHistory;
     invoke-static {v0}, Lcom/discord/stores/StoreGifPicker;->access$getGifSearchHistory$p(Lcom/discord/stores/StoreGifPicker;)Lcom/discord/stores/StoreGifPicker$CacheHistory;
 
     move-result-object v0
@@ -125,7 +123,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreGifPicker$observeGifsForSearchQuery$1;->$query:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->fetchGifsForSearchQuery(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreGifPicker;->access$fetchGifsForSearchQuery(Lcom/discord/stores/StoreGifPicker;Ljava/lang/String;)V
 
     :cond_26

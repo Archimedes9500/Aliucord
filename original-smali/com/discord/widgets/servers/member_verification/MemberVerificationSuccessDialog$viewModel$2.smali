@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog$viewModel$2;->this$0:Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;
 
-    # invokes: Lcom/discord/app/AppDialog;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;)Landroid/os/Bundle;
 
     move-result-object v0

@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/stage/sheet/WidgetStageAudienceNoticeBottomSheet$channelId$2;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageAudienceNoticeBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/stage/sheet/WidgetStageAudienceNoticeBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/stage/sheet/WidgetStageAudienceNoticeBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0

@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;->configureUI(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;->access$configureUI(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview$Model;)V
 
     return-void

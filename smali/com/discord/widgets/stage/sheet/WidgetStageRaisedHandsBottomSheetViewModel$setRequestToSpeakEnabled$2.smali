@@ -134,7 +134,6 @@
 
     move-result-object v0
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel;->access$updateViewState(Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel;Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel$ViewState;)V
 
     :cond_27

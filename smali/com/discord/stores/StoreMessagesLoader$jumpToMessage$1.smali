@@ -103,7 +103,6 @@
     :try_start_3
     iget-object v0, p0, Lcom/discord/stores/StoreMessagesLoader$jumpToMessage$1;->this$0:Lcom/discord/stores/StoreMessagesLoader;
 
-    # getter for: Lcom/discord/stores/StoreMessagesLoader;->scrollToSubject:Lrx/subjects/SerializedSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreMessagesLoader;->access$getScrollToSubject$p(Lcom/discord/stores/StoreMessagesLoader;)Lrx/subjects/SerializedSubject;
 
     move-result-object v0
@@ -131,7 +130,6 @@
 
     sget-object v2, Lcom/discord/stores/StoreMessagesLoader$jumpToMessage$1$1;->INSTANCE:Lcom/discord/stores/StoreMessagesLoader$jumpToMessage$1$1;
 
-    # invokes: Lcom/discord/stores/StoreMessagesLoader;->channelLoadedStateUpdate(JLkotlin/jvm/functions/Function1;)V
     invoke-static {p1, v0, v1, v2}, Lcom/discord/stores/StoreMessagesLoader;->access$channelLoadedStateUpdate(Lcom/discord/stores/StoreMessagesLoader;JLkotlin/jvm/functions/Function1;)V
 
     .line 5

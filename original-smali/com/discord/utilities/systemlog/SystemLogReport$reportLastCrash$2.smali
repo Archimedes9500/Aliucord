@@ -170,7 +170,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/utilities/systemlog/SystemLogReport;->checkHashChanged(Ljava/lang/String;)Z
     invoke-static {v0, v1}, Lcom/discord/utilities/systemlog/SystemLogReport;->access$checkHashChanged(Lcom/discord/utilities/systemlog/SystemLogReport;Ljava/lang/String;)Z
 
     move-result v1
@@ -200,7 +199,6 @@
 
     .line 8
     :goto_53
-    # invokes: Lcom/discord/utilities/systemlog/SystemLogReport;->sendReport(Lcom/discord/utilities/systemlog/SystemLogUtils$Tombstone;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/systemlog/SystemLogReport;->access$sendReport(Lcom/discord/utilities/systemlog/SystemLogReport;Lcom/discord/utilities/systemlog/SystemLogUtils$Tombstone;)V
 
     return-void

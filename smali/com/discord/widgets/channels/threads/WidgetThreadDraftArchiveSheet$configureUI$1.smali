@@ -74,7 +74,6 @@
 
     const/16 v1, 0x3c
 
-    # invokes: Lcom/discord/widgets/channels/threads/WidgetThreadDraftArchiveSheet;->setAutoArchiveDuration(Lcom/discord/stores/StoreThreadDraft$ThreadDraftState;I)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/channels/threads/WidgetThreadDraftArchiveSheet;->access$setAutoArchiveDuration(Lcom/discord/widgets/channels/threads/WidgetThreadDraftArchiveSheet;Lcom/discord/stores/StoreThreadDraft$ThreadDraftState;I)V
 
     return-void

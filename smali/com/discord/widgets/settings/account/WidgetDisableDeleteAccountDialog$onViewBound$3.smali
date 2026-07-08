@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog$onViewBound$3;->this$0:Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->getBinding()Lcom/discord/databinding/WidgetDisableDeleteAccountDialogBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;)Lcom/discord/databinding/WidgetDisableDeleteAccountDialogBinding;
 
     move-result-object p1

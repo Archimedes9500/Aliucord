@@ -82,7 +82,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreStageChannels$observeUserRequestToSpeakState$1;->this$0:Lcom/discord/stores/StoreStageChannels;
 
-    # getter for: Lcom/discord/stores/StoreStageChannels;->channelsStore:Lcom/discord/stores/StoreChannels;
     invoke-static {v0}, Lcom/discord/stores/StoreStageChannels;->access$getChannelsStore$p(Lcom/discord/stores/StoreStageChannels;)Lcom/discord/stores/StoreChannels;
 
     move-result-object v0

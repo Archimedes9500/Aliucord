@@ -112,7 +112,6 @@
     .line 6
     iget-object v1, p0, Lcom/discord/widgets/chat/input/WidgetChatInputEditText$setOnTextChangedListener$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputEditText;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInputEditText;->emptyTextSubject:Lrx/subjects/Subject;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInputEditText;->access$getEmptyTextSubject$p(Lcom/discord/widgets/chat/input/WidgetChatInputEditText;)Lrx/subjects/Subject;
 
     move-result-object v1
@@ -144,7 +143,6 @@
     .line 8
     iget-object v1, p0, Lcom/discord/widgets/chat/input/WidgetChatInputEditText$setOnTextChangedListener$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputEditText;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInputEditText;->lastTypingEmissionMillis:J
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInputEditText;->access$getLastTypingEmissionMillis$p(Lcom/discord/widgets/chat/input/WidgetChatInputEditText;)J
 
     move-result-wide v1

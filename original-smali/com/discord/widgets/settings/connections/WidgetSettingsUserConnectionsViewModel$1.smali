@@ -132,7 +132,6 @@
 
     invoke-static {p2, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->combineState(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$StoreState;Ljava/util/Map;)Ljava/util/List;
     invoke-static {v0, p1, p2}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->access$combineState(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$StoreState;Ljava/util/Map;)Ljava/util/List;
 
     move-result-object p1

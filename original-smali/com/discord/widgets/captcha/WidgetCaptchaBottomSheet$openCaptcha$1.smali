@@ -110,7 +110,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet$openCaptcha$1;->this$0:Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;
 
-    # invokes: Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;->finishIfCaptchaTokenReceived(Landroid/app/Activity;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;->access$finishIfCaptchaTokenReceived(Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;Landroid/app/Activity;)V
 
     :cond_18

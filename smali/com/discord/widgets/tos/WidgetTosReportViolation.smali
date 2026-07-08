@@ -525,7 +525,6 @@
     invoke-virtual {v7, v0}, Lcom/discord/widgets/tos/WidgetTosReportViolationReasonView;->setReason(Lcom/discord/api/report/ReportReason;)V
 
     .line 13
-    # invokes: Lcom/discord/widgets/tos/WidgetTosReportViolation;->getViewModel()Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel;
     invoke-static {p0}, Lcom/discord/widgets/tos/WidgetTosReportViolation;->access$getViewModel$p(Lcom/discord/widgets/tos/WidgetTosReportViolation;)Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel;
 
     move-result-object v1

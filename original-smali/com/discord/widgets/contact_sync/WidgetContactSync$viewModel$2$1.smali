@@ -105,7 +105,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/contact_sync/WidgetContactSync$viewModel$2;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSync;->launchCaptchaFlow(Lcom/discord/utilities/error/Error;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$launchCaptchaFlow(Lcom/discord/widgets/contact_sync/WidgetContactSync;Lcom/discord/utilities/error/Error;)V
 
     :cond_14

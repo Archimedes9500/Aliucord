@@ -78,7 +78,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetKickUser$onViewBoundOrOnResume$4;->this$0:Lcom/discord/widgets/user/WidgetKickUser;
 
-    # invokes: Lcom/discord/widgets/user/WidgetKickUser;->getBinding()Lcom/discord/databinding/WidgetKickUserBinding;
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetKickUser;->access$getBinding$p(Lcom/discord/widgets/user/WidgetKickUser;)Lcom/discord/databinding/WidgetKickUserBinding;
 
     move-result-object p1

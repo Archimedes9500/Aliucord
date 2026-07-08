@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreEntitlements$observeEntitlementState$1;->this$0:Lcom/discord/stores/StoreEntitlements;
 
-    # getter for: Lcom/discord/stores/StoreEntitlements;->stateSnapshot:Lcom/discord/stores/StoreEntitlements$State;
     invoke-static {v0}, Lcom/discord/stores/StoreEntitlements;->access$getStateSnapshot$p(Lcom/discord/stores/StoreEntitlements;)Lcom/discord/stores/StoreEntitlements$State;
 
     move-result-object v0

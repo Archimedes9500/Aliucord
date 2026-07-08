@@ -422,7 +422,6 @@
     .line 3
     sget-object p3, Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetViewModel;->Companion:Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetViewModel$Companion;->observeStoreState(Lcom/discord/stores/StoreExperiments;)Lrx/Observable;
     invoke-static {p3, v3}, Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/voice/feedback/stream/StreamFeedbackSheetViewModel$Companion;Lcom/discord/stores/StoreExperiments;)Lrx/Observable;
 
     move-result-object p5

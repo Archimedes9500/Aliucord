@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/stateful/StatefulViews$setupUnsavedChangesConfirmation$$inlined$let$lambda$1;->this$0:Lcom/discord/utilities/stateful/StatefulViews;
 
-    # invokes: Lcom/discord/utilities/stateful/StatefulViews;->hasAnythingChanged()Z
     invoke-static {v0}, Lcom/discord/utilities/stateful/StatefulViews;->access$hasAnythingChanged(Lcom/discord/utilities/stateful/StatefulViews;)Z
 
     move-result v0

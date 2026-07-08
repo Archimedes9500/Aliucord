@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;->handleEvent(Lcom/discord/widgets/guilds/contextmenu/GuildContextMenuViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;->access$handleEvent(Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;Lcom/discord/widgets/guilds/contextmenu/GuildContextMenuViewModel$Event;)V
 
     return-void

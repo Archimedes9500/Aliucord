@@ -391,7 +391,6 @@
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
     .line 3
-    # getter for: Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;->time:Lcom/google/android/material/timepicker/TimeModel;
     invoke-static {p0}, Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;->access$000(Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;)Lcom/google/android/material/timepicker/TimeModel;
 
     move-result-object v2
@@ -401,7 +400,6 @@
     invoke-virtual {v1, v3, v2}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
     .line 4
-    # getter for: Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;->inputMode:I
     invoke-static {p0}, Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;->access$100(Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;)I
 
     move-result v2
@@ -411,7 +409,6 @@
     invoke-virtual {v1, v3, v2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     .line 5
-    # getter for: Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;->titleTextResId:I
     invoke-static {p0}, Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;->access$200(Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;)I
 
     move-result v2
@@ -421,7 +418,6 @@
     invoke-virtual {v1, v3, v2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     .line 6
-    # getter for: Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;->titleText:Ljava/lang/CharSequence;
     invoke-static {p0}, Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;->access$300(Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;)Ljava/lang/CharSequence;
 
     move-result-object v2
@@ -429,7 +425,6 @@
     if-eqz v2, :cond_38
 
     .line 7
-    # getter for: Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;->titleText:Ljava/lang/CharSequence;
     invoke-static {p0}, Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;->access$300(Lcom/google/android/material/timepicker/MaterialTimePicker$Builder;)Ljava/lang/CharSequence;
 
     move-result-object p0

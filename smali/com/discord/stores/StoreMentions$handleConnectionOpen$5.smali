@@ -98,7 +98,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreMentions$handleConnectionOpen$5;->this$0:Lcom/discord/stores/StoreMentions;
 
-    # getter for: Lcom/discord/stores/StoreMentions;->storeChannels:Lcom/discord/stores/StoreChannels;
     invoke-static {v0}, Lcom/discord/stores/StoreMentions;->access$getStoreChannels$p(Lcom/discord/stores/StoreMentions;)Lcom/discord/stores/StoreChannels;
 
     move-result-object v0

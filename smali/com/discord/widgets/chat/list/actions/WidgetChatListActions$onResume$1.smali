@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$onResume$1;->this$0:Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;
 
-    # invokes: Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->configureUI(Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->access$configureUI(Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$Model;)V
 
     return-void

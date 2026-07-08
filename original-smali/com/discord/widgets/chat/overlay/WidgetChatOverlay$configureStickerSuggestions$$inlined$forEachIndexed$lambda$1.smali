@@ -152,7 +152,6 @@
     .line 4
     iget-object v2, v0, Lcom/discord/widgets/chat/overlay/WidgetChatOverlay$configureStickerSuggestions$$inlined$forEachIndexed$lambda$1;->this$0:Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;
 
-    # invokes: Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;->getChatInputViewModel()Lcom/discord/widgets/chat/input/ChatInputViewModel;
     invoke-static {v2}, Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;->access$getChatInputViewModel$p(Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;)Lcom/discord/widgets/chat/input/ChatInputViewModel;
 
     move-result-object v2
@@ -164,7 +163,6 @@
     .line 5
     iget-object v1, v0, Lcom/discord/widgets/chat/overlay/WidgetChatOverlay$configureStickerSuggestions$$inlined$forEachIndexed$lambda$1;->this$0:Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;
 
-    # invokes: Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;->getFlexInputViewModel()Lcom/discord/widgets/chat/input/AppFlexInputViewModel;
     invoke-static {v1}, Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;->access$getFlexInputViewModel$p(Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;)Lcom/discord/widgets/chat/input/AppFlexInputViewModel;
 
     move-result-object v1

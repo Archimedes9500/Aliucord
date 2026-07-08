@@ -86,7 +86,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommands$observeDiscoverCommands$2;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->shouldReturnApplicationCommands(Ljava/lang/Long;)Z
     invoke-static {v0, p2}, Lcom/discord/stores/StoreApplicationCommands;->access$shouldReturnApplicationCommands(Lcom/discord/stores/StoreApplicationCommands;Ljava/lang/Long;)Z
 
     move-result p2
@@ -99,7 +98,6 @@
     :cond_9
     iget-object p1, p0, Lcom/discord/stores/StoreApplicationCommands$observeDiscoverCommands$2;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->builtInCommandsProvider:Lcom/discord/stores/BuiltInCommandsProvider;
     invoke-static {p1}, Lcom/discord/stores/StoreApplicationCommands;->access$getBuiltInCommandsProvider$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/BuiltInCommandsProvider;
 
     move-result-object p1

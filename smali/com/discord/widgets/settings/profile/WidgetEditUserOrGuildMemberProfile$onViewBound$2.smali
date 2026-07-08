@@ -127,7 +127,6 @@
     .line 5
     iget-object v3, p0, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$onViewBound$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->getBinding()Lcom/discord/databinding/WidgetSettingsUserProfileBinding;
     invoke-static {v3}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$getBinding$p(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)Lcom/discord/databinding/WidgetSettingsUserProfileBinding;
 
     move-result-object v3
@@ -145,7 +144,6 @@
     .line 6
     iget-object v5, p0, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$onViewBound$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->getBinding()Lcom/discord/databinding/WidgetSettingsUserProfileBinding;
     invoke-static {v5}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$getBinding$p(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)Lcom/discord/databinding/WidgetSettingsUserProfileBinding;
 
     move-result-object v5
@@ -165,7 +163,6 @@
     .line 7
     iget-object v6, p0, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$onViewBound$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->getBinding()Lcom/discord/databinding/WidgetSettingsUserProfileBinding;
     invoke-static {v6}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$getBinding$p(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)Lcom/discord/databinding/WidgetSettingsUserProfileBinding;
 
     move-result-object v6
@@ -225,7 +222,6 @@
     .line 10
     iget-object p1, p0, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$onViewBound$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->getBinding()Lcom/discord/databinding/WidgetSettingsUserProfileBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$getBinding$p(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)Lcom/discord/databinding/WidgetSettingsUserProfileBinding;
 
     move-result-object p1
@@ -254,7 +250,6 @@
     .line 12
     iget-object p1, p0, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$onViewBound$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->setCurrentBioFromEditor()V
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$setCurrentBioFromEditor(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)V
 
     :cond_82

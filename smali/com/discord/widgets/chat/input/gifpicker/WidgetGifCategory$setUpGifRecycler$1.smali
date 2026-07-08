@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;->selectGif(Lcom/discord/widgets/chat/input/gifpicker/GifAdapterItem$GifItem;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;->access$selectGif(Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;Lcom/discord/widgets/chat/input/gifpicker/GifAdapterItem$GifItem;)V
 
     return-void

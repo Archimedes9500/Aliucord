@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleVoiceStateUpdate(Lcom/discord/api/voice/state/VoiceState;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleVoiceStateUpdate(Lcom/discord/stores/StoreStream;Lcom/discord/api/voice/state/VoiceState;)V
 
     return-void

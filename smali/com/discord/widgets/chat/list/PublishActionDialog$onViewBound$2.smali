@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/list/PublishActionDialog$onViewBound$2;->this$0:Lcom/discord/widgets/chat/list/PublishActionDialog;
 
-    # invokes: Lcom/discord/widgets/chat/list/PublishActionDialog;->getViewModel()Lcom/discord/widgets/chat/list/PublishActionDialogViewModel;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/PublishActionDialog;->access$getViewModel$p(Lcom/discord/widgets/chat/list/PublishActionDialog;)Lcom/discord/widgets/chat/list/PublishActionDialogViewModel;
 
     move-result-object p1
@@ -76,7 +75,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/list/PublishActionDialog$onViewBound$2;->this$0:Lcom/discord/widgets/chat/list/PublishActionDialog;
 
-    # getter for: Lcom/discord/widgets/chat/list/PublishActionDialog;->onSuccess:Lkotlin/jvm/functions/Function0;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/PublishActionDialog;->access$getOnSuccess$p(Lcom/discord/widgets/chat/list/PublishActionDialog;)Lkotlin/jvm/functions/Function0;
 
     move-result-object p1

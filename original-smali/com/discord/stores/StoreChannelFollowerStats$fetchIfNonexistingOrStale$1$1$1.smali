@@ -106,7 +106,6 @@
     move-result-object v0
 
     .line 5
-    # invokes: Lcom/discord/stores/StoreChannelFollowerStats;->handleChannelFollowerStatsFetchSuccess(JLcom/discord/models/domain/ModelChannelFollowerStats;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreChannelFollowerStats;->access$handleChannelFollowerStatsFetchSuccess(Lcom/discord/stores/StoreChannelFollowerStats;JLcom/discord/models/domain/ModelChannelFollowerStats;)V
 
     return-void

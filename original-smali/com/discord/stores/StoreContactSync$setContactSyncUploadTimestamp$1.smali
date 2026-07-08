@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreContactSync$setContactSyncUploadTimestamp$1;->this$0:Lcom/discord/stores/StoreContactSync;
 
-    # getter for: Lcom/discord/stores/StoreContactSync;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v0}, Lcom/discord/stores/StoreContactSync;->access$getClock$p(Lcom/discord/stores/StoreContactSync;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v1

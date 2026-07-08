@@ -91,7 +91,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/stores/ArchivedThreadsStore$observeGuildForumThreadListing$1;->this$0:Lcom/discord/stores/ArchivedThreadsStore;
 
-    # getter for: Lcom/discord/stores/ArchivedThreadsStore;->listingsSnapshot:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/ArchivedThreadsStore;->access$getListingsSnapshot$p(Lcom/discord/stores/ArchivedThreadsStore;)Ljava/util/Map;
 
     move-result-object v1

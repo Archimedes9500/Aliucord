@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/tos/WidgetTosReportViolation;
 
     .line 2
-    # invokes: Lcom/discord/widgets/tos/WidgetTosReportViolation;->configureUI(Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/tos/WidgetTosReportViolation;->access$configureUI(Lcom/discord/widgets/tos/WidgetTosReportViolation;Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel$ViewState;)V
 
     return-void

@@ -77,7 +77,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/hubs/WidgetHubEmailFlow$validationManager$2;->this$0:Lcom/discord/widgets/hubs/WidgetHubEmailFlow;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->getBinding()Lcom/discord/databinding/WidgetHubEmailFlowBinding;
     invoke-static {v1}, Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->access$getBinding$p(Lcom/discord/widgets/hubs/WidgetHubEmailFlow;)Lcom/discord/databinding/WidgetHubEmailFlowBinding;
 
     move-result-object v1

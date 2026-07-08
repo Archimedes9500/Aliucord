@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/create/WidgetGuildCreate$onImageCropped$1;->this$0:Lcom/discord/widgets/guilds/create/WidgetGuildCreate;
 
-    # invokes: Lcom/discord/widgets/guilds/create/WidgetGuildCreate;->getViewModel()Lcom/discord/widgets/guilds/create/WidgetGuildCreateViewModel;
     invoke-static {v0}, Lcom/discord/widgets/guilds/create/WidgetGuildCreate;->access$getViewModel$p(Lcom/discord/widgets/guilds/create/WidgetGuildCreate;)Lcom/discord/widgets/guilds/create/WidgetGuildCreateViewModel;
 
     move-result-object v0

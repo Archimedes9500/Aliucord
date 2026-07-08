@@ -101,7 +101,6 @@
 
     iget-object v4, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$updateMenu$2;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->ARCHIVED_PAGE:I
     invoke-static {v4}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getARCHIVED_PAGE$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)I
 
     move-result v4
@@ -133,7 +132,6 @@
 
     iget-object v3, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$updateMenu$2;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->ACTIVE_PAGE:I
     invoke-static {v3}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getACTIVE_PAGE$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)I
 
     move-result v3

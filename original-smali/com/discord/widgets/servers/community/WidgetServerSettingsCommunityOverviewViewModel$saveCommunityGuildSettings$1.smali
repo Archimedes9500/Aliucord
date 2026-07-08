@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel$saveCommunityGuildSettings$1;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;->handleGuildUpdateError()V
     invoke-static {p1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;->access$handleGuildUpdateError(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel;)V
 
     return-void

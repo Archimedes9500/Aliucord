@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit$onViewBound$3;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;->showPasswordVerification()V
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;->access$showPasswordVerification(Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;)V
 
     return-void

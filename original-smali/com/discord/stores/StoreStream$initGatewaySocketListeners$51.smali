@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleEmojiUpdate(Lcom/discord/api/emoji/GuildEmojisUpdate;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleEmojiUpdate(Lcom/discord/stores/StoreStream;Lcom/discord/api/emoji/GuildEmojisUpdate;)V
 
     return-void

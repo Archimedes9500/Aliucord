@@ -115,7 +115,6 @@
 
     iget-object v1, p0, Ld0/t/q0/c$d;->l:Ld0/t/q0/c;
 
-    # getter for: Ld0/t/q0/c;->v:I
     invoke-static {v1}, Ld0/t/q0/c;->access$getLength$p(Ld0/t/q0/c;)I
 
     move-result v1
@@ -142,7 +141,6 @@
 
     iget-object v1, p0, Ld0/t/q0/c$d;->l:Ld0/t/q0/c;
 
-    # getter for: Ld0/t/q0/c;->v:I
     invoke-static {v1}, Ld0/t/q0/c;->access$getLength$p(Ld0/t/q0/c;)I
 
     move-result v1
@@ -151,7 +149,6 @@
 
     iget-object v0, p0, Ld0/t/q0/c$d;->l:Ld0/t/q0/c;
 
-    # getter for: Ld0/t/q0/c;->s:[I
     invoke-static {v0}, Ld0/t/q0/c;->access$getPresenceArray$p(Ld0/t/q0/c;)[I
 
     move-result-object v0
@@ -203,7 +200,6 @@
 
     iget v2, p0, Ld0/t/q0/c$d;->k:I
 
-    # invokes: Ld0/t/q0/c;->g(I)V
     invoke-static {v0, v2}, Ld0/t/q0/c;->access$removeKeyAt(Ld0/t/q0/c;I)V
 
     .line 4

@@ -113,7 +113,6 @@
     move-object v7, p6
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreGatewayConnection$ClientState$Companion;->create(ZLjava/lang/String;JZLcom/discord/stores/StoreClientDataState$ClientDataState;)Lcom/discord/stores/StoreGatewayConnection$ClientState;
     invoke-static/range {v1 .. v7}, Lcom/discord/stores/StoreGatewayConnection$ClientState$Companion;->access$create(Lcom/discord/stores/StoreGatewayConnection$ClientState$Companion;ZLjava/lang/String;JZLcom/discord/stores/StoreClientDataState$ClientDataState;)Lcom/discord/stores/StoreGatewayConnection$ClientState;
 
     move-result-object p1

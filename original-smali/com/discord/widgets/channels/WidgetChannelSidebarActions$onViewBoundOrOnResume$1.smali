@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetChannelSidebarActions$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/channels/WidgetChannelSidebarActions;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelSidebarActions;->configureUI(Lcom/discord/widgets/channels/WidgetChannelSidebarActionsViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/WidgetChannelSidebarActions;->access$configureUI(Lcom/discord/widgets/channels/WidgetChannelSidebarActions;Lcom/discord/widgets/channels/WidgetChannelSidebarActionsViewModel$ViewState;)V
 
     return-void

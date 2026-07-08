@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSheet$onViewCreated$1;->this$0:Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSheet;
 
-    # getter for: Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSheet;->onGifSelected:Lkotlin/jvm/functions/Function0;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSheet;->access$getOnGifSelected$p(Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSheet;)Lkotlin/jvm/functions/Function0;
 
     move-result-object v0

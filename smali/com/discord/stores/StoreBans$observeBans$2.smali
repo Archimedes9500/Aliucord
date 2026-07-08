@@ -104,7 +104,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreBans$observeBans$2;->this$0:Lcom/discord/stores/StoreBans;
 
-    # getter for: Lcom/discord/stores/StoreBans;->bannedUsersSnapshot:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreBans;->access$getBannedUsersSnapshot$p(Lcom/discord/stores/StoreBans;)Ljava/util/HashMap;
 
     move-result-object v0

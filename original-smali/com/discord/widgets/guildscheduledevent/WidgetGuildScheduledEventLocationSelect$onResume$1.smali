@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;->configureUI(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelectViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;->access$configureUI(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelectViewModel$ViewState;)V
 
     return-void

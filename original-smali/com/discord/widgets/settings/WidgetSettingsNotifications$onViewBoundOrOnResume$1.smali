@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsNotifications$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsNotifications;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsNotifications;->getBinding()Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsNotifications;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsNotifications;)Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
 
     move-result-object v0
@@ -125,7 +124,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsNotifications$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsNotifications;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsNotifications;->getBinding()Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsNotifications;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsNotifications;)Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
 
     move-result-object v0
@@ -145,7 +143,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsNotifications$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsNotifications;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsNotifications;->getBinding()Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsNotifications;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsNotifications;)Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
 
     move-result-object v0
@@ -165,7 +162,6 @@
     .line 6
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsNotifications$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsNotifications;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsNotifications;->getBinding()Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsNotifications;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsNotifications;)Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
 
     move-result-object v0
@@ -185,7 +181,6 @@
     .line 7
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsNotifications$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsNotifications;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsNotifications;->getBinding()Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsNotifications;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsNotifications;)Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
 
     move-result-object v0
@@ -205,7 +200,6 @@
     .line 8
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsNotifications$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsNotifications;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsNotifications;->getBinding()Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsNotifications;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsNotifications;)Lcom/discord/databinding/WidgetSettingsNotificationsBinding;
 
     move-result-object v0

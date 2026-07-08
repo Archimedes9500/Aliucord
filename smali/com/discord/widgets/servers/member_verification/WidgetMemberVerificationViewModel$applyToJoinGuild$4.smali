@@ -140,13 +140,11 @@
     move-result-object v3
 
     .line 4
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v1, v3}, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;->access$updateViewState(Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel$ViewState;)V
 
     .line 5
     iget-object v1, v0, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel$applyToJoinGuild$4;->this$0:Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;
 
-    # getter for: Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v1}, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;->access$getEventSubject$p(Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object v1

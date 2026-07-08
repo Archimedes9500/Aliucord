@@ -474,7 +474,6 @@
 
     move-object/from16 p9, v8
 
-    # invokes: Lcom/discord/widgets/emoji/EmojiSheetViewModel$Companion;->observeStoreState(Lcom/discord/utilities/rest/RestAPI;Lcom/discord/utilities/textprocessing/node/EmojiNode$EmojiIdAndType;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreEmojiCustom;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreMediaFavorites;)Lrx/Observable;
     invoke-static/range {p2 .. p9}, Lcom/discord/widgets/emoji/EmojiSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/emoji/EmojiSheetViewModel$Companion;Lcom/discord/utilities/rest/RestAPI;Lcom/discord/utilities/textprocessing/node/EmojiNode$EmojiIdAndType;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreEmojiCustom;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreMediaFavorites;)Lrx/Observable;
 
     move-result-object v0

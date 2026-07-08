@@ -603,7 +603,6 @@
     .line 3
     sget-object p4, Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetViewModel;->Companion:Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetViewModel$Companion;->observeStoreState(Lcom/discord/stores/StoreExperiments;)Lrx/Observable;
     invoke-static {p4, p3}, Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetViewModel$Companion;Lcom/discord/stores/StoreExperiments;)Lrx/Observable;
 
     move-result-object p4

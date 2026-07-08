@@ -89,7 +89,6 @@
 
     add-int/lit8 p1, p1, 0x1
 
-    # invokes: Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;->configureLevelBubbles(I)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;->access$configureLevelBubbles(Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;I)V
 
     return-void

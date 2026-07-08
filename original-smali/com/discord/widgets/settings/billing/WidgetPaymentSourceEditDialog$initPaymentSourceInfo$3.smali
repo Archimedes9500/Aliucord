@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$initPaymentSourceInfo$3;->$paymentSource:Lcom/discord/models/domain/ModelPaymentSource;
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;->deletePaymentSource(Lcom/discord/models/domain/ModelPaymentSource;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;->access$deletePaymentSource(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;Lcom/discord/models/domain/ModelPaymentSource;)V
 
     return-void

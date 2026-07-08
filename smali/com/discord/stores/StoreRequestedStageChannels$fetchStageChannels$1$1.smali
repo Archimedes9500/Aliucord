@@ -100,7 +100,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreRequestedStageChannels$fetchStageChannels$1;->this$0:Lcom/discord/stores/StoreRequestedStageChannels;
 
-    # getter for: Lcom/discord/stores/StoreRequestedStageChannels;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreRequestedStageChannels;->access$getDispatcher$p(Lcom/discord/stores/StoreRequestedStageChannels;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

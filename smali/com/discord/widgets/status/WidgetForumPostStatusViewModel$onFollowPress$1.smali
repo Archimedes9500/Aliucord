@@ -103,7 +103,6 @@
 
     iget-boolean v4, p0, Lcom/discord/widgets/status/WidgetForumPostStatusViewModel$onFollowPress$1;->$isFollowedThread:Z
 
-    # invokes: Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;->toggleFollowPost(Landroid/content/Context;JZ)V
     invoke-static {v0, v1, v2, v3, v4}, Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;->access$toggleFollowPost(Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;Landroid/content/Context;JZ)V
 
     return-void

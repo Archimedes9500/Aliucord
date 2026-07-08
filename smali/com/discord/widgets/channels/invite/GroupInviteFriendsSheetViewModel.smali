@@ -326,7 +326,6 @@
     .line 2
     sget-object p4, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel;->Companion:Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$Companion;->getMaxNumMembers(Lcom/discord/stores/StoreUser;)I
     invoke-static {p4, p3}, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$Companion;->access$getMaxNumMembers(Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$Companion;Lcom/discord/stores/StoreUser;)I
 
     move-result p4
@@ -356,7 +355,6 @@
     move-object v4, p3
 
     .line 6
-    # invokes: Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreUserRelationships;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChannels;)Lrx/Observable;
     invoke-static/range {v0 .. v5}, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$Companion;JLcom/discord/stores/StoreUserRelationships;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChannels;)Lrx/Observable;
 
     move-result-object p5

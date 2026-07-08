@@ -82,7 +82,6 @@
     :cond_6
     iget-object v1, p0, Lcom/discord/widgets/chat/input/applicationcommands/SelectedApplicationCommandAdapter$highlightOption$$inlined$let$lambda$1;->this$0:Lcom/discord/widgets/chat/input/applicationcommands/SelectedApplicationCommandAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/input/applicationcommands/SelectedApplicationCommandAdapter;->scroller:Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/applicationcommands/SelectedApplicationCommandAdapter;->access$getScroller$p(Lcom/discord/widgets/chat/input/applicationcommands/SelectedApplicationCommandAdapter;)Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
 
     move-result-object v1
@@ -106,7 +105,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/chat/input/applicationcommands/SelectedApplicationCommandAdapter$highlightOption$$inlined$let$lambda$1;->this$0:Lcom/discord/widgets/chat/input/applicationcommands/SelectedApplicationCommandAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/input/applicationcommands/SelectedApplicationCommandAdapter;->scroller:Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/applicationcommands/SelectedApplicationCommandAdapter;->access$getScroller$p(Lcom/discord/widgets/chat/input/applicationcommands/SelectedApplicationCommandAdapter;)Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;
 
     move-result-object v1

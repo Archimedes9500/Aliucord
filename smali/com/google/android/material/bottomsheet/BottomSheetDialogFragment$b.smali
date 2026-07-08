@@ -56,7 +56,6 @@
     .line 1
     iget-object p1, p0, Lcom/google/android/material/bottomsheet/BottomSheetDialogFragment$b;->a:Lcom/google/android/material/bottomsheet/BottomSheetDialogFragment;
 
-    # invokes: Lcom/google/android/material/bottomsheet/BottomSheetDialogFragment;->dismissAfterAnimation()V
     invoke-static {p1}, Lcom/google/android/material/bottomsheet/BottomSheetDialogFragment;->access$100(Lcom/google/android/material/bottomsheet/BottomSheetDialogFragment;)V
 
     :cond_8

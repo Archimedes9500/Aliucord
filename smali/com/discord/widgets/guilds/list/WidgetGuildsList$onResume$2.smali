@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/list/WidgetGuildsList$onResume$2;->this$0:Lcom/discord/widgets/guilds/list/WidgetGuildsList;
 
-    # invokes: Lcom/discord/widgets/guilds/list/WidgetGuildsList;->handleEvent(Lcom/discord/widgets/guilds/list/WidgetGuildsListViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/list/WidgetGuildsList;->access$handleEvent(Lcom/discord/widgets/guilds/list/WidgetGuildsList;Lcom/discord/widgets/guilds/list/WidgetGuildsListViewModel$Event;)V
 
     return-void

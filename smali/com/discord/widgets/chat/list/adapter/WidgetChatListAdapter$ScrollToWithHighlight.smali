@@ -363,7 +363,6 @@
 
     move-result v3
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$Companion;->findBestNewMessagesPosition(I)I
     invoke-static {v2, v3}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$Companion;->access$findBestNewMessagesPosition(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$Companion;I)I
 
     move-result v8

@@ -46,7 +46,6 @@
     iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialCalendar$f;->a:Lcom/google/android/material/datepicker/MaterialCalendar;
 
     .line 3
-    # getter for: Lcom/google/android/material/datepicker/MaterialCalendar;->dayFrame:Landroid/view/View;
     invoke-static {p1}, Lcom/google/android/material/datepicker/MaterialCalendar;->access$500(Lcom/google/android/material/datepicker/MaterialCalendar;)Landroid/view/View;
 
     move-result-object p1

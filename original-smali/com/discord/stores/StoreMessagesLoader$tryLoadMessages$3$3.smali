@@ -153,7 +153,6 @@
     move-object v2, p1
 
     .line 8
-    # invokes: Lcom/discord/stores/StoreMessagesLoader;->handleLoadedMessages(Ljava/util/List;JJLjava/lang/Long;Ljava/lang/Long;)V
     invoke-static/range {v1 .. v8}, Lcom/discord/stores/StoreMessagesLoader;->access$handleLoadedMessages(Lcom/discord/stores/StoreMessagesLoader;Ljava/util/List;JJLjava/lang/Long;Ljava/lang/Long;)V
 
     return-void

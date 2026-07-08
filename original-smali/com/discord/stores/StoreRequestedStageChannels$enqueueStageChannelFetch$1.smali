@@ -184,7 +184,6 @@
     :goto_25
     iget-object p1, p0, Lcom/discord/stores/StoreRequestedStageChannels$enqueueStageChannelFetch$1;->this$0:Lcom/discord/stores/StoreRequestedStageChannels;
 
-    # getter for: Lcom/discord/stores/StoreRequestedStageChannels;->enqueuedChannelFetches:Ljava/util/Set;
     invoke-static {p1}, Lcom/discord/stores/StoreRequestedStageChannels;->access$getEnqueuedChannelFetches$p(Lcom/discord/stores/StoreRequestedStageChannels;)Ljava/util/Set;
 
     move-result-object p1

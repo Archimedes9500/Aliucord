@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/WidgetPruneUsers;
 
     .line 2
-    # invokes: Lcom/discord/widgets/user/WidgetPruneUsers;->handleEvent(Lcom/discord/widgets/user/WidgetPruneUsersViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/WidgetPruneUsers;->access$handleEvent(Lcom/discord/widgets/user/WidgetPruneUsers;Lcom/discord/widgets/user/WidgetPruneUsersViewModel$Event;)V
 
     return-void

@@ -44,7 +44,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lcom/google/android/material/resources/TextAppearance;->fontResolved:Z
     invoke-static {v0, v1}, Lcom/google/android/material/resources/TextAppearance;->access$102(Lcom/google/android/material/resources/TextAppearance;Z)Z
 
     .line 2
@@ -71,7 +70,6 @@
 
     move-result-object p1
 
-    # setter for: Lcom/google/android/material/resources/TextAppearance;->font:Landroid/graphics/Typeface;
     invoke-static {v0, p1}, Lcom/google/android/material/resources/TextAppearance;->access$002(Lcom/google/android/material/resources/TextAppearance;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
     .line 2
@@ -79,7 +77,6 @@
 
     const/4 v0, 0x1
 
-    # setter for: Lcom/google/android/material/resources/TextAppearance;->fontResolved:Z
     invoke-static {p1, v0}, Lcom/google/android/material/resources/TextAppearance;->access$102(Lcom/google/android/material/resources/TextAppearance;Z)Z
 
     .line 3
@@ -87,7 +84,6 @@
 
     iget-object v0, p0, Lcom/google/android/material/resources/TextAppearance$a;->b:Lcom/google/android/material/resources/TextAppearance;
 
-    # getter for: Lcom/google/android/material/resources/TextAppearance;->font:Landroid/graphics/Typeface;
     invoke-static {v0}, Lcom/google/android/material/resources/TextAppearance;->access$000(Lcom/google/android/material/resources/TextAppearance;)Landroid/graphics/Typeface;
 
     move-result-object v0

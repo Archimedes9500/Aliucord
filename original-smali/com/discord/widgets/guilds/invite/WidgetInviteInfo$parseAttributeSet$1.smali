@@ -78,7 +78,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/WidgetInviteInfo$parseAttributeSet$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetInviteInfo;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/WidgetInviteInfo;->binding:Lcom/discord/databinding/WidgetGuildInviteInfoViewBinding;
     invoke-static {v0}, Lcom/discord/widgets/guilds/invite/WidgetInviteInfo;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/WidgetInviteInfo;)Lcom/discord/databinding/WidgetGuildInviteInfoViewBinding;
 
     move-result-object v0
@@ -116,7 +115,6 @@
     .line 8
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/WidgetInviteInfo$parseAttributeSet$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetInviteInfo;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/WidgetInviteInfo;->binding:Lcom/discord/databinding/WidgetGuildInviteInfoViewBinding;
     invoke-static {v0}, Lcom/discord/widgets/guilds/invite/WidgetInviteInfo;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/WidgetInviteInfo;)Lcom/discord/databinding/WidgetGuildInviteInfoViewBinding;
 
     move-result-object v0

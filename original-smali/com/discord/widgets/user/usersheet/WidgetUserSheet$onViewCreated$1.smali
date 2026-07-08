@@ -87,7 +87,6 @@
     .line 4
     iget-object v3, p0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet$onViewCreated$1;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v3}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;)Landroid/os/Bundle;
 
     move-result-object v3

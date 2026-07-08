@@ -153,7 +153,6 @@
 
     sget-object p4, Lcom/discord/stores/StoreMessagesLoader$tryLoadMessages$4$1;->INSTANCE:Lcom/discord/stores/StoreMessagesLoader$tryLoadMessages$4$1;
 
-    # invokes: Lcom/discord/stores/StoreMessagesLoader;->channelLoadedStateUpdate(JLkotlin/jvm/functions/Function1;)V
     invoke-static {p3, p1, p2, p4}, Lcom/discord/stores/StoreMessagesLoader;->access$channelLoadedStateUpdate(Lcom/discord/stores/StoreMessagesLoader;JLkotlin/jvm/functions/Function1;)V
     :try_end_13
     .catchall {:try_start_1 .. :try_end_13} :catchall_54

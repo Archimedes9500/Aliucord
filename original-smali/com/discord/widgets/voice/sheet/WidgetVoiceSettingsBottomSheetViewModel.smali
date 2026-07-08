@@ -224,7 +224,6 @@
     .line 2
     sget-object p3, Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheetViewModel;->Companion:Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheetViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheetViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreStageChannels;)Lrx/Observable;
     invoke-static {p3, p1, p2, v3}, Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheetViewModel$Companion;JLcom/discord/stores/StoreStageChannels;)Lrx/Observable;
 
     move-result-object p4

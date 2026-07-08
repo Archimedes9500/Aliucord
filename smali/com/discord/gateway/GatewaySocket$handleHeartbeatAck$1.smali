@@ -87,7 +87,6 @@
 
     iget-object v1, p0, Lcom/discord/gateway/GatewaySocket$handleHeartbeatAck$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->logger:Lcom/discord/utilities/logging/Logger;
     invoke-static {v1}, Lcom/discord/gateway/GatewaySocket;->access$getLogger$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/utilities/logging/Logger;
 
     move-result-object v1

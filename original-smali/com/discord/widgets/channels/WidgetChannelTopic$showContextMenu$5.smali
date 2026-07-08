@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/WidgetChannelTopic$showContextMenu$5;->this$0:Lcom/discord/widgets/channels/WidgetChannelTopic;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelTopic;->getViewModel()Lcom/discord/widgets/channels/WidgetChannelTopicViewModel;
     invoke-static {p1}, Lcom/discord/widgets/channels/WidgetChannelTopic;->access$getViewModel$p(Lcom/discord/widgets/channels/WidgetChannelTopic;)Lcom/discord/widgets/channels/WidgetChannelTopicViewModel;
 
     move-result-object p1

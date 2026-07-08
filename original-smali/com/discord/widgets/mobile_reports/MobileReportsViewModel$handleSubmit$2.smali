@@ -126,7 +126,6 @@
 
     move-result-object v0
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->access$updateViewState(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$ViewState;)V
 
     return-void

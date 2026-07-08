@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$cancelSubscription$1;->this$0:Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;
 
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;->fetchData()V
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;->access$fetchData(Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;)V
 
     return-void

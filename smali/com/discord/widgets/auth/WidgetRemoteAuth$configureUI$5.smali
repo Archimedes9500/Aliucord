@@ -68,7 +68,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetRemoteAuth$configureUI$5;->this$0:Lcom/discord/widgets/auth/WidgetRemoteAuth;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetRemoteAuth;->getViewModel()Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel;
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetRemoteAuth;->access$getViewModel$p(Lcom/discord/widgets/auth/WidgetRemoteAuth;)Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel;
 
     move-result-object p1

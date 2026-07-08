@@ -52,7 +52,6 @@
     .line 3
     iget-object p1, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView$2;->this$0:Landroidx/constraintlayout/utils/widget/ImageFilterView;
 
-    # getter for: Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRound:F
     invoke-static {p1}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->access$100(Landroidx/constraintlayout/utils/widget/ImageFilterView;)F
 
     move-result v5

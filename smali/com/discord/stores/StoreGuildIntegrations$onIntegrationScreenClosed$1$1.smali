@@ -93,7 +93,6 @@
     check-cast v0, Lcom/discord/stores/StoreGuildIntegrations;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreGuildIntegrations;->handleIntegrationScreenClosed()V
     invoke-static {v0}, Lcom/discord/stores/StoreGuildIntegrations;->access$handleIntegrationScreenClosed(Lcom/discord/stores/StoreGuildIntegrations;)V
 
     return-void

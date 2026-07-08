@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel;->handleStoreState(Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel;Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel$StoreState;)V
 
     return-void

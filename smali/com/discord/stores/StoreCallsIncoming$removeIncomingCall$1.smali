@@ -91,7 +91,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreCallsIncoming$removeIncomingCall$1;->$channelId:J
 
-    # invokes: Lcom/discord/stores/StoreCallsIncoming;->clearIncomingCall(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreCallsIncoming;->access$clearIncomingCall(Lcom/discord/stores/StoreCallsIncoming;J)V
 
     return-void

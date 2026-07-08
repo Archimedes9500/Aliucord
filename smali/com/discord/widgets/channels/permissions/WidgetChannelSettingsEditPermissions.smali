@@ -630,7 +630,6 @@
 
     const v5, 0x7f040334
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->setTextWithFont(Landroid/widget/TextView;Ljava/lang/String;I)V
     invoke-static {v0, v1, v4, v5}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->access$setTextWithFont(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;Landroid/widget/TextView;Ljava/lang/String;I)V
 
     .line 14
@@ -730,7 +729,6 @@
 
     const v2, 0x7f040333
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->setTextWithFont(Landroid/widget/TextView;Ljava/lang/String;I)V
     invoke-static {v0, v4, v1, v2}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->access$setTextWithFont(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;Landroid/widget/TextView;Ljava/lang/String;I)V
 
     .line 22
@@ -1351,7 +1349,6 @@
     .line 65
     sget-object v13, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->Companion:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->getPermission(I)J
     invoke-static {v13, v12}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->access$getPermission(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;I)J
 
     move-result-wide v13
@@ -1781,7 +1778,6 @@
     .line 4
     sget-object v4, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->Companion:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->getPermission(I)J
     invoke-static {v4, p2}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->access$getPermission(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;I)J
 
     move-result-wide v4

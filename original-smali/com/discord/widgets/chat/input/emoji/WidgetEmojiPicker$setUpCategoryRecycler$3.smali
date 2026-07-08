@@ -75,7 +75,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$setUpCategoryRecycler$3;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->emojiCategoryScrollSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$getEmojiCategoryScrollSubject$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

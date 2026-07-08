@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/changelog/WidgetChangeLog$configureMedia$1;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLog;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLog;->showVideoOverlay()V
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLog;->access$showVideoOverlay(Lcom/discord/widgets/changelog/WidgetChangeLog;)V
 
     return-void

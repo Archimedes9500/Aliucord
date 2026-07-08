@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetMuteSettingsSheet$configureNotificationSettings$2;->this$0:Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;->getViewModel()Lcom/discord/widgets/settings/MuteSettingsSheetViewModel;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;->access$getViewModel$p(Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;)Lcom/discord/widgets/settings/MuteSettingsSheetViewModel;
 
     move-result-object p1

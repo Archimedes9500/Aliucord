@@ -89,7 +89,6 @@
 
     iget-object v3, p0, Lcom/discord/widgets/servers/WidgetServerDeleteDialog$configureUI$2;->this$0:Lcom/discord/widgets/servers/WidgetServerDeleteDialog;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerDeleteDialog;->getBinding()Lcom/discord/databinding/WidgetServerDeleteDialogBinding;
     invoke-static {v3}, Lcom/discord/widgets/servers/WidgetServerDeleteDialog;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerDeleteDialog;)Lcom/discord/databinding/WidgetServerDeleteDialogBinding;
 
     move-result-object v3

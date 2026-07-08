@@ -78,7 +78,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/invite/InviteGenerator$generate$2;->this$0:Lcom/discord/widgets/guilds/invite/InviteGenerator;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/InviteGenerator;->handleRestCallFailed()V
     invoke-static {p1}, Lcom/discord/widgets/guilds/invite/InviteGenerator;->access$handleRestCallFailed(Lcom/discord/widgets/guilds/invite/InviteGenerator;)V
 
     return-void

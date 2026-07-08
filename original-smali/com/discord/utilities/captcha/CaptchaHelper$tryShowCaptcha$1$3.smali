@@ -116,7 +116,6 @@
     iget-object v3, p0, Lcom/discord/utilities/captcha/CaptchaHelper$tryShowCaptcha$1$3;->$errorHandler:Lkotlin/jvm/functions/Function1;
 
     .line 7
-    # invokes: Lcom/discord/utilities/captcha/CaptchaHelper;->showCaptcha(Lcom/google/android/gms/safetynet/SafetyNetClient;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v2, v1, v3}, Lcom/discord/utilities/captcha/CaptchaHelper;->access$showCaptcha(Lcom/discord/utilities/captcha/CaptchaHelper;Lcom/google/android/gms/safetynet/SafetyNetClient;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)V
 
     return-void

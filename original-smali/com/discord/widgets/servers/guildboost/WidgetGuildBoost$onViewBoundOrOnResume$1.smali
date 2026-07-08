@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;->configureUI(Lcom/discord/widgets/servers/guildboost/GuildBoostViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;->access$configureUI(Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;Lcom/discord/widgets/servers/guildboost/GuildBoostViewModel$ViewState;)V
 
     return-void

@@ -302,7 +302,6 @@
     move-wide/from16 v8, p7
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreReadStates;->computeUnreadIds(Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;JLjava/util/Map;Ljava/util/Map;)Lkotlin/Pair;
     invoke-static/range {v1 .. v11}, Lcom/discord/stores/StoreReadStates;->access$computeUnreadIds(Lcom/discord/stores/StoreReadStates;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;JLjava/util/Map;Ljava/util/Map;)Lkotlin/Pair;
 
     move-result-object v1

@@ -101,7 +101,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider$get$guildMembersObservable$1;->this$0:Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;
 
-    # getter for: Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;->storeChannels:Lcom/discord/stores/StoreChannels;
     invoke-static {v0}, Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;->access$getStoreChannels$p(Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;)Lcom/discord/stores/StoreChannels;
 
     move-result-object v0
@@ -136,7 +135,6 @@
     :goto_1c
     iget-object v1, p0, Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider$get$guildMembersObservable$1;->this$0:Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;
 
-    # getter for: Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;->storeGuilds:Lcom/discord/stores/StoreGuilds;
     invoke-static {v1}, Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;->access$getStoreGuilds$p(Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v1

@@ -59,7 +59,6 @@
 
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/l/e$c;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/e;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/e;->c:Ld0/e0/p/d/m0/e/a/k0/a;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/l/e;->access$getJavaAnnotation$p(Ld0/e0/p/d/m0/e/a/i0/l/e;)Ld0/e0/p/d/m0/e/a/k0/a;
 
     move-result-object v0
@@ -82,7 +81,6 @@
 
     iget-object v2, p0, Ld0/e0/p/d/m0/e/a/i0/l/e$c;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/e;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/e;->b:Ld0/e0/p/d/m0/e/a/i0/g;
     invoke-static {v2}, Ld0/e0/p/d/m0/e/a/i0/l/e;->access$getC$p(Ld0/e0/p/d/m0/e/a/i0/l/e;)Ld0/e0/p/d/m0/e/a/i0/g;
 
     move-result-object v2
@@ -112,7 +110,6 @@
     .line 4
     iget-object v1, p0, Ld0/e0/p/d/m0/e/a/i0/l/e$c;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/e;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/e;->c:Ld0/e0/p/d/m0/e/a/k0/a;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/l/e;->access$getJavaAnnotation$p(Ld0/e0/p/d/m0/e/a/i0/l/e;)Ld0/e0/p/d/m0/e/a/k0/a;
 
     move-result-object v1
@@ -130,7 +127,6 @@
     :cond_41
     iget-object v2, p0, Ld0/e0/p/d/m0/e/a/i0/l/e$c;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/e;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/e;->b:Ld0/e0/p/d/m0/e/a/i0/g;
     invoke-static {v2}, Ld0/e0/p/d/m0/e/a/i0/l/e;->access$getC$p(Ld0/e0/p/d/m0/e/a/i0/l/e;)Ld0/e0/p/d/m0/e/a/i0/g;
 
     move-result-object v2

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreConnectivity;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreConnectivity;->handleChannelMessagesLoading(Z)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreConnectivity;->access$handleChannelMessagesLoading(Lcom/discord/stores/StoreConnectivity;Z)V
 
     return-void

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/voice/feedback/WidgetIssueDetailsForm$onViewBound$2;->this$0:Lcom/discord/widgets/voice/feedback/WidgetIssueDetailsForm;
 
-    # invokes: Lcom/discord/widgets/voice/feedback/WidgetIssueDetailsForm;->getBinding()Lcom/discord/databinding/WidgetIssueDetailsFormBinding;
     invoke-static {v0}, Lcom/discord/widgets/voice/feedback/WidgetIssueDetailsForm;->access$getBinding$p(Lcom/discord/widgets/voice/feedback/WidgetIssueDetailsForm;)Lcom/discord/databinding/WidgetIssueDetailsFormBinding;
 
     move-result-object v0

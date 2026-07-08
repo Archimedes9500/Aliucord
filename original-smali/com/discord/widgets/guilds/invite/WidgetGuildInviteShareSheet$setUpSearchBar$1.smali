@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet$setUpSearchBar$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->getViewModel()Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->access$getViewModel$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;)Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;
 
     move-result-object v0

@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreExperiments$tryInitializeExperiments$1;->this$0:Lcom/discord/stores/StoreExperiments;
 
-    # getter for: Lcom/discord/stores/StoreExperiments;->storeAuthentication:Lcom/discord/stores/StoreAuthentication;
     invoke-static {v0}, Lcom/discord/stores/StoreExperiments;->access$getStoreAuthentication$p(Lcom/discord/stores/StoreExperiments;)Lcom/discord/stores/StoreAuthentication;
 
     move-result-object v0
@@ -177,7 +176,6 @@
     const/4 v1, 0x1
 
     .line 9
-    # invokes: Lcom/discord/stores/StoreExperiments;->handleLoadedUserExperiments(Ljava/util/Map;Z)V
     invoke-static {v0, v3, v1}, Lcom/discord/stores/StoreExperiments;->access$handleLoadedUserExperiments(Lcom/discord/stores/StoreExperiments;Ljava/util/Map;Z)V
 
     .line 10
@@ -185,7 +183,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreExperiments$tryInitializeExperiments$1;->this$0:Lcom/discord/stores/StoreExperiments;
 
-    # invokes: Lcom/discord/stores/StoreExperiments;->setInitialized()V
     invoke-static {v0}, Lcom/discord/stores/StoreExperiments;->access$setInitialized(Lcom/discord/stores/StoreExperiments;)V
 
     return-void

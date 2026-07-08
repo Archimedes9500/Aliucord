@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel$followChannel$2;->this$0:Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;
 
-    # getter for: Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;->access$getEventSubject$p(Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

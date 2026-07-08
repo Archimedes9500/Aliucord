@@ -98,7 +98,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreUserGuildSettings$setHideMutedChannels$1;->this$0:Lcom/discord/stores/StoreUserGuildSettings;
 
-    # getter for: Lcom/discord/stores/StoreUserGuildSettings;->guildsToHideMutedChannelsIn:Ljava/util/HashSet;
     invoke-static {v0}, Lcom/discord/stores/StoreUserGuildSettings;->access$getGuildsToHideMutedChannelsIn$p(Lcom/discord/stores/StoreUserGuildSettings;)Ljava/util/HashSet;
 
     move-result-object v0
@@ -117,7 +116,6 @@
     :cond_14
     iget-object v0, p0, Lcom/discord/stores/StoreUserGuildSettings$setHideMutedChannels$1;->this$0:Lcom/discord/stores/StoreUserGuildSettings;
 
-    # getter for: Lcom/discord/stores/StoreUserGuildSettings;->guildsToHideMutedChannelsIn:Ljava/util/HashSet;
     invoke-static {v0}, Lcom/discord/stores/StoreUserGuildSettings;->access$getGuildsToHideMutedChannelsIn$p(Lcom/discord/stores/StoreUserGuildSettings;)Ljava/util/HashSet;
 
     move-result-object v0

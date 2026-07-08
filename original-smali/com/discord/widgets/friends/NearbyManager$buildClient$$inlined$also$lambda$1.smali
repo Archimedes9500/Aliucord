@@ -70,7 +70,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/friends/NearbyManager$buildClient$$inlined$also$lambda$1;->this$0:Lcom/discord/widgets/friends/NearbyManager;
 
-    # getter for: Lcom/discord/widgets/friends/NearbyManager;->nearbyStateSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/widgets/friends/NearbyManager;->access$getNearbyStateSubject$p(Lcom/discord/widgets/friends/NearbyManager;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1
@@ -92,7 +91,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/friends/NearbyManager$buildClient$$inlined$also$lambda$1;->this$0:Lcom/discord/widgets/friends/NearbyManager;
 
-    # getter for: Lcom/discord/widgets/friends/NearbyManager;->nearbyStateSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/widgets/friends/NearbyManager;->access$getNearbyStateSubject$p(Lcom/discord/widgets/friends/NearbyManager;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1
@@ -103,7 +101,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/friends/NearbyManager$buildClient$$inlined$also$lambda$1;->this$0:Lcom/discord/widgets/friends/NearbyManager;
 
-    # getter for: Lcom/discord/widgets/friends/NearbyManager;->nearbyUserIds:Ljava/util/HashSet;
     invoke-static {v2}, Lcom/discord/widgets/friends/NearbyManager;->access$getNearbyUserIds$p(Lcom/discord/widgets/friends/NearbyManager;)Ljava/util/HashSet;
 
     move-result-object v2

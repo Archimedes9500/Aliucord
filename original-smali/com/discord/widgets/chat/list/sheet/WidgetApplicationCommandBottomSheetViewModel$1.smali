@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel;->handleStoreState(Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel;Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel$StoreState;)V
 
     return-void

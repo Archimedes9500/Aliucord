@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/home/WidgetHomeViewModel$2;->this$0:Lcom/discord/widgets/home/WidgetHomeViewModel;
 
-    # invokes: Lcom/discord/widgets/home/WidgetHomeViewModel;->handleNavDrawerAction(Lcom/discord/stores/StoreNavigation$PanelAction;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/home/WidgetHomeViewModel;->access$handleNavDrawerAction(Lcom/discord/widgets/home/WidgetHomeViewModel;Lcom/discord/stores/StoreNavigation$PanelAction;)V
 
     return-void

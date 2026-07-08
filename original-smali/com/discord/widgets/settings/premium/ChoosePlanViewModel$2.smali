@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;->handleEvent(Lcom/discord/stores/StoreGooglePlayPurchases$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;->access$handleEvent(Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;Lcom/discord/stores/StoreGooglePlayPurchases$Event;)V
 
     return-void

@@ -76,7 +76,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/voice/feedback/WidgetIssueDetailsForm$viewModel$2;->this$0:Lcom/discord/widgets/voice/feedback/WidgetIssueDetailsForm;
 
-    # invokes: Lcom/discord/widgets/voice/feedback/WidgetIssueDetailsForm;->getPendingFeedback()Lcom/discord/widgets/voice/feedback/PendingFeedback;
     invoke-static {v1}, Lcom/discord/widgets/voice/feedback/WidgetIssueDetailsForm;->access$getPendingFeedback(Lcom/discord/widgets/voice/feedback/WidgetIssueDetailsForm;)Lcom/discord/widgets/voice/feedback/PendingFeedback;
 
     move-result-object v1

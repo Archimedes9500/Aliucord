@@ -348,7 +348,6 @@
 
     sget-object v3, Lcom/discord/api/permission/PermissionOverwrite$Type;->ROLE:Lcom/discord/api/permission/PermissionOverwrite$Type;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAdvanced$Model$Companion;->getOverwriteIds(Lcom/discord/api/channel/Channel;Lcom/discord/api/permission/PermissionOverwrite$Type;)Ljava/util/Collection;
     invoke-static {v1, v2, v3}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAdvanced$Model$Companion;->access$getOverwriteIds(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAdvanced$Model$Companion;Lcom/discord/api/channel/Channel;Lcom/discord/api/permission/PermissionOverwrite$Type;)Ljava/util/Collection;
 
     move-result-object v1

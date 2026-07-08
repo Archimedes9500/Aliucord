@@ -103,7 +103,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$UserReactionHandler$requestReactionUpdate$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$UserReactionHandler;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$UserReactionHandler;->storeEmoji:Lcom/discord/stores/StoreEmoji;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$UserReactionHandler;->access$getStoreEmoji$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$UserReactionHandler;)Lcom/discord/stores/StoreEmoji;
 
     move-result-object p1

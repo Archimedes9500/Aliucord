@@ -122,19 +122,16 @@
 
     invoke-static {p1, v2}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->configureEmbedTitle(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Model;Lcom/discord/utilities/textprocessing/MessageRenderContext;)V
     invoke-static {v1, p1, v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->access$configureEmbedTitle(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Model;Lcom/discord/utilities/textprocessing/MessageRenderContext;)V
 
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$onConfigure$4;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->configureEmbedDescription(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Model;Lcom/discord/utilities/textprocessing/MessageRenderContext;)V
     invoke-static {v1, p1, v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->access$configureEmbedDescription(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Model;Lcom/discord/utilities/textprocessing/MessageRenderContext;)V
 
     .line 5
     iget-object v1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$onConfigure$4;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->configureEmbedFields(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Model;Lcom/discord/utilities/textprocessing/MessageRenderContext;)V
     invoke-static {v1, p1, v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;->access$configureEmbedFields(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed;Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Model;Lcom/discord/utilities/textprocessing/MessageRenderContext;)V
 
     return-void

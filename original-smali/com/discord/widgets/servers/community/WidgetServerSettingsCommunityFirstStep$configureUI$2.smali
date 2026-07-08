@@ -102,7 +102,6 @@
     .line 3
     iget-object v2, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep$configureUI$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;
 
-    # getter for: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;->toastManager:Lcom/discord/utilities/view/ToastManager;
     invoke-static {v2}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;->access$getToastManager$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;)Lcom/discord/utilities/view/ToastManager;
 
     move-result-object v2
@@ -116,7 +115,6 @@
     :cond_24
     iget-object p1, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep$configureUI$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;->getViewModel()Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;->access$getViewModel$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityFirstStep;)Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
 
     move-result-object p1

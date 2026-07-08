@@ -96,7 +96,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEditConfirm$configureUI$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEditConfirm;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEditConfirm;->resendVerificationCode()V
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEditConfirm;->access$resendVerificationCode(Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEditConfirm;)V
 
     return-void

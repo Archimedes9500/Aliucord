@@ -63,7 +63,6 @@
     .line 2
     iget-object p1, p0, Lcom/google/android/material/transition/MaterialContainerTransform$b;->e:Lcom/google/android/material/transition/MaterialContainerTransform;
 
-    # getter for: Lcom/google/android/material/transition/MaterialContainerTransform;->holdAtEndEnabled:Z
     invoke-static {p1}, Lcom/google/android/material/transition/MaterialContainerTransform;->access$300(Lcom/google/android/material/transition/MaterialContainerTransform;)Z
 
     move-result p1

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/home/WidgetHome;
 
     .line 2
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->showSurvey(Lcom/discord/utilities/surveys/SurveyUtils$Survey;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/home/WidgetHome;->access$showSurvey(Lcom/discord/widgets/home/WidgetHome;Lcom/discord/utilities/surveys/SurveyUtils$Survey;)V
 
     return-void

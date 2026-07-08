@@ -110,7 +110,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/status/WidgetForumPostStatusViewModel$onReactionPress$1;->this$0:Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;
 
-    # getter for: Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;->userReactionHandler:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$UserReactionHandler;
     invoke-static {v0}, Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;->access$getUserReactionHandler$p(Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;)Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$UserReactionHandler;
 
     move-result-object v1

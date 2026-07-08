@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StorePaymentSources$fetchPaymentSources$1;->this$0:Lcom/discord/stores/StorePaymentSources;
 
-    # getter for: Lcom/discord/stores/StorePaymentSources;->paymentSourcesState:Lcom/discord/stores/StorePaymentSources$PaymentSourcesState;
     invoke-static {v0}, Lcom/discord/stores/StorePaymentSources;->access$getPaymentSourcesState$p(Lcom/discord/stores/StorePaymentSources;)Lcom/discord/stores/StorePaymentSources$PaymentSourcesState;
 
     move-result-object v0
@@ -100,13 +99,11 @@
     :cond_b
     iget-object v0, p0, Lcom/discord/stores/StorePaymentSources$fetchPaymentSources$1;->this$0:Lcom/discord/stores/StorePaymentSources;
 
-    # invokes: Lcom/discord/stores/StorePaymentSources;->handlePaymentSourcesFetchStart()V
     invoke-static {v0}, Lcom/discord/stores/StorePaymentSources;->access$handlePaymentSourcesFetchStart(Lcom/discord/stores/StorePaymentSources;)V
 
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StorePaymentSources$fetchPaymentSources$1;->this$0:Lcom/discord/stores/StorePaymentSources;
 
-    # getter for: Lcom/discord/stores/StorePaymentSources;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v0}, Lcom/discord/stores/StorePaymentSources;->access$getRestAPI$p(Lcom/discord/stores/StorePaymentSources;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0

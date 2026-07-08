@@ -89,7 +89,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet$configureEmptyStateUI$$inlined$with$lambda$3;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->guildInviteSettingsLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {p1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->access$getGuildInviteSettingsLauncher$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v2
@@ -114,7 +113,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet$configureEmptyStateUI$$inlined$with$lambda$3;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->getViewModel()Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->access$getViewModel$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;)Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;
 
     move-result-object p1

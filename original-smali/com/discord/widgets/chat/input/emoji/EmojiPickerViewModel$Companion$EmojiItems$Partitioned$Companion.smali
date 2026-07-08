@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems$Partitioned;->Empty:Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems$Partitioned;
     invoke-static {}, Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems$Partitioned;->access$getEmpty$cp()Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Companion$EmojiItems$Partitioned;
 
     move-result-object v0

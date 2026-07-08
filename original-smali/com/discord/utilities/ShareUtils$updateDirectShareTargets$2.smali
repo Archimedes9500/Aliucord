@@ -143,7 +143,6 @@
 
     invoke-static {p1, v3}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/utilities/ShareUtils;->updateDynamicShortcuts(Ljava/util/List;Landroid/content/Context;Lcom/discord/utilities/images/MGImagesBitmap$CloseableBitmaps;)V
     invoke-static {v1, v0, v2, p1}, Lcom/discord/utilities/ShareUtils;->access$updateDynamicShortcuts(Lcom/discord/utilities/ShareUtils;Ljava/util/List;Landroid/content/Context;Lcom/discord/utilities/images/MGImagesBitmap$CloseableBitmaps;)V
     :try_end_1d
     .catchall {:try_start_c .. :try_end_1d} :catchall_22

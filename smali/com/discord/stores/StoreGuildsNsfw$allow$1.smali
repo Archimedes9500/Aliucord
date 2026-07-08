@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildsNsfw$allow$1;->this$0:Lcom/discord/stores/StoreGuildsNsfw;
 
-    # getter for: Lcom/discord/stores/StoreGuildsNsfw;->guildIdsAllowed:Ljava/util/Set;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildsNsfw;->access$getGuildIdsAllowed$p(Lcom/discord/stores/StoreGuildsNsfw;)Ljava/util/Set;
 
     move-result-object v0

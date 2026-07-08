@@ -103,7 +103,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel$transferGuildBoost$3;->this$0:Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel;
 
-    # invokes: Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel;->handleGuildBoostingCompleted()V
     invoke-static {p1}, Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel;->access$handleGuildBoostingCompleted(Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel;)V
 
     return-void

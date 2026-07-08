@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet$bindSubscriptions$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->configureUI(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->access$configureUI(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$ViewState;)V
 
     return-void

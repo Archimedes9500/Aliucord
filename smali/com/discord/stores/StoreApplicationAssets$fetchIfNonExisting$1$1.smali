@@ -108,7 +108,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreApplicationAssets$fetchIfNonExisting$1;->this$0:Lcom/discord/stores/StoreApplicationAssets;
 
-    # getter for: Lcom/discord/stores/StoreApplicationAssets;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationAssets;->access$getDispatcher$p(Lcom/discord/stores/StoreApplicationAssets;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

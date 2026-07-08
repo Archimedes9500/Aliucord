@@ -223,7 +223,6 @@
     :cond_38
     iget-object p1, v0, Lcom/discord/stores/StoreMediaEngine$awaitVideoInputDevicesNativeAsync$devices$1;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # getter for: Lcom/discord/stores/StoreMediaEngine;->hasTimedOutAwaitingDevice:Z
     invoke-static {p1}, Lcom/discord/stores/StoreMediaEngine;->access$getHasTimedOutAwaitingDevice$p(Lcom/discord/stores/StoreMediaEngine;)Z
 
     move-result p1

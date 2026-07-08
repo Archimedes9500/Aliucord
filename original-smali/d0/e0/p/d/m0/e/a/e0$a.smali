@@ -97,7 +97,6 @@
     .end annotation
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/a/e0;->c:Ljava/util/List;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/e0;->access$getERASED_COLLECTION_PARAMETER_SIGNATURES$cp()Ljava/util/List;
 
     move-result-object v0
@@ -117,7 +116,6 @@
     .end annotation
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/a/e0;->f:Ljava/util/Set;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/e0;->access$getERASED_VALUE_PARAMETERS_SHORT_NAMES$cp()Ljava/util/Set;
 
     move-result-object v0
@@ -137,7 +135,6 @@
     .end annotation
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/a/e0;->g:Ljava/util/Set;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/e0;->access$getERASED_VALUE_PARAMETERS_SIGNATURES$cp()Ljava/util/Set;
 
     move-result-object v0
@@ -159,7 +156,6 @@
     .end annotation
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/a/e0;->l:Ljava/util/Map;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/e0;->access$getJVM_SHORT_NAME_TO_BUILTIN_SHORT_NAMES_MAP$cp()Ljava/util/Map;
 
     move-result-object v0
@@ -179,7 +175,6 @@
     .end annotation
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/a/e0;->k:Ljava/util/List;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/e0;->access$getORIGINAL_SHORT_NAMES$cp()Ljava/util/List;
 
     move-result-object v0
@@ -191,7 +186,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/a/e0;->h:Ld0/e0/p/d/m0/e/a/e0$a$a;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/e0;->access$getREMOVE_AT_NAME_AND_SIGNATURE$cp()Ld0/e0/p/d/m0/e/a/e0$a$a;
 
     move-result-object v0
@@ -212,7 +206,6 @@
     .end annotation
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/a/e0;->e:Ljava/util/Map;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/e0;->access$getSIGNATURE_TO_DEFAULT_VALUES_MAP$cp()Ljava/util/Map;
 
     move-result-object v0
@@ -233,7 +226,6 @@
     .end annotation
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/a/e0;->j:Ljava/util/Map;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/e0;->access$getSIGNATURE_TO_JVM_REPRESENTATION_NAME$cp()Ljava/util/Map;
 
     move-result-object v0

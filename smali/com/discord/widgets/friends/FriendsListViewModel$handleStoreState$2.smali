@@ -106,7 +106,6 @@
     move-result v1
 
     .line 4
-    # invokes: Lcom/discord/widgets/friends/FriendsListViewModel;->handleComputedItems(Lcom/discord/widgets/friends/FriendsListViewModel$ListSections;Z)V
     invoke-static {v0, p1, v1}, Lcom/discord/widgets/friends/FriendsListViewModel;->access$handleComputedItems(Lcom/discord/widgets/friends/FriendsListViewModel;Lcom/discord/widgets/friends/FriendsListViewModel$ListSections;Z)V
 
     return-void

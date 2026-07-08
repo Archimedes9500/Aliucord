@@ -323,7 +323,6 @@
     move-wide v4, p3
 
     .line 6
-    # invokes: Lcom/discord/widgets/settings/MuteSettingsSheetViewModel$Companion;->observeStoreState(JJLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreUserGuildSettings;Lcom/discord/stores/StoreThreadsJoined;)Lrx/Observable;
     invoke-static/range {v1 .. v9}, Lcom/discord/widgets/settings/MuteSettingsSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/settings/MuteSettingsSheetViewModel$Companion;JJLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreUserGuildSettings;Lcom/discord/stores/StoreThreadsJoined;)Lrx/Observable;
 
     move-result-object v0

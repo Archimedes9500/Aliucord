@@ -68,7 +68,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/changelog/WidgetChangeLog$thumbnailControllerListener$1;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLog;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLog;->hideVideoOverlay()V
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLog;->access$hideVideoOverlay(Lcom/discord/widgets/changelog/WidgetChangeLog;)V
 
     .line 2
@@ -76,7 +75,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/changelog/WidgetChangeLog$thumbnailControllerListener$1;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLog;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLog;->getBinding()Lcom/discord/databinding/WidgetChangeLogBinding;
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLog;->access$getBinding$p(Lcom/discord/widgets/changelog/WidgetChangeLog;)Lcom/discord/databinding/WidgetChangeLogBinding;
 
     move-result-object p1

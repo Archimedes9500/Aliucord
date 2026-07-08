@@ -78,7 +78,6 @@
     :cond_7
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsChannelsFabMenuFragment$createListener$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsChannelsFabMenuFragment;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsChannelsFabMenuFragment;->dismiss()V
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsChannelsFabMenuFragment;->access$dismiss(Lcom/discord/widgets/servers/WidgetServerSettingsChannelsFabMenuFragment;)V
 
     return-void

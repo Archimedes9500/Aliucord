@@ -79,7 +79,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet$configureUi$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->navigateToUpsellModal()V
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->access$navigateToUpsellModal(Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;)V
 
     goto :goto_1c

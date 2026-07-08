@@ -82,7 +82,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify$handleCodeEntered$2;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;
 
-    # invokes: Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;->handleCodeReceived(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;->access$handleCodeReceived(Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;Ljava/lang/String;)V
 
     return-void

@@ -102,7 +102,6 @@
 
     iget-object v0, p0, Lcom/discord/utilities/textprocessing/node/EmojiNode$render$clickableSpan$1;->this$0:Lcom/discord/utilities/textprocessing/node/EmojiNode;
 
-    # getter for: Lcom/discord/utilities/textprocessing/node/EmojiNode;->emojiIdAndType:Lcom/discord/utilities/textprocessing/node/EmojiNode$EmojiIdAndType;
     invoke-static {v0}, Lcom/discord/utilities/textprocessing/node/EmojiNode;->access$getEmojiIdAndType$p(Lcom/discord/utilities/textprocessing/node/EmojiNode;)Lcom/discord/utilities/textprocessing/node/EmojiNode$EmojiIdAndType;
 
     move-result-object v0

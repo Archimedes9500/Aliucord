@@ -152,7 +152,6 @@
     iput v1, p0, Landroidx/constraintlayout/widget/ConstraintSet$PropertySet;->visibility:I
 
     .line 9
-    # getter for: Landroidx/constraintlayout/widget/ConstraintSet;->VISIBILITY_FLAGS:[I
     invoke-static {}, Landroidx/constraintlayout/widget/ConstraintSet;->access$200()[I
 
     move-result-object v1

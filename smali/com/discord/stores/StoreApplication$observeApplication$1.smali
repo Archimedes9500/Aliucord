@@ -78,7 +78,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplication$observeApplication$1;->this$0:Lcom/discord/stores/StoreApplication;
 
-    # getter for: Lcom/discord/stores/StoreApplication;->applicationsSnapshot:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreApplication;->access$getApplicationsSnapshot$p(Lcom/discord/stores/StoreApplication;)Ljava/util/HashMap;
 
     move-result-object v0

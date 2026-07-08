@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverview;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverview;->configureUI(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverview;->access$configureUI(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverview;Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityOverviewViewModel$ViewState;)V
 
     return-void

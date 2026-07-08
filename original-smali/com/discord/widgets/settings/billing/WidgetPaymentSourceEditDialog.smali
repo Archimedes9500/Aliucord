@@ -1354,7 +1354,6 @@
 
     invoke-static {v2, v3}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->getTextOrEmpty(Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
     invoke-static {v1, v2}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->access$getTextOrEmpty(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
 
     move-result-object v1
@@ -1459,7 +1458,6 @@
 
     invoke-static {v5, v8}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->getTextOrEmpty(Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
     invoke-static {v3, v5}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->access$getTextOrEmpty(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
 
     move-result-object v9
@@ -1475,7 +1473,6 @@
 
     invoke-static {v5, v8}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->getTextOrEmpty(Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
     invoke-static {v3, v5}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->access$getTextOrEmpty(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
 
     move-result-object v10
@@ -1491,7 +1488,6 @@
 
     invoke-static {v5, v8}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->getTextOrEmpty(Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
     invoke-static {v3, v5}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->access$getTextOrEmpty(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
 
     move-result-object v11
@@ -1507,7 +1503,6 @@
 
     invoke-static {v5, v8}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->getTextOrEmpty(Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
     invoke-static {v3, v5}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->access$getTextOrEmpty(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
 
     move-result-object v12
@@ -1523,7 +1518,6 @@
 
     invoke-static {v5, v8}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->getTextOrEmpty(Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
     invoke-static {v3, v5}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->access$getTextOrEmpty(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
 
     move-result-object v15
@@ -1539,7 +1533,6 @@
 
     invoke-static {v5, v8}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->getTextOrEmpty(Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
     invoke-static {v3, v5}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;->access$getTextOrEmpty(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$Companion;Lcom/google/android/material/textfield/TextInputLayout;)Ljava/lang/String;
 
     move-result-object v14

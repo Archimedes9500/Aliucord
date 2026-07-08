@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreMessagesLoader;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreMessagesLoader;->handleChatInteraction(Lcom/discord/stores/StoreChat$InteractionState;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreMessagesLoader;->access$handleChatInteraction(Lcom/discord/stores/StoreMessagesLoader;Lcom/discord/stores/StoreChat$InteractionState;)V
 
     return-void

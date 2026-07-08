@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel$1;->this$0:Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel;
 
-    # invokes: Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel;->handleStoreState(Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel;->access$handleStoreState(Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel;Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel$StoreState;)V
 
     return-void

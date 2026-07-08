@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheet$configureUI$1;->this$0:Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheet;
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheet;->getViewModel()Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheetViewModel;
     invoke-static {p1}, Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheet;->access$getViewModel$p(Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheet;)Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheetViewModel;
 
     move-result-object p1

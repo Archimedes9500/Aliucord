@@ -97,7 +97,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$samsungDisclaimerLauncher$1;->this$0:Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->samsungConnectLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->access$getSamsungConnectLauncher$p(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v0

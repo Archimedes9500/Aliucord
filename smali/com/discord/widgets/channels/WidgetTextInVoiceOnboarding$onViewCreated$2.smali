@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding$onViewCreated$2;->this$0:Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;
 
-    # getter for: Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;->onCtaClicked:Lkotlin/jvm/functions/Function0;
     invoke-static {p1}, Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;->access$getOnCtaClicked$p(Lcom/discord/widgets/channels/WidgetTextInVoiceOnboarding;)Lkotlin/jvm/functions/Function0;
 
     move-result-object p1

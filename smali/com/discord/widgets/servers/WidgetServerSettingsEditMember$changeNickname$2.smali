@@ -96,7 +96,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember$changeNickname$2;->$nickname:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->onNicknameChangeSuccessful(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->access$onNicknameChangeSuccessful(Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;Ljava/lang/String;)V
 
     return-void

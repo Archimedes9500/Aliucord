@@ -208,7 +208,6 @@
     .line 2
     sget-object p4, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel;->Companion:Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel$Companion;->observeStores(J)Lrx/Observable;
     invoke-static {p4, p1, p2}, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel$Companion;->access$observeStores(Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel$Companion;J)Lrx/Observable;
 
     move-result-object p4

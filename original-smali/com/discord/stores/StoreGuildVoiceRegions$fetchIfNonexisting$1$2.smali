@@ -96,7 +96,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreGuildVoiceRegions$fetchIfNonexisting$1;->this$0:Lcom/discord/stores/StoreGuildVoiceRegions;
 
-    # getter for: Lcom/discord/stores/StoreGuildVoiceRegions;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreGuildVoiceRegions;->access$getDispatcher$p(Lcom/discord/stores/StoreGuildVoiceRegions;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

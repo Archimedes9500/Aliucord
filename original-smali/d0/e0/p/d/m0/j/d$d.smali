@@ -65,7 +65,6 @@
     .line 1
     iget-object v0, p0, Ld0/e0/p/d/m0/j/d$d;->this$0:Ld0/e0/p/d/m0/j/d;
 
-    # invokes: Ld0/e0/p/d/m0/j/d;->k(Ld0/e0/p/d/m0/k/v/g;)Ljava/lang/String;
     invoke-static {v0, p1}, Ld0/e0/p/d/m0/j/d;->access$renderConstant(Ld0/e0/p/d/m0/j/d;Ld0/e0/p/d/m0/k/v/g;)Ljava/lang/String;
 
     move-result-object p1

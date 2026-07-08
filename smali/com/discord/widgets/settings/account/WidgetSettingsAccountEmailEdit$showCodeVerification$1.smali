@@ -98,7 +98,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit$showCodeVerification$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;
 
-    # getter for: Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;->nextScreenLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;->access$getNextScreenLauncher$p(Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v1
@@ -106,7 +105,6 @@
     .line 5
     iget-object v2, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit$showCodeVerification$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;->getBinding()Lcom/discord/databinding/WidgetSettingsAccountEmailEditBinding;
     invoke-static {v2}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;)Lcom/discord/databinding/WidgetSettingsAccountEmailEditBinding;
 
     move-result-object v2

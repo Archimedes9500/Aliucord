@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/friends/FriendsListViewModel$1;->this$0:Lcom/discord/widgets/friends/FriendsListViewModel;
 
-    # invokes: Lcom/discord/widgets/friends/FriendsListViewModel;->handleStoreState(Lcom/discord/widgets/friends/FriendsListViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/friends/FriendsListViewModel;->access$handleStoreState(Lcom/discord/widgets/friends/FriendsListViewModel;Lcom/discord/widgets/friends/FriendsListViewModel$StoreState;)V
 
     return-void

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserActiveViewModel$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserActiveViewModel;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserActiveViewModel;->handleStoreState(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserActiveViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserActiveViewModel;->access$handleStoreState(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserActiveViewModel;Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserActiveViewModel$StoreState;)V
 
     return-void

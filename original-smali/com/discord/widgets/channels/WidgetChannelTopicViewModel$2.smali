@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$2;->this$0:Lcom/discord/widgets/channels/WidgetChannelTopicViewModel;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelTopicViewModel;->handleStoreState(Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/WidgetChannelTopicViewModel;->access$handleStoreState(Lcom/discord/widgets/channels/WidgetChannelTopicViewModel;Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$StoreState;)V
 
     return-void

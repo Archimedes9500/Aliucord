@@ -72,7 +72,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/gateway/opcodes/Opcode;->intLookup:Ljava/util/HashMap;
     invoke-static {}, Lcom/discord/gateway/opcodes/Opcode;->access$getIntLookup$cp()Ljava/util/HashMap;
 
     move-result-object v0

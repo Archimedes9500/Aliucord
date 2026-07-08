@@ -157,7 +157,6 @@
     new-instance v2, Lcom/discord/stores/StoreNotices$Notice;
 
     .line 2
-    # getter for: Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;->resolvableFragments:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;->access$getResolvableFragments$cp()Ljava/util/List;
 
     move-result-object v10

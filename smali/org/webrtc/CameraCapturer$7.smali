@@ -45,7 +45,6 @@
     .line 1
     iget-object v0, p0, Lorg/webrtc/CameraCapturer$7;->this$0:Lorg/webrtc/CameraCapturer;
 
-    # getter for: Lorg/webrtc/CameraCapturer;->cameraEnumerator:Lorg/webrtc/CameraEnumerator;
     invoke-static {v0}, Lorg/webrtc/CameraCapturer;->access$1400(Lorg/webrtc/CameraCapturer;)Lorg/webrtc/CameraEnumerator;
 
     move-result-object v0
@@ -74,7 +73,6 @@
 
     const-string v2, "No camera to switch to."
 
-    # invokes: Lorg/webrtc/CameraCapturer;->reportCameraSwitchError(Ljava/lang/String;Lorg/webrtc/CameraVideoCapturer$CameraSwitchHandler;)V
     invoke-static {v0, v2, v1}, Lorg/webrtc/CameraCapturer;->access$2500(Lorg/webrtc/CameraCapturer;Ljava/lang/String;Lorg/webrtc/CameraVideoCapturer$CameraSwitchHandler;)V
 
     return-void
@@ -83,7 +81,6 @@
     :cond_1f
     iget-object v1, p0, Lorg/webrtc/CameraCapturer$7;->this$0:Lorg/webrtc/CameraCapturer;
 
-    # getter for: Lorg/webrtc/CameraCapturer;->cameraName:Ljava/lang/String;
     invoke-static {v1}, Lorg/webrtc/CameraCapturer;->access$1300(Lorg/webrtc/CameraCapturer;)Ljava/lang/String;
 
     move-result-object v1
@@ -112,7 +109,6 @@
 
     iget-object v2, p0, Lorg/webrtc/CameraCapturer$7;->val$switchEventsHandler:Lorg/webrtc/CameraVideoCapturer$CameraSwitchHandler;
 
-    # invokes: Lorg/webrtc/CameraCapturer;->switchCameraInternal(Lorg/webrtc/CameraVideoCapturer$CameraSwitchHandler;Ljava/lang/String;)V
     invoke-static {v1, v2, v0}, Lorg/webrtc/CameraCapturer;->access$1600(Lorg/webrtc/CameraCapturer;Lorg/webrtc/CameraVideoCapturer$CameraSwitchHandler;Ljava/lang/String;)V
 
     return-void

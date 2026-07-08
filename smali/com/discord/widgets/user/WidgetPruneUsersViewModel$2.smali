@@ -101,7 +101,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetPruneUsersViewModel$2;->this$0:Lcom/discord/widgets/user/WidgetPruneUsersViewModel;
 
-    # invokes: Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->getUpdatedPruneCount()V
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->access$getUpdatedPruneCount(Lcom/discord/widgets/user/WidgetPruneUsersViewModel;)V
 
     goto :goto_1c
@@ -116,7 +115,6 @@
 
     invoke-direct {v0, v1}, Lcom/discord/widgets/user/WidgetPruneUsersViewModel$ViewState$LoadFailed;-><init>(Z)V
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->access$updateViewState(Lcom/discord/widgets/user/WidgetPruneUsersViewModel;Lcom/discord/widgets/user/WidgetPruneUsersViewModel$ViewState;)V
 
     :goto_1c

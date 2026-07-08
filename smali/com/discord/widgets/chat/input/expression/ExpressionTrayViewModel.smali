@@ -504,7 +504,6 @@
 
     move-object p6, v6
 
-    # invokes: Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel$Companion;->observeStoreState(Lcom/discord/stores/StoreExpressionPickerNavigation;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreGuildStickers;Lcom/discord/stores/StoreGuilds;)Lrx/Observable;
     invoke-static/range {p1 .. p6}, Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel$Companion;Lcom/discord/stores/StoreExpressionPickerNavigation;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreGuildStickers;Lcom/discord/stores/StoreGuilds;)Lrx/Observable;
 
     move-result-object v7

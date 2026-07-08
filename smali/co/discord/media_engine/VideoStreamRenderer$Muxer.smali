@@ -89,7 +89,6 @@
     invoke-static {p3, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lco/discord/media_engine/VideoStreamRenderer;->streams:Ljava/util/Map;
     invoke-static {}, Lco/discord/media_engine/VideoStreamRenderer;->access$getStreams$cp()Ljava/util/Map;
 
     move-result-object v0
@@ -98,10 +97,8 @@
 
     .line 2
     :try_start_16
-    # getter for: Lco/discord/media_engine/VideoStreamRenderer;->Muxer:Lco/discord/media_engine/VideoStreamRenderer$Muxer;
     invoke-static {}, Lco/discord/media_engine/VideoStreamRenderer;->access$Muxer()Lco/discord/media_engine/VideoStreamRenderer$Muxer;
 
-    # getter for: Lco/discord/media_engine/VideoStreamRenderer;->streams:Ljava/util/Map;
     invoke-static {}, Lco/discord/media_engine/VideoStreamRenderer;->access$getStreams$cp()Ljava/util/Map;
 
     move-result-object v1
@@ -160,10 +157,8 @@
     invoke-virtual {p1, p3, v1}, Lcom/hammerandchisel/libdiscord/Discord;->setVideoOutputSink(Ljava/lang/String;Lcom/hammerandchisel/libdiscord/Discord$VideoFrameCallback;)V
 
     .line 8
-    # getter for: Lco/discord/media_engine/VideoStreamRenderer;->Muxer:Lco/discord/media_engine/VideoStreamRenderer$Muxer;
     invoke-static {}, Lco/discord/media_engine/VideoStreamRenderer;->access$Muxer()Lco/discord/media_engine/VideoStreamRenderer$Muxer;
 
-    # getter for: Lco/discord/media_engine/VideoStreamRenderer;->streams:Ljava/util/Map;
     invoke-static {}, Lco/discord/media_engine/VideoStreamRenderer;->access$getStreams$cp()Ljava/util/Map;
 
     move-result-object p1
@@ -202,7 +197,6 @@
     invoke-static {p3, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lco/discord/media_engine/VideoStreamRenderer;->streams:Ljava/util/Map;
     invoke-static {}, Lco/discord/media_engine/VideoStreamRenderer;->access$getStreams$cp()Ljava/util/Map;
 
     move-result-object v0
@@ -211,10 +205,8 @@
 
     .line 2
     :try_start_16
-    # getter for: Lco/discord/media_engine/VideoStreamRenderer;->Muxer:Lco/discord/media_engine/VideoStreamRenderer$Muxer;
     invoke-static {}, Lco/discord/media_engine/VideoStreamRenderer;->access$Muxer()Lco/discord/media_engine/VideoStreamRenderer$Muxer;
 
-    # getter for: Lco/discord/media_engine/VideoStreamRenderer;->streams:Ljava/util/Map;
     invoke-static {}, Lco/discord/media_engine/VideoStreamRenderer;->access$getStreams$cp()Ljava/util/Map;
 
     move-result-object v1
@@ -249,10 +241,8 @@
     invoke-virtual {p1, p3, p2}, Lcom/hammerandchisel/libdiscord/Discord;->setVideoOutputSink(Ljava/lang/String;Lcom/hammerandchisel/libdiscord/Discord$VideoFrameCallback;)V
 
     .line 7
-    # getter for: Lco/discord/media_engine/VideoStreamRenderer;->Muxer:Lco/discord/media_engine/VideoStreamRenderer$Muxer;
     invoke-static {}, Lco/discord/media_engine/VideoStreamRenderer;->access$Muxer()Lco/discord/media_engine/VideoStreamRenderer$Muxer;
 
-    # getter for: Lco/discord/media_engine/VideoStreamRenderer;->streams:Ljava/util/Map;
     invoke-static {}, Lco/discord/media_engine/VideoStreamRenderer;->access$getStreams$cp()Ljava/util/Map;
 
     move-result-object p1

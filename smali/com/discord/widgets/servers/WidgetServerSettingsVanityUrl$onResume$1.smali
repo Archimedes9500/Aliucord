@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Model;)V
 
     return-void

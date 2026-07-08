@@ -100,7 +100,6 @@
     aput-object v2, v0, v4
 
     .line 2
-    # invokes: Lcom/discord/utilities/textprocessing/node/EditedMessageNode$Companion;->getForegroundColorSpan(Landroid/content/Context;)Landroid/text/style/ForegroundColorSpan;
     invoke-static {v1, p1}, Lcom/discord/utilities/textprocessing/node/EditedMessageNode$Companion;->access$getForegroundColorSpan(Lcom/discord/utilities/textprocessing/node/EditedMessageNode$Companion;Landroid/content/Context;)Landroid/text/style/ForegroundColorSpan;
 
     move-result-object v2

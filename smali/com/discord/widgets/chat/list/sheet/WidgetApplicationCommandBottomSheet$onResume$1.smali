@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheet$onResume$1;->this$0:Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheet;
 
-    # invokes: Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheet;->configureUI(Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheet;->access$configureUI(Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheet;Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel$ViewState;)V
 
     return-void

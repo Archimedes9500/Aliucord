@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;->handleEvent(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;->access$handleEvent(Lcom/discord/widgets/settings/premium/WidgetSettingsGifting;Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$Event;)V
 
     return-void

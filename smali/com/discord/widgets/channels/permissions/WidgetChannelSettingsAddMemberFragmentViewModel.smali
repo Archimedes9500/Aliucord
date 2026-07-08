@@ -365,7 +365,6 @@
 
     move-object/from16 p9, v7
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragmentViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUser;)Lrx/Observable;
     invoke-static/range {p4 .. p9}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragmentViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragmentViewModel$Companion;JLcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUser;)Lrx/Observable;
 
     move-result-object v0

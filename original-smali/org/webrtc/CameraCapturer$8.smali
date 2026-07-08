@@ -53,7 +53,6 @@
 
     iget-object v2, p0, Lorg/webrtc/CameraCapturer$8;->val$cameraName:Ljava/lang/String;
 
-    # invokes: Lorg/webrtc/CameraCapturer;->switchCameraInternal(Lorg/webrtc/CameraVideoCapturer$CameraSwitchHandler;Ljava/lang/String;)V
     invoke-static {v0, v1, v2}, Lorg/webrtc/CameraCapturer;->access$1600(Lorg/webrtc/CameraCapturer;Lorg/webrtc/CameraVideoCapturer$CameraSwitchHandler;Ljava/lang/String;)V
 
     return-void

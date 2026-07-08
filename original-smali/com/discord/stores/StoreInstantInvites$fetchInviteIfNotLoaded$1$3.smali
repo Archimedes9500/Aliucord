@@ -130,7 +130,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreInstantInvites$fetchInviteIfNotLoaded$1;->this$0:Lcom/discord/stores/StoreInstantInvites;
 
-    # getter for: Lcom/discord/stores/StoreInstantInvites;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreInstantInvites;->access$getDispatcher$p(Lcom/discord/stores/StoreInstantInvites;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1
@@ -154,7 +153,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreInstantInvites$fetchInviteIfNotLoaded$1;->this$0:Lcom/discord/stores/StoreInstantInvites;
 
-    # getter for: Lcom/discord/stores/StoreInstantInvites;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreInstantInvites;->access$getDispatcher$p(Lcom/discord/stores/StoreInstantInvites;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

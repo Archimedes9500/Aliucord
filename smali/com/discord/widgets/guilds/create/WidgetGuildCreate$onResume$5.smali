@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/create/WidgetGuildCreate$onResume$5;->this$0:Lcom/discord/widgets/guilds/create/WidgetGuildCreate;
 
-    # invokes: Lcom/discord/widgets/guilds/create/WidgetGuildCreate;->getViewModel()Lcom/discord/widgets/guilds/create/WidgetGuildCreateViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guilds/create/WidgetGuildCreate;->access$getViewModel$p(Lcom/discord/widgets/guilds/create/WidgetGuildCreate;)Lcom/discord/widgets/guilds/create/WidgetGuildCreateViewModel;
 
     move-result-object p1

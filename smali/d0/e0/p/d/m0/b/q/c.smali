@@ -357,7 +357,6 @@
 
     const-class v7, Ljava/lang/Iterable;
 
-    # invokes: Ld0/e0/p/d/m0/b/q/c;->e(Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
     invoke-static {v0, v7}, Ld0/e0/p/d/m0/b/q/c;->access$classId(Ld0/e0/p/d/m0/b/q/c;Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
 
     move-result-object v7
@@ -403,7 +402,6 @@
 
     const-class v7, Ljava/util/Iterator;
 
-    # invokes: Ld0/e0/p/d/m0/b/q/c;->e(Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
     invoke-static {v0, v7}, Ld0/e0/p/d/m0/b/q/c;->access$classId(Ld0/e0/p/d/m0/b/q/c;Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
 
     move-result-object v7
@@ -451,7 +449,6 @@
 
     const-class v7, Ljava/util/Collection;
 
-    # invokes: Ld0/e0/p/d/m0/b/q/c;->e(Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
     invoke-static {v0, v7}, Ld0/e0/p/d/m0/b/q/c;->access$classId(Ld0/e0/p/d/m0/b/q/c;Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
 
     move-result-object v7
@@ -499,7 +496,6 @@
 
     const-class v7, Ljava/util/List;
 
-    # invokes: Ld0/e0/p/d/m0/b/q/c;->e(Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
     invoke-static {v0, v7}, Ld0/e0/p/d/m0/b/q/c;->access$classId(Ld0/e0/p/d/m0/b/q/c;Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
 
     move-result-object v7
@@ -547,7 +543,6 @@
 
     const-class v7, Ljava/util/Set;
 
-    # invokes: Ld0/e0/p/d/m0/b/q/c;->e(Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
     invoke-static {v0, v7}, Ld0/e0/p/d/m0/b/q/c;->access$classId(Ld0/e0/p/d/m0/b/q/c;Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
 
     move-result-object v7
@@ -595,7 +590,6 @@
 
     const-class v7, Ljava/util/ListIterator;
 
-    # invokes: Ld0/e0/p/d/m0/b/q/c;->e(Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
     invoke-static {v0, v7}, Ld0/e0/p/d/m0/b/q/c;->access$classId(Ld0/e0/p/d/m0/b/q/c;Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
 
     move-result-object v7
@@ -643,7 +637,6 @@
 
     const-class v10, Ljava/util/Map;
 
-    # invokes: Ld0/e0/p/d/m0/b/q/c;->e(Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
     invoke-static {v0, v10}, Ld0/e0/p/d/m0/b/q/c;->access$classId(Ld0/e0/p/d/m0/b/q/c;Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
 
     move-result-object v10
@@ -699,7 +692,6 @@
 
     const-class v7, Ljava/util/Map$Entry;
 
-    # invokes: Ld0/e0/p/d/m0/b/q/c;->e(Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
     invoke-static {v0, v7}, Ld0/e0/p/d/m0/b/q/c;->access$classId(Ld0/e0/p/d/m0/b/q/c;Ljava/lang/Class;)Ld0/e0/p/d/m0/g/a;
 
     move-result-object v7

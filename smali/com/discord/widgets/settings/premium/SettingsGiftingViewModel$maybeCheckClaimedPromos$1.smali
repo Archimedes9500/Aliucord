@@ -89,7 +89,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$maybeCheckClaimedPromos$1;->this$0:Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->shouldCheckClaimedPromos:Ljava/util/concurrent/atomic/AtomicBoolean;
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->access$getShouldCheckClaimedPromos$p(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;)Ljava/util/concurrent/atomic/AtomicBoolean;
 
     move-result-object p1

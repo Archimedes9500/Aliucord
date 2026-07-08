@@ -180,7 +180,6 @@
 
     iget-object p1, p1, Lcom/discord/utilities/handoff/MobileWebHandoff$redirectWithHandoffToken$token$1;->this$0:Lcom/discord/utilities/handoff/MobileWebHandoff;
 
-    # getter for: Lcom/discord/utilities/handoff/MobileWebHandoff;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {p1}, Lcom/discord/utilities/handoff/MobileWebHandoff;->access$getRestAPI$p(Lcom/discord/utilities/handoff/MobileWebHandoff;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object p1
@@ -202,7 +201,6 @@
 
     iget-object v1, v1, Lcom/discord/utilities/handoff/MobileWebHandoff$redirectWithHandoffToken$token$1;->this$0:Lcom/discord/utilities/handoff/MobileWebHandoff;
 
-    # getter for: Lcom/discord/utilities/handoff/MobileWebHandoff;->context:Landroid/content/Context;
     invoke-static {v1}, Lcom/discord/utilities/handoff/MobileWebHandoff;->access$getContext$p(Lcom/discord/utilities/handoff/MobileWebHandoff;)Landroid/content/Context;
 
     move-result-object v1
@@ -231,7 +229,6 @@
 
     iget-object v0, v0, Lcom/discord/utilities/handoff/MobileWebHandoff$redirectWithHandoffToken$token$1;->this$0:Lcom/discord/utilities/handoff/MobileWebHandoff;
 
-    # getter for: Lcom/discord/utilities/handoff/MobileWebHandoff;->analytics:Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker;
     invoke-static {v0}, Lcom/discord/utilities/handoff/MobileWebHandoff;->access$getAnalytics$p(Lcom/discord/utilities/handoff/MobileWebHandoff;)Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker;
 
     move-result-object v0

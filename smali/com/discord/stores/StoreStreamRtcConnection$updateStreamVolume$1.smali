@@ -96,7 +96,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreStreamRtcConnection$updateStreamVolume$1;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->streamOwner:Ljava/lang/Long;
     invoke-static {v0}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getStreamOwner$p(Lcom/discord/stores/StoreStreamRtcConnection;)Ljava/lang/Long;
 
     move-result-object v0
@@ -110,7 +109,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/stores/StoreStreamRtcConnection$updateStreamVolume$1;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->rtcConnection:Lcom/discord/rtcconnection/RtcConnection;
     invoke-static {v2}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getRtcConnection$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/rtcconnection/RtcConnection;
 
     move-result-object v2

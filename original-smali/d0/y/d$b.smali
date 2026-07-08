@@ -61,7 +61,6 @@
     iput-object v0, p0, Ld0/y/d$b;->l:Ljava/util/ArrayDeque;
 
     .line 3
-    # getter for: Ld0/y/d;->a:Ljava/io/File;
     invoke-static {p1}, Ld0/y/d;->access$getStart$p(Ld0/y/d;)Ljava/io/File;
 
     move-result-object v1
@@ -72,7 +71,6 @@
 
     if-eqz v1, :cond_22
 
-    # getter for: Ld0/y/d;->a:Ljava/io/File;
     invoke-static {p1}, Ld0/y/d;->access$getStart$p(Ld0/y/d;)Ljava/io/File;
 
     move-result-object p1
@@ -87,7 +85,6 @@
 
     .line 4
     :cond_22
-    # getter for: Ld0/y/d;->a:Ljava/io/File;
     invoke-static {p1}, Ld0/y/d;->access$getStart$p(Ld0/y/d;)Ljava/io/File;
 
     move-result-object v1
@@ -100,7 +97,6 @@
 
     new-instance v1, Ld0/y/d$b$b;
 
-    # getter for: Ld0/y/d;->a:Ljava/io/File;
     invoke-static {p1}, Ld0/y/d;->access$getStart$p(Ld0/y/d;)Ljava/io/File;
 
     move-result-object p1
@@ -178,7 +174,6 @@
 
     iget-object v2, p0, Ld0/y/d$b;->m:Ld0/y/d;
 
-    # getter for: Ld0/y/d;->f:I
     invoke-static {v2}, Ld0/y/d;->access$getMaxDepth$p(Ld0/y/d;)I
 
     move-result v2
@@ -232,7 +227,6 @@
     .line 1
     iget-object v0, p0, Ld0/y/d$b;->m:Ld0/y/d;
 
-    # getter for: Ld0/y/d;->b:Ld0/y/e;
     invoke-static {v0}, Ld0/y/d;->access$getDirection$p(Ld0/y/d;)Ld0/y/e;
 
     move-result-object v0

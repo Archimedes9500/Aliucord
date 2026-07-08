@@ -77,7 +77,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet$viewModel$2;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->getGuildId()J
     invoke-static {v0}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->access$getGuildId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;)J
 
     move-result-wide v1
@@ -85,7 +84,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet$viewModel$2;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->getChannelId()J
     invoke-static {v0}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->access$getChannelId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;)J
 
     move-result-wide v3

@@ -52,7 +52,6 @@
     .line 3
     iget-object v0, p0, Ld0/e0/p/d/m0/b/q/n;->this$0:Ld0/e0/p/d/m0/b/q/g;
 
-    # getter for: Ld0/e0/p/d/m0/b/q/g;->c:Ld0/e0/p/d/m0/b/q/d;
     invoke-static {v0}, Ld0/e0/p/d/m0/b/q/g;->access$getJ2kClassMapper$p(Ld0/e0/p/d/m0/b/q/g;)Ld0/e0/p/d/m0/b/q/d;
 
     move-result-object v0

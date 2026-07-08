@@ -97,7 +97,6 @@
 
     iget-object v2, p0, Lcom/discord/stores/StoreRequestedStageChannels$fetchStageChannels$1$2$1;->$stageInstances:Ljava/util/List;
 
-    # invokes: Lcom/discord/stores/StoreRequestedStageChannels;->onLoaded(Ljava/util/Set;Ljava/util/List;)V
     invoke-static {v1, v0, v2}, Lcom/discord/stores/StoreRequestedStageChannels;->access$onLoaded(Lcom/discord/stores/StoreRequestedStageChannels;Ljava/util/Set;Ljava/util/List;)V
 
     return-void

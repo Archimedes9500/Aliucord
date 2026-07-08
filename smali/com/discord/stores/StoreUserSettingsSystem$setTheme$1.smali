@@ -103,7 +103,6 @@
 
     iget-object v3, p0, Lcom/discord/stores/StoreUserSettingsSystem$setTheme$1;->$onRequestApiSync:Lkotlin/jvm/functions/Function0;
 
-    # invokes: Lcom/discord/stores/StoreUserSettingsSystem;->setThemeInternal(Ljava/lang/String;ZLkotlin/jvm/functions/Function0;)V
     invoke-static {v0, v1, v2, v3}, Lcom/discord/stores/StoreUserSettingsSystem;->access$setThemeInternal(Lcom/discord/stores/StoreUserSettingsSystem;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;)V
 
     return-void

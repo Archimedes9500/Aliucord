@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/hubs/WidgetHubDomainSearch$onViewBound$4;->this$0:Lcom/discord/widgets/hubs/WidgetHubDomainSearch;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubDomainSearch;->searchForGuild()V
     invoke-static {p1}, Lcom/discord/widgets/hubs/WidgetHubDomainSearch;->access$searchForGuild(Lcom/discord/widgets/hubs/WidgetHubDomainSearch;)V
 
     return-void

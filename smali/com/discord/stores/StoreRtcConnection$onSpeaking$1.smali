@@ -93,7 +93,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreRtcConnection$onSpeaking$1;->this$0:Lcom/discord/stores/StoreRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreRtcConnection;->voicePropsTracker:Lcom/discord/stores/VoicePropsTracker;
     invoke-static {v0}, Lcom/discord/stores/StoreRtcConnection;->access$getVoicePropsTracker$p(Lcom/discord/stores/StoreRtcConnection;)Lcom/discord/stores/VoicePropsTracker;
 
     move-result-object v0

@@ -161,7 +161,6 @@
 
     sget-object p1, Lcom/discord/widgets/forums/ForumPostReadStateManager;->INSTANCE:Lcom/discord/widgets/forums/ForumPostReadStateManager;
 
-    # getter for: Lcom/discord/widgets/forums/ForumPostReadStateManager;->lastSyncedGuildId:J
     invoke-static {p1}, Lcom/discord/widgets/forums/ForumPostReadStateManager;->access$getLastSyncedGuildId$p(Lcom/discord/widgets/forums/ForumPostReadStateManager;)J
 
     move-result-wide v7
@@ -191,7 +190,6 @@
 
     sget-object v7, Lcom/discord/widgets/forums/ForumPostReadStateManager;->INSTANCE:Lcom/discord/widgets/forums/ForumPostReadStateManager;
 
-    # getter for: Lcom/discord/widgets/forums/ForumPostReadStateManager;->lastSelectedChannelId:J
     invoke-static {v7}, Lcom/discord/widgets/forums/ForumPostReadStateManager;->access$getLastSelectedChannelId$p(Lcom/discord/widgets/forums/ForumPostReadStateManager;)J
 
     move-result-wide v7
@@ -229,12 +227,10 @@
     :cond_6a
     sget-object p1, Lcom/discord/widgets/forums/ForumPostReadStateManager;->INSTANCE:Lcom/discord/widgets/forums/ForumPostReadStateManager;
 
-    # getter for: Lcom/discord/widgets/forums/ForumPostReadStateManager;->forumChannelAckBeforeChannelSelect:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/widgets/forums/ForumPostReadStateManager;->access$getForumChannelAckBeforeChannelSelect$p(Lcom/discord/widgets/forums/ForumPostReadStateManager;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v3
 
-    # getter for: Lcom/discord/widgets/forums/ForumPostReadStateManager;->internalMessageAcks:Ljava/util/Map;
     invoke-static {p1}, Lcom/discord/widgets/forums/ForumPostReadStateManager;->access$getInternalMessageAcks$p(Lcom/discord/widgets/forums/ForumPostReadStateManager;)Ljava/util/Map;
 
     move-result-object p1

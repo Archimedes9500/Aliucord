@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/debugging/WidgetDebugging;
 
     .line 2
-    # invokes: Lcom/discord/widgets/debugging/WidgetDebugging;->configureUI(Lcom/discord/widgets/debugging/WidgetDebugging$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/debugging/WidgetDebugging;->access$configureUI(Lcom/discord/widgets/debugging/WidgetDebugging;Lcom/discord/widgets/debugging/WidgetDebugging$Model;)V
 
     return-void

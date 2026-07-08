@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/servers/creator_monetization_eligibility/CreatorMonetizationCountryAllowlist;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/servers/creator_monetization_eligibility/CreatorMonetizationCountryAllowlist;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/servers/creator_monetization_eligibility/CreatorMonetizationCountryAllowlist;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

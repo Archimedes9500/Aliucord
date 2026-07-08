@@ -527,7 +527,6 @@
     if-nez p3, :cond_10
 
     .line 3
-    # getter for: Landroidx/appcompat/widget/AppCompatDrawableManager;->DEFAULT_MODE:Landroid/graphics/PorterDuff$Mode;
     invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;->access$000()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p3
@@ -848,7 +847,6 @@
     move-result v4
 
     .line 5
-    # getter for: Landroidx/appcompat/widget/AppCompatDrawableManager;->DEFAULT_MODE:Landroid/graphics/PorterDuff$Mode;
     invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;->access$000()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object v5
@@ -867,7 +865,6 @@
     move-result v0
 
     .line 9
-    # getter for: Landroidx/appcompat/widget/AppCompatDrawableManager;->DEFAULT_MODE:Landroid/graphics/PorterDuff$Mode;
     invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;->access$000()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object v3
@@ -888,7 +885,6 @@
     move-result p1
 
     .line 13
-    # getter for: Landroidx/appcompat/widget/AppCompatDrawableManager;->DEFAULT_MODE:Landroid/graphics/PorterDuff$Mode;
     invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;->access$000()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p3
@@ -937,7 +933,6 @@
     move-result v0
 
     .line 19
-    # getter for: Landroidx/appcompat/widget/AppCompatDrawableManager;->DEFAULT_MODE:Landroid/graphics/PorterDuff$Mode;
     invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;->access$000()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object v4
@@ -958,7 +953,6 @@
     move-result v3
 
     .line 23
-    # getter for: Landroidx/appcompat/widget/AppCompatDrawableManager;->DEFAULT_MODE:Landroid/graphics/PorterDuff$Mode;
     invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;->access$000()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object v4
@@ -977,7 +971,6 @@
     move-result p1
 
     .line 27
-    # getter for: Landroidx/appcompat/widget/AppCompatDrawableManager;->DEFAULT_MODE:Landroid/graphics/PorterDuff$Mode;
     invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;->access$000()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p3
@@ -1000,7 +993,6 @@
     .end param
 
     .line 1
-    # getter for: Landroidx/appcompat/widget/AppCompatDrawableManager;->DEFAULT_MODE:Landroid/graphics/PorterDuff$Mode;
     invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;->access$000()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object v0

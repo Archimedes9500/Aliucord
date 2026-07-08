@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/StoreUIEventHandler$subscribeToStoreEvents$2;->this$0:Lcom/discord/utilities/StoreUIEventHandler;
 
-    # invokes: Lcom/discord/utilities/StoreUIEventHandler;->handleUserGuildSettingsEvent(Lcom/discord/stores/StoreUserGuildSettings$Event;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/StoreUIEventHandler;->access$handleUserGuildSettingsEvent(Lcom/discord/utilities/StoreUIEventHandler;Lcom/discord/stores/StoreUserGuildSettings$Event;)V
 
     return-void

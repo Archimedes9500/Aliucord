@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel$1;->this$0:Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel;->handleStoreState(Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel;Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel$StoreState;)V
 
     return-void

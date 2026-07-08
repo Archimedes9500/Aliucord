@@ -133,7 +133,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model$Companion;->getGuildEmojis(Lcom/discord/models/guild/Guild;)Lrx/Observable;
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model$Companion;->access$getGuildEmojis(Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model$Companion;Lcom/discord/models/guild/Guild;)Lrx/Observable;
 
     move-result-object p1

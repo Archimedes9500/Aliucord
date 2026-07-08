@@ -100,7 +100,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsChannels$reorderChannels$2;->$data:Lcom/discord/widgets/servers/WidgetServerSettingsChannels$Model;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsChannels;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsChannels$Model;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/servers/WidgetServerSettingsChannels;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsChannels;Lcom/discord/widgets/servers/WidgetServerSettingsChannels$Model;)V
 
     return-void

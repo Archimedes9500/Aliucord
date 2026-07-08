@@ -72,7 +72,6 @@
 
     iget-object v0, v0, Ld0/y/d$b;->m:Ld0/y/d;
 
-    # getter for: Ld0/y/d;->c:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Ld0/y/d;->access$getOnEnter$p(Ld0/y/d;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0
@@ -116,7 +115,6 @@
 
     iget-object v0, v0, Ld0/y/d$b;->m:Ld0/y/d;
 
-    # getter for: Ld0/y/d;->e:Lkotlin/jvm/functions/Function2;
     invoke-static {v0}, Ld0/y/d;->access$getOnFail$p(Ld0/y/d;)Lkotlin/jvm/functions/Function2;
 
     move-result-object v0
@@ -206,7 +204,6 @@
 
     iget-object v0, v0, Ld0/y/d$b;->m:Ld0/y/d;
 
-    # getter for: Ld0/y/d;->d:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Ld0/y/d;->access$getOnLeave$p(Ld0/y/d;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

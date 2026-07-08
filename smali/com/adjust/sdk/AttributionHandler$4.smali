@@ -45,7 +45,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/AttributionHandler$4;->this$0:Lcom/adjust/sdk/AttributionHandler;
 
-    # getter for: Lcom/adjust/sdk/AttributionHandler;->activityHandlerWeakRef:Ljava/lang/ref/WeakReference;
     invoke-static {v0}, Lcom/adjust/sdk/AttributionHandler;->access$300(Lcom/adjust/sdk/AttributionHandler;)Ljava/lang/ref/WeakReference;
 
     move-result-object v0
@@ -66,7 +65,6 @@
 
     iget-object v2, p0, Lcom/adjust/sdk/AttributionHandler$4;->val$sdkClickResponseData:Lcom/adjust/sdk/SdkClickResponseData;
 
-    # invokes: Lcom/adjust/sdk/AttributionHandler;->checkSdkClickResponseI(Lcom/adjust/sdk/IActivityHandler;Lcom/adjust/sdk/SdkClickResponseData;)V
     invoke-static {v1, v0, v2}, Lcom/adjust/sdk/AttributionHandler;->access$500(Lcom/adjust/sdk/AttributionHandler;Lcom/adjust/sdk/IActivityHandler;Lcom/adjust/sdk/SdkClickResponseData;)V
 
     return-void

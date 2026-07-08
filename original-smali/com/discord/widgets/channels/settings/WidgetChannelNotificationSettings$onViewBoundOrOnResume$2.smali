@@ -92,7 +92,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings;->configureUI(Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings;->access$configureUI(Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings;Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings$Model;)V
 
     goto :goto_13

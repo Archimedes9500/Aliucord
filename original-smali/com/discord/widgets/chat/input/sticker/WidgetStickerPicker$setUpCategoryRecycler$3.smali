@@ -93,7 +93,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->onRecentClicked()V
     invoke-static {v0}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$onRecentClicked(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)V
 
     return-void

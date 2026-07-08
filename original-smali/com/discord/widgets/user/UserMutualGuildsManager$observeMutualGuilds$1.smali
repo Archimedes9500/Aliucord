@@ -108,7 +108,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/UserMutualGuildsManager$observeMutualGuilds$1;->this$0:Lcom/discord/widgets/user/UserMutualGuildsManager;
 
-    # getter for: Lcom/discord/widgets/user/UserMutualGuildsManager;->storeGuildsSorted:Lcom/discord/stores/StoreGuildsSorted;
     invoke-static {v0}, Lcom/discord/widgets/user/UserMutualGuildsManager;->access$getStoreGuildsSorted$p(Lcom/discord/widgets/user/UserMutualGuildsManager;)Lcom/discord/stores/StoreGuildsSorted;
 
     move-result-object v0
@@ -120,7 +119,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/user/UserMutualGuildsManager$observeMutualGuilds$1;->this$0:Lcom/discord/widgets/user/UserMutualGuildsManager;
 
-    # getter for: Lcom/discord/widgets/user/UserMutualGuildsManager;->storeGuilds:Lcom/discord/stores/StoreGuilds;
     invoke-static {v1}, Lcom/discord/widgets/user/UserMutualGuildsManager;->access$getStoreGuilds$p(Lcom/discord/widgets/user/UserMutualGuildsManager;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v1

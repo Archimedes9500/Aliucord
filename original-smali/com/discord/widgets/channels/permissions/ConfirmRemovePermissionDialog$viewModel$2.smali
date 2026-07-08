@@ -77,7 +77,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog$viewModel$2;->this$0:Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;->getPermissionOwnerFromArgs()Lcom/discord/widgets/channels/permissions/PermissionOwner;
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;->access$getPermissionOwnerFromArgs(Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;)Lcom/discord/widgets/channels/permissions/PermissionOwner;
 
     move-result-object v1
@@ -85,7 +84,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog$viewModel$2;->this$0:Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;->getChannelIdFromArgs()J
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;->access$getChannelIdFromArgs(Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;)J
 
     move-result-wide v2

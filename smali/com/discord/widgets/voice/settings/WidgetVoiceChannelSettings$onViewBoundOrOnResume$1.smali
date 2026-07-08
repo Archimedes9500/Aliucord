@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->configureUI(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$configureUI(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$Model;)V
 
     return-void

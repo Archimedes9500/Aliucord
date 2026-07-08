@@ -79,7 +79,6 @@
 
     new-array v1, v1, [Ld0/e0/p/d/m0/e/a/l0/e;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/l0/j;->b:Ld0/e0/p/d/m0/e/a/l0/e;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/l0/j;->access$getNOT_PLATFORM$p$s1730278749()Ld0/e0/p/d/m0/e/a/l0/e;
 
     move-result-object v2
@@ -88,7 +87,6 @@
 
     aput-object v2, v1, v3
 
-    # getter for: Ld0/e0/p/d/m0/e/a/l0/j;->b:Ld0/e0/p/d/m0/e/a/l0/e;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/l0/j;->access$getNOT_PLATFORM$p$s1730278749()Ld0/e0/p/d/m0/e/a/l0/e;
 
     move-result-object v2

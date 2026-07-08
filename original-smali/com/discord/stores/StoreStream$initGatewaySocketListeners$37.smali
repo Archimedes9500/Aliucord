@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleReactionRemoveAll(Lcom/discord/api/message/reaction/MessageReactionUpdate;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleReactionRemoveAll(Lcom/discord/stores/StoreStream;Lcom/discord/api/message/reaction/MessageReactionUpdate;)V
 
     return-void

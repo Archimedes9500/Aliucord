@@ -80,7 +80,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/view/extensions/ViewExtensions;->fadeAnimations:Ljava/util/HashMap;
     invoke-static {}, Lcom/discord/utilities/view/extensions/ViewExtensions;->access$getFadeAnimations$p()Ljava/util/HashMap;
 
     move-result-object p1
@@ -96,7 +95,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/view/extensions/ViewExtensions;->fadeAnimations:Ljava/util/HashMap;
     invoke-static {}, Lcom/discord/utilities/view/extensions/ViewExtensions;->access$getFadeAnimations$p()Ljava/util/HashMap;
 
     move-result-object p1

@@ -82,7 +82,6 @@
     check-cast v0, Lcom/discord/stores/StoreGatewayConnection;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreGatewayConnection;->getIdentifyData()Lcom/discord/gateway/GatewaySocket$IdentifyData;
     invoke-static {v0}, Lcom/discord/stores/StoreGatewayConnection;->access$getIdentifyData(Lcom/discord/stores/StoreGatewayConnection;)Lcom/discord/gateway/GatewaySocket$IdentifyData;
 
     move-result-object v0

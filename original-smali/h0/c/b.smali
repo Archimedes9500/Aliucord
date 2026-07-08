@@ -37,7 +37,6 @@
     .line 1
     iget-object v2, v0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->cameraThreadHandler:Landroid/os/Handler;
     invoke-static {v2}, Lorg/webrtc/Camera1Session;->access$1000(Lorg/webrtc/Camera1Session;)Landroid/os/Handler;
 
     move-result-object v2

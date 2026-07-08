@@ -119,7 +119,6 @@
 
     move-result-object p1
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v1, p1}, Lcom/discord/widgets/hubs/WidgetHubWaitlistViewModel;->access$updateViewState(Lcom/discord/widgets/hubs/WidgetHubWaitlistViewModel;Lcom/discord/widgets/hubs/HubWaitlistState;)V
 
     :cond_16

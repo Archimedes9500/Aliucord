@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreMediaFavorites$addFavorite$1;->this$0:Lcom/discord/stores/StoreMediaFavorites;
 
-    # getter for: Lcom/discord/stores/StoreMediaFavorites;->favorites:Ljava/util/Set;
     invoke-static {v0}, Lcom/discord/stores/StoreMediaFavorites;->access$getFavorites$p(Lcom/discord/stores/StoreMediaFavorites;)Ljava/util/Set;
 
     move-result-object v0

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel;->handleStoreState(Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel;->access$handleStoreState(Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel;Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel$StoreState;)V
 
     return-void

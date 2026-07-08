@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/list/InlineMediaView$updateUI$5;->this$0:Lcom/discord/widgets/chat/list/InlineMediaView;
 
-    # getter for: Lcom/discord/widgets/chat/list/InlineMediaView;->binding:Lcom/discord/databinding/InlineMediaViewBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/InlineMediaView;->access$getBinding$p(Lcom/discord/widgets/chat/list/InlineMediaView;)Lcom/discord/databinding/InlineMediaViewBinding;
 
     move-result-object p1
@@ -89,7 +88,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/chat/list/InlineMediaView$updateUI$5;->this$0:Lcom/discord/widgets/chat/list/InlineMediaView;
 
-    # getter for: Lcom/discord/widgets/chat/list/InlineMediaView;->appMediaPlayer:Lcom/discord/player/AppMediaPlayer;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/InlineMediaView;->access$getAppMediaPlayer$p(Lcom/discord/widgets/chat/list/InlineMediaView;)Lcom/discord/player/AppMediaPlayer;
 
     move-result-object v2
@@ -108,7 +106,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/chat/list/InlineMediaView$updateUI$5;->this$0:Lcom/discord/widgets/chat/list/InlineMediaView;
 
-    # getter for: Lcom/discord/widgets/chat/list/InlineMediaView;->binding:Lcom/discord/databinding/InlineMediaViewBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/InlineMediaView;->access$getBinding$p(Lcom/discord/widgets/chat/list/InlineMediaView;)Lcom/discord/databinding/InlineMediaViewBinding;
 
     move-result-object p1
@@ -128,7 +125,6 @@
     :cond_30
     iget-object p1, p0, Lcom/discord/widgets/chat/list/InlineMediaView$updateUI$5;->this$0:Lcom/discord/widgets/chat/list/InlineMediaView;
 
-    # getter for: Lcom/discord/widgets/chat/list/InlineMediaView;->binding:Lcom/discord/databinding/InlineMediaViewBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/InlineMediaView;->access$getBinding$p(Lcom/discord/widgets/chat/list/InlineMediaView;)Lcom/discord/databinding/InlineMediaViewBinding;
 
     move-result-object p1
@@ -147,7 +143,6 @@
     .line 9
     iget-object p1, p0, Lcom/discord/widgets/chat/list/InlineMediaView$updateUI$5;->this$0:Lcom/discord/widgets/chat/list/InlineMediaView;
 
-    # getter for: Lcom/discord/widgets/chat/list/InlineMediaView;->binding:Lcom/discord/databinding/InlineMediaViewBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/InlineMediaView;->access$getBinding$p(Lcom/discord/widgets/chat/list/InlineMediaView;)Lcom/discord/databinding/InlineMediaViewBinding;
 
     move-result-object p1

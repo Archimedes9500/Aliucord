@@ -101,7 +101,6 @@
 
     check-cast p1, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$ViewState$Menu;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/WidgetMobileReports;->configureUI(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$ViewState$Menu;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/mobile_reports/WidgetMobileReports;->access$configureUI(Lcom/discord/widgets/mobile_reports/WidgetMobileReports;Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$ViewState$Menu;)V
 
     goto :goto_21

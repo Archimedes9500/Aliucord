@@ -106,7 +106,6 @@
     .line 6
     iget-object v0, p0, Lcom/discord/widgets/home/WidgetHome$setPanelWindowInsetsListeners$2;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->getBinding()Lcom/discord/databinding/WidgetHomeBinding;
     invoke-static {v0}, Lcom/discord/widgets/home/WidgetHome;->access$getBinding$p(Lcom/discord/widgets/home/WidgetHome;)Lcom/discord/databinding/WidgetHomeBinding;
 
     move-result-object v0
@@ -123,7 +122,6 @@
     .line 8
     iget-object v0, p0, Lcom/discord/widgets/home/WidgetHome$setPanelWindowInsetsListeners$2;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->getBinding()Lcom/discord/databinding/WidgetHomeBinding;
     invoke-static {v0}, Lcom/discord/widgets/home/WidgetHome;->access$getBinding$p(Lcom/discord/widgets/home/WidgetHome;)Lcom/discord/databinding/WidgetHomeBinding;
 
     move-result-object v0
@@ -140,7 +138,6 @@
     .line 10
     iget-object v0, p0, Lcom/discord/widgets/home/WidgetHome$setPanelWindowInsetsListeners$2;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->getBinding()Lcom/discord/databinding/WidgetHomeBinding;
     invoke-static {v0}, Lcom/discord/widgets/home/WidgetHome;->access$getBinding$p(Lcom/discord/widgets/home/WidgetHome;)Lcom/discord/databinding/WidgetHomeBinding;
 
     move-result-object v0
@@ -155,7 +152,6 @@
     .line 12
     iget-object p1, p0, Lcom/discord/widgets/home/WidgetHome$setPanelWindowInsetsListeners$2;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # getter for: Lcom/discord/widgets/home/WidgetHome;->panelNsfw:Lcom/discord/widgets/home/WidgetHomePanelNsfw;
     invoke-static {p1}, Lcom/discord/widgets/home/WidgetHome;->access$getPanelNsfw$p(Lcom/discord/widgets/home/WidgetHome;)Lcom/discord/widgets/home/WidgetHomePanelNsfw;
 
     move-result-object p1

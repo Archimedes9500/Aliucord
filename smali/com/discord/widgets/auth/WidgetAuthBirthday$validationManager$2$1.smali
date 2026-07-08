@@ -83,7 +83,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/auth/WidgetAuthBirthday$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthBirthday;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetAuthBirthday;->isConsentRequired:Z
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAuthBirthday;->access$isConsentRequired$p(Lcom/discord/widgets/auth/WidgetAuthBirthday;)Z
 
     move-result v0
@@ -101,7 +100,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/auth/WidgetAuthBirthday$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthBirthday;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetAuthBirthday;->isConsentRequired:Z
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAuthBirthday;->access$isConsentRequired$p(Lcom/discord/widgets/auth/WidgetAuthBirthday;)Z
 
     move-result v0

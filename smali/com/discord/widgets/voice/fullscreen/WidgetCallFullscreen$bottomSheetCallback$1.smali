@@ -75,7 +75,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$bottomSheetCallback$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getViewModel()Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getViewModel$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
     move-result-object p1
@@ -95,7 +94,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$bottomSheetCallback$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getBinding()Lcom/discord/databinding/WidgetCallFullscreenBinding;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getBinding$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/databinding/WidgetCallFullscreenBinding;
 
     move-result-object p1
@@ -107,7 +105,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$bottomSheetCallback$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getViewModel()Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getViewModel$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
     move-result-object p1
@@ -128,7 +125,6 @@
     :cond_20
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$bottomSheetCallback$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getViewModel()Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getViewModel$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
     move-result-object p1
@@ -141,7 +137,6 @@
     :cond_2a
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$bottomSheetCallback$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getViewModel()Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getViewModel$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
     move-result-object p1
@@ -151,7 +146,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$bottomSheetCallback$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->tooltipManager:Lcom/discord/tooltips/TooltipManager;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getTooltipManager$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/tooltips/TooltipManager;
 
     move-result-object p1

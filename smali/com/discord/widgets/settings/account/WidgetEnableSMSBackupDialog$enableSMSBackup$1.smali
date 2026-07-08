@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetEnableSMSBackupDialog$enableSMSBackup$1;->this$0:Lcom/discord/widgets/settings/account/WidgetEnableSMSBackupDialog;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetEnableSMSBackupDialog;->getBinding()Lcom/discord/databinding/WidgetEnableSmsBackupDialogBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/account/WidgetEnableSMSBackupDialog;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetEnableSMSBackupDialog;)Lcom/discord/databinding/WidgetEnableSmsBackupDialogBinding;
 
     move-result-object v0

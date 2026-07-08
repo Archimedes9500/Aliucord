@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;->handleEvent(Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;->access$handleEvent(Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel$Event;)V
 
     return-void

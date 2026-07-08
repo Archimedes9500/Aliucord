@@ -87,7 +87,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEditConfirm$submitVerificationCode$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEditConfirm;
 
-    # getter for: Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEditConfirm;->passwordVerifyLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v2}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEditConfirm;->access$getPasswordVerifyLauncher$p(Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEditConfirm;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v2

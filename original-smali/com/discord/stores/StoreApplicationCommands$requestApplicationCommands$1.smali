@@ -103,7 +103,6 @@
     .line 2
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->isLoadingDiscoveryCommands:Z
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$isLoadingDiscoveryCommands$p(Lcom/discord/stores/StoreApplicationCommands;)Z
 
     move-result v1
@@ -116,7 +115,6 @@
     :cond_b
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->generateNonce()Ljava/lang/String;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$generateNonce(Lcom/discord/stores/StoreApplicationCommands;)Ljava/lang/String;
 
     move-result-object v5
@@ -129,7 +127,6 @@
     .line 5
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->loadDirectionDown:Z
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getLoadDirectionDown$p(Lcom/discord/stores/StoreApplicationCommands;)Z
 
     move-result v1
@@ -138,7 +135,6 @@
 
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->loadDirectionUp:Z
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getLoadDirectionUp$p(Lcom/discord/stores/StoreApplicationCommands;)Z
 
     move-result v1
@@ -154,7 +150,6 @@
     :cond_29
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->discoverCommands:Lcom/discord/stores/DiscoverCommands;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getDiscoverCommands$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/DiscoverCommands;
 
     move-result-object v1
@@ -169,7 +164,6 @@
     .line 8
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->discoverGuildId:Ljava/lang/Long;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getDiscoverGuildId$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/lang/Long;
 
     move-result-object v1
@@ -191,7 +185,6 @@
     .line 9
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->discoverCommands:Lcom/discord/stores/DiscoverCommands;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getDiscoverCommands$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/DiscoverCommands;
 
     move-result-object v6
@@ -243,7 +236,6 @@
     :cond_70
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->discoverCommands:Lcom/discord/stores/DiscoverCommands;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getDiscoverCommands$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/DiscoverCommands;
 
     move-result-object v6
@@ -313,7 +305,6 @@
     .line 15
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->storeGatewayConnection:Lcom/discord/stores/StoreGatewayConnection;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getStoreGatewayConnection$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/StoreGatewayConnection;
 
     move-result-object v2
@@ -360,7 +351,6 @@
     .line 21
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->builtInCommandsProvider:Lcom/discord/stores/BuiltInCommandsProvider;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getBuiltInCommandsProvider$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/BuiltInCommandsProvider;
 
     move-result-object v2
@@ -369,7 +359,6 @@
 
     move-result-object v2
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->handleDiscoverCommandsUpdate(Ljava/util/List;)V
     invoke-static {v1, v2}, Lcom/discord/stores/StoreApplicationCommands;->access$handleDiscoverCommandsUpdate(Lcom/discord/stores/StoreApplicationCommands;Ljava/util/List;)V
 
     goto :goto_10e
@@ -383,7 +372,6 @@
     .line 23
     iget-object v3, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->discoverApplicationId:Ljava/lang/Long;
     invoke-static {v3}, Lcom/discord/stores/StoreApplicationCommands;->access$getDiscoverApplicationId$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/lang/Long;
 
     move-result-object v3
@@ -410,7 +398,6 @@
 
     move-result-wide v2
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->getApplicationCommandsViaRest(J)V
     invoke-static {v1, v2, v3}, Lcom/discord/stores/StoreApplicationCommands;->access$getApplicationCommandsViaRest(Lcom/discord/stores/StoreApplicationCommands;J)V
 
     goto :goto_10e
@@ -419,7 +406,6 @@
     :cond_101
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->builtInCommandsProvider:Lcom/discord/stores/BuiltInCommandsProvider;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getBuiltInCommandsProvider$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/BuiltInCommandsProvider;
 
     move-result-object v2
@@ -428,7 +414,6 @@
 
     move-result-object v2
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->handleDiscoverCommandsUpdate(Ljava/util/List;)V
     invoke-static {v1, v2}, Lcom/discord/stores/StoreApplicationCommands;->access$handleDiscoverCommandsUpdate(Lcom/discord/stores/StoreApplicationCommands;Ljava/util/List;)V
 
     .line 27

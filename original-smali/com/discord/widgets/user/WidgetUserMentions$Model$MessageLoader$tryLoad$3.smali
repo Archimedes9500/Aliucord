@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader$tryLoad$3;->this$0:Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader;->handleLoadError()V
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader;->access$handleLoadError(Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader;)V
 
     return-void

@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreUserSettings$updateAllowAccessibilityDetectionInternal$1;->this$0:Lcom/discord/stores/StoreUserSettings;
 
-    # getter for: Lcom/discord/stores/StoreUserSettings;->accessibilityStore:Lcom/discord/stores/StoreAccessibility;
     invoke-static {v0}, Lcom/discord/stores/StoreUserSettings;->access$getAccessibilityStore$p(Lcom/discord/stores/StoreUserSettings;)Lcom/discord/stores/StoreAccessibility;
 
     move-result-object v0

@@ -140,7 +140,6 @@
 
     iget-object v12, v0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet$configureProfileActionButtons$8;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->getViewModel()Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;
     invoke-static {v12}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$getViewModel$p(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;)Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;
 
     move-result-object v12

@@ -74,7 +74,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/settings/WidgetSettingsLanguageSelect$Adapter;->dialog:Lcom/discord/widgets/settings/WidgetSettingsLanguageSelect;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsLanguageSelect$Adapter;->access$getDialog$p(Lcom/discord/widgets/settings/WidgetSettingsLanguageSelect$Adapter;)Lcom/discord/widgets/settings/WidgetSettingsLanguageSelect;
 
     move-result-object p1
@@ -85,7 +84,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsLanguageSelect;->onLocaleSelected(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/WidgetSettingsLanguageSelect;->access$onLocaleSelected(Lcom/discord/widgets/settings/WidgetSettingsLanguageSelect;Ljava/lang/String;)V
 
     return-void

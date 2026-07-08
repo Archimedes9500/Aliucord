@@ -87,7 +87,6 @@
     aget-object v2, v0, v1
 
     .line 3
-    # invokes: Lcom/discord/utilities/embed/FileType;->matches(Ljava/lang/String;)Z
     invoke-static {v2, p1}, Lcom/discord/utilities/embed/FileType;->access$matches(Lcom/discord/utilities/embed/FileType;Ljava/lang/String;)Z
 
     move-result v3

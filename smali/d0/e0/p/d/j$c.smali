@@ -63,7 +63,6 @@
 
     iget-object v2, p0, Ld0/e0/p/d/j$c;->this$0:Ld0/e0/p/d/j;
 
-    # getter for: Ld0/e0/p/d/j;->s:Ljava/lang/String;
     invoke-static {v2}, Ld0/e0/p/d/j;->access$getSignature$p(Ld0/e0/p/d/j;)Ljava/lang/String;
 
     move-result-object v2

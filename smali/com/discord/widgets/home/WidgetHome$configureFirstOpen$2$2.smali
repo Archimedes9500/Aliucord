@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/home/WidgetHome$configureFirstOpen$2;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->getBinding()Lcom/discord/databinding/WidgetHomeBinding;
     invoke-static {v0}, Lcom/discord/widgets/home/WidgetHome;->access$getBinding$p(Lcom/discord/widgets/home/WidgetHome;)Lcom/discord/databinding/WidgetHomeBinding;
 
     move-result-object v0

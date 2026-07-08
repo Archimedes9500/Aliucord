@@ -38,7 +38,6 @@
     .end annotation
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/f/a0/b/g;->c:Ljava/util/List;
     invoke-static {}, Ld0/e0/p/d/m0/f/a0/b/g;->access$getPREDEFINED_STRINGS$cp()Ljava/util/List;
 
     move-result-object v0

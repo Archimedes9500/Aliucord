@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleRelationshipRemove(Lcom/discord/models/domain/ModelUserRelationship;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleRelationshipRemove(Lcom/discord/stores/StoreStream;Lcom/discord/models/domain/ModelUserRelationship;)V
 
     return-void

@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreSubscriptions$fetchSubscriptions$1;->this$0:Lcom/discord/stores/StoreSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreSubscriptions;->subscriptionsState:Lcom/discord/stores/StoreSubscriptions$SubscriptionsState;
     invoke-static {v0}, Lcom/discord/stores/StoreSubscriptions;->access$getSubscriptionsState$p(Lcom/discord/stores/StoreSubscriptions;)Lcom/discord/stores/StoreSubscriptions$SubscriptionsState;
 
     move-result-object v0
@@ -100,13 +99,11 @@
     :cond_b
     iget-object v0, p0, Lcom/discord/stores/StoreSubscriptions$fetchSubscriptions$1;->this$0:Lcom/discord/stores/StoreSubscriptions;
 
-    # invokes: Lcom/discord/stores/StoreSubscriptions;->handleSubscriptionsFetchStart()V
     invoke-static {v0}, Lcom/discord/stores/StoreSubscriptions;->access$handleSubscriptionsFetchStart(Lcom/discord/stores/StoreSubscriptions;)V
 
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StoreSubscriptions$fetchSubscriptions$1;->this$0:Lcom/discord/stores/StoreSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreSubscriptions;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v0}, Lcom/discord/stores/StoreSubscriptions;->access$getRestAPI$p(Lcom/discord/stores/StoreSubscriptions;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0

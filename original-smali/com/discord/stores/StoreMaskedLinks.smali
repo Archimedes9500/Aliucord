@@ -137,7 +137,6 @@
     const-string v2, "https://discord.com"
 
     .line 1
-    # invokes: Lcom/discord/stores/StoreMaskedLinks$Companion;->getDomainName(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, v2}, Lcom/discord/stores/StoreMaskedLinks$Companion;->access$getDomainName(Lcom/discord/stores/StoreMaskedLinks$Companion;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -149,7 +148,6 @@
     const-string v2, "https://discordapp.com"
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreMaskedLinks$Companion;->getDomainName(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, v2}, Lcom/discord/stores/StoreMaskedLinks$Companion;->access$getDomainName(Lcom/discord/stores/StoreMaskedLinks$Companion;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -161,7 +159,6 @@
     const-string v2, "https://cdn.discordapp.com"
 
     .line 3
-    # invokes: Lcom/discord/stores/StoreMaskedLinks$Companion;->getDomainName(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, v2}, Lcom/discord/stores/StoreMaskedLinks$Companion;->access$getDomainName(Lcom/discord/stores/StoreMaskedLinks$Companion;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -173,7 +170,6 @@
     const-string v2, "https://discord.gift"
 
     .line 4
-    # invokes: Lcom/discord/stores/StoreMaskedLinks$Companion;->getDomainName(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, v2}, Lcom/discord/stores/StoreMaskedLinks$Companion;->access$getDomainName(Lcom/discord/stores/StoreMaskedLinks$Companion;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -185,7 +181,6 @@
     const-string v2, "https://discord.gg"
 
     .line 5
-    # invokes: Lcom/discord/stores/StoreMaskedLinks$Companion;->getDomainName(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, v2}, Lcom/discord/stores/StoreMaskedLinks$Companion;->access$getDomainName(Lcom/discord/stores/StoreMaskedLinks$Companion;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -197,7 +192,6 @@
     const-string v2, "https://discord.new"
 
     .line 6
-    # invokes: Lcom/discord/stores/StoreMaskedLinks$Companion;->getDomainName(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, v2}, Lcom/discord/stores/StoreMaskedLinks$Companion;->access$getDomainName(Lcom/discord/stores/StoreMaskedLinks$Companion;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -209,7 +203,6 @@
     const-string v2, "https://spotify.com"
 
     .line 7
-    # invokes: Lcom/discord/stores/StoreMaskedLinks$Companion;->getDomainName(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, v2}, Lcom/discord/stores/StoreMaskedLinks$Companion;->access$getDomainName(Lcom/discord/stores/StoreMaskedLinks$Companion;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -221,7 +214,6 @@
     const-string v2, "https://open.spotify.com"
 
     .line 8
-    # invokes: Lcom/discord/stores/StoreMaskedLinks$Companion;->getDomainName(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, v2}, Lcom/discord/stores/StoreMaskedLinks$Companion;->access$getDomainName(Lcom/discord/stores/StoreMaskedLinks$Companion;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -332,7 +324,6 @@
     .line 6
     sget-object v0, Lcom/discord/stores/StoreMaskedLinks;->Companion:Lcom/discord/stores/StoreMaskedLinks$Companion;
 
-    # invokes: Lcom/discord/stores/StoreMaskedLinks$Companion;->getDomainName(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, p1}, Lcom/discord/stores/StoreMaskedLinks$Companion;->access$getDomainName(Lcom/discord/stores/StoreMaskedLinks$Companion;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

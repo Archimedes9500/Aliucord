@@ -108,7 +108,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/stores/StoreMessages$Companion;->cancelBackgroundSendingWork(Landroid/content/Context;)Landroidx/work/Operation;
     invoke-static {v0, v1}, Lcom/discord/stores/StoreMessages$Companion;->access$cancelBackgroundSendingWork(Lcom/discord/stores/StoreMessages$Companion;Landroid/content/Context;)Landroidx/work/Operation;
 
     .line 4
@@ -127,7 +126,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreMessages$sendMessage$createRequest$1;->this$0:Lcom/discord/stores/StoreMessages;
 
-    # getter for: Lcom/discord/stores/StoreMessages;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreMessages;->access$getStream$p(Lcom/discord/stores/StoreMessages;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0
@@ -211,7 +209,6 @@
     sget-object v2, Lcom/discord/stores/FailedMessageResolutionType;->RESENT:Lcom/discord/stores/FailedMessageResolutionType;
 
     .line 13
-    # invokes: Lcom/discord/stores/StoreMessages;->trackFailedLocalMessageResolved(Lcom/discord/models/message/Message;Lcom/discord/stores/FailedMessageResolutionType;)V
     invoke-static {v1, v0, v2}, Lcom/discord/stores/StoreMessages;->access$trackFailedLocalMessageResolved(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;Lcom/discord/stores/FailedMessageResolutionType;)V
 
     goto/16 :goto_116
@@ -231,7 +228,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreMessages$sendMessage$createRequest$1;->$localMessage:Lcom/discord/models/message/Message;
 
-    # invokes: Lcom/discord/stores/StoreMessages;->handleSendMessageFailure(Lcom/discord/models/message/Message;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreMessages;->access$handleSendMessageFailure(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;)V
 
     .line 16
@@ -241,7 +237,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreMessages$sendMessage$createRequest$1;->this$0:Lcom/discord/stores/StoreMessages;
 
-    # getter for: Lcom/discord/stores/StoreMessages;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreMessages;->access$getStream$p(Lcom/discord/stores/StoreMessages;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0
@@ -298,7 +293,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreMessages$sendMessage$createRequest$1;->$localMessage:Lcom/discord/models/message/Message;
 
-    # invokes: Lcom/discord/stores/StoreMessages;->handleLocalMessageDelete(Lcom/discord/models/message/Message;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreMessages;->access$handleLocalMessageDelete(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;)V
 
     goto :goto_116
@@ -318,7 +312,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreMessages$sendMessage$createRequest$1;->$localMessage:Lcom/discord/models/message/Message;
 
-    # invokes: Lcom/discord/stores/StoreMessages;->handleSendMessageCaptchaRequired(Lcom/discord/models/message/Message;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreMessages;->access$handleSendMessageCaptchaRequired(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;)V
 
     goto :goto_116
@@ -338,7 +331,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreMessages$sendMessage$createRequest$1;->$localMessage:Lcom/discord/models/message/Message;
 
-    # invokes: Lcom/discord/stores/StoreMessages;->handleSendMessageFailure(Lcom/discord/models/message/Message;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreMessages;->access$handleSendMessageFailure(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;)V
 
     goto :goto_116
@@ -364,7 +356,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/stores/StoreMessages;->handleSendMessageValidationError(Lcom/discord/models/message/Message;Ljava/lang/String;)V
     invoke-static {v2, v1, v0}, Lcom/discord/stores/StoreMessages;->access$handleSendMessageValidationError(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;Ljava/lang/String;)V
 
     goto :goto_116
@@ -392,7 +383,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreMessages$sendMessage$createRequest$1;->$localMessage:Lcom/discord/models/message/Message;
 
-    # invokes: Lcom/discord/stores/StoreMessages;->handleSendMessageFailure(Lcom/discord/models/message/Message;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreMessages;->access$handleSendMessageFailure(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;)V
 
     goto :goto_116

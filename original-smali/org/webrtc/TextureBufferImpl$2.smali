@@ -52,7 +52,6 @@
     .line 1
     iget-object p1, p0, Lorg/webrtc/TextureBufferImpl$2;->this$0:Lorg/webrtc/TextureBufferImpl;
 
-    # getter for: Lorg/webrtc/TextureBufferImpl;->refCountMonitor:Lorg/webrtc/TextureBufferImpl$RefCountMonitor;
     invoke-static {p1}, Lorg/webrtc/TextureBufferImpl;->access$000(Lorg/webrtc/TextureBufferImpl;)Lorg/webrtc/TextureBufferImpl$RefCountMonitor;
 
     move-result-object p1
@@ -70,7 +69,6 @@
     .line 1
     iget-object p1, p0, Lorg/webrtc/TextureBufferImpl$2;->this$0:Lorg/webrtc/TextureBufferImpl;
 
-    # getter for: Lorg/webrtc/TextureBufferImpl;->refCountMonitor:Lorg/webrtc/TextureBufferImpl$RefCountMonitor;
     invoke-static {p1}, Lorg/webrtc/TextureBufferImpl;->access$000(Lorg/webrtc/TextureBufferImpl;)Lorg/webrtc/TextureBufferImpl$RefCountMonitor;
 
     move-result-object p1

@@ -82,7 +82,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/bugreports/BugReportViewModel;->genericFeatureAreas:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/bugreports/BugReportViewModel;->access$getGenericFeatureAreas$cp()Ljava/util/List;
 
     move-result-object v0
@@ -102,7 +101,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/bugreports/BugReportViewModel;->sendingStickers:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/bugreports/BugReportViewModel;->access$getSendingStickers$cp()Ljava/util/List;
 
     move-result-object v0
@@ -122,7 +120,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/bugreports/BugReportViewModel;->successStickers:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/bugreports/BugReportViewModel;->access$getSuccessStickers$cp()Ljava/util/List;
 
     move-result-object v0

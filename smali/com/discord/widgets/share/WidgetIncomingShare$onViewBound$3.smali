@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBound$3;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # invokes: Lcom/discord/widgets/share/WidgetIncomingShare;->getBinding()Lcom/discord/databinding/WidgetIncomingShareBinding;
     invoke-static {p1}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getBinding$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lcom/discord/databinding/WidgetIncomingShareBinding;
 
     move-result-object p1
@@ -81,7 +80,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBound$3;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # invokes: Lcom/discord/widgets/share/WidgetIncomingShare;->getBinding()Lcom/discord/databinding/WidgetIncomingShareBinding;
     invoke-static {v0}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getBinding$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lcom/discord/databinding/WidgetIncomingShareBinding;
 
     move-result-object v0

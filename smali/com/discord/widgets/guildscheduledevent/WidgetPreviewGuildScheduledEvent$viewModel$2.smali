@@ -77,7 +77,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent$viewModel$2;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;->getEventModel()Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventModel;
     invoke-static {v0}, Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;->access$getEventModel$p(Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;)Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventModel;
 
     move-result-object v1

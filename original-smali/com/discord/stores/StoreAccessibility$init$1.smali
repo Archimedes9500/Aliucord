@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreAccessibility$init$1;->this$0:Lcom/discord/stores/StoreAccessibility;
 
-    # getter for: Lcom/discord/stores/StoreAccessibility;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreAccessibility;->access$getDispatcher$p(Lcom/discord/stores/StoreAccessibility;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

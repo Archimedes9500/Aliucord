@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet$bindSubscriptions$1;->this$0:Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;->configureUI(Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;->access$configureUI(Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheetViewModel$ViewState;)V
 
     return-void

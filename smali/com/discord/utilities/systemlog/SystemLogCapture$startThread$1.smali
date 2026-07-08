@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/systemlog/SystemLogCapture$startThread$1;->this$0:Lcom/discord/utilities/systemlog/SystemLogCapture;
 
-    # invokes: Lcom/discord/utilities/systemlog/SystemLogCapture;->start()V
     invoke-static {v0}, Lcom/discord/utilities/systemlog/SystemLogCapture;->access$start(Lcom/discord/utilities/systemlog/SystemLogCapture;)V
 
     return-void

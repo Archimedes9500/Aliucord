@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/view/rounded/RoundedCoordinatorLayout$draw$1;->this$0:Lcom/discord/utilities/view/rounded/RoundedCoordinatorLayout;
 
-    # invokes: Landroid/view/ViewGroup;->draw(Landroid/graphics/Canvas;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/view/rounded/RoundedCoordinatorLayout;->access$draw$s-747643027(Lcom/discord/utilities/view/rounded/RoundedCoordinatorLayout;Landroid/graphics/Canvas;)V
 
     return-void

@@ -30,7 +30,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/o;->j:Ld0/e0/o;
     invoke-static {}, Ld0/e0/o;->access$getSTAR$cp()Ld0/e0/o;
 
     move-result-object v0

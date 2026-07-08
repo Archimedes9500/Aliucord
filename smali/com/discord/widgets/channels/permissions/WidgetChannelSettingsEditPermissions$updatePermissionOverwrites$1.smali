@@ -82,7 +82,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$updatePermissionOverwrites$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getPermissionCheckboxes()Ljava/util/List;
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getPermissionCheckboxes$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Ljava/util/List;
 
     move-result-object v0
@@ -125,7 +124,6 @@
 
     move-result v5
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->getPermission(I)J
     invoke-static {v6, v5}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->access$getPermission(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;I)J
 
     move-result-wide v5
@@ -157,7 +155,6 @@
 
     move-result v5
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->getPermission(I)J
     invoke-static {v6, v5}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;->access$getPermission(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$Companion;I)J
 
     move-result-wide v5

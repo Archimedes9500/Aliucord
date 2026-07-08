@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/managereactions/WidgetManageReactions$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/chat/managereactions/WidgetManageReactions;
 
-    # invokes: Lcom/discord/widgets/chat/managereactions/WidgetManageReactions;->configureUI(Lcom/discord/widgets/chat/managereactions/ManageReactionsModel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/managereactions/WidgetManageReactions;->access$configureUI(Lcom/discord/widgets/chat/managereactions/WidgetManageReactions;Lcom/discord/widgets/chat/managereactions/ManageReactionsModel;)V
 
     return-void

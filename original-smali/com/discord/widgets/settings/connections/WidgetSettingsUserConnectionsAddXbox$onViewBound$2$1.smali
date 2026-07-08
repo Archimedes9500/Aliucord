@@ -84,7 +84,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox;->trackXboxLinkFailed(Lcom/discord/utilities/error/Error;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox;->access$trackXboxLinkFailed(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox;Lcom/discord/utilities/error/Error;)V
 
     .line 3
@@ -106,7 +105,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox$onViewBound$2;->this$0:Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox;
 
-    # invokes: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox;->showPinError()V
     invoke-static {p1}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox;->access$showPinError(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox;)V
 
     :cond_1f

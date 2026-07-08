@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;->getMaxUsesString(I)Ljava/lang/String;
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;->access$getMaxUsesString(Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;I)Ljava/lang/String;
 
     move-result-object p1

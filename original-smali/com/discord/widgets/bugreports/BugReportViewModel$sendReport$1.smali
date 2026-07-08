@@ -97,13 +97,11 @@
 
     invoke-direct {v0, v1}, Lcom/discord/widgets/bugreports/BugReportViewModel$ViewState$Success;-><init>(Lcom/discord/api/sticker/Sticker;)V
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/bugreports/BugReportViewModel;->access$updateViewState(Lcom/discord/widgets/bugreports/BugReportViewModel;Lcom/discord/widgets/bugreports/BugReportViewModel$ViewState;)V
 
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/bugreports/BugReportViewModel$sendReport$1;->this$0:Lcom/discord/widgets/bugreports/BugReportViewModel;
 
-    # invokes: Lcom/discord/widgets/bugreports/BugReportViewModel;->dismissAfterDelay()V
     invoke-static {p1}, Lcom/discord/widgets/bugreports/BugReportViewModel;->access$dismissAfterDelay(Lcom/discord/widgets/bugreports/BugReportViewModel;)V
 
     return-void

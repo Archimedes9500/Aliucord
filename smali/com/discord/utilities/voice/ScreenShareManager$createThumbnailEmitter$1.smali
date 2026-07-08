@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/voice/ScreenShareManager$createThumbnailEmitter$1;->this$0:Lcom/discord/utilities/voice/ScreenShareManager;
 
-    # getter for: Lcom/discord/utilities/voice/ScreenShareManager;->thumbnailBitmapSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/utilities/voice/ScreenShareManager;->access$getThumbnailBitmapSubject$p(Lcom/discord/utilities/voice/ScreenShareManager;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

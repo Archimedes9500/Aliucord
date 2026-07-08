@@ -192,7 +192,6 @@
     const/4 v1, 0x1
 
     .line 9
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGift$ModelProvider;->getResolvedGiftModel(Lcom/discord/models/domain/ModelGift;Z)Lrx/Observable;
     invoke-static {v0, p1, v1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGift$ModelProvider;->access$getResolvedGiftModel(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGift$ModelProvider;Lcom/discord/models/domain/ModelGift;Z)Lrx/Observable;
 
     move-result-object v0
@@ -229,7 +228,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGift$ModelProvider$get$1;->$item:Lcom/discord/widgets/chat/list/entries/GiftEntry;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGift$ModelProvider;->getInvalidGift(Lcom/discord/widgets/chat/list/entries/GiftEntry;)Lrx/Observable;
     invoke-static {p1, v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGift$ModelProvider;->access$getInvalidGift(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGift$ModelProvider;Lcom/discord/widgets/chat/list/entries/GiftEntry;)Lrx/Observable;
 
     move-result-object v0

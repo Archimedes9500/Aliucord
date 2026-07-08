@@ -72,7 +72,6 @@
 
     iget-wide v0, p0, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet$configureGuildHubActions$1;->$guildId:J
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;->launchInvite(J)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;->access$launchInvite(Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;J)V
 
     return-void

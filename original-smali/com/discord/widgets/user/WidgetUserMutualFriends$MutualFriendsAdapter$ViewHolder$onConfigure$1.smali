@@ -86,7 +86,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/user/WidgetUserMutualFriends$MutualFriendsAdapter;->fragment:Lcom/discord/app/AppFragment;
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetUserMutualFriends$MutualFriendsAdapter;->access$getFragment$p(Lcom/discord/widgets/user/WidgetUserMutualFriends$MutualFriendsAdapter;)Lcom/discord/app/AppFragment;
 
     move-result-object p1

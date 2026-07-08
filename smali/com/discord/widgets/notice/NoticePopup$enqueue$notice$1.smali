@@ -478,7 +478,6 @@
 
     invoke-direct {v9, v0, v1}, Lcom/discord/widgets/notice/NoticePopup$enqueue$notice$1$$special$$inlined$also$lambda$1;-><init>(Lcom/discord/widgets/notice/NoticePopup$enqueue$notice$1;Landroidx/fragment/app/FragmentActivity;)V
 
-    # invokes: Lcom/discord/widgets/notice/NoticePopup;->getAutoDismissAnimator(Ljava/lang/Integer;Lkotlin/jvm/functions/Function0;)Landroid/animation/ValueAnimator;
     invoke-static {v7, v8, v9}, Lcom/discord/widgets/notice/NoticePopup;->access$getAutoDismissAnimator(Lcom/discord/widgets/notice/NoticePopup;Ljava/lang/Integer;Lkotlin/jvm/functions/Function0;)Landroid/animation/ValueAnimator;
 
     move-result-object v7

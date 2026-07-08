@@ -216,7 +216,6 @@
 
     move-object v6, p4
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/sources/ApplicationCommandsAutocompletableSource;->createAutocompletablesForApplicationCommands(JLjava/util/List;Ljava/util/List;Ljava/util/List;)Ljava/util/Map;
     invoke-static/range {v1 .. v6}, Lcom/discord/widgets/chat/input/autocomplete/sources/ApplicationCommandsAutocompletableSource;->access$createAutocompletablesForApplicationCommands(Lcom/discord/widgets/chat/input/autocomplete/sources/ApplicationCommandsAutocompletableSource;JLjava/util/List;Ljava/util/List;Ljava/util/List;)Ljava/util/Map;
 
     move-result-object p1

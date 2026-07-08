@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/list/WidgetChannelsListItemChannelActions$bindSubscriptions$1;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsListItemChannelActions;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsListItemChannelActions;->configureUI(Lcom/discord/widgets/channels/list/WidgetChannelsListItemChannelActions$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/list/WidgetChannelsListItemChannelActions;->access$configureUI(Lcom/discord/widgets/channels/list/WidgetChannelsListItemChannelActions;Lcom/discord/widgets/channels/list/WidgetChannelsListItemChannelActions$Model;)V
 
     return-void

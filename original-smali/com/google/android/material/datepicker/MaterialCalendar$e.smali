@@ -105,7 +105,6 @@
     .line 5
     iget-object v3, v0, Lcom/google/android/material/datepicker/MaterialCalendar$e;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    # getter for: Lcom/google/android/material/datepicker/MaterialCalendar;->dateSelector:Lcom/google/android/material/datepicker/DateSelector;
     invoke-static {v3}, Lcom/google/android/material/datepicker/MaterialCalendar;->access$200(Lcom/google/android/material/datepicker/MaterialCalendar;)Lcom/google/android/material/datepicker/DateSelector;
 
     move-result-object v3
@@ -245,7 +244,6 @@
 
     iget-object v11, v0, Lcom/google/android/material/datepicker/MaterialCalendar$e;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    # getter for: Lcom/google/android/material/datepicker/MaterialCalendar;->calendarStyle:Lb/i/a/g/d/b;
     invoke-static {v11}, Lcom/google/android/material/datepicker/MaterialCalendar;->access$400(Lcom/google/android/material/datepicker/MaterialCalendar;)Lb/i/a/g/d/b;
 
     move-result-object v11
@@ -266,7 +264,6 @@
 
     iget-object v11, v0, Lcom/google/android/material/datepicker/MaterialCalendar$e;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    # getter for: Lcom/google/android/material/datepicker/MaterialCalendar;->calendarStyle:Lb/i/a/g/d/b;
     invoke-static {v11}, Lcom/google/android/material/datepicker/MaterialCalendar;->access$400(Lcom/google/android/material/datepicker/MaterialCalendar;)Lb/i/a/g/d/b;
 
     move-result-object v11
@@ -336,7 +333,6 @@
     .line 24
     iget-object v12, v0, Lcom/google/android/material/datepicker/MaterialCalendar$e;->c:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    # getter for: Lcom/google/android/material/datepicker/MaterialCalendar;->calendarStyle:Lb/i/a/g/d/b;
     invoke-static {v12}, Lcom/google/android/material/datepicker/MaterialCalendar;->access$400(Lcom/google/android/material/datepicker/MaterialCalendar;)Lb/i/a/g/d/b;
 
     move-result-object v12

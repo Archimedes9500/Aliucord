@@ -49,14 +49,12 @@
     .line 3
     iget-object v0, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView$a;->j:Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;
 
-    # getter for: Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;->menu:Landroidx/appcompat/view/menu/MenuBuilder;
     invoke-static {v0}, Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;->access$100(Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;)Landroidx/appcompat/view/menu/MenuBuilder;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView$a;->j:Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;
 
-    # getter for: Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;->presenter:Lcom/google/android/material/bottomnavigation/BottomNavigationPresenter;
     invoke-static {v1}, Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;->access$000(Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;)Lcom/google/android/material/bottomnavigation/BottomNavigationPresenter;
 
     move-result-object v1

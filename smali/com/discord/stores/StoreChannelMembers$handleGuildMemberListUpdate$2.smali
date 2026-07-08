@@ -87,7 +87,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreChannelMembers$handleGuildMemberListUpdate$2;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreChannelMembers;->makeGroup(JLcom/discord/models/domain/ModelGuildMemberListUpdate$Group;)Lcom/discord/utilities/lazy/memberlist/MemberListRow;
     invoke-static {v0, v1, v2, p1}, Lcom/discord/stores/StoreChannelMembers;->access$makeGroup(Lcom/discord/stores/StoreChannelMembers;JLcom/discord/models/domain/ModelGuildMemberListUpdate$Group;)Lcom/discord/utilities/lazy/memberlist/MemberListRow;
 
     move-result-object p1

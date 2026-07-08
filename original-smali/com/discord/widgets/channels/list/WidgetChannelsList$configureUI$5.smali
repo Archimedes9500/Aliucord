@@ -106,7 +106,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$configureUI$5;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsList;->getBinding()Lcom/discord/databinding/WidgetChannelsListBinding;
     invoke-static {v0}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$getBinding$p(Lcom/discord/widgets/channels/list/WidgetChannelsList;)Lcom/discord/databinding/WidgetChannelsListBinding;
 
     move-result-object v0
@@ -126,7 +125,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$configureUI$5;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsList;->getBinding()Lcom/discord/databinding/WidgetChannelsListBinding;
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$getBinding$p(Lcom/discord/widgets/channels/list/WidgetChannelsList;)Lcom/discord/databinding/WidgetChannelsListBinding;
 
     move-result-object p1
@@ -140,7 +138,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$configureUI$5;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
-    # getter for: Lcom/discord/widgets/channels/list/WidgetChannelsList;->isCollapsed:Z
     invoke-static {v0}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$isCollapsed$p(Lcom/discord/widgets/channels/list/WidgetChannelsList;)Z
 
     move-result v0
@@ -157,12 +154,10 @@
 
     iget-object v0, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$configureUI$5;->$guild:Lcom/discord/models/guild/Guild;
 
-    # getter for: Lcom/discord/widgets/channels/list/WidgetChannelsList;->isCollapsed:Z
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$isCollapsed$p(Lcom/discord/widgets/channels/list/WidgetChannelsList;)Z
 
     move-result v1
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsList;->configureHeaderIcons(Lcom/discord/models/guild/Guild;Z)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$configureHeaderIcons(Lcom/discord/widgets/channels/list/WidgetChannelsList;Lcom/discord/models/guild/Guild;Z)V
 
     .line 7
@@ -176,7 +171,6 @@
 
     iget-boolean v1, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$configureUI$5;->$hasBanner:Z
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsList;->configureHeaderColors(Lcom/discord/models/guild/Guild;Z)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$configureHeaderColors(Lcom/discord/widgets/channels/list/WidgetChannelsList;Lcom/discord/models/guild/Guild;Z)V
 
     :cond_44

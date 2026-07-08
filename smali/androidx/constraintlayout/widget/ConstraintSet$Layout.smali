@@ -1608,7 +1608,6 @@
     :pswitch_88
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->topToTop:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -1621,7 +1620,6 @@
     :pswitch_92
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->topToBottom:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -1646,7 +1644,6 @@
     :pswitch_a6
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->startToStart:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -1659,7 +1656,6 @@
     :pswitch_b0
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->startToEnd:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -1684,7 +1680,6 @@
     :pswitch_c4
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->rightToRight:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -1697,7 +1692,6 @@
     :pswitch_ce
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->rightToLeft:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -1734,7 +1728,6 @@
     :pswitch_ec
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->leftToRight:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -1747,7 +1740,6 @@
     :pswitch_f6
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->leftToLeft:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -1916,7 +1908,6 @@
     :pswitch_182
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->endToStart:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -1929,7 +1920,6 @@
     :pswitch_18c
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->endToEnd:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -1988,7 +1978,6 @@
     :pswitch_1bc
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->bottomToTop:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -2001,7 +1990,6 @@
     :pswitch_1c6
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->bottomToBottom:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -2026,7 +2014,6 @@
     :pswitch_1da
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->baselineToBaseline:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1
@@ -2135,7 +2122,6 @@
     :pswitch_234
     iget v2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->circleConstraint:I
 
-    # invokes: Landroidx/constraintlayout/widget/ConstraintSet;->lookupID(Landroid/content/res/TypedArray;II)I
     invoke-static {p1, v1, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->access$100(Landroid/content/res/TypedArray;II)I
 
     move-result v1

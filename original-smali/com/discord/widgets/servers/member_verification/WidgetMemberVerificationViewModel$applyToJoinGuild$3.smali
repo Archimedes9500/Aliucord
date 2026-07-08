@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel$applyToJoinGuild$3;->this$0:Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;->handleGuildUpdateError()V
     invoke-static {p1}, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;->access$handleGuildUpdateError(Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;)V
 
     return-void

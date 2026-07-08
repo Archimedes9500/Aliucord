@@ -47,7 +47,6 @@
 
     iget-boolean v1, p0, Lcom/adjust/sdk/ActivityHandler$8;->val$askingAttribution:Z
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->setAskingAttributionI(Z)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/ActivityHandler;->access$1400(Lcom/adjust/sdk/ActivityHandler;Z)V
 
     return-void

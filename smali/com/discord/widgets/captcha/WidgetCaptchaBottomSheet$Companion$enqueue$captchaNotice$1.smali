@@ -179,7 +179,6 @@
     check-cast v1, Landroidx/fragment/app/Fragment;
 
     .line 6
-    # getter for: Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;->resolvableFragments:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;->access$getResolvableFragments$cp()Ljava/util/List;
 
     move-result-object v2

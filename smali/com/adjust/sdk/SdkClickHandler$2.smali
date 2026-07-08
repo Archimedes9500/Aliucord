@@ -43,7 +43,6 @@
     .line 1
     iget-object v0, v1, Lcom/adjust/sdk/SdkClickHandler$2;->this$0:Lcom/adjust/sdk/SdkClickHandler;
 
-    # getter for: Lcom/adjust/sdk/SdkClickHandler;->activityHandlerWeakRef:Ljava/lang/ref/WeakReference;
     invoke-static {v0}, Lcom/adjust/sdk/SdkClickHandler;->access$300(Lcom/adjust/sdk/SdkClickHandler;)Ljava/lang/ref/WeakReference;
 
     move-result-object v0
@@ -175,7 +174,6 @@
     .line 18
     iget-object v2, v1, Lcom/adjust/sdk/SdkClickHandler$2;->this$0:Lcom/adjust/sdk/SdkClickHandler;
 
-    # getter for: Lcom/adjust/sdk/SdkClickHandler;->logger:Lcom/adjust/sdk/ILogger;
     invoke-static {v2}, Lcom/adjust/sdk/SdkClickHandler;->access$100(Lcom/adjust/sdk/SdkClickHandler;)Lcom/adjust/sdk/ILogger;
 
     move-result-object v2

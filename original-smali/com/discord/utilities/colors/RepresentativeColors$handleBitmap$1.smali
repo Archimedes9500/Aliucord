@@ -194,7 +194,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/utilities/colors/RepresentativeColors$handleBitmap$1;->this$0:Lcom/discord/utilities/colors/RepresentativeColors;
 
-    # getter for: Lcom/discord/utilities/colors/RepresentativeColors;->representativeColors:Ljava/util/HashMap;
     invoke-static {p1}, Lcom/discord/utilities/colors/RepresentativeColors;->access$getRepresentativeColors$p(Lcom/discord/utilities/colors/RepresentativeColors;)Ljava/util/HashMap;
 
     move-result-object p1
@@ -223,7 +222,6 @@
     if-eqz p1, :cond_3a
 
     .line 7
-    # getter for: Lcom/discord/utilities/colors/RepresentativeColors;->BLURPLE:I
     invoke-static {}, Lcom/discord/utilities/colors/RepresentativeColors;->access$getBLURPLE$cp()I
 
     move-result p1
@@ -283,7 +281,6 @@
 
     if-eqz v0, :cond_e6
 
-    # getter for: Lcom/discord/utilities/colors/RepresentativeColors;->BLURPLE:I
     invoke-static {}, Lcom/discord/utilities/colors/RepresentativeColors;->access$getBLURPLE$cp()I
 
     move-result v0
@@ -401,7 +398,6 @@
     :goto_c5
     iget-object v0, p0, Lcom/discord/utilities/colors/RepresentativeColors$handleBitmap$1;->this$0:Lcom/discord/utilities/colors/RepresentativeColors;
 
-    # getter for: Lcom/discord/utilities/colors/RepresentativeColors;->representativeColors:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/utilities/colors/RepresentativeColors;->access$getRepresentativeColors$p(Lcom/discord/utilities/colors/RepresentativeColors;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -417,14 +413,12 @@
     .line 23
     iget-object p1, p0, Lcom/discord/utilities/colors/RepresentativeColors$handleBitmap$1;->this$0:Lcom/discord/utilities/colors/RepresentativeColors;
 
-    # getter for: Lcom/discord/utilities/colors/RepresentativeColors;->representativeColorsSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/utilities/colors/RepresentativeColors;->access$getRepresentativeColorsSubject$p(Lcom/discord/utilities/colors/RepresentativeColors;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/discord/utilities/colors/RepresentativeColors$handleBitmap$1;->this$0:Lcom/discord/utilities/colors/RepresentativeColors;
 
-    # getter for: Lcom/discord/utilities/colors/RepresentativeColors;->representativeColors:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/utilities/colors/RepresentativeColors;->access$getRepresentativeColors$p(Lcom/discord/utilities/colors/RepresentativeColors;)Ljava/util/HashMap;
 
     move-result-object v0

@@ -101,7 +101,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$configureSubtitle$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->access$getClock$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;)Lcom/discord/utilities/time/Clock;
 
     move-result-object p1
@@ -131,7 +130,6 @@
     .line 7
     iget-object v0, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$configureSubtitle$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->getMinWidthPxForTime(Ljava/lang/String;)I
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->access$getMinWidthPxForTime(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;Ljava/lang/String;)I
 
     move-result v0
@@ -139,7 +137,6 @@
     .line 8
     iget-object v1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$configureSubtitle$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->binding:Lcom/discord/databinding/WidgetChatListAdapterItemCallBinding;
     invoke-static {v1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->access$getBinding$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;)Lcom/discord/databinding/WidgetChatListAdapterItemCallBinding;
 
     move-result-object v1
@@ -155,7 +152,6 @@
     .line 9
     iget-object v1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$configureSubtitle$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->binding:Lcom/discord/databinding/WidgetChatListAdapterItemCallBinding;
     invoke-static {v1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->access$getBinding$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;)Lcom/discord/databinding/WidgetChatListAdapterItemCallBinding;
 
     move-result-object v1
@@ -171,7 +167,6 @@
     .line 10
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$configureSubtitle$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->binding:Lcom/discord/databinding/WidgetChatListAdapterItemCallBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->access$getBinding$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;)Lcom/discord/databinding/WidgetChatListAdapterItemCallBinding;
 
     move-result-object p1
@@ -182,7 +177,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$configureSubtitle$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->binding:Lcom/discord/databinding/WidgetChatListAdapterItemCallBinding;
     invoke-static {v1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->access$getBinding$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;)Lcom/discord/databinding/WidgetChatListAdapterItemCallBinding;
 
     move-result-object v1

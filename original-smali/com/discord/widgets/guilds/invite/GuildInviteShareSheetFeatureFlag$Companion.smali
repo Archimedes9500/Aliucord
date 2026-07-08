@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetFeatureFlag;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetFeatureFlag;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetFeatureFlag;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

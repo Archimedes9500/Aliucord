@@ -146,7 +146,6 @@
     invoke-direct {v1, p1, v2, v3, v4}, Lcom/discord/stores/RtcLatencyTestResult;-><init>(Ljava/util/List;Ljava/util/List;J)V
 
     .line 8
-    # invokes: Lcom/discord/stores/StoreRtcRegion;->updateLastTestResult(Lcom/discord/stores/RtcLatencyTestResult;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreRtcRegion;->access$updateLastTestResult(Lcom/discord/stores/StoreRtcRegion;Lcom/discord/stores/RtcLatencyTestResult;)V
 
     return-void

@@ -81,7 +81,6 @@
     .line 3
     iget-object v2, p0, Lcom/discord/widgets/user/WidgetPruneUsers$radioManager$2;->this$0:Lcom/discord/widgets/user/WidgetPruneUsers;
 
-    # invokes: Lcom/discord/widgets/user/WidgetPruneUsers;->getBinding()Lcom/discord/databinding/WidgetPruneUsersBinding;
     invoke-static {v2}, Lcom/discord/widgets/user/WidgetPruneUsers;->access$getBinding$p(Lcom/discord/widgets/user/WidgetPruneUsers;)Lcom/discord/databinding/WidgetPruneUsersBinding;
 
     move-result-object v2
@@ -95,7 +94,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/widgets/user/WidgetPruneUsers$radioManager$2;->this$0:Lcom/discord/widgets/user/WidgetPruneUsers;
 
-    # invokes: Lcom/discord/widgets/user/WidgetPruneUsers;->getBinding()Lcom/discord/databinding/WidgetPruneUsersBinding;
     invoke-static {v2}, Lcom/discord/widgets/user/WidgetPruneUsers;->access$getBinding$p(Lcom/discord/widgets/user/WidgetPruneUsers;)Lcom/discord/databinding/WidgetPruneUsersBinding;
 
     move-result-object v2

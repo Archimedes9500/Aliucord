@@ -85,7 +85,6 @@
 .method private final getLogger()Lcom/discord/utilities/logging/Logger;
     .locals 2
 
-    # getter for: Lcom/discord/utilities/view/text/LinkifiedTextView;->logger$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/utilities/view/text/LinkifiedTextView;->access$getLogger$cp()Lkotlin/Lazy;
 
     move-result-object v0

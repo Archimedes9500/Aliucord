@@ -105,7 +105,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment$configureFileData$2;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment;->binding:Lcom/discord/databinding/WidgetChatListAdapterItemAttachmentBinding;
     invoke-static {v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment;->access$getBinding$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment;)Lcom/discord/databinding/WidgetChatListAdapterItemAttachmentBinding;
 
     move-result-object v0
@@ -123,7 +122,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment$configureFileData$2;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment;->binding:Lcom/discord/databinding/WidgetChatListAdapterItemAttachmentBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment;->access$getBinding$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment;)Lcom/discord/databinding/WidgetChatListAdapterItemAttachmentBinding;
 
     move-result-object p1

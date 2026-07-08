@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet$configureToggleSpeakerState$1;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;->getViewModel()Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;->access$getViewModel$p(Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;)Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel;
 
     move-result-object v0

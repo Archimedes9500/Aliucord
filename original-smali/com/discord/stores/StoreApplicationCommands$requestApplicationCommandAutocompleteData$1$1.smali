@@ -100,7 +100,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommandAutocompleteData$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreApplicationCommands;->access$getDispatcher$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

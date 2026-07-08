@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreDirectories$removeServerFromDirectory$2;->this$0:Lcom/discord/stores/StoreDirectories;
 
-    # getter for: Lcom/discord/stores/StoreDirectories;->directoriesMap:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreDirectories;->access$getDirectoriesMap$p(Lcom/discord/stores/StoreDirectories;)Ljava/util/Map;
 
     move-result-object v0
@@ -105,7 +104,6 @@
 
     iget-object v2, v2, Lcom/discord/stores/StoreDirectories$removeServerFromDirectory$2;->this$0:Lcom/discord/stores/StoreDirectories;
 
-    # getter for: Lcom/discord/stores/StoreDirectories;->directoriesMap:Ljava/util/Map;
     invoke-static {v2}, Lcom/discord/stores/StoreDirectories;->access$getDirectoriesMap$p(Lcom/discord/stores/StoreDirectories;)Ljava/util/Map;
 
     move-result-object v2

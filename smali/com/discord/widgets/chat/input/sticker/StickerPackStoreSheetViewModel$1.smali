@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$1;->this$0:Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel;->handleStoreState(Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel;Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$StoreState;)V
 
     return-void

@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreStream$initGatewaySocketListeners$57;->this$0:Lcom/discord/stores/StoreStream;
 
-    # invokes: Lcom/discord/stores/StoreStream;->handleUserSubscriptionsUpdate()V
     invoke-static {p1}, Lcom/discord/stores/StoreStream;->access$handleUserSubscriptionsUpdate(Lcom/discord/stores/StoreStream;)V
 
     return-void

@@ -94,7 +94,6 @@
 
     move-result-object v3
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsVoice$Companion;->hasOverlayPermission(Landroid/content/Context;)Z
     invoke-static {v0, v3}, Lcom/discord/widgets/settings/WidgetSettingsVoice$Companion;->access$hasOverlayPermission(Lcom/discord/widgets/settings/WidgetSettingsVoice$Companion;Landroid/content/Context;)Z
 
     move-result v0
@@ -107,7 +106,6 @@
     :cond_19
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsVoice$onViewBound$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsVoice;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsVoice;->getBinding()Lcom/discord/databinding/WidgetSettingsVoiceBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsVoice;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsVoice;)Lcom/discord/databinding/WidgetSettingsVoiceBinding;
 
     move-result-object p1
@@ -142,7 +140,6 @@
 
     iget-object v4, p0, Lcom/discord/widgets/settings/WidgetSettingsVoice$onViewBound$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsVoice;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsVoice;->getBinding()Lcom/discord/databinding/WidgetSettingsVoiceBinding;
     invoke-static {v4}, Lcom/discord/widgets/settings/WidgetSettingsVoice;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsVoice;)Lcom/discord/databinding/WidgetSettingsVoiceBinding;
 
     move-result-object v4
@@ -205,7 +202,6 @@
     .line 11
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsVoice$onViewBound$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsVoice;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsVoice;->getBinding()Lcom/discord/databinding/WidgetSettingsVoiceBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsVoice;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsVoice;)Lcom/discord/databinding/WidgetSettingsVoiceBinding;
 
     move-result-object v0
@@ -220,7 +216,6 @@
 
     invoke-static {v0, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsVoice;->onOverlayToggled(Landroid/content/Context;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/WidgetSettingsVoice;->access$onOverlayToggled(Lcom/discord/widgets/settings/WidgetSettingsVoice;Landroid/content/Context;)V
 
     :goto_8c

@@ -231,7 +231,6 @@
     .line 18
     iget-object v1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$initializeSystemUiListeners$5;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getBinding()Lcom/discord/databinding/WidgetCallFullscreenBinding;
     invoke-static {v1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getBinding$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/databinding/WidgetCallFullscreenBinding;
 
     move-result-object v1
@@ -267,7 +266,6 @@
     .line 23
     iget-object p2, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$initializeSystemUiListeners$5;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getBinding()Lcom/discord/databinding/WidgetCallFullscreenBinding;
     invoke-static {p2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getBinding$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/databinding/WidgetCallFullscreenBinding;
 
     move-result-object p2
@@ -279,7 +277,6 @@
     .line 24
     iget-object p2, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$initializeSystemUiListeners$5;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getBinding()Lcom/discord/databinding/WidgetCallFullscreenBinding;
     invoke-static {p2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getBinding$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/databinding/WidgetCallFullscreenBinding;
 
     move-result-object p2
@@ -291,7 +288,6 @@
     .line 25
     iget-object p2, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$initializeSystemUiListeners$5;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getBinding()Lcom/discord/databinding/WidgetCallFullscreenBinding;
     invoke-static {p2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getBinding$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)Lcom/discord/databinding/WidgetCallFullscreenBinding;
 
     move-result-object p2

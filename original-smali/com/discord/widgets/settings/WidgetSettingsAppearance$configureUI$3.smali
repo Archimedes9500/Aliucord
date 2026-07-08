@@ -109,7 +109,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureUI$3;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->updateTheme(Ljava/lang/String;)V
     invoke-static {p1, v1}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$updateTheme(Lcom/discord/widgets/settings/WidgetSettingsAppearance;Ljava/lang/String;)V
 
     goto :goto_38
@@ -137,7 +136,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureUI$3;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->updateTheme(Ljava/lang/String;)V
     invoke-static {p1, v2}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$updateTheme(Lcom/discord/widgets/settings/WidgetSettingsAppearance;Ljava/lang/String;)V
 
     :cond_38

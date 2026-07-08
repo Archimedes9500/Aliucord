@@ -82,7 +82,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$9;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->getBinding()Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getBinding$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
 
     move-result-object p1

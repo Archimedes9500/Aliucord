@@ -118,7 +118,6 @@
     if-eqz v0, :cond_14
 
     .line 4
-    # getter for: Lcom/discord/utilities/voice/VoiceEngineServiceController;->NOTIFICATION_DATA_DISCONNECTED:Lcom/discord/utilities/voice/VoiceEngineServiceController$NotificationData;
     invoke-static {}, Lcom/discord/utilities/voice/VoiceEngineServiceController;->access$getNOTIFICATION_DATA_DISCONNECTED$cp()Lcom/discord/utilities/voice/VoiceEngineServiceController$NotificationData;
 
     move-result-object p1
@@ -134,7 +133,6 @@
     :cond_14
     iget-object v0, p0, Lcom/discord/utilities/voice/VoiceEngineServiceController$notificationDataObservable$1;->this$0:Lcom/discord/utilities/voice/VoiceEngineServiceController;
 
-    # getter for: Lcom/discord/utilities/voice/VoiceEngineServiceController;->voiceChannelSelectedStore:Lcom/discord/stores/StoreVoiceChannelSelected;
     invoke-static {v0}, Lcom/discord/utilities/voice/VoiceEngineServiceController;->access$getVoiceChannelSelectedStore$p(Lcom/discord/utilities/voice/VoiceEngineServiceController;)Lcom/discord/stores/StoreVoiceChannelSelected;
 
     move-result-object v0

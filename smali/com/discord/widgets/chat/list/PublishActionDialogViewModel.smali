@@ -266,7 +266,6 @@
 
     move-wide v4, p3
 
-    # invokes: Lcom/discord/widgets/chat/list/PublishActionDialogViewModel$Companion;->observeChannelFollowerStatsStoreState(JLcom/discord/stores/StoreChannelFollowerStats;)Lrx/Observable;
     invoke-static {v0, p3, p4, v7}, Lcom/discord/widgets/chat/list/PublishActionDialogViewModel$Companion;->access$observeChannelFollowerStatsStoreState(Lcom/discord/widgets/chat/list/PublishActionDialogViewModel$Companion;JLcom/discord/stores/StoreChannelFollowerStats;)Lrx/Observable;
 
     move-result-object v0

@@ -91,7 +91,6 @@
 
     iget-wide v2, v0, Lcom/discord/stores/StoreGuildProfiles$fetchGuildProfile$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreGuildProfiles;->handleGuildProfileFetchFailed(J)V
     invoke-static {v1, v2, v3}, Lcom/discord/stores/StoreGuildProfiles;->access$handleGuildProfileFetchFailed(Lcom/discord/stores/StoreGuildProfiles;J)V
 
     return-void

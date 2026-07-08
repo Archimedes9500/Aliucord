@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lorg/webrtc/EglRenderer$2;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->handlerLock:Ljava/lang/Object;
     invoke-static {v0}, Lorg/webrtc/EglRenderer;->access$200(Lorg/webrtc/EglRenderer;)Ljava/lang/Object;
 
     move-result-object v0
@@ -54,7 +53,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/webrtc/EglRenderer;->renderThreadHandler:Landroid/os/Handler;
     invoke-static {v1, v2}, Lorg/webrtc/EglRenderer;->access$302(Lorg/webrtc/EglRenderer;Landroid/os/Handler;)Landroid/os/Handler;
 
     .line 3

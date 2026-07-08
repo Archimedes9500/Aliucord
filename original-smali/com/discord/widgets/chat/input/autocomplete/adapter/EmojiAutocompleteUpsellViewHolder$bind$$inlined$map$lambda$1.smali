@@ -116,7 +116,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/chat/input/autocomplete/adapter/EmojiAutocompleteUpsellViewHolder$bind$$inlined$map$lambda$1;->this$0:Lcom/discord/widgets/chat/input/autocomplete/adapter/EmojiAutocompleteUpsellViewHolder;
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/adapter/EmojiAutocompleteUpsellViewHolder;->binding:Lcom/discord/databinding/WidgetChatInputEmojiAutocompleteUpsellItemBinding;
     invoke-static {v2}, Lcom/discord/widgets/chat/input/autocomplete/adapter/EmojiAutocompleteUpsellViewHolder;->access$getBinding$p(Lcom/discord/widgets/chat/input/autocomplete/adapter/EmojiAutocompleteUpsellViewHolder;)Lcom/discord/databinding/WidgetChatInputEmojiAutocompleteUpsellItemBinding;
 
     move-result-object v2

@@ -47,7 +47,6 @@
 
     iget-boolean v1, p0, Lcom/adjust/sdk/ActivityHandler$6;->val$offline:Z
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->setOfflineModeI(Z)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/ActivityHandler;->access$1200(Lcom/adjust/sdk/ActivityHandler;Z)V
 
     return-void

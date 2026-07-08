@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAuthLogin$captchaForgotPasswordLauncher$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthLogin;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLogin;->forgotPassword(Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetAuthLogin;->access$forgotPassword(Lcom/discord/widgets/auth/WidgetAuthLogin;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
 
     return-void

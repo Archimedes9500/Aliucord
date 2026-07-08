@@ -187,7 +187,6 @@
     .line 6
     iget-object v1, v0, Lcom/discord/widgets/chat/MessageManager$sendMessage$messageResultObservable$1;->this$0:Lcom/discord/widgets/chat/MessageManager;
 
-    # getter for: Lcom/discord/widgets/chat/MessageManager;->storePendingReplies:Lcom/discord/stores/StorePendingReplies;
     invoke-static {v1}, Lcom/discord/widgets/chat/MessageManager;->access$getStorePendingReplies$p(Lcom/discord/widgets/chat/MessageManager;)Lcom/discord/stores/StorePendingReplies;
 
     move-result-object v1
@@ -200,7 +199,6 @@
     :cond_30
     iget-object v1, v0, Lcom/discord/widgets/chat/MessageManager$sendMessage$messageResultObservable$1;->this$0:Lcom/discord/widgets/chat/MessageManager;
 
-    # getter for: Lcom/discord/widgets/chat/MessageManager;->storeMessages:Lcom/discord/stores/StoreMessages;
     invoke-static {v1}, Lcom/discord/widgets/chat/MessageManager;->access$getStoreMessages$p(Lcom/discord/widgets/chat/MessageManager;)Lcom/discord/stores/StoreMessages;
 
     move-result-object v2

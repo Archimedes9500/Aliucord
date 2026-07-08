@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/feedback/WidgetFeedbackSheet$updateView$5;->this$0:Lcom/discord/widgets/feedback/WidgetFeedbackSheet;
 
-    # invokes: Lcom/discord/widgets/feedback/WidgetFeedbackSheet;->getViewModel()Lcom/discord/widgets/feedback/FeedbackSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/feedback/WidgetFeedbackSheet;->access$getViewModel$p(Lcom/discord/widgets/feedback/WidgetFeedbackSheet;)Lcom/discord/widgets/feedback/FeedbackSheetViewModel;
 
     move-result-object v0

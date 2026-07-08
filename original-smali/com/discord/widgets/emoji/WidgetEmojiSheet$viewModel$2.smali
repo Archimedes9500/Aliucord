@@ -76,7 +76,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/emoji/WidgetEmojiSheet$viewModel$2;->this$0:Lcom/discord/widgets/emoji/WidgetEmojiSheet;
 
-    # invokes: Lcom/discord/widgets/emoji/WidgetEmojiSheet;->getEmojiIdAndType()Lcom/discord/utilities/textprocessing/node/EmojiNode$EmojiIdAndType;
     invoke-static {v0}, Lcom/discord/widgets/emoji/WidgetEmojiSheet;->access$getEmojiIdAndType$p(Lcom/discord/widgets/emoji/WidgetEmojiSheet;)Lcom/discord/utilities/textprocessing/node/EmojiNode$EmojiIdAndType;
 
     move-result-object v1

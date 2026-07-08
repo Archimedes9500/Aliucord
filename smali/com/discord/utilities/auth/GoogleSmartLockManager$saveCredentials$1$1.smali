@@ -141,7 +141,6 @@
 
     iget-object v0, v0, Lcom/discord/utilities/auth/GoogleSmartLockManager$saveCredentials$1;->$id:Ljava/lang/String;
 
-    # invokes: Lcom/discord/utilities/auth/GoogleSmartLockManager;->resolveResult(Lcom/google/android/gms/common/api/ResolvableApiException;Ljava/lang/String;)V
     invoke-static {v1, p1, v0}, Lcom/discord/utilities/auth/GoogleSmartLockManager;->access$resolveResult(Lcom/discord/utilities/auth/GoogleSmartLockManager;Lcom/google/android/gms/common/api/ResolvableApiException;Ljava/lang/String;)V
 
     goto :goto_3d

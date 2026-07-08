@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreUserGuildSettings$handleGuildSettings$2;->this$0:Lcom/discord/stores/StoreUserGuildSettings;
 
-    # invokes: Lcom/discord/stores/StoreUserGuildSettings;->recomputeMuteConfigs()V
     invoke-static {v0}, Lcom/discord/stores/StoreUserGuildSettings;->access$recomputeMuteConfigs(Lcom/discord/stores/StoreUserGuildSettings;)V
 
     return-void

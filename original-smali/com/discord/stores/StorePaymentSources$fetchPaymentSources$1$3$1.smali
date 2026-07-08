@@ -89,7 +89,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StorePaymentSources$fetchPaymentSources$1;->this$0:Lcom/discord/stores/StorePaymentSources;
 
-    # invokes: Lcom/discord/stores/StorePaymentSources;->handlePaymentSourcesFetchFailure()V
     invoke-static {v0}, Lcom/discord/stores/StorePaymentSources;->access$handlePaymentSourcesFetchFailure(Lcom/discord/stores/StorePaymentSources;)V
 
     return-void

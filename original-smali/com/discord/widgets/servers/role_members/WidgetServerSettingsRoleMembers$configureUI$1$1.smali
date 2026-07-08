@@ -72,7 +72,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers$configureUI$1;->this$0:Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;
 
-    # invokes: Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;->getViewModel()Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;->access$getViewModel$p(Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;)Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;
 
     move-result-object p1

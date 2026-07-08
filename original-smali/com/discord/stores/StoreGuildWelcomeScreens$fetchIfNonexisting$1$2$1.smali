@@ -91,7 +91,6 @@
 
     iget-wide v2, v0, Lcom/discord/stores/StoreGuildWelcomeScreens$fetchIfNonexisting$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreGuildWelcomeScreens;->handleGuildWelcomeScreenFetchFailed(J)V
     invoke-static {v1, v2, v3}, Lcom/discord/stores/StoreGuildWelcomeScreens;->access$handleGuildWelcomeScreenFetchFailed(Lcom/discord/stores/StoreGuildWelcomeScreens;J)V
 
     return-void

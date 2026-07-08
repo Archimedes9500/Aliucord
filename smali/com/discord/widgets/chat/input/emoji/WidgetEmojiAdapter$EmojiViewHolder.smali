@@ -156,7 +156,6 @@
 
     check-cast v0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;->emojiSizePx:I
     invoke-static {v0}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;->access$getEmojiSizePx$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;)I
 
     move-result v0

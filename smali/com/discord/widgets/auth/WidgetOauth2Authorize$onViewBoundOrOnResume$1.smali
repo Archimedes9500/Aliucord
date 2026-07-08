@@ -157,7 +157,6 @@
     :goto_3d
     iget-object v1, p0, Lcom/discord/widgets/auth/WidgetOauth2Authorize$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/auth/WidgetOauth2Authorize;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2Authorize;->getValidationManager()Lcom/discord/utilities/view/validators/ValidationManager;
     invoke-static {v1}, Lcom/discord/widgets/auth/WidgetOauth2Authorize;->access$getValidationManager$p(Lcom/discord/widgets/auth/WidgetOauth2Authorize;)Lcom/discord/utilities/view/validators/ValidationManager;
 
     move-result-object v1

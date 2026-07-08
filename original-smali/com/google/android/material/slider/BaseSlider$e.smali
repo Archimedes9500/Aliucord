@@ -206,7 +206,6 @@
     .line 4
     iget-object p3, p0, Lcom/google/android/material/slider/BaseSlider$e;->a:Lcom/google/android/material/slider/BaseSlider;
 
-    # invokes: Lcom/google/android/material/slider/BaseSlider;->snapThumbToValue(IF)Z
     invoke-static {p3, p1, p2}, Lcom/google/android/material/slider/BaseSlider;->access$600(Lcom/google/android/material/slider/BaseSlider;IF)Z
 
     move-result p2
@@ -216,7 +215,6 @@
     .line 5
     iget-object p2, p0, Lcom/google/android/material/slider/BaseSlider$e;->a:Lcom/google/android/material/slider/BaseSlider;
 
-    # invokes: Lcom/google/android/material/slider/BaseSlider;->updateHaloHotspot()V
     invoke-static {p2}, Lcom/google/android/material/slider/BaseSlider;->access$700(Lcom/google/android/material/slider/BaseSlider;)V
 
     .line 6
@@ -239,7 +237,6 @@
 
     const/16 v0, 0x14
 
-    # invokes: Lcom/google/android/material/slider/BaseSlider;->calculateStepIncrement(I)F
     invoke-static {p3, v0}, Lcom/google/android/material/slider/BaseSlider;->access$800(Lcom/google/android/material/slider/BaseSlider;I)F
 
     move-result p3
@@ -303,7 +300,6 @@
     .line 15
     iget-object p3, p0, Lcom/google/android/material/slider/BaseSlider$e;->a:Lcom/google/android/material/slider/BaseSlider;
 
-    # invokes: Lcom/google/android/material/slider/BaseSlider;->snapThumbToValue(IF)Z
     invoke-static {p3, p1, p2}, Lcom/google/android/material/slider/BaseSlider;->access$600(Lcom/google/android/material/slider/BaseSlider;IF)Z
 
     move-result p2
@@ -313,7 +309,6 @@
     .line 16
     iget-object p2, p0, Lcom/google/android/material/slider/BaseSlider$e;->a:Lcom/google/android/material/slider/BaseSlider;
 
-    # invokes: Lcom/google/android/material/slider/BaseSlider;->updateHaloHotspot()V
     invoke-static {p2}, Lcom/google/android/material/slider/BaseSlider;->access$700(Lcom/google/android/material/slider/BaseSlider;)V
 
     .line 17
@@ -511,7 +506,6 @@
     .line 20
     iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider$e;->a:Lcom/google/android/material/slider/BaseSlider;
 
-    # invokes: Lcom/google/android/material/slider/BaseSlider;->formatValue(F)Ljava/lang/String;
     invoke-static {v0, v1}, Lcom/google/android/material/slider/BaseSlider;->access$500(Lcom/google/android/material/slider/BaseSlider;F)Ljava/lang/String;
 
     move-result-object v0

@@ -47,7 +47,6 @@
 
     iget-object v1, p0, Lcom/adjust/sdk/ActivityHandler$14;->val$attributionResponseData:Lcom/adjust/sdk/AttributionResponseData;
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->launchAttributionResponseTasksI(Lcom/adjust/sdk/AttributionResponseData;)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/ActivityHandler;->access$2000(Lcom/adjust/sdk/ActivityHandler;Lcom/adjust/sdk/AttributionResponseData;)V
 
     return-void

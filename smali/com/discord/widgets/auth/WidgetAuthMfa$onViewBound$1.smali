@@ -97,7 +97,6 @@
     :pswitch_d
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthMfa$onViewBound$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthMfa;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthMfa;->showInfoDialog()V
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthMfa;->access$showInfoDialog(Lcom/discord/widgets/auth/WidgetAuthMfa;)V
 
     goto :goto_18
@@ -106,7 +105,6 @@
     :pswitch_13
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthMfa$onViewBound$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthMfa;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthMfa;->showBackupCodesDialog()V
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthMfa;->access$showBackupCodesDialog(Lcom/discord/widgets/auth/WidgetAuthMfa;)V
 
     :goto_18

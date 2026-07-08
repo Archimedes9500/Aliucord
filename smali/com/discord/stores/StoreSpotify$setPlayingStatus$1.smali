@@ -93,7 +93,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreSpotify$setPlayingStatus$1;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # getter for: Lcom/discord/stores/StoreSpotify;->spotifyState:Lcom/discord/stores/StoreSpotify$SpotifyState;
     invoke-static {v0}, Lcom/discord/stores/StoreSpotify;->access$getSpotifyState$p(Lcom/discord/stores/StoreSpotify;)Lcom/discord/stores/StoreSpotify$SpotifyState;
 
     move-result-object v0
@@ -126,7 +125,6 @@
     :cond_1b
     iget-object v0, p0, Lcom/discord/stores/StoreSpotify$setPlayingStatus$1;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # getter for: Lcom/discord/stores/StoreSpotify;->spotifyState:Lcom/discord/stores/StoreSpotify$SpotifyState;
     invoke-static {v0}, Lcom/discord/stores/StoreSpotify;->access$getSpotifyState$p(Lcom/discord/stores/StoreSpotify;)Lcom/discord/stores/StoreSpotify$SpotifyState;
 
     move-result-object v1
@@ -144,7 +142,6 @@
     .line 6
     iget-object v5, p0, Lcom/discord/stores/StoreSpotify$setPlayingStatus$1;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # getter for: Lcom/discord/stores/StoreSpotify;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v5}, Lcom/discord/stores/StoreSpotify;->access$getClock$p(Lcom/discord/stores/StoreSpotify;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v5
@@ -179,7 +176,6 @@
     .line 8
     iget-object v0, p0, Lcom/discord/stores/StoreSpotify$setPlayingStatus$1;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # getter for: Lcom/discord/stores/StoreSpotify;->publishStateTrigger:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreSpotify;->access$getPublishStateTrigger$p(Lcom/discord/stores/StoreSpotify;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

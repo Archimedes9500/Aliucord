@@ -70,7 +70,6 @@
 
     iget-object v2, p0, Ld0/e0/p/d/m0/e/b/c$a$b;->c:Ld0/e0/p/d/m0/g/e;
 
-    # invokes: Ld0/e0/p/d/m0/e/b/c$a;->a(Ld0/e0/p/d/m0/g/e;Ljava/lang/Object;)Ld0/e0/p/d/m0/k/v/g;
     invoke-static {v1, v2, p1}, Ld0/e0/p/d/m0/e/b/c$a;->access$createConstant(Ld0/e0/p/d/m0/e/b/c$a;Ld0/e0/p/d/m0/g/e;Ljava/lang/Object;)Ld0/e0/p/d/m0/k/v/g;
 
     move-result-object p1
@@ -116,7 +115,6 @@
     .line 2
     iget-object v1, p0, Ld0/e0/p/d/m0/e/b/c$a$b;->b:Ld0/e0/p/d/m0/e/b/c$a;
 
-    # getter for: Ld0/e0/p/d/m0/e/b/c$a;->a:Ljava/util/HashMap;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/b/c$a;->access$getArguments$p(Ld0/e0/p/d/m0/e/b/c$a;)Ljava/util/HashMap;
 
     move-result-object v1

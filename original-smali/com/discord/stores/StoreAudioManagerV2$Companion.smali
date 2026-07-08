@@ -77,7 +77,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreAudioManagerV2;->DEFAULT_STATE:Lcom/discord/stores/StoreAudioManagerV2$State;
     invoke-static {}, Lcom/discord/stores/StoreAudioManagerV2;->access$getDEFAULT_STATE$cp()Lcom/discord/stores/StoreAudioManagerV2$State;
 
     move-result-object v0

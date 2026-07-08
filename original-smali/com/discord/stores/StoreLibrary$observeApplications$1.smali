@@ -99,7 +99,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreLibrary$observeApplications$1;->this$0:Lcom/discord/stores/StoreLibrary;
 
-    # getter for: Lcom/discord/stores/StoreLibrary;->libraryApplicationSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreLibrary;->access$getLibraryApplicationSnapshot$p(Lcom/discord/stores/StoreLibrary;)Ljava/util/Map;
 
     move-result-object v0

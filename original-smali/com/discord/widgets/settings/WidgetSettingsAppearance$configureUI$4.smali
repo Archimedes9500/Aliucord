@@ -82,7 +82,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureUI$4;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # getter for: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->newFontScaleSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$getNewFontScaleSubject$p(Lcom/discord/widgets/settings/WidgetSettingsAppearance;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1
@@ -96,7 +95,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureUI$4;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->getBinding()Lcom/discord/databinding/WidgetSettingsAppearanceBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsAppearance;)Lcom/discord/databinding/WidgetSettingsAppearanceBinding;
 
     move-result-object p1
@@ -111,7 +109,6 @@
 
     const/4 v0, 0x0
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->getFontScaleString(IZ)Ljava/lang/String;
     invoke-static {p3, p2, v0}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$getFontScaleString(Lcom/discord/widgets/settings/WidgetSettingsAppearance;IZ)Ljava/lang/String;
 
     move-result-object p2

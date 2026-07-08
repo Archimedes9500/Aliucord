@@ -88,7 +88,6 @@
 
     move-result-wide v2
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGift$Companion;->getDiscordStoreURL(J)Ljava/lang/String;
     invoke-static {p1, v2, v3}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGift$Companion;->access$getDiscordStoreURL(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGift$Companion;J)Ljava/lang/String;
 
     move-result-object v2

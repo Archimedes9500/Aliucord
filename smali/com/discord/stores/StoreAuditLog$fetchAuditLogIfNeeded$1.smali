@@ -91,7 +91,6 @@
 
     iget-object v2, p0, Lcom/discord/stores/StoreAuditLog$fetchAuditLogIfNeeded$1;->this$0:Lcom/discord/stores/StoreAuditLog;
 
-    # getter for: Lcom/discord/stores/StoreAuditLog;->state:Lcom/discord/stores/StoreAuditLog$AuditLogState;
     invoke-static {v2}, Lcom/discord/stores/StoreAuditLog;->access$getState$p(Lcom/discord/stores/StoreAuditLog;)Lcom/discord/stores/StoreAuditLog$AuditLogState;
 
     move-result-object v2
@@ -119,7 +118,6 @@
     :goto_15
     iget-object v1, p0, Lcom/discord/stores/StoreAuditLog$fetchAuditLogIfNeeded$1;->this$0:Lcom/discord/stores/StoreAuditLog;
 
-    # getter for: Lcom/discord/stores/StoreAuditLog;->state:Lcom/discord/stores/StoreAuditLog$AuditLogState;
     invoke-static {v1}, Lcom/discord/stores/StoreAuditLog;->access$getState$p(Lcom/discord/stores/StoreAuditLog;)Lcom/discord/stores/StoreAuditLog$AuditLogState;
 
     move-result-object v1
@@ -132,7 +130,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreAuditLog$fetchAuditLogIfNeeded$1;->this$0:Lcom/discord/stores/StoreAuditLog;
 
-    # getter for: Lcom/discord/stores/StoreAuditLog;->state:Lcom/discord/stores/StoreAuditLog$AuditLogState;
     invoke-static {v1}, Lcom/discord/stores/StoreAuditLog;->access$getState$p(Lcom/discord/stores/StoreAuditLog;)Lcom/discord/stores/StoreAuditLog$AuditLogState;
 
     move-result-object v1
@@ -154,7 +151,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/stores/StoreAuditLog$fetchAuditLogIfNeeded$1;->this$0:Lcom/discord/stores/StoreAuditLog;
 
-    # invokes: Lcom/discord/stores/StoreAuditLog;->clearStateInternal()V
     invoke-static {v1}, Lcom/discord/stores/StoreAuditLog;->access$clearStateInternal(Lcom/discord/stores/StoreAuditLog;)V
 
     :cond_36
@@ -168,7 +164,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreAuditLog$fetchAuditLogIfNeeded$1;->$guildId:J
 
-    # getter for: Lcom/discord/stores/StoreAuditLog;->state:Lcom/discord/stores/StoreAuditLog$AuditLogState;
     invoke-static {v0}, Lcom/discord/stores/StoreAuditLog;->access$getState$p(Lcom/discord/stores/StoreAuditLog;)Lcom/discord/stores/StoreAuditLog$AuditLogState;
 
     move-result-object v3
@@ -177,7 +172,6 @@
 
     move-result-object v3
 
-    # invokes: Lcom/discord/stores/StoreAuditLog;->fetchAuditLogs(JLcom/discord/stores/StoreAuditLog$AuditLogFilter;)V
     invoke-static {v0, v1, v2, v3}, Lcom/discord/stores/StoreAuditLog;->access$fetchAuditLogs(Lcom/discord/stores/StoreAuditLog;JLcom/discord/stores/StoreAuditLog$AuditLogFilter;)V
 
     :cond_49

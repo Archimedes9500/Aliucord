@@ -96,7 +96,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/bugreports/WidgetBugReport$onViewBound$6;->this$0:Lcom/discord/widgets/bugreports/WidgetBugReport;
 
-    # invokes: Lcom/discord/widgets/bugreports/WidgetBugReport;->getViewModel()Lcom/discord/widgets/bugreports/BugReportViewModel;
     invoke-static {v0}, Lcom/discord/widgets/bugreports/WidgetBugReport;->access$getViewModel$p(Lcom/discord/widgets/bugreports/WidgetBugReport;)Lcom/discord/widgets/bugreports/BugReportViewModel;
 
     move-result-object v0

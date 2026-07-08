@@ -84,7 +84,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configureContactSyncOptions$5;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->deleteContactSync()V
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$deleteContactSync(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)V
 
     :cond_13

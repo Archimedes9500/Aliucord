@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/chat/input/expression/ExpressionPickerEventBus;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/chat/input/expression/ExpressionPickerEventBus;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/chat/input/expression/ExpressionPickerEventBus;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

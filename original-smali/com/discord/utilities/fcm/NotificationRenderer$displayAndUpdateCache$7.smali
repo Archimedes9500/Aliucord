@@ -184,7 +184,6 @@
     iget-object v6, p0, Lcom/discord/utilities/fcm/NotificationRenderer$displayAndUpdateCache$7;->$displayPayloadExtras:Ljava/util/List;
 
     .line 12
-    # invokes: Lcom/discord/utilities/fcm/NotificationRenderer;->getMessageStyle(Landroid/content/Context;Lcom/discord/utilities/fcm/NotificationData;Ljava/util/List;Ljava/util/Map;)Landroidx/core/app/NotificationCompat$MessagingStyle;
     invoke-static {v3, v4, v5, v6, p1}, Lcom/discord/utilities/fcm/NotificationRenderer;->access$getMessageStyle(Lcom/discord/utilities/fcm/NotificationRenderer;Landroid/content/Context;Lcom/discord/utilities/fcm/NotificationData;Ljava/util/List;Ljava/util/Map;)Landroidx/core/app/NotificationCompat$MessagingStyle;
 
     move-result-object v4
@@ -244,7 +243,6 @@
 
     iget-object v5, p0, Lcom/discord/utilities/fcm/NotificationRenderer$displayAndUpdateCache$7;->$notificationBuilder:Landroidx/core/app/NotificationCompat$Builder;
 
-    # invokes: Lcom/discord/utilities/fcm/NotificationRenderer;->pushShortcut(Landroid/content/Context;Lcom/discord/utilities/fcm/NotificationData;Landroidx/core/app/NotificationCompat$Builder;Landroidx/core/graphics/drawable/IconCompat;)V
     invoke-static {v3, v0, v4, v5, v1}, Lcom/discord/utilities/fcm/NotificationRenderer;->access$pushShortcut(Lcom/discord/utilities/fcm/NotificationRenderer;Landroid/content/Context;Lcom/discord/utilities/fcm/NotificationData;Landroidx/core/app/NotificationCompat$Builder;Landroidx/core/graphics/drawable/IconCompat;)V
 
     .line 19
@@ -261,7 +259,6 @@
 
     iget-object v4, p0, Lcom/discord/utilities/fcm/NotificationRenderer$displayAndUpdateCache$7;->$notificationBuilder:Landroidx/core/app/NotificationCompat$Builder;
 
-    # invokes: Lcom/discord/utilities/fcm/NotificationRenderer;->displayNotification(Landroid/content/Context;ILandroidx/core/app/NotificationCompat$Builder;)V
     invoke-static {v0, v1, v3, v4}, Lcom/discord/utilities/fcm/NotificationRenderer;->access$displayNotification(Lcom/discord/utilities/fcm/NotificationRenderer;Landroid/content/Context;ILandroidx/core/app/NotificationCompat$Builder;)V
     :try_end_85
     .catchall {:try_start_7 .. :try_end_85} :catchall_89

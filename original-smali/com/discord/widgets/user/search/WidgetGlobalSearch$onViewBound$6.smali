@@ -78,7 +78,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/user/search/WidgetGlobalSearch$onViewBound$6;->this$0:Lcom/discord/widgets/user/search/WidgetGlobalSearch;
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->getBinding()Lcom/discord/databinding/WidgetGlobalSearchBinding;
     invoke-static {v1}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$getBinding$p(Lcom/discord/widgets/user/search/WidgetGlobalSearch;)Lcom/discord/databinding/WidgetGlobalSearchBinding;
 
     move-result-object v1

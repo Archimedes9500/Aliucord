@@ -105,7 +105,6 @@
 
     iget-object v2, p0, Lcom/discord/stores/StoreMessagesLoader$jumpToMessage$2;->this$0:Lcom/discord/stores/StoreMessagesLoader;
 
-    # getter for: Lcom/discord/stores/StoreMessagesLoader;->selectedChannelId:J
     invoke-static {v2}, Lcom/discord/stores/StoreMessagesLoader;->access$getSelectedChannelId$p(Lcom/discord/stores/StoreMessagesLoader;)J
 
     move-result-wide v2
@@ -121,7 +120,6 @@
 
     sget-object v3, Lcom/discord/stores/StoreMessagesLoader$jumpToMessage$2$1;->INSTANCE:Lcom/discord/stores/StoreMessagesLoader$jumpToMessage$2$1;
 
-    # invokes: Lcom/discord/stores/StoreMessagesLoader;->channelLoadedStateUpdate(JLkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v2, v3}, Lcom/discord/stores/StoreMessagesLoader;->access$channelLoadedStateUpdate(Lcom/discord/stores/StoreMessagesLoader;JLkotlin/jvm/functions/Function1;)V
 
     .line 4

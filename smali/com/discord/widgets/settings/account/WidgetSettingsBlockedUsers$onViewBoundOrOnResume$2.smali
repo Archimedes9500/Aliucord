@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsers;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsers;->handleEvent(Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsers;->access$handleEvent(Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsers;Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel$Event;)V
 
     return-void

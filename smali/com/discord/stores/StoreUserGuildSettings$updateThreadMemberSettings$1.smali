@@ -106,7 +106,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreUserGuildSettings$updateThreadMemberSettings$1;->this$0:Lcom/discord/stores/StoreUserGuildSettings;
 
-    # getter for: Lcom/discord/stores/StoreUserGuildSettings;->analytics:Lcom/discord/stores/StoreAnalytics;
     invoke-static {v0}, Lcom/discord/stores/StoreUserGuildSettings;->access$getAnalytics$p(Lcom/discord/stores/StoreUserGuildSettings;)Lcom/discord/stores/StoreAnalytics;
 
     move-result-object v1
@@ -131,7 +130,6 @@
     .line 8
     iget-object p1, p0, Lcom/discord/stores/StoreUserGuildSettings$updateThreadMemberSettings$1;->this$0:Lcom/discord/stores/StoreUserGuildSettings;
 
-    # getter for: Lcom/discord/stores/StoreUserGuildSettings;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/stores/StoreUserGuildSettings;->access$getEventSubject$p(Lcom/discord/stores/StoreUserGuildSettings;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

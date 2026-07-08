@@ -91,7 +91,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreChannelFollowerStats$fetchIfNonexistingOrStale$1;->$channelId:J
 
-    # invokes: Lcom/discord/stores/StoreChannelFollowerStats;->isExisting(J)Z
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreChannelFollowerStats;->access$isExisting(Lcom/discord/stores/StoreChannelFollowerStats;J)Z
 
     move-result v0
@@ -106,7 +105,6 @@
 
     iget-wide v3, p0, Lcom/discord/stores/StoreChannelFollowerStats$fetchIfNonexistingOrStale$1;->$channelId:J
 
-    # invokes: Lcom/discord/stores/StoreChannelFollowerStats;->isStale(J)Z
     invoke-static {v0, v3, v4}, Lcom/discord/stores/StoreChannelFollowerStats;->access$isStale(Lcom/discord/stores/StoreChannelFollowerStats;J)Z
 
     move-result v0
@@ -124,7 +122,6 @@
     :goto_19
     iget-object v3, p0, Lcom/discord/stores/StoreChannelFollowerStats$fetchIfNonexistingOrStale$1;->this$0:Lcom/discord/stores/StoreChannelFollowerStats;
 
-    # getter for: Lcom/discord/stores/StoreChannelFollowerStats;->channelFollowerStatsState:Ljava/util/Map;
     invoke-static {v3}, Lcom/discord/stores/StoreChannelFollowerStats;->access$getChannelFollowerStatsState$p(Lcom/discord/stores/StoreChannelFollowerStats;)Ljava/util/Map;
 
     move-result-object v3
@@ -179,7 +176,6 @@
 
     iget-wide v5, p0, Lcom/discord/stores/StoreChannelFollowerStats$fetchIfNonexistingOrStale$1;->$channelId:J
 
-    # invokes: Lcom/discord/stores/StoreChannelFollowerStats;->handleChannelFollowerStatsFetchStart(J)V
     invoke-static {v0, v5, v6}, Lcom/discord/stores/StoreChannelFollowerStats;->access$handleChannelFollowerStatsFetchStart(Lcom/discord/stores/StoreChannelFollowerStats;J)V
 
     .line 5

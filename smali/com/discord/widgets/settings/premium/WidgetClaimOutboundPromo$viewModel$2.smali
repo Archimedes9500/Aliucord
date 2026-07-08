@@ -77,7 +77,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo$viewModel$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;->getClaimStatus()Lcom/discord/widgets/settings/premium/ClaimStatus;
     invoke-static {v1}, Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;->access$getClaimStatus$p(Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;)Lcom/discord/widgets/settings/premium/ClaimStatus;
 
     move-result-object v1

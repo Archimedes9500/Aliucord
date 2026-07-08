@@ -156,7 +156,6 @@
     :goto_20
     iget-object v5, v0, Lcom/discord/utilities/streams/StreamContextService$getForUser$1;->this$0:Lcom/discord/utilities/streams/StreamContextService;
 
-    # getter for: Lcom/discord/utilities/streams/StreamContextService;->guildStore:Lcom/discord/stores/StoreGuilds;
     invoke-static {v5}, Lcom/discord/utilities/streams/StreamContextService;->access$getGuildStore$p(Lcom/discord/utilities/streams/StreamContextService;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v5
@@ -171,12 +170,10 @@
 
     iget-boolean v7, v0, Lcom/discord/utilities/streams/StreamContextService$getForUser$1;->$includePreview:Z
 
-    # getter for: Lcom/discord/utilities/streams/StreamContextService;->applicationStreamPreviewStore:Lcom/discord/stores/StoreApplicationStreamPreviews;
     invoke-static {v5}, Lcom/discord/utilities/streams/StreamContextService;->access$getApplicationStreamPreviewStore$p(Lcom/discord/utilities/streams/StreamContextService;)Lcom/discord/stores/StoreApplicationStreamPreviews;
 
     move-result-object v8
 
-    # invokes: Lcom/discord/utilities/streams/StreamContextService;->getPreviewObservable(Lcom/discord/models/domain/ModelApplicationStream;ZLcom/discord/stores/StoreApplicationStreamPreviews;)Lrx/Observable;
     invoke-static {v5, v1, v7, v8}, Lcom/discord/utilities/streams/StreamContextService;->access$getPreviewObservable(Lcom/discord/utilities/streams/StreamContextService;Lcom/discord/models/domain/ModelApplicationStream;ZLcom/discord/stores/StoreApplicationStreamPreviews;)Lrx/Observable;
 
     move-result-object v7
@@ -184,7 +181,6 @@
     .line 8
     iget-object v5, v0, Lcom/discord/utilities/streams/StreamContextService$getForUser$1;->this$0:Lcom/discord/utilities/streams/StreamContextService;
 
-    # getter for: Lcom/discord/utilities/streams/StreamContextService;->permissionsStore:Lcom/discord/stores/StorePermissions;
     invoke-static {v5}, Lcom/discord/utilities/streams/StreamContextService;->access$getPermissionsStore$p(Lcom/discord/utilities/streams/StreamContextService;)Lcom/discord/stores/StorePermissions;
 
     move-result-object v5
@@ -201,7 +197,6 @@
     .line 10
     iget-object v5, v0, Lcom/discord/utilities/streams/StreamContextService$getForUser$1;->this$0:Lcom/discord/utilities/streams/StreamContextService;
 
-    # getter for: Lcom/discord/utilities/streams/StreamContextService;->userStore:Lcom/discord/stores/StoreUser;
     invoke-static {v5}, Lcom/discord/utilities/streams/StreamContextService;->access$getUserStore$p(Lcom/discord/utilities/streams/StreamContextService;)Lcom/discord/stores/StoreUser;
 
     move-result-object v5
@@ -216,7 +211,6 @@
     .line 12
     iget-object v5, v0, Lcom/discord/utilities/streams/StreamContextService$getForUser$1;->this$0:Lcom/discord/utilities/streams/StreamContextService;
 
-    # getter for: Lcom/discord/utilities/streams/StreamContextService;->userStore:Lcom/discord/stores/StoreUser;
     invoke-static {v5}, Lcom/discord/utilities/streams/StreamContextService;->access$getUserStore$p(Lcom/discord/utilities/streams/StreamContextService;)Lcom/discord/stores/StoreUser;
 
     move-result-object v5
@@ -232,7 +226,6 @@
     .line 13
     iget-object v2, v0, Lcom/discord/utilities/streams/StreamContextService$getForUser$1;->this$0:Lcom/discord/utilities/streams/StreamContextService;
 
-    # getter for: Lcom/discord/utilities/streams/StreamContextService;->guildStore:Lcom/discord/stores/StoreGuilds;
     invoke-static {v2}, Lcom/discord/utilities/streams/StreamContextService;->access$getGuildStore$p(Lcom/discord/utilities/streams/StreamContextService;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v2
@@ -270,7 +263,6 @@
     .line 18
     iget-object v2, v0, Lcom/discord/utilities/streams/StreamContextService$getForUser$1;->this$0:Lcom/discord/utilities/streams/StreamContextService;
 
-    # getter for: Lcom/discord/utilities/streams/StreamContextService;->voiceStateStore:Lcom/discord/stores/StoreVoiceStates;
     invoke-static {v2}, Lcom/discord/utilities/streams/StreamContextService;->access$getVoiceStateStore$p(Lcom/discord/utilities/streams/StreamContextService;)Lcom/discord/stores/StoreVoiceStates;
 
     move-result-object v2
@@ -287,7 +279,6 @@
     .line 20
     iget-object v2, v0, Lcom/discord/utilities/streams/StreamContextService$getForUser$1;->this$0:Lcom/discord/utilities/streams/StreamContextService;
 
-    # getter for: Lcom/discord/utilities/streams/StreamContextService;->channelStore:Lcom/discord/stores/StoreChannels;
     invoke-static {v2}, Lcom/discord/utilities/streams/StreamContextService;->access$getChannelStore$p(Lcom/discord/utilities/streams/StreamContextService;)Lcom/discord/stores/StoreChannels;
 
     move-result-object v2
@@ -304,7 +295,6 @@
     .line 22
     iget-object v2, v0, Lcom/discord/utilities/streams/StreamContextService$getForUser$1;->this$0:Lcom/discord/utilities/streams/StreamContextService;
 
-    # getter for: Lcom/discord/utilities/streams/StreamContextService;->voiceChannelSelectedStore:Lcom/discord/stores/StoreVoiceChannelSelected;
     invoke-static {v2}, Lcom/discord/utilities/streams/StreamContextService;->access$getVoiceChannelSelectedStore$p(Lcom/discord/utilities/streams/StreamContextService;)Lcom/discord/stores/StoreVoiceChannelSelected;
 
     move-result-object v2
@@ -317,7 +307,6 @@
     .line 24
     iget-object v2, v0, Lcom/discord/utilities/streams/StreamContextService$getForUser$1;->this$0:Lcom/discord/utilities/streams/StreamContextService;
 
-    # getter for: Lcom/discord/utilities/streams/StreamContextService;->applicationStreamingStore:Lcom/discord/stores/StoreApplicationStreaming;
     invoke-static {v2}, Lcom/discord/utilities/streams/StreamContextService;->access$getApplicationStreamingStore$p(Lcom/discord/utilities/streams/StreamContextService;)Lcom/discord/stores/StoreApplicationStreaming;
 
     move-result-object v2

@@ -95,7 +95,6 @@
 
     move-result-object v2
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->handleFrecencyCommandsUpdate(Ljava/lang/String;Ljava/util/List;)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreApplicationCommands;->access$handleFrecencyCommandsUpdate(Lcom/discord/stores/StoreApplicationCommands;Ljava/lang/String;Ljava/util/List;)V
 
     return-void

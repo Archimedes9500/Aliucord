@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreClientDataState$observeClientState$1;->this$0:Lcom/discord/stores/StoreClientDataState;
 
-    # getter for: Lcom/discord/stores/StoreClientDataState;->clientDataStateSnapshot:Lcom/discord/stores/StoreClientDataState$ClientDataState;
     invoke-static {v0}, Lcom/discord/stores/StoreClientDataState;->access$getClientDataStateSnapshot$p(Lcom/discord/stores/StoreClientDataState;)Lcom/discord/stores/StoreClientDataState$ClientDataState;
 
     move-result-object v0

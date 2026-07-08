@@ -92,7 +92,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/utilities/rx/OnDelayedEmissionHandler$call$1;->this$0:Lcom/discord/utilities/rx/OnDelayedEmissionHandler;
 
-    # getter for: Lcom/discord/utilities/rx/OnDelayedEmissionHandler;->hasFinished:Ljava/util/concurrent/atomic/AtomicBoolean;
     invoke-static {p1}, Lcom/discord/utilities/rx/OnDelayedEmissionHandler;->access$getHasFinished$p(Lcom/discord/utilities/rx/OnDelayedEmissionHandler;)Ljava/util/concurrent/atomic/AtomicBoolean;
 
     move-result-object p1
@@ -106,7 +105,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/utilities/rx/OnDelayedEmissionHandler$call$1;->this$0:Lcom/discord/utilities/rx/OnDelayedEmissionHandler;
 
-    # getter for: Lcom/discord/utilities/rx/OnDelayedEmissionHandler;->onDelayCallback:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/utilities/rx/OnDelayedEmissionHandler;->access$getOnDelayCallback$p(Lcom/discord/utilities/rx/OnDelayedEmissionHandler;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

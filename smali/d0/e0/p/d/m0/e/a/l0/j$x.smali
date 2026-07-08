@@ -73,7 +73,6 @@
 
     new-array v1, v1, [Ld0/e0/p/d/m0/e/a/l0/e;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/l0/j;->c:Ld0/e0/p/d/m0/e/a/l0/e;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/l0/j;->access$getNOT_NULLABLE$p$s1730278749()Ld0/e0/p/d/m0/e/a/l0/e;
 
     move-result-object v2

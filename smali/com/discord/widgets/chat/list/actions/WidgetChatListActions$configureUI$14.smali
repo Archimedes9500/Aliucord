@@ -96,7 +96,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->replyMessage(Lcom/discord/models/message/Message;Lcom/discord/api/channel/Channel;)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->access$replyMessage(Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;Lcom/discord/models/message/Message;Lcom/discord/api/channel/Channel;)V
 
     :cond_1e

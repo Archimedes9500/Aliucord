@@ -103,7 +103,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreDirectories$init$2;->this$0:Lcom/discord/stores/StoreDirectories;
 
-    # getter for: Lcom/discord/stores/StoreDirectories;->hubNamePromptPersister:Lcom/discord/utilities/persister/Persister;
     invoke-static {v0}, Lcom/discord/stores/StoreDirectories;->access$getHubNamePromptPersister$p(Lcom/discord/stores/StoreDirectories;)Lcom/discord/utilities/persister/Persister;
 
     move-result-object v0
@@ -117,7 +116,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/stores/StoreDirectories$init$2;->this$0:Lcom/discord/stores/StoreDirectories;
 
-    # getter for: Lcom/discord/stores/StoreDirectories;->hubNamePromptPersister:Lcom/discord/utilities/persister/Persister;
     invoke-static {v1}, Lcom/discord/stores/StoreDirectories;->access$getHubNamePromptPersister$p(Lcom/discord/stores/StoreDirectories;)Lcom/discord/utilities/persister/Persister;
 
     move-result-object v1

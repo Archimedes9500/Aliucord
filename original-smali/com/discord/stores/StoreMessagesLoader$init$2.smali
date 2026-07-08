@@ -115,7 +115,6 @@
     check-cast v0, Lcom/discord/stores/StoreMessagesLoader;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreMessagesLoader;->handleChatDetached(Ljava/util/Set;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreMessagesLoader;->access$handleChatDetached(Lcom/discord/stores/StoreMessagesLoader;Ljava/util/Set;)V
 
     return-void

@@ -75,7 +75,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial$configureMedia$3;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->getBinding()Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$getBinding$p(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;)Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
 
     move-result-object p1
@@ -97,7 +96,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial$configureMedia$3;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->getBinding()Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$getBinding$p(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;)Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
 
     move-result-object p1

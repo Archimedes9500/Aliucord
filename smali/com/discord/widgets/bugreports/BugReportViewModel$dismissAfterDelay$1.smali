@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/bugreports/BugReportViewModel$dismissAfterDelay$1;->this$0:Lcom/discord/widgets/bugreports/BugReportViewModel;
 
-    # getter for: Lcom/discord/widgets/bugreports/BugReportViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/bugreports/BugReportViewModel;->access$getEventSubject$p(Lcom/discord/widgets/bugreports/BugReportViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

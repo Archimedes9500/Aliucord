@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel$submit$1;->this$0:Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;->handleUserUpdateSuccess()V
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;->access$handleUserUpdateSuccess(Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;)V
 
     return-void

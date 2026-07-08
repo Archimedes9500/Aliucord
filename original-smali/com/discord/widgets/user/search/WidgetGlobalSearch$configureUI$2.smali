@@ -168,7 +168,6 @@
     :goto_2f
     sget-object p1, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->Companion:Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;->toWidgetGlobalSearchModelItem(Lcom/discord/widgets/user/search/WidgetGlobalSearchGuildsModel$Item;)Lcom/discord/widgets/user/search/WidgetGlobalSearchModel$ItemDataPayload;
     invoke-static {p1, p3}, Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;->access$toWidgetGlobalSearchModelItem(Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;Lcom/discord/widgets/user/search/WidgetGlobalSearchGuildsModel$Item;)Lcom/discord/widgets/user/search/WidgetGlobalSearchModel$ItemDataPayload;
 
     move-result-object p1
@@ -193,7 +192,6 @@
     sget-object p3, Lcom/discord/stores/StoreNavigation$PanelAction;->OPEN:Lcom/discord/stores/StoreNavigation$PanelAction;
 
     .line 11
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->onSelected(Lcom/discord/widgets/tabs/NavigationTab;Lcom/discord/stores/StoreNavigation$PanelAction;)V
     invoke-static {p1, p2, p3}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$onSelected(Lcom/discord/widgets/user/search/WidgetGlobalSearch;Lcom/discord/widgets/tabs/NavigationTab;Lcom/discord/stores/StoreNavigation$PanelAction;)V
 
     return-void

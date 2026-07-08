@@ -97,7 +97,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$configureFlexInputFragment$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->flexInputFragment:Lcom/lytefast/flexinput/fragment/FlexInputFragment;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->access$getFlexInputFragment$p(Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;)Lcom/lytefast/flexinput/fragment/FlexInputFragment;
 
     move-result-object v1
@@ -114,7 +113,6 @@
 
     invoke-static {v1, v2}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->setAttachmentFromPicker(Landroid/content/Context;Landroidx/core/view/inputmethod/InputContentInfoCompat;)V
     invoke-static {v0, v1, p1}, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->access$setAttachmentFromPicker(Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;Landroid/content/Context;Landroidx/core/view/inputmethod/InputContentInfoCompat;)V
 
     return-void

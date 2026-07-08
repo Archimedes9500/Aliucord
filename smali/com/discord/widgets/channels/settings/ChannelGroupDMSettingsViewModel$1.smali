@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel$1;->this$0:Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;
 
-    # invokes: Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;->handleStoreState(Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;->access$handleStoreState(Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel$StoreState;)V
 
     return-void

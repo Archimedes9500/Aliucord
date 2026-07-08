@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreUserNotes$saveNote$1;->$note:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreUserNotes;->updateNoteInternal(JLjava/lang/String;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreUserNotes;->access$updateNoteInternal(Lcom/discord/stores/StoreUserNotes;JLjava/lang/String;)V
 
     return-void

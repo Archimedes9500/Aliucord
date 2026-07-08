@@ -101,7 +101,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/user/WidgetUserMutualGuilds$Adapter;->guildSelectedCallback:Lrx/functions/Action0;
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetUserMutualGuilds$Adapter;->access$getGuildSelectedCallback$p(Lcom/discord/widgets/user/WidgetUserMutualGuilds$Adapter;)Lrx/functions/Action0;
 
     move-result-object p1

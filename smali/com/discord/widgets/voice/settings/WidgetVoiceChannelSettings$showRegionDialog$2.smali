@@ -102,14 +102,12 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$showRegionDialog$2;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # getter for: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getState$p(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1
 
     iget-object v1, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$showRegionDialog$2;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->getBinding()Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
     invoke-static {v1}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getBinding$p(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;)Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
 
     move-result-object v1
@@ -129,7 +127,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$showRegionDialog$2;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->getBinding()Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
     invoke-static {p1}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getBinding$p(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;)Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
 
     move-result-object p1
@@ -160,14 +157,12 @@
     :cond_39
     iget-object v1, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$showRegionDialog$2;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # getter for: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v1}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getState$p(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$showRegionDialog$2;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->getBinding()Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
     invoke-static {v2}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getBinding$p(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;)Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
 
     move-result-object v2
@@ -199,7 +194,6 @@
     .line 5
     iget-object v1, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$showRegionDialog$2;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->getBinding()Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
     invoke-static {v1}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getBinding$p(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;)Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
 
     move-result-object v1
@@ -226,14 +220,12 @@
     :goto_79
     iget-object p1, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$showRegionDialog$2;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # getter for: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getState$p(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$showRegionDialog$2;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->getBinding()Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
     invoke-static {v0}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getBinding$p(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;)Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
 
     move-result-object v0

@@ -99,7 +99,6 @@
 
     iget-object v1, p0, Lcom/discord/utilities/search/network/SearchFetcher$getRestObservable$2;->this$0:Lcom/discord/utilities/search/network/SearchFetcher;
 
-    # getter for: Lcom/discord/utilities/search/network/SearchFetcher;->indexingRetryCount:Ljava/util/concurrent/atomic/AtomicInteger;
     invoke-static {v1}, Lcom/discord/utilities/search/network/SearchFetcher;->access$getIndexingRetryCount$p(Lcom/discord/utilities/search/network/SearchFetcher;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object v1

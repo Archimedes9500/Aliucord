@@ -75,7 +75,6 @@
 
     move-result-object v1
 
-    # getter for: Ld0/t/q0/c;->v:I
     invoke-static {v1}, Ld0/t/q0/c;->access$getLength$p(Ld0/t/q0/c;)I
 
     move-result v1
@@ -147,7 +146,6 @@
 
     move-result-object v1
 
-    # getter for: Ld0/t/q0/c;->v:I
     invoke-static {v1}, Ld0/t/q0/c;->access$getLength$p(Ld0/t/q0/c;)I
 
     move-result v1
@@ -170,7 +168,6 @@
 
     move-result-object v0
 
-    # getter for: Ld0/t/q0/c;->q:[Ljava/lang/Object;
     invoke-static {v0}, Ld0/t/q0/c;->access$getKeysArray$p(Ld0/t/q0/c;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -212,7 +209,6 @@
 
     move-result-object v0
 
-    # getter for: Ld0/t/q0/c;->r:[Ljava/lang/Object;
     invoke-static {v0}, Ld0/t/q0/c;->access$getValuesArray$p(Ld0/t/q0/c;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -270,7 +266,6 @@
 
     move-result-object v1
 
-    # getter for: Ld0/t/q0/c;->v:I
     invoke-static {v1}, Ld0/t/q0/c;->access$getLength$p(Ld0/t/q0/c;)I
 
     move-result v1
@@ -293,7 +288,6 @@
 
     move-result-object v0
 
-    # getter for: Ld0/t/q0/c;->q:[Ljava/lang/Object;
     invoke-static {v0}, Ld0/t/q0/c;->access$getKeysArray$p(Ld0/t/q0/c;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -322,7 +316,6 @@
 
     move-result-object v2
 
-    # getter for: Ld0/t/q0/c;->r:[Ljava/lang/Object;
     invoke-static {v2}, Ld0/t/q0/c;->access$getValuesArray$p(Ld0/t/q0/c;)[Ljava/lang/Object;
 
     move-result-object v2

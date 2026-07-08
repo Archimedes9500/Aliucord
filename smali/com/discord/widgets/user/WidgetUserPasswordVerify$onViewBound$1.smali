@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetUserPasswordVerify$onViewBound$1;->this$0:Lcom/discord/widgets/user/WidgetUserPasswordVerify;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserPasswordVerify;->saveInfo()V
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetUserPasswordVerify;->access$saveInfo(Lcom/discord/widgets/user/WidgetUserPasswordVerify;)V
 
     return-void

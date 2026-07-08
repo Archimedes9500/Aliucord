@@ -98,7 +98,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$configureSendListeners$5;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInput;->autocomplete:Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getAutocomplete$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
 
     move-result-object v0

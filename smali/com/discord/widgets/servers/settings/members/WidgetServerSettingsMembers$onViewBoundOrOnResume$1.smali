@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;
 
-    # getter for: Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;->nameFilterPublisher:Lrx/subjects/Subject;
     invoke-static {v0}, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;->access$getNameFilterPublisher$p(Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;)Lrx/subjects/Subject;
 
     move-result-object v0

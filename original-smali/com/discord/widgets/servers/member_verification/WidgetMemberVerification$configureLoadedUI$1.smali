@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification$configureLoadedUI$1;->this$0:Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;->getViewModel()Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;->access$getViewModel$p(Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;)Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;
 
     move-result-object p1

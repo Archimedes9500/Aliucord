@@ -71,7 +71,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetBanUser$onViewBound$$inlined$forEach$lambda$1;->this$0:Lcom/discord/widgets/user/WidgetBanUser;
 
-    # getter for: Lcom/discord/widgets/user/WidgetBanUser;->deleteHistoryRadioManager:Lcom/discord/views/RadioManager;
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetBanUser;->access$getDeleteHistoryRadioManager$p(Lcom/discord/widgets/user/WidgetBanUser;)Lcom/discord/views/RadioManager;
 
     move-result-object p1

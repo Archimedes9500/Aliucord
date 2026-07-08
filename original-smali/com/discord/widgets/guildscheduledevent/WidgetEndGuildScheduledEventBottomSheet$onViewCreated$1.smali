@@ -71,7 +71,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guildscheduledevent/WidgetEndGuildScheduledEventBottomSheet$onViewCreated$1;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetEndGuildScheduledEventBottomSheet;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetEndGuildScheduledEventBottomSheet;->callOnActionTaken()V
     invoke-static {p1}, Lcom/discord/widgets/guildscheduledevent/WidgetEndGuildScheduledEventBottomSheet;->access$callOnActionTaken(Lcom/discord/widgets/guildscheduledevent/WidgetEndGuildScheduledEventBottomSheet;)V
 
     return-void

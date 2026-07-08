@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreUserSettings$updateLocalCustomStatus$2;->this$0:Lcom/discord/stores/StoreUserSettings;
 
-    # invokes: Lcom/discord/stores/StoreUserSettings;->expireCustomStatus()V
     invoke-static {p1}, Lcom/discord/stores/StoreUserSettings;->access$expireCustomStatus(Lcom/discord/stores/StoreUserSettings;)V
 
     return-void

@@ -119,7 +119,6 @@
     check-cast v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;->configureVisibilitySettings(Lkotlin/Pair;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;->access$configureVisibilitySettings(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;Lkotlin/Pair;)V
 
     return-void

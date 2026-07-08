@@ -100,7 +100,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerDeleteDialog;->afterDeleteGuild(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/servers/WidgetServerDeleteDialog;->access$afterDeleteGuild(Lcom/discord/widgets/servers/WidgetServerDeleteDialog;J)V
 
     return-void

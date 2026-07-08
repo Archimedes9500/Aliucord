@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildWelcomeScreens$fetchIfNonexisting$1;->this$0:Lcom/discord/stores/StoreGuildWelcomeScreens;
 
-    # getter for: Lcom/discord/stores/StoreGuildWelcomeScreens;->guildWelcomeScreensState:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildWelcomeScreens;->access$getGuildWelcomeScreensState$p(Lcom/discord/stores/StoreGuildWelcomeScreens;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -123,7 +122,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreGuildWelcomeScreens$fetchIfNonexisting$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreGuildWelcomeScreens;->handleGuildWelcomeScreenFetchStart(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreGuildWelcomeScreens;->access$handleGuildWelcomeScreenFetchStart(Lcom/discord/stores/StoreGuildWelcomeScreens;J)V
 
     .line 5

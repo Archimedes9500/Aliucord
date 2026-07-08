@@ -111,7 +111,6 @@
 
     invoke-static {p2, v0}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetCreateChannelAddMember;->addPermissionOverwrites(Ljava/util/Map;)V
     invoke-static {p1, p2}, Lcom/discord/widgets/channels/permissions/WidgetCreateChannelAddMember;->access$addPermissionOverwrites(Lcom/discord/widgets/channels/permissions/WidgetCreateChannelAddMember;Ljava/util/Map;)V
 
     :goto_1d

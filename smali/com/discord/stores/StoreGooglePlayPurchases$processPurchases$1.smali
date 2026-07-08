@@ -99,7 +99,6 @@
 
     iget-object v3, v0, Lcom/discord/stores/StoreGooglePlayPurchases$processPurchases$1;->$skuType:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreGooglePlayPurchases;->handlePurchases(Ljava/util/List;Ljava/lang/String;)V
     invoke-static {v1, v2, v3}, Lcom/discord/stores/StoreGooglePlayPurchases;->access$handlePurchases(Lcom/discord/stores/StoreGooglePlayPurchases;Ljava/util/List;Ljava/lang/String;)V
 
     .line 3

@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/progressindicator/BaseProgressIndicator$b;->j:Lcom/google/android/material/progressindicator/BaseProgressIndicator;
 
-    # invokes: Lcom/google/android/material/progressindicator/BaseProgressIndicator;->internalHide()V
     invoke-static {v0}, Lcom/google/android/material/progressindicator/BaseProgressIndicator;->access$100(Lcom/google/android/material/progressindicator/BaseProgressIndicator;)V
 
     .line 2
@@ -49,7 +48,6 @@
 
     const-wide/16 v1, -0x1
 
-    # setter for: Lcom/google/android/material/progressindicator/BaseProgressIndicator;->lastShowStartTime:J
     invoke-static {v0, v1, v2}, Lcom/google/android/material/progressindicator/BaseProgressIndicator;->access$202(Lcom/google/android/material/progressindicator/BaseProgressIndicator;J)J
 
     return-void

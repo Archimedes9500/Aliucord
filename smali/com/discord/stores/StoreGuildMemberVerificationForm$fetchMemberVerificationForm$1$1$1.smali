@@ -97,7 +97,6 @@
 
     iget-object v0, p0, Lcom/discord/stores/StoreGuildMemberVerificationForm$fetchMemberVerificationForm$1$1$1;->$memberVerificationForm:Lcom/discord/models/domain/ModelMemberVerificationForm;
 
-    # invokes: Lcom/discord/stores/StoreGuildMemberVerificationForm;->handleMemberVerificationFormFetchSuccess(JLcom/discord/models/domain/ModelMemberVerificationForm;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreGuildMemberVerificationForm;->access$handleMemberVerificationFormFetchSuccess(Lcom/discord/stores/StoreGuildMemberVerificationForm;JLcom/discord/models/domain/ModelMemberVerificationForm;)V
 
     return-void

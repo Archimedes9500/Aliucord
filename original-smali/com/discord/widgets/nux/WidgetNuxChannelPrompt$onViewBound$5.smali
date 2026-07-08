@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/nux/WidgetNuxChannelPrompt$onViewBound$5;->this$0:Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;
 
-    # invokes: Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;->getBinding()Lcom/discord/databinding/WidgetNuxChannelPromptBinding;
     invoke-static {p1}, Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;->access$getBinding$p(Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;)Lcom/discord/databinding/WidgetNuxChannelPromptBinding;
 
     move-result-object p1

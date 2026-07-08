@@ -77,7 +77,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/utilities/textview/TextViewFadeHelper$registerFadeHelper$$inlined$apply$lambda$2;->this$0:Lcom/discord/utilities/textview/TextViewFadeHelper;
 
-    # invokes: Lcom/discord/utilities/textview/TextViewFadeHelper;->updateFade()V
     invoke-static {p1}, Lcom/discord/utilities/textview/TextViewFadeHelper;->access$updateFade(Lcom/discord/utilities/textview/TextViewFadeHelper;)V
 
     return-void

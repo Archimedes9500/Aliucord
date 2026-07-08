@@ -285,7 +285,6 @@
     .line 3
     sget-object p4, Lcom/discord/widgets/guilds/invite/GuildInviteSettingsViewModel;->Companion:Lcom/discord/widgets/guilds/invite/GuildInviteSettingsViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/GuildInviteSettingsViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreInviteSettings;)Lrx/Observable;
     invoke-static {p4, p2, p3, v4}, Lcom/discord/widgets/guilds/invite/GuildInviteSettingsViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/guilds/invite/GuildInviteSettingsViewModel$Companion;JLcom/discord/stores/StoreInviteSettings;)Lrx/Observable;
 
     move-result-object p6

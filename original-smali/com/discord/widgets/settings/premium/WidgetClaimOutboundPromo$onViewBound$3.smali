@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo$onViewBound$3;->this$0:Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;->getViewModel()Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel;
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;->access$getViewModel$p(Lcom/discord/widgets/settings/premium/WidgetClaimOutboundPromo;)Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel;
 
     move-result-object p1

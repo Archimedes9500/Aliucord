@@ -193,7 +193,6 @@
     .line 6
     iget-object v0, p0, Lcom/discord/stores/StoreMediaEngine$selectDefaultVideoDevice$1;->this$0:Lcom/discord/stores/StoreMediaEngine;
 
-    # invokes: Lcom/discord/stores/StoreMediaEngine;->pickDefaultDeviceGUID([Lco/discord/media_engine/VideoInputDeviceDescription;)Ljava/lang/String;
     invoke-static {v0, p1}, Lcom/discord/stores/StoreMediaEngine;->access$pickDefaultDeviceGUID(Lcom/discord/stores/StoreMediaEngine;[Lco/discord/media_engine/VideoInputDeviceDescription;)Ljava/lang/String;
 
     move-result-object v0
@@ -203,7 +202,6 @@
 
     iget-object v2, p0, Lcom/discord/stores/StoreMediaEngine$selectDefaultVideoDevice$1;->$onSelected:Lkotlin/jvm/functions/Function1;
 
-    # invokes: Lcom/discord/stores/StoreMediaEngine;->handleVideoInputDevices([Lco/discord/media_engine/VideoInputDeviceDescription;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v1, p1, v0, v2}, Lcom/discord/stores/StoreMediaEngine;->access$handleVideoInputDevices(Lcom/discord/stores/StoreMediaEngine;[Lco/discord/media_engine/VideoInputDeviceDescription;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 8

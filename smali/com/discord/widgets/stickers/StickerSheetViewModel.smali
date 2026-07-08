@@ -242,7 +242,6 @@
     .line 3
     sget-object p2, Lcom/discord/widgets/stickers/StickerSheetViewModel;->Companion:Lcom/discord/widgets/stickers/StickerSheetViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/stickers/StickerSheetViewModel$Companion;->observeStoreState(Lcom/discord/stores/StoreStickers;Lcom/discord/stores/StoreUser;Lcom/discord/api/sticker/Sticker;)Lrx/Observable;
     invoke-static {p2, v2, v3, p1}, Lcom/discord/widgets/stickers/StickerSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/stickers/StickerSheetViewModel$Companion;Lcom/discord/stores/StoreStickers;Lcom/discord/stores/StoreUser;Lcom/discord/api/sticker/Sticker;)Lrx/Observable;
 
     move-result-object p5

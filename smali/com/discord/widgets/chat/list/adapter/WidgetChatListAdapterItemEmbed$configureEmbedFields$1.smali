@@ -145,7 +145,6 @@
 
     iget v8, v0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$configureEmbedFields$1;->$embedIndex:I
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->getEmbedFieldVisibleIndices(Ljava/util/Map;ILjava/lang/String;)Ljava/util/List;
     invoke-static {v7, v4, v8, v2}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;->access$getEmbedFieldVisibleIndices(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEmbed$Companion;Ljava/util/Map;ILjava/lang/String;)Ljava/util/List;
 
     move-result-object v4

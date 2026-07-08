@@ -95,7 +95,6 @@
 
     iget v3, p0, Lcom/discord/widgets/user/presence/ViewHolderUserRichPresence$configureCustomButtonsUi$$inlined$forEachIndexed$lambda$1;->$index:I
 
-    # invokes: Lcom/discord/widgets/user/presence/ViewHolderUserRichPresence;->handleActivityCustomButtonClick(Landroid/content/Context;Lcom/discord/models/user/User;Lcom/discord/api/activity/Activity;I)V
     invoke-static {p1, v0, v1, v2, v3}, Lcom/discord/widgets/user/presence/ViewHolderUserRichPresence;->access$handleActivityCustomButtonClick(Lcom/discord/widgets/user/presence/ViewHolderUserRichPresence;Landroid/content/Context;Lcom/discord/models/user/User;Lcom/discord/api/activity/Activity;I)V
 
     return-void

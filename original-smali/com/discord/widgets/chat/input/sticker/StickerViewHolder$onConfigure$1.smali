@@ -108,13 +108,11 @@
 
     iget-object v0, p0, Lcom/discord/widgets/chat/input/sticker/StickerViewHolder$onConfigure$1;->$data:Lcom/discord/utilities/mg_recycler/MGRecyclerDataPayload;
 
-    # invokes: Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;->configureSticker(Lcom/discord/utilities/mg_recycler/MGRecyclerDataPayload;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;->access$configureSticker(Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;Lcom/discord/utilities/mg_recycler/MGRecyclerDataPayload;)V
 
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/chat/input/sticker/StickerViewHolder$onConfigure$1;->this$0:Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;
 
-    # getter for: Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;->scrollingSpeedSubscription:Lrx/Subscription;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;->access$getScrollingSpeedSubscription$p(Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;)Lrx/Subscription;
 
     move-result-object p1

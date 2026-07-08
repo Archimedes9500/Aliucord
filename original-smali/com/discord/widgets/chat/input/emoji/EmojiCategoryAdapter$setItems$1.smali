@@ -155,7 +155,6 @@
     .line 6
     iget-object p1, p0, Lcom/discord/widgets/chat/input/emoji/EmojiCategoryAdapter$setItems$1;->this$0:Lcom/discord/widgets/chat/input/emoji/EmojiCategoryAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/EmojiCategoryAdapter;->onSelectedItemAdapterPositionUpdated:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/EmojiCategoryAdapter;->access$getOnSelectedItemAdapterPositionUpdated$p(Lcom/discord/widgets/chat/input/emoji/EmojiCategoryAdapter;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

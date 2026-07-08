@@ -101,7 +101,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/restapi/RestAPIBuilder;->clientCallback:Lkotlin/jvm/functions/Function2;
     invoke-static {}, Lcom/discord/restapi/RestAPIBuilder;->access$getClientCallback$cp()Lkotlin/jvm/functions/Function2;
 
     move-result-object v0

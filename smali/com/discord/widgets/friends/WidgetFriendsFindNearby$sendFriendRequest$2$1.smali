@@ -108,7 +108,6 @@
 
     invoke-static {v2, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsFindNearby;->launchCaptchaFlow(Lcom/discord/utilities/error/Error;)V
     invoke-static {v0, v2}, Lcom/discord/widgets/friends/WidgetFriendsFindNearby;->access$launchCaptchaFlow(Lcom/discord/widgets/friends/WidgetFriendsFindNearby;Lcom/discord/utilities/error/Error;)V
 
     goto :goto_6b

@@ -187,10 +187,6 @@
 
     if-eq v0, v1, :cond_1a
 
-    const/4 v1, 0x4
-
-    if-eq v0, v1, :cond_gif
-
     const/4 v1, 0x3
 
     if-ne v0, v1, :cond_14
@@ -214,11 +210,6 @@
 
     :cond_1d
     const-string v0, ""
-
-    goto :goto_1f
-
-    :cond_gif
-    const-string v0, ".gif"
 
     :goto_1f
     return-object v0
@@ -599,10 +590,6 @@
     iget-object v0, p0, Lcom/discord/api/sticker/Sticker;->formatType:Lcom/discord/api/sticker/StickerFormatType;
 
     sget-object v1, Lcom/discord/api/sticker/StickerFormatType;->APNG:Lcom/discord/api/sticker/StickerFormatType;
-
-    if-eq v0, v1, :cond_d
-
-    sget-object v1, Lcom/discord/api/sticker/StickerFormatType;->GIF:Lcom/discord/api/sticker/StickerFormatType;
 
     if-eq v0, v1, :cond_d
 

@@ -249,7 +249,6 @@
 
     move-object v7, v8
 
-    # invokes: Lcom/discord/widgets/guildcommunicationdisabled/start/GuildCommunicationDisabledBottomSheetViewModel$Companion;->observeStores(JJLcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreGuilds;)Lrx/Observable;
     invoke-static/range {v1 .. v7}, Lcom/discord/widgets/guildcommunicationdisabled/start/GuildCommunicationDisabledBottomSheetViewModel$Companion;->access$observeStores(Lcom/discord/widgets/guildcommunicationdisabled/start/GuildCommunicationDisabledBottomSheetViewModel$Companion;JJLcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreGuilds;)Lrx/Observable;
 
     move-result-object v1

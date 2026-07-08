@@ -76,7 +76,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsListItemThreadActions;->leaveThread(Lcom/discord/api/channel/Channel;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/channels/list/WidgetChannelsListItemThreadActions;->access$leaveThread(Lcom/discord/widgets/channels/list/WidgetChannelsListItemThreadActions;Lcom/discord/api/channel/Channel;)V
 
     return-void

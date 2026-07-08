@@ -537,7 +537,6 @@
     move-wide/from16 v12, p2
 
     .line 13
-    # invokes: Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel$Companion;->observeStoreState(JLcom/discord/widgets/guilds/invite/InviteSuggestionsManager;Lcom/discord/stores/StoreInviteSettings;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreStageInstances;)Lrx/Observable;
     invoke-static/range {v11 .. v19}, Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel$Companion;JLcom/discord/widgets/guilds/invite/InviteSuggestionsManager;Lcom/discord/stores/StoreInviteSettings;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreStageInstances;)Lrx/Observable;
 
     move-result-object v0

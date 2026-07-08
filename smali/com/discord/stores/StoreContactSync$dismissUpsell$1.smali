@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreContactSync$dismissUpsell$1;->this$0:Lcom/discord/stores/StoreContactSync;
 
-    # getter for: Lcom/discord/stores/StoreContactSync;->dismissState:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreContactSync;->access$getDismissState$p(Lcom/discord/stores/StoreContactSync;)Ljava/util/HashMap;
 
     move-result-object v0

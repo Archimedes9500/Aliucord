@@ -106,7 +106,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StorePaymentSources$fetchPaymentSources$1;->this$0:Lcom/discord/stores/StorePaymentSources;
 
-    # getter for: Lcom/discord/stores/StorePaymentSources;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StorePaymentSources;->access$getDispatcher$p(Lcom/discord/stores/StorePaymentSources;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

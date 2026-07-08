@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit$onViewBound$2;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;->showCodeVerification()V
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;->access$showCodeVerification(Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;)V
 
     return-void

@@ -78,7 +78,6 @@
 
     iget-boolean v1, p0, Lcom/discord/widgets/channels/list/WidgetChannelListUnreads$handleVisibleRangeUpdate$1;->$indicatorUpwards:Z
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;->handleClick(Lcom/discord/widgets/channels/list/WidgetChannelListUnreads$Model$Indicator;Z)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;->access$handleClick(Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;Lcom/discord/widgets/channels/list/WidgetChannelListUnreads$Model$Indicator;Z)V
 
     return-void

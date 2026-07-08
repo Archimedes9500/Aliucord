@@ -108,7 +108,6 @@
     .line 2
     sget-object v0, Lcom/discord/utilities/auth/AuthUtils;->INSTANCE:Lcom/discord/utilities/auth/AuthUtils;
 
-    # invokes: Lcom/discord/utilities/auth/AuthUtils;->isValidEmail(Ljava/lang/String;)Z
     invoke-static {v0, p1}, Lcom/discord/utilities/auth/AuthUtils;->access$isValidEmail(Lcom/discord/utilities/auth/AuthUtils;Ljava/lang/String;)Z
 
     move-result p1

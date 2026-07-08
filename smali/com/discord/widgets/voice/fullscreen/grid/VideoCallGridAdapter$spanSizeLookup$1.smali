@@ -90,7 +90,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/voice/fullscreen/grid/VideoCallGridAdapter$spanSizeLookup$1;->this$0:Lcom/discord/widgets/voice/fullscreen/grid/VideoCallGridAdapter;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/grid/VideoCallGridAdapter;->data:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/widgets/voice/fullscreen/grid/VideoCallGridAdapter;->access$getData$p(Lcom/discord/widgets/voice/fullscreen/grid/VideoCallGridAdapter;)Ljava/util/List;
 
     move-result-object v0

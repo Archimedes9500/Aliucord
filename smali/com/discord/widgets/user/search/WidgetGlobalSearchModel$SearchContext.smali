@@ -360,7 +360,6 @@
 
     .line 13
     :cond_92
-    # getter for: Lcom/discord/widgets/user/search/WidgetGlobalSearchModel;->DISCRIMINATOR_PATTERN:Ljava/util/regex/Pattern;
     invoke-static {}, Lcom/discord/widgets/user/search/WidgetGlobalSearchModel;->access$getDISCRIMINATOR_PATTERN$cp()Ljava/util/regex/Pattern;
 
     move-result-object p2

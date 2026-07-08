@@ -130,7 +130,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/chat/overlay/ChatTypingModel$Companion$getTypingObservableForChannel$2$1;->$channel:Lcom/discord/api/channel/Channel;
 
-    # invokes: Lcom/discord/widgets/chat/overlay/ChatTypingModel$Companion;->getTypingUsers(Lcom/discord/api/channel/Channel;)Lrx/Observable;
     invoke-static {p1, v0}, Lcom/discord/widgets/chat/overlay/ChatTypingModel$Companion;->access$getTypingUsers(Lcom/discord/widgets/chat/overlay/ChatTypingModel$Companion;Lcom/discord/api/channel/Channel;)Lrx/Observable;
 
     move-result-object p1

@@ -425,7 +425,6 @@
 
     move-object/from16 v11, v16
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListViewModel$Companion;->observeStores(JLjava/lang/Long;Lcom/discord/stores/StoreGuildScheduledEvents;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreVoiceChannelSelected;Lcom/discord/stores/StoreUser;)Lrx/Observable;
     invoke-static/range {v2 .. v11}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListViewModel$Companion;->access$observeStores(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListViewModel$Companion;JLjava/lang/Long;Lcom/discord/stores/StoreGuildScheduledEvents;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreVoiceChannelSelected;Lcom/discord/stores/StoreUser;)Lrx/Observable;
 
     move-result-object v0

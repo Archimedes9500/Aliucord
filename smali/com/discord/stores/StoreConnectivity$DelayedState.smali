@@ -94,7 +94,6 @@
     if-eqz p4, :cond_9
 
     .line 2
-    # getter for: Lcom/discord/stores/StoreConnectivity;->Companion:Lcom/discord/stores/StoreConnectivity$Companion;
     invoke-static {}, Lcom/discord/stores/StoreConnectivity;->access$Companion()Lcom/discord/stores/StoreConnectivity$Companion;
 
     const-wide/16 p2, 0x3e8

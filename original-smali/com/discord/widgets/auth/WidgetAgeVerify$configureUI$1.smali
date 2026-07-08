@@ -76,7 +76,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAgeVerify$configureUI$1;->this$0:Lcom/discord/widgets/auth/WidgetAgeVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAgeVerify;->getBinding()Lcom/discord/databinding/WidgetAgeVerifyBinding;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAgeVerify;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAgeVerify;)Lcom/discord/databinding/WidgetAgeVerifyBinding;
 
     move-result-object v0
@@ -102,7 +101,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAgeVerify$configureUI$1;->this$0:Lcom/discord/widgets/auth/WidgetAgeVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAgeVerify;->getViewModel()Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAgeVerify;->access$getViewModel$p(Lcom/discord/widgets/auth/WidgetAgeVerify;)Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;
 
     move-result-object v0
@@ -164,7 +162,6 @@
     :cond_4d
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAgeVerify$configureUI$1;->this$0:Lcom/discord/widgets/auth/WidgetAgeVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAgeVerify;->getViewModel()Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAgeVerify;->access$getViewModel$p(Lcom/discord/widgets/auth/WidgetAgeVerify;)Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;
 
     move-result-object v0

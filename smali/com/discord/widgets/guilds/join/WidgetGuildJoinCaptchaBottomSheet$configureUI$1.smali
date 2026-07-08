@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/join/WidgetGuildJoinCaptchaBottomSheet$configureUI$1;->this$0:Lcom/discord/widgets/guilds/join/WidgetGuildJoinCaptchaBottomSheet;
 
-    # invokes: Lcom/discord/widgets/guilds/join/WidgetGuildJoinCaptchaBottomSheet;->openCaptcha()V
     invoke-static {p1}, Lcom/discord/widgets/guilds/join/WidgetGuildJoinCaptchaBottomSheet;->access$openCaptcha(Lcom/discord/widgets/guilds/join/WidgetGuildJoinCaptchaBottomSheet;)V
 
     return-void

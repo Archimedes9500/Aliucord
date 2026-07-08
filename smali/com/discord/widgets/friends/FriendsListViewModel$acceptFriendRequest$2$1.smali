@@ -109,7 +109,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/friends/FriendsListViewModel$acceptFriendRequest$2;->$username:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/friends/FriendsListViewModel;->emitShowFriendRequestAbortToast(ILjava/lang/String;)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/friends/FriendsListViewModel;->access$emitShowFriendRequestAbortToast(Lcom/discord/widgets/friends/FriendsListViewModel;ILjava/lang/String;)V
 
     return-void

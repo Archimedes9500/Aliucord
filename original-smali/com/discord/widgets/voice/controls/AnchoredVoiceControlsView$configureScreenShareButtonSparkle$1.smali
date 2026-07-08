@@ -94,7 +94,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/voice/controls/AnchoredVoiceControlsView$configureScreenShareButtonSparkle$1;->this$0:Lcom/discord/widgets/voice/controls/AnchoredVoiceControlsView;
 
-    # getter for: Lcom/discord/widgets/voice/controls/AnchoredVoiceControlsView;->tooltipManager:Lcom/discord/tooltips/TooltipManager;
     invoke-static {p1}, Lcom/discord/widgets/voice/controls/AnchoredVoiceControlsView;->access$getTooltipManager$p(Lcom/discord/widgets/voice/controls/AnchoredVoiceControlsView;)Lcom/discord/tooltips/TooltipManager;
 
     move-result-object p1

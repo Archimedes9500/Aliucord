@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate$onConfigure$2;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;->configureInvalidUI()V
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;->access$configureInvalidUI(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemGuildTemplate;)V
 
     return-void

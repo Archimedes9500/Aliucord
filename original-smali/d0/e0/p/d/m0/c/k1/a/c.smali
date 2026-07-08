@@ -324,7 +324,6 @@
 
     .line 7
     :cond_3e
-    # getter for: Ld0/e0/p/d/m0/c/k1/a/i;->a:Ljava/util/Set;
     invoke-static {}, Ld0/e0/p/d/m0/c/k1/a/i;->access$getTYPES_ELIGIBLE_FOR_SIMPLE_VISIT$p$s-1934497501()Ljava/util/Set;
 
     move-result-object v6

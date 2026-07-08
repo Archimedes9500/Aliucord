@@ -82,7 +82,6 @@
 
     move-result v1
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions;->archiveThread(Lcom/discord/api/channel/Channel;Z)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions;->access$archiveThread(Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions;Lcom/discord/api/channel/Channel;Z)V
 
     return-void

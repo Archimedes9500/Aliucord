@@ -95,7 +95,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/media/WidgetMedia$onViewBoundOrOnResume$$inlined$let$lambda$1;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # invokes: Lcom/discord/widgets/media/WidgetMedia;->handlePlayerEvent(Lcom/discord/player/AppMediaPlayer$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/media/WidgetMedia;->access$handlePlayerEvent(Lcom/discord/widgets/media/WidgetMedia;Lcom/discord/player/AppMediaPlayer$Event;)V
 
     return-void

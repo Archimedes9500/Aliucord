@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildScheduledEvents$fetchGuildScheduledEventUserCounts$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->guildScheduledEvents:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getGuildScheduledEvents$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -117,7 +116,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildScheduledEvents$fetchGuildScheduledEventUserCounts$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->guildScheduledEventsFetchTimestamps:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getGuildScheduledEventsFetchTimestamps$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -134,7 +132,6 @@
 
     iget-object v2, v2, Lcom/discord/stores/StoreGuildScheduledEvents$fetchGuildScheduledEventUserCounts$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v2}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getClock$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v2

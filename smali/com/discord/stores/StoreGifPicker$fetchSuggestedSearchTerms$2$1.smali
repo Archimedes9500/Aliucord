@@ -95,7 +95,6 @@
 
     iget-object v2, p0, Lcom/discord/stores/StoreGifPicker$fetchSuggestedSearchTerms$2$1;->$suggestedSearchTerms:Ljava/util/List;
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->handleSuggestedSearchTerms(Ljava/lang/String;Ljava/util/List;)V
     invoke-static {v1, v0, v2}, Lcom/discord/stores/StoreGifPicker;->access$handleSuggestedSearchTerms(Lcom/discord/stores/StoreGifPicker;Ljava/lang/String;Ljava/util/List;)V
 
     return-void

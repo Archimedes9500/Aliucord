@@ -119,7 +119,6 @@
     .line 7
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem$onConfigure$2;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->binding:Lcom/discord/databinding/WidgetServerSettingsIntegrationListItemBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;)Lcom/discord/databinding/WidgetServerSettingsIntegrationListItemBinding;
 
     move-result-object p1
@@ -137,7 +136,6 @@
     invoke-static {v7, p1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->showDisableSyncDialog(JJZLandroid/content/Context;)V
     invoke-static/range {v1 .. v7}, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->access$showDisableSyncDialog(Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;JJZLandroid/content/Context;)V
 
     goto :goto_7d
@@ -207,7 +205,6 @@
     .line 16
     iget-object v2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem$onConfigure$2;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->binding:Lcom/discord/databinding/WidgetServerSettingsIntegrationListItemBinding;
     invoke-static {v2}, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;)Lcom/discord/databinding/WidgetServerSettingsIntegrationListItemBinding;
 
     move-result-object v2

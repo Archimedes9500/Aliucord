@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubDomainSearch;->updateView(Lcom/discord/widgets/hubs/DomainsState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/hubs/WidgetHubDomainSearch;->access$updateView(Lcom/discord/widgets/hubs/WidgetHubDomainSearch;Lcom/discord/widgets/hubs/DomainsState;)V
 
     return-void

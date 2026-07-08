@@ -80,7 +80,6 @@
 
     const/4 v2, 0x1
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelSidebarActions;->startPrivateCall(JZ)V
     invoke-static {p1, v0, v1, v2}, Lcom/discord/widgets/channels/WidgetChannelSidebarActions;->access$startPrivateCall(Lcom/discord/widgets/channels/WidgetChannelSidebarActions;JZ)V
 
     return-void

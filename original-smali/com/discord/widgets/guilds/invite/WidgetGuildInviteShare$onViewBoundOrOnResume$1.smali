@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->configureUI(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel$ViewState$Loaded;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->access$configureUI(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel$ViewState$Loaded;)V
 
     return-void

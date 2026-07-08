@@ -47,7 +47,6 @@
 
     iget-object v1, p0, Lcom/adjust/sdk/PackageHandler$2;->val$activityPackage:Lcom/adjust/sdk/ActivityPackage;
 
-    # invokes: Lcom/adjust/sdk/PackageHandler;->addI(Lcom/adjust/sdk/ActivityPackage;)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/PackageHandler;->access$100(Lcom/adjust/sdk/PackageHandler;Lcom/adjust/sdk/ActivityPackage;)V
 
     return-void

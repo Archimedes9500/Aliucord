@@ -103,7 +103,6 @@
 
     move-result-object v0
 
-    # getter for: Lcom/discord/stores/StoreStream;->LAST_LOGGED_NOTIFICATION_PERMISSIONS_KEY:Ljava/lang/String;
     invoke-static {}, Lcom/discord/stores/StoreStream;->access$getLAST_LOGGED_NOTIFICATION_PERMISSIONS_KEY$cp()Ljava/lang/String;
 
     move-result-object v1

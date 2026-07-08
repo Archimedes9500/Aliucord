@@ -101,7 +101,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBoundOrOnResume$2;->$clock:Lcom/discord/utilities/time/Clock;
 
-    # invokes: Lcom/discord/widgets/share/WidgetIncomingShare;->configureUi(Lcom/discord/widgets/share/WidgetIncomingShare$Model;Lcom/discord/utilities/time/Clock;)V
     invoke-static {v0, p1, v1}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$configureUi(Lcom/discord/widgets/share/WidgetIncomingShare;Lcom/discord/widgets/share/WidgetIncomingShare$Model;Lcom/discord/utilities/time/Clock;)V
 
     return-void

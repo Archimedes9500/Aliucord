@@ -97,7 +97,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/auth/WidgetAgeVerify$configureBirthdayInput$1;->this$0:Lcom/discord/widgets/auth/WidgetAgeVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAgeVerify;->getViewModel()Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAgeVerify;->access$getViewModel$p(Lcom/discord/widgets/auth/WidgetAgeVerify;)Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;
 
     move-result-object v0

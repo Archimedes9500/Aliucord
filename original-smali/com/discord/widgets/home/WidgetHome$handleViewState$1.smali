@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/home/WidgetHome;
 
     .line 2
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->onNsfwToggle(Z)V
     invoke-static {v0, p1}, Lcom/discord/widgets/home/WidgetHome;->access$onNsfwToggle(Lcom/discord/widgets/home/WidgetHome;Z)V
 
     return-void

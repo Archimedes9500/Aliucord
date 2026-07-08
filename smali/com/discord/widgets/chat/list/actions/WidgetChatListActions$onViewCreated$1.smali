@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$onViewCreated$1;->this$0:Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;
 
-    # invokes: Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->addReaction(Lcom/discord/models/domain/emoji/Emoji;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->access$addReaction(Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;Lcom/discord/models/domain/emoji/Emoji;)V
 
     return-void

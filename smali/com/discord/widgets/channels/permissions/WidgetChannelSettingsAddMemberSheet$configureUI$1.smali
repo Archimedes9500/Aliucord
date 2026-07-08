@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet$configureUI$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;->addPermissionOverwrites()V
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;->access$addPermissionOverwrites(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;)V
 
     return-void

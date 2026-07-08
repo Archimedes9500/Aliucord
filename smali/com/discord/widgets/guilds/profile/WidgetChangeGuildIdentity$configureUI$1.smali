@@ -84,7 +84,6 @@
 
     check-cast v1, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel$ViewState$Loaded;
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->handleBackPressed(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel$ViewState$Loaded;)Z
     invoke-static {v0, v1}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$handleBackPressed(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel$ViewState$Loaded;)Z
 
     move-result v0

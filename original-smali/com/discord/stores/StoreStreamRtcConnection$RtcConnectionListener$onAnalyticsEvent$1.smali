@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener$onAnalyticsEvent$1;->$properties:Ljava/util/Map;
 
-    # invokes: Lcom/discord/stores/StoreStreamRtcConnection;->handleVideoStreamEndedAnalyticsEvent(Ljava/util/Map;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreStreamRtcConnection;->access$handleVideoStreamEndedAnalyticsEvent(Lcom/discord/stores/StoreStreamRtcConnection;Ljava/util/Map;)V
 
     return-void

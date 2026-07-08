@@ -91,7 +91,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreGuildIntegrations$onIntegrationScreenOpened$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreGuildIntegrations;->handleIntegrationScreenOpened(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreGuildIntegrations;->access$handleIntegrationScreenOpened(Lcom/discord/stores/StoreGuildIntegrations;J)V
 
     return-void

@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$handleBackPressed$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # getter for: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->discardConfirmed:Ljava/util/concurrent/atomic/AtomicBoolean;
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$getDiscardConfirmed$p(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)Ljava/util/concurrent/atomic/AtomicBoolean;
 
     move-result-object p1

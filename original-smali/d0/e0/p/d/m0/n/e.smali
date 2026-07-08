@@ -1277,7 +1277,6 @@
 
     .line 11
     :cond_5b
-    # getter for: Ld0/e0/p/d/m0/n/f;->a:I
     invoke-static/range {p1 .. p1}, Ld0/e0/p/d/m0/n/f;->access$getArgumentsDepth(Ld0/e0/p/d/m0/n/f;)I
 
     move-result v1
@@ -1287,7 +1286,6 @@
     if-gt v1, v2, :cond_b9
 
     .line 12
-    # getter for: Ld0/e0/p/d/m0/n/f;->a:I
     invoke-static/range {p1 .. p1}, Ld0/e0/p/d/m0/n/f;->access$getArgumentsDepth(Ld0/e0/p/d/m0/n/f;)I
 
     move-result v1
@@ -1378,7 +1376,6 @@
 
     .line 18
     :goto_a7
-    # getter for: Ld0/e0/p/d/m0/n/f;->a:I
     invoke-static/range {p1 .. p1}, Ld0/e0/p/d/m0/n/f;->access$getArgumentsDepth(Ld0/e0/p/d/m0/n/f;)I
 
     move-result v1

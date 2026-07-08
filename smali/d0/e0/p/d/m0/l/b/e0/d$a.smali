@@ -268,7 +268,6 @@
     iget-object p2, p0, Ld0/e0/p/d/m0/l/b/e0/d$a;->j:Ld0/e0/p/d/m0/l/b/e0/d;
 
     .line 2
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/d;->z:Ld0/e0/p/d/m0/l/b/e0/d$c;
     invoke-static {p2}, Ld0/e0/p/d/m0/l/b/e0/d;->access$getEnumEntries$p(Ld0/e0/p/d/m0/l/b/e0/d;)Ld0/e0/p/d/m0/l/b/e0/d$c;
 
     move-result-object p2
@@ -476,7 +475,6 @@
     .line 1
     iget-object v0, p0, Ld0/e0/p/d/m0/l/b/e0/d$a;->j:Ld0/e0/p/d/m0/l/b/e0/d;
 
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/d;->r:Ld0/e0/p/d/m0/g/a;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/e0/d;->access$getClassId$p(Ld0/e0/p/d/m0/l/b/e0/d;)Ld0/e0/p/d/m0/g/a;
 
     move-result-object v0
@@ -507,7 +505,6 @@
     iget-object v0, p0, Ld0/e0/p/d/m0/l/b/e0/d$a;->j:Ld0/e0/p/d/m0/l/b/e0/d;
 
     .line 2
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/d;->x:Ld0/e0/p/d/m0/l/b/e0/d$b;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/e0/d;->access$getTypeConstructor$p(Ld0/e0/p/d/m0/l/b/e0/d;)Ld0/e0/p/d/m0/l/b/e0/d$b;
 
     move-result-object v0
@@ -580,7 +577,6 @@
     iget-object v0, p0, Ld0/e0/p/d/m0/l/b/e0/d$a;->j:Ld0/e0/p/d/m0/l/b/e0/d;
 
     .line 2
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/d;->x:Ld0/e0/p/d/m0/l/b/e0/d$b;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/e0/d;->access$getTypeConstructor$p(Ld0/e0/p/d/m0/l/b/e0/d;)Ld0/e0/p/d/m0/l/b/e0/d$b;
 
     move-result-object v0
@@ -669,7 +665,6 @@
     iget-object v0, p0, Ld0/e0/p/d/m0/l/b/e0/d$a;->j:Ld0/e0/p/d/m0/l/b/e0/d;
 
     .line 3
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/d;->z:Ld0/e0/p/d/m0/l/b/e0/d$c;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/e0/d;->access$getEnumEntries$p(Ld0/e0/p/d/m0/l/b/e0/d;)Ld0/e0/p/d/m0/l/b/e0/d$c;
 
     move-result-object v0
@@ -815,7 +810,6 @@
     iget-object v0, p0, Ld0/e0/p/d/m0/l/b/e0/d$a;->j:Ld0/e0/p/d/m0/l/b/e0/d;
 
     .line 2
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/d;->x:Ld0/e0/p/d/m0/l/b/e0/d$b;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/e0/d;->access$getTypeConstructor$p(Ld0/e0/p/d/m0/l/b/e0/d;)Ld0/e0/p/d/m0/l/b/e0/d$b;
 
     move-result-object v0

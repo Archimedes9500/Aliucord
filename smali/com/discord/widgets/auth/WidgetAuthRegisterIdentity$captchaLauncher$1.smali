@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity$captchaLauncher$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->registerViaPhone(Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->access$registerViaPhone(Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
 
     return-void

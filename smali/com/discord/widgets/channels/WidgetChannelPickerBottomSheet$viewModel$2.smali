@@ -76,21 +76,18 @@
 
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;->getGuildId()J
     invoke-static {v0}, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;->access$getGuildId$p(Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;)J
 
     move-result-wide v1
 
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;->getSelectedChannelId()J
     invoke-static {v0}, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;->access$getSelectedChannelId$p(Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;)J
 
     move-result-wide v3
 
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet$viewModel$2;->this$0:Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;->getHideAnnouncementChannels()Z
     invoke-static {v0}, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;->access$getHideAnnouncementChannels$p(Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;)Z
 
     move-result v5

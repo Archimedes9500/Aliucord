@@ -70,7 +70,6 @@
 
     const-string v1, "Guild Join"
 
-    # invokes: Lcom/discord/widgets/nux/WidgetGuildTemplates;->trackPostRegistrationTransition(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/nux/WidgetGuildTemplates;->access$trackPostRegistrationTransition(Lcom/discord/widgets/nux/WidgetGuildTemplates;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 2

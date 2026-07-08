@@ -187,13 +187,11 @@
     move-result-object v2
 
     .line 6
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v1, v2}, Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->access$updateViewState(Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel$ViewState;)V
 
     .line 7
     iget-object v1, v0, Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel$setUserSuppressedInChannel$1;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->emitDismissSheetEvent()V
     invoke-static {v1}, Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->access$emitDismissSheetEvent(Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;)V
 
     :cond_58

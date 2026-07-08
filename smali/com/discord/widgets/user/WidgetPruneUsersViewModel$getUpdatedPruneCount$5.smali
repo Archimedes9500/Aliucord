@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/WidgetPruneUsersViewModel$getUpdatedPruneCount$5;->this$0:Lcom/discord/widgets/user/WidgetPruneUsersViewModel;
 
-    # getter for: Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->pruneCountRequest:Lrx/Subscription;
     invoke-static {v0}, Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->access$getPruneCountRequest$p(Lcom/discord/widgets/user/WidgetPruneUsersViewModel;)Lrx/Subscription;
 
     move-result-object v0

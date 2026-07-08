@@ -113,7 +113,6 @@
     :goto_14
     const/4 v2, 0x0
 
-    # invokes: Lcom/discord/utilities/websocket/WebSocket;->handleOnFailure(Ljava/lang/Throwable;Lokhttp3/Response;Z)V
     invoke-static {v0, p1, v2, v1}, Lcom/discord/utilities/websocket/WebSocket;->access$handleOnFailure(Lcom/discord/utilities/websocket/WebSocket;Ljava/lang/Throwable;Lokhttp3/Response;Z)V
 
     return-void

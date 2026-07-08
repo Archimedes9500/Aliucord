@@ -68,7 +68,6 @@
 
     const-string v0, ""
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;->submitName(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;->access$submitName(Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;Ljava/lang/String;)V
 
     return-void

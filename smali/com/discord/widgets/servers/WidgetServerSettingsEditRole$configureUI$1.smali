@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$configureUI$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->getBinding()Lcom/discord/databinding/WidgetEditRoleBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;)Lcom/discord/databinding/WidgetEditRoleBinding;
 
     move-result-object p1
@@ -192,7 +191,6 @@
     .line 8
     iget-object v1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$configureUI$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->getBinding()Lcom/discord/databinding/WidgetEditRoleBinding;
     invoke-static {v1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;)Lcom/discord/databinding/WidgetEditRoleBinding;
 
     move-result-object v1
@@ -228,7 +226,6 @@
 
     move-result-wide v3
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->patchRole(JLcom/discord/restapi/RestAPIParams$Role;)V
     invoke-static {p1, v3, v4, v0}, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->access$patchRole(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;JLcom/discord/restapi/RestAPIParams$Role;)V
 
     .line 12

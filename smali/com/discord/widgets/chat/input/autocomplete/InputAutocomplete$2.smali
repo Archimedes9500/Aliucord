@@ -96,7 +96,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete$2;->this$0:Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->getViewModel()Lcom/discord/widgets/chat/input/autocomplete/AutocompleteViewModel;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->access$getViewModel$p(Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;)Lcom/discord/widgets/chat/input/autocomplete/AutocompleteViewModel;
 
     move-result-object v0
@@ -114,7 +113,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete$2;->this$0:Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->applyEditTextAction(Lcom/discord/widgets/chat/input/autocomplete/InputEditTextAction;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->access$applyEditTextAction(Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;Lcom/discord/widgets/chat/input/autocomplete/InputEditTextAction;)V
 
     return-void

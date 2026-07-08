@@ -187,7 +187,6 @@
 
     invoke-static {v4, v7}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;->shouldShowStickerGreet(Lcom/discord/stores/StoreMessagesLoader$ChannelLoadedState;Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages;Lcom/discord/api/channel/Channel;Ljava/util/Map;)Z
     invoke-static {v5, v2, v1, v6, v4}, Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;->access$shouldShowStickerGreet(Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;Lcom/discord/stores/StoreMessagesLoader$ChannelLoadedState;Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages;Lcom/discord/api/channel/Channel;Ljava/util/Map;)Z
 
     move-result v4
@@ -248,7 +247,6 @@
     .line 8
     iget-object v4, v0, Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion$getChannel$1;->$channel:Lcom/discord/api/channel/Channel;
 
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;->getGreetMessageItem(Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages;Lcom/discord/api/channel/Channel;)Lcom/discord/widgets/chat/list/entries/ChatListEntry;
     invoke-static {v5, v1, v4}, Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;->access$getGreetMessageItem(Lcom/discord/widgets/chat/list/model/WidgetChatListModel$Companion;Lcom/discord/widgets/chat/list/model/WidgetChatListModelMessages;Lcom/discord/api/channel/Channel;)Lcom/discord/widgets/chat/list/entries/ChatListEntry;
 
     move-result-object v4

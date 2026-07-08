@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/friends/WidgetFriendsFindNearby$captchaLauncher$1;->this$0:Lcom/discord/widgets/friends/WidgetFriendsFindNearby;
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsFindNearby;->getViewModel()Lcom/discord/widgets/friends/WidgetFriendsFindNearbyViewModel;
     invoke-static {v0}, Lcom/discord/widgets/friends/WidgetFriendsFindNearby;->access$getViewModel$p(Lcom/discord/widgets/friends/WidgetFriendsFindNearby;)Lcom/discord/widgets/friends/WidgetFriendsFindNearbyViewModel;
 
     move-result-object v0
@@ -108,7 +107,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/friends/WidgetFriendsFindNearby$captchaLauncher$1;->this$0:Lcom/discord/widgets/friends/WidgetFriendsFindNearby;
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsFindNearby;->getViewModel()Lcom/discord/widgets/friends/WidgetFriendsFindNearbyViewModel;
     invoke-static {v1}, Lcom/discord/widgets/friends/WidgetFriendsFindNearby;->access$getViewModel$p(Lcom/discord/widgets/friends/WidgetFriendsFindNearby;)Lcom/discord/widgets/friends/WidgetFriendsFindNearbyViewModel;
 
     move-result-object v1
@@ -126,7 +124,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/widgets/friends/WidgetFriendsFindNearby$captchaLauncher$1;->this$0:Lcom/discord/widgets/friends/WidgetFriendsFindNearby;
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsFindNearby;->sendFriendRequest(Ljava/lang/String;ILcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
     invoke-static {v2, v0, v1, p1}, Lcom/discord/widgets/friends/WidgetFriendsFindNearby;->access$sendFriendRequest(Lcom/discord/widgets/friends/WidgetFriendsFindNearby;Ljava/lang/String;ILcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
 
     :cond_27

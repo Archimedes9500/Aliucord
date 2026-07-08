@@ -66,13 +66,11 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/contextmenu/WidgetFolderContextMenu$configureValidUI$1;->this$0:Lcom/discord/widgets/guilds/contextmenu/WidgetFolderContextMenu;
 
-    # invokes: Lcom/discord/widgets/guilds/contextmenu/WidgetFolderContextMenu;->doCircularRemove()V
     invoke-static {p1}, Lcom/discord/widgets/guilds/contextmenu/WidgetFolderContextMenu;->access$doCircularRemove(Lcom/discord/widgets/guilds/contextmenu/WidgetFolderContextMenu;)V
 
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/contextmenu/WidgetFolderContextMenu$configureValidUI$1;->this$0:Lcom/discord/widgets/guilds/contextmenu/WidgetFolderContextMenu;
 
-    # invokes: Lcom/discord/widgets/guilds/contextmenu/WidgetFolderContextMenu;->getViewModel()Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guilds/contextmenu/WidgetFolderContextMenu;->access$getViewModel$p(Lcom/discord/widgets/guilds/contextmenu/WidgetFolderContextMenu;)Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel;
 
     move-result-object p1

@@ -127,7 +127,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreMaskedLinks;->TRUSTED_DOMAINS:Ljava/util/List;
     invoke-static {}, Lcom/discord/stores/StoreMaskedLinks;->access$getTRUSTED_DOMAINS$cp()Ljava/util/List;
 
     move-result-object v0
@@ -138,7 +137,6 @@
 
     if-nez v0, :cond_1c
 
-    # getter for: Lcom/discord/stores/StoreMaskedLinks;->DISCORD_DOMAINS_REGEX:Lkotlin/text/Regex;
     invoke-static {}, Lcom/discord/stores/StoreMaskedLinks;->access$getDISCORD_DOMAINS_REGEX$cp()Lkotlin/text/Regex;
 
     move-result-object v0

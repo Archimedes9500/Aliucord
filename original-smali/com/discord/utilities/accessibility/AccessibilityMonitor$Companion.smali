@@ -73,7 +73,6 @@
 .method public final getINSTANCE()Lcom/discord/utilities/accessibility/AccessibilityMonitor;
     .locals 2
 
-    # getter for: Lcom/discord/utilities/accessibility/AccessibilityMonitor;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/utilities/accessibility/AccessibilityMonitor;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

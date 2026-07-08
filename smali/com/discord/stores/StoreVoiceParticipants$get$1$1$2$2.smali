@@ -291,7 +291,6 @@
     invoke-static {v12, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
-    # invokes: Lcom/discord/stores/StoreVoiceParticipants;->create(Lcom/discord/models/user/MeUser;Ljava/util/Collection;Ljava/util/Map;Ljava/util/Set;Ljava/util/Collection;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;Ljava/util/Map;)Ljava/util/Map;
     invoke-static/range {v2 .. v12}, Lcom/discord/stores/StoreVoiceParticipants;->access$create(Lcom/discord/stores/StoreVoiceParticipants;Lcom/discord/models/user/MeUser;Ljava/util/Collection;Ljava/util/Map;Ljava/util/Set;Ljava/util/Collection;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v1

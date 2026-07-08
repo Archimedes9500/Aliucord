@@ -91,7 +91,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreRtcConnection$init$4;->this$0:Lcom/discord/stores/StoreRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreRtcConnection;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreRtcConnection;->access$getDispatcher$p(Lcom/discord/stores/StoreRtcConnection;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

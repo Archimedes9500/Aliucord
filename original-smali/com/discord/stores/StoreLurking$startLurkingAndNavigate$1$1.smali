@@ -131,7 +131,6 @@
 
     iget-object p2, p2, Lcom/discord/stores/StoreLurking$startLurkingAndNavigate$1;->this$0:Lcom/discord/stores/StoreLurking;
 
-    # getter for: Lcom/discord/stores/StoreLurking;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {p2}, Lcom/discord/stores/StoreLurking;->access$getStream$p(Lcom/discord/stores/StoreLurking;)Lcom/discord/stores/StoreStream;
 
     move-result-object p2

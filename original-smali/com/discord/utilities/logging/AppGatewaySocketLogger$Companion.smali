@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/logging/AppGatewaySocketLogger;->INSTANCE:Lcom/discord/utilities/logging/AppGatewaySocketLogger;
     invoke-static {}, Lcom/discord/utilities/logging/AppGatewaySocketLogger;->access$getINSTANCE$cp()Lcom/discord/utilities/logging/AppGatewaySocketLogger;
 
     move-result-object v0

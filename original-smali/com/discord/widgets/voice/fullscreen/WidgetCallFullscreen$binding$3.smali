@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
     .line 2
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->onViewBindingDestroy(Lcom/discord/databinding/WidgetCallFullscreenBinding;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$onViewBindingDestroy(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;Lcom/discord/databinding/WidgetCallFullscreenBinding;)V
 
     return-void

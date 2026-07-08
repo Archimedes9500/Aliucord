@@ -120,7 +120,6 @@
     .line 1
     iget-object p1, p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
-    # getter for: Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->draggable:Z
     invoke-static {p1}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->access$400(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)Z
 
     move-result p1
@@ -175,7 +174,6 @@
     .line 1
     iget-object p2, p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
-    # getter for: Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->fitToContents:Z
     invoke-static {p2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->access$500(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)Z
 
     move-result p2
@@ -292,7 +290,6 @@
     :cond_63
     iget-object p2, p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
-    # getter for: Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->fitToContents:Z
     invoke-static {p2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->access$500(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)Z
 
     move-result p2
@@ -378,7 +375,6 @@
     :cond_a7
     iget-object p2, p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
-    # getter for: Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->fitToContents:Z
     invoke-static {p2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->access$500(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)Z
 
     move-result p2
@@ -450,7 +446,6 @@
     .line 25
     iget-object p3, p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
-    # getter for: Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->fitToContents:Z
     invoke-static {p3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->access$500(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)Z
 
     move-result p3

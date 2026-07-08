@@ -67,7 +67,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray$setWindowInsetsListeners$2;->this$0:Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;
 
-    # invokes: Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->getBinding()Lcom/discord/databinding/WidgetExpressionTrayBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->access$getBinding$p(Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;)Lcom/discord/databinding/WidgetExpressionTrayBinding;
 
     move-result-object p1

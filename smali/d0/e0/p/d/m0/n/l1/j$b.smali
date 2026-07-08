@@ -72,7 +72,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/n/l1/j$b;->this$0:Ld0/e0/p/d/m0/n/l1/j;
 
-    # getter for: Ld0/e0/p/d/m0/n/l1/j;->b:Lkotlin/jvm/functions/Function0;
     invoke-static {v0}, Ld0/e0/p/d/m0/n/l1/j;->access$getSupertypesComputation$p(Ld0/e0/p/d/m0/n/l1/j;)Lkotlin/jvm/functions/Function0;
 
     move-result-object v0

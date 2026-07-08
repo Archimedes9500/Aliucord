@@ -138,7 +138,6 @@
     goto :goto_13
 
     :cond_f
-    # getter for: Lcom/discord/stores/StoreGuilds;->emptyRoles:Ljava/util/Map;
     invoke-static {}, Lcom/discord/stores/StoreGuilds;->access$getEmptyRoles$cp()Ljava/util/Map;
 
     move-result-object p1

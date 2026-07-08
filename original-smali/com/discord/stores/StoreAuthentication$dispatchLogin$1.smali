@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreAuthentication$dispatchLogin$1;->this$0:Lcom/discord/stores/StoreAuthentication;
 
-    # getter for: Lcom/discord/stores/StoreAuthentication;->storeStream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreAuthentication;->access$getStoreStream$p(Lcom/discord/stores/StoreAuthentication;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

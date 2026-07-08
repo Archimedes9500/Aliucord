@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/hubs/events/WidgetHubEventsPage;
 
     .line 2
-    # invokes: Lcom/discord/widgets/hubs/events/WidgetHubEventsPage;->configUI(Lcom/discord/widgets/hubs/events/WidgetHubEventsState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/hubs/events/WidgetHubEventsPage;->access$configUI(Lcom/discord/widgets/hubs/events/WidgetHubEventsPage;Lcom/discord/widgets/hubs/events/WidgetHubEventsState;)V
 
     return-void

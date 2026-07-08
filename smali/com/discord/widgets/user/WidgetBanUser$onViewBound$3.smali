@@ -80,14 +80,12 @@
     .line 1
     iget-object v1, v0, Lcom/discord/widgets/user/WidgetBanUser$onViewBound$3;->this$0:Lcom/discord/widgets/user/WidgetBanUser;
 
-    # invokes: Lcom/discord/widgets/user/WidgetBanUser;->getHistoryRadios()Ljava/util/List;
     invoke-static {v1}, Lcom/discord/widgets/user/WidgetBanUser;->access$getHistoryRadios$p(Lcom/discord/widgets/user/WidgetBanUser;)Ljava/util/List;
 
     move-result-object v1
 
     iget-object v2, v0, Lcom/discord/widgets/user/WidgetBanUser$onViewBound$3;->this$0:Lcom/discord/widgets/user/WidgetBanUser;
 
-    # getter for: Lcom/discord/widgets/user/WidgetBanUser;->deleteHistoryRadioManager:Lcom/discord/views/RadioManager;
     invoke-static {v2}, Lcom/discord/widgets/user/WidgetBanUser;->access$getDeleteHistoryRadioManager$p(Lcom/discord/widgets/user/WidgetBanUser;)Lcom/discord/views/RadioManager;
 
     move-result-object v2
@@ -137,7 +135,6 @@
     :goto_2a
     iget-object v4, v0, Lcom/discord/widgets/user/WidgetBanUser$onViewBound$3;->this$0:Lcom/discord/widgets/user/WidgetBanUser;
 
-    # invokes: Lcom/discord/widgets/user/WidgetBanUser;->getBinding()Lcom/discord/databinding/WidgetBanUserBinding;
     invoke-static {v4}, Lcom/discord/widgets/user/WidgetBanUser;->access$getBinding$p(Lcom/discord/widgets/user/WidgetBanUser;)Lcom/discord/databinding/WidgetBanUserBinding;
 
     move-result-object v4

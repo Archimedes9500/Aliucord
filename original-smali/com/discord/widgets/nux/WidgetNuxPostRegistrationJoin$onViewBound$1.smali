@@ -149,7 +149,6 @@
     .line 9
     iget-object p1, p0, Lcom/discord/widgets/nux/WidgetNuxPostRegistrationJoin$onViewBound$1;->this$0:Lcom/discord/widgets/nux/WidgetNuxPostRegistrationJoin;
 
-    # invokes: Lcom/discord/widgets/guilds/join/WidgetGuildJoin;->handleGuildJoin()V
     invoke-static {p1}, Lcom/discord/widgets/nux/WidgetNuxPostRegistrationJoin;->access$handleGuildJoin(Lcom/discord/widgets/nux/WidgetNuxPostRegistrationJoin;)V
 
     .line 10

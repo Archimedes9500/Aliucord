@@ -109,7 +109,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreAuthentication$logout$2;->this$0:Lcom/discord/stores/StoreAuthentication;
 
-    # invokes: Lcom/discord/stores/StoreAuthentication;->getFingerprintSnapshotOrGenerate()Lrx/Observable;
     invoke-static {p1}, Lcom/discord/stores/StoreAuthentication;->access$getFingerprintSnapshotOrGenerate(Lcom/discord/stores/StoreAuthentication;)Lrx/Observable;
 
     move-result-object p1

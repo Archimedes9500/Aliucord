@@ -84,7 +84,6 @@
 
     check-cast v1, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$ViewState$Loaded;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->handleBackPressed(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$ViewState$Loaded;)Z
     invoke-static {v0, v1}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$handleBackPressed(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$ViewState$Loaded;)Z
 
     move-result v0

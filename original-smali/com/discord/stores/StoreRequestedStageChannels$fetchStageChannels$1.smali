@@ -126,7 +126,6 @@
     .line 5
     iget-object v7, p0, Lcom/discord/stores/StoreRequestedStageChannels$fetchStageChannels$1;->this$0:Lcom/discord/stores/StoreRequestedStageChannels;
 
-    # getter for: Lcom/discord/stores/StoreRequestedStageChannels;->requestedStageChannelsSnapshot:Ljava/util/Map;
     invoke-static {v7}, Lcom/discord/stores/StoreRequestedStageChannels;->access$getRequestedStageChannelsSnapshot$p(Lcom/discord/stores/StoreRequestedStageChannels;)Ljava/util/Map;
 
     move-result-object v7
@@ -170,13 +169,11 @@
 
     sget-object v2, Lcom/discord/stores/StoreRequestedStageChannels$FetchStatus;->LOADING:Lcom/discord/stores/StoreRequestedStageChannels$FetchStatus;
 
-    # invokes: Lcom/discord/stores/StoreRequestedStageChannels;->updateStatus(Ljava/util/Set;Lcom/discord/stores/StoreRequestedStageChannels$FetchStatus;)V
     invoke-static {v1, v0, v2}, Lcom/discord/stores/StoreRequestedStageChannels;->access$updateStatus(Lcom/discord/stores/StoreRequestedStageChannels;Ljava/util/Set;Lcom/discord/stores/StoreRequestedStageChannels$FetchStatus;)V
 
     .line 8
     iget-object v1, p0, Lcom/discord/stores/StoreRequestedStageChannels$fetchStageChannels$1;->this$0:Lcom/discord/stores/StoreRequestedStageChannels;
 
-    # getter for: Lcom/discord/stores/StoreRequestedStageChannels;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v1}, Lcom/discord/stores/StoreRequestedStageChannels;->access$getRestAPI$p(Lcom/discord/stores/StoreRequestedStageChannels;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v1

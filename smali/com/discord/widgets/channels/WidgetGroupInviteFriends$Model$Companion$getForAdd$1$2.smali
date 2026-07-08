@@ -163,7 +163,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/widgets/channels/WidgetGroupInviteFriends$Model$Companion;->getFilteredFriends(Ljava/util/Collection;Ljava/lang/String;)Lrx/Observable;
     invoke-static {v0, v2, v1}, Lcom/discord/widgets/channels/WidgetGroupInviteFriends$Model$Companion;->access$getFilteredFriends(Lcom/discord/widgets/channels/WidgetGroupInviteFriends$Model$Companion;Ljava/util/Collection;Ljava/lang/String;)Lrx/Observable;
 
     move-result-object v0

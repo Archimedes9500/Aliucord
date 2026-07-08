@@ -95,7 +95,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreSubscriptions$fetchSubscriptions$1$1$1;->$subscriptions:Ljava/util/List;
 
-    # invokes: Lcom/discord/stores/StoreSubscriptions;->handleSubscriptionsFetchSuccess(Ljava/util/List;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreSubscriptions;->access$handleSubscriptionsFetchSuccess(Lcom/discord/stores/StoreSubscriptions;Ljava/util/List;)V
 
     return-void

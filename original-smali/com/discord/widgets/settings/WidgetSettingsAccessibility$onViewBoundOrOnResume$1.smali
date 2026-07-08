@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/WidgetSettingsAccessibility;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAccessibility;->configureUI(Lcom/discord/widgets/settings/WidgetSettingsAccessibility$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/WidgetSettingsAccessibility;->access$configureUI(Lcom/discord/widgets/settings/WidgetSettingsAccessibility;Lcom/discord/widgets/settings/WidgetSettingsAccessibility$Model;)V
 
     return-void

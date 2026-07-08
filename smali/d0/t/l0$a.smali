@@ -46,7 +46,6 @@
     iput v0, p0, Ld0/t/l0$a;->l:I
 
     .line 3
-    # getter for: Ld0/t/l0;->l:I
     invoke-static {p1}, Ld0/t/l0;->access$getStartIndex$p(Ld0/t/l0;)I
 
     move-result p1
@@ -77,7 +76,6 @@
     :cond_8
     iget-object v0, p0, Ld0/t/l0$a;->n:Ld0/t/l0;
 
-    # getter for: Ld0/t/l0;->n:[Ljava/lang/Object;
     invoke-static {v0}, Ld0/t/l0;->access$getBuffer$p(Ld0/t/l0;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -96,7 +94,6 @@
     add-int/lit8 v1, v1, 0x1
 
     .line 5
-    # getter for: Ld0/t/l0;->k:I
     invoke-static {v0}, Ld0/t/l0;->access$getCapacity$p(Ld0/t/l0;)I
 
     move-result v0

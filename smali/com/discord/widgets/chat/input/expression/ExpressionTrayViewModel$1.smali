@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel;->handleStoreState(Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel;->access$handleStoreState(Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel;Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel$StoreState;)V
 
     return-void

@@ -41,7 +41,6 @@
     .line 1
     iget-object p2, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior$a;->j:Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;
 
-    # getter for: Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;->viewRef:Ljava/lang/ref/WeakReference;
     invoke-static {p2}, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;->access$2400(Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;)Ljava/lang/ref/WeakReference;
 
     move-result-object p2
@@ -70,7 +69,6 @@
     .line 4
     iget-object p4, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior$a;->j:Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;
 
-    # getter for: Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;->fabContentRect:Landroid/graphics/Rect;
     invoke-static {p4}, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;->access$2500(Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;)Landroid/graphics/Rect;
 
     move-result-object p4
@@ -80,7 +78,6 @@
     .line 5
     iget-object p4, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior$a;->j:Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;
 
-    # getter for: Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;->fabContentRect:Landroid/graphics/Rect;
     invoke-static {p4}, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;->access$2500(Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;)Landroid/graphics/Rect;
 
     move-result-object p4
@@ -102,7 +99,6 @@
     .line 8
     iget-object p5, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior$a;->j:Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;
 
-    # getter for: Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;->originalBottomMargin:I
     invoke-static {p5}, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;->access$2600(Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;)I
 
     move-result p5
@@ -133,7 +129,6 @@
     sub-int/2addr p4, p5
 
     .line 12
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->getBottomInset()I
     invoke-static {p2}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$2700(Lcom/google/android/material/bottomappbar/BottomAppBar;)I
 
     move-result p5
@@ -143,7 +138,6 @@
     iput p5, p1, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
     .line 13
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->getLeftInset()I
     invoke-static {p2}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$2800(Lcom/google/android/material/bottomappbar/BottomAppBar;)I
 
     move-result p4
@@ -151,7 +145,6 @@
     iput p4, p1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
 
     .line 14
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->getRightInset()I
     invoke-static {p2}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$2900(Lcom/google/android/material/bottomappbar/BottomAppBar;)I
 
     move-result p4
@@ -168,7 +161,6 @@
     .line 16
     iget p3, p1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
 
-    # getter for: Lcom/google/android/material/bottomappbar/BottomAppBar;->fabOffsetEndMode:I
     invoke-static {p2}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$3000(Lcom/google/android/material/bottomappbar/BottomAppBar;)I
 
     move-result p2
@@ -183,7 +175,6 @@
     :cond_6f
     iget p3, p1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
 
-    # getter for: Lcom/google/android/material/bottomappbar/BottomAppBar;->fabOffsetEndMode:I
     invoke-static {p2}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$3000(Lcom/google/android/material/bottomappbar/BottomAppBar;)I
 
     move-result p2

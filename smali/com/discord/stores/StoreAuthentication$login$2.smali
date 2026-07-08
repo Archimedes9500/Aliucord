@@ -89,7 +89,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StoreAuthentication;->dispatchLogin(Lcom/discord/models/domain/auth/ModelLoginResult;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreAuthentication;->access$dispatchLogin(Lcom/discord/stores/StoreAuthentication;Lcom/discord/models/domain/auth/ModelLoginResult;)V
 
     :cond_10

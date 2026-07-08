@@ -139,7 +139,6 @@
     goto :goto_13
 
     :cond_f
-    # getter for: Lcom/discord/stores/StoreGuilds;->emptyComputedMap:Ljava/util/Map;
     invoke-static {}, Lcom/discord/stores/StoreGuilds;->access$getEmptyComputedMap$cp()Ljava/util/Map;
 
     move-result-object p1

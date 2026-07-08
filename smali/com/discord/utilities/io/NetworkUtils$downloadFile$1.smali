@@ -97,7 +97,6 @@
     .line 2
     sget-object v0, Lcom/discord/utilities/io/NetworkUtils;->INSTANCE:Lcom/discord/utilities/io/NetworkUtils;
 
-    # getter for: Lcom/discord/utilities/io/NetworkUtils;->onDownloadListeners:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/utilities/io/NetworkUtils;->access$getOnDownloadListeners$p(Lcom/discord/utilities/io/NetworkUtils;)Ljava/util/Map;
 
     move-result-object v0

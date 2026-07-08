@@ -109,7 +109,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreMessages$enqueueRequest$1;->$channelId:J
 
-    # invokes: Lcom/discord/stores/StoreMessages;->getOrCreateMessageQueue(J)Lcom/discord/utilities/messagesend/MessageQueue;
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreMessages;->access$getOrCreateMessageQueue(Lcom/discord/stores/StoreMessages;J)Lcom/discord/utilities/messagesend/MessageQueue;
 
     move-result-object v0

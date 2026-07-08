@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/WidgetChatInput;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->onViewBindingDestroy(Lcom/discord/databinding/WidgetChatInputBinding;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$onViewBindingDestroy(Lcom/discord/widgets/chat/input/WidgetChatInput;Lcom/discord/databinding/WidgetChatInputBinding;)V
 
     return-void

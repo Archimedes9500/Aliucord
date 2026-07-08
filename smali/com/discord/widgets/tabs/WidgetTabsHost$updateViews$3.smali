@@ -93,7 +93,6 @@
     check-cast v0, Lcom/discord/widgets/tabs/WidgetTabsHost;
 
     .line 2
-    # invokes: Lcom/discord/widgets/tabs/WidgetTabsHost;->onSettingsLongPress()V
     invoke-static {v0}, Lcom/discord/widgets/tabs/WidgetTabsHost;->access$onSettingsLongPress(Lcom/discord/widgets/tabs/WidgetTabsHost;)V
 
     return-void

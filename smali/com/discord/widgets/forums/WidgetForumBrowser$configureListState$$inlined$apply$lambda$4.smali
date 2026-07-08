@@ -111,7 +111,6 @@
 
     move-result-wide v3
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowser;->enqueueForumPostFirstMessageFetches(JJ)V
     invoke-static {v0, v1, v2, v3, v4}, Lcom/discord/widgets/forums/WidgetForumBrowser;->access$enqueueForumPostFirstMessageFetches(Lcom/discord/widgets/forums/WidgetForumBrowser;JJ)V
 
     if-nez p1, :cond_2b
@@ -119,7 +118,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/forums/WidgetForumBrowser$configureListState$$inlined$apply$lambda$4;->this$0:Lcom/discord/widgets/forums/WidgetForumBrowser;
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowser;->getViewModel()Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;
     invoke-static {p1}, Lcom/discord/widgets/forums/WidgetForumBrowser;->access$getViewModel$p(Lcom/discord/widgets/forums/WidgetForumBrowser;)Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;
 
     move-result-object v0

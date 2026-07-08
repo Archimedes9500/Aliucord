@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity$configurePhoneInput$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->handleNext()V
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->access$handleNext(Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;)V
 
     return-void

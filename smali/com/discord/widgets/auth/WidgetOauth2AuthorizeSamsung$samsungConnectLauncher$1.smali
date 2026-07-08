@@ -101,7 +101,6 @@
 
     check-cast p1, Lcom/discord/samsung/SamsungConnectActivity$Result$Success;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->handleConnectActivitySuccess(Lcom/discord/samsung/SamsungConnectActivity$Result$Success;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->access$handleConnectActivitySuccess(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;Lcom/discord/samsung/SamsungConnectActivity$Result$Success;)V
 
     sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;
@@ -119,7 +118,6 @@
 
     check-cast p1, Lcom/discord/samsung/SamsungConnectActivity$Result$Failure;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->handleConnectActivityFailure(Lcom/discord/samsung/SamsungConnectActivity$Result$Failure;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->access$handleConnectActivityFailure(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;Lcom/discord/samsung/SamsungConnectActivity$Result$Failure;)V
 
     sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;

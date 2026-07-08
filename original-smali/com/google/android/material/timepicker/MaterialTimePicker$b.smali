@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/timepicker/MaterialTimePicker$b;->j:Lcom/google/android/material/timepicker/MaterialTimePicker;
 
-    # getter for: Lcom/google/android/material/timepicker/MaterialTimePicker;->positiveButtonListeners:Ljava/util/Set;
     invoke-static {v0}, Lcom/google/android/material/timepicker/MaterialTimePicker;->access$800(Lcom/google/android/material/timepicker/MaterialTimePicker;)Ljava/util/Set;
 
     move-result-object v0

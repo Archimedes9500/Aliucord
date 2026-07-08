@@ -87,7 +87,6 @@
     .line 2
     iget-object v1, v0, Lcom/discord/stores/StoreAuditLog$handleFetchFailure$1;->this$0:Lcom/discord/stores/StoreAuditLog;
 
-    # getter for: Lcom/discord/stores/StoreAuditLog;->state:Lcom/discord/stores/StoreAuditLog$AuditLogState;
     invoke-static {v1}, Lcom/discord/stores/StoreAuditLog;->access$getState$p(Lcom/discord/stores/StoreAuditLog;)Lcom/discord/stores/StoreAuditLog$AuditLogState;
 
     move-result-object v2

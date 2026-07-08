@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleGuildIntegrationUpdate(Lcom/discord/models/domain/ModelGuildIntegration$Update;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleGuildIntegrationUpdate(Lcom/discord/stores/StoreStream;Lcom/discord/models/domain/ModelGuildIntegration$Update;)V
 
     return-void

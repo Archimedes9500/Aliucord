@@ -98,7 +98,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/chat/overlay/WidgetChatOverlay$onViewBoundOrOnResume$3;->this$0:Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;
 
-    # invokes: Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;->getBinding()Lcom/discord/databinding/WidgetChatOverlayBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;->access$getBinding$p(Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;)Lcom/discord/databinding/WidgetChatOverlayBinding;
 
     move-result-object p1
@@ -113,7 +112,6 @@
     :cond_12
     iget-object p1, p0, Lcom/discord/widgets/chat/overlay/WidgetChatOverlay$onViewBoundOrOnResume$3;->this$0:Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;
 
-    # invokes: Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;->getBinding()Lcom/discord/databinding/WidgetChatOverlayBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;->access$getBinding$p(Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;)Lcom/discord/databinding/WidgetChatOverlayBinding;
 
     move-result-object p1

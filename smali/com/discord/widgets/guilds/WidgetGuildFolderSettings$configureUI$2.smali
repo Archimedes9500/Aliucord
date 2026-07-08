@@ -74,7 +74,6 @@
 
     check-cast v0, Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$ViewState$Loaded;
 
-    # invokes: Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->launchColorPicker(Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$ViewState$Loaded;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->access$launchColorPicker(Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$ViewState$Loaded;)V
 
     return-void

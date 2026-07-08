@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker$initializeSearchBar$1;->this$0:Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
-    # getter for: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->stickerPickerMode:Lcom/discord/widgets/chat/input/sticker/StickerPickerMode;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$getStickerPickerMode$p(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)Lcom/discord/widgets/chat/input/sticker/StickerPickerMode;
 
     move-result-object v0
@@ -97,7 +96,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker$initializeSearchBar$1;->this$0:Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->launchBottomSheet()V
     invoke-static {v0}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$launchBottomSheet(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)V
 
     goto :goto_1d
@@ -106,7 +104,6 @@
     :cond_10
     iget-object v0, p0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker$initializeSearchBar$1;->this$0:Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->getBinding()Lcom/discord/databinding/WidgetStickerPickerBinding;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$getBinding$p(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)Lcom/discord/databinding/WidgetStickerPickerBinding;
 
     move-result-object v0

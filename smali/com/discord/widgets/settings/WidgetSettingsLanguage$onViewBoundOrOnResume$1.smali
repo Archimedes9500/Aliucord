@@ -98,7 +98,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsLanguage;->configureUI(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/WidgetSettingsLanguage;->access$configureUI(Lcom/discord/widgets/settings/WidgetSettingsLanguage;Ljava/lang/String;)V
 
     return-void

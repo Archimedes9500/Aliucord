@@ -174,7 +174,6 @@
 
     if-eqz v7, :cond_61
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/m/e;->a:Ld0/e0/p/d/m0/g/b;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/i0/m/e;->access$getJAVA_LANG_CLASS_FQ_NAME$p$s1946801611()Ld0/e0/p/d/m0/g/b;
 
     move-result-object v7

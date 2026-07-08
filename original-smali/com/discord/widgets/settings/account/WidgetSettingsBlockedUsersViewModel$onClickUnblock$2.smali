@@ -96,7 +96,6 @@
 
     const v0, 0x7f1208ee
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel;->emitShowToastEvent(I)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel;->access$emitShowToastEvent(Lcom/discord/widgets/settings/account/WidgetSettingsBlockedUsersViewModel;I)V
 
     return-void

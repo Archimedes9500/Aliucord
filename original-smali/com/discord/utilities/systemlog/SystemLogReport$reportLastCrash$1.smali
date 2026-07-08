@@ -114,7 +114,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lcom/discord/utilities/systemlog/SystemLogReport;->sendReport(Lcom/discord/utilities/systemlog/SystemLogUtils$Tombstone;)V
     invoke-static {v0, v1}, Lcom/discord/utilities/systemlog/SystemLogReport;->access$sendReport(Lcom/discord/utilities/systemlog/SystemLogReport;Lcom/discord/utilities/systemlog/SystemLogUtils$Tombstone;)V
 
     .line 5

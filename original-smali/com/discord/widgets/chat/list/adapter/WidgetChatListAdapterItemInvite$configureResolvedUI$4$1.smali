@@ -112,7 +112,6 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/discord/widgets/hubs/HubEmailArgs;-><init>(Ljava/lang/String;ILcom/discord/widgets/hubs/HubEmailEntryPoint;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite;->launchHubsEmail(Lcom/discord/widgets/hubs/HubEmailArgs;)V
     invoke-static {p1, v6}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite;->access$launchHubsEmail(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite;Lcom/discord/widgets/hubs/HubEmailArgs;)V
 
     return-void

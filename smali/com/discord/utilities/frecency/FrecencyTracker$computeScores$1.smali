@@ -122,7 +122,6 @@
     :cond_1d
     iget-object v0, p0, Lcom/discord/utilities/frecency/FrecencyTracker$computeScores$1;->this$0:Lcom/discord/utilities/frecency/FrecencyTracker;
 
-    # getter for: Lcom/discord/utilities/frecency/FrecencyTracker;->history:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/utilities/frecency/FrecencyTracker;->access$getHistory$p(Lcom/discord/utilities/frecency/FrecencyTracker;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -151,7 +150,6 @@
     :goto_34
     iget-object v1, p0, Lcom/discord/utilities/frecency/FrecencyTracker$computeScores$1;->this$0:Lcom/discord/utilities/frecency/FrecencyTracker;
 
-    # getter for: Lcom/discord/utilities/frecency/FrecencyTracker;->history:Ljava/util/HashMap;
     invoke-static {v1}, Lcom/discord/utilities/frecency/FrecencyTracker;->access$getHistory$p(Lcom/discord/utilities/frecency/FrecencyTracker;)Ljava/util/HashMap;
 
     move-result-object v1

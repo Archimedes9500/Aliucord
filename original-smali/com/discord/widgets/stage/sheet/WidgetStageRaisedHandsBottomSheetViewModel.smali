@@ -406,7 +406,6 @@
 
     move-object/from16 p10, v10
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreVoiceParticipants;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreStageChannels;Lcom/discord/utilities/time/Clock;)Lrx/Observable;
     invoke-static/range {p3 .. p10}, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheetViewModel$Companion;JLcom/discord/stores/StoreVoiceParticipants;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreStageChannels;Lcom/discord/utilities/time/Clock;)Lrx/Observable;
 
     move-result-object v0

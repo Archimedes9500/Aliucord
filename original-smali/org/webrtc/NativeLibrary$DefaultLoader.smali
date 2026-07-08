@@ -33,7 +33,6 @@
     .locals 4
 
     .line 1
-    # getter for: Lorg/webrtc/NativeLibrary;->TAG:Ljava/lang/String;
     invoke-static {}, Lorg/webrtc/NativeLibrary;->access$000()Ljava/lang/String;
 
     move-result-object v0
@@ -68,7 +67,6 @@
     move-exception v0
 
     .line 3
-    # getter for: Lorg/webrtc/NativeLibrary;->TAG:Ljava/lang/String;
     invoke-static {}, Lorg/webrtc/NativeLibrary;->access$000()Ljava/lang/String;
 
     move-result-object v1

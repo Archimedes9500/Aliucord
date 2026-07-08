@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/voice/ScreenShareManager$subscribeToStores$2;->this$0:Lcom/discord/utilities/voice/ScreenShareManager;
 
-    # getter for: Lcom/discord/utilities/voice/ScreenShareManager;->compositeSubscription:Lrx/subscriptions/CompositeSubscription;
     invoke-static {v0}, Lcom/discord/utilities/voice/ScreenShareManager;->access$getCompositeSubscription$p(Lcom/discord/utilities/voice/ScreenShareManager;)Lrx/subscriptions/CompositeSubscription;
 
     move-result-object v0

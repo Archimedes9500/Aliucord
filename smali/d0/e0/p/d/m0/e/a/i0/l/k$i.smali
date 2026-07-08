@@ -83,7 +83,6 @@
 
     iget-object v1, p0, Ld0/e0/p/d/m0/e/a/i0/l/k$i;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/k;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/k;->g:Ld0/e0/p/d/m0/m/h;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/l/k;->access$getDeclaredFunctions$p(Ld0/e0/p/d/m0/e/a/i0/l/k;)Ld0/e0/p/d/m0/m/h;
 
     move-result-object v1

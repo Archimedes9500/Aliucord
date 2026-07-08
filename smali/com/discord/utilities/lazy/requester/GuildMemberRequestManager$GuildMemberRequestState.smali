@@ -269,7 +269,6 @@
     .line 8
     iget-object v1, p0, Lcom/discord/utilities/lazy/requester/GuildMemberRequestManager$GuildMemberRequestState;->this$0:Lcom/discord/utilities/lazy/requester/GuildMemberRequestManager;
 
-    # getter for: Lcom/discord/utilities/lazy/requester/GuildMemberRequestManager;->onFlush:Lkotlin/jvm/functions/Function2;
     invoke-static {v1}, Lcom/discord/utilities/lazy/requester/GuildMemberRequestManager;->access$getOnFlush$p(Lcom/discord/utilities/lazy/requester/GuildMemberRequestManager;)Lkotlin/jvm/functions/Function2;
 
     move-result-object v1

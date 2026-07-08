@@ -97,7 +97,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreMessageReactions$forceRetryFetchReactions$1;->this$0:Lcom/discord/stores/StoreMessageReactions;
 
-    # getter for: Lcom/discord/stores/StoreMessageReactions;->reactions:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreMessageReactions;->access$getReactions$p(Lcom/discord/stores/StoreMessageReactions;)Ljava/util/Map;
 
     move-result-object v0
@@ -138,7 +137,6 @@
 
     iget-object v6, p0, Lcom/discord/stores/StoreMessageReactions$forceRetryFetchReactions$1;->$emoji:Lcom/discord/api/message/reaction/MessageReactionEmoji;
 
-    # invokes: Lcom/discord/stores/StoreMessageReactions;->fetchReactions(JJLcom/discord/api/message/reaction/MessageReactionEmoji;)V
     invoke-static/range {v1 .. v6}, Lcom/discord/stores/StoreMessageReactions;->access$fetchReactions(Lcom/discord/stores/StoreMessageReactions;JJLcom/discord/api/message/reaction/MessageReactionEmoji;)V
 
     .line 4

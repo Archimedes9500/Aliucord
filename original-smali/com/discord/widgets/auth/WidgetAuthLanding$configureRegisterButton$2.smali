@@ -78,7 +78,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLanding;->onRegisterPressed(Landroid/content/Context;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetAuthLanding;->access$onRegisterPressed(Lcom/discord/widgets/auth/WidgetAuthLanding;Landroid/content/Context;)V
 
     return-void

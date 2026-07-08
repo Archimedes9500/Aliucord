@@ -45,7 +45,6 @@
 
     if-eqz v1, :cond_58
 
-    # getter for: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->context:Landroid/content/Context;
     invoke-static {v0}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$400(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)Landroid/content/Context;
 
     move-result-object v0
@@ -59,14 +58,12 @@
     iget-object v0, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar$l;->j:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
 
     .line 3
-    # invokes: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->getScreenHeight()I
     invoke-static {v0}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$500(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)I
 
     move-result v0
 
     iget-object v1, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar$l;->j:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
 
-    # invokes: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->getViewAbsoluteBottom()I
     invoke-static {v1}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$600(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)I
 
     move-result v1
@@ -88,7 +85,6 @@
     .line 4
     iget-object v1, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar$l;->j:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
 
-    # getter for: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->extraBottomMarginGestureInset:I
     invoke-static {v1}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$700(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)I
 
     move-result v1
@@ -113,7 +109,6 @@
     if-nez v2, :cond_43
 
     .line 7
-    # getter for: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->TAG:Ljava/lang/String;
     invoke-static {}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$800()Ljava/lang/String;
 
     move-result-object v0
@@ -134,7 +129,6 @@
 
     iget-object v3, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar$l;->j:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
 
-    # getter for: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->extraBottomMarginGestureInset:I
     invoke-static {v3}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$700(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)I
 
     move-result v3

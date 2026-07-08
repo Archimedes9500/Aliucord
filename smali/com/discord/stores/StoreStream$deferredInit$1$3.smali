@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleFingerprint(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleFingerprint(Lcom/discord/stores/StoreStream;Ljava/lang/String;)V
 
     return-void

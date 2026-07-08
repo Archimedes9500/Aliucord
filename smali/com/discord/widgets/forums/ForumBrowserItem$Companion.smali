@@ -82,7 +82,6 @@
         }
     .end annotation
 
-    # getter for: Lcom/discord/widgets/forums/ForumBrowserItem;->postItemComparatorByMostRecent$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/forums/ForumBrowserItem;->access$getPostItemComparatorByMostRecent$cp()Lkotlin/Lazy;
 
     move-result-object v0

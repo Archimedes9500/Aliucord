@@ -72,7 +72,6 @@
 
     new-instance v2, Lcom/lytefast/flexinput/adapters/FileListAdapter;
 
-    # getter for: Lcom/lytefast/flexinput/fragment/FilesFragment;->selectionCoordinator:Lcom/lytefast/flexinput/utils/SelectionCoordinator;
     invoke-static {v1}, Lcom/lytefast/flexinput/fragment/FilesFragment;->access$getSelectionCoordinator$p(Lcom/lytefast/flexinput/fragment/FilesFragment;)Lcom/lytefast/flexinput/utils/SelectionCoordinator;
 
     move-result-object v3
@@ -98,7 +97,6 @@
 
     iget-object v1, v1, Lcom/lytefast/flexinput/fragment/FilesFragment$a;->k:Lcom/lytefast/flexinput/fragment/FilesFragment;
 
-    # getter for: Lcom/lytefast/flexinput/fragment/FilesFragment;->adapter:Lcom/lytefast/flexinput/adapters/FileListAdapter;
     invoke-static {v1}, Lcom/lytefast/flexinput/fragment/FilesFragment;->access$getAdapter$p(Lcom/lytefast/flexinput/fragment/FilesFragment;)Lcom/lytefast/flexinput/adapters/FileListAdapter;
 
     move-result-object v1
@@ -111,7 +109,6 @@
 
     iget-object v0, v0, Lcom/lytefast/flexinput/fragment/FilesFragment$a;->k:Lcom/lytefast/flexinput/fragment/FilesFragment;
 
-    # invokes: Lcom/lytefast/flexinput/fragment/FilesFragment;->loadDownloadFolder()V
     invoke-static {v0}, Lcom/lytefast/flexinput/fragment/FilesFragment;->access$loadDownloadFolder(Lcom/lytefast/flexinput/fragment/FilesFragment;)V
 
     .line 5

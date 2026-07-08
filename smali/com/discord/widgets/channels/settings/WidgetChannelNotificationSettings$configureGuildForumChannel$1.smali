@@ -138,7 +138,6 @@
     .line 8
     iget-object v1, p0, Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings$configureGuildForumChannel$1;->this$0:Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings;->getBinding()Lcom/discord/databinding/WidgetChannelNotificationSettingsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings;->access$getBinding$p(Lcom/discord/widgets/channels/settings/WidgetChannelNotificationSettings;)Lcom/discord/databinding/WidgetChannelNotificationSettingsBinding;
 
     move-result-object v1

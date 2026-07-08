@@ -104,7 +104,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationStreaming$observeStreamsForGuild$1;->this$0:Lcom/discord/stores/StoreApplicationStreaming;
 
-    # getter for: Lcom/discord/stores/StoreApplicationStreaming;->streamsByUserSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationStreaming;->access$getStreamsByUserSnapshot$p(Lcom/discord/stores/StoreApplicationStreaming;)Ljava/util/Map;
 
     move-result-object v0

@@ -95,7 +95,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAViewModel;->handleMFASuccess(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAViewModel;->access$handleMFASuccess(Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAViewModel;Ljava/lang/String;)V
 
     return-void

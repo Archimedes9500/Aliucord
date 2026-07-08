@@ -85,13 +85,11 @@
     goto :goto_13
 
     :cond_f
-    # getter for: Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->defaultBannerColor:I
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->access$getDefaultBannerColor$p(Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;)I
 
     move-result v0
 
     :goto_13
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->launchColorPicker(I)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->access$launchColorPicker(Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;I)V
 
     return-void

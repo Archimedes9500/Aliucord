@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreChannelsSelected$observeInitializedForAuthedUser$1;->this$0:Lcom/discord/stores/StoreChannelsSelected;
 
-    # getter for: Lcom/discord/stores/StoreChannelsSelected;->initializedForAuthedUser:Z
     invoke-static {v0}, Lcom/discord/stores/StoreChannelsSelected;->access$getInitializedForAuthedUser$p(Lcom/discord/stores/StoreChannelsSelected;)Z
 
     move-result v0

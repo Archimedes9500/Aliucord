@@ -115,7 +115,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -128,7 +127,6 @@
 
     move-result-object p2
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p2}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -216,7 +214,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -229,7 +226,6 @@
 
     move-result-object p2
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p2}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -262,7 +258,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -282,7 +277,6 @@
 
     move-result-object p2
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p2}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -313,7 +307,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -326,7 +319,6 @@
 
     move-result-object p2
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p2}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -357,7 +349,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -371,7 +362,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -438,7 +428,6 @@
 
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -455,7 +444,6 @@
 
     invoke-static {p2, v0}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p2}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -490,7 +478,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -499,7 +486,6 @@
 
     move-result-object p2
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p2}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -530,7 +516,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
@@ -543,7 +528,6 @@
 
     move-result-object p2
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p2}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -631,12 +615,10 @@
 
     .line 35
     :goto_1e0
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->lower(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/AutocompletableKt;->access$lower(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

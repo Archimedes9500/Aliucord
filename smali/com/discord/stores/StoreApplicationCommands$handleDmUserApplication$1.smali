@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommands$handleDmUserApplication$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->frecencyCommands:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommands;->access$getFrecencyCommands$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/util/Map;
 
     move-result-object v0
@@ -125,7 +124,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommands$handleDmUserApplication$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->applicationCommandIndexes:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommands;->access$getApplicationCommandIndexes$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/util/Map;
 
     move-result-object v0
@@ -140,7 +138,6 @@
     new-array v1, v1, [Lcom/discord/models/commands/Application;
 
     .line 7
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->builtInCommandsProvider:Lcom/discord/stores/BuiltInCommandsProvider;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommands;->access$getBuiltInCommandsProvider$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/BuiltInCommandsProvider;
 
     move-result-object v2
@@ -203,7 +200,6 @@
     .line 13
     iget-object v2, p0, Lcom/discord/stores/StoreApplicationCommands$handleDmUserApplication$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->builtInCommandsProvider:Lcom/discord/stores/BuiltInCommandsProvider;
     invoke-static {v2}, Lcom/discord/stores/StoreApplicationCommands;->access$getBuiltInCommandsProvider$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/BuiltInCommandsProvider;
 
     move-result-object v2
@@ -222,7 +218,6 @@
     move-result-object v1
 
     .line 15
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->handleGuildApplicationsUpdate(Ljava/util/List;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreApplicationCommands;->access$handleGuildApplicationsUpdate(Lcom/discord/stores/StoreApplicationCommands;Ljava/util/List;)V
 
     .line 16

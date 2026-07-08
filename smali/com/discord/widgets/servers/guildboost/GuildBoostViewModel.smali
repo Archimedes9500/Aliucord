@@ -279,7 +279,6 @@
     .line 4
     sget-object p3, Lcom/discord/widgets/servers/guildboost/GuildBoostViewModel;->Companion:Lcom/discord/widgets/servers/guildboost/GuildBoostViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/servers/guildboost/GuildBoostViewModel$Companion;->observeStores(J)Lrx/Observable;
     invoke-static {p3, p1, p2}, Lcom/discord/widgets/servers/guildboost/GuildBoostViewModel$Companion;->access$observeStores(Lcom/discord/widgets/servers/guildboost/GuildBoostViewModel$Companion;J)Lrx/Observable;
 
     move-result-object p6

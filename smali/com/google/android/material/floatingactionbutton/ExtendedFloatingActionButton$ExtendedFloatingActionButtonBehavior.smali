@@ -358,7 +358,6 @@
     if-eqz v0, :cond_10
 
     .line 2
-    # getter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->extendStrategy:Lb/i/a/g/e/j;
     invoke-static {p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$500(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;)Lb/i/a/g/e/j;
 
     move-result-object v0
@@ -367,14 +366,12 @@
 
     .line 3
     :cond_10
-    # getter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->showStrategy:Lb/i/a/g/e/j;
     invoke-static {p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$600(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;)Lb/i/a/g/e/j;
 
     move-result-object v0
 
     .line 4
     :goto_14
-    # invokes: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->performMotion(Lb/i/a/g/e/j;Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$OnChangedCallback;)V
     invoke-static {p1, v0, v1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$400(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;Lb/i/a/g/e/j;Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$OnChangedCallback;)V
 
     return-void
@@ -694,7 +691,6 @@
     if-eqz v0, :cond_10
 
     .line 2
-    # getter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->shrinkStrategy:Lb/i/a/g/e/j;
     invoke-static {p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$200(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;)Lb/i/a/g/e/j;
 
     move-result-object v0
@@ -703,14 +699,12 @@
 
     .line 3
     :cond_10
-    # getter for: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->hideStrategy:Lb/i/a/g/e/j;
     invoke-static {p1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$300(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;)Lb/i/a/g/e/j;
 
     move-result-object v0
 
     .line 4
     :goto_14
-    # invokes: Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->performMotion(Lb/i/a/g/e/j;Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$OnChangedCallback;)V
     invoke-static {p1, v0, v1}, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;->access$400(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;Lb/i/a/g/e/j;Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$OnChangedCallback;)V
 
     return-void

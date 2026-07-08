@@ -67,7 +67,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/widgets/tabs/WidgetTabsHost$updateViews$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/tabs/WidgetTabsHost;
 
-    # invokes: Lcom/discord/widgets/tabs/WidgetTabsHost;->getBinding()Lcom/discord/databinding/WidgetTabsHostBinding;
     invoke-static {v0}, Lcom/discord/widgets/tabs/WidgetTabsHost;->access$getBinding$p(Lcom/discord/widgets/tabs/WidgetTabsHost;)Lcom/discord/databinding/WidgetTabsHostBinding;
 
     move-result-object v0

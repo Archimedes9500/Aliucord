@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetFeatureFlag;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetFeatureFlag;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetFeatureFlag;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

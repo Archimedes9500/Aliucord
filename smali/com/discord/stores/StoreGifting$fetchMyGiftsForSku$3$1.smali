@@ -93,7 +93,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGifting$fetchMyGiftsForSku$3;->$comboId:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreGifting;->removeGiftCode(Ljava/lang/String;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreGifting;->access$removeGiftCode(Lcom/discord/stores/StoreGifting;Ljava/lang/String;)V
 
     .line 3
@@ -105,7 +104,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGifting$fetchMyGiftsForSku$3;->$planId:Ljava/lang/Long;
 
-    # invokes: Lcom/discord/stores/StoreGifting;->clearGiftsForSku(JLjava/lang/Long;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreGifting;->access$clearGiftsForSku(Lcom/discord/stores/StoreGifting;JLjava/lang/Long;)V
 
     .line 4
@@ -142,7 +140,6 @@
 
     invoke-direct {v4, v1}, Lcom/discord/stores/StoreGifting$GiftState$Resolved;-><init>(Lcom/discord/models/domain/ModelGift;)V
 
-    # invokes: Lcom/discord/stores/StoreGifting;->setGifts(Ljava/lang/String;Lcom/discord/stores/StoreGifting$GiftState;)V
     invoke-static {v2, v3, v4}, Lcom/discord/stores/StoreGifting;->access$setGifts(Lcom/discord/stores/StoreGifting;Ljava/lang/String;Lcom/discord/stores/StoreGifting$GiftState;)V
 
     goto :goto_1a

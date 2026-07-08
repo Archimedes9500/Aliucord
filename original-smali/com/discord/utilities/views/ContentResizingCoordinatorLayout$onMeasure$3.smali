@@ -111,7 +111,6 @@
     iget-object v0, p0, Lcom/discord/utilities/views/ContentResizingCoordinatorLayout$onMeasure$3;->this$0:Lcom/discord/utilities/views/ContentResizingCoordinatorLayout;
 
     .line 3
-    # getter for: Lcom/discord/utilities/views/ContentResizingCoordinatorLayout;->currentVerticalOffset:I
     invoke-static {v0}, Lcom/discord/utilities/views/ContentResizingCoordinatorLayout;->access$getCurrentVerticalOffset$p(Lcom/discord/utilities/views/ContentResizingCoordinatorLayout;)I
 
     move-result v1
@@ -141,7 +140,6 @@
     iget v5, p0, Lcom/discord/utilities/views/ContentResizingCoordinatorLayout$onMeasure$3;->$heightMeasureSpec:I
 
     .line 8
-    # invokes: Lcom/discord/utilities/views/ContentResizingCoordinatorLayout;->updateContentLayoutParams(IIIII)V
     invoke-static/range {v0 .. v5}, Lcom/discord/utilities/views/ContentResizingCoordinatorLayout;->access$updateContentLayoutParams(Lcom/discord/utilities/views/ContentResizingCoordinatorLayout;IIIII)V
 
     return-void

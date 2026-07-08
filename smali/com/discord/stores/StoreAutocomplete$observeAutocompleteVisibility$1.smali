@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreAutocomplete$observeAutocompleteVisibility$1;->this$0:Lcom/discord/stores/StoreAutocomplete;
 
-    # getter for: Lcom/discord/stores/StoreAutocomplete;->autocompleteVisible:Z
     invoke-static {v0}, Lcom/discord/stores/StoreAutocomplete;->access$getAutocompleteVisible$p(Lcom/discord/stores/StoreAutocomplete;)Z
 
     move-result v0

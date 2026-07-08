@@ -96,7 +96,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreChannelFollowerStats$fetchIfNonexistingOrStale$1;->this$0:Lcom/discord/stores/StoreChannelFollowerStats;
 
-    # getter for: Lcom/discord/stores/StoreChannelFollowerStats;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreChannelFollowerStats;->access$getDispatcher$p(Lcom/discord/stores/StoreChannelFollowerStats;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

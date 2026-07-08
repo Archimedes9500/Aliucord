@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/directories/WidgetDirectoryChannel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/directories/WidgetDirectoryChannel;->onViewBindingDestroy(Lcom/discord/databinding/WidgetDirectoryChannelBinding;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/directories/WidgetDirectoryChannel;->access$onViewBindingDestroy(Lcom/discord/widgets/directories/WidgetDirectoryChannel;Lcom/discord/databinding/WidgetDirectoryChannelBinding;)V
 
     return-void

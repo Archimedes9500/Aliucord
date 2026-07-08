@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$onBulkAddFriends$3;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->handleFriendsAddedError(Lcom/discord/utilities/error/Error;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->access$handleFriendsAddedError(Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;Lcom/discord/utilities/error/Error;)V
 
     return-void

@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog$onViewBound$4;->$mode:Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog$Mode;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->onDisableClicked(Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog$Mode;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->access$onDisableClicked(Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog$Mode;)V
 
     return-void

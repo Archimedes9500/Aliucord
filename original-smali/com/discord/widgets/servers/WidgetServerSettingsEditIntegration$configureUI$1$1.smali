@@ -92,7 +92,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration$configureUI$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->getBinding()Lcom/discord/databinding/WidgetServerSettingsEditIntegrationBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;)Lcom/discord/databinding/WidgetServerSettingsEditIntegrationBinding;
 
     move-result-object p1

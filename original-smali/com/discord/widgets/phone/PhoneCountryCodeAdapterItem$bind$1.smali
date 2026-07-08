@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/phone/PhoneCountryCodeAdapterItem$bind$1;->this$0:Lcom/discord/widgets/phone/PhoneCountryCodeAdapterItem;
 
-    # getter for: Lcom/discord/widgets/phone/PhoneCountryCodeAdapterItem;->adapter:Lcom/discord/widgets/phone/PhoneCountryCodeAdapter;
     invoke-static {p1}, Lcom/discord/widgets/phone/PhoneCountryCodeAdapterItem;->access$getAdapter$p(Lcom/discord/widgets/phone/PhoneCountryCodeAdapterItem;)Lcom/discord/widgets/phone/PhoneCountryCodeAdapter;
 
     move-result-object p1

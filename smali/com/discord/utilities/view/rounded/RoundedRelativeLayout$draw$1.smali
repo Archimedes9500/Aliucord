@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/view/rounded/RoundedRelativeLayout$draw$1;->this$0:Lcom/discord/utilities/view/rounded/RoundedRelativeLayout;
 
-    # invokes: Landroid/widget/RelativeLayout;->draw(Landroid/graphics/Canvas;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/view/rounded/RoundedRelativeLayout;->access$draw$s1843631363(Lcom/discord/utilities/view/rounded/RoundedRelativeLayout;Landroid/graphics/Canvas;)V
 
     return-void

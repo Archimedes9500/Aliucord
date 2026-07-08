@@ -99,7 +99,6 @@
 
     iget-object v5, p0, Lcom/discord/widgets/forums/ForumUtils$getMessageReactionComparator$1;->$storeEmoji:Lcom/discord/stores/StoreEmoji;
 
-    # invokes: Lcom/discord/widgets/forums/ForumUtils;->getPlaceholderReactionName(Lcom/discord/stores/StoreEmoji;)Ljava/lang/String;
     invoke-static {v4, v5}, Lcom/discord/widgets/forums/ForumUtils;->access$getPlaceholderReactionName(Lcom/discord/widgets/forums/ForumUtils;Lcom/discord/stores/StoreEmoji;)Ljava/lang/String;
 
     move-result-object v4

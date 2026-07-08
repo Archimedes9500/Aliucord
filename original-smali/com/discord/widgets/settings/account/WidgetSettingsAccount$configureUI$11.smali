@@ -79,7 +79,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccount$configureUI$11;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccount;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->showOwnsGuildModal()V
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->access$showOwnsGuildModal(Lcom/discord/widgets/settings/account/WidgetSettingsAccount;)V
 
     goto :goto_20

@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit$onViewBound$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;->getBinding()Lcom/discord/databinding/WidgetSettingsAccountContactsNameEditBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;)Lcom/discord/databinding/WidgetSettingsAccountContactsNameEditBinding;
 
     move-result-object v0
@@ -121,7 +120,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;->submitName(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;->access$submitName(Lcom/discord/widgets/settings/account/WidgetSettingsAccountContactsNameEdit;Ljava/lang/String;)V
 
     return-void

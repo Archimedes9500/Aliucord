@@ -108,7 +108,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildJoinRequest$fetchPendingGuilds$1;->this$0:Lcom/discord/stores/StoreGuildJoinRequest;
 
-    # getter for: Lcom/discord/stores/StoreGuildJoinRequest;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildJoinRequest;->access$getDispatcher$p(Lcom/discord/stores/StoreGuildJoinRequest;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

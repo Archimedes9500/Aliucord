@@ -74,7 +74,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess$configureUI$2;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->getBinding()Lcom/discord/databinding/WidgetGuildScheduledEventCreateSuccessBinding;
     invoke-static {p1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->access$getBinding$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;)Lcom/discord/databinding/WidgetGuildScheduledEventCreateSuccessBinding;
 
     move-result-object p1
@@ -95,7 +94,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess$configureUI$2;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->getViewModel()Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccessViewModel;
     invoke-static {v0}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->access$getViewModel$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;)Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccessViewModel;
 
     move-result-object v0
@@ -103,7 +101,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess$configureUI$2;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->getBinding()Lcom/discord/databinding/WidgetGuildScheduledEventCreateSuccessBinding;
     invoke-static {v1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->access$getBinding$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;)Lcom/discord/databinding/WidgetGuildScheduledEventCreateSuccessBinding;
 
     move-result-object v1
@@ -183,7 +180,6 @@
     .line 9
     iget-object p1, p0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess$configureUI$2;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->getViewModel()Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccessViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;->access$getViewModel$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccess;)Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventCreateSuccessViewModel;
 
     move-result-object p1

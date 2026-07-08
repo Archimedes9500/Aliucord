@@ -95,7 +95,6 @@
 
     sget-object v1, Lcom/discord/widgets/tabs/NavigationTab;->HOME:Lcom/discord/widgets/tabs/NavigationTab;
 
-    # invokes: Lcom/discord/stores/StoreTabsNavigation;->handleTabSelection(Lcom/discord/widgets/tabs/NavigationTab;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreTabsNavigation;->access$handleTabSelection(Lcom/discord/stores/StoreTabsNavigation;Lcom/discord/widgets/tabs/NavigationTab;)V
 
     .line 3
@@ -103,7 +102,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreTabsNavigation$selectHomeTab$1;->$panelAction:Lcom/discord/stores/StoreNavigation$PanelAction;
 
-    # invokes: Lcom/discord/stores/StoreTabsNavigation;->notifyHomeTabSelected(Lcom/discord/stores/StoreNavigation$PanelAction;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreTabsNavigation;->access$notifyHomeTabSelected(Lcom/discord/stores/StoreTabsNavigation;Lcom/discord/stores/StoreNavigation$PanelAction;)V
 
     .line 4
@@ -114,7 +112,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/stores/StoreTabsNavigation$selectHomeTab$1;->this$0:Lcom/discord/stores/StoreTabsNavigation;
 
-    # invokes: Lcom/discord/stores/StoreTabsNavigation;->dismissTabsDialogs()V
     invoke-static {v0}, Lcom/discord/stores/StoreTabsNavigation;->access$dismissTabsDialogs(Lcom/discord/stores/StoreTabsNavigation;)V
 
     :cond_17

@@ -193,7 +193,6 @@
 
     iget-object v2, p0, Lcom/discord/stores/StoreAnalytics$onNotificationSettingsUpdated$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v2}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v2

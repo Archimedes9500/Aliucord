@@ -265,7 +265,6 @@
     move-object/from16 v12, p7
 
     .line 10
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/sources/UserAutocompletableSource;->createAutocompletablesForUsers(JLcom/discord/api/channel/Channel;Lcom/discord/api/channel/Channel;JLjava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/lang/Long;)Ljava/util/Map;
     invoke-static/range {v1 .. v12}, Lcom/discord/widgets/chat/input/autocomplete/sources/UserAutocompletableSource;->access$createAutocompletablesForUsers(Lcom/discord/widgets/chat/input/autocomplete/sources/UserAutocompletableSource;JLcom/discord/api/channel/Channel;Lcom/discord/api/channel/Channel;JLjava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/lang/Long;)Ljava/util/Map;
 
     move-result-object v1

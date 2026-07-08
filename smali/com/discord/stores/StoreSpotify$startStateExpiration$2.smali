@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreSpotify$startStateExpiration$2;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # getter for: Lcom/discord/stores/StoreSpotify;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreSpotify;->access$getDispatcher$p(Lcom/discord/stores/StoreSpotify;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

@@ -72,7 +72,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/l/i$c;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/i;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/i;->p:Ld0/e0/p/d/m0/e/a/k0/u;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/l/i;->access$getJPackage$p(Ld0/e0/p/d/m0/e/a/i0/l/i;)Ld0/e0/p/d/m0/e/a/k0/u;
 
     move-result-object v0

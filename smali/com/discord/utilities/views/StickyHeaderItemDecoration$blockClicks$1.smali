@@ -95,7 +95,6 @@
     :cond_19
     iget-object p1, p0, Lcom/discord/utilities/views/StickyHeaderItemDecoration$blockClicks$1;->this$0:Lcom/discord/utilities/views/StickyHeaderItemDecoration;
 
-    # invokes: Lcom/discord/utilities/views/StickyHeaderItemDecoration;->resetActionDownCoordinates()V
     invoke-static {p1}, Lcom/discord/utilities/views/StickyHeaderItemDecoration;->access$resetActionDownCoordinates(Lcom/discord/utilities/views/StickyHeaderItemDecoration;)V
 
     goto :goto_90
@@ -104,7 +103,6 @@
     :cond_1f
     iget-object v0, p0, Lcom/discord/utilities/views/StickyHeaderItemDecoration$blockClicks$1;->this$0:Lcom/discord/utilities/views/StickyHeaderItemDecoration;
 
-    # getter for: Lcom/discord/utilities/views/StickyHeaderItemDecoration;->actionDownRawX:Ljava/lang/Float;
     invoke-static {v0}, Lcom/discord/utilities/views/StickyHeaderItemDecoration;->access$getActionDownRawX$p(Lcom/discord/utilities/views/StickyHeaderItemDecoration;)Ljava/lang/Float;
 
     move-result-object v0
@@ -112,7 +110,6 @@
     .line 4
     iget-object v3, p0, Lcom/discord/utilities/views/StickyHeaderItemDecoration$blockClicks$1;->this$0:Lcom/discord/utilities/views/StickyHeaderItemDecoration;
 
-    # getter for: Lcom/discord/utilities/views/StickyHeaderItemDecoration;->actionDownRawY:Ljava/lang/Float;
     invoke-static {v3}, Lcom/discord/utilities/views/StickyHeaderItemDecoration;->access$getActionDownRawY$p(Lcom/discord/utilities/views/StickyHeaderItemDecoration;)Ljava/lang/Float;
 
     move-result-object v3
@@ -183,7 +180,6 @@
     :goto_60
     iget-object v0, p0, Lcom/discord/utilities/views/StickyHeaderItemDecoration$blockClicks$1;->this$0:Lcom/discord/utilities/views/StickyHeaderItemDecoration;
 
-    # invokes: Lcom/discord/utilities/views/StickyHeaderItemDecoration;->resetActionDownCoordinates()V
     invoke-static {v0}, Lcom/discord/utilities/views/StickyHeaderItemDecoration;->access$resetActionDownCoordinates(Lcom/discord/utilities/views/StickyHeaderItemDecoration;)V
 
     if-eqz p1, :cond_90
@@ -195,7 +191,6 @@
 
     iget-object p2, p0, Lcom/discord/utilities/views/StickyHeaderItemDecoration$blockClicks$1;->this$0:Lcom/discord/utilities/views/StickyHeaderItemDecoration;
 
-    # getter for: Lcom/discord/utilities/views/StickyHeaderItemDecoration;->stickyHeaderBottom:F
     invoke-static {p2}, Lcom/discord/utilities/views/StickyHeaderItemDecoration;->access$getStickyHeaderBottom$p(Lcom/discord/utilities/views/StickyHeaderItemDecoration;)F
 
     move-result p2

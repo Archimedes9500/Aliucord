@@ -101,7 +101,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/utilities/spotify/SpotifyApiClient$refreshSpotifyToken$1;->this$0:Lcom/discord/utilities/spotify/SpotifyApiClient;
 
-    # getter for: Lcom/discord/utilities/spotify/SpotifyApiClient;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {p1}, Lcom/discord/utilities/spotify/SpotifyApiClient;->access$getClock$p(Lcom/discord/utilities/spotify/SpotifyApiClient;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v0
@@ -114,13 +113,11 @@
 
     add-long/2addr v0, v2
 
-    # invokes: Lcom/discord/utilities/spotify/SpotifyApiClient;->setTokenExpiresAt(J)V
     invoke-static {p1, v0, v1}, Lcom/discord/utilities/spotify/SpotifyApiClient;->access$setTokenExpiresAt(Lcom/discord/utilities/spotify/SpotifyApiClient;J)V
 
     .line 4
     iget-object p1, p0, Lcom/discord/utilities/spotify/SpotifyApiClient$refreshSpotifyToken$1;->this$0:Lcom/discord/utilities/spotify/SpotifyApiClient;
 
-    # invokes: Lcom/discord/utilities/spotify/SpotifyApiClient;->getTrackIdToFetch()Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/utilities/spotify/SpotifyApiClient;->access$getTrackIdToFetch(Lcom/discord/utilities/spotify/SpotifyApiClient;)Ljava/lang/String;
 
     move-result-object p1
@@ -137,7 +134,6 @@
 
     const/4 v0, 0x0
 
-    # invokes: Lcom/discord/utilities/spotify/SpotifyApiClient;->setTrackIdToFetch(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/utilities/spotify/SpotifyApiClient;->access$setTrackIdToFetch(Lcom/discord/utilities/spotify/SpotifyApiClient;Ljava/lang/String;)V
 
     :cond_31

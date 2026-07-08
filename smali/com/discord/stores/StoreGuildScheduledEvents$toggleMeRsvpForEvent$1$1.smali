@@ -98,7 +98,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreGuildScheduledEvents$toggleMeRsvpForEvent$1;->$storeEvent:Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;
 
-    # invokes: Lcom/discord/stores/StoreGuildScheduledEvents;->findEventFromStore(Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;)Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;
     invoke-static {v0, p1}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$findEventFromStore(Lcom/discord/stores/StoreGuildScheduledEvents;Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;)Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;
 
     move-result-object p1
@@ -107,7 +106,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreGuildScheduledEvents$toggleMeRsvpForEvent$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->userStore:Lcom/discord/stores/StoreUser;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getUserStore$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Lcom/discord/stores/StoreUser;
 
     move-result-object v1
@@ -120,7 +118,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/stores/StoreGuildScheduledEvents;->processRsvpCreate(Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;J)V
     invoke-static {v0, p1, v1, v2}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$processRsvpCreate(Lcom/discord/stores/StoreGuildScheduledEvents;Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;J)V
 
     .line 3
@@ -128,7 +125,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreGuildScheduledEvents$toggleMeRsvpForEvent$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->rsvpsAwaitingNetwork:Ljava/util/HashSet;
     invoke-static {p1}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getRsvpsAwaitingNetwork$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Ljava/util/HashSet;
 
     move-result-object p1

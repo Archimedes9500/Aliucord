@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/list/WidgetChannelListUnreads$binding$2;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;
 
-    # getter for: Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;->unreadsStub:Landroid/view/ViewStub;
     invoke-static {v0}, Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;->access$getUnreadsStub$p(Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;)Landroid/view/ViewStub;
 
     move-result-object v0

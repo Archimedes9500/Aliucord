@@ -112,7 +112,6 @@
     move-result-object v0
 
     .line 4
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;->access$updateViewState(Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel$ViewState;)V
 
     return-void

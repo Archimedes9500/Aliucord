@@ -84,7 +84,6 @@
 
     iget-object p1, p1, Lcom/discord/utilities/viewbinding/FragmentViewBindingDelegate$addOnDestroyObserver$1;->this$0:Lcom/discord/utilities/viewbinding/FragmentViewBindingDelegate;
 
-    # getter for: Lcom/discord/utilities/viewbinding/FragmentViewBindingDelegate;->binding:Landroidx/viewbinding/ViewBinding;
     invoke-static {p1}, Lcom/discord/utilities/viewbinding/FragmentViewBindingDelegate;->access$getBinding$p(Lcom/discord/utilities/viewbinding/FragmentViewBindingDelegate;)Landroidx/viewbinding/ViewBinding;
 
     move-result-object p1

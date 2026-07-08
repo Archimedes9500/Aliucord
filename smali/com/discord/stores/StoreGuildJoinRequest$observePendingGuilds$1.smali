@@ -100,7 +100,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildJoinRequest$observePendingGuilds$1;->this$0:Lcom/discord/stores/StoreGuildJoinRequest;
 
-    # getter for: Lcom/discord/stores/StoreGuildJoinRequest;->pendingGuildsSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildJoinRequest;->access$getPendingGuildsSnapshot$p(Lcom/discord/stores/StoreGuildJoinRequest;)Ljava/util/Map;
 
     move-result-object v0

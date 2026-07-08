@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/auth/WidgetAuthLanding;
 
     .line 2
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLanding;->configureUI(Lcom/discord/widgets/auth/WidgetAuthLandingViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetAuthLanding;->access$configureUI(Lcom/discord/widgets/auth/WidgetAuthLanding;Lcom/discord/widgets/auth/WidgetAuthLandingViewModel$ViewState;)V
 
     return-void

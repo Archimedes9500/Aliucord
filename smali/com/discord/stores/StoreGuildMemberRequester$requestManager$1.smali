@@ -116,7 +116,6 @@
     check-cast v0, Lcom/discord/stores/StoreGuildMemberRequester;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreGuildMemberRequester;->guildMemberExists(JJ)Z
     invoke-static {v0, p1, p2, p3, p4}, Lcom/discord/stores/StoreGuildMemberRequester;->access$guildMemberExists(Lcom/discord/stores/StoreGuildMemberRequester;JJ)Z
 
     move-result p1

@@ -96,7 +96,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreGuildScheduledEvents$fetchGuildScheduledEventUsers$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # invokes: Lcom/discord/stores/StoreGuildScheduledEvents;->handleFetchRsvpUsersFailure()V
     invoke-static {p1}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$handleFetchRsvpUsersFailure(Lcom/discord/stores/StoreGuildScheduledEvents;)V
 
     return-void

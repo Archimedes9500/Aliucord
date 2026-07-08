@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreMessages$markMessageFailed$1;->$localMessage:Lcom/discord/models/message/Message;
 
-    # invokes: Lcom/discord/stores/StoreMessages;->handleSendMessageFailure(Lcom/discord/models/message/Message;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreMessages;->access$handleSendMessageFailure(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;)V
 
     return-void

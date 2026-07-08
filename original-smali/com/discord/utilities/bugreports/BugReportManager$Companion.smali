@@ -73,7 +73,6 @@
     .locals 2
 
     .line 1
-    # getter for: Lcom/discord/utilities/bugreports/BugReportManager;->bugReportManager:Lcom/discord/utilities/bugreports/BugReportManager;
     invoke-static {}, Lcom/discord/utilities/bugreports/BugReportManager;->access$getBugReportManager$cp()Lcom/discord/utilities/bugreports/BugReportManager;
 
     move-result-object v0
@@ -109,7 +108,6 @@
     invoke-static {v0}, Lcom/discord/utilities/bugreports/BugReportManager;->access$setBugReportManager$cp(Lcom/discord/utilities/bugreports/BugReportManager;)V
 
     .line 2
-    # getter for: Lcom/discord/utilities/bugreports/BugReportManager;->bugReportManager:Lcom/discord/utilities/bugreports/BugReportManager;
     invoke-static {}, Lcom/discord/utilities/bugreports/BugReportManager;->access$getBugReportManager$cp()Lcom/discord/utilities/bugreports/BugReportManager;
 
     move-result-object v0

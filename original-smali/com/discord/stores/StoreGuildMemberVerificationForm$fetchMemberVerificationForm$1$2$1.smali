@@ -91,7 +91,6 @@
 
     iget-wide v2, v0, Lcom/discord/stores/StoreGuildMemberVerificationForm$fetchMemberVerificationForm$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreGuildMemberVerificationForm;->handleMemberVerificationFormFetchFailed(J)V
     invoke-static {v1, v2, v3}, Lcom/discord/stores/StoreGuildMemberVerificationForm;->access$handleMemberVerificationFormFetchFailed(Lcom/discord/stores/StoreGuildMemberVerificationForm;J)V
 
     return-void

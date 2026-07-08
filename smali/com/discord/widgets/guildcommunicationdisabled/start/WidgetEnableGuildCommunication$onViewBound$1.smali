@@ -69,7 +69,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication$onViewBound$1;->this$0:Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;
 
-    # invokes: Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;->getBinding()Lcom/discord/databinding/WidgetEnableGuildCommunicationBinding;
     invoke-static {p1}, Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;->access$getBinding$p(Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;)Lcom/discord/databinding/WidgetEnableGuildCommunicationBinding;
 
     move-result-object p1

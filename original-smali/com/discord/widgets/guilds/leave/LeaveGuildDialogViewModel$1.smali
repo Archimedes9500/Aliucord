@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel;->handleStoreState(Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel;->access$handleStoreState(Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel;Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel$StoreState;)V
 
     return-void

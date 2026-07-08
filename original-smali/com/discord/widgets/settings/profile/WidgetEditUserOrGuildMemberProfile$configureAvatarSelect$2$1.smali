@@ -105,7 +105,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$configureAvatarSelect$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->getViewModel()Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$getViewModel$p(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
     move-result-object p1
@@ -122,7 +121,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile$configureAvatarSelect$2;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;
 
-    # getter for: Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->avatarSelectedResult:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;->access$getAvatarSelectedResult$p(Lcom/discord/widgets/settings/profile/WidgetEditUserOrGuildMemberProfile;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

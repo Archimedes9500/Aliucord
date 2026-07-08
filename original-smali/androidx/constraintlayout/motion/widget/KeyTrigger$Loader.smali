@@ -181,7 +181,6 @@
 
     .line 4
     :pswitch_16
-    # getter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mTriggerReceiver:I
     invoke-static {p0}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$700(Landroidx/constraintlayout/motion/widget/KeyTrigger;)I
 
     move-result v2
@@ -190,14 +189,12 @@
 
     move-result v2
 
-    # setter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mTriggerReceiver:I
     invoke-static {p0, v2}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$702(Landroidx/constraintlayout/motion/widget/KeyTrigger;I)I
 
     goto/16 :goto_ad
 
     .line 5
     :pswitch_23
-    # getter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mPostLayout:Z
     invoke-static {p0}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$600(Landroidx/constraintlayout/motion/widget/KeyTrigger;)Z
 
     move-result v2
@@ -206,14 +203,12 @@
 
     move-result v1
 
-    # setter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mPostLayout:Z
     invoke-static {p0, v1}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$602(Landroidx/constraintlayout/motion/widget/KeyTrigger;Z)Z
 
     goto/16 :goto_d2
 
     .line 6
     :pswitch_30
-    # getter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mTriggerCollisionId:I
     invoke-static {p0}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$500(Landroidx/constraintlayout/motion/widget/KeyTrigger;)I
 
     move-result v2
@@ -222,7 +217,6 @@
 
     move-result v1
 
-    # setter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mTriggerCollisionId:I
     invoke-static {p0, v1}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$502(Landroidx/constraintlayout/motion/widget/KeyTrigger;I)I
 
     goto/16 :goto_d2
@@ -248,7 +242,6 @@
     div-float/2addr v1, v2
 
     .line 8
-    # setter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mFireThreshold:F
     invoke-static {p0, v1}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$002(Landroidx/constraintlayout/motion/widget/KeyTrigger;F)F
 
     goto/16 :goto_d2
@@ -316,7 +309,6 @@
 
     .line 15
     :pswitch_80
-    # getter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mTriggerID:I
     invoke-static {p0}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$400(Landroidx/constraintlayout/motion/widget/KeyTrigger;)I
 
     move-result v2
@@ -325,7 +317,6 @@
 
     move-result v1
 
-    # setter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mTriggerID:I
     invoke-static {p0, v1}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$402(Landroidx/constraintlayout/motion/widget/KeyTrigger;I)I
 
     goto :goto_d2
@@ -348,7 +339,6 @@
 
     move-result-object v1
 
-    # setter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mCross:Ljava/lang/String;
     invoke-static {p0, v1}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$302(Landroidx/constraintlayout/motion/widget/KeyTrigger;Ljava/lang/String;)Ljava/lang/String;
 
     goto :goto_d2
@@ -359,7 +349,6 @@
 
     move-result-object v1
 
-    # setter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mPositiveCross:Ljava/lang/String;
     invoke-static {p0, v1}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$202(Landroidx/constraintlayout/motion/widget/KeyTrigger;Ljava/lang/String;)Ljava/lang/String;
 
     goto :goto_d2
@@ -370,7 +359,6 @@
 
     move-result-object v1
 
-    # setter for: Landroidx/constraintlayout/motion/widget/KeyTrigger;->mNegativeCross:Ljava/lang/String;
     invoke-static {p0, v1}, Landroidx/constraintlayout/motion/widget/KeyTrigger;->access$102(Landroidx/constraintlayout/motion/widget/KeyTrigger;Ljava/lang/String;)Ljava/lang/String;
 
     goto :goto_d2

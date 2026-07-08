@@ -94,7 +94,6 @@
     :cond_19
     iget-object p1, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$initializeSearchBar$1;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->launchBottomSheet()V
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$launchBottomSheet(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)V
 
     return-void

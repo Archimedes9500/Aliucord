@@ -84,7 +84,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory$gifCategoryViewModel$2;->this$0:Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;
 
-    # invokes: Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;->getGifCategory()Lcom/discord/widgets/chat/input/gifpicker/GifCategoryItem;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;->access$getGifCategory(Lcom/discord/widgets/chat/input/gifpicker/WidgetGifCategory;)Lcom/discord/widgets/chat/input/gifpicker/GifCategoryItem;
 
     move-result-object v2

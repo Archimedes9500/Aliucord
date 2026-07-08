@@ -104,7 +104,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreLurking$startLurkingInternal$4;->this$0:Lcom/discord/stores/StoreLurking;
 
-    # getter for: Lcom/discord/stores/StoreLurking;->lurkedGuilds:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreLurking;->access$getLurkedGuilds$p(Lcom/discord/stores/StoreLurking;)Ljava/util/Map;
 
     move-result-object v0
@@ -124,7 +123,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreLurking$startLurkingInternal$4;->this$0:Lcom/discord/stores/StoreLurking;
 
-    # getter for: Lcom/discord/stores/StoreLurking;->lurkedGuildsSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreLurking;->access$getLurkedGuildsSubject$p(Lcom/discord/stores/StoreLurking;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0
@@ -133,7 +131,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreLurking$startLurkingInternal$4;->this$0:Lcom/discord/stores/StoreLurking;
 
-    # getter for: Lcom/discord/stores/StoreLurking;->lurkedGuilds:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreLurking;->access$getLurkedGuilds$p(Lcom/discord/stores/StoreLurking;)Ljava/util/Map;
 
     move-result-object v1

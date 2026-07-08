@@ -251,7 +251,6 @@
     iget-object v5, p0, Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel$Companion$observeStoreState$2;->$guildId:Ljava/lang/Long;
 
     .line 11
-    # invokes: Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel$Companion;->observeComputedMembers(Ljava/lang/Long;Ljava/lang/Long;Ljava/util/Collection;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuilds;)Lrx/Observable;
     invoke-static/range {v3 .. v8}, Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel$Companion;->access$observeComputedMembers(Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel$Companion;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/Collection;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuilds;)Lrx/Observable;
 
     move-result-object v3

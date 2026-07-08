@@ -135,7 +135,6 @@
     iget-object v0, p0, Lcom/discord/widgets/share/WidgetIncomingShare$configureUi$1;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
     .line 4
-    # invokes: Lcom/discord/widgets/share/WidgetIncomingShare;->getBinding()Lcom/discord/databinding/WidgetIncomingShareBinding;
     invoke-static {v0}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getBinding$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lcom/discord/databinding/WidgetIncomingShareBinding;
 
     move-result-object p1

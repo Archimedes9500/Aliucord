@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel$1;->this$0:Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel;
 
-    # invokes: Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel;->handleStoreState(Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel;->access$handleStoreState(Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel;Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel$StoreState;)V
 
     return-void

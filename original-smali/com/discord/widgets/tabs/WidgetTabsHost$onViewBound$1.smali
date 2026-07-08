@@ -76,7 +76,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/tabs/WidgetTabsHost$onViewBound$1;->this$0:Lcom/discord/widgets/tabs/WidgetTabsHost;
 
-    # invokes: Lcom/discord/widgets/tabs/WidgetTabsHost;->getViewModel()Lcom/discord/widgets/tabs/TabsHostViewModel;
     invoke-static {v0}, Lcom/discord/widgets/tabs/WidgetTabsHost;->access$getViewModel$p(Lcom/discord/widgets/tabs/WidgetTabsHost;)Lcom/discord/widgets/tabs/TabsHostViewModel;
 
     move-result-object v0

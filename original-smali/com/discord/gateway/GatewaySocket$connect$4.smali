@@ -132,7 +132,6 @@
     check-cast v0, Lcom/discord/gateway/GatewaySocket;
 
     .line 2
-    # invokes: Lcom/discord/gateway/GatewaySocket;->logError(Ljava/lang/String;Ljava/lang/Exception;Ljava/util/Map;)V
     invoke-static {v0, p1, p2, p3}, Lcom/discord/gateway/GatewaySocket;->access$logError(Lcom/discord/gateway/GatewaySocket;Ljava/lang/String;Ljava/lang/Exception;Ljava/util/Map;)V
 
     return-void

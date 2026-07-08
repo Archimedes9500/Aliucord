@@ -370,7 +370,6 @@
     :cond_1e
     sget-object v0, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDescriptionParser;->Companion:Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDescriptionParser$Companion;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDescriptionParser$Companion;->getINSTANCE()Lcom/discord/simpleast/core/parser/Parser;
     invoke-static {v0}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDescriptionParser$Companion;->access$getINSTANCE$p(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDescriptionParser$Companion;)Lcom/discord/simpleast/core/parser/Parser;
 
     move-result-object v1

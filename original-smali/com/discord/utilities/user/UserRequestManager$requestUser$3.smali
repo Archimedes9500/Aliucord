@@ -100,7 +100,6 @@
 
     iget-wide v1, p0, Lcom/discord/utilities/user/UserRequestManager$requestUser$3;->$userId:J
 
-    # invokes: Lcom/discord/utilities/user/UserRequestManager;->onRequestStarted(JLrx/Subscription;)V
     invoke-static {v0, v1, v2, p1}, Lcom/discord/utilities/user/UserRequestManager;->access$onRequestStarted(Lcom/discord/utilities/user/UserRequestManager;JLrx/Subscription;)V
 
     return-void

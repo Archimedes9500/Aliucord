@@ -68,7 +68,6 @@
 
     sget-object v0, Lcom/discord/api/presence/ClientStatus;->DND:Lcom/discord/api/presence/ClientStatus;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserStatusSheet;->updateStateAndDismiss(Lcom/discord/api/presence/ClientStatus;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/user/WidgetUserStatusSheet;->access$updateStateAndDismiss(Lcom/discord/widgets/user/WidgetUserStatusSheet;Lcom/discord/api/presence/ClientStatus;)V
 
     return-void

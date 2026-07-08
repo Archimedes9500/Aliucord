@@ -78,7 +78,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;
 
-    # getter for: Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;->guildRoleSubscriptionsStore:Lcom/discord/stores/StoreGuildRoleSubscriptions;
     invoke-static {v0}, Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;->access$getGuildRoleSubscriptionsStore$p(Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;)Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
     move-result-object v0
@@ -115,7 +114,6 @@
     :goto_1c
     iget-object v1, p0, Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;
 
-    # getter for: Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;->subscriptionsStore:Lcom/discord/stores/StoreSubscriptions;
     invoke-static {v1}, Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;->access$getSubscriptionsStore$p(Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;)Lcom/discord/stores/StoreSubscriptions;
 
     move-result-object v1
@@ -186,7 +184,6 @@
     .line 7
     iget-object v1, p0, Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;
 
-    # getter for: Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;->connectivityStore:Lcom/discord/stores/StoreConnectivity;
     invoke-static {v1}, Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;->access$getConnectivityStore$p(Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;)Lcom/discord/stores/StoreConnectivity;
 
     move-result-object v1
@@ -211,7 +208,6 @@
     .line 9
     iget-object v1, p0, Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;
 
-    # getter for: Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;->guildsStore:Lcom/discord/stores/StoreGuilds;
     invoke-static {v1}, Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;->access$getGuildsStore$p(Lcom/discord/widgets/guild_role_subscriptions/entrypoint/WidgetGuildRoleSubscriptionEntryPointViewModel;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v1

@@ -116,7 +116,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$storeStateObservable$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->guildId:J
     invoke-static {v1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->access$getGuildId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;)J
 
     move-result-wide v2
@@ -124,7 +123,6 @@
     .line 5
     iget-object v1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$storeStateObservable$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->channelId:J
     invoke-static {v1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->access$getChannelId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;)J
 
     move-result-wide v4
@@ -132,7 +130,6 @@
     .line 6
     iget-object v1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$storeStateObservable$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->storeGuilds:Lcom/discord/stores/StoreGuilds;
     invoke-static {v1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->access$getStoreGuilds$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v6
@@ -140,7 +137,6 @@
     .line 7
     iget-object v1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$storeStateObservable$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->storeChannels:Lcom/discord/stores/StoreChannels;
     invoke-static {v1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->access$getStoreChannels$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;)Lcom/discord/stores/StoreChannels;
 
     move-result-object v7
@@ -148,7 +144,6 @@
     .line 8
     iget-object v1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$storeStateObservable$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->storeUser:Lcom/discord/stores/StoreUser;
     invoke-static {v1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->access$getStoreUser$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;)Lcom/discord/stores/StoreUser;
 
     move-result-object v8
@@ -156,7 +151,6 @@
     .line 9
     iget-object v1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$storeStateObservable$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->storeArchivedThreads:Lcom/discord/stores/ArchivedThreadsStore;
     invoke-static {v1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->access$getStoreArchivedThreads$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;)Lcom/discord/stores/ArchivedThreadsStore;
 
     move-result-object v9
@@ -164,7 +158,6 @@
     .line 10
     iget-object v1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$storeStateObservable$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->storePermissions:Lcom/discord/stores/StorePermissions;
     invoke-static {v1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;->access$getStorePermissions$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;)Lcom/discord/stores/StorePermissions;
 
     move-result-object v10
@@ -172,7 +165,6 @@
     move-object v1, p1
 
     .line 11
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$Companion;->observeStoreState(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$ViewMode;JJLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreUser;Lcom/discord/stores/ArchivedThreadsStore;Lcom/discord/stores/StorePermissions;)Lrx/Observable;
     invoke-static/range {v0 .. v10}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$Companion;Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel$ViewMode;JJLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreUser;Lcom/discord/stores/ArchivedThreadsStore;Lcom/discord/stores/StorePermissions;)Lrx/Observable;
 
     move-result-object p1

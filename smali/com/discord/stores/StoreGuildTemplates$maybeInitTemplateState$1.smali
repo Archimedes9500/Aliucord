@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildTemplates$maybeInitTemplateState$1;->this$0:Lcom/discord/stores/StoreGuildTemplates;
 
-    # getter for: Lcom/discord/stores/StoreGuildTemplates;->guildTemplatesByCode:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildTemplates;->access$getGuildTemplatesByCode$p(Lcom/discord/stores/StoreGuildTemplates;)Ljava/util/Map;
 
     move-result-object v0
@@ -105,7 +104,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreGuildTemplates$maybeInitTemplateState$1;->this$0:Lcom/discord/stores/StoreGuildTemplates;
 
-    # getter for: Lcom/discord/stores/StoreGuildTemplates;->guildTemplatesByCode:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildTemplates;->access$getGuildTemplatesByCode$p(Lcom/discord/stores/StoreGuildTemplates;)Ljava/util/Map;
 
     move-result-object v0
@@ -124,7 +122,6 @@
     :cond_1e
     iget-object v0, p0, Lcom/discord/stores/StoreGuildTemplates$maybeInitTemplateState$1;->this$0:Lcom/discord/stores/StoreGuildTemplates;
 
-    # getter for: Lcom/discord/stores/StoreGuildTemplates;->guildTemplatesByCode:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildTemplates;->access$getGuildTemplatesByCode$p(Lcom/discord/stores/StoreGuildTemplates;)Ljava/util/Map;
 
     move-result-object v0
@@ -145,7 +142,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreGuildTemplates$maybeInitTemplateState$1;->$guildTemplateCode:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreGuildTemplates;->requestGuildTemplate(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreGuildTemplates;->access$requestGuildTemplate(Lcom/discord/stores/StoreGuildTemplates;Ljava/lang/String;)V
 
     :cond_37

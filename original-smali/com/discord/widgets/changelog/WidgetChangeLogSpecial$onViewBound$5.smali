@@ -71,7 +71,6 @@
     iget-object p1, p0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial$onViewBound$5;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
     .line 2
-    # getter for: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->maxScrolledPercent:I
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$getMaxScrolledPercent$p(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;)I
 
     move-result p2
@@ -81,7 +80,6 @@
     .line 3
     iget-object p4, p0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial$onViewBound$5;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->getBinding()Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
     invoke-static {p4}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$getBinding$p(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;)Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
 
     move-result-object p4
@@ -103,7 +101,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial$onViewBound$5;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->getBinding()Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
     invoke-static {v0}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$getBinding$p(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;)Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
 
     move-result-object v0

@@ -98,7 +98,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$selectState$2;->this$0:Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;->getBinding()Lcom/discord/databinding/WidgetPaymentSourceEditDialogBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;->access$getBinding$p(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;)Lcom/discord/databinding/WidgetPaymentSourceEditDialogBinding;
 
     move-result-object v0

@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$startTapForwardingJob$2;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->videoPlayerIdleDetectorFooter:Lcom/discord/utilities/video/VideoPlayerIdleDetector;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getVideoPlayerIdleDetectorFooter$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/utilities/video/VideoPlayerIdleDetector;
 
     move-result-object p1
@@ -103,7 +102,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$startTapForwardingJob$2;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->videoPlayerIdleDetectorHeader:Lcom/discord/utilities/video/VideoPlayerIdleDetector;
     invoke-static {v0}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getVideoPlayerIdleDetectorHeader$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/utilities/video/VideoPlayerIdleDetector;
 
     move-result-object v0
@@ -115,7 +113,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$startTapForwardingJob$2;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->videoPlayerIdleDetectorFooter:Lcom/discord/utilities/video/VideoPlayerIdleDetector;
     invoke-static {v1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getVideoPlayerIdleDetectorFooter$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/utilities/video/VideoPlayerIdleDetector;
 
     move-result-object v1
@@ -125,7 +122,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$startTapForwardingJob$2;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->videoPlayerIdleDetectorHeader:Lcom/discord/utilities/video/VideoPlayerIdleDetector;
     invoke-static {v0}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getVideoPlayerIdleDetectorHeader$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)Lcom/discord/utilities/video/VideoPlayerIdleDetector;
 
     move-result-object v0

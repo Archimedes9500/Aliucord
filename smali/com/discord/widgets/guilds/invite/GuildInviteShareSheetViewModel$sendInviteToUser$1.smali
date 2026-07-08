@@ -98,7 +98,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;->sendInviteToChannel(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;->access$sendInviteToChannel(Lcom/discord/widgets/guilds/invite/GuildInviteShareSheetViewModel;J)V
 
     return-void

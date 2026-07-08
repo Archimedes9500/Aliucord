@@ -69,7 +69,6 @@
     .locals 0
 
     .line 1
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverviewViewModelKt;->generateInitialViewState(Z)Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverviewViewModel$ViewState;
     invoke-static {p3}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverviewViewModelKt;->access$generateInitialViewState(Z)Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverviewViewModel$ViewState;
 
     move-result-object p3

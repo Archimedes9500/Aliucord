@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity$onViewBound$2;->this$0:Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->getViewModel()Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$getViewModel$p(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;)Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;
 
     move-result-object p1
@@ -90,7 +89,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity$onViewBound$2;->this$0:Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->getBinding()Lcom/discord/databinding/WidgetChangeGuildIdentityBinding;
     invoke-static {p1}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$getBinding$p(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;)Lcom/discord/databinding/WidgetChangeGuildIdentityBinding;
 
     move-result-object p1

@@ -335,7 +335,6 @@
     :cond_d8
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes$getBackupCodes$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;->configureUI(Ljava/util/List;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;->access$configureUI(Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;Ljava/util/List;)V
 
     return-void

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventListBottomSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventListBottomSheet;->onRsvpClicked(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListItem$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventListBottomSheet;->access$onRsvpClicked(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventListBottomSheet;Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventListItem$Event;)V
 
     return-void

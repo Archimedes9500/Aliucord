@@ -255,7 +255,6 @@
 
     move-object v10, v11
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model$Companion;->computeManageStatus(ZZLjava/lang/Long;Lcom/discord/api/role/GuildRole;Lcom/discord/api/role/GuildRole;)Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model$ManageStatus;
     invoke-static/range {v5 .. v10}, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model$Companion;->access$computeManageStatus(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model$Companion;ZZLjava/lang/Long;Lcom/discord/api/role/GuildRole;Lcom/discord/api/role/GuildRole;)Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model$ManageStatus;
 
     move-result-object v10
@@ -283,7 +282,6 @@
 
     move-wide v6, v7
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model$Companion;->computeMyOtherPermissions(Ljava/util/Collection;Ljava/util/Map;JJ)J
     invoke-static/range {v1 .. v7}, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model$Companion;->access$computeMyOtherPermissions(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model$Companion;Ljava/util/Collection;Ljava/util/Map;JJ)J
 
     move-result-wide v1

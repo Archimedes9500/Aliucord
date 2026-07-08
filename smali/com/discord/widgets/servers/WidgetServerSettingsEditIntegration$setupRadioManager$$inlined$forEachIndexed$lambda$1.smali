@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration$setupRadioManager$$inlined$forEachIndexed$lambda$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1
@@ -108,14 +107,12 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration$setupRadioManager$$inlined$forEachIndexed$lambda$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration$setupRadioManager$$inlined$forEachIndexed$lambda$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->getBinding()Lcom/discord/databinding/WidgetServerSettingsEditIntegrationBinding;
     invoke-static {v0}, Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditIntegration;)Lcom/discord/databinding/WidgetServerSettingsEditIntegrationBinding;
 
     move-result-object v0

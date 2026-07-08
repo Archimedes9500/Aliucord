@@ -99,7 +99,6 @@
     check-cast v0, Lcom/discord/utilities/intent/RouteHandlers;
 
     .line 2
-    # invokes: Lcom/discord/utilities/intent/RouteHandlers;->acceptGift(Landroid/net/Uri;Lkotlin/text/MatchResult;Landroid/content/Context;)Lcom/discord/utilities/intent/RouteHandlers$AnalyticsMetadata;
     invoke-static {v0, p1, p2, p3}, Lcom/discord/utilities/intent/RouteHandlers;->access$acceptGift(Lcom/discord/utilities/intent/RouteHandlers;Landroid/net/Uri;Lkotlin/text/MatchResult;Landroid/content/Context;)Lcom/discord/utilities/intent/RouteHandlers$AnalyticsMetadata;
 
     move-result-object p1

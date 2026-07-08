@@ -66,14 +66,12 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;
 
-    # invokes: Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->getExpressionTrayViewModel()Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->access$getExpressionTrayViewModel$p(Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;)Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray$onViewBound$1;->this$0:Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;
 
-    # invokes: Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->getBinding()Lcom/discord/databinding/WidgetExpressionTrayBinding;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->access$getBinding$p(Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;)Lcom/discord/databinding/WidgetExpressionTrayBinding;
 
     move-result-object v0

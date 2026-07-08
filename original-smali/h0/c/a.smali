@@ -37,7 +37,6 @@
     .line 1
     iget-object v2, v0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->state:Lorg/webrtc/Camera1Session$SessionState;
     invoke-static {v2}, Lorg/webrtc/Camera1Session;->access$400(Lorg/webrtc/Camera1Session;)Lorg/webrtc/Camera1Session$SessionState;
 
     move-result-object v2
@@ -49,7 +48,6 @@
     .line 2
     iget-object v0, v0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->camera:Landroid/hardware/Camera;
     invoke-static {v0}, Lorg/webrtc/Camera1Session;->access$300(Lorg/webrtc/Camera1Session;)Landroid/hardware/Camera;
 
     move-result-object v0

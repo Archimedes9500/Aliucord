@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage$captchaLauncher$1;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;
 
-    # invokes: Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->updatePhoneNumber(Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->access$updatePhoneNumber(Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
 
     return-void

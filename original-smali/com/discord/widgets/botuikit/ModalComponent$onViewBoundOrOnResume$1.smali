@@ -109,7 +109,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/botuikit/ModalComponent$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/botuikit/ModalComponent;
 
-    # getter for: Lcom/discord/widgets/botuikit/ModalComponent;->sentNonce:Ljava/lang/String;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/ModalComponent;->access$getSentNonce$p(Lcom/discord/widgets/botuikit/ModalComponent;)Ljava/lang/String;
 
     move-result-object v0
@@ -168,7 +167,6 @@
     .line 6
     iget-object p1, p0, Lcom/discord/widgets/botuikit/ModalComponent$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/botuikit/ModalComponent;
 
-    # invokes: Lcom/discord/widgets/botuikit/ModalComponent;->getBinding()Lcom/discord/databinding/ViewInteractionModalBinding;
     invoke-static {p1}, Lcom/discord/widgets/botuikit/ModalComponent;->access$getBinding$p(Lcom/discord/widgets/botuikit/ModalComponent;)Lcom/discord/databinding/ViewInteractionModalBinding;
 
     move-result-object p1
@@ -186,7 +184,6 @@
     .line 7
     iget-object p1, p0, Lcom/discord/widgets/botuikit/ModalComponent$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/botuikit/ModalComponent;
 
-    # invokes: Lcom/discord/widgets/botuikit/ModalComponent;->getBinding()Lcom/discord/databinding/ViewInteractionModalBinding;
     invoke-static {p1}, Lcom/discord/widgets/botuikit/ModalComponent;->access$getBinding$p(Lcom/discord/widgets/botuikit/ModalComponent;)Lcom/discord/databinding/ViewInteractionModalBinding;
 
     move-result-object p1

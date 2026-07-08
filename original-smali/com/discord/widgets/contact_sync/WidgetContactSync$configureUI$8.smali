@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$configureUI$8;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSync;->handlePhoneNumberTextChanged()V
     invoke-static {v0}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$handlePhoneNumberTextChanged(Lcom/discord/widgets/contact_sync/WidgetContactSync;)V
 
     return-void

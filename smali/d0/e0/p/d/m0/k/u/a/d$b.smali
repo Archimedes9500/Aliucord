@@ -77,7 +77,6 @@
     check-cast v1, Ld0/e0/p/d/m0/c/z0;
 
     :cond_1c
-    # invokes: Ld0/e0/p/d/m0/k/u/a/d;->a(Ld0/e0/p/d/m0/n/w0;Ld0/e0/p/d/m0/c/z0;)Ld0/e0/p/d/m0/n/w0;
     invoke-static {v0, v1}, Ld0/e0/p/d/m0/k/u/a/d;->access$createCapturedIfNeeded(Ld0/e0/p/d/m0/n/w0;Ld0/e0/p/d/m0/c/z0;)Ld0/e0/p/d/m0/n/w0;
 
     move-result-object v1

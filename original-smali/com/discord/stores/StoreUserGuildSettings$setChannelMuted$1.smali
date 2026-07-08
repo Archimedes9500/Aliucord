@@ -103,7 +103,6 @@
     .line 2
     iget-object v1, v0, Lcom/discord/stores/StoreUserGuildSettings$setChannelMuted$1;->this$0:Lcom/discord/stores/StoreUserGuildSettings;
 
-    # getter for: Lcom/discord/stores/StoreUserGuildSettings;->storeChannels:Lcom/discord/stores/StoreChannels;
     invoke-static {v1}, Lcom/discord/stores/StoreUserGuildSettings;->access$getStoreChannels$p(Lcom/discord/stores/StoreUserGuildSettings;)Lcom/discord/stores/StoreChannels;
 
     move-result-object v1
@@ -119,7 +118,6 @@
     .line 3
     iget-object v2, v0, Lcom/discord/stores/StoreUserGuildSettings$setChannelMuted$1;->this$0:Lcom/discord/stores/StoreUserGuildSettings;
 
-    # invokes: Lcom/discord/stores/StoreUserGuildSettings;->getSettingsUpdateType(Lcom/discord/api/channel/Channel;)Lcom/discord/stores/StoreUserGuildSettings$SettingsUpdateType;
     invoke-static {v2, v1}, Lcom/discord/stores/StoreUserGuildSettings;->access$getSettingsUpdateType(Lcom/discord/stores/StoreUserGuildSettings;Lcom/discord/api/channel/Channel;)Lcom/discord/stores/StoreUserGuildSettings$SettingsUpdateType;
 
     move-result-object v8
@@ -134,7 +132,6 @@
     .line 5
     iget-object v2, v0, Lcom/discord/stores/StoreUserGuildSettings$setChannelMuted$1;->this$0:Lcom/discord/stores/StoreUserGuildSettings;
 
-    # getter for: Lcom/discord/stores/StoreUserGuildSettings;->storeThreadsJoined:Lcom/discord/stores/StoreThreadsJoined;
     invoke-static {v2}, Lcom/discord/stores/StoreUserGuildSettings;->access$getStoreThreadsJoined$p(Lcom/discord/stores/StoreUserGuildSettings;)Lcom/discord/stores/StoreThreadsJoined;
 
     move-result-object v2
@@ -202,7 +199,6 @@
     invoke-direct/range {v11 .. v16}, Lcom/discord/restapi/RestAPIParams$ThreadMemberSettings;-><init>(Ljava/lang/Integer;Ljava/lang/Boolean;Lcom/discord/models/domain/ModelMuteConfig;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
     .line 12
-    # invokes: Lcom/discord/stores/StoreUserGuildSettings;->updateThreadMemberSettings(Landroid/content/Context;JJLcom/discord/restapi/RestAPIParams$ThreadMemberSettings;I)V
     invoke-static/range {v3 .. v10}, Lcom/discord/stores/StoreUserGuildSettings;->access$updateThreadMemberSettings(Lcom/discord/stores/StoreUserGuildSettings;Landroid/content/Context;JJLcom/discord/restapi/RestAPIParams$ThreadMemberSettings;I)V
 
     goto :goto_81
@@ -260,7 +256,6 @@
     invoke-direct {v7, v1, v2, v0}, Lcom/discord/restapi/RestAPIParams$UserGuildSettings;-><init>(JLcom/discord/restapi/RestAPIParams$UserGuildSettings$ChannelOverride;)V
 
     .line 22
-    # invokes: Lcom/discord/stores/StoreUserGuildSettings;->updateUserGuildSettings(Landroid/content/Context;JLcom/discord/restapi/RestAPIParams$UserGuildSettings;Lcom/discord/stores/StoreUserGuildSettings$SettingsUpdateType;)V
     invoke-static/range {v3 .. v8}, Lcom/discord/stores/StoreUserGuildSettings;->access$updateUserGuildSettings(Lcom/discord/stores/StoreUserGuildSettings;Landroid/content/Context;JLcom/discord/restapi/RestAPIParams$UserGuildSettings;Lcom/discord/stores/StoreUserGuildSettings$SettingsUpdateType;)V
 
     :cond_81

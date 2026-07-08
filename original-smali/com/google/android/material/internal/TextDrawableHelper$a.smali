@@ -40,13 +40,11 @@
 
     const/4 v0, 0x1
 
-    # setter for: Lcom/google/android/material/internal/TextDrawableHelper;->textWidthDirty:Z
     invoke-static {p1, v0}, Lcom/google/android/material/internal/TextDrawableHelper;->access$002(Lcom/google/android/material/internal/TextDrawableHelper;Z)Z
 
     .line 2
     iget-object p1, p0, Lcom/google/android/material/internal/TextDrawableHelper$a;->a:Lcom/google/android/material/internal/TextDrawableHelper;
 
-    # getter for: Lcom/google/android/material/internal/TextDrawableHelper;->delegate:Ljava/lang/ref/WeakReference;
     invoke-static {p1}, Lcom/google/android/material/internal/TextDrawableHelper;->access$100(Lcom/google/android/material/internal/TextDrawableHelper;)Ljava/lang/ref/WeakReference;
 
     move-result-object p1
@@ -83,13 +81,11 @@
 
     const/4 p2, 0x1
 
-    # setter for: Lcom/google/android/material/internal/TextDrawableHelper;->textWidthDirty:Z
     invoke-static {p1, p2}, Lcom/google/android/material/internal/TextDrawableHelper;->access$002(Lcom/google/android/material/internal/TextDrawableHelper;Z)Z
 
     .line 2
     iget-object p1, p0, Lcom/google/android/material/internal/TextDrawableHelper$a;->a:Lcom/google/android/material/internal/TextDrawableHelper;
 
-    # getter for: Lcom/google/android/material/internal/TextDrawableHelper;->delegate:Ljava/lang/ref/WeakReference;
     invoke-static {p1}, Lcom/google/android/material/internal/TextDrawableHelper;->access$100(Lcom/google/android/material/internal/TextDrawableHelper;)Ljava/lang/ref/WeakReference;
 
     move-result-object p1

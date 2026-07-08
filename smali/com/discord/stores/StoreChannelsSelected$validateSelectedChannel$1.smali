@@ -98,7 +98,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreChannelsSelected$validateSelectedChannel$1;->this$0:Lcom/discord/stores/StoreChannelsSelected;
 
-    # getter for: Lcom/discord/stores/StoreChannelsSelected;->storeChannels:Lcom/discord/stores/StoreChannels;
     invoke-static {v1}, Lcom/discord/stores/StoreChannelsSelected;->access$getStoreChannels$p(Lcom/discord/stores/StoreChannelsSelected;)Lcom/discord/stores/StoreChannels;
 
     move-result-object v1
@@ -138,7 +137,6 @@
     iget-boolean v8, p0, Lcom/discord/stores/StoreChannelsSelected$validateSelectedChannel$1;->$isChannelStoreInitializedForAuthedUser:Z
 
     .line 9
-    # invokes: Lcom/discord/stores/StoreChannelsSelected;->resolveSelectedChannel(Lcom/discord/stores/StoreChannelsSelected$UserChannelSelection;Lcom/discord/api/channel/Channel;Ljava/util/Map;JLjava/util/Map;Z)Lcom/discord/stores/StoreChannelsSelected$ResolvedSelectedChannel;
     invoke-static/range {v1 .. v8}, Lcom/discord/stores/StoreChannelsSelected;->access$resolveSelectedChannel(Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreChannelsSelected$UserChannelSelection;Lcom/discord/api/channel/Channel;Ljava/util/Map;JLjava/util/Map;Z)Lcom/discord/stores/StoreChannelsSelected$ResolvedSelectedChannel;
 
     move-result-object v0

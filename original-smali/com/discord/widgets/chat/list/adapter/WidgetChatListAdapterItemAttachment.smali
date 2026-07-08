@@ -594,7 +594,6 @@
     .line 15
     sget-object v1, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment;->Companion:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment$Companion;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment$Companion;->isInlinedAttachment(Lcom/discord/api/message/attachment/MessageAttachment;)Z
     invoke-static {v1, v10}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment$Companion;->access$isInlinedAttachment$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment$Companion;Lcom/discord/api/message/attachment/MessageAttachment;)Z
 
     move-result v1

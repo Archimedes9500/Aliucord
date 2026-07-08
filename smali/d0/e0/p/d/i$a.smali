@@ -30,7 +30,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/i;->k:Lkotlin/text/Regex;
     invoke-static {}, Ld0/e0/p/d/i;->access$getLOCAL_PROPERTY_SIGNATURE$cp()Lkotlin/text/Regex;
 
     move-result-object v0

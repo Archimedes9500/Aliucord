@@ -83,7 +83,6 @@
         }
     .end annotation
 
-    # getter for: Lcom/discord/stores/StoreMediaFavorites$Favorite;->AllTypes$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/stores/StoreMediaFavorites$Favorite;->access$getAllTypes$cp()Lkotlin/Lazy;
 
     move-result-object v0
@@ -113,7 +112,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreMediaFavorites$Favorite;->EmojiTypes:Ljava/util/Set;
     invoke-static {}, Lcom/discord/stores/StoreMediaFavorites$Favorite;->access$getEmojiTypes$cp()Ljava/util/Set;
 
     move-result-object v0

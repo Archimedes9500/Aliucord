@@ -78,7 +78,6 @@
 
     iget-wide v2, p0, Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication$onViewBound$3;->$userId:J
 
-    # invokes: Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;->handleEnableGuildCommunication(JJ)V
     invoke-static {p1, v0, v1, v2, v3}, Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;->access$handleEnableGuildCommunication(Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;JJ)V
 
     return-void

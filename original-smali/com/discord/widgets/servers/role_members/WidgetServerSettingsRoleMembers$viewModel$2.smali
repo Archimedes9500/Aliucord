@@ -76,14 +76,12 @@
 
     iget-object v0, p0, Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers$viewModel$2;->this$0:Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;
 
-    # invokes: Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;->getGuildId()J
     invoke-static {v0}, Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;->access$getGuildId$p(Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;)J
 
     move-result-wide v1
 
     iget-object v0, p0, Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers$viewModel$2;->this$0:Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;
 
-    # invokes: Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;->getGuildRoleId()J
     invoke-static {v0}, Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;->access$getGuildRoleId$p(Lcom/discord/widgets/servers/role_members/WidgetServerSettingsRoleMembers;)J
 
     move-result-wide v3

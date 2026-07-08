@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/voice/DiscordOverlayService$createMenu$1;->this$0:Lcom/discord/utilities/voice/DiscordOverlayService;
 
-    # invokes: Lcom/discord/overlay/OverlayService;->getOverlayManager()Lcom/discord/overlay/OverlayManager;
     invoke-static {v0}, Lcom/discord/utilities/voice/DiscordOverlayService;->access$getOverlayManager$p(Lcom/discord/utilities/voice/DiscordOverlayService;)Lcom/discord/overlay/OverlayManager;
 
     move-result-object v0

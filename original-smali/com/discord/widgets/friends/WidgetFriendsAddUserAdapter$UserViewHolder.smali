@@ -421,7 +421,6 @@
 
     check-cast v5, Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;
 
-    # getter for: Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;->outgoingRequestUserIds:Ljava/util/HashSet;
     invoke-static {v5}, Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;->access$getOutgoingRequestUserIds$p(Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;)Ljava/util/HashSet;
 
     move-result-object v5
@@ -439,7 +438,6 @@
 
     check-cast v6, Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;
 
-    # getter for: Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;->incomingRequestUserIds:Ljava/util/HashSet;
     invoke-static {v6}, Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;->access$getIncomingRequestUserIds$p(Lcom/discord/widgets/friends/WidgetFriendsAddUserAdapter;)Ljava/util/HashSet;
 
     move-result-object v6

@@ -103,7 +103,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;->onEmojiSelectedListener:Lcom/discord/widgets/chat/input/emoji/OnEmojiSelectedListener;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;->access$getOnEmojiSelectedListener$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;)Lcom/discord/widgets/chat/input/emoji/OnEmojiSelectedListener;
 
     move-result-object p1
@@ -119,7 +118,6 @@
     sget-object v0, Ld0/k;->j:Ld0/k$a;
 
     .line 5
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter$EmojiViewHolder;->binding:Lcom/discord/databinding/EmojiPickerEmojiItemBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter$EmojiViewHolder;->access$getBinding$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter$EmojiViewHolder;)Lcom/discord/databinding/EmojiPickerEmojiItemBinding;
 
     move-result-object p1

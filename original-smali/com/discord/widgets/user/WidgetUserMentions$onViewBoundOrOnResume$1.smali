@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/WidgetUserMentions$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/user/WidgetUserMentions;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserMentions;->configureUI(Lcom/discord/widgets/user/WidgetUserMentions$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/WidgetUserMentions;->access$configureUI(Lcom/discord/widgets/user/WidgetUserMentions;Lcom/discord/widgets/user/WidgetUserMentions$Model;)V
 
     return-void

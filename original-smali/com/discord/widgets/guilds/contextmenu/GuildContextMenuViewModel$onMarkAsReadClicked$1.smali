@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/contextmenu/GuildContextMenuViewModel$onMarkAsReadClicked$1;->this$0:Lcom/discord/widgets/guilds/contextmenu/GuildContextMenuViewModel;
 
-    # getter for: Lcom/discord/widgets/guilds/contextmenu/GuildContextMenuViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/guilds/contextmenu/GuildContextMenuViewModel;->access$getEventSubject$p(Lcom/discord/widgets/guilds/contextmenu/GuildContextMenuViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

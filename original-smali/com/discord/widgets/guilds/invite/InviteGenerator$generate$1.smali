@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guilds/invite/InviteGenerator;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guilds/invite/InviteGenerator;->handleGeneratedInvite(Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/invite/InviteGenerator;->access$handleGeneratedInvite(Lcom/discord/widgets/guilds/invite/InviteGenerator;Lcom/discord/models/domain/ModelInvite;)V
 
     return-void

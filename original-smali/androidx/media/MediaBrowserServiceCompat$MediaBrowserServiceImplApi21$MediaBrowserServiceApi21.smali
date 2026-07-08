@@ -82,12 +82,10 @@
     new-instance v1, Landroid/service/media/MediaBrowserService$BrowserRoot;
 
     .line 6
-    # getter for: Landroidx/media/MediaBrowserServiceCompat$BrowserRoot;->mRootId:Ljava/lang/String;
     invoke-static {p1}, Landroidx/media/MediaBrowserServiceCompat$BrowserRoot;->access$000(Landroidx/media/MediaBrowserServiceCompat$BrowserRoot;)Ljava/lang/String;
 
     move-result-object p2
 
-    # getter for: Landroidx/media/MediaBrowserServiceCompat$BrowserRoot;->mExtras:Landroid/os/Bundle;
     invoke-static {p1}, Landroidx/media/MediaBrowserServiceCompat$BrowserRoot;->access$100(Landroidx/media/MediaBrowserServiceCompat$BrowserRoot;)Landroid/os/Bundle;
 
     move-result-object p1

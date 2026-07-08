@@ -148,7 +148,6 @@
     if-eqz v0, :cond_64
 
     .line 4
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->errors:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/utilities/error/Error$SkemaError;->access$400(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/List;
 
     move-result-object v0
@@ -164,7 +163,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/utilities/error/Error$Response;->skemaError:Lcom/discord/utilities/error/Error$SkemaError;
 
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->errors:Ljava/util/List;
     invoke-static {p1}, Lcom/discord/utilities/error/Error$SkemaError;->access$400(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/List;
 
     move-result-object p1
@@ -175,7 +173,6 @@
 
     check-cast p1, Lcom/discord/utilities/error/Error$SkemaErrorItem;
 
-    # getter for: Lcom/discord/utilities/error/Error$SkemaErrorItem;->message:Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/utilities/error/Error$SkemaErrorItem;->access$500(Lcom/discord/utilities/error/Error$SkemaErrorItem;)Ljava/lang/String;
 
     move-result-object p1
@@ -186,7 +183,6 @@
     :cond_31
     iget-object v0, p0, Lcom/discord/utilities/error/Error$Response;->skemaError:Lcom/discord/utilities/error/Error$SkemaError;
 
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->subErrors:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/utilities/error/Error$SkemaError;->access$600(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/Map;
 
     move-result-object v0
@@ -213,7 +209,6 @@
     check-cast v2, Lcom/discord/utilities/error/Error$SkemaError;
 
     .line 7
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->errors:Ljava/util/List;
     invoke-static {v2}, Lcom/discord/utilities/error/Error$SkemaError;->access$400(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/List;
 
     move-result-object v3
@@ -225,7 +220,6 @@
     if-nez v3, :cond_3f
 
     .line 8
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->errors:Ljava/util/List;
     invoke-static {v2}, Lcom/discord/utilities/error/Error$SkemaError;->access$400(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/List;
 
     move-result-object p1
@@ -236,7 +230,6 @@
 
     check-cast p1, Lcom/discord/utilities/error/Error$SkemaErrorItem;
 
-    # getter for: Lcom/discord/utilities/error/Error$SkemaErrorItem;->message:Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/utilities/error/Error$SkemaErrorItem;->access$500(Lcom/discord/utilities/error/Error$SkemaErrorItem;)Ljava/lang/String;
 
     move-result-object p1
@@ -496,7 +489,6 @@
     iput-object p1, p0, Lcom/discord/utilities/error/Error$Response;->skemaError:Lcom/discord/utilities/error/Error$SkemaError;
 
     .line 9
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->errors:Ljava/util/List;
     invoke-static {p1}, Lcom/discord/utilities/error/Error$SkemaError;->access$400(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/List;
 
     move-result-object p1
@@ -515,7 +507,6 @@
     .line 11
     iget-object v0, p0, Lcom/discord/utilities/error/Error$Response;->skemaError:Lcom/discord/utilities/error/Error$SkemaError;
 
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->errors:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/utilities/error/Error$SkemaError;->access$400(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/List;
 
     move-result-object v0
@@ -538,7 +529,6 @@
     check-cast v1, Lcom/discord/utilities/error/Error$SkemaErrorItem;
 
     .line 12
-    # getter for: Lcom/discord/utilities/error/Error$SkemaErrorItem;->message:Ljava/lang/String;
     invoke-static {v1}, Lcom/discord/utilities/error/Error$SkemaErrorItem;->access$500(Lcom/discord/utilities/error/Error$SkemaErrorItem;)Ljava/lang/String;
 
     move-result-object v1
@@ -559,7 +549,6 @@
     :cond_c3
     iget-object p1, p0, Lcom/discord/utilities/error/Error$Response;->skemaError:Lcom/discord/utilities/error/Error$SkemaError;
 
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->subErrors:Ljava/util/Map;
     invoke-static {p1}, Lcom/discord/utilities/error/Error$SkemaError;->access$600(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/Map;
 
     move-result-object p1
@@ -605,7 +594,6 @@
     check-cast v0, Lcom/discord/utilities/error/Error$SkemaError;
 
     .line 18
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->errors:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/utilities/error/Error$SkemaError;->access$400(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/List;
 
     move-result-object v3
@@ -617,7 +605,6 @@
     if-nez v3, :cond_114
 
     .line 19
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->errors:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/utilities/error/Error$SkemaError;->access$400(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/List;
 
     move-result-object v3
@@ -640,7 +627,6 @@
     check-cast v4, Lcom/discord/utilities/error/Error$SkemaErrorItem;
 
     .line 20
-    # getter for: Lcom/discord/utilities/error/Error$SkemaErrorItem;->message:Ljava/lang/String;
     invoke-static {v4}, Lcom/discord/utilities/error/Error$SkemaErrorItem;->access$500(Lcom/discord/utilities/error/Error$SkemaErrorItem;)Ljava/lang/String;
 
     move-result-object v4
@@ -651,7 +637,6 @@
 
     .line 21
     :cond_114
-    # getter for: Lcom/discord/utilities/error/Error$SkemaError;->subErrors:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/utilities/error/Error$SkemaError;->access$600(Lcom/discord/utilities/error/Error$SkemaError;)Ljava/util/Map;
 
     move-result-object v0

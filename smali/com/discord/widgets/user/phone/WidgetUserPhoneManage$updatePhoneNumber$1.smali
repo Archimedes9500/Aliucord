@@ -113,7 +113,6 @@
     .line 5
     iget-object v2, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage$updatePhoneNumber$1;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;
 
-    # getter for: Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->captchaLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v2}, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->access$getCaptchaLauncher$p(Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v2

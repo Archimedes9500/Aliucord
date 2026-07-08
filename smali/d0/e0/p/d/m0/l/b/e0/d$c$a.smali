@@ -60,7 +60,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/l/b/e0/d$c$a;->this$0:Ld0/e0/p/d/m0/l/b/e0/d$c;
 
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/d$c;->a:Ljava/util/Map;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/e0/d$c;->access$getEnumEntryProtos$p(Ld0/e0/p/d/m0/l/b/e0/d$c;)Ljava/util/Map;
 
     move-result-object v0
@@ -91,7 +90,6 @@
 
     move-result-object v3
 
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/d$c;->c:Ld0/e0/p/d/m0/m/j;
     invoke-static {v2}, Ld0/e0/p/d/m0/l/b/e0/d$c;->access$getEnumMemberNames$p(Ld0/e0/p/d/m0/l/b/e0/d$c;)Ld0/e0/p/d/m0/m/j;
 
     move-result-object v4

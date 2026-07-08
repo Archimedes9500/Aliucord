@@ -93,7 +93,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreApplicationAssets$fetchIfNonExisting$1;->this$0:Lcom/discord/stores/StoreApplicationAssets;
 
-    # getter for: Lcom/discord/stores/StoreApplicationAssets;->embeddedAppBackgroundsLoading:Ljava/util/HashSet;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationAssets;->access$getEmbeddedAppBackgroundsLoading$p(Lcom/discord/stores/StoreApplicationAssets;)Ljava/util/HashSet;
 
     move-result-object v0
@@ -124,7 +123,6 @@
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationAssets$fetchIfNonExisting$1$1$1;->$applicationAssets:Ljava/util/List;
 
     .line 6
-    # invokes: Lcom/discord/stores/StoreApplicationAssets;->handleApplicationAssets(JLjava/util/List;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreApplicationAssets;->access$handleApplicationAssets(Lcom/discord/stores/StoreApplicationAssets;JLjava/util/List;)V
 
     return-void

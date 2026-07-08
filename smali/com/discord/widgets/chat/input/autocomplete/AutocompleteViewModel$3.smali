@@ -120,7 +120,6 @@
 
     invoke-static {p2, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompleteViewModel;->handleSelectionWithInputModel(Lkotlin/ranges/IntRange;Lcom/discord/widgets/chat/input/models/MentionInputModel;)Lcom/discord/widgets/chat/input/models/InputSelectionModel;
     invoke-static {v0, p1, p2}, Lcom/discord/widgets/chat/input/autocomplete/AutocompleteViewModel;->access$handleSelectionWithInputModel(Lcom/discord/widgets/chat/input/autocomplete/AutocompleteViewModel;Lkotlin/ranges/IntRange;Lcom/discord/widgets/chat/input/models/MentionInputModel;)Lcom/discord/widgets/chat/input/models/InputSelectionModel;
 
     move-result-object p1

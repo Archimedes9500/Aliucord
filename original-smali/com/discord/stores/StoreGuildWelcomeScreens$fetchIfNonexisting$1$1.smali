@@ -96,7 +96,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildWelcomeScreens$fetchIfNonexisting$1;->this$0:Lcom/discord/stores/StoreGuildWelcomeScreens;
 
-    # getter for: Lcom/discord/stores/StoreGuildWelcomeScreens;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildWelcomeScreens;->access$getDispatcher$p(Lcom/discord/stores/StoreGuildWelcomeScreens;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

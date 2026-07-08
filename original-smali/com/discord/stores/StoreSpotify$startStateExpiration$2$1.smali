@@ -96,7 +96,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreSpotify$startStateExpiration$2;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # invokes: Lcom/discord/stores/StoreSpotify;->publishState()V
     invoke-static {v0}, Lcom/discord/stores/StoreSpotify;->access$publishState(Lcom/discord/stores/StoreSpotify;)V
 
     return-void

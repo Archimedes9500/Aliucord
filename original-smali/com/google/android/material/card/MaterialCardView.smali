@@ -573,7 +573,6 @@
     .locals 1
 
     .line 1
-    # invokes: Landroidx/cardview/widget/CardView;->getRadius()F
     invoke-static {p0}, Lcom/google/android/material/card/MaterialCardView;->access$001(Lcom/google/android/material/card/MaterialCardView;)F
 
     move-result v0

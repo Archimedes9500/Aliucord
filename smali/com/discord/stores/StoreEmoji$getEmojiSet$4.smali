@@ -180,7 +180,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreEmoji$getEmojiSet$4;->this$0:Lcom/discord/stores/StoreEmoji;
 
-    # getter for: Lcom/discord/stores/StoreEmoji;->customEmojiStore:Lcom/discord/stores/StoreEmojiCustom;
     invoke-static {p1}, Lcom/discord/stores/StoreEmoji;->access$getCustomEmojiStore$p(Lcom/discord/stores/StoreEmoji;)Lcom/discord/stores/StoreEmojiCustom;
 
     move-result-object p1

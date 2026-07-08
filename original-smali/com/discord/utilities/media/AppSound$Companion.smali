@@ -94,7 +94,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_CALL_CALLING:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_CALL_CALLING$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -106,7 +105,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_CALL_RINGING:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_CALL_RINGING$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -118,7 +116,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_DEAFEN:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_DEAFEN$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -130,7 +127,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_MUTE:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_MUTE$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -142,7 +138,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_RECONNECT:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_RECONNECT$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -154,7 +149,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_STREAM_ENDED:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_STREAM_ENDED$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -166,7 +160,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_STREAM_STARTED:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_STREAM_STARTED$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -178,7 +171,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_STREAM_USER_JOINED:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_STREAM_USER_JOINED$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -190,7 +182,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_STREAM_USER_LEFT:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_STREAM_USER_LEFT$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -202,7 +193,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_UNDEAFEN:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_UNDEAFEN$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -214,7 +204,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_UNMUTE:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_UNMUTE$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -226,7 +215,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_USER_JOINED:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_USER_JOINED$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -238,7 +226,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_USER_LEFT:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_USER_LEFT$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0
@@ -250,7 +237,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/media/AppSound;->SOUND_USER_MOVED:Lcom/discord/utilities/media/AppSound;
     invoke-static {}, Lcom/discord/utilities/media/AppSound;->access$getSOUND_USER_MOVED$cp()Lcom/discord/utilities/media/AppSound;
 
     move-result-object v0

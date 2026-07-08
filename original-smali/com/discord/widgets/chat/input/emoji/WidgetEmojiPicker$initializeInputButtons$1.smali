@@ -73,7 +73,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$initializeInputButtons$1;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->getViewModel()Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$getViewModel$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel;
 
     move-result-object p1

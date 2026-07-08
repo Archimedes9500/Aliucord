@@ -72,7 +72,6 @@
     .line 1
     iget-object p2, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$setUpEmojiRecycler$3;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->checkUpsellHeaderVisibility(Landroidx/recyclerview/widget/RecyclerView;)V
     invoke-static {p2, p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$checkUpsellHeaderVisibility(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;Landroidx/recyclerview/widget/RecyclerView;)V
 
     return-void

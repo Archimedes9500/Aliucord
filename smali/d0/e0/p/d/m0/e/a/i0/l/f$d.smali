@@ -59,7 +59,6 @@
     .line 3
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/l/f$d;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/f;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/f;->u:Ld0/e0/p/d/m0/e/a/i0/g;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/l/f;->access$getC$p(Ld0/e0/p/d/m0/e/a/i0/l/f;)Ld0/e0/p/d/m0/e/a/i0/g;
 
     move-result-object v2
@@ -73,7 +72,6 @@
     .line 4
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/l/f$d;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/f;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/f;->t:Ld0/e0/p/d/m0/c/e;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/l/f;->access$getAdditionalSupertypeClassDescriptor$p(Ld0/e0/p/d/m0/e/a/i0/l/f;)Ld0/e0/p/d/m0/c/e;
 
     move-result-object v0
@@ -95,7 +93,6 @@
     :goto_20
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/l/f$d;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/f;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/f;->A:Ld0/e0/p/d/m0/e/a/i0/l/h;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/l/f;->access$getUnsubstitutedMemberScope$p(Ld0/e0/p/d/m0/e/a/i0/l/f;)Ld0/e0/p/d/m0/e/a/i0/l/h;
 
     move-result-object v6

@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/stage/sheet/WidgetStageAudienceNoticeBottomSheet$onResume$1;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageAudienceNoticeBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageAudienceNoticeBottomSheet;->configureUI(Lcom/discord/api/stageinstance/StageInstance;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/stage/sheet/WidgetStageAudienceNoticeBottomSheet;->access$configureUI(Lcom/discord/widgets/stage/sheet/WidgetStageAudienceNoticeBottomSheet;Lcom/discord/api/stageinstance/StageInstance;)V
 
     return-void

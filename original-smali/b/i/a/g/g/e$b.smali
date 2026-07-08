@@ -43,13 +43,11 @@
 
     const/4 v0, 0x0
 
-    # invokes: Landroid/graphics/drawable/Drawable;->setVisible(ZZ)Z
     invoke-static {p1, v0, v0}, Lb/i/a/g/g/e;->access$101(Lb/i/a/g/g/e;ZZ)Z
 
     .line 3
     iget-object p1, p0, Lb/i/a/g/g/e$b;->a:Lb/i/a/g/g/e;
 
-    # invokes: Lb/i/a/g/g/e;->dispatchAnimationEnd()V
     invoke-static {p1}, Lb/i/a/g/g/e;->access$200(Lb/i/a/g/g/e;)V
 
     return-void

@@ -99,7 +99,6 @@
 
     move-result-object v2
 
-    # invokes: Lcom/discord/stores/StoreUser;->fetchMissing(Ljava/util/Collection;Ljava/util/Set;)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreUser;->access$fetchMissing(Lcom/discord/stores/StoreUser;Ljava/util/Collection;Ljava/util/Set;)V
 
     return-void

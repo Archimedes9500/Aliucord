@@ -89,7 +89,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareEmptySuggestions$initBottomSheetBehavior$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareEmptySuggestions;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareEmptySuggestions;->getViewModel()Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;
     invoke-static {v0}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareEmptySuggestions;->access$getViewModel$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareEmptySuggestions;)Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;
 
     move-result-object v0
@@ -100,7 +99,6 @@
     :cond_11
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareEmptySuggestions$initBottomSheetBehavior$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareEmptySuggestions;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareEmptySuggestions;->getBinding()Lcom/discord/databinding/WidgetGuildInviteShareEmptySuggestionsBinding;
     invoke-static {v0}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareEmptySuggestions;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareEmptySuggestions;)Lcom/discord/databinding/WidgetGuildInviteShareEmptySuggestionsBinding;
 
     move-result-object v0

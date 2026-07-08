@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$configureUI$3;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSync;->getBinding()Lcom/discord/databinding/WidgetContactSyncBinding;
     invoke-static {p1}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$getBinding$p(Lcom/discord/widgets/contact_sync/WidgetContactSync;)Lcom/discord/databinding/WidgetContactSyncBinding;
 
     move-result-object p1
@@ -88,7 +87,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$configureUI$3;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSync;->getViewModel()Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
     invoke-static {v0}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$getViewModel$p(Lcom/discord/widgets/contact_sync/WidgetContactSync;)Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
 
     move-result-object v0

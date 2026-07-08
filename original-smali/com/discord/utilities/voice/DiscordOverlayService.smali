@@ -312,7 +312,6 @@
 
     const-string v0, "com.discord.actions.OVERLAY_CLOSE"
 
-    # invokes: Lcom/discord/utilities/voice/DiscordOverlayService$Companion;->createOverlayIntent(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
     invoke-static {p1, p0, v0}, Lcom/discord/utilities/voice/DiscordOverlayService$Companion;->access$createOverlayIntent(Lcom/discord/utilities/voice/DiscordOverlayService$Companion;Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object p1

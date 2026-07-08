@@ -100,7 +100,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreStageChannels$observeStageChannels$1;->this$0:Lcom/discord/stores/StoreStageChannels;
 
-    # getter for: Lcom/discord/stores/StoreStageChannels;->guildsStore:Lcom/discord/stores/StoreGuilds;
     invoke-static {v0}, Lcom/discord/stores/StoreStageChannels;->access$getGuildsStore$p(Lcom/discord/stores/StoreStageChannels;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v0

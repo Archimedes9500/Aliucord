@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$initializeSearchBar$3;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->handleInputChanged(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$handleInputChanged(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;Ljava/lang/String;)V
 
     return-void

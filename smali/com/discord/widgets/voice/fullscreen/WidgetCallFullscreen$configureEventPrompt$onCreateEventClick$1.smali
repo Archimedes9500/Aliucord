@@ -111,7 +111,6 @@
     .line 6
     iget-object v4, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$configureEventPrompt$onCreateEventClick$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getChannelId()J
     invoke-static {v4}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getChannelId(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)J
 
     move-result-wide v4

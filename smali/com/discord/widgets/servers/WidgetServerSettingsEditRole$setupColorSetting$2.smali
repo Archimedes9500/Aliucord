@@ -74,7 +74,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->getLockMessage(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model;Z)Ljava/lang/String;
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->access$getLockMessage(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model;Z)Ljava/lang/String;
 
     move-result-object v0

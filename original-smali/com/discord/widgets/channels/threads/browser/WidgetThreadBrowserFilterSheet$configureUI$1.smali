@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet$configureUI$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->getBinding()Lcom/discord/databinding/WidgetThreadBrowserFilterSheetBinding;
     invoke-static {p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->access$getBinding$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;)Lcom/discord/databinding/WidgetThreadBrowserFilterSheetBinding;
 
     move-result-object p1
@@ -78,14 +77,12 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet$configureUI$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->getViewModel()Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
     invoke-static {p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->access$getViewModel$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;)Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet$configureUI$1;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->getBinding()Lcom/discord/databinding/WidgetThreadBrowserFilterSheetBinding;
     invoke-static {v0}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;->access$getBinding$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserFilterSheet;)Lcom/discord/databinding/WidgetThreadBrowserFilterSheetBinding;
 
     move-result-object v0

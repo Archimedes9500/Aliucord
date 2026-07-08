@@ -99,7 +99,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lcom/discord/widgets/home/WidgetHomePanelNsfw;->setContainerViewHidden(ZLkotlin/jvm/functions/Function1;)V
     invoke-static {p1, v1, v0}, Lcom/discord/widgets/home/WidgetHomePanelNsfw;->access$setContainerViewHidden(Lcom/discord/widgets/home/WidgetHomePanelNsfw;ZLkotlin/jvm/functions/Function1;)V
 
     return-void

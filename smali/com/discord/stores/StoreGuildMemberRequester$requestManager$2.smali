@@ -124,7 +124,6 @@
     check-cast v0, Lcom/discord/stores/StoreGuildMemberRequester;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreGuildMemberRequester;->sendRequests(JLjava/util/List;)V
     invoke-static {v0, p1, p2, p3}, Lcom/discord/stores/StoreGuildMemberRequester;->access$sendRequests(Lcom/discord/stores/StoreGuildMemberRequester;JLjava/util/List;)V
 
     return-void

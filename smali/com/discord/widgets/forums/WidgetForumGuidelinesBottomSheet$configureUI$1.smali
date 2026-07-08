@@ -75,7 +75,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/forums/WidgetForumGuidelinesBottomSheet$configureUI$1;->this$0:Lcom/discord/widgets/forums/WidgetForumGuidelinesBottomSheet;
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumGuidelinesBottomSheet;->getRequestKey()Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/forums/WidgetForumGuidelinesBottomSheet;->access$getRequestKey$p(Lcom/discord/widgets/forums/WidgetForumGuidelinesBottomSheet;)Ljava/lang/String;
 
     move-result-object v0

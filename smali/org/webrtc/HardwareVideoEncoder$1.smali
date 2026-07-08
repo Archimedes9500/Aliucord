@@ -39,7 +39,6 @@
     :goto_0
     iget-object v0, p0, Lorg/webrtc/HardwareVideoEncoder$1;->this$0:Lorg/webrtc/HardwareVideoEncoder;
 
-    # getter for: Lorg/webrtc/HardwareVideoEncoder;->running:Z
     invoke-static {v0}, Lorg/webrtc/HardwareVideoEncoder;->access$100(Lorg/webrtc/HardwareVideoEncoder;)Z
 
     move-result v0
@@ -57,7 +56,6 @@
     :cond_e
     iget-object v0, p0, Lorg/webrtc/HardwareVideoEncoder$1;->this$0:Lorg/webrtc/HardwareVideoEncoder;
 
-    # invokes: Lorg/webrtc/HardwareVideoEncoder;->releaseCodecOnOutputThread()V
     invoke-static {v0}, Lorg/webrtc/HardwareVideoEncoder;->access$200(Lorg/webrtc/HardwareVideoEncoder;)V
 
     return-void

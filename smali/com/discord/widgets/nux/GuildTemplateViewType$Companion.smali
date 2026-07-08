@@ -70,7 +70,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/nux/GuildTemplateViewType;->TEMPLATE:I
     invoke-static {}, Lcom/discord/widgets/nux/GuildTemplateViewType;->access$getTEMPLATE$cp()I
 
     move-result v0
@@ -82,7 +81,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/nux/GuildTemplateViewType;->TEXT:I
     invoke-static {}, Lcom/discord/widgets/nux/GuildTemplateViewType;->access$getTEXT$cp()I
 
     move-result v0

@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet$onViewCreated$2;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;->getViewModel()Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;->access$getViewModel$p(Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;)Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;
 
     move-result-object v0

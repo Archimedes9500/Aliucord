@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/channels/WidgetCreateChannel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel;->onChannelCreated(Lcom/discord/api/channel/Channel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/WidgetCreateChannel;->access$onChannelCreated(Lcom/discord/widgets/channels/WidgetCreateChannel;Lcom/discord/api/channel/Channel;)V
 
     return-void

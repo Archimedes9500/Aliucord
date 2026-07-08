@@ -95,7 +95,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreApplicationStreamPreviews$handleFetchFailed$3;->this$0:Lcom/discord/stores/StoreApplicationStreamPreviews;
 
-    # getter for: Lcom/discord/stores/StoreApplicationStreamPreviews;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreApplicationStreamPreviews;->access$getDispatcher$p(Lcom/discord/stores/StoreApplicationStreamPreviews;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

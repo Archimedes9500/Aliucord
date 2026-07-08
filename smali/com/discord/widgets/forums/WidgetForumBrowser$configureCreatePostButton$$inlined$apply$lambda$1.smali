@@ -89,7 +89,6 @@
 
     iget-boolean v5, p0, Lcom/discord/widgets/forums/WidgetForumBrowser$configureCreatePostButton$$inlined$apply$lambda$1;->$hasForumGuidelines:Z
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowser;->onCreatePostClick(JJZ)V
     invoke-static/range {v0 .. v5}, Lcom/discord/widgets/forums/WidgetForumBrowser;->access$onCreatePostClick(Lcom/discord/widgets/forums/WidgetForumBrowser;JJZ)V
 
     return-void

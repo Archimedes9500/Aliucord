@@ -95,7 +95,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureThemeOption$1;->$settingTheme:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->updateTheme(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$updateTheme(Lcom/discord/widgets/settings/WidgetSettingsAppearance;Ljava/lang/String;)V
 
     :cond_12

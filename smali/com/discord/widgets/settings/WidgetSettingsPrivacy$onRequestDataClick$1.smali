@@ -151,7 +151,6 @@
     const/4 p1, 0x1
 
     .line 9
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->configureRequestDataButton(ZLcom/discord/utilities/rest/RestAPI$HarvestState;)V
     invoke-static {v0, p1, v1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$configureRequestDataButton(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;ZLcom/discord/utilities/rest/RestAPI$HarvestState;)V
 
     return-void

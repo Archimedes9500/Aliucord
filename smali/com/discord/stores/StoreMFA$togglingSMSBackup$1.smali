@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreMFA$togglingSMSBackup$1;->this$0:Lcom/discord/stores/StoreMFA;
 
-    # getter for: Lcom/discord/stores/StoreMFA;->state:Lcom/discord/stores/StoreMFA$State;
     invoke-static {v0}, Lcom/discord/stores/StoreMFA;->access$getState$p(Lcom/discord/stores/StoreMFA;)Lcom/discord/stores/StoreMFA$State;
 
     move-result-object v1

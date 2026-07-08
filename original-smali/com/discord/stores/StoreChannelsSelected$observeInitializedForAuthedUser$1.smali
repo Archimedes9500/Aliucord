@@ -118,7 +118,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/stores/StoreChannelsSelected$observeInitializedForAuthedUser$1;->this$0:Lcom/discord/stores/StoreChannelsSelected;
 
-    # getter for: Lcom/discord/stores/StoreChannelsSelected;->observationDeck:Lcom/discord/stores/updates/ObservationDeck;
     invoke-static {p1}, Lcom/discord/stores/StoreChannelsSelected;->access$getObservationDeck$p(Lcom/discord/stores/StoreChannelsSelected;)Lcom/discord/stores/updates/ObservationDeck;
 
     move-result-object v0
@@ -130,7 +129,6 @@
     const/4 p1, 0x0
 
     .line 4
-    # getter for: Lcom/discord/stores/StoreChannelsSelected;->InitializedUpdateSource:Lcom/discord/stores/StoreChannelsSelected$Companion$InitializedUpdateSource$1;
     invoke-static {}, Lcom/discord/stores/StoreChannelsSelected;->access$getInitializedUpdateSource$cp()Lcom/discord/stores/StoreChannelsSelected$Companion$InitializedUpdateSource$1;
 
     move-result-object v2

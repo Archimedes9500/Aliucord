@@ -96,7 +96,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$scrollToMessageId$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->publishInteractionState()V
     invoke-static {v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->access$publishInteractionState(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;)V
 
     .line 4

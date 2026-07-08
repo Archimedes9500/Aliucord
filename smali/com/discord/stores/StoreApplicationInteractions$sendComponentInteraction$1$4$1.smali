@@ -93,7 +93,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreApplicationInteractions$sendComponentInteraction$1;->this$0:Lcom/discord/stores/StoreApplicationInteractions;
 
-    # getter for: Lcom/discord/stores/StoreApplicationInteractions;->storeLocalActionComponentState:Lcom/discord/stores/StoreLocalActionComponentState;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationInteractions;->access$getStoreLocalActionComponentState$p(Lcom/discord/stores/StoreApplicationInteractions;)Lcom/discord/stores/StoreLocalActionComponentState;
 
     move-result-object v0
@@ -164,7 +163,6 @@
     invoke-direct {v4, v5}, Lcom/discord/stores/StoreApplicationInteractions$InteractionSendState$Failed;-><init>(Ljava/lang/String;)V
 
     .line 8
-    # invokes: Lcom/discord/stores/StoreApplicationInteractions;->addInteractionStateToComponent(JILcom/discord/stores/StoreApplicationInteractions$InteractionSendState;)V
     invoke-static {v1, v2, v3, v0, v4}, Lcom/discord/stores/StoreApplicationInteractions;->access$addInteractionStateToComponent(Lcom/discord/stores/StoreApplicationInteractions;JILcom/discord/stores/StoreApplicationInteractions$InteractionSendState;)V
 
     return-void

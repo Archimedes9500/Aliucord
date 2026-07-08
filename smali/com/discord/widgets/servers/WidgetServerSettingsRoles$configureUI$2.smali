@@ -115,7 +115,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsRoles$configureUI$2;->$data:Lcom/discord/widgets/servers/WidgetServerSettingsRoles$Model;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsRoles;->processRoleDrop(Ljava/util/Map;Lcom/discord/widgets/servers/WidgetServerSettingsRoles$Model;)V
     invoke-static {v0, p1, v1}, Lcom/discord/widgets/servers/WidgetServerSettingsRoles;->access$processRoleDrop(Lcom/discord/widgets/servers/WidgetServerSettingsRoles;Ljava/util/Map;Lcom/discord/widgets/servers/WidgetServerSettingsRoles$Model;)V
 
     return-void

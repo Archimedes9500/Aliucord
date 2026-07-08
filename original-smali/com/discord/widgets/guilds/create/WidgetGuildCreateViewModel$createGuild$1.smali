@@ -98,7 +98,6 @@
 
     invoke-direct {v1, p1}, Lcom/discord/models/guild/Guild;-><init>(Lcom/discord/api/guild/Guild;)V
 
-    # invokes: Lcom/discord/widgets/guilds/create/WidgetGuildCreateViewModel;->handleGuildCreateSuccess(Lcom/discord/models/guild/Guild;)V
     invoke-static {v0, v1}, Lcom/discord/widgets/guilds/create/WidgetGuildCreateViewModel;->access$handleGuildCreateSuccess(Lcom/discord/widgets/guilds/create/WidgetGuildCreateViewModel;Lcom/discord/models/guild/Guild;)V
 
     return-void

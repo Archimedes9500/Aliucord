@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet$configureBottomContent$8;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->getViewModel()Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->access$getViewModel$p(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;)Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;
 
     move-result-object v0

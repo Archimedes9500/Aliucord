@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGifPicker$observeTrendingGifCategoryPreviewUrl$1;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->getTrendingGifCategoryPreviewUrl()Ljava/lang/String;
     invoke-static {v0}, Lcom/discord/stores/StoreGifPicker;->access$getTrendingGifCategoryPreviewUrl(Lcom/discord/stores/StoreGifPicker;)Ljava/lang/String;
 
     move-result-object v0

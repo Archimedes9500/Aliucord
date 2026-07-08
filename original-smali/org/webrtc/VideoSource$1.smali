@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->nativeAndroidVideoTrackSource:Lorg/webrtc/NativeAndroidVideoTrackSource;
     invoke-static {v0}, Lorg/webrtc/VideoSource;->access$000(Lorg/webrtc/VideoSource;)Lorg/webrtc/NativeAndroidVideoTrackSource;
 
     move-result-object v0
@@ -51,7 +50,6 @@
     .line 2
     iget-object v0, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->videoProcessorLock:Ljava/lang/Object;
     invoke-static {v0}, Lorg/webrtc/VideoSource;->access$100(Lorg/webrtc/VideoSource;)Ljava/lang/Object;
 
     move-result-object v0
@@ -62,13 +60,11 @@
     :try_start_10
     iget-object v1, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # setter for: Lorg/webrtc/VideoSource;->isCapturerRunning:Z
     invoke-static {v1, p1}, Lorg/webrtc/VideoSource;->access$202(Lorg/webrtc/VideoSource;Z)Z
 
     .line 4
     iget-object v1, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->videoProcessor:Lorg/webrtc/VideoProcessor;
     invoke-static {v1}, Lorg/webrtc/VideoSource;->access$300(Lorg/webrtc/VideoSource;)Lorg/webrtc/VideoProcessor;
 
     move-result-object v1
@@ -78,7 +74,6 @@
     .line 5
     iget-object v1, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->videoProcessor:Lorg/webrtc/VideoProcessor;
     invoke-static {v1}, Lorg/webrtc/VideoSource;->access$300(Lorg/webrtc/VideoSource;)Lorg/webrtc/VideoProcessor;
 
     move-result-object v1
@@ -107,7 +102,6 @@
     .line 1
     iget-object v0, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->nativeAndroidVideoTrackSource:Lorg/webrtc/NativeAndroidVideoTrackSource;
     invoke-static {v0}, Lorg/webrtc/VideoSource;->access$000(Lorg/webrtc/VideoSource;)Lorg/webrtc/NativeAndroidVideoTrackSource;
 
     move-result-object v0
@@ -119,7 +113,6 @@
     .line 2
     iget-object v0, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->videoProcessorLock:Ljava/lang/Object;
     invoke-static {v0}, Lorg/webrtc/VideoSource;->access$100(Lorg/webrtc/VideoSource;)Ljava/lang/Object;
 
     move-result-object v0
@@ -130,13 +123,11 @@
     :try_start_11
     iget-object v2, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # setter for: Lorg/webrtc/VideoSource;->isCapturerRunning:Z
     invoke-static {v2, v1}, Lorg/webrtc/VideoSource;->access$202(Lorg/webrtc/VideoSource;Z)Z
 
     .line 4
     iget-object v1, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->videoProcessor:Lorg/webrtc/VideoProcessor;
     invoke-static {v1}, Lorg/webrtc/VideoSource;->access$300(Lorg/webrtc/VideoSource;)Lorg/webrtc/VideoProcessor;
 
     move-result-object v1
@@ -146,7 +137,6 @@
     .line 5
     iget-object v1, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->videoProcessor:Lorg/webrtc/VideoProcessor;
     invoke-static {v1}, Lorg/webrtc/VideoSource;->access$300(Lorg/webrtc/VideoSource;)Lorg/webrtc/VideoProcessor;
 
     move-result-object v1
@@ -176,7 +166,6 @@
     iget-object v0, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
     .line 2
-    # getter for: Lorg/webrtc/VideoSource;->nativeAndroidVideoTrackSource:Lorg/webrtc/NativeAndroidVideoTrackSource;
     invoke-static {v0}, Lorg/webrtc/VideoSource;->access$000(Lorg/webrtc/VideoSource;)Lorg/webrtc/NativeAndroidVideoTrackSource;
 
     move-result-object v0
@@ -188,7 +177,6 @@
     .line 3
     iget-object v1, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->videoProcessorLock:Ljava/lang/Object;
     invoke-static {v1}, Lorg/webrtc/VideoSource;->access$100(Lorg/webrtc/VideoSource;)Ljava/lang/Object;
 
     move-result-object v1
@@ -199,7 +187,6 @@
     :try_start_11
     iget-object v2, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->videoProcessor:Lorg/webrtc/VideoProcessor;
     invoke-static {v2}, Lorg/webrtc/VideoSource;->access$300(Lorg/webrtc/VideoSource;)Lorg/webrtc/VideoProcessor;
 
     move-result-object v2
@@ -209,7 +196,6 @@
     .line 5
     iget-object v2, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->videoProcessor:Lorg/webrtc/VideoProcessor;
     invoke-static {v2}, Lorg/webrtc/VideoSource;->access$300(Lorg/webrtc/VideoSource;)Lorg/webrtc/VideoProcessor;
 
     move-result-object v2
@@ -237,7 +223,6 @@
     .line 9
     iget-object v0, p0, Lorg/webrtc/VideoSource$1;->this$0:Lorg/webrtc/VideoSource;
 
-    # getter for: Lorg/webrtc/VideoSource;->nativeAndroidVideoTrackSource:Lorg/webrtc/NativeAndroidVideoTrackSource;
     invoke-static {v0}, Lorg/webrtc/VideoSource;->access$000(Lorg/webrtc/VideoSource;)Lorg/webrtc/NativeAndroidVideoTrackSource;
 
     move-result-object v0

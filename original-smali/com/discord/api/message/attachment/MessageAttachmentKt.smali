@@ -57,7 +57,7 @@
 
 # direct methods
 .method public static constructor <clinit>()V
-    .locals 6
+    .locals 7
 
     const-string v0, ".jpeg"
 
@@ -71,8 +71,10 @@
 
     const-string v5, ".webp"
 
+    const-string v6, ".avif"
+
     .line 1
-    filled-new-array/range {v0 .. v5}, [Ljava/lang/String;
+    filled-new-array/range {v0 .. v6}, [Ljava/lang/String;
 
     move-result-object v0
 

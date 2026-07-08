@@ -274,7 +274,6 @@
 
     move v6, p5
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheetViewModel$Companion;->observeStoreState(JLcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreChannels;Z)Lrx/Observable;
     invoke-static/range {v1 .. v6}, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheetViewModel$Companion;JLcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreChannels;Z)Lrx/Observable;
 
     move-result-object v0

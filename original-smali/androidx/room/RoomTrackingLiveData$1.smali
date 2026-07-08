@@ -137,7 +137,6 @@
     .line 7
     iget-object v4, p0, Landroidx/room/RoomTrackingLiveData$1;->this$0:Landroidx/room/RoomTrackingLiveData;
 
-    # invokes: Landroidx/lifecycle/LiveData;->postValue(Ljava/lang/Object;)V
     invoke-static {v4, v0}, Landroidx/room/RoomTrackingLiveData;->access$000(Landroidx/room/RoomTrackingLiveData;Ljava/lang/Object;)V
     :try_end_4b
     .catchall {:try_start_3c .. :try_end_4b} :catchall_53

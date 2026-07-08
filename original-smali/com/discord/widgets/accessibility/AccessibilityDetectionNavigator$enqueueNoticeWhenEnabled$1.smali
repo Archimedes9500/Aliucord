@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/accessibility/AccessibilityDetectionNavigator;
 
     .line 2
-    # invokes: Lcom/discord/widgets/accessibility/AccessibilityDetectionNavigator;->showAccessibilityDetectionDialog(Lcom/discord/utilities/accessibility/AccessibilityState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/accessibility/AccessibilityDetectionNavigator;->access$showAccessibilityDetectionDialog(Lcom/discord/widgets/accessibility/AccessibilityDetectionNavigator;Lcom/discord/utilities/accessibility/AccessibilityState;)V
 
     return-void

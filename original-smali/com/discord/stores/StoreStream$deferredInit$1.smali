@@ -91,7 +91,6 @@
 
     iget-object v0, p0, Lcom/discord/stores/StoreStream$deferredInit$1;->this$0:Lcom/discord/stores/StoreStream;
 
-    # getter for: Lcom/discord/stores/StoreStream;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v0}, Lcom/discord/stores/StoreStream;->access$getClock$p(Lcom/discord/stores/StoreStream;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v1
@@ -118,7 +117,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/stores/StoreStream$deferredInit$1;->this$0:Lcom/discord/stores/StoreStream;
 
-    # invokes: Lcom/discord/stores/StoreStream;->startStoreInitializationTimer(Lcom/discord/utilities/networking/NetworkMonitor;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreStream;->access$startStoreInitializationTimer(Lcom/discord/stores/StoreStream;Lcom/discord/utilities/networking/NetworkMonitor;)V
 
     .line 5
@@ -521,7 +519,6 @@
     .line 42
     iget-object v1, p0, Lcom/discord/stores/StoreStream$deferredInit$1;->this$0:Lcom/discord/stores/StoreStream;
 
-    # getter for: Lcom/discord/stores/StoreStream;->streamRtcConnection:Lcom/discord/stores/StoreStreamRtcConnection;
     invoke-static {v1}, Lcom/discord/stores/StoreStream;->access$getStreamRtcConnection$p(Lcom/discord/stores/StoreStream;)Lcom/discord/stores/StoreStreamRtcConnection;
 
     move-result-object v1
@@ -683,7 +680,6 @@
 
     const-string/jumbo v3, "streamPreLogout"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 60
@@ -708,7 +704,6 @@
 
     const-string/jumbo v3, "streamAuthState"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 64
@@ -733,7 +728,6 @@
 
     const-string/jumbo v3, "streamAuthedFingerprint"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 68
@@ -758,7 +752,6 @@
 
     const-string/jumbo v3, "streamMessagesLoaded"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 72
@@ -783,7 +776,6 @@
 
     const-string/jumbo v3, "streamChannelSelected"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 76
@@ -808,7 +800,6 @@
 
     const-string/jumbo v3, "streamVoiceChannelSelected"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 80
@@ -833,7 +824,6 @@
 
     const-string/jumbo v3, "streamUserSpeaking"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 84
@@ -856,7 +846,6 @@
 
     const-string/jumbo v3, "streamRtcConnectionStateChanged"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 86
@@ -879,13 +868,11 @@
 
     const-string/jumbo v3, "streamRtcSpeakingUpdates"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 88
     iget-object v0, p0, Lcom/discord/stores/StoreStream$deferredInit$1;->this$0:Lcom/discord/stores/StoreStream;
 
-    # invokes: Lcom/discord/stores/StoreStream;->initGatewaySocketListeners()V
     invoke-static {v0}, Lcom/discord/stores/StoreStream;->access$initGatewaySocketListeners(Lcom/discord/stores/StoreStream;)V
 
     .line 89
@@ -908,7 +895,6 @@
 
     const-string/jumbo v3, "streamBackgrounded"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 93
@@ -978,7 +964,6 @@
 
     iget-object v3, p0, Lcom/discord/stores/StoreStream$deferredInit$1;->this$0:Lcom/discord/stores/StoreStream;
 
-    # getter for: Lcom/discord/stores/StoreStream;->initialized:Lrx/subjects/BehaviorSubject;
     invoke-static {v3}, Lcom/discord/stores/StoreStream;->access$getInitialized$p(Lcom/discord/stores/StoreStream;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v3
@@ -987,7 +972,6 @@
 
     const-string/jumbo v3, "streamInit"
 
-    # invokes: Lcom/discord/stores/StoreStream;->dispatchSubscribe(Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v3, v2}, Lcom/discord/stores/StoreStream;->access$dispatchSubscribe(Lcom/discord/stores/StoreStream;Lrx/Observable;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     .line 106
@@ -1031,12 +1015,10 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreStream$deferredInit$1;->$context:Landroid/app/Application;
 
-    # getter for: Lcom/discord/stores/StoreStream;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v0}, Lcom/discord/stores/StoreStream;->access$getClock$p(Lcom/discord/stores/StoreStream;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v2
 
-    # invokes: Lcom/discord/stores/StoreStream;->maybeLogNotificationPermissionStatus(Landroid/app/Application;Lcom/discord/utilities/time/Clock;)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreStream;->access$maybeLogNotificationPermissionStatus(Lcom/discord/stores/StoreStream;Landroid/app/Application;Lcom/discord/utilities/time/Clock;)V
 
     return-void

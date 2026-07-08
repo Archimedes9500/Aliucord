@@ -56,7 +56,6 @@
     .line 1
     iget-object v0, p0, Ld0/e0/p/d/m0/e/b/w$a;->this$0:Ld0/e0/p/d/m0/e/b/w;
 
-    # invokes: Ld0/e0/p/d/m0/e/b/w;->a(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, p1}, Ld0/e0/p/d/m0/e/b/w;->access$escapeClassName(Ld0/e0/p/d/m0/e/b/w;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1

@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/intent/RouteHandlers$AnalyticsMetadata;->UNKNOWN:Lcom/discord/utilities/intent/RouteHandlers$AnalyticsMetadata;
     invoke-static {}, Lcom/discord/utilities/intent/RouteHandlers$AnalyticsMetadata;->access$getUNKNOWN$cp()Lcom/discord/utilities/intent/RouteHandlers$AnalyticsMetadata;
 
     move-result-object v0

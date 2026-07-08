@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBound$4;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # invokes: Lcom/discord/widgets/share/WidgetIncomingShare;->getBinding()Lcom/discord/databinding/WidgetIncomingShareBinding;
     invoke-static {p1}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getBinding$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lcom/discord/databinding/WidgetIncomingShareBinding;
 
     move-result-object p1
@@ -103,7 +102,6 @@
     :cond_20
     iget-object v0, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBound$4;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # getter for: Lcom/discord/widgets/share/WidgetIncomingShare;->selectedReceiverPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getSelectedReceiverPublisher$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/WidgetChannelTopic$configureEllipsis$1;->this$0:Lcom/discord/widgets/channels/WidgetChannelTopic;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelTopic;->onToggleTopicExpansionState()V
     invoke-static {p1}, Lcom/discord/widgets/channels/WidgetChannelTopic;->access$onToggleTopicExpansionState(Lcom/discord/widgets/channels/WidgetChannelTopic;)V
 
     return-void

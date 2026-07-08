@@ -139,7 +139,6 @@
 
     iget-object v1, v1, Lcom/discord/utilities/integrations/SpotifyHelper$launchAlbum$1;->$context:Landroid/content/Context;
 
-    # invokes: Lcom/discord/utilities/integrations/SpotifyHelper;->launchSpotifyIntent(Landroid/content/Context;Landroid/content/Intent;)V
     invoke-static {p1, v1, v0}, Lcom/discord/utilities/integrations/SpotifyHelper;->access$launchSpotifyIntent(Lcom/discord/utilities/integrations/SpotifyHelper;Landroid/content/Context;Landroid/content/Intent;)V
 
     :cond_37

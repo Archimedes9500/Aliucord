@@ -73,7 +73,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$configureUI$2;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->getBinding()Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
     invoke-static {p1}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getBinding$p(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;)Lcom/discord/databinding/WidgetVoiceChannelSettingsBinding;
 
     move-result-object p1
@@ -86,7 +85,6 @@
 
     iget-object p3, p0, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings$configureUI$2;->this$0:Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->getUserLimitDisplayString(I)Ljava/lang/CharSequence;
     invoke-static {p3, p2}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$getUserLimitDisplayString(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;I)Ljava/lang/CharSequence;
 
     move-result-object p2

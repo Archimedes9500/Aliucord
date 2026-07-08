@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/search/WidgetSearch$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/search/WidgetSearch;
 
-    # invokes: Lcom/discord/widgets/search/WidgetSearch;->configureUI(Lcom/discord/widgets/search/WidgetSearch$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/search/WidgetSearch;->access$configureUI(Lcom/discord/widgets/search/WidgetSearch;Lcom/discord/widgets/search/WidgetSearch$Model;)V
 
     return-void

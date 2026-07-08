@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildRoleSubscriptions$fetchGuildRoleSubscriptionGroup$3;->this$0:Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleSubscriptions;->guildRoleSubscriptionGroups:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$getGuildRoleSubscriptionGroups$p(Lcom/discord/stores/StoreGuildRoleSubscriptions;)Ljava/util/Map;
 
     move-result-object v0

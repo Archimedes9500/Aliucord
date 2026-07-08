@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreAnalytics$onOverlayVoiceEvent$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0
@@ -128,7 +127,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/stores/StoreAnalytics$onOverlayVoiceEvent$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->selectedVoiceChannel:Lcom/discord/api/channel/Channel;
     invoke-static {v1}, Lcom/discord/stores/StoreAnalytics;->access$getSelectedVoiceChannel$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/api/channel/Channel;
 
     move-result-object v1
@@ -143,7 +141,6 @@
 
     move-result-wide v4
 
-    # invokes: Lcom/discord/stores/StoreAnalytics;->getGuildAnalyticsPropertiesInternal(J)Ljava/util/Map;
     invoke-static {v3, v4, v5}, Lcom/discord/stores/StoreAnalytics;->access$getGuildAnalyticsPropertiesInternal(Lcom/discord/stores/StoreAnalytics;J)Ljava/util/Map;
 
     move-result-object v1
@@ -171,7 +168,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreAnalytics$onOverlayVoiceEvent$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->selectedVoiceChannel:Lcom/discord/api/channel/Channel;
     invoke-static {v1}, Lcom/discord/stores/StoreAnalytics;->access$getSelectedVoiceChannel$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/api/channel/Channel;
 
     move-result-object v1

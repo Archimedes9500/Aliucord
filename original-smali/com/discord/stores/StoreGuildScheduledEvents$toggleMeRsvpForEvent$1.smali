@@ -122,7 +122,6 @@
 
     iget-object v4, p0, Lcom/discord/stores/StoreGuildScheduledEvents$toggleMeRsvpForEvent$1;->$storeEvent:Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->userStore:Lcom/discord/stores/StoreUser;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getUserStore$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Lcom/discord/stores/StoreUser;
 
     move-result-object v5
@@ -135,7 +134,6 @@
 
     move-result-wide v5
 
-    # invokes: Lcom/discord/stores/StoreGuildScheduledEvents;->processRsvpDelete(Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;J)V
     invoke-static {v0, v4, v5, v6}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$processRsvpDelete(Lcom/discord/stores/StoreGuildScheduledEvents;Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;J)V
 
     .line 4
@@ -206,7 +204,6 @@
 
     iget-object v4, p0, Lcom/discord/stores/StoreGuildScheduledEvents$toggleMeRsvpForEvent$1;->$storeEvent:Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->userStore:Lcom/discord/stores/StoreUser;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getUserStore$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Lcom/discord/stores/StoreUser;
 
     move-result-object v5
@@ -219,7 +216,6 @@
 
     move-result-wide v5
 
-    # invokes: Lcom/discord/stores/StoreGuildScheduledEvents;->processRsvpCreate(Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;J)V
     invoke-static {v0, v4, v5, v6}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$processRsvpCreate(Lcom/discord/stores/StoreGuildScheduledEvents;Lcom/discord/api/guildscheduledevent/GuildScheduledEvent;J)V
 
     .line 11

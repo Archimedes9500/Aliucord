@@ -96,7 +96,6 @@
 
     sget-object v0, Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel$ViewState$ClaimFailed;->INSTANCE:Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel$ViewState$ClaimFailed;
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel;->access$updateViewState(Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel;Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel$ViewState;)V
 
     return-void

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;->configureUI(Lcom/discord/models/user/MeUser;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;->access$configureUI(Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;Lcom/discord/models/user/MeUser;)V
 
     return-void

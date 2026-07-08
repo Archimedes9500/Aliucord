@@ -117,7 +117,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/chat/list/model/WidgetChatListModelTop$Companion$get$1;->$channel:Lcom/discord/api/channel/Channel;
 
-    # invokes: Lcom/discord/widgets/chat/list/model/WidgetChatListModelTop$Companion;->getWelcomeEntry(Lcom/discord/api/channel/Channel;)Lrx/Observable;
     invoke-static {p1, v0}, Lcom/discord/widgets/chat/list/model/WidgetChatListModelTop$Companion;->access$getWelcomeEntry(Lcom/discord/widgets/chat/list/model/WidgetChatListModelTop$Companion;Lcom/discord/api/channel/Channel;)Lrx/Observable;
 
     move-result-object p1

@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/auth/WidgetRemoteAuth;->configureUI(Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetRemoteAuth;->access$configureUI(Lcom/discord/widgets/auth/WidgetRemoteAuth;Lcom/discord/widgets/auth/WidgetRemoteAuthViewModel$ViewState;)V
 
     return-void

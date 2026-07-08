@@ -93,7 +93,6 @@
 
     const/4 v0, 0x1
 
-    # invokes: Lcom/discord/utilities/video/VideoPlayerIdleDetector;->setIdle(Z)V
     invoke-static {p1, v0}, Lcom/discord/utilities/video/VideoPlayerIdleDetector;->access$setIdle(Lcom/discord/utilities/video/VideoPlayerIdleDetector;Z)V
 
     return-void

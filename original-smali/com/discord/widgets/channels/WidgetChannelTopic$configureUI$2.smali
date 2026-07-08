@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetChannelTopic$configureUI$2;->$viewState:Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$ViewState;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelTopic;->onClickMore(Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$ViewState;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/channels/WidgetChannelTopic;->access$onClickMore(Lcom/discord/widgets/channels/WidgetChannelTopic;Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$ViewState;)V
 
     return-void

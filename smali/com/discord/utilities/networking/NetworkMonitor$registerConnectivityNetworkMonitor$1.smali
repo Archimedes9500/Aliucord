@@ -117,7 +117,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/utilities/networking/NetworkMonitor$registerConnectivityNetworkMonitor$1;->this$0:Lcom/discord/utilities/networking/NetworkMonitor;
 
-    # getter for: Lcom/discord/utilities/networking/NetworkMonitor;->logger:Lcom/discord/utilities/logging/Logger;
     invoke-static {v1}, Lcom/discord/utilities/networking/NetworkMonitor;->access$getLogger$p(Lcom/discord/utilities/networking/NetworkMonitor;)Lcom/discord/utilities/logging/Logger;
 
     move-result-object v1

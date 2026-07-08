@@ -72,7 +72,6 @@
     .line 1
     iget-object v1, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v1}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v1
@@ -80,7 +79,6 @@
     .line 2
     iget-object v2, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v2}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v2
@@ -100,7 +98,6 @@
     .line 3
     iget-object v4, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v4}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v4
@@ -144,7 +141,6 @@
     :goto_3f
     iget-object v4, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v4}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v4
@@ -152,7 +148,6 @@
     .line 7
     iget-object v5, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v5}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v5
@@ -172,7 +167,6 @@
     .line 8
     iget-object v7, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v7}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v7
@@ -211,7 +205,6 @@
     :cond_7b
     iget-object v4, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v4}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v4
@@ -219,7 +212,6 @@
     .line 12
     iget-object v5, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v5}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v5
@@ -239,7 +231,6 @@
     .line 13
     iget-object v7, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v7}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v7
@@ -299,14 +290,12 @@
     .line 19
     iget-object v7, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v7}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v7
 
     iget-object v8, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v8}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v8
@@ -356,14 +345,12 @@
     :goto_fb
     iget-object v7, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v7}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v7
 
     iget-object v9, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v9}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v9
@@ -405,14 +392,12 @@
     .line 21
     iget-object v7, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v7}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v7
 
     iget-object v10, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v10}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v10
@@ -462,7 +447,6 @@
     :goto_15b
     iget-object v7, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v7}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v7
@@ -494,7 +478,6 @@
     .line 23
     iget-object v7, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v7}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v7
@@ -502,7 +485,6 @@
     .line 24
     iget-object v12, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v12}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v12
@@ -552,14 +534,12 @@
     .line 27
     iget-object v7, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v7}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v7
 
     iget-object v13, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v13}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v13
@@ -619,14 +599,12 @@
     .line 30
     iget-object v7, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v7}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v7
 
     iget-object v2, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v2}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v2
@@ -662,14 +640,12 @@
     .line 31
     iget-object v3, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v3}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getState$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v3
 
     iget-object v7, v0, Lcom/discord/widgets/servers/WidgetServerSettingsOverview$configureUI$7;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsOverview;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->getBinding()Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
     invoke-static {v7}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;)Lcom/discord/databinding/WidgetServerSettingsOverviewBinding;
 
     move-result-object v7

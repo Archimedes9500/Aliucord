@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreApplicationStreaming$stopStream$1;->$streamKey:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreApplicationStreaming;->stopStreamInternal(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreApplicationStreaming;->access$stopStreamInternal(Lcom/discord/stores/StoreApplicationStreaming;Ljava/lang/String;)V
 
     return-void

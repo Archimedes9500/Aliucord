@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreMediaEngine$setupMediaEngineSettingsSubscription$1$1;->$voiceConfig:Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;
 
-    # invokes: Lcom/discord/stores/StoreMediaEngine;->handleVoiceConfigChanged(Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreMediaEngine;->access$handleVoiceConfigChanged(Lcom/discord/stores/StoreMediaEngine;Lcom/discord/stores/StoreMediaSettings$VoiceConfiguration;)V
 
     return-void

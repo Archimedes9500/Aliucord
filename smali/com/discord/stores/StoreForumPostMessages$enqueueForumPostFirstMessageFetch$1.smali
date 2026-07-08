@@ -96,7 +96,6 @@
     .line 3
     iget-wide v1, p0, Lcom/discord/stores/StoreForumPostMessages$enqueueForumPostFirstMessageFetch$1;->$postId:J
 
-    # invokes: Lcom/discord/stores/StoreForumPostMessages;->hasForumPostFirstMessage(J)Z
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreForumPostMessages;->access$hasForumPostFirstMessage(Lcom/discord/stores/StoreForumPostMessages;J)Z
 
     move-result v0
@@ -107,7 +106,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreForumPostMessages$enqueueForumPostFirstMessageFetch$1;->$postId:J
 
-    # invokes: Lcom/discord/stores/StoreForumPostMessages;->isFetchingForumPostFirstMessage(J)Z
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreForumPostMessages;->access$isFetchingForumPostFirstMessage(Lcom/discord/stores/StoreForumPostMessages;J)Z
 
     move-result v0
@@ -119,7 +117,6 @@
     .line 4
     iget-wide v1, p0, Lcom/discord/stores/StoreForumPostMessages$enqueueForumPostFirstMessageFetch$1;->$postId:J
 
-    # invokes: Lcom/discord/stores/StoreForumPostMessages;->expectForumPostFirstMessageFromGateway(J)Z
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreForumPostMessages;->access$expectForumPostFirstMessageFromGateway(Lcom/discord/stores/StoreForumPostMessages;J)Z
 
     move-result v0
@@ -132,7 +129,6 @@
     :cond_1f
     iget-object v0, p0, Lcom/discord/stores/StoreForumPostMessages$enqueueForumPostFirstMessageFetch$1;->this$0:Lcom/discord/stores/StoreForumPostMessages;
 
-    # getter for: Lcom/discord/stores/StoreForumPostMessages;->forumPostFetchQueue:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreForumPostMessages;->access$getForumPostFetchQueue$p(Lcom/discord/stores/StoreForumPostMessages;)Ljava/util/Map;
 
     move-result-object v0
@@ -171,7 +167,6 @@
     .line 7
     iget-object v1, p0, Lcom/discord/stores/StoreForumPostMessages$enqueueForumPostFirstMessageFetch$1;->this$0:Lcom/discord/stores/StoreForumPostMessages;
 
-    # getter for: Lcom/discord/stores/StoreForumPostMessages;->forumPostFetchQueue:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreForumPostMessages;->access$getForumPostFetchQueue$p(Lcom/discord/stores/StoreForumPostMessages;)Ljava/util/Map;
 
     move-result-object v1

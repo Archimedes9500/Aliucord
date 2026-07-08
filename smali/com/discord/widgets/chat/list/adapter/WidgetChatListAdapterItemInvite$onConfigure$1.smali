@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite;->configureUI(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite;->access$configureUI(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite;Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite$Model;)V
 
     return-void

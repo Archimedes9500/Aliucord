@@ -132,7 +132,6 @@
     check-cast v0, Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;
 
     .line 2
-    # invokes: Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;->handleChannelSubscriptionsChange(JLjava/util/Map;)V
     invoke-static {v0, p1, p2, p3}, Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;->access$handleChannelSubscriptionsChange(Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;JLjava/util/Map;)V
 
     return-void

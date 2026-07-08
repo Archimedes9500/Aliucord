@@ -76,7 +76,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventItemView$descriptionParser$2;->this$0:Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventItemView;
 
-    # getter for: Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventItemView;->binding:Lcom/discord/databinding/GuildScheduledEventItemViewBinding;
     invoke-static {v1}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventItemView;->access$getBinding$p(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventItemView;)Lcom/discord/databinding/GuildScheduledEventItemViewBinding;
 
     move-result-object v1

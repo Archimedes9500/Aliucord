@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->configureUI(Lcom/discord/models/user/MeUser;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;->access$configureUI(Lcom/discord/widgets/settings/account/WidgetDisableDeleteAccountDialog;Lcom/discord/models/user/MeUser;)V
 
     return-void

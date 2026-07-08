@@ -96,7 +96,6 @@
     .line 2
     sget-object v0, Lcom/discord/stores/ReadyPayloadUtils;->INSTANCE:Lcom/discord/stores/ReadyPayloadUtils;
 
-    # invokes: Lcom/discord/stores/ReadyPayloadUtils;->hydrate(Lcom/discord/api/channel/Channel;Lcom/discord/api/channel/Channel;)Lcom/discord/api/channel/Channel;
     invoke-static {v0, p1, p2}, Lcom/discord/stores/ReadyPayloadUtils;->access$hydrate(Lcom/discord/stores/ReadyPayloadUtils;Lcom/discord/api/channel/Channel;Lcom/discord/api/channel/Channel;)Lcom/discord/api/channel/Channel;
 
     move-result-object p1

@@ -88,7 +88,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetGroupInviteFriends$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/channels/WidgetGroupInviteFriends;
 
-    # getter for: Lcom/discord/widgets/channels/WidgetGroupInviteFriends;->filterPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/channels/WidgetGroupInviteFriends;->access$getFilterPublisher$p(Lcom/discord/widgets/channels/WidgetGroupInviteFriends;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

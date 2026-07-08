@@ -68,7 +68,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen$configureActionBar$3;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->transitionActivity()V
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->access$transitionActivity(Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;)V
 
     .line 2
@@ -76,7 +75,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen$configureActionBar$3;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->getViewModel()Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreenViewModel;
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->access$getViewModel$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;)Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreenViewModel;
 
     move-result-object p1

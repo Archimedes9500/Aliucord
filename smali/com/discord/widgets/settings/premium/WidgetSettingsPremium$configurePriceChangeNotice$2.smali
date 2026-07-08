@@ -69,7 +69,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium$configurePriceChangeNotice$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->getBinding()Lcom/discord/databinding/WidgetSettingsPremiumBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$getBinding$p(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;)Lcom/discord/databinding/WidgetSettingsPremiumBinding;
 
     move-result-object p1

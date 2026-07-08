@@ -103,7 +103,6 @@
 
     const/4 v3, 0x1
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->configureIcon(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
     invoke-static {v0, v1, v2, p1, v3}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$configureIcon(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
     return-void

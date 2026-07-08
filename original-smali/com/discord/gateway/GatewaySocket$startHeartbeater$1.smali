@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$startHeartbeater$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->heartbeatAck:Z
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getHeartbeatAck$p(Lcom/discord/gateway/GatewaySocket;)Z
 
     move-result v0
@@ -102,12 +101,10 @@
     .line 4
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$startHeartbeater$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->seq:I
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getSeq$p(Lcom/discord/gateway/GatewaySocket;)I
 
     move-result v1
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->heartbeat(I)V
     invoke-static {v0, v1}, Lcom/discord/gateway/GatewaySocket;->access$heartbeat(Lcom/discord/gateway/GatewaySocket;I)V
 
     goto :goto_29
@@ -116,7 +113,6 @@
     :cond_18
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$startHeartbeater$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->heartbeatExpeditedTimeout:Lcom/discord/gateway/GatewaySocket$Timer;
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getHeartbeatExpeditedTimeout$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/gateway/GatewaySocket$Timer;
 
     move-result-object v0
@@ -130,7 +126,6 @@
     .line 6
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$startHeartbeater$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->handleHeartbeatTimeout()V
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$handleHeartbeatTimeout(Lcom/discord/gateway/GatewaySocket;)V
 
     :cond_29

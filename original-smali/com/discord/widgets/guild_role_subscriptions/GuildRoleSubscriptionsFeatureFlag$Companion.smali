@@ -115,7 +115,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

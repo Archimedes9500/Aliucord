@@ -75,7 +75,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/tos/WidgetTosReportViolation$handleLoaded$$inlined$forEach$lambda$1;->this$0:Lcom/discord/widgets/tos/WidgetTosReportViolation;
 
-    # invokes: Lcom/discord/widgets/tos/WidgetTosReportViolation;->getViewModel()Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel;
     invoke-static {p1}, Lcom/discord/widgets/tos/WidgetTosReportViolation;->access$getViewModel$p(Lcom/discord/widgets/tos/WidgetTosReportViolation;)Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel;
 
     move-result-object p1
@@ -107,7 +106,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/tos/WidgetTosReportViolation$handleLoaded$$inlined$forEach$lambda$1;->this$0:Lcom/discord/widgets/tos/WidgetTosReportViolation;
 
-    # invokes: Lcom/discord/widgets/tos/WidgetTosReportViolation;->getViewModel()Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel;
     invoke-static {p1}, Lcom/discord/widgets/tos/WidgetTosReportViolation;->access$getViewModel$p(Lcom/discord/widgets/tos/WidgetTosReportViolation;)Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel;
 
     move-result-object p1
@@ -123,7 +121,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/tos/WidgetTosReportViolation$handleLoaded$$inlined$forEach$lambda$1;->this$0:Lcom/discord/widgets/tos/WidgetTosReportViolation;
 
-    # invokes: Lcom/discord/widgets/tos/WidgetTosReportViolation;->getBinding()Lcom/discord/databinding/WidgetTosReportViolationBinding;
     invoke-static {p1}, Lcom/discord/widgets/tos/WidgetTosReportViolation;->access$getBinding$p(Lcom/discord/widgets/tos/WidgetTosReportViolation;)Lcom/discord/databinding/WidgetTosReportViolationBinding;
 
     move-result-object p1
@@ -137,7 +134,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/tos/WidgetTosReportViolation$handleLoaded$$inlined$forEach$lambda$1;->this$0:Lcom/discord/widgets/tos/WidgetTosReportViolation;
 
-    # invokes: Lcom/discord/widgets/tos/WidgetTosReportViolation;->getBinding()Lcom/discord/databinding/WidgetTosReportViolationBinding;
     invoke-static {p1}, Lcom/discord/widgets/tos/WidgetTosReportViolation;->access$getBinding$p(Lcom/discord/widgets/tos/WidgetTosReportViolation;)Lcom/discord/databinding/WidgetTosReportViolationBinding;
 
     move-result-object p1
@@ -191,7 +187,6 @@
     :cond_6a
     iget-object p1, p0, Lcom/discord/widgets/tos/WidgetTosReportViolation$handleLoaded$$inlined$forEach$lambda$1;->this$0:Lcom/discord/widgets/tos/WidgetTosReportViolation;
 
-    # invokes: Lcom/discord/widgets/tos/WidgetTosReportViolation;->getBinding()Lcom/discord/databinding/WidgetTosReportViolationBinding;
     invoke-static {p1}, Lcom/discord/widgets/tos/WidgetTosReportViolation;->access$getBinding$p(Lcom/discord/widgets/tos/WidgetTosReportViolation;)Lcom/discord/databinding/WidgetTosReportViolationBinding;
 
     move-result-object p1
@@ -202,7 +197,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/tos/WidgetTosReportViolation$handleLoaded$$inlined$forEach$lambda$1;->this$0:Lcom/discord/widgets/tos/WidgetTosReportViolation;
 
-    # invokes: Lcom/discord/widgets/tos/WidgetTosReportViolation;->getViewModel()Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel;
     invoke-static {v1}, Lcom/discord/widgets/tos/WidgetTosReportViolation;->access$getViewModel$p(Lcom/discord/widgets/tos/WidgetTosReportViolation;)Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel;
 
     move-result-object v1

@@ -68,7 +68,6 @@
 
     const/4 v0, 0x1
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;->getBackupCodes(Z)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;->access$getBackupCodes(Lcom/discord/widgets/settings/account/WidgetSettingsAccountBackupCodes;Z)V
 
     return-void

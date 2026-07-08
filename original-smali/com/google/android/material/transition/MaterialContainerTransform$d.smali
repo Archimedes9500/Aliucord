@@ -1087,7 +1087,6 @@
     iget-object v1, v1, Lcom/google/android/material/transition/MaterialContainerTransform$c;->b:Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;
 
     .line 11
-    # getter for: Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->start:F
     invoke-static {v1}, Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->access$1000(Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;)F
 
     move-result v1
@@ -1113,7 +1112,6 @@
     iget-object v1, v1, Lcom/google/android/material/transition/MaterialContainerTransform$c;->b:Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;
 
     .line 14
-    # getter for: Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->end:F
     invoke-static {v1}, Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->access$1100(Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;)F
 
     move-result v1
@@ -1231,7 +1229,6 @@
     iget-object v1, v1, Lcom/google/android/material/transition/MaterialContainerTransform$c;->c:Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;
 
     .line 27
-    # getter for: Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->start:F
     invoke-static {v1}, Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->access$1000(Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;)F
 
     move-result v1
@@ -1257,7 +1254,6 @@
     iget-object v2, v2, Lcom/google/android/material/transition/MaterialContainerTransform$c;->c:Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;
 
     .line 30
-    # getter for: Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->end:F
     invoke-static {v2}, Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->access$1100(Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;)F
 
     move-result v2
@@ -1759,7 +1755,6 @@
     iget-object v1, v1, Lcom/google/android/material/transition/MaterialContainerTransform$c;->a:Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;
 
     .line 95
-    # getter for: Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->start:F
     invoke-static {v1}, Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->access$1000(Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;)F
 
     move-result v1
@@ -1785,7 +1780,6 @@
     iget-object v2, v2, Lcom/google/android/material/transition/MaterialContainerTransform$c;->a:Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;
 
     .line 98
-    # getter for: Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->end:F
     invoke-static {v2}, Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;->access$1100(Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;)F
 
     move-result v2

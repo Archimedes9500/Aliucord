@@ -103,7 +103,6 @@
 
     check-cast v0, Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;
 
-    # getter for: Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;->bottomNavHeight:I
     invoke-static {v0}, Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;->access$getBottomNavHeight$p(Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;)I
 
     move-result v0

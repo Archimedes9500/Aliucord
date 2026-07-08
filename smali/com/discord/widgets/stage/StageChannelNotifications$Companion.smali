@@ -74,7 +74,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/stage/StageChannelNotifications;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/stage/StageChannelNotifications;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/stage/StageChannelNotifications;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

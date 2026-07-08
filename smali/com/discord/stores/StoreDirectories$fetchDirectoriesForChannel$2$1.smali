@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreDirectories$fetchDirectoriesForChannel$2;->this$0:Lcom/discord/stores/StoreDirectories;
 
-    # getter for: Lcom/discord/stores/StoreDirectories;->directoriesMap:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreDirectories;->access$getDirectoriesMap$p(Lcom/discord/stores/StoreDirectories;)Ljava/util/Map;
 
     move-result-object v0

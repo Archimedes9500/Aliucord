@@ -125,7 +125,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAuthLogin$forgotPassword$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthLogin;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetAuthLogin;->phoneVerifyPasswordLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAuthLogin;->access$getPhoneVerifyPasswordLauncher$p(Lcom/discord/widgets/auth/WidgetAuthLogin;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v5
@@ -173,7 +172,6 @@
     :cond_4b
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAuthLogin$forgotPassword$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthLogin;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLogin;->getValidationManager()Lcom/discord/utilities/view/validators/ValidationManager;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAuthLogin;->access$getValidationManager$p(Lcom/discord/widgets/auth/WidgetAuthLogin;)Lcom/discord/utilities/view/validators/ValidationManager;
 
     move-result-object v0
@@ -213,7 +211,6 @@
     .line 14
     iget-object v3, p0, Lcom/discord/widgets/auth/WidgetAuthLogin$forgotPassword$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthLogin;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetAuthLogin;->captchaForgotPasswordLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v3}, Lcom/discord/widgets/auth/WidgetAuthLogin;->access$getCaptchaForgotPasswordLauncher$p(Lcom/discord/widgets/auth/WidgetAuthLogin;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v3

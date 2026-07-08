@@ -77,7 +77,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$viewModelForInline$2;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->getEmojiPickerContextType()Lcom/discord/widgets/chat/input/emoji/EmojiPickerContextType;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$getEmojiPickerContextType$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)Lcom/discord/widgets/chat/input/emoji/EmojiPickerContextType;
 
     move-result-object v1

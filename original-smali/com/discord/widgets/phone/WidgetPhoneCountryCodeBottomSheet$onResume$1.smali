@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/phone/WidgetPhoneCountryCodeBottomSheet$onResume$1;->this$0:Lcom/discord/widgets/phone/WidgetPhoneCountryCodeBottomSheet;
 
-    # getter for: Lcom/discord/widgets/phone/WidgetPhoneCountryCodeBottomSheet;->nameFilterSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/phone/WidgetPhoneCountryCodeBottomSheet;->access$getNameFilterSubject$p(Lcom/discord/widgets/phone/WidgetPhoneCountryCodeBottomSheet;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

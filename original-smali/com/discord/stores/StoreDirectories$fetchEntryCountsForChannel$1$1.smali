@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreDirectories$fetchEntryCountsForChannel$1;->this$0:Lcom/discord/stores/StoreDirectories;
 
-    # getter for: Lcom/discord/stores/StoreDirectories;->entryCountMap:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreDirectories;->access$getEntryCountMap$p(Lcom/discord/stores/StoreDirectories;)Ljava/util/Map;
 
     move-result-object v0

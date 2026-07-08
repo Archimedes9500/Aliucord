@@ -37,12 +37,10 @@
     invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->b:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getNextMaskValue$cp()I
 
     move-result p0
 
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->b:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getNextMaskValue$cp()I
 
     move-result v0
@@ -60,7 +58,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->i:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getALL_KINDS_MASK$cp()I
 
     move-result v0
@@ -72,7 +69,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->l:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getCALLABLES_MASK$cp()I
 
     move-result v0
@@ -84,7 +80,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->j:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getCLASSIFIERS_MASK$cp()I
 
     move-result v0
@@ -96,7 +91,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->g:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getFUNCTIONS_MASK$cp()I
 
     move-result v0
@@ -108,7 +102,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->c:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getNON_SINGLETON_CLASSIFIERS_MASK$cp()I
 
     move-result v0
@@ -120,7 +113,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->f:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getPACKAGES_MASK$cp()I
 
     move-result v0
@@ -132,7 +124,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->d:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getSINGLETON_CLASSIFIERS_MASK$cp()I
 
     move-result v0
@@ -144,7 +135,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->e:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getTYPE_ALIASES_MASK$cp()I
 
     move-result v0
@@ -156,7 +146,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->k:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getVALUES_MASK$cp()I
 
     move-result v0
@@ -168,7 +157,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/k/a0/d;->h:I
     invoke-static {}, Ld0/e0/p/d/m0/k/a0/d;->access$getVARIABLES_MASK$cp()I
 
     move-result v0

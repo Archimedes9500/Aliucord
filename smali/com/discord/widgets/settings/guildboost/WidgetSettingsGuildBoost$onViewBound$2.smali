@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost$onViewBound$2;->this$0:Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;
 
-    # invokes: Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;->getViewModel()Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel;
     invoke-static {p1}, Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;->access$getViewModel$p(Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;)Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostViewModel;
 
     move-result-object p1

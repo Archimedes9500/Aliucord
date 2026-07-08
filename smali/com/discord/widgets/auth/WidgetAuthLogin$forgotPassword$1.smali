@@ -96,7 +96,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAuthLogin$forgotPassword$1;->$login:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLogin;->showEmailSentToast(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/auth/WidgetAuthLogin;->access$showEmailSentToast(Lcom/discord/widgets/auth/WidgetAuthLogin;Ljava/lang/String;)V
 
     return-void

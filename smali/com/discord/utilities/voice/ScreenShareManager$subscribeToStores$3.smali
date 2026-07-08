@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/utilities/voice/ScreenShareManager;->handleStateUpdate(Lcom/discord/utilities/voice/ScreenShareManager$State;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/voice/ScreenShareManager;->access$handleStateUpdate(Lcom/discord/utilities/voice/ScreenShareManager;Lcom/discord/utilities/voice/ScreenShareManager$State;)V
 
     return-void

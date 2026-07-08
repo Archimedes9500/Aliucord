@@ -93,7 +93,6 @@
 
     iget-object v6, v0, Lcom/discord/stores/StoreMessageReactions$fetchReactions$2;->$emoji:Lcom/discord/api/message/reaction/MessageReactionEmoji;
 
-    # invokes: Lcom/discord/stores/StoreMessageReactions;->handleLoadReactionUsersFailure(JJLcom/discord/api/message/reaction/MessageReactionEmoji;)V
     invoke-static/range {v1 .. v6}, Lcom/discord/stores/StoreMessageReactions;->access$handleLoadReactionUsersFailure(Lcom/discord/stores/StoreMessageReactions;JJLcom/discord/api/message/reaction/MessageReactionEmoji;)V
 
     return-void

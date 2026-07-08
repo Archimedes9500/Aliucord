@@ -72,7 +72,6 @@
 
     move-result p1
 
-    # invokes: Lcom/discord/panels/OverlappingPanelsLayout;->updateCenterPanelX(F)V
     invoke-static {v0, p1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$updateCenterPanelX(Lcom/discord/panels/OverlappingPanelsLayout;F)V
 
     return-void
@@ -110,7 +109,6 @@
 
     move-result p1
 
-    # invokes: Lcom/discord/panels/OverlappingPanelsLayout;->updateCenterPanelX(F)V
     invoke-static {v0, p1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$updateCenterPanelX(Lcom/discord/panels/OverlappingPanelsLayout;F)V
 
     return-void

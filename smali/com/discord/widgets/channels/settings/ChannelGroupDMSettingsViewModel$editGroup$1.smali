@@ -98,7 +98,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel$editGroup$1;->this$0:Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v0}, Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;->access$getEventSubject$p(Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object v0
@@ -153,7 +152,6 @@
     move-result-object p1
 
     .line 10
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;->access$updateViewState(Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel$ViewState;)V
 
     return-void

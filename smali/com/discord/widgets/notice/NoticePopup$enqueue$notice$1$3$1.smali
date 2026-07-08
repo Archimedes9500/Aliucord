@@ -84,7 +84,6 @@
 
     iget-object p2, p0, Lcom/discord/widgets/notice/NoticePopup$enqueue$notice$1$3$1;->$viewAutoDismissAnimator:Landroid/animation/ValueAnimator;
 
-    # invokes: Lcom/discord/widgets/notice/NoticePopup;->cancelCountdown(Landroid/animation/ValueAnimator;)V
     invoke-static {p1, p2}, Lcom/discord/widgets/notice/NoticePopup;->access$cancelCountdown(Lcom/discord/widgets/notice/NoticePopup;Landroid/animation/ValueAnimator;)V
 
     :goto_13

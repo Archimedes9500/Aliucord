@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/list/PublishActionDialogViewModel$publishMessage$1;->this$0:Lcom/discord/widgets/chat/list/PublishActionDialogViewModel;
 
-    # invokes: Lcom/discord/widgets/chat/list/PublishActionDialogViewModel;->emitSuccessActionEvent()V
     invoke-static {p1}, Lcom/discord/widgets/chat/list/PublishActionDialogViewModel;->access$emitSuccessActionEvent(Lcom/discord/widgets/chat/list/PublishActionDialogViewModel;)V
 
     return-void

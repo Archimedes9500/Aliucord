@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;->handleEvent(Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;->access$handleEvent(Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$Event;)V
 
     return-void

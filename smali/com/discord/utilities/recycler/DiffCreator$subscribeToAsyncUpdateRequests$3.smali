@@ -139,7 +139,6 @@
 
     check-cast v0, Ljava/util/List;
 
-    # invokes: Lcom/discord/utilities/recycler/DiffCreator;->setItemsAndDispatchUpdate(Landroidx/recyclerview/widget/RecyclerView$Adapter;Lkotlin/jvm/functions/Function1;Ljava/util/List;Landroidx/recyclerview/widget/DiffUtil$DiffResult;)V
     invoke-static {v1, v2, v3, v0, p1}, Lcom/discord/utilities/recycler/DiffCreator;->access$setItemsAndDispatchUpdate(Lcom/discord/utilities/recycler/DiffCreator;Landroidx/recyclerview/widget/RecyclerView$Adapter;Lkotlin/jvm/functions/Function1;Ljava/util/List;Landroidx/recyclerview/widget/DiffUtil$DiffResult;)V
 
     return-void

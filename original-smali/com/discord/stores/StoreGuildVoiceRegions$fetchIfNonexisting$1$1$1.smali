@@ -100,7 +100,6 @@
     iget-object v0, p0, Lcom/discord/stores/StoreGuildVoiceRegions$fetchIfNonexisting$1$1$1;->$voiceRegions:Ljava/util/List;
 
     .line 5
-    # invokes: Lcom/discord/stores/StoreGuildVoiceRegions;->handleGuildVoiceRegions(JLjava/util/List;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreGuildVoiceRegions;->access$handleGuildVoiceRegions(Lcom/discord/stores/StoreGuildVoiceRegions;JLjava/util/List;)V
 
     return-void

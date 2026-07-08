@@ -167,7 +167,6 @@
 
     iget-object v3, p0, Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion$observeStoreState$1;->$storeUserSettings:Lcom/discord/stores/StoreUserSettings;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion;->mapChannelToPrivateStoreState(Lcom/discord/api/channel/Channel;Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion$NavState;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUserSettings;)Lrx/Observable;
     invoke-static {v0, p1, v1, v2, v3}, Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion;->access$mapChannelToPrivateStoreState(Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion;Lcom/discord/api/channel/Channel;Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion$NavState;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUserSettings;)Lrx/Observable;
 
     move-result-object v0
@@ -226,7 +225,6 @@
 
     move-object v2, p1
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion;->mapChannelToGuildStoreState(Lcom/discord/api/channel/Channel;Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion$NavState;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUserSettings;)Lrx/Observable;
     invoke-static/range {v1 .. v7}, Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion;->access$mapChannelToGuildStoreState(Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion;Lcom/discord/api/channel/Channel;Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$Companion$NavState;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUserSettings;)Lrx/Observable;
 
     move-result-object v0

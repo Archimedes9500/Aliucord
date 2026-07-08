@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreGifPicker$handleFetchTrendingGifsOnNext$1;->$gifs:Ljava/util/List;
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->updateTrendingCategoryGifs(Ljava/util/List;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreGifPicker;->access$updateTrendingCategoryGifs(Lcom/discord/stores/StoreGifPicker;Ljava/util/List;)V
 
     .line 3

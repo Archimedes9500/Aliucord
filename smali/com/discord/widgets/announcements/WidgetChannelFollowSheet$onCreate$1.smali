@@ -104,7 +104,6 @@
     .line 2
     iget-object p3, p0, Lcom/discord/widgets/announcements/WidgetChannelFollowSheet$onCreate$1;->this$0:Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;
 
-    # invokes: Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;->getViewModel()Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;
     invoke-static {p3}, Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;->access$getViewModel$p(Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;)Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;
 
     move-result-object p3

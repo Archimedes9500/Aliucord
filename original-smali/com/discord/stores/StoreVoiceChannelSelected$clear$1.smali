@@ -93,7 +93,6 @@
     check-cast v0, Lcom/discord/stores/StoreVoiceChannelSelected;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreVoiceChannelSelected;->clearInternal()V
     invoke-static {v0}, Lcom/discord/stores/StoreVoiceChannelSelected;->access$clearInternal(Lcom/discord/stores/StoreVoiceChannelSelected;)V
 
     return-void

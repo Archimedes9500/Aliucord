@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$onPhoneNumberSubmitted$1;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->handlePhoneSubmitted()V
     invoke-static {p1}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->access$handlePhoneSubmitted(Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;)V
 
     return-void

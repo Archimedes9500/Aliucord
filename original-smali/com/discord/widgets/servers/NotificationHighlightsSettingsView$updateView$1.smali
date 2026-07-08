@@ -74,7 +74,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/servers/NotificationHighlightsSettingsView$updateView$1;->this$0:Lcom/discord/widgets/servers/NotificationHighlightsSettingsView;
 
-    # getter for: Lcom/discord/widgets/servers/NotificationHighlightsSettingsView;->binding:Lcom/discord/databinding/NotificationHighlightsSettingsViewBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/NotificationHighlightsSettingsView;->access$getBinding$p(Lcom/discord/widgets/servers/NotificationHighlightsSettingsView;)Lcom/discord/databinding/NotificationHighlightsSettingsViewBinding;
 
     move-result-object p1

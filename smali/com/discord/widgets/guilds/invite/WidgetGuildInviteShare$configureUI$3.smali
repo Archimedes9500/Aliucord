@@ -106,7 +106,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare$configureUI$3;->$invite:Lcom/discord/models/domain/ModelInvite;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->sendInvite(Lcom/discord/widgets/guilds/invite/InviteSuggestionItem;Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel$ViewState$Loaded;Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v0, p1, v1, v2}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;->access$sendInvite(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShare;Lcom/discord/widgets/guilds/invite/InviteSuggestionItem;Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel$ViewState$Loaded;Lcom/discord/models/domain/ModelInvite;)V
 
     .line 3

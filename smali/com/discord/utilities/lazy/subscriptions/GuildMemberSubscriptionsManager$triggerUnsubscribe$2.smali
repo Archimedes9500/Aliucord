@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/utilities/lazy/subscriptions/GuildMemberSubscriptionsManager$triggerUnsubscribe$2;->this$0:Lcom/discord/utilities/lazy/subscriptions/GuildMemberSubscriptionsManager;
 
-    # getter for: Lcom/discord/utilities/lazy/subscriptions/GuildMemberSubscriptionsManager;->requestFlushUnsubscriptions:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/utilities/lazy/subscriptions/GuildMemberSubscriptionsManager;->access$getRequestFlushUnsubscriptions$p(Lcom/discord/utilities/lazy/subscriptions/GuildMemberSubscriptionsManager;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

@@ -186,7 +186,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$setHandlers$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->handlerOfUpdates:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfUpdates;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->access$getHandlerOfUpdates$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;)Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfUpdates;
 
     move-result-object p1

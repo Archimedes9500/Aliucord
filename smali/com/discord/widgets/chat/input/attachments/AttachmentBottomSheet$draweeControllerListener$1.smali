@@ -105,7 +105,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/chat/input/attachments/AttachmentBottomSheet$draweeControllerListener$1;->this$0:Lcom/discord/widgets/chat/input/attachments/AttachmentBottomSheet;
 
-    # invokes: Lcom/discord/widgets/chat/input/attachments/AttachmentBottomSheet;->getBinding()Lcom/discord/databinding/WidgetAttachmentBottomSheetBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/attachments/AttachmentBottomSheet;->access$getBinding$p(Lcom/discord/widgets/chat/input/attachments/AttachmentBottomSheet;)Lcom/discord/databinding/WidgetAttachmentBottomSheetBinding;
 
     move-result-object p1

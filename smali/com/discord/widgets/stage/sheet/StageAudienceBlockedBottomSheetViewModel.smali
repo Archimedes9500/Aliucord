@@ -168,7 +168,6 @@
     move-result-object p4
 
     .line 4
-    # invokes: Lcom/discord/widgets/stage/sheet/StageAudienceBlockedBottomSheetViewModel$Companion;->observeStores(JLcom/discord/stores/StoreUserRelationships;Lcom/discord/stores/StoreStageChannels;)Lrx/Observable;
     invoke-static {p3, p1, p2, p5, p4}, Lcom/discord/widgets/stage/sheet/StageAudienceBlockedBottomSheetViewModel$Companion;->access$observeStores(Lcom/discord/widgets/stage/sheet/StageAudienceBlockedBottomSheetViewModel$Companion;JLcom/discord/stores/StoreUserRelationships;Lcom/discord/stores/StoreStageChannels;)Lrx/Observable;
 
     move-result-object p3

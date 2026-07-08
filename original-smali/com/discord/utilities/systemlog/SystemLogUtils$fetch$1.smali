@@ -137,7 +137,6 @@
 
     invoke-static {v0, v2}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/utilities/systemlog/SystemLogUtils;->waitFor(Ljava/lang/Process;)V
     invoke-static {v1, v0}, Lcom/discord/utilities/systemlog/SystemLogUtils;->access$waitFor(Lcom/discord/utilities/systemlog/SystemLogUtils;Ljava/lang/Process;)V
 
     .line 6

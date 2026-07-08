@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreSearchQuery$makeQuery$3;->this$0:Lcom/discord/stores/StoreSearchQuery;
 
-    # invokes: Lcom/discord/stores/StoreSearchQuery;->handleError()V
     invoke-static {p1}, Lcom/discord/stores/StoreSearchQuery;->access$handleError(Lcom/discord/stores/StoreSearchQuery;)V
 
     return-void

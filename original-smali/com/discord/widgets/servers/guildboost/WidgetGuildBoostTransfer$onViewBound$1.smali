@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostTransfer$onViewBound$1;->this$0:Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostTransfer;
 
-    # invokes: Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostTransfer;->getViewModel()Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostTransfer;->access$getViewModel$p(Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostTransfer;)Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel;
 
     move-result-object p1

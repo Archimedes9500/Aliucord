@@ -84,7 +84,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit$handleSaveAlias$1;->$sanitizedName:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;->onSaveSuccess(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;->access$onSaveSuccess(Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;Ljava/lang/String;)V
 
     return-void

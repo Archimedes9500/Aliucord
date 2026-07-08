@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet$onResume$1;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->configureUi(Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->access$configureUi(Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel$ViewState;)V
 
     return-void

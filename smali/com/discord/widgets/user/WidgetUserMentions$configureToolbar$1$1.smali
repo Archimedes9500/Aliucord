@@ -96,7 +96,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/user/WidgetUserMentions$configureToolbar$1;->this$0:Lcom/discord/widgets/user/WidgetUserMentions;
 
-    # getter for: Lcom/discord/widgets/user/WidgetUserMentions;->mentionsLoader:Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader;
     invoke-static {v0}, Lcom/discord/widgets/user/WidgetUserMentions;->access$getMentionsLoader$p(Lcom/discord/widgets/user/WidgetUserMentions;)Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader;
 
     move-result-object v0

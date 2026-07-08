@@ -247,6 +247,8 @@
    .end annotation
 .end field
 
+.field public poll:Lcom/discord/api/message/poll/MessagePoll;
+
 .field private final nonce:Ljava/lang/String;
 
 .field private final pinned:Ljava/lang/Boolean;

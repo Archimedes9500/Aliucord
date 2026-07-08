@@ -367,7 +367,6 @@
 
     iget-object v2, v2, Lcom/discord/stores/StoreVoiceParticipants$get$1;->this$0:Lcom/discord/stores/StoreVoiceParticipants;
 
-    # invokes: Lcom/discord/stores/StoreVoiceParticipants;->getStreamContextsForUsers(Ljava/util/List;)Lrx/Observable;
     invoke-static {v2, v1}, Lcom/discord/stores/StoreVoiceParticipants;->access$getStreamContextsForUsers(Lcom/discord/stores/StoreVoiceParticipants;Ljava/util/List;)Lrx/Observable;
 
     move-result-object v12

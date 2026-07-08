@@ -100,7 +100,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreThreadsActiveJoined$observeAllActiveJoinedThreadsById$1;->this$0:Lcom/discord/stores/StoreThreadsActiveJoined;
 
-    # getter for: Lcom/discord/stores/StoreThreadsActiveJoined;->activeJoinedThreadsByThreadIdSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreThreadsActiveJoined;->access$getActiveJoinedThreadsByThreadIdSnapshot$p(Lcom/discord/stores/StoreThreadsActiveJoined;)Ljava/util/Map;
 
     move-result-object v0

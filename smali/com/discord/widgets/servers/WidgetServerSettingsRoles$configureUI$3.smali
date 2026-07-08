@@ -78,7 +78,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsRoles$configureUI$3;->$data:Lcom/discord/widgets/servers/WidgetServerSettingsRoles$Model;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsRoles;->createRole(JLcom/discord/widgets/servers/WidgetServerSettingsRoles$Model;)V
     invoke-static {p1, v0, v1, v2}, Lcom/discord/widgets/servers/WidgetServerSettingsRoles;->access$createRole(Lcom/discord/widgets/servers/WidgetServerSettingsRoles;JLcom/discord/widgets/servers/WidgetServerSettingsRoles$Model;)V
 
     return-void

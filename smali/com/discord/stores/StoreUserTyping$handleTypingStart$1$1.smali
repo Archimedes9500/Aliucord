@@ -97,7 +97,6 @@
 
     invoke-static {v1, v2}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StoreUserTyping;->handleTypingStop(Lcom/discord/api/user/TypingUser;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreUserTyping;->access$handleTypingStop(Lcom/discord/stores/StoreUserTyping;Lcom/discord/api/user/TypingUser;)V
 
     return-void

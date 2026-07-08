@@ -48,7 +48,6 @@
 
     iget v1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$e;->a:I
 
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->getFabTranslationX(I)F
     invoke-static {v0, v1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$1800(Lcom/google/android/material/bottomappbar/BottomAppBar;I)F
 
     move-result v0

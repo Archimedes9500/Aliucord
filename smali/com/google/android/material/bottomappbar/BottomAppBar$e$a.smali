@@ -40,7 +40,6 @@
 
     iget-object p1, p1, Lcom/google/android/material/bottomappbar/BottomAppBar$e;->b:Lcom/google/android/material/bottomappbar/BottomAppBar;
 
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->dispatchAnimationEnd()V
     invoke-static {p1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$1600(Lcom/google/android/material/bottomappbar/BottomAppBar;)V
 
     return-void

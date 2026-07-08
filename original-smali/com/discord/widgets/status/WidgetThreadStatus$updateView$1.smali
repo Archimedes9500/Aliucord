@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/status/WidgetThreadStatus$updateView$1;->this$0:Lcom/discord/widgets/status/WidgetThreadStatus;
 
-    # invokes: Lcom/discord/widgets/status/WidgetThreadStatus;->getViewModel()Lcom/discord/widgets/status/WidgetThreadStatusViewModel;
     invoke-static {p1}, Lcom/discord/widgets/status/WidgetThreadStatus;->access$getViewModel$p(Lcom/discord/widgets/status/WidgetThreadStatus;)Lcom/discord/widgets/status/WidgetThreadStatusViewModel;
 
     move-result-object p1

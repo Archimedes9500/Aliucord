@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/servers/WidgetServerSettingsSecurity;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsSecurity;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsSecurity$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsSecurity;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsSecurity;Lcom/discord/widgets/servers/WidgetServerSettingsSecurity$Model;)V
 
     return-void

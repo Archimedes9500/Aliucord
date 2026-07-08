@@ -76,7 +76,6 @@
     .line 2
     iget-object v1, v0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet$viewModel$2;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;)Landroid/os/Bundle;
 
     move-result-object v1
@@ -90,7 +89,6 @@
     .line 3
     iget-object v3, v0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet$viewModel$2;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v3}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;)Landroid/os/Bundle;
 
     move-result-object v3

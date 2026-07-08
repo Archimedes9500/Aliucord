@@ -184,7 +184,6 @@
     .line 3
     sget-object v0, Lcom/discord/models/application/Unread;->Companion:Lcom/discord/models/application/Unread$Companion;
 
-    # invokes: Lcom/discord/models/application/Unread$Companion;->getTotalMessages(Lcom/discord/models/application/Unread$Marker;Ljava/util/List;)I
     invoke-static {v0, p1, p2}, Lcom/discord/models/application/Unread$Companion;->access$getTotalMessages(Lcom/discord/models/application/Unread$Companion;Lcom/discord/models/application/Unread$Marker;Ljava/util/List;)I
 
     move-result p2

@@ -50,7 +50,6 @@
     .line 2
     iget-object p1, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar$q;->a:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
 
-    # invokes: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->showViewImpl()V
     invoke-static {p1}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$1200(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
 
     return-void

@@ -90,7 +90,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerNotifications$configureUI$2;->this$0:Lcom/discord/widgets/servers/WidgetServerNotifications;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerNotifications;->getBinding()Lcom/discord/databinding/WidgetServerNotificationsBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerNotifications;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerNotifications;)Lcom/discord/databinding/WidgetServerNotificationsBinding;
 
     move-result-object p1

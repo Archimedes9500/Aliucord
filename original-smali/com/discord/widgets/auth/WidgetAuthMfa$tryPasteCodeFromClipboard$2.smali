@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/auth/WidgetAuthMfa;
 
     .line 2
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthMfa;->evaluateCode(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetAuthMfa;->access$evaluateCode(Lcom/discord/widgets/auth/WidgetAuthMfa;Ljava/lang/String;)V
 
     return-void

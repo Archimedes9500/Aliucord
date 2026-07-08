@@ -448,7 +448,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/models/domain/premium/SubscriptionPlanType;->LEGACY_PLANS:Ljava/util/Set;
     invoke-static {}, Lcom/discord/models/domain/premium/SubscriptionPlanType;->access$getLEGACY_PLANS$cp()Ljava/util/Set;
 
     move-result-object v0
@@ -468,7 +467,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/models/domain/premium/SubscriptionPlanType;->PREMIUM_GUILD_PLANS:Ljava/util/Set;
     invoke-static {}, Lcom/discord/models/domain/premium/SubscriptionPlanType;->access$getPREMIUM_GUILD_PLANS$cp()Ljava/util/Set;
 
     move-result-object v0
@@ -488,7 +486,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/models/domain/premium/SubscriptionPlanType;->PREMIUM_PLANS:Ljava/util/Set;
     invoke-static {}, Lcom/discord/models/domain/premium/SubscriptionPlanType;->access$getPREMIUM_PLANS$cp()Ljava/util/Set;
 
     move-result-object v0

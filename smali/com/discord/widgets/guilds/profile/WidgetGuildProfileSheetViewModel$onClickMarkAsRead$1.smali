@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel$onClickMarkAsRead$1;->this$0:Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel;
 
-    # getter for: Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel;->access$getEventSubject$p(Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

@@ -41,13 +41,11 @@
     .line 1
     iget-object v0, p0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # invokes: Lorg/webrtc/Camera1Session;->checkIsOnCameraThread()V
     invoke-static {v0}, Lorg/webrtc/Camera1Session;->access$200(Lorg/webrtc/Camera1Session;)V
 
     .line 2
     iget-object v0, p0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->camera:Landroid/hardware/Camera;
     invoke-static {v0}, Lorg/webrtc/Camera1Session;->access$300(Lorg/webrtc/Camera1Session;)Landroid/hardware/Camera;
 
     move-result-object v0
@@ -67,7 +65,6 @@
     :cond_15
     iget-object p2, p0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->state:Lorg/webrtc/Camera1Session$SessionState;
     invoke-static {p2}, Lorg/webrtc/Camera1Session;->access$400(Lorg/webrtc/Camera1Session;)Lorg/webrtc/Camera1Session$SessionState;
 
     move-result-object p2
@@ -98,7 +95,6 @@
     .line 7
     iget-object p2, p0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->firstFrameReported:Z
     invoke-static {p2}, Lorg/webrtc/Camera1Session;->access$500(Lorg/webrtc/Camera1Session;)Z
 
     move-result p2
@@ -115,7 +111,6 @@
 
     iget-object v4, p0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->constructionTimeNs:J
     invoke-static {v4}, Lorg/webrtc/Camera1Session;->access$600(Lorg/webrtc/Camera1Session;)J
 
     move-result-wide v4
@@ -129,7 +124,6 @@
     long-to-int p2, v2
 
     .line 10
-    # getter for: Lorg/webrtc/Camera1Session;->camera1StartTimeMsHistogram:Lorg/webrtc/Histogram;
     invoke-static {}, Lorg/webrtc/Camera1Session;->access$700()Lorg/webrtc/Histogram;
 
     move-result-object v2
@@ -141,7 +135,6 @@
 
     const/4 v2, 0x1
 
-    # setter for: Lorg/webrtc/Camera1Session;->firstFrameReported:Z
     invoke-static {p2, v2}, Lorg/webrtc/Camera1Session;->access$502(Lorg/webrtc/Camera1Session;Z)Z
 
     .line 12
@@ -151,7 +144,6 @@
     iget-object v2, p0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
     .line 13
-    # getter for: Lorg/webrtc/Camera1Session;->captureFormat:Lorg/webrtc/CameraEnumerationAndroid$CaptureFormat;
     invoke-static {v2}, Lorg/webrtc/Camera1Session;->access$800(Lorg/webrtc/Camera1Session;)Lorg/webrtc/CameraEnumerationAndroid$CaptureFormat;
 
     move-result-object v2
@@ -160,7 +152,6 @@
 
     iget-object v3, p0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->captureFormat:Lorg/webrtc/CameraEnumerationAndroid$CaptureFormat;
     invoke-static {v3}, Lorg/webrtc/Camera1Session;->access$800(Lorg/webrtc/Camera1Session;)Lorg/webrtc/CameraEnumerationAndroid$CaptureFormat;
 
     move-result-object v3
@@ -178,7 +169,6 @@
 
     iget-object v2, p0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # invokes: Lorg/webrtc/Camera1Session;->getFrameOrientation()I
     invoke-static {v2}, Lorg/webrtc/Camera1Session;->access$900(Lorg/webrtc/Camera1Session;)I
 
     move-result v2
@@ -188,7 +178,6 @@
     .line 15
     iget-object p2, p0, Lorg/webrtc/Camera1Session$2;->this$0:Lorg/webrtc/Camera1Session;
 
-    # getter for: Lorg/webrtc/Camera1Session;->events:Lorg/webrtc/CameraSession$Events;
     invoke-static {p2}, Lorg/webrtc/Camera1Session;->access$100(Lorg/webrtc/Camera1Session;)Lorg/webrtc/CameraSession$Events;
 
     move-result-object p2

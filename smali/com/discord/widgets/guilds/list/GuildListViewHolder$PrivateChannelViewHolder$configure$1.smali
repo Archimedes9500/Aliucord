@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/list/GuildListViewHolder$PrivateChannelViewHolder$configure$1;->this$0:Lcom/discord/widgets/guilds/list/GuildListViewHolder$PrivateChannelViewHolder;
 
-    # getter for: Lcom/discord/widgets/guilds/list/GuildListViewHolder$PrivateChannelViewHolder;->onClicked:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/guilds/list/GuildListViewHolder$PrivateChannelViewHolder;->access$getOnClicked$p(Lcom/discord/widgets/guilds/list/GuildListViewHolder$PrivateChannelViewHolder;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

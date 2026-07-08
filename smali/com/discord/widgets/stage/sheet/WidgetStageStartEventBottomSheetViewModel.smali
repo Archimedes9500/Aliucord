@@ -256,7 +256,6 @@
     .line 3
     sget-object p3, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;->Companion:Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreStageInstances;)Lrx/Observable;
     invoke-static {p3, p1, p2, v3, v4}, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel$Companion;JLcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreStageInstances;)Lrx/Observable;
 
     move-result-object p5

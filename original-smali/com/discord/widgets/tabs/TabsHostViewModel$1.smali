@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/tabs/TabsHostViewModel$1;->this$0:Lcom/discord/widgets/tabs/TabsHostViewModel;
 
-    # invokes: Lcom/discord/widgets/tabs/TabsHostViewModel;->handleStoreState(Lcom/discord/widgets/tabs/TabsHostViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/tabs/TabsHostViewModel;->access$handleStoreState(Lcom/discord/widgets/tabs/TabsHostViewModel;Lcom/discord/widgets/tabs/TabsHostViewModel$StoreState;)V
 
     return-void

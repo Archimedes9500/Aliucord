@@ -68,7 +68,6 @@
     .line 2
     iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$g;->e:Lcom/google/android/material/bottomappbar/BottomAppBar;
 
-    # getter for: Lcom/google/android/material/bottomappbar/BottomAppBar;->pendingMenuResId:I
     invoke-static {p1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$2000(Lcom/google/android/material/bottomappbar/BottomAppBar;)I
 
     move-result p1
@@ -86,7 +85,6 @@
     :goto_f
     iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$g;->e:Lcom/google/android/material/bottomappbar/BottomAppBar;
 
-    # getter for: Lcom/google/android/material/bottomappbar/BottomAppBar;->pendingMenuResId:I
     invoke-static {v0}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$2000(Lcom/google/android/material/bottomappbar/BottomAppBar;)I
 
     move-result v1
@@ -102,7 +100,6 @@
 
     iget-boolean v3, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$g;->d:Z
 
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->translateActionMenuView(Landroidx/appcompat/widget/ActionMenuView;IZZ)V
     invoke-static {v0, v1, v2, v3, p1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$2100(Lcom/google/android/material/bottomappbar/BottomAppBar;Landroidx/appcompat/widget/ActionMenuView;IZZ)V
 
     :cond_23

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogFilter$onViewCreated$2;->this$0:Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogFilter;
 
-    # getter for: Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogFilter;->filterPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogFilter;->access$getFilterPublisher$p(Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogFilter;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

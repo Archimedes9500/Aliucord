@@ -100,7 +100,6 @@
     .line 3
     iget-object v1, v0, Lcom/discord/stores/StoreGuildRoleSubscriptions$handleGuildRoleSubscriptionGroupFetch$1;->this$0:Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleSubscriptions;->guildRoleSubscriptionGroups:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$getGuildRoleSubscriptionGroups$p(Lcom/discord/stores/StoreGuildRoleSubscriptions;)Ljava/util/Map;
 
     move-result-object v1
@@ -122,7 +121,6 @@
     .line 4
     iget-object v1, v0, Lcom/discord/stores/StoreGuildRoleSubscriptions$handleGuildRoleSubscriptionGroupFetch$1;->this$0:Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleSubscriptions;->guildRoleSubscriptionTiers:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$getGuildRoleSubscriptionTiers$p(Lcom/discord/stores/StoreGuildRoleSubscriptions;)Ljava/util/Map;
 
     move-result-object v1
@@ -141,7 +139,6 @@
     :cond_2d
     iget-object v1, v0, Lcom/discord/stores/StoreGuildRoleSubscriptions$handleGuildRoleSubscriptionGroupFetch$1;->this$0:Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleSubscriptions;->guildRoleSubscriptionGroups:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$getGuildRoleSubscriptionGroups$p(Lcom/discord/stores/StoreGuildRoleSubscriptions;)Ljava/util/Map;
 
     move-result-object v1
@@ -216,7 +213,6 @@
     .line 9
     iget-object v1, v0, Lcom/discord/stores/StoreGuildRoleSubscriptions$handleGuildRoleSubscriptionGroupFetch$1;->this$0:Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleSubscriptions;->guildRoleSubscriptionTiers:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$getGuildRoleSubscriptionTiers$p(Lcom/discord/stores/StoreGuildRoleSubscriptions;)Ljava/util/Map;
 
     move-result-object v1
@@ -235,7 +231,6 @@
     :cond_78
     iget-object v1, v0, Lcom/discord/stores/StoreGuildRoleSubscriptions$handleGuildRoleSubscriptionGroupFetch$1;->this$0:Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleSubscriptions;->guildRoleSubscriptionTiers:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$getGuildRoleSubscriptionTiers$p(Lcom/discord/stores/StoreGuildRoleSubscriptions;)Ljava/util/Map;
 
     move-result-object v1
@@ -306,7 +301,6 @@
     :cond_b6
     iget-object v2, v0, Lcom/discord/stores/StoreGuildRoleSubscriptions$handleGuildRoleSubscriptionGroupFetch$1;->this$0:Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleSubscriptions;->guildRoleSubscriptionTiers:Ljava/util/Map;
     invoke-static {v2}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$getGuildRoleSubscriptionTiers$p(Lcom/discord/stores/StoreGuildRoleSubscriptions;)Ljava/util/Map;
 
     move-result-object v2

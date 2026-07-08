@@ -86,7 +86,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep$configureUI$3;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;->getBinding()Lcom/discord/databinding/WidgetServerSettingsCommunitySetupThirdStepBinding;
     invoke-static {v2}, Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;->access$getBinding$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsCommunityThirdStep;)Lcom/discord/databinding/WidgetServerSettingsCommunitySetupThirdStepBinding;
 
     move-result-object v2

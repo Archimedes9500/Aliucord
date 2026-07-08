@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/WidgetPruneUsersViewModel$pruneClicked$3;->this$0:Lcom/discord/widgets/user/WidgetPruneUsersViewModel;
 
-    # getter for: Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v0}, Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->access$getEventSubject$p(Lcom/discord/widgets/user/WidgetPruneUsersViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object v0

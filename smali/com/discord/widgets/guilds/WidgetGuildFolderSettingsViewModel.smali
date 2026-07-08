@@ -165,7 +165,6 @@
     .line 5
     sget-object v0, Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;->Companion:Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreUserSettings;Lcom/discord/stores/StoreGuildsSorted;)Lrx/Observable;
     invoke-static {v0, p1, p2, p3, p4}, Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel$Companion;JLcom/discord/stores/StoreUserSettings;Lcom/discord/stores/StoreGuildsSorted;)Lrx/Observable;
 
     move-result-object p1

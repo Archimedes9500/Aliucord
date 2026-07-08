@@ -55,7 +55,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/b/q/g$b;->this$0:Ld0/e0/p/d/m0/b/q/g;
 
-    # invokes: Ld0/e0/p/d/m0/b/q/g;->b()Ld0/e0/p/d/m0/b/q/f$b;
     invoke-static {v0}, Ld0/e0/p/d/m0/b/q/g;->access$getSettings(Ld0/e0/p/d/m0/b/q/g;)Ld0/e0/p/d/m0/b/q/f$b;
 
     move-result-object v0
@@ -78,7 +77,6 @@
 
     iget-object v4, p0, Ld0/e0/p/d/m0/b/q/g$b;->this$0:Ld0/e0/p/d/m0/b/q/g;
 
-    # invokes: Ld0/e0/p/d/m0/b/q/g;->b()Ld0/e0/p/d/m0/b/q/f$b;
     invoke-static {v4}, Ld0/e0/p/d/m0/b/q/g;->access$getSettings(Ld0/e0/p/d/m0/b/q/g;)Ld0/e0/p/d/m0/b/q/f$b;
 
     move-result-object v4

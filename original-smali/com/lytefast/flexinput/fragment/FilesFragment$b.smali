@@ -60,7 +60,6 @@
     check-cast v0, Lcom/lytefast/flexinput/fragment/FilesFragment;
 
     .line 2
-    # invokes: Lcom/lytefast/flexinput/fragment/FilesFragment;->loadDownloadFolder()V
     invoke-static {v0}, Lcom/lytefast/flexinput/fragment/FilesFragment;->access$loadDownloadFolder(Lcom/lytefast/flexinput/fragment/FilesFragment;)V
 
     .line 3

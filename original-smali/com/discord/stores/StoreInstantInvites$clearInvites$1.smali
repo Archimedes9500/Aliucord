@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreInstantInvites$clearInvites$1;->this$0:Lcom/discord/stores/StoreInstantInvites;
 
-    # getter for: Lcom/discord/stores/StoreInstantInvites;->invites:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreInstantInvites;->access$getInvites$p(Lcom/discord/stores/StoreInstantInvites;)Ljava/util/Map;
 
     move-result-object v0

@@ -79,7 +79,6 @@
 
     iget-object p2, p0, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections$Adapter$ViewHolder$onConfigure$$inlined$apply$lambda$3;->$connectedAccount:Lcom/discord/api/connectedaccounts/ConnectedAccount;
 
-    # invokes: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections$Adapter$ViewHolder;->updateUserConnection(Lcom/discord/api/connectedaccounts/ConnectedAccount;)V
     invoke-static {p1, p2}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections$Adapter$ViewHolder;->access$updateUserConnection(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections$Adapter$ViewHolder;Lcom/discord/api/connectedaccounts/ConnectedAccount;)V
 
     return-void

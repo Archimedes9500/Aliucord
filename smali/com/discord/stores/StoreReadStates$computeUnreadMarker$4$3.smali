@@ -65,7 +65,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreReadStates$computeUnreadMarker$4;->this$0:Lcom/discord/stores/StoreReadStates;
 
-    # invokes: Lcom/discord/stores/StoreReadStates;->clearMarker()V
     invoke-static {v0}, Lcom/discord/stores/StoreReadStates;->access$clearMarker(Lcom/discord/stores/StoreReadStates;)V
 
     return-void

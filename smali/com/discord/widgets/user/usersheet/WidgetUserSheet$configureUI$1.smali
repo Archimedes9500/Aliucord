@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet$configureUI$1;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->getViewModelUserProfileHeader()Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel;
     invoke-static {v0}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$getViewModelUserProfileHeader$p(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;)Lcom/discord/widgets/user/profile/UserProfileHeaderViewModel;
 
     move-result-object v0

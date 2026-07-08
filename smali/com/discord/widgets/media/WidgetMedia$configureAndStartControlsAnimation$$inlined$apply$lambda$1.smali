@@ -86,7 +86,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/media/WidgetMedia$configureAndStartControlsAnimation$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # invokes: Lcom/discord/widgets/media/WidgetMedia;->getBinding()Lcom/discord/databinding/WidgetMediaBinding;
     invoke-static {v0}, Lcom/discord/widgets/media/WidgetMedia;->access$getBinding$p(Lcom/discord/widgets/media/WidgetMedia;)Lcom/discord/databinding/WidgetMediaBinding;
 
     move-result-object v0
@@ -102,7 +101,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/media/WidgetMedia$configureAndStartControlsAnimation$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # invokes: Lcom/discord/widgets/media/WidgetMedia;->isVideo()Z
     invoke-static {v0}, Lcom/discord/widgets/media/WidgetMedia;->access$isVideo(Lcom/discord/widgets/media/WidgetMedia;)Z
 
     move-result v0
@@ -111,7 +109,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/media/WidgetMedia$configureAndStartControlsAnimation$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # getter for: Lcom/discord/widgets/media/WidgetMedia;->playerControlsHeight:I
     invoke-static {v0}, Lcom/discord/widgets/media/WidgetMedia;->access$getPlayerControlsHeight$p(Lcom/discord/widgets/media/WidgetMedia;)I
 
     move-result v0
@@ -121,7 +118,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/media/WidgetMedia$configureAndStartControlsAnimation$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # getter for: Lcom/discord/widgets/media/WidgetMedia;->toolbarHeight:I
     invoke-static {v0}, Lcom/discord/widgets/media/WidgetMedia;->access$getToolbarHeight$p(Lcom/discord/widgets/media/WidgetMedia;)I
 
     move-result v0
@@ -130,7 +126,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/media/WidgetMedia$configureAndStartControlsAnimation$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # getter for: Lcom/discord/widgets/media/WidgetMedia;->playerControlsHeight:I
     invoke-static {v1}, Lcom/discord/widgets/media/WidgetMedia;->access$getPlayerControlsHeight$p(Lcom/discord/widgets/media/WidgetMedia;)I
 
     move-result v1
@@ -146,7 +141,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/widgets/media/WidgetMedia$configureAndStartControlsAnimation$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/media/WidgetMedia;
 
-    # invokes: Lcom/discord/widgets/media/WidgetMedia;->getBinding()Lcom/discord/databinding/WidgetMediaBinding;
     invoke-static {v0}, Lcom/discord/widgets/media/WidgetMedia;->access$getBinding$p(Lcom/discord/widgets/media/WidgetMedia;)Lcom/discord/databinding/WidgetMediaBinding;
 
     move-result-object v0

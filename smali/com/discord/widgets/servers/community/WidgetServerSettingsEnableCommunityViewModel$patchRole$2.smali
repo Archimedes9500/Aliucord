@@ -112,13 +112,11 @@
     move-result-object v0
 
     .line 4
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->access$updateViewState(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel$ViewState;)V
 
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel$patchRole$2;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
 
-    # getter for: Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->access$getEventSubject$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

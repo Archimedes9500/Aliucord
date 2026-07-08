@@ -86,7 +86,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/utilities/search/network/SearchFetcher;->isIndexing(Lcom/discord/models/domain/ModelSearchResponse;)Z
     invoke-static {v0, p1}, Lcom/discord/utilities/search/network/SearchFetcher;->access$isIndexing(Lcom/discord/utilities/search/network/SearchFetcher;Lcom/discord/models/domain/ModelSearchResponse;)Z
 
     move-result v0
@@ -105,7 +104,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/utilities/search/network/SearchFetcher$makeQuery$1;->this$0:Lcom/discord/utilities/search/network/SearchFetcher;
 
-    # getter for: Lcom/discord/utilities/search/network/SearchFetcher;->indexingRetryCount:Ljava/util/concurrent/atomic/AtomicInteger;
     invoke-static {p1}, Lcom/discord/utilities/search/network/SearchFetcher;->access$getIndexingRetryCount$p(Lcom/discord/utilities/search/network/SearchFetcher;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object p1

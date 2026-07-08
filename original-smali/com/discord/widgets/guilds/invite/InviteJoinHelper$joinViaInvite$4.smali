@@ -1158,7 +1158,6 @@
 
     iget-object v4, v1, Lcom/discord/widgets/guilds/invite/InviteJoinHelper$joinViaInvite$4;->$invite:Lcom/discord/models/domain/ModelInvite;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->navigateToGuild(Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v3, v4}, Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->access$navigateToGuild(Lcom/discord/widgets/guilds/invite/InviteJoinHelper;Lcom/discord/models/domain/ModelInvite;)V
 
     goto/16 :goto_3cd
@@ -1186,7 +1185,6 @@
 
     iget-object v4, v1, Lcom/discord/widgets/guilds/invite/InviteJoinHelper$joinViaInvite$4;->$invite:Lcom/discord/models/domain/ModelInvite;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->navigateToGuild(Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v3, v4}, Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->access$navigateToGuild(Lcom/discord/widgets/guilds/invite/InviteJoinHelper;Lcom/discord/models/domain/ModelInvite;)V
 
     goto/16 :goto_3cd
@@ -1268,7 +1266,6 @@
 
     iget-object v7, v1, Lcom/discord/widgets/guilds/invite/InviteJoinHelper$joinViaInvite$4;->$invite:Lcom/discord/models/domain/ModelInvite;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->navigateToChannel(Landroid/content/Context;Lcom/discord/app/AppFragment;Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v4, v3, v6, v7}, Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->access$navigateToChannel(Lcom/discord/widgets/guilds/invite/InviteJoinHelper;Landroid/content/Context;Lcom/discord/app/AppFragment;Lcom/discord/models/domain/ModelInvite;)V
 
     goto :goto_3cd
@@ -1279,7 +1276,6 @@
 
     iget-object v4, v1, Lcom/discord/widgets/guilds/invite/InviteJoinHelper$joinViaInvite$4;->$invite:Lcom/discord/models/domain/ModelInvite;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->navigateToGuild(Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v3, v4}, Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->access$navigateToGuild(Lcom/discord/widgets/guilds/invite/InviteJoinHelper;Lcom/discord/models/domain/ModelInvite;)V
 
     goto :goto_3cd
@@ -1307,7 +1303,6 @@
 
     iget-object v4, v1, Lcom/discord/widgets/guilds/invite/InviteJoinHelper$joinViaInvite$4;->$invite:Lcom/discord/models/domain/ModelInvite;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->navigateToGuild(Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v3, v4}, Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->access$navigateToGuild(Lcom/discord/widgets/guilds/invite/InviteJoinHelper;Lcom/discord/models/domain/ModelInvite;)V
 
     goto :goto_3cd
@@ -1324,7 +1319,6 @@
 
     iget-object v7, v1, Lcom/discord/widgets/guilds/invite/InviteJoinHelper$joinViaInvite$4;->$invite:Lcom/discord/models/domain/ModelInvite;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->navigateToChannel(Landroid/content/Context;Lcom/discord/app/AppFragment;Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v4, v3, v6, v7}, Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->access$navigateToChannel(Lcom/discord/widgets/guilds/invite/InviteJoinHelper;Landroid/content/Context;Lcom/discord/app/AppFragment;Lcom/discord/models/domain/ModelInvite;)V
 
     goto :goto_3cd
@@ -1341,7 +1335,6 @@
 
     iget-object v7, v1, Lcom/discord/widgets/guilds/invite/InviteJoinHelper$joinViaInvite$4;->$invite:Lcom/discord/models/domain/ModelInvite;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->navigateToChannel(Landroid/content/Context;Lcom/discord/app/AppFragment;Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v4, v3, v6, v7}, Lcom/discord/widgets/guilds/invite/InviteJoinHelper;->access$navigateToChannel(Lcom/discord/widgets/guilds/invite/InviteJoinHelper;Landroid/content/Context;Lcom/discord/app/AppFragment;Lcom/discord/models/domain/ModelInvite;)V
 
     goto :goto_3cd

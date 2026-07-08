@@ -78,7 +78,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$configureUI$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->getBinding()Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
     invoke-static {v2}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;)Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
 
     move-result-object v2
@@ -181,7 +180,6 @@
     move-result-object v2
 
     .line 7
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->updateVanityUrl(JLjava/lang/String;)V
     invoke-static {p1, v0, v1, v2}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$updateVanityUrl(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;JLjava/lang/String;)V
 
     return-void

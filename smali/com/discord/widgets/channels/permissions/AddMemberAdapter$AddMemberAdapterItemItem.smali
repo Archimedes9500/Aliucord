@@ -261,7 +261,6 @@
 
     check-cast v0, Lcom/discord/widgets/channels/permissions/AddMemberAdapter;
 
-    # getter for: Lcom/discord/widgets/channels/permissions/AddMemberAdapter;->onClickListener:Lkotlin/jvm/functions/Function2;
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/AddMemberAdapter;->access$getOnClickListener$p(Lcom/discord/widgets/channels/permissions/AddMemberAdapter;)Lkotlin/jvm/functions/Function2;
 
     move-result-object v0

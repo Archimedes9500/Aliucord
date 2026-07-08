@@ -138,7 +138,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/chat/list/CreateThreadsFeatureFlag;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/chat/list/CreateThreadsFeatureFlag;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/chat/list/CreateThreadsFeatureFlag;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

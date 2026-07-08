@@ -117,7 +117,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreMessagesLoader$jumpToMessage$4;->this$0:Lcom/discord/stores/StoreMessagesLoader;
 
-    # getter for: Lcom/discord/stores/StoreMessagesLoader;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {p1}, Lcom/discord/stores/StoreMessagesLoader;->access$getStream$p(Lcom/discord/stores/StoreMessagesLoader;)Lcom/discord/stores/StoreStream;
 
     move-result-object p1

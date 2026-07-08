@@ -157,7 +157,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/stores/StoreOutboundPromotions$handleConnectionOpen$2;->this$0:Lcom/discord/stores/StoreOutboundPromotions;
 
-    # getter for: Lcom/discord/stores/StoreOutboundPromotions;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v0}, Lcom/discord/stores/StoreOutboundPromotions;->access$getRestAPI$p(Lcom/discord/stores/StoreOutboundPromotions;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0

@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreAnalytics$trackVoiceConnectionFailure$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0
@@ -105,7 +104,6 @@
     .line 3
     iget-object v2, p0, Lcom/discord/stores/StoreAnalytics$trackVoiceConnectionFailure$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v2}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v2
@@ -127,7 +125,6 @@
     .line 6
     iget-object v3, p0, Lcom/discord/stores/StoreAnalytics$trackVoiceConnectionFailure$1;->this$0:Lcom/discord/stores/StoreAnalytics;
 
-    # getter for: Lcom/discord/stores/StoreAnalytics;->stores:Lcom/discord/stores/StoreStream;
     invoke-static {v3}, Lcom/discord/stores/StoreAnalytics;->access$getStores$p(Lcom/discord/stores/StoreAnalytics;)Lcom/discord/stores/StoreStream;
 
     move-result-object v3

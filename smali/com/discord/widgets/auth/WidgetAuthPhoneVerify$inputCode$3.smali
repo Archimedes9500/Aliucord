@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify$inputCode$3;->this$0:Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->getBinding()Lcom/discord/databinding/WidgetAuthPhoneVerifyBinding;
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;)Lcom/discord/databinding/WidgetAuthPhoneVerifyBinding;
 
     move-result-object v0
@@ -102,7 +101,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->evaluateCode(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->access$evaluateCode(Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;Ljava/lang/String;)V
 
     return-void

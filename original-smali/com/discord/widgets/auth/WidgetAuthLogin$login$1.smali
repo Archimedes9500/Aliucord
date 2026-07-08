@@ -110,7 +110,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/auth/WidgetAuthLogin$login$1;->$password:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLogin;->onLoginSuccess(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/auth/WidgetAuthLogin;->access$onLoginSuccess(Lcom/discord/widgets/auth/WidgetAuthLogin;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3

@@ -134,7 +134,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite$configureUI$2;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite;->inviteJoinJob:Lkotlinx/coroutines/Job;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite;->access$getInviteJoinJob$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite;)Lkotlinx/coroutines/Job;
 
     move-result-object p1

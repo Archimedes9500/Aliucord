@@ -112,7 +112,6 @@
     .line 7
     iget-object v2, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium$getPremiumSubscriptionViewCallbacks$managePlanCallback$3;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->getAnalyticsLocationSection()Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$getAnalyticsLocationSection$p(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;)Ljava/lang/String;
 
     move-result-object v7

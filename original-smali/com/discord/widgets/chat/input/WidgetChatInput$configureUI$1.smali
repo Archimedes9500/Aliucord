@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$configureUI$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInput;->chatInputTruncatedHint:Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getChatInputTruncatedHint$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/widgets/chat/input/WidgetChatInputTruncatedHint;
 
     move-result-object v0
@@ -132,7 +131,6 @@
     move-result v5
 
     .line 8
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getHint(Landroid/content/Context;Lcom/discord/api/channel/Channel;ZZ)Ljava/lang/CharSequence;
     invoke-static {v1, v2, v3, v4, v5}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getHint(Lcom/discord/widgets/chat/input/WidgetChatInput;Landroid/content/Context;Lcom/discord/api/channel/Channel;ZZ)Ljava/lang/CharSequence;
 
     move-result-object v1
@@ -148,7 +146,6 @@
 
     check-cast v1, Lcom/discord/widgets/chat/input/ChatInputViewModel$ViewState$Loaded;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->configureSendListeners(Lcom/discord/widgets/chat/input/ChatInputViewModel$ViewState$Loaded;)V
     invoke-static {v0, v1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$configureSendListeners(Lcom/discord/widgets/chat/input/WidgetChatInput;Lcom/discord/widgets/chat/input/ChatInputViewModel$ViewState$Loaded;)V
 
     return-void

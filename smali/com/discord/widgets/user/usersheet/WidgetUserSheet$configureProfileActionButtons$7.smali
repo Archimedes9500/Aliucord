@@ -80,7 +80,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->addFriend(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$addFriend(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;Ljava/lang/String;)V
 
     return-void

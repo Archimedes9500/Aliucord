@@ -79,7 +79,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configurePrivacyControls$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object p1
@@ -101,7 +100,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configurePrivacyControls$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object p1

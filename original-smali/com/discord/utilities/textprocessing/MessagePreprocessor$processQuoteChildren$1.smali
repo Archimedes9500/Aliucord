@@ -88,7 +88,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/textprocessing/MessagePreprocessor$processQuoteChildren$1;->this$0:Lcom/discord/utilities/textprocessing/MessagePreprocessor;
 
-    # invokes: Lcom/discord/utilities/textprocessing/MessagePreprocessor;->mergeConsecutiveQuoteNodes(Ljava/util/Collection;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/textprocessing/MessagePreprocessor;->access$mergeConsecutiveQuoteNodes(Lcom/discord/utilities/textprocessing/MessagePreprocessor;Ljava/util/Collection;)V
 
     :cond_f

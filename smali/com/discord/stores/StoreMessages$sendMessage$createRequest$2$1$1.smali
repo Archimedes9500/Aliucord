@@ -95,7 +95,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/stores/StoreMessages$Companion;->cancelBackgroundSendingWork(Landroid/content/Context;)Landroidx/work/Operation;
     invoke-static {v0, v1}, Lcom/discord/stores/StoreMessages$Companion;->access$cancelBackgroundSendingWork(Lcom/discord/stores/StoreMessages$Companion;Landroid/content/Context;)Landroidx/work/Operation;
 
     return-void

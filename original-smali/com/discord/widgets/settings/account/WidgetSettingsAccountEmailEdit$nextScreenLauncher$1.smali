@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit$nextScreenLauncher$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;
 
-    # getter for: Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v0}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;->access$getState$p(Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v0

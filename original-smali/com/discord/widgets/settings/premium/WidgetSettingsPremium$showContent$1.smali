@@ -97,7 +97,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium$showContent$1;->$scrollTargetSection:Ljava/lang/Integer;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->scrollToSection(Ljava/lang/Integer;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$scrollToSection(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;Ljava/lang/Integer;)V
 
     return-void

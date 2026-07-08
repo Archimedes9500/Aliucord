@@ -184,7 +184,6 @@
     :goto_25
     iget-object p1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccount$onViewBound$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccount;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->getBinding()Lcom/discord/databinding/WidgetSettingsAccountBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetSettingsAccount;)Lcom/discord/databinding/WidgetSettingsAccountBinding;
 
     move-result-object p1
@@ -195,7 +194,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccount$onViewBound$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccount;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->getBinding()Lcom/discord/databinding/WidgetSettingsAccountBinding;
     invoke-static {v1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetSettingsAccount;)Lcom/discord/databinding/WidgetSettingsAccountBinding;
 
     move-result-object v1
@@ -215,7 +213,6 @@
     .line 6
     iget-object p1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccount$onViewBound$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccount;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->getBinding()Lcom/discord/databinding/WidgetSettingsAccountBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetSettingsAccount;)Lcom/discord/databinding/WidgetSettingsAccountBinding;
 
     move-result-object p1

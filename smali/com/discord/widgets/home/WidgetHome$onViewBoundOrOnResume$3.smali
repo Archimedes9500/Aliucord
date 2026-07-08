@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/home/WidgetHome$onViewBoundOrOnResume$3;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->configureUI(Lcom/discord/widgets/home/WidgetHomeModel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/home/WidgetHome;->access$configureUI(Lcom/discord/widgets/home/WidgetHome;Lcom/discord/widgets/home/WidgetHomeModel;)V
 
     return-void

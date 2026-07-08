@@ -84,7 +84,6 @@
     .line 4
     iget-object v3, p0, Lcom/discord/widgets/bugreports/WidgetBugReport$validationManager$2;->this$0:Lcom/discord/widgets/bugreports/WidgetBugReport;
 
-    # invokes: Lcom/discord/widgets/bugreports/WidgetBugReport;->getBinding()Lcom/discord/databinding/WidgetBugReportBinding;
     invoke-static {v3}, Lcom/discord/widgets/bugreports/WidgetBugReport;->access$getBinding$p(Lcom/discord/widgets/bugreports/WidgetBugReport;)Lcom/discord/databinding/WidgetBugReportBinding;
 
     move-result-object v3
@@ -125,7 +124,6 @@
     .line 8
     iget-object v3, p0, Lcom/discord/widgets/bugreports/WidgetBugReport$validationManager$2;->this$0:Lcom/discord/widgets/bugreports/WidgetBugReport;
 
-    # invokes: Lcom/discord/widgets/bugreports/WidgetBugReport;->getBinding()Lcom/discord/databinding/WidgetBugReportBinding;
     invoke-static {v3}, Lcom/discord/widgets/bugreports/WidgetBugReport;->access$getBinding$p(Lcom/discord/widgets/bugreports/WidgetBugReport;)Lcom/discord/databinding/WidgetBugReportBinding;
 
     move-result-object v3

@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthMfa$onResume$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthMfa;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthMfa;->tryPasteCodeFromClipboard()V
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthMfa;->access$tryPasteCodeFromClipboard(Lcom/discord/widgets/auth/WidgetAuthMfa;)V
 
     return-void

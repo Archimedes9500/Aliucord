@@ -479,7 +479,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/stores/StoreCollapsedChannelCategories$Companion;->fromCache(Landroid/content/SharedPreferences;)Ljava/util/Map;
     invoke-static {p1, v0}, Lcom/discord/stores/StoreCollapsedChannelCategories$Companion;->access$fromCache(Lcom/discord/stores/StoreCollapsedChannelCategories$Companion;Landroid/content/SharedPreferences;)Ljava/util/Map;
 
     move-result-object p1
@@ -584,7 +583,6 @@
 
     iget-object v2, p0, Lcom/discord/stores/StoreCollapsedChannelCategories;->collapsedCategories:Ljava/util/Map;
 
-    # invokes: Lcom/discord/stores/StoreCollapsedChannelCategories$Companion;->toCache(Landroid/content/SharedPreferences;Ljava/util/Map;)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreCollapsedChannelCategories$Companion;->access$toCache(Lcom/discord/stores/StoreCollapsedChannelCategories$Companion;Landroid/content/SharedPreferences;Ljava/util/Map;)V
 
     .line 3

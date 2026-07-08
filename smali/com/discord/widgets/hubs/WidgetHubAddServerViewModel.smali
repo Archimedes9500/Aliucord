@@ -220,7 +220,6 @@
     move-result-object v7
 
     .line 9
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubAddServerViewModel$Companion;->observeStores(Lcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreGuildSelected;Lcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreDirectories;)Lrx/Observable;
     invoke-static/range {v0 .. v7}, Lcom/discord/widgets/hubs/WidgetHubAddServerViewModel$Companion;->access$observeStores(Lcom/discord/widgets/hubs/WidgetHubAddServerViewModel$Companion;Lcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreGuildSelected;Lcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreDirectories;)Lrx/Observable;
 
     move-result-object p1

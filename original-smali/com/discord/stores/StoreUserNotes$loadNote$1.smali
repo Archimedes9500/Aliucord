@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreUserNotes$loadNote$1;->this$0:Lcom/discord/stores/StoreUserNotes;
 
-    # getter for: Lcom/discord/stores/StoreUserNotes;->notesByUserId:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreUserNotes;->access$getNotesByUserId$p(Lcom/discord/stores/StoreUserNotes;)Ljava/util/Map;
 
     move-result-object v0
@@ -109,7 +108,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreUserNotes$loadNote$1;->this$0:Lcom/discord/stores/StoreUserNotes;
 
-    # getter for: Lcom/discord/stores/StoreUserNotes;->notesByUserId:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreUserNotes;->access$getNotesByUserId$p(Lcom/discord/stores/StoreUserNotes;)Ljava/util/Map;
 
     move-result-object v0
@@ -127,7 +125,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StoreUserNotes$loadNote$1;->this$0:Lcom/discord/stores/StoreUserNotes;
 
-    # getter for: Lcom/discord/stores/StoreUserNotes;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v0}, Lcom/discord/stores/StoreUserNotes;->access$getRestAPI$p(Lcom/discord/stores/StoreUserNotes;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0

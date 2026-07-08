@@ -84,7 +84,6 @@
     .line 4
     iget-object v3, p0, Lcom/discord/widgets/auth/WidgetAuthLogin$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthLogin;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLogin;->getBinding()Lcom/discord/databinding/WidgetAuthLoginBinding;
     invoke-static {v3}, Lcom/discord/widgets/auth/WidgetAuthLogin;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthLogin;)Lcom/discord/databinding/WidgetAuthLoginBinding;
 
     move-result-object v3
@@ -125,7 +124,6 @@
     .line 8
     iget-object v3, p0, Lcom/discord/widgets/auth/WidgetAuthLogin$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthLogin;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthLogin;->getBinding()Lcom/discord/databinding/WidgetAuthLoginBinding;
     invoke-static {v3}, Lcom/discord/widgets/auth/WidgetAuthLogin;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthLogin;)Lcom/discord/databinding/WidgetAuthLoginBinding;
 
     move-result-object v3

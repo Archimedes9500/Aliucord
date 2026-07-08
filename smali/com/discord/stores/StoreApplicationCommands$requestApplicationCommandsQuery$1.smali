@@ -93,7 +93,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommandsQuery$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->generateNonce()Ljava/lang/String;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommands;->access$generateNonce(Lcom/discord/stores/StoreApplicationCommands;)Ljava/lang/String;
 
     move-result-object v4
@@ -106,7 +105,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommandsQuery$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->queryGuildId:Ljava/lang/Long;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommands;->access$getQueryGuildId$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/lang/Long;
 
     move-result-object v0
@@ -126,7 +124,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommandsQuery$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->queryCommands:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommands;->access$getQueryCommands$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/util/List;
 
     move-result-object v0
@@ -183,7 +180,6 @@
     .line 10
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommandsQuery$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->storeGatewayConnection:Lcom/discord/stores/StoreGatewayConnection;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommands;->access$getStoreGatewayConnection$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/StoreGatewayConnection;
 
     move-result-object v1
@@ -223,7 +219,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->handleQueryCommandsUpdate(Ljava/util/List;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreApplicationCommands;->access$handleQueryCommandsUpdate(Lcom/discord/stores/StoreApplicationCommands;Ljava/util/List;)V
 
     :goto_73

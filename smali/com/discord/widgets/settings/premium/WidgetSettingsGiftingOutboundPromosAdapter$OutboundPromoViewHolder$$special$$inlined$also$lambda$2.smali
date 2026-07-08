@@ -67,7 +67,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsGiftingOutboundPromosAdapter$OutboundPromoViewHolder$$special$$inlined$also$lambda$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsGiftingOutboundPromosAdapter$OutboundPromoViewHolder;
 
-    # getter for: Lcom/discord/widgets/settings/premium/WidgetSettingsGiftingOutboundPromosAdapter$OutboundPromoViewHolder;->onButtonClick:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/WidgetSettingsGiftingOutboundPromosAdapter$OutboundPromoViewHolder;->access$getOnButtonClick$p(Lcom/discord/widgets/settings/premium/WidgetSettingsGiftingOutboundPromosAdapter$OutboundPromoViewHolder;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

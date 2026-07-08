@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreMaskedLinks$trustDomain$1;->$url:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreMaskedLinks$Companion;->getDomainName(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, v1}, Lcom/discord/stores/StoreMaskedLinks$Companion;->access$getDomainName(Lcom/discord/stores/StoreMaskedLinks$Companion;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
@@ -101,7 +100,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/stores/StoreMaskedLinks$trustDomain$1;->this$0:Lcom/discord/stores/StoreMaskedLinks;
 
-    # getter for: Lcom/discord/stores/StoreMaskedLinks;->userTrustedDomains:Ljava/util/Set;
     invoke-static {v1}, Lcom/discord/stores/StoreMaskedLinks;->access$getUserTrustedDomains$p(Lcom/discord/stores/StoreMaskedLinks;)Ljava/util/Set;
 
     move-result-object v1

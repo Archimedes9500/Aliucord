@@ -101,7 +101,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication$configureCommunicationDisabledTimer$1;->this$0:Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;
 
-    # getter for: Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {p1}, Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;->access$getClock$p(Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;)Lcom/discord/utilities/time/Clock;
 
     move-result-object p1
@@ -121,7 +120,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication$configureCommunicationDisabledTimer$1;->this$0:Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;
 
-    # invokes: Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;->getBinding()Lcom/discord/databinding/WidgetEnableGuildCommunicationBinding;
     invoke-static {p1}, Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;->access$getBinding$p(Lcom/discord/widgets/guildcommunicationdisabled/start/WidgetEnableGuildCommunication;)Lcom/discord/databinding/WidgetEnableGuildCommunicationBinding;
 
     move-result-object p1

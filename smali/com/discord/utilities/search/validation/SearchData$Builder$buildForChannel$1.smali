@@ -133,7 +133,6 @@
 
     iget-object v1, p0, Lcom/discord/utilities/search/validation/SearchData$Builder$buildForChannel$1;->this$0:Lcom/discord/utilities/search/validation/SearchData$Builder;
 
-    # invokes: Lcom/discord/utilities/search/validation/SearchData$Builder;->getUsernameWithDiscrim(Lcom/discord/models/user/User;)Ljava/lang/String;
     invoke-static {v1, p1}, Lcom/discord/utilities/search/validation/SearchData$Builder;->access$getUsernameWithDiscrim(Lcom/discord/utilities/search/validation/SearchData$Builder;Lcom/discord/models/user/User;)Ljava/lang/String;
 
     move-result-object v1

@@ -1599,7 +1599,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lcom/discord/widgets/user/search/WidgetGlobalSearchModel;->DEFAULT_PERMISSIONS_PREDICATE:Lkotlin/jvm/functions/Function2;
     invoke-static {}, Lcom/discord/widgets/user/search/WidgetGlobalSearchModel;->access$getDEFAULT_PERMISSIONS_PREDICATE$cp()Lkotlin/jvm/functions/Function2;
 
     move-result-object v3

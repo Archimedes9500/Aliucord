@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener$onQualityUpdate$1;->$quality:Lcom/discord/rtcconnection/RtcConnection$Quality;
 
-    # invokes: Lcom/discord/stores/StoreStreamRtcConnection;->handleQualityUpdate(Lcom/discord/rtcconnection/RtcConnection$Quality;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreStreamRtcConnection;->access$handleQualityUpdate(Lcom/discord/stores/StoreStreamRtcConnection;Lcom/discord/rtcconnection/RtcConnection$Quality;)V
 
     return-void

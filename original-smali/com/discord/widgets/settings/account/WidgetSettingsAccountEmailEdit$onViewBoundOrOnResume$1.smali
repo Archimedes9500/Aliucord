@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;->configureUI(Lcom/discord/models/user/MeUser;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;->access$configureUI(Lcom/discord/widgets/settings/account/WidgetSettingsAccountEmailEdit;Lcom/discord/models/user/MeUser;)V
 
     .line 3

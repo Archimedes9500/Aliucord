@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheetViewModel;->handleStoreState(Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheetViewModel;Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheetViewModel$StoreState;)V
 
     return-void

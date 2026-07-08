@@ -88,7 +88,6 @@
     iget-object v0, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$initializeAdapter$3;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
     .line 2
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->previousViewState:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserViewModel$ViewState;
     invoke-static {v0}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getPreviousViewState$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserViewModel$ViewState;
 
     move-result-object v1
@@ -116,13 +115,11 @@
 
     .line 3
     :cond_18
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->updateMenu(ILjava/lang/Boolean;)V
     invoke-static {v0, p1, v3}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$updateMenu(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;ILjava/lang/Boolean;)V
 
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$initializeAdapter$3;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->ACTIVE_PAGE:I
     invoke-static {v0}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getACTIVE_PAGE$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)I
 
     move-result v0
@@ -138,7 +135,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$initializeAdapter$3;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->getChannelId()J
     invoke-static {v0}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getChannelId$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)J
 
     move-result-wide v0
@@ -153,7 +149,6 @@
     :cond_35
     iget-object v0, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$initializeAdapter$3;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # getter for: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->ARCHIVED_PAGE:I
     invoke-static {v0}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getARCHIVED_PAGE$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)I
 
     move-result v0
@@ -162,7 +157,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$initializeAdapter$3;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->getArchivedViewModel()Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
     invoke-static {p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getArchivedViewModel$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
 
     move-result-object p1

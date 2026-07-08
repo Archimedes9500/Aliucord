@@ -104,7 +104,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/ArchivedThreadsStore$fetchListing$1;->this$0:Lcom/discord/stores/ArchivedThreadsStore;
 
-    # getter for: Lcom/discord/stores/ArchivedThreadsStore;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/ArchivedThreadsStore;->access$getDispatcher$p(Lcom/discord/stores/ArchivedThreadsStore;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

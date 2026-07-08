@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->handleEvent(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheetViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;->access$handleEvent(Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheet;Lcom/discord/widgets/botuikit/views/select/SelectComponentBottomSheetViewModel$Event;)V
 
     return-void

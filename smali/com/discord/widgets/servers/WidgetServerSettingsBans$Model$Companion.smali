@@ -123,7 +123,6 @@
 
     const/4 v1, 0x0
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model;->emptyBansList:Ljava/util/ArrayList;
     invoke-static {}, Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model;->access$getEmptyBansList$cp()Ljava/util/ArrayList;
 
     move-result-object v2

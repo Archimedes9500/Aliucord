@@ -76,7 +76,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$onViewBound$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->getBinding()Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
     invoke-static {v1}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;)Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
 
     move-result-object v1
@@ -85,13 +84,11 @@
 
     invoke-static {v1, v0}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;->translateToOriginX(Landroid/view/View;)V
     invoke-static {p2, v1}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;->access$translateToOriginX(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;Landroid/view/View;)V
 
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$onViewBound$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->getBinding()Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
     invoke-static {v0}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;)Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
 
     move-result-object v0
@@ -100,7 +97,6 @@
 
     invoke-static {v0, p1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;->translateToOriginX(Landroid/view/View;)V
     invoke-static {p2, v0}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;->access$translateToOriginX(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;Landroid/view/View;)V
 
     goto :goto_52
@@ -109,7 +105,6 @@
     :cond_25
     iget-object p2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$onViewBound$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->getBinding()Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
     invoke-static {p2}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;)Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
 
     move-result-object p2
@@ -127,7 +122,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$onViewBound$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->getBinding()Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
     invoke-static {v2}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;)Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
 
     move-result-object v2
@@ -136,13 +130,11 @@
 
     invoke-static {v2, v0}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;->translateLeft(Landroid/view/View;I)V
     invoke-static {v1, v2, p2}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;->access$translateLeft(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;Landroid/view/View;I)V
 
     .line 5
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$onViewBound$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->getBinding()Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
     invoke-static {v0}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;)Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
 
     move-result-object v0
@@ -151,7 +143,6 @@
 
     invoke-static {v0, p1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;->translateLeft(Landroid/view/View;I)V
     invoke-static {v1, v0, p2}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;->access$translateLeft(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$Companion;Landroid/view/View;I)V
 
     :goto_52

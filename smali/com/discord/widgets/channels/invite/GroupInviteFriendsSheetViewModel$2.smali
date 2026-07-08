@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel;->onSearch(Ljava/lang/CharSequence;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel;->access$onSearch(Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel;Ljava/lang/CharSequence;)V
 
     return-void

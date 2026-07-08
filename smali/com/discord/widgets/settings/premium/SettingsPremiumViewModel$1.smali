@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$1;->this$0:Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;
 
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;->handleStoreState(Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;->access$handleStoreState(Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$StoreState;)V
 
     return-void

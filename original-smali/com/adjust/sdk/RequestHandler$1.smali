@@ -53,7 +53,6 @@
 
     iget v2, p0, Lcom/adjust/sdk/RequestHandler$1;->val$queueSize:I
 
-    # invokes: Lcom/adjust/sdk/RequestHandler;->sendI(Lcom/adjust/sdk/ActivityPackage;I)V
     invoke-static {v0, v1, v2}, Lcom/adjust/sdk/RequestHandler;->access$000(Lcom/adjust/sdk/RequestHandler;Lcom/adjust/sdk/ActivityPackage;I)V
 
     return-void

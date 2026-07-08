@@ -78,7 +78,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserStatusSheet;->openCustomStatusAndDismiss(Landroid/content/Context;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/WidgetUserStatusSheet;->access$openCustomStatusAndDismiss(Lcom/discord/widgets/user/WidgetUserStatusSheet;Landroid/content/Context;)V
 
     return-void

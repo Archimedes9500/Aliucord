@@ -264,7 +264,6 @@
 
     iget-object v3, v3, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->channelId:J
     invoke-static {v3}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;->access$getChannelId$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel;)J
 
     move-result-wide v9

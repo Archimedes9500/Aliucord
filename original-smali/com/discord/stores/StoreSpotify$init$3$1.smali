@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreSpotify$init$3;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # getter for: Lcom/discord/stores/StoreSpotify;->spotifyState:Lcom/discord/stores/StoreSpotify$SpotifyState;
     invoke-static {v0}, Lcom/discord/stores/StoreSpotify;->access$getSpotifyState$p(Lcom/discord/stores/StoreSpotify;)Lcom/discord/stores/StoreSpotify$SpotifyState;
 
     move-result-object v0
@@ -128,7 +127,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreSpotify$init$3;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # getter for: Lcom/discord/stores/StoreSpotify;->expireStateSub:Lrx/Subscription;
     invoke-static {v1}, Lcom/discord/stores/StoreSpotify;->access$getExpireStateSub$p(Lcom/discord/stores/StoreSpotify;)Lrx/Subscription;
 
     move-result-object v1
@@ -160,7 +158,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreSpotify$init$3;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # getter for: Lcom/discord/stores/StoreSpotify;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v0}, Lcom/discord/stores/StoreSpotify;->access$getClock$p(Lcom/discord/stores/StoreSpotify;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v0
@@ -176,7 +173,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreSpotify$init$3;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # invokes: Lcom/discord/stores/StoreSpotify;->startStateExpiration(J)V
     invoke-static {v0, v2, v3}, Lcom/discord/stores/StoreSpotify;->access$startStateExpiration(Lcom/discord/stores/StoreSpotify;J)V
 
     .line 8
@@ -185,7 +181,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreSpotify$init$3;->this$0:Lcom/discord/stores/StoreSpotify;
 
-    # invokes: Lcom/discord/stores/StoreSpotify;->publishState()V
     invoke-static {v0}, Lcom/discord/stores/StoreSpotify;->access$publishState(Lcom/discord/stores/StoreSpotify;)V
 
     return-void

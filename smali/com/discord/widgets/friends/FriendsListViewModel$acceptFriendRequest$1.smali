@@ -92,7 +92,6 @@
 
     const v0, 0x7f120033
 
-    # invokes: Lcom/discord/widgets/friends/FriendsListViewModel;->emitShowToastEvent(I)V
     invoke-static {p1, v0}, Lcom/discord/widgets/friends/FriendsListViewModel;->access$emitShowToastEvent(Lcom/discord/widgets/friends/FriendsListViewModel;I)V
 
     return-void

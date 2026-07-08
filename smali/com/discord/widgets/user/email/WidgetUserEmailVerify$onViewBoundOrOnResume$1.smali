@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/email/WidgetUserEmailVerify;
 
     .line 2
-    # invokes: Lcom/discord/widgets/user/email/WidgetUserEmailVerify;->configureUI(Lcom/discord/widgets/user/email/WidgetUserEmailVerify$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/email/WidgetUserEmailVerify;->access$configureUI(Lcom/discord/widgets/user/email/WidgetUserEmailVerify;Lcom/discord/widgets/user/email/WidgetUserEmailVerify$Model;)V
 
     return-void

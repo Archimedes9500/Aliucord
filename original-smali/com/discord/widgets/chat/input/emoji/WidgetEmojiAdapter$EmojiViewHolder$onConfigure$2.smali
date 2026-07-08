@@ -232,7 +232,6 @@
 
     move-result-object v0
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;->hideKeyboard:Lkotlin/jvm/functions/Function0;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;->access$getHideKeyboard$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;)Lkotlin/jvm/functions/Function0;
 
     move-result-object v0
@@ -248,7 +247,6 @@
 
     move-result-object v1
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;->fragmentManager:Landroidx/fragment/app/FragmentManager;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;->access$getFragmentManager$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;)Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1

@@ -194,7 +194,6 @@
 .method public final getInstance()Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;
     .locals 2
 
-    # getter for: Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;->instance$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;->access$getInstance$cp()Lkotlin/Lazy;
 
     move-result-object v0

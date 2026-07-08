@@ -98,7 +98,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreGuildRoleMemberCounts$fetchGuildRoleMemberCountsIfNecessary$2;->this$0:Lcom/discord/stores/StoreGuildRoleMemberCounts;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleMemberCounts;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreGuildRoleMemberCounts;->access$getDispatcher$p(Lcom/discord/stores/StoreGuildRoleMemberCounts;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

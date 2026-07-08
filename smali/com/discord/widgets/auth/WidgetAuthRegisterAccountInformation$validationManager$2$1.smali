@@ -83,7 +83,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->isConsentRequired:Z
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->access$isConsentRequired$p(Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;)Z
 
     move-result v0
@@ -101,7 +100,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->isConsentRequired:Z
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;->access$isConsentRequired$p(Lcom/discord/widgets/auth/WidgetAuthRegisterAccountInformation;)Z
 
     move-result v0

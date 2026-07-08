@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/status/WidgetChatStatus$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/status/WidgetChatStatus;
 
-    # invokes: Lcom/discord/widgets/status/WidgetChatStatus;->configureUI(Lcom/discord/widgets/status/WidgetChatStatus$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/status/WidgetChatStatus;->access$configureUI(Lcom/discord/widgets/status/WidgetChatStatus;Lcom/discord/widgets/status/WidgetChatStatus$Model;)V
 
     return-void

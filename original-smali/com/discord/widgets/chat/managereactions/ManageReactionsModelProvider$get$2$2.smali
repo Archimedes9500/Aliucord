@@ -177,7 +177,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider$get$2;->this$0:Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;
 
-    # getter for: Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;->targetedEmojiKeySubject:Lrx/subjects/SerializedSubject;
     invoke-static {v2}, Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;->access$getTargetedEmojiKeySubject$p(Lcom/discord/widgets/chat/managereactions/ManageReactionsModelProvider;)Lrx/subjects/SerializedSubject;
 
     move-result-object v2

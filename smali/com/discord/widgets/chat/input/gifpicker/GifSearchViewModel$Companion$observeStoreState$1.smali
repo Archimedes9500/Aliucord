@@ -131,7 +131,6 @@
 
     invoke-static {p1, v4}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$Companion;->observeQueryState(Lrx/subjects/BehaviorSubject;Lcom/discord/stores/StoreAnalytics;Lcom/discord/stores/StoreGifPicker;Ljava/util/List;)Lrx/Observable;
     invoke-static {v0, v1, v2, v3, p1}, Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$Companion;->access$observeQueryState(Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$Companion;Lrx/subjects/BehaviorSubject;Lcom/discord/stores/StoreAnalytics;Lcom/discord/stores/StoreGifPicker;Ljava/util/List;)Lrx/Observable;
 
     move-result-object p1

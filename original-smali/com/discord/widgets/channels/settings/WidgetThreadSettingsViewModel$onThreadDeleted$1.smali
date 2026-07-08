@@ -101,7 +101,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel$onThreadDeleted$1;->this$0:Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v0}, Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;->access$getEventSubject$p(Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object v0

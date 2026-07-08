@@ -91,7 +91,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/guild_role_subscriptions/tier/create/benefits/GuildRoleSubscriptionTierBenefitsViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/guild_role_subscriptions/tier/create/benefits/GuildRoleSubscriptionTierBenefitsViewModel;
 
-    # getter for: Lcom/discord/widgets/guild_role_subscriptions/tier/create/benefits/GuildRoleSubscriptionTierBenefitsViewModel;->guildRoleSubscriptionsStore:Lcom/discord/stores/StoreGuildRoleSubscriptions;
     invoke-static {v1}, Lcom/discord/widgets/guild_role_subscriptions/tier/create/benefits/GuildRoleSubscriptionTierBenefitsViewModel;->access$getGuildRoleSubscriptionsStore$p(Lcom/discord/widgets/guild_role_subscriptions/tier/create/benefits/GuildRoleSubscriptionTierBenefitsViewModel;)Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
     move-result-object v1
@@ -103,7 +102,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/widgets/guild_role_subscriptions/tier/create/benefits/GuildRoleSubscriptionTierBenefitsViewModel$observeStoreState$1;->this$0:Lcom/discord/widgets/guild_role_subscriptions/tier/create/benefits/GuildRoleSubscriptionTierBenefitsViewModel;
 
-    # getter for: Lcom/discord/widgets/guild_role_subscriptions/tier/create/benefits/GuildRoleSubscriptionTierBenefitsViewModel;->guildRoleSubscriptionsStore:Lcom/discord/stores/StoreGuildRoleSubscriptions;
     invoke-static {v2}, Lcom/discord/widgets/guild_role_subscriptions/tier/create/benefits/GuildRoleSubscriptionTierBenefitsViewModel;->access$getGuildRoleSubscriptionsStore$p(Lcom/discord/widgets/guild_role_subscriptions/tier/create/benefits/GuildRoleSubscriptionTierBenefitsViewModel;)Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
     move-result-object v2

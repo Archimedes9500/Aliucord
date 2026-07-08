@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$loggingConfig$1;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSync;->displayedChildIndex:I
     invoke-static {v0}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$getDisplayedChildIndex$p(Lcom/discord/widgets/contact_sync/WidgetContactSync;)I
 
     move-result v0
@@ -96,7 +95,6 @@
     .line 5
     iget-object v1, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$loggingConfig$1;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSync;->contactSyncFlowMetadata:Lcom/discord/analytics/generated/traits/TrackImpressionMetadata;
     invoke-static {v1}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$getContactSyncFlowMetadata$p(Lcom/discord/widgets/contact_sync/WidgetContactSync;)Lcom/discord/analytics/generated/traits/TrackImpressionMetadata;
 
     move-result-object v1
@@ -123,7 +121,6 @@
     .line 8
     iget-object v1, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$loggingConfig$1;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSync;->contactSyncFlowMetadata:Lcom/discord/analytics/generated/traits/TrackImpressionMetadata;
     invoke-static {v1}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$getContactSyncFlowMetadata$p(Lcom/discord/widgets/contact_sync/WidgetContactSync;)Lcom/discord/analytics/generated/traits/TrackImpressionMetadata;
 
     move-result-object v1
@@ -150,7 +147,6 @@
     .line 11
     iget-object v1, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$loggingConfig$1;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSync;->contactSyncFlowMetadata:Lcom/discord/analytics/generated/traits/TrackImpressionMetadata;
     invoke-static {v1}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$getContactSyncFlowMetadata$p(Lcom/discord/widgets/contact_sync/WidgetContactSync;)Lcom/discord/analytics/generated/traits/TrackImpressionMetadata;
 
     move-result-object v1
@@ -177,7 +173,6 @@
     .line 14
     iget-object v1, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$loggingConfig$1;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSync;->contactSyncFlowMetadata:Lcom/discord/analytics/generated/traits/TrackImpressionMetadata;
     invoke-static {v1}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$getContactSyncFlowMetadata$p(Lcom/discord/widgets/contact_sync/WidgetContactSync;)Lcom/discord/analytics/generated/traits/TrackImpressionMetadata;
 
     move-result-object v1
@@ -204,7 +199,6 @@
     .line 17
     iget-object v1, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$loggingConfig$1;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSync;->contactSyncFlowMetadata:Lcom/discord/analytics/generated/traits/TrackImpressionMetadata;
     invoke-static {v1}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$getContactSyncFlowMetadata$p(Lcom/discord/widgets/contact_sync/WidgetContactSync;)Lcom/discord/analytics/generated/traits/TrackImpressionMetadata;
 
     move-result-object v1

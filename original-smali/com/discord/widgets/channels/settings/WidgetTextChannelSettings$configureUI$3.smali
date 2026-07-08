@@ -84,14 +84,12 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$3;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getState$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1
 
     iget-object v3, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$3;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->getBinding()Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
     invoke-static {v3}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getBinding$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
 
     move-result-object v3
@@ -117,14 +115,12 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$3;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getState$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1
 
     iget-object v4, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$3;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->getBinding()Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
     invoke-static {v4}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getBinding$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
 
     move-result-object v4
@@ -150,14 +146,12 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$3;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getState$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1
 
     iget-object v4, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$3;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->getBinding()Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
     invoke-static {v4}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getBinding$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
 
     move-result-object v4
@@ -183,7 +177,6 @@
     .line 6
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$3;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getState$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1

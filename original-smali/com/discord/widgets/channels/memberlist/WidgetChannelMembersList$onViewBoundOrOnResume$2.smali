@@ -102,7 +102,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;
 
-    # invokes: Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;->scrollToTop()V
     invoke-static {p1}, Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;->access$scrollToTop(Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;)V
 
     goto :goto_2c
@@ -119,7 +118,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;
 
-    # invokes: Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;->updateRanges()V
     invoke-static {p1}, Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;->access$updateRanges(Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;)V
 
     goto :goto_2c
@@ -134,7 +132,6 @@
 
     check-cast p1, Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersListViewModel$Event$Error;
 
-    # invokes: Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;->showError(Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersListViewModel$Event$Error;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;->access$showError(Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersList;Lcom/discord/widgets/channels/memberlist/WidgetChannelMembersListViewModel$Event$Error;)V
 
     :cond_2c

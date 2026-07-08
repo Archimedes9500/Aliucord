@@ -118,7 +118,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreMessageReactions$fetchReactions$1;->this$0:Lcom/discord/stores/StoreMessageReactions;
 
-    # getter for: Lcom/discord/stores/StoreMessageReactions;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreMessageReactions;->access$getDispatcher$p(Lcom/discord/stores/StoreMessageReactions;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

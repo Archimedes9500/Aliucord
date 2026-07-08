@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/voice/CallSoundManager$subscribeToStoreState$2;->this$0:Lcom/discord/utilities/voice/CallSoundManager;
 
-    # getter for: Lcom/discord/utilities/voice/CallSoundManager;->appSoundManager:Lcom/discord/utilities/media/AppSoundManager;
     invoke-static {v0}, Lcom/discord/utilities/voice/CallSoundManager;->access$getAppSoundManager$p(Lcom/discord/utilities/voice/CallSoundManager;)Lcom/discord/utilities/media/AppSoundManager;
 
     move-result-object v0

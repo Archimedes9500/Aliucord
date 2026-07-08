@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/stickers/WidgetGuildStickerSheet$viewModel$2;->this$0:Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;)Landroid/os/Bundle;
 
     move-result-object v0

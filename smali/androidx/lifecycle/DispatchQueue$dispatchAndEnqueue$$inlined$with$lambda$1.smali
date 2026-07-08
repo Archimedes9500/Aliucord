@@ -74,7 +74,6 @@
 
     iget-object v1, p0, Landroidx/lifecycle/DispatchQueue$dispatchAndEnqueue$$inlined$with$lambda$1;->$runnable$inlined:Ljava/lang/Runnable;
 
-    # invokes: Landroidx/lifecycle/DispatchQueue;->enqueue(Ljava/lang/Runnable;)V
     invoke-static {v0, v1}, Landroidx/lifecycle/DispatchQueue;->access$enqueue(Landroidx/lifecycle/DispatchQueue;Ljava/lang/Runnable;)V
 
     return-void

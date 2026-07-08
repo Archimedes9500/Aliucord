@@ -122,7 +122,6 @@
     .line 2
     sget-object v1, Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetNavigator;->INSTANCE:Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetNavigator;
 
-    # getter for: Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetNavigator;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v1}, Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetNavigator;->access$getClock$p(Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetNavigator;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v0
@@ -163,7 +162,6 @@
     iget-object v7, p0, Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetNavigator$enqueueNotice$showCallFeedbackSheetNotice$1;->$callDurationMs:Ljava/lang/Long;
 
     .line 8
-    # invokes: Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetNavigator;->show(Landroidx/fragment/app/FragmentManager;JLjava/lang/String;Ljava/lang/String;Ljava/lang/Long;)V
     invoke-static/range {v1 .. v7}, Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetNavigator;->access$show(Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetNavigator;Landroidx/fragment/app/FragmentManager;JLjava/lang/String;Ljava/lang/String;Ljava/lang/Long;)V
 
     .line 9

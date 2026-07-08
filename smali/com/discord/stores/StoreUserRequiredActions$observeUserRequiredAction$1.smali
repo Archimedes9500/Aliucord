@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreUserRequiredActions$observeUserRequiredAction$1;->this$0:Lcom/discord/stores/StoreUserRequiredActions;
 
-    # getter for: Lcom/discord/stores/StoreUserRequiredActions;->userRequiredAction:Lcom/discord/models/requiredaction/RequiredAction;
     invoke-static {v0}, Lcom/discord/stores/StoreUserRequiredActions;->access$getUserRequiredAction$p(Lcom/discord/stores/StoreUserRequiredActions;)Lcom/discord/models/requiredaction/RequiredAction;
 
     move-result-object v0

@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet$selectedChannelId$2;->this$0:Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/channels/WidgetChannelPickerBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0

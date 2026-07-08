@@ -95,7 +95,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener$onTouch$$inlined$apply$lambda$1;->this$0:Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;
 
-    # getter for: Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;->job:Ljava/util/concurrent/atomic/AtomicReference;
     invoke-static {p1}, Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;->access$getJob$p(Lcom/discord/utilities/view/text/LinkifiedTextView$ClickableSpanOnTouchListener;)Ljava/util/concurrent/atomic/AtomicReference;
 
     move-result-object p1

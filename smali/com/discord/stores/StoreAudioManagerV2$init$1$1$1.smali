@@ -95,7 +95,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreAudioManagerV2$init$1$1$1;->$it:Ljava/util/List;
 
-    # invokes: Lcom/discord/stores/StoreAudioManagerV2;->updateAudioDevices(Ljava/util/List;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreAudioManagerV2;->access$updateAudioDevices(Lcom/discord/stores/StoreAudioManagerV2;Ljava/util/List;)V
 
     return-void

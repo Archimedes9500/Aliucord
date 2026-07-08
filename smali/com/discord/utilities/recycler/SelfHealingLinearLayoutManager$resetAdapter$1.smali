@@ -63,7 +63,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/utilities/recycler/SelfHealingLinearLayoutManager$resetAdapter$1;->this$0:Lcom/discord/utilities/recycler/SelfHealingLinearLayoutManager;
 
-    # getter for: Lcom/discord/utilities/recycler/SelfHealingLinearLayoutManager;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
     invoke-static {v0}, Lcom/discord/utilities/recycler/SelfHealingLinearLayoutManager;->access$getAdapter$p(Lcom/discord/utilities/recycler/SelfHealingLinearLayoutManager;)Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     move-result-object v0
@@ -73,7 +72,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/recycler/SelfHealingLinearLayoutManager$resetAdapter$1;->this$0:Lcom/discord/utilities/recycler/SelfHealingLinearLayoutManager;
 
-    # getter for: Lcom/discord/utilities/recycler/SelfHealingLinearLayoutManager;->recyclerView:Landroidx/recyclerview/widget/RecyclerView;
     invoke-static {v0}, Lcom/discord/utilities/recycler/SelfHealingLinearLayoutManager;->access$getRecyclerView$p(Lcom/discord/utilities/recycler/SelfHealingLinearLayoutManager;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object v0

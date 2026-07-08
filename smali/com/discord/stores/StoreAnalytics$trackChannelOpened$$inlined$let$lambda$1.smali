@@ -127,7 +127,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreAnalytics$trackChannelOpened$$inlined$let$lambda$1;->$channel:Lcom/discord/api/channel/Channel;
 
-    # invokes: Lcom/discord/stores/StoreAnalytics;->getThreadSnapshotAnalyticsProperties(Lcom/discord/api/channel/Channel;)Ljava/util/Map;
     invoke-static {v0, v1}, Lcom/discord/stores/StoreAnalytics;->access$getThreadSnapshotAnalyticsProperties(Lcom/discord/stores/StoreAnalytics;Lcom/discord/api/channel/Channel;)Ljava/util/Map;
 
     move-result-object v0
@@ -142,7 +141,6 @@
 
     const/4 v2, 0x1
 
-    # invokes: Lcom/discord/stores/StoreAnalytics;->getChannelSnapshotAnalyticsProperties(Lcom/discord/api/channel/Channel;Z)Ljava/util/Map;
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreAnalytics;->access$getChannelSnapshotAnalyticsProperties(Lcom/discord/stores/StoreAnalytics;Lcom/discord/api/channel/Channel;Z)Ljava/util/Map;
 
     move-result-object v0

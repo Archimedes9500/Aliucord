@@ -177,7 +177,6 @@
 
     iget-object v8, p0, Lcom/discord/utilities/channel/ChannelSelector$selectChannel$2;->$analyticsLocation:Lcom/discord/stores/SelectedChannelAnalyticsLocation;
 
-    # invokes: Lcom/discord/utilities/channel/ChannelSelector;->gotoChannel(JJLjava/lang/Long;Lcom/discord/stores/SelectedChannelAnalyticsLocation;)V
     invoke-static/range {v2 .. v8}, Lcom/discord/utilities/channel/ChannelSelector;->access$gotoChannel(Lcom/discord/utilities/channel/ChannelSelector;JJLjava/lang/Long;Lcom/discord/stores/SelectedChannelAnalyticsLocation;)V
 
     if-eqz p1, :cond_4f

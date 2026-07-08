@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview$viewModel$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;->getChannelIdFromIntent()J
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;->access$getChannelIdFromIntent(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsOverview;)J
 
     move-result-wide v0

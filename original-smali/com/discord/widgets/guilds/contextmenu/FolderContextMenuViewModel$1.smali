@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel;->handleStoreState(Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel;->access$handleStoreState(Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel;Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel$StoreState;)V
 
     return-void

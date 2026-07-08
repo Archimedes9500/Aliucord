@@ -90,7 +90,6 @@
     .line 2
     sget-object v0, Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model;->Companion:Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model$Companion;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model$Companion;->createLoading(Lcom/discord/models/guild/Guild;)Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model;
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model$Companion;->access$createLoading(Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model$Companion;Lcom/discord/models/guild/Guild;)Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model;
 
     move-result-object p1

@@ -74,7 +74,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/forums/WidgetForumBrowserAdapter;->onPostClick:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/forums/WidgetForumBrowserAdapter;->access$getOnPostClick$p(Lcom/discord/widgets/forums/WidgetForumBrowserAdapter;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

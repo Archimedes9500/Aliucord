@@ -104,7 +104,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/forums/WidgetForumBrowser$configureCreatePostButton$2;->this$0:Lcom/discord/widgets/forums/WidgetForumBrowser;
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowser;->openCreatePostScreen(JJ)V
     invoke-static {v0, p1, p2, p3, p4}, Lcom/discord/widgets/forums/WidgetForumBrowser;->access$openCreatePostScreen(Lcom/discord/widgets/forums/WidgetForumBrowser;JJ)V
 
     return-void

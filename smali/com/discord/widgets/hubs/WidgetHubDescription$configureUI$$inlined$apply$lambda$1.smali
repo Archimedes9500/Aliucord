@@ -71,7 +71,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/hubs/WidgetHubDescription$configureUI$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/hubs/WidgetHubDescription;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubDescription;->maybeAddServer()V
     invoke-static {p1}, Lcom/discord/widgets/hubs/WidgetHubDescription;->access$maybeAddServer(Lcom/discord/widgets/hubs/WidgetHubDescription;)V
 
     return-void

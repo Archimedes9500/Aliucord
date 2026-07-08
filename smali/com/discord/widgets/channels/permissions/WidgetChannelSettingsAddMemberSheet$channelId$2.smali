@@ -75,7 +75,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet$channelId$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;)Landroid/os/Bundle;
 
     move-result-object v0

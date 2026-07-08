@@ -93,7 +93,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommandFrecency$onCommandUsed$1;->this$0:Lcom/discord/stores/StoreApplicationCommandFrecency;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommandFrecency;->frecency:Lcom/discord/utilities/applicationcommands/ApplicationCommandFrecencyTracker;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommandFrecency;->access$getFrecency$p(Lcom/discord/stores/StoreApplicationCommandFrecency;)Lcom/discord/utilities/applicationcommands/ApplicationCommandFrecencyTracker;
 
     move-result-object v1
@@ -104,7 +103,6 @@
 
     iget-object v3, p0, Lcom/discord/stores/StoreApplicationCommandFrecency$onCommandUsed$1;->$commandId:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommandFrecency;->getKey(Ljava/lang/Long;Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0, v2, v3}, Lcom/discord/stores/StoreApplicationCommandFrecency;->access$getKey(Lcom/discord/stores/StoreApplicationCommandFrecency;Ljava/lang/Long;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -120,14 +118,12 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommandFrecency$onCommandUsed$1;->this$0:Lcom/discord/stores/StoreApplicationCommandFrecency;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommandFrecency;->frecencyCache:Lcom/discord/utilities/persister/Persister;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommandFrecency;->access$getFrecencyCache$p(Lcom/discord/stores/StoreApplicationCommandFrecency;)Lcom/discord/utilities/persister/Persister;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/discord/stores/StoreApplicationCommandFrecency$onCommandUsed$1;->this$0:Lcom/discord/stores/StoreApplicationCommandFrecency;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommandFrecency;->frecency:Lcom/discord/utilities/applicationcommands/ApplicationCommandFrecencyTracker;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommandFrecency;->access$getFrecency$p(Lcom/discord/stores/StoreApplicationCommandFrecency;)Lcom/discord/utilities/applicationcommands/ApplicationCommandFrecencyTracker;
 
     move-result-object v1
@@ -139,7 +135,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommandFrecency$onCommandUsed$1;->this$0:Lcom/discord/stores/StoreApplicationCommandFrecency;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommandFrecency;->topCommandIds:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommandFrecency;->access$getTopCommandIds$p(Lcom/discord/stores/StoreApplicationCommandFrecency;)Ljava/util/Map;
 
     move-result-object v0
@@ -166,7 +161,6 @@
 
     iget-object v4, p0, Lcom/discord/stores/StoreApplicationCommandFrecency$onCommandUsed$1;->$guildId:Ljava/lang/Long;
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommandFrecency;->getAllTopCommandIds(Ljava/lang/Long;)Ljava/util/List;
     invoke-static {v3, v4}, Lcom/discord/stores/StoreApplicationCommandFrecency;->access$getAllTopCommandIds(Lcom/discord/stores/StoreApplicationCommandFrecency;Ljava/lang/Long;)Ljava/util/List;
 
     move-result-object v3

@@ -89,7 +89,6 @@
 
     iget-object v0, v0, Lcom/discord/utilities/messagesend/MessageQueue$processNextRequest$listener$1;->this$0:Lcom/discord/utilities/messagesend/MessageQueue;
 
-    # getter for: Lcom/discord/utilities/messagesend/MessageQueue;->executorService:Ljava/util/concurrent/ExecutorService;
     invoke-static {v0}, Lcom/discord/utilities/messagesend/MessageQueue;->access$getExecutorService$p(Lcom/discord/utilities/messagesend/MessageQueue;)Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0

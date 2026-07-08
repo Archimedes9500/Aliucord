@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/home/WidgetHome$onViewBoundOrOnResume$9;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->configureFirstOpen()V
     invoke-static {p1}, Lcom/discord/widgets/home/WidgetHome;->access$configureFirstOpen(Lcom/discord/widgets/home/WidgetHome;)V
 
     return-void

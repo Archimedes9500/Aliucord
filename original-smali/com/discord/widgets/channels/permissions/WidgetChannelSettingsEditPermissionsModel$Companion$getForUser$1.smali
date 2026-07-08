@@ -193,7 +193,6 @@
 
     move-result-wide v6
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissionsModel$Companion;->isAbleToManagePerms(Lcom/discord/models/guild/Guild;Lcom/discord/models/user/MeUser;J)Z
     invoke-static {v5, v1, v0, v6, v7}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissionsModel$Companion;->access$isAbleToManagePerms(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissionsModel$Companion;Lcom/discord/models/guild/Guild;Lcom/discord/models/user/MeUser;J)Z
 
     move-result v1

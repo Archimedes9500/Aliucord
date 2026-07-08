@@ -92,7 +92,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter$setupScrollObservables$2;->this$0:Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter;->onScrollPositionListener:Lkotlin/jvm/functions/Function2;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter;->access$getOnScrollPositionListener$p(Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter;)Lkotlin/jvm/functions/Function2;
 
     move-result-object p1

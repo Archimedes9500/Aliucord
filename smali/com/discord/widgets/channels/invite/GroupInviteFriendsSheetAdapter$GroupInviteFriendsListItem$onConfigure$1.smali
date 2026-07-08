@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetAdapter$GroupInviteFriendsListItem$onConfigure$1;->this$0:Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetAdapter$GroupInviteFriendsListItem;
 
-    # getter for: Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetAdapter$GroupInviteFriendsListItem;->binding:Lcom/discord/databinding/GroupInviteFriendsSheetItemBinding;
     invoke-static {p1}, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetAdapter$GroupInviteFriendsListItem;->access$getBinding$p(Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetAdapter$GroupInviteFriendsListItem;)Lcom/discord/databinding/GroupInviteFriendsSheetItemBinding;
 
     move-result-object p1

@@ -111,7 +111,6 @@
     .line 5
     iget-object v3, p0, Lcom/discord/widgets/auth/WidgetOauth2Authorize$authorizeApplication$1;->this$0:Lcom/discord/widgets/auth/WidgetOauth2Authorize;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2Authorize;->getValidationManager()Lcom/discord/utilities/view/validators/ValidationManager;
     invoke-static {v3}, Lcom/discord/widgets/auth/WidgetOauth2Authorize;->access$getValidationManager$p(Lcom/discord/widgets/auth/WidgetOauth2Authorize;)Lcom/discord/utilities/view/validators/ValidationManager;
 
     move-result-object v3

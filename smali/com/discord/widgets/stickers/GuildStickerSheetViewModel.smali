@@ -283,7 +283,6 @@
 
     move-object p8, v5
 
-    # invokes: Lcom/discord/widgets/stickers/GuildStickerSheetViewModel$Companion;->observeStoreState(Lcom/discord/utilities/rest/RestAPI;Lcom/discord/api/sticker/Sticker;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreGuilds;)Lrx/Observable;
     invoke-static/range {p3 .. p8}, Lcom/discord/widgets/stickers/GuildStickerSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/stickers/GuildStickerSheetViewModel$Companion;Lcom/discord/utilities/rest/RestAPI;Lcom/discord/api/sticker/Sticker;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreGuilds;)Lrx/Observable;
 
     move-result-object p6

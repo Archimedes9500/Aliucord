@@ -102,7 +102,6 @@
 
     iget-wide v0, p0, Lcom/discord/stores/StoreMessagesLoader$tryLoadMessages$3$4;->$channelId:J
 
-    # invokes: Lcom/discord/stores/StoreMessagesLoader;->handleLoadMessagesError(J)V
     invoke-static {p1, v0, v1}, Lcom/discord/stores/StoreMessagesLoader;->access$handleLoadMessagesError(Lcom/discord/stores/StoreMessagesLoader;J)V
 
     return-void

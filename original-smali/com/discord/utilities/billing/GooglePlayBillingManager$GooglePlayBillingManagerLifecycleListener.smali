@@ -85,7 +85,6 @@
 
     sget-object p1, Lcom/discord/utilities/billing/GooglePlayBillingManager;->INSTANCE:Lcom/discord/utilities/billing/GooglePlayBillingManager;
 
-    # getter for: Lcom/discord/utilities/billing/GooglePlayBillingManager;->isAuthenticated:Z
     invoke-static {p1}, Lcom/discord/utilities/billing/GooglePlayBillingManager;->access$isAuthenticated$p(Lcom/discord/utilities/billing/GooglePlayBillingManager;)Z
 
     move-result p2
@@ -156,7 +155,6 @@
 
     sget-object p1, Lcom/discord/utilities/billing/GooglePlayBillingManager;->INSTANCE:Lcom/discord/utilities/billing/GooglePlayBillingManager;
 
-    # getter for: Lcom/discord/utilities/billing/GooglePlayBillingManager;->isAuthenticated:Z
     invoke-static {p1}, Lcom/discord/utilities/billing/GooglePlayBillingManager;->access$isAuthenticated$p(Lcom/discord/utilities/billing/GooglePlayBillingManager;)Z
 
     move-result v0

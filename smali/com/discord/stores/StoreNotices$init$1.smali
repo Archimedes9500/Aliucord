@@ -108,7 +108,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreNotices$init$1;->this$0:Lcom/discord/stores/StoreNotices;
 
-    # getter for: Lcom/discord/stores/StoreNotices;->pollRateMs:J
     invoke-static {p1}, Lcom/discord/stores/StoreNotices;->access$getPollRateMs$p(Lcom/discord/stores/StoreNotices;)J
 
     move-result-wide v0

@@ -106,7 +106,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/channels/threads/browser/ThreadBrowserThreadView$setThreadData$1;->$creatorMember:Lcom/discord/models/member/GuildMember;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/ThreadBrowserThreadView;->getMemberCharacterStyles(Lcom/discord/models/member/GuildMember;)Ljava/util/List;
     invoke-static {v1, v0}, Lcom/discord/widgets/channels/threads/browser/ThreadBrowserThreadView;->access$getMemberCharacterStyles(Lcom/discord/widgets/channels/threads/browser/ThreadBrowserThreadView;Lcom/discord/models/member/GuildMember;)Ljava/util/List;
 
     move-result-object v0

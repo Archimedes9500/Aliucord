@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->configureUI(Lcom/discord/widgets/settings/WidgetSettingsAppearance$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$configureUI(Lcom/discord/widgets/settings/WidgetSettingsAppearance;Lcom/discord/widgets/settings/WidgetSettingsAppearance$Model;)V
 
     return-void

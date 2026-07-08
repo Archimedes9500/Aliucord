@@ -101,7 +101,6 @@
 
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$connect$$inlined$apply$lambda$1;->$gatewayUrl$inlined:Ljava/lang/String;
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->handleWebSocketOpened(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/gateway/GatewaySocket;->access$handleWebSocketOpened(Lcom/discord/gateway/GatewaySocket;Ljava/lang/String;)V
 
     return-void

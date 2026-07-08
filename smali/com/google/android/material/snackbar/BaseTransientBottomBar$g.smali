@@ -63,7 +63,6 @@
     move-result p1
 
     .line 2
-    # getter for: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->USE_OFFSET_API:Z
     invoke-static {}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$1700()Z
 
     move-result v0

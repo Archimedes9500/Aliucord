@@ -103,7 +103,6 @@
     :goto_17
     iget-object v1, p0, Lcom/discord/widgets/auth/WidgetAgeVerify$loggingConfig$1;->this$0:Lcom/discord/widgets/auth/WidgetAgeVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAgeVerify;->getBinding()Lcom/discord/databinding/WidgetAgeVerifyBinding;
     invoke-static {v1}, Lcom/discord/widgets/auth/WidgetAgeVerify;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAgeVerify;)Lcom/discord/databinding/WidgetAgeVerifyBinding;
 
     move-result-object v1

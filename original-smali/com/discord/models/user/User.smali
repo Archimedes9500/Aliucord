@@ -97,6 +97,18 @@
 .method public abstract getUsername()Ljava/lang/String;
 .end method
 
+.method public abstract getAvatarDecorationData()Lcom/discord/api/user/AvatarDecoration;
+.end method
+
+.method public abstract getCollectibles()Lcom/discord/api/user/Collectibles;
+.end method
+
+.method public abstract getDisplayNameStyles()Lcom/discord/api/user/DisplayNameStyle;
+.end method
+
+.method public abstract getPrimaryGuild()Lcom/discord/api/user/PrimaryGuild;
+.end method
+
 .method public abstract isBot()Z
 .end method
 

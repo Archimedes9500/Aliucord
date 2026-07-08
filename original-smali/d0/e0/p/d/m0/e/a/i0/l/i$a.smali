@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/l/i$a;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/i;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/i;->q:Ld0/e0/p/d/m0/e/a/i0/g;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/l/i;->access$getC$p(Ld0/e0/p/d/m0/e/a/i0/l/i;)Ld0/e0/p/d/m0/e/a/i0/g;
 
     move-result-object v0
@@ -150,7 +149,6 @@
     invoke-static {v4, v5}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/i;->q:Ld0/e0/p/d/m0/e/a/i0/g;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/l/i;->access$getC$p(Ld0/e0/p/d/m0/e/a/i0/l/i;)Ld0/e0/p/d/m0/e/a/i0/g;
 
     move-result-object v5

@@ -76,7 +76,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->editMessage(Lcom/discord/models/message/Message;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;->access$editMessage(Lcom/discord/widgets/chat/list/actions/WidgetChatListActions;Lcom/discord/models/message/Message;)V
 
     .line 2

@@ -131,7 +131,6 @@
     .line 1
     iget-object v0, p0, Ld0/t/q0/c$c;->j:Ld0/t/q0/c;
 
-    # getter for: Ld0/t/q0/c;->q:[Ljava/lang/Object;
     invoke-static {v0}, Ld0/t/q0/c;->access$getKeysArray$p(Ld0/t/q0/c;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -154,7 +153,6 @@
     .line 1
     iget-object v0, p0, Ld0/t/q0/c$c;->j:Ld0/t/q0/c;
 
-    # getter for: Ld0/t/q0/c;->r:[Ljava/lang/Object;
     invoke-static {v0}, Ld0/t/q0/c;->access$getValuesArray$p(Ld0/t/q0/c;)[Ljava/lang/Object;
 
     move-result-object v0
@@ -222,7 +220,6 @@
     .line 2
     iget-object v0, p0, Ld0/t/q0/c$c;->j:Ld0/t/q0/c;
 
-    # invokes: Ld0/t/q0/c;->a()[Ljava/lang/Object;
     invoke-static {v0}, Ld0/t/q0/c;->access$allocateValuesArray(Ld0/t/q0/c;)[Ljava/lang/Object;
 
     move-result-object v0

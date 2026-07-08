@@ -474,7 +474,6 @@
     move-object/from16 p7, v7
 
     .line 13
-    # invokes: Lcom/discord/widgets/directories/WidgetDirectoriesViewModel$Companion;->observeStores(Lcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreGuildSelected;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreDirectories;Lcom/discord/stores/StorePermissions;)Lrx/Observable;
     invoke-static/range {p1 .. p7}, Lcom/discord/widgets/directories/WidgetDirectoriesViewModel$Companion;->access$observeStores(Lcom/discord/widgets/directories/WidgetDirectoriesViewModel$Companion;Lcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreGuildSelected;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreDirectories;Lcom/discord/stores/StorePermissions;)Lrx/Observable;
 
     move-result-object v5

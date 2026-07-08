@@ -84,7 +84,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter$onResume$3;->this$0:Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;->getBinding()Lcom/discord/databinding/WidgetUserMentionsFilterBinding;
     invoke-static {v1}, Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;->access$getBinding$p(Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;)Lcom/discord/databinding/WidgetUserMentionsFilterBinding;
 
     move-result-object v1
@@ -113,13 +112,11 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;->updateFilters(Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader$Filters;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;->access$updateFilters(Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader$Filters;)V
 
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter$onResume$3;->this$0:Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;->delayedDismiss()Lkotlinx/coroutines/Job;
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;->access$delayedDismiss(Lcom/discord/widgets/user/WidgetUserMentions$WidgetUserMentionFilter;)Lkotlinx/coroutines/Job;
 
     return-void

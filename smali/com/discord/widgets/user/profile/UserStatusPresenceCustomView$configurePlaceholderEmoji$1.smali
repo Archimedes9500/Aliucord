@@ -102,7 +102,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    # getter for: Lcom/discord/widgets/user/profile/UserStatusPresenceCustomView;->CUSTOM_EMOJI_PLACEHOLDER_POSTPROCESSOR:Lcom/discord/utilities/fresco/GrayscalePostprocessor;
     invoke-static {}, Lcom/discord/widgets/user/profile/UserStatusPresenceCustomView;->access$getCUSTOM_EMOJI_PLACEHOLDER_POSTPROCESSOR$cp()Lcom/discord/utilities/fresco/GrayscalePostprocessor;
 
     move-result-object v0

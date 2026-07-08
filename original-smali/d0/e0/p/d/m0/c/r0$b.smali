@@ -75,7 +75,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/c/r0$b;->this$0:Ld0/e0/p/d/m0/c/r0;
 
-    # getter for: Ld0/e0/p/d/m0/c/r0;->d:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Ld0/e0/p/d/m0/c/r0;->access$getScopeFactory$p(Ld0/e0/p/d/m0/c/r0;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/stores/StoreNotifications;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreNotifications;->handleRegistrationToken(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreNotifications;->access$handleRegistrationToken(Lcom/discord/stores/StoreNotifications;Ljava/lang/String;)V
 
     return-void

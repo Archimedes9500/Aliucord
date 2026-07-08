@@ -149,7 +149,6 @@
 
     iget-object v2, v2, Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel$addRelationship$2;->$username:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->emitShowFriendRequestAbortToast(ILjava/lang/String;)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->access$emitShowFriendRequestAbortToast(Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;ILjava/lang/String;)V
 
     :goto_3a

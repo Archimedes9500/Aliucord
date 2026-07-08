@@ -77,7 +77,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/sms/SmsListener;->broadcastReceiver:Landroid/content/BroadcastReceiver;
     invoke-static {}, Lcom/discord/utilities/sms/SmsListener;->access$getBroadcastReceiver$cp()Landroid/content/BroadcastReceiver;
 
     move-result-object v0

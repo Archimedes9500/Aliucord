@@ -154,7 +154,6 @@
 
     iget-object v0, p0, Lcom/discord/utilities/colors/RepresentativeColors$getRepresentativeColorAsync$2;->$bitmap:Landroid/graphics/Bitmap;
 
-    # invokes: Lcom/discord/utilities/colors/RepresentativeColors;->getRepresentativeColor(Landroid/graphics/Bitmap;)Lcom/discord/utilities/colors/RepresentativeColors$RepresentativeColorResult;
     invoke-static {p1, v0}, Lcom/discord/utilities/colors/RepresentativeColors;->access$getRepresentativeColor(Lcom/discord/utilities/colors/RepresentativeColors;Landroid/graphics/Bitmap;)Lcom/discord/utilities/colors/RepresentativeColors$RepresentativeColorResult;
 
     move-result-object p1

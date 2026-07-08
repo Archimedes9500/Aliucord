@@ -78,7 +78,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSpotifyListenTogether$userAdapter$2;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSpotifyListenTogether;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSpotifyListenTogether;->binding:Lcom/discord/databinding/WidgetChatListAdapterItemSpotifyListenTogetherBinding;
     invoke-static {v2}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSpotifyListenTogether;->access$getBinding$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSpotifyListenTogether;)Lcom/discord/databinding/WidgetChatListAdapterItemSpotifyListenTogetherBinding;
 
     move-result-object v2

@@ -93,7 +93,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildScheduledEvents$fetchGuildScheduledEventUsers$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->userStore:Lcom/discord/stores/StoreUser;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getUserStore$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Lcom/discord/stores/StoreUser;
 
     move-result-object v0
@@ -109,7 +108,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildScheduledEvents$fetchGuildScheduledEventUsers$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->guildsStore:Lcom/discord/stores/StoreGuilds;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getGuildsStore$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v0
@@ -131,7 +129,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildScheduledEvents$fetchGuildScheduledEventUsers$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->guildScheduledEventUsers:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getGuildScheduledEventUsers$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -222,7 +219,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreGuildScheduledEvents$fetchGuildScheduledEventUsers$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->guildScheduledEventUsers:Ljava/util/HashMap;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getGuildScheduledEventUsers$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Ljava/util/HashMap;
 
     move-result-object v1
@@ -246,7 +242,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildScheduledEvents$fetchGuildScheduledEventUsers$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->guildScheduledEventUsersFetches:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getGuildScheduledEventUsersFetches$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -297,7 +292,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreGuildScheduledEvents$fetchGuildScheduledEventUsers$1;->this$0:Lcom/discord/stores/StoreGuildScheduledEvents;
 
-    # getter for: Lcom/discord/stores/StoreGuildScheduledEvents;->guildScheduledEventUsersFetches:Ljava/util/HashMap;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildScheduledEvents;->access$getGuildScheduledEventUsersFetches$p(Lcom/discord/stores/StoreGuildScheduledEvents;)Ljava/util/HashMap;
 
     move-result-object v1

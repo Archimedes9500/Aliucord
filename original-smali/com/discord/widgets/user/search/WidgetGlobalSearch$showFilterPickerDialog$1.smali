@@ -94,7 +94,6 @@
     .line 2
     sget-object v0, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->Companion:Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;->getFILTER_OPTIONS_LIST()[Lkotlin/Pair;
     invoke-static {v0}, Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;->access$getFILTER_OPTIONS_LIST$p(Lcom/discord/widgets/user/search/WidgetGlobalSearch$Companion;)[Lkotlin/Pair;
 
     move-result-object v0
@@ -118,7 +117,6 @@
 
     move-result-object p1
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->setSearchPrefix(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$setSearchPrefix(Lcom/discord/widgets/user/search/WidgetGlobalSearch;Ljava/lang/String;)V
 
     return-void

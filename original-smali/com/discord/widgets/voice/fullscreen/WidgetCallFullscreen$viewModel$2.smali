@@ -93,7 +93,6 @@
 
     iget-object v2, v0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$viewModel$2;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->getChannelId()J
     invoke-static {v2}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$getChannelId(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)J
 
     move-result-wide v4

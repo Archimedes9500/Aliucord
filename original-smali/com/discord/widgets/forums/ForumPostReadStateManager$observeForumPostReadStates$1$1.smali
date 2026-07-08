@@ -133,7 +133,6 @@
 
     move-result-object v2
 
-    # invokes: Lcom/discord/widgets/forums/ForumPostReadStateManager;->compareChannelIds(Ljava/lang/Long;Ljava/lang/Long;)I
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/forums/ForumPostReadStateManager;->access$compareChannelIds(Lcom/discord/widgets/forums/ForumPostReadStateManager;Ljava/lang/Long;Ljava/lang/Long;)I
 
     move-result v0

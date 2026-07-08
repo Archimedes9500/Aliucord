@@ -146,7 +146,6 @@
     .line 5
     iget-object p3, p0, Lcom/discord/widgets/search/WidgetSearch$configureSearchInput$1;->this$0:Lcom/discord/widgets/search/WidgetSearch;
 
-    # invokes: Lcom/discord/widgets/search/WidgetSearch;->getBinding()Lcom/discord/databinding/WidgetSearchBinding;
     invoke-static {p3}, Lcom/discord/widgets/search/WidgetSearch;->access$getBinding$p(Lcom/discord/widgets/search/WidgetSearch;)Lcom/discord/databinding/WidgetSearchBinding;
 
     move-result-object p3

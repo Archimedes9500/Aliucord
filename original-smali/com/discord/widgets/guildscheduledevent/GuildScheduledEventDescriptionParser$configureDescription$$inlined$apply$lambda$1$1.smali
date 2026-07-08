@@ -107,7 +107,6 @@
 
     iget-wide v2, v0, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDescriptionParser$configureDescription$$inlined$apply$lambda$1;->$guildId$inlined:J
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDescriptionParser;->handleSpoilerClicked(Lcom/discord/utilities/textprocessing/node/SpoilerNode;J)V
     invoke-static {v1, p1, v2, v3}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDescriptionParser;->access$handleSpoilerClicked(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDescriptionParser;Lcom/discord/utilities/textprocessing/node/SpoilerNode;J)V
 
     return-void

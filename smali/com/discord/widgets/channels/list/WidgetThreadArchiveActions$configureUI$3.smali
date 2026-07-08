@@ -74,7 +74,6 @@
 
     const/16 v1, 0x5a0
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions;->setAutoArchiveDuration(Lcom/discord/api/channel/Channel;I)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions;->access$setAutoArchiveDuration(Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions;Lcom/discord/api/channel/Channel;I)V
 
     return-void

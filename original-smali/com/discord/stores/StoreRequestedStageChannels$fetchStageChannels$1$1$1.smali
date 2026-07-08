@@ -93,7 +93,6 @@
 
     sget-object v2, Lcom/discord/stores/StoreRequestedStageChannels$FetchStatus;->ERROR:Lcom/discord/stores/StoreRequestedStageChannels$FetchStatus;
 
-    # invokes: Lcom/discord/stores/StoreRequestedStageChannels;->updateStatus(Ljava/util/Set;Lcom/discord/stores/StoreRequestedStageChannels$FetchStatus;)V
     invoke-static {v1, v0, v2}, Lcom/discord/stores/StoreRequestedStageChannels;->access$updateStatus(Lcom/discord/stores/StoreRequestedStageChannels;Ljava/util/Set;Lcom/discord/stores/StoreRequestedStageChannels$FetchStatus;)V
 
     return-void

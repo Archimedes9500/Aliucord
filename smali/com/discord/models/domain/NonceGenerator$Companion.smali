@@ -114,7 +114,6 @@
     shl-long/2addr v0, p1
 
     .line 2
-    # getter for: Lcom/discord/models/domain/NonceGenerator;->previousNonce:J
     invoke-static {}, Lcom/discord/models/domain/NonceGenerator;->access$getPreviousNonce$cp()J
 
     move-result-wide v2
@@ -124,7 +123,6 @@
     if-gtz p1, :cond_26
 
     .line 3
-    # getter for: Lcom/discord/models/domain/NonceGenerator;->previousNonce:J
     invoke-static {}, Lcom/discord/models/domain/NonceGenerator;->access$getPreviousNonce$cp()J
 
     move-result-wide v0

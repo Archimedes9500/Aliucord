@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;
 
     .line 2
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;->access$updateViewState(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel$ViewState;)V
 
     return-void

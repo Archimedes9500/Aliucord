@@ -108,7 +108,6 @@
 
     invoke-static {v2, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsAddById;->launchCaptchaFlow(Lcom/discord/utilities/error/Error;)V
     invoke-static {v0, v2}, Lcom/discord/widgets/friends/WidgetFriendsAddById;->access$launchCaptchaFlow(Lcom/discord/widgets/friends/WidgetFriendsAddById;Lcom/discord/utilities/error/Error;)V
 
     goto :goto_72
@@ -119,7 +118,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/friends/WidgetFriendsAddById$sendFriendRequest$2;->this$0:Lcom/discord/widgets/friends/WidgetFriendsAddById;
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsAddById;->getBinding()Lcom/discord/databinding/WidgetFriendsAddByIdBinding;
     invoke-static {v0}, Lcom/discord/widgets/friends/WidgetFriendsAddById;->access$getBinding$p(Lcom/discord/widgets/friends/WidgetFriendsAddById;)Lcom/discord/databinding/WidgetFriendsAddByIdBinding;
 
     move-result-object v0
@@ -200,7 +198,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsAddById;->setInputEditError(Ljava/lang/CharSequence;)V
     invoke-static {v1, v0}, Lcom/discord/widgets/friends/WidgetFriendsAddById;->access$setInputEditError(Lcom/discord/widgets/friends/WidgetFriendsAddById;Ljava/lang/CharSequence;)V
 
     :goto_72

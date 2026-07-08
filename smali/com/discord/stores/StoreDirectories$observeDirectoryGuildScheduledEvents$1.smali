@@ -108,7 +108,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreDirectories$observeDirectoryGuildScheduledEvents$1;->this$0:Lcom/discord/stores/StoreDirectories;
 
-    # getter for: Lcom/discord/stores/StoreDirectories;->directoryGuildScheduledEventsMapSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreDirectories;->access$getDirectoryGuildScheduledEventsMapSnapshot$p(Lcom/discord/stores/StoreDirectories;)Ljava/util/Map;
 
     move-result-object v0

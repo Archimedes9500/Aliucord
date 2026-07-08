@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreGuildsSorted$init$1$1;->$state:Lcom/discord/stores/StoreGuildsSorted$State;
 
-    # invokes: Lcom/discord/stores/StoreGuildsSorted;->handleNewState(Lcom/discord/stores/StoreGuildsSorted$State;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreGuildsSorted;->access$handleNewState(Lcom/discord/stores/StoreGuildsSorted;Lcom/discord/stores/StoreGuildsSorted$State;)V
 
     return-void

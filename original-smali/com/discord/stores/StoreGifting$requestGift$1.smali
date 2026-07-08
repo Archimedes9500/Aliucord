@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreGifting$requestGift$1;->$giftCode:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreGifting;->fetchGift(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreGifting;->access$fetchGift(Lcom/discord/stores/StoreGifting;Ljava/lang/String;)V
 
     return-void

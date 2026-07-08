@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage$onViewBound$5;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;
 
-    # invokes: Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->removePhoneNumber()V
     invoke-static {p1}, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->access$removePhoneNumber(Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;)V
 
     return-void

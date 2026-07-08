@@ -134,7 +134,6 @@
 
     iget-object v1, v1, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$createPreviewAdapter$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->flexInputFragment:Lcom/lytefast/flexinput/fragment/FlexInputFragment;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->access$getFlexInputFragment$p(Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;)Lcom/lytefast/flexinput/fragment/FlexInputFragment;
 
     move-result-object v1

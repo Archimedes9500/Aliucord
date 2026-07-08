@@ -294,7 +294,6 @@
     move-wide v7, p1
 
     .line 9
-    # invokes: Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel$Companion;->observeStores(JLcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreGuildSelected;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StorePermissions;)Lrx/Observable;
     invoke-static/range {v6 .. v13}, Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel$Companion;->access$observeStores(Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel$Companion;JLcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreGuildSelected;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StorePermissions;)Lrx/Observable;
 
     move-result-object v0

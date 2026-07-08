@@ -88,7 +88,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lcom/discord/widgets/status/WidgetThreadStatusViewModel;->updateViewLoading(Z)V
     invoke-static {v0, v1}, Lcom/discord/widgets/status/WidgetThreadStatusViewModel;->access$updateViewLoading(Lcom/discord/widgets/status/WidgetThreadStatusViewModel;Z)V
 
     return-void

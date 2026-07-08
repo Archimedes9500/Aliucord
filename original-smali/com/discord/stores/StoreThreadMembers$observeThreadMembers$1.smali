@@ -101,7 +101,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreThreadMembers$observeThreadMembers$1;->this$0:Lcom/discord/stores/StoreThreadMembers;
 
-    # getter for: Lcom/discord/stores/StoreThreadMembers;->memberListsSnapshot:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreThreadMembers;->access$getMemberListsSnapshot$p(Lcom/discord/stores/StoreThreadMembers;)Ljava/util/HashMap;
 
     move-result-object v0

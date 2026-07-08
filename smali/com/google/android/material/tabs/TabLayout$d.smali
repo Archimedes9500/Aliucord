@@ -67,7 +67,6 @@
     .line 2
     iget-object v1, p0, Lcom/google/android/material/tabs/TabLayout$d;->n:Lcom/google/android/material/tabs/TabLayout;
 
-    # getter for: Lcom/google/android/material/tabs/TabLayout;->tabIndicatorInterpolator:Lb/i/a/g/i/b;
     invoke-static {v1}, Lcom/google/android/material/tabs/TabLayout;->access$1200(Lcom/google/android/material/tabs/TabLayout;)Lb/i/a/g/i/b;
 
     move-result-object v1
@@ -169,7 +168,6 @@
     .line 2
     iget-object v0, p0, Lcom/google/android/material/tabs/TabLayout$d;->n:Lcom/google/android/material/tabs/TabLayout;
 
-    # getter for: Lcom/google/android/material/tabs/TabLayout;->tabIndicatorInterpolator:Lb/i/a/g/i/b;
     invoke-static {v0}, Lcom/google/android/material/tabs/TabLayout;->access$1200(Lcom/google/android/material/tabs/TabLayout;)Lb/i/a/g/i/b;
 
     move-result-object v1
@@ -457,7 +455,6 @@
     iget-object v1, v0, Lcom/google/android/material/tabs/TabLayout;->tabSelectedIndicator:Landroid/graphics/drawable/Drawable;
 
     .line 13
-    # getter for: Lcom/google/android/material/tabs/TabLayout;->tabSelectedIndicatorColor:I
     invoke-static {v0}, Lcom/google/android/material/tabs/TabLayout;->access$1400(Lcom/google/android/material/tabs/TabLayout;)I
 
     move-result v0
@@ -479,7 +476,6 @@
     .line 16
     iget-object v0, p0, Lcom/google/android/material/tabs/TabLayout$d;->n:Lcom/google/android/material/tabs/TabLayout;
 
-    # getter for: Lcom/google/android/material/tabs/TabLayout;->tabSelectedIndicatorColor:I
     invoke-static {v0}, Lcom/google/android/material/tabs/TabLayout;->access$1400(Lcom/google/android/material/tabs/TabLayout;)I
 
     move-result v0
@@ -494,7 +490,6 @@
     :cond_87
     iget-object v0, p0, Lcom/google/android/material/tabs/TabLayout$d;->n:Lcom/google/android/material/tabs/TabLayout;
 
-    # getter for: Lcom/google/android/material/tabs/TabLayout;->tabSelectedIndicatorColor:I
     invoke-static {v0}, Lcom/google/android/material/tabs/TabLayout;->access$1400(Lcom/google/android/material/tabs/TabLayout;)I
 
     move-result v0

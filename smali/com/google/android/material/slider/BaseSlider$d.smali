@@ -48,7 +48,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/slider/BaseSlider$d;->k:Lcom/google/android/material/slider/BaseSlider;
 
-    # getter for: Lcom/google/android/material/slider/BaseSlider;->accessibilityHelper:Lcom/google/android/material/slider/BaseSlider$e;
     invoke-static {v0}, Lcom/google/android/material/slider/BaseSlider;->access$300(Lcom/google/android/material/slider/BaseSlider;)Lcom/google/android/material/slider/BaseSlider$e;
 
     move-result-object v0

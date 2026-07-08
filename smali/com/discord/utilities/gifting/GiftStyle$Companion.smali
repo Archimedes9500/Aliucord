@@ -71,7 +71,6 @@
 .method private final getValues()[Lcom/discord/utilities/gifting/GiftStyle;
     .locals 2
 
-    # getter for: Lcom/discord/utilities/gifting/GiftStyle;->values$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/utilities/gifting/GiftStyle;->access$getValues$cp()Lkotlin/Lazy;
 
     move-result-object v0

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;->handleStoreState(Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;->access$handleStoreState(Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel$StoreState;)V
 
     return-void

@@ -97,7 +97,6 @@
 
     iget-object v1, v1, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configurePrivacyControls$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {v1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object v1
@@ -111,7 +110,6 @@
     const-string v2, "personalization"
 
     .line 5
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->toggleConsent(ZLjava/lang/String;Lcom/discord/views/CheckedSetting;)V
     invoke-static {v0, p1, v2, v1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$toggleConsent(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;ZLjava/lang/String;Lcom/discord/views/CheckedSetting;)V
 
     return-void

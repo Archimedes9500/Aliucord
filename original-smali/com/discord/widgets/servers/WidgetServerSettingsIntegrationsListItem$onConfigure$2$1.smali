@@ -90,7 +90,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem$onConfigure$2;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->binding:Lcom/discord/databinding/WidgetServerSettingsIntegrationListItemBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;)Lcom/discord/databinding/WidgetServerSettingsIntegrationListItemBinding;
 
     move-result-object p1
@@ -110,7 +109,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem$onConfigure$2;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;
 
-    # getter for: Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->binding:Lcom/discord/databinding/WidgetServerSettingsIntegrationListItemBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;)Lcom/discord/databinding/WidgetServerSettingsIntegrationListItemBinding;
 
     move-result-object p1
@@ -128,7 +126,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem$onConfigure$2;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->showSyncingUI(Z)V
     invoke-static {p1, v1}, Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;->access$showSyncingUI(Lcom/discord/widgets/servers/WidgetServerSettingsIntegrationsListItem;Z)V
 
     return-void

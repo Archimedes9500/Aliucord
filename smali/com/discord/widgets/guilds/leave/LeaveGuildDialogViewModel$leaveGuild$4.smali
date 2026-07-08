@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel$leaveGuild$4;->this$0:Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel;
 
-    # invokes: Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel;->onLeaveFailed()V
     invoke-static {p1}, Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel;->access$onLeaveFailed(Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel;)V
 
     return-void

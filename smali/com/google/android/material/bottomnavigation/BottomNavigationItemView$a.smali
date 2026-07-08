@@ -41,7 +41,6 @@
     .line 1
     iget-object p1, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationItemView$a;->j:Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;
 
-    # getter for: Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;->icon:Landroid/widget/ImageView;
     invoke-static {p1}, Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;->access$000(Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;)Landroid/widget/ImageView;
 
     move-result-object p1
@@ -55,12 +54,10 @@
     .line 2
     iget-object p1, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationItemView$a;->j:Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;
 
-    # getter for: Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;->icon:Landroid/widget/ImageView;
     invoke-static {p1}, Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;->access$000(Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;)Landroid/widget/ImageView;
 
     move-result-object p2
 
-    # invokes: Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;->tryUpdateBadgeBounds(Landroid/view/View;)V
     invoke-static {p1, p2}, Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;->access$100(Lcom/google/android/material/bottomnavigation/BottomNavigationItemView;Landroid/view/View;)V
 
     :cond_15

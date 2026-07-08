@@ -60,7 +60,6 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    # getter for: Ld0/f0/g;->a:Lkotlin/sequences/Sequence;
     invoke-static {p1}, Ld0/f0/g;->access$getSequence$p(Ld0/f0/g;)Lkotlin/sequences/Sequence;
 
     move-result-object p1
@@ -104,7 +103,6 @@
     .line 3
     iget-object v1, p0, Ld0/f0/g$a;->m:Ld0/f0/g;
 
-    # getter for: Ld0/f0/g;->c:Lkotlin/jvm/functions/Function1;
     invoke-static {v1}, Ld0/f0/g;->access$getPredicate$p(Ld0/f0/g;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v1
@@ -121,7 +119,6 @@
 
     iget-object v2, p0, Ld0/f0/g$a;->m:Ld0/f0/g;
 
-    # getter for: Ld0/f0/g;->b:Z
     invoke-static {v2}, Ld0/f0/g;->access$getSendWhen$p(Ld0/f0/g;)Z
 
     move-result v2

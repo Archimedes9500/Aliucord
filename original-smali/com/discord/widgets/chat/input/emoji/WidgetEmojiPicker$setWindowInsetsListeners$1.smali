@@ -79,7 +79,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$setWindowInsetsListeners$1;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->getAdditionalBottomPaddingPx()I
     invoke-static {v1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$getAdditionalBottomPaddingPx(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)I
 
     move-result v1

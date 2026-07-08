@@ -103,7 +103,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$configureUI$3;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEmojis;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEmojis;->launchEditScreen(Landroid/view/View;Lcom/discord/models/domain/emoji/ModelEmojiGuild;)V
     invoke-static {v0, p1, p2}, Lcom/discord/widgets/servers/WidgetServerSettingsEmojis;->access$launchEditScreen(Lcom/discord/widgets/servers/WidgetServerSettingsEmojis;Landroid/view/View;Lcom/discord/models/domain/emoji/ModelEmojiGuild;)V
 
     return-void

@@ -102,7 +102,6 @@
     move-result-object p1
 
     .line 5
-    # invokes: Lcom/adjust/sdk/AdjustFactory;->byte2HexFormatted([B)Ljava/lang/String;
     invoke-static {p1}, Lcom/adjust/sdk/AdjustFactory;->access$000([B)Ljava/lang/String;
 
     move-result-object p1

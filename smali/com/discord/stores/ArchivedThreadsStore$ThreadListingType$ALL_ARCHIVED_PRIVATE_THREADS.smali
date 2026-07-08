@@ -82,7 +82,6 @@
     :try_start_6
     sget-object v0, Lcom/discord/stores/ArchivedThreadsStore$ThreadListingType;->Companion:Lcom/discord/stores/ArchivedThreadsStore$ThreadListingType$Companion;
 
-    # invokes: Lcom/discord/stores/ArchivedThreadsStore$ThreadListingType$Companion;->getLastArchiveTimestamp(Ljava/util/List;)Ljava/lang/String;
     invoke-static {v0, p3}, Lcom/discord/stores/ArchivedThreadsStore$ThreadListingType$Companion;->access$getLastArchiveTimestamp(Lcom/discord/stores/ArchivedThreadsStore$ThreadListingType$Companion;Ljava/util/List;)Ljava/lang/String;
 
     move-result-object p3

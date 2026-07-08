@@ -376,7 +376,6 @@
     invoke-direct {v6, v3, v1, v2}, Lcom/discord/utilities/captcha/CaptchaHelper$tryShowCaptcha$1$3;-><init>(Landroid/app/Activity;Lrx/Emitter;Lkotlin/jvm/functions/Function1;)V
 
     .line 27
-    # invokes: Lcom/discord/utilities/captcha/CaptchaHelper;->ensurePlayServicesAvailable(Lcom/google/android/gms/common/GoogleApiAvailability;Landroid/app/Activity;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v4, v5, v3, v6, v2}, Lcom/discord/utilities/captcha/CaptchaHelper;->access$ensurePlayServicesAvailable(Lcom/discord/utilities/captcha/CaptchaHelper;Lcom/google/android/gms/common/GoogleApiAvailability;Landroid/app/Activity;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;)V
 
     :cond_108

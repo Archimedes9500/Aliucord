@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;->configureUi(Lcom/discord/widgets/guildscheduledevent/PreviewGuildScheduledEventViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;->access$configureUi(Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;Lcom/discord/widgets/guildscheduledevent/PreviewGuildScheduledEventViewModel$ViewState;)V
 
     return-void

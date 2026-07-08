@@ -129,7 +129,6 @@
     .line 8
     iget-object p1, p0, Lcom/discord/widgets/chat/MessageManager$defaultMessageResultHandler$1;->this$0:Lcom/discord/widgets/chat/MessageManager;
 
-    # getter for: Lcom/discord/widgets/chat/MessageManager;->context:Landroid/content/Context;
     invoke-static {p1}, Lcom/discord/widgets/chat/MessageManager;->access$getContext$p(Lcom/discord/widgets/chat/MessageManager;)Landroid/content/Context;
 
     move-result-object v3
@@ -156,7 +155,6 @@
     .line 11
     iget-object p1, p0, Lcom/discord/widgets/chat/MessageManager$defaultMessageResultHandler$1;->this$0:Lcom/discord/widgets/chat/MessageManager;
 
-    # getter for: Lcom/discord/widgets/chat/MessageManager;->context:Landroid/content/Context;
     invoke-static {p1}, Lcom/discord/widgets/chat/MessageManager;->access$getContext$p(Lcom/discord/widgets/chat/MessageManager;)Landroid/content/Context;
 
     move-result-object p1

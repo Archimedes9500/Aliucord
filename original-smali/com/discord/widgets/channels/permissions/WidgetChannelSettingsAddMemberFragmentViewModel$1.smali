@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragmentViewModel$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragmentViewModel;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragmentViewModel;->handleStoreState(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragmentViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragmentViewModel;->access$handleStoreState(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragmentViewModel;Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberFragmentViewModel$StoreState;)V
 
     return-void

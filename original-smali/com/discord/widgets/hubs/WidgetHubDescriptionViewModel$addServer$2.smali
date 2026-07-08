@@ -128,7 +128,6 @@
 
     move-result-object p1
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/hubs/WidgetHubDescriptionViewModel;->access$updateViewState(Lcom/discord/widgets/hubs/WidgetHubDescriptionViewModel;Lcom/discord/widgets/hubs/HubDescriptionState;)V
 
     return-void

@@ -150,7 +150,6 @@
     move-object/from16 v8, p7
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/list/ViewEmbedGameInvite$Model$Companion;->createForShare(Lcom/discord/models/user/MeUser;JLcom/discord/api/message/activity/MessageActivity;Lcom/discord/api/activity/Activity;Ljava/util/Map;Lcom/discord/api/application/Application;)Lcom/discord/widgets/chat/list/ViewEmbedGameInvite$Model;
     invoke-static/range {v1 .. v8}, Lcom/discord/widgets/chat/list/ViewEmbedGameInvite$Model$Companion;->access$createForShare(Lcom/discord/widgets/chat/list/ViewEmbedGameInvite$Model$Companion;Lcom/discord/models/user/MeUser;JLcom/discord/api/message/activity/MessageActivity;Lcom/discord/api/activity/Activity;Ljava/util/Map;Lcom/discord/api/application/Application;)Lcom/discord/widgets/chat/list/ViewEmbedGameInvite$Model;
 
     move-result-object v1

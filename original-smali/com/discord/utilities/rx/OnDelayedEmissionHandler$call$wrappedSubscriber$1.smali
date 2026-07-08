@@ -87,7 +87,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/utilities/rx/OnDelayedEmissionHandler$call$wrappedSubscriber$1;->this$0:Lcom/discord/utilities/rx/OnDelayedEmissionHandler;
 
-    # getter for: Lcom/discord/utilities/rx/OnDelayedEmissionHandler;->delaySubscription:Lrx/Subscription;
     invoke-static {v0}, Lcom/discord/utilities/rx/OnDelayedEmissionHandler;->access$getDelaySubscription$p(Lcom/discord/utilities/rx/OnDelayedEmissionHandler;)Lrx/Subscription;
 
     move-result-object v0
@@ -107,7 +106,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/utilities/rx/OnDelayedEmissionHandler$call$wrappedSubscriber$1;->this$0:Lcom/discord/utilities/rx/OnDelayedEmissionHandler;
 
-    # getter for: Lcom/discord/utilities/rx/OnDelayedEmissionHandler;->scheduler:Lrx/Scheduler;
     invoke-static {v0}, Lcom/discord/utilities/rx/OnDelayedEmissionHandler;->access$getScheduler$p(Lcom/discord/utilities/rx/OnDelayedEmissionHandler;)Lrx/Scheduler;
 
     move-result-object v0

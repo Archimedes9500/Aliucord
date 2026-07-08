@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGooglePlayPurchases$onVerificationSuccess$$inlined$forEach$lambda$1;->this$0:Lcom/discord/stores/StoreGooglePlayPurchases;
 
-    # getter for: Lcom/discord/stores/StoreGooglePlayPurchases;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreGooglePlayPurchases;->access$getEventSubject$p(Lcom/discord/stores/StoreGooglePlayPurchases;)Lrx/subjects/PublishSubject;
 
     move-result-object v0

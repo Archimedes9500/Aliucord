@@ -156,7 +156,6 @@
 
     sget-object v0, Lcom/discord/views/phone/PhoneOrEmailInputView$Mode;->EMAIL:Lcom/discord/views/phone/PhoneOrEmailInputView$Mode;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->setInputMode(Lcom/discord/views/phone/PhoneOrEmailInputView$Mode;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->access$setInputMode(Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;Lcom/discord/views/phone/PhoneOrEmailInputView$Mode;)V
 
     :cond_40

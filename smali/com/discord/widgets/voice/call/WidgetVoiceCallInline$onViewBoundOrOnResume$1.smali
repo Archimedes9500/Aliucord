@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/voice/call/WidgetVoiceCallInline$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/voice/call/WidgetVoiceCallInline;
 
-    # invokes: Lcom/discord/widgets/voice/call/WidgetVoiceCallInline;->configureUI(Lcom/discord/widgets/voice/call/WidgetVoiceCallInline$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/call/WidgetVoiceCallInline;->access$configureUI(Lcom/discord/widgets/voice/call/WidgetVoiceCallInline;Lcom/discord/widgets/voice/call/WidgetVoiceCallInline$Model;)V
 
     return-void

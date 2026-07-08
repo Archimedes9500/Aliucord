@@ -63,7 +63,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/l/d$a;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/d;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/d;->d:Ld0/e0/p/d/m0/e/a/i0/l/i;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/l/d;->access$getPackageFragment$p(Ld0/e0/p/d/m0/e/a/i0/l/d;)Ld0/e0/p/d/m0/e/a/i0/l/i;
 
     move-result-object v0
@@ -104,7 +103,6 @@
     check-cast v3, Ld0/e0/p/d/m0/e/b/p;
 
     .line 6
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/d;->c:Ld0/e0/p/d/m0/e/a/i0/g;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/l/d;->access$getC$p(Ld0/e0/p/d/m0/e/a/i0/l/d;)Ld0/e0/p/d/m0/e/a/i0/g;
 
     move-result-object v4
@@ -117,7 +115,6 @@
 
     move-result-object v4
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/d;->d:Ld0/e0/p/d/m0/e/a/i0/l/i;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/l/d;->access$getPackageFragment$p(Ld0/e0/p/d/m0/e/a/i0/l/d;)Ld0/e0/p/d/m0/e/a/i0/l/i;
 
     move-result-object v5

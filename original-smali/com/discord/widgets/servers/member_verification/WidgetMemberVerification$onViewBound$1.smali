@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification$onViewBound$1;->this$0:Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;->getViewModel()Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;
     invoke-static {v0}, Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;->access$getViewModel$p(Lcom/discord/widgets/servers/member_verification/WidgetMemberVerification;)Lcom/discord/widgets/servers/member_verification/WidgetMemberVerificationViewModel;
 
     move-result-object v0

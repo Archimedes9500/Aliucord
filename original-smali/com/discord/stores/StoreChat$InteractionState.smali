@@ -190,7 +190,6 @@
     .line 4
     sget-object v0, Lcom/discord/stores/StoreChat$InteractionState;->Companion:Lcom/discord/stores/StoreChat$InteractionState$Companion;
 
-    # invokes: Lcom/discord/stores/StoreChat$InteractionState$Companion;->getScrollState(Landroidx/recyclerview/widget/LinearLayoutManager;)I
     invoke-static {v0, p6}, Lcom/discord/stores/StoreChat$InteractionState$Companion;->access$getScrollState$p(Lcom/discord/stores/StoreChat$InteractionState$Companion;Landroidx/recyclerview/widget/LinearLayoutManager;)I
 
     move-result v7

@@ -97,7 +97,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify$autofillCode$2;->$verificationCode:Ljava/lang/String;
 
-    # invokes: Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;->handleCodeEntered(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;->access$handleCodeEntered(Lcom/discord/widgets/user/phone/WidgetUserPhoneVerify;Ljava/lang/String;)V
 
     return-void

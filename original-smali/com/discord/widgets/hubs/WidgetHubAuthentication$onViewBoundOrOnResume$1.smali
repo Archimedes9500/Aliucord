@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/hubs/WidgetHubAuthentication;
 
     .line 2
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubAuthentication;->configureUi(Lcom/discord/widgets/hubs/HubAuthenticationState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/hubs/WidgetHubAuthentication;->access$configureUi(Lcom/discord/widgets/hubs/WidgetHubAuthentication;Lcom/discord/widgets/hubs/HubAuthenticationState;)V
 
     return-void

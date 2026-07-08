@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostTransfer;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostTransfer;->configureUI(Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostTransfer;->access$configureUI(Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostTransfer;Lcom/discord/widgets/servers/guildboost/GuildBoostTransferInProgressViewModel$ViewState;)V
 
     return-void

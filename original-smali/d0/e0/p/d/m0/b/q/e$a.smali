@@ -64,7 +64,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    # getter for: Ld0/e0/p/d/m0/b/q/e;->c:Ld0/e0/p/d/m0/g/b;
     invoke-static {}, Ld0/e0/p/d/m0/b/q/e;->access$getKOTLIN_FQ_NAME$cp()Ld0/e0/p/d/m0/g/b;
 
     move-result-object v0

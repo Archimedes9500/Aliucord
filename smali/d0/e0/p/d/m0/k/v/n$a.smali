@@ -136,12 +136,10 @@
     .line 12
     new-instance v0, Ld0/e0/p/d/m0/k/v/n;
 
-    # getter for: Ld0/e0/p/d/m0/k/v/n;->b:J
     invoke-static {v3}, Ld0/e0/p/d/m0/k/v/n;->access$getValue$p(Ld0/e0/p/d/m0/k/v/n;)J
 
     move-result-wide v5
 
-    # getter for: Ld0/e0/p/d/m0/k/v/n;->c:Ld0/e0/p/d/m0/c/c0;
     invoke-static {v3}, Ld0/e0/p/d/m0/k/v/n;->access$getModule$p(Ld0/e0/p/d/m0/k/v/n;)Ld0/e0/p/d/m0/c/c0;
 
     move-result-object v7

@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildBoost$updateGuildBoostSlot$1;->this$0:Lcom/discord/stores/StoreGuildBoost;
 
-    # getter for: Lcom/discord/stores/StoreGuildBoost;->state:Lcom/discord/stores/StoreGuildBoost$State;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildBoost;->access$getState$p(Lcom/discord/stores/StoreGuildBoost;)Lcom/discord/stores/StoreGuildBoost$State;
 
     move-result-object v0

@@ -1167,7 +1167,6 @@
     .line 1
     sget-object v0, Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/AnalyticsFormattedMonetizationRequirements;->Companion:Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/AnalyticsFormattedMonetizationRequirements$Companion;
 
-    # invokes: Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/AnalyticsFormattedMonetizationRequirements$Companion;->getGsonInstance()Lcom/google/gson/Gson;
     invoke-static {v0}, Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/AnalyticsFormattedMonetizationRequirements$Companion;->access$getGsonInstance$p(Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/AnalyticsFormattedMonetizationRequirements$Companion;)Lcom/google/gson/Gson;
 
     move-result-object v0

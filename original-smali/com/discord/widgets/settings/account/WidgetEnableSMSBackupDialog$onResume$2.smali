@@ -76,7 +76,6 @@
 
     move-result v0
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetEnableSMSBackupDialog;->enableSMSBackup(Z)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/account/WidgetEnableSMSBackupDialog;->access$enableSMSBackup(Lcom/discord/widgets/settings/account/WidgetEnableSMSBackupDialog;Z)V
 
     return-void

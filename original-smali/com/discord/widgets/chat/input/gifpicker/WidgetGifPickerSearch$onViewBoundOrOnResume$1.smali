@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;->handleViewState(Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;->access$handleViewState(Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$ViewState;)V
 
     return-void

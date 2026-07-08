@@ -130,7 +130,6 @@
 
     move-result-object v2
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v1, v2}, Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;->access$updateViewState(Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;Lcom/discord/widgets/status/WidgetForumPostStatusViewModel$ViewState;)V
 
     return-void

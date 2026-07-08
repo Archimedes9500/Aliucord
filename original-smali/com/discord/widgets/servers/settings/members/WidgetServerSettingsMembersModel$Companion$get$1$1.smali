@@ -187,7 +187,6 @@
 
     sget-object v1, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersModel;->Companion:Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersModel$Companion;
 
-    # invokes: Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersModel$Companion;->sortMembersComparator()Ljava/util/Comparator;
     invoke-static {v1}, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersModel$Companion;->access$sortMembersComparator(Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersModel$Companion;)Ljava/util/Comparator;
 
     move-result-object v1
@@ -470,7 +469,6 @@
 
     invoke-static {v12, v3}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersModel$Companion;->sortRoles(Ljava/util/Map;)Ljava/util/Map;
     invoke-static {v1, v12}, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersModel$Companion;->access$sortRoles(Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersModel$Companion;Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object v3

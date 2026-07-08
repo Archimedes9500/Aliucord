@@ -109,7 +109,6 @@
 
     iget-object v4, p0, Lcom/discord/stores/StoreApplicationInteractions$sendApplicationCommand$1;->$onFail:Lkotlin/jvm/functions/Function1;
 
-    # invokes: Lcom/discord/stores/StoreApplicationInteractions;->handleSendApplicationCommandRequest(Lcom/discord/models/commands/ApplicationCommandLocalSendData;Ljava/util/List;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v2, v3, v4}, Lcom/discord/stores/StoreApplicationInteractions;->access$handleSendApplicationCommandRequest(Lcom/discord/stores/StoreApplicationInteractions;Lcom/discord/models/commands/ApplicationCommandLocalSendData;Ljava/util/List;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;)V
 
     return-void

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/user/search/WidgetGlobalSearch$onViewBound$4;->this$0:Lcom/discord/widgets/user/search/WidgetGlobalSearch;
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->getBinding()Lcom/discord/databinding/WidgetGlobalSearchBinding;
     invoke-static {p1}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$getBinding$p(Lcom/discord/widgets/user/search/WidgetGlobalSearch;)Lcom/discord/databinding/WidgetGlobalSearchBinding;
 
     move-result-object v0
@@ -78,7 +77,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/search/WidgetGlobalSearch$onViewBound$4;->this$0:Lcom/discord/widgets/user/search/WidgetGlobalSearch;
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->getDismissViewModel()Lcom/discord/widgets/user/search/WidgetGlobalSearchDismissModel;
     invoke-static {p1}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$getDismissViewModel$p(Lcom/discord/widgets/user/search/WidgetGlobalSearch;)Lcom/discord/widgets/user/search/WidgetGlobalSearchDismissModel;
 
     move-result-object p1

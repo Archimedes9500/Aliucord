@@ -105,7 +105,6 @@
 
     const/4 v0, 0x0
 
-    # invokes: Lcom/discord/stores/StoreAuthentication;->publishAuthState(Lcom/discord/models/authentication/AuthState;)V
     invoke-static {p1, v0}, Lcom/discord/stores/StoreAuthentication;->access$publishAuthState(Lcom/discord/stores/StoreAuthentication;Lcom/discord/models/authentication/AuthState;)V
 
     return-void

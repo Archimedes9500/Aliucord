@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPackStoreSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPackStoreSheet;->configureUI(Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPackStoreSheet;->access$configureUI(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPackStoreSheet;Lcom/discord/widgets/chat/input/sticker/StickerPackStoreSheetViewModel$ViewState;)V
 
     return-void

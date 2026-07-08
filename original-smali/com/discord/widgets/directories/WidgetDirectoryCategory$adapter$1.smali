@@ -100,7 +100,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/widgets/directories/WidgetDirectoryCategory$adapter$1;->this$0:Lcom/discord/widgets/directories/WidgetDirectoryCategory;
 
-    # getter for: Lcom/discord/widgets/directories/WidgetDirectoryCategory;->activityResult:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v2}, Lcom/discord/widgets/directories/WidgetDirectoryCategory;->access$getActivityResult$p(Lcom/discord/widgets/directories/WidgetDirectoryCategory;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v2

@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/phone/WidgetPhoneCountryCodeBottomSheet;->configureUI(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/phone/WidgetPhoneCountryCodeBottomSheet;->access$configureUI(Lcom/discord/widgets/phone/WidgetPhoneCountryCodeBottomSheet;Ljava/lang/String;)V
 
     return-void

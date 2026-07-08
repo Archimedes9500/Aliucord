@@ -269,7 +269,6 @@
     .line 1
     sget-object p1, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->Companion:Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$Companion;->observeStores()Lrx/Observable;
     invoke-static {p1}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$Companion;->access$observeStores(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$Companion;)Lrx/Observable;
 
     move-result-object p1

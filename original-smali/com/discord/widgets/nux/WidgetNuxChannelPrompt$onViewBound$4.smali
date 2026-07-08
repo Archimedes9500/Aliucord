@@ -72,7 +72,6 @@
 
     iget-wide v0, p0, Lcom/discord/widgets/nux/WidgetNuxChannelPrompt$onViewBound$4;->$guildId:J
 
-    # invokes: Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;->handleSubmit(J)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;->access$handleSubmit(Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;J)V
 
     return-void

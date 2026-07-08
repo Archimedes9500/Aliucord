@@ -99,7 +99,6 @@
     :cond_f
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit$configureMenu$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;->deleteEmoji()V
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;->access$deleteEmoji(Lcom/discord/widgets/servers/WidgetServerSettingsEmojisEdit;)V
 
     :goto_14

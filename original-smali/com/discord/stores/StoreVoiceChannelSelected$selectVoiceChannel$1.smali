@@ -97,7 +97,6 @@
 
     const/4 v3, 0x0
 
-    # invokes: Lcom/discord/stores/StoreVoiceChannelSelected;->selectVoiceChannelInternal(JZ)Lcom/discord/stores/StoreVoiceChannelSelected$JoinVoiceChannelResult;
     invoke-static {v0, v1, v2, v3}, Lcom/discord/stores/StoreVoiceChannelSelected;->access$selectVoiceChannelInternal(Lcom/discord/stores/StoreVoiceChannelSelected;JZ)Lcom/discord/stores/StoreVoiceChannelSelected$JoinVoiceChannelResult;
 
     move-result-object v0

@@ -109,7 +109,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreInstantInvites$fetchInviteIfNotLoaded$1;->this$0:Lcom/discord/stores/StoreInstantInvites;
 
-    # getter for: Lcom/discord/stores/StoreInstantInvites;->knownInvites:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreInstantInvites;->access$getKnownInvites$p(Lcom/discord/stores/StoreInstantInvites;)Ljava/util/Map;
 
     move-result-object v0
@@ -124,7 +123,6 @@
 
     iget-object v0, p0, Lcom/discord/stores/StoreInstantInvites$fetchInviteIfNotLoaded$1;->this$0:Lcom/discord/stores/StoreInstantInvites;
 
-    # getter for: Lcom/discord/stores/StoreInstantInvites;->knownInvites:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreInstantInvites;->access$getKnownInvites$p(Lcom/discord/stores/StoreInstantInvites;)Ljava/util/Map;
 
     move-result-object v0
@@ -156,13 +154,11 @@
 
     sget-object v2, Lcom/discord/stores/StoreInstantInvites$InviteState$Loading;->INSTANCE:Lcom/discord/stores/StoreInstantInvites$InviteState$Loading;
 
-    # invokes: Lcom/discord/stores/StoreInstantInvites;->setChatInvites(Ljava/lang/String;Lcom/discord/stores/StoreInstantInvites$InviteState;)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreInstantInvites;->access$setChatInvites(Lcom/discord/stores/StoreInstantInvites;Ljava/lang/String;Lcom/discord/stores/StoreInstantInvites$InviteState;)V
 
     .line 5
     iget-object v0, p0, Lcom/discord/stores/StoreInstantInvites$fetchInviteIfNotLoaded$1;->this$0:Lcom/discord/stores/StoreInstantInvites;
 
-    # getter for: Lcom/discord/stores/StoreInstantInvites;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v0}, Lcom/discord/stores/StoreInstantInvites;->access$getRestAPI$p(Lcom/discord/stores/StoreInstantInvites;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0

@@ -510,7 +510,6 @@
 
     sget-object v3, Lcom/discord/utilities/persister/Persister;->Companion:Lcom/discord/utilities/persister/Persister$Companion;
 
-    # invokes: Lcom/discord/utilities/persister/Persister$Companion;->availableBytes()J
     invoke-static {v3}, Lcom/discord/utilities/persister/Persister$Companion;->access$availableBytes(Lcom/discord/utilities/persister/Persister$Companion;)J
 
     move-result-wide v3

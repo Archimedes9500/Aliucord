@@ -74,7 +74,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings$configureUi$2;->this$0:Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;->getViewModel()Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;->access$getViewModel$p(Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;)Lcom/discord/widgets/channels/settings/ChannelGroupDMSettingsViewModel;
 
     move-result-object p1
@@ -89,14 +88,12 @@
     .line 3
     iget-object v2, p0, Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings$configureUi$2;->this$0:Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {v2}, Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;->access$getState$p(Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings$configureUi$2;->this$0:Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;->getBinding()Lcom/discord/databinding/WidgetChannelGroupDmSettingsBinding;
     invoke-static {v3}, Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;->access$getBinding$p(Lcom/discord/widgets/channels/settings/WidgetChannelGroupDMSettings;)Lcom/discord/databinding/WidgetChannelGroupDmSettingsBinding;
 
     move-result-object v3

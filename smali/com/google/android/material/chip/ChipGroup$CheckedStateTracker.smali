@@ -45,7 +45,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;->a:Lcom/google/android/material/chip/ChipGroup;
 
-    # getter for: Lcom/google/android/material/chip/ChipGroup;->protectFromCheckedChange:Z
     invoke-static {v0}, Lcom/google/android/material/chip/ChipGroup;->access$300(Lcom/google/android/material/chip/ChipGroup;)Z
 
     move-result v0
@@ -73,7 +72,6 @@
 
     iget-object v0, p0, Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;->a:Lcom/google/android/material/chip/ChipGroup;
 
-    # getter for: Lcom/google/android/material/chip/ChipGroup;->selectionRequired:Z
     invoke-static {v0}, Lcom/google/android/material/chip/ChipGroup;->access$400(Lcom/google/android/material/chip/ChipGroup;)Z
 
     move-result v0
@@ -89,7 +87,6 @@
 
     const/4 v2, 0x1
 
-    # invokes: Lcom/google/android/material/chip/ChipGroup;->setCheckedStateForView(IZ)V
     invoke-static {p2, v0, v2}, Lcom/google/android/material/chip/ChipGroup;->access$500(Lcom/google/android/material/chip/ChipGroup;IZ)V
 
     .line 5
@@ -99,7 +96,6 @@
 
     move-result p1
 
-    # invokes: Lcom/google/android/material/chip/ChipGroup;->setCheckedId(IZ)V
     invoke-static {p2, p1, v1}, Lcom/google/android/material/chip/ChipGroup;->access$600(Lcom/google/android/material/chip/ChipGroup;IZ)V
 
     return-void
@@ -117,7 +113,6 @@
     .line 7
     iget-object p2, p0, Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;->a:Lcom/google/android/material/chip/ChipGroup;
 
-    # getter for: Lcom/google/android/material/chip/ChipGroup;->checkedId:I
     invoke-static {p2}, Lcom/google/android/material/chip/ChipGroup;->access$700(Lcom/google/android/material/chip/ChipGroup;)I
 
     move-result p2
@@ -126,7 +121,6 @@
 
     iget-object p2, p0, Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;->a:Lcom/google/android/material/chip/ChipGroup;
 
-    # getter for: Lcom/google/android/material/chip/ChipGroup;->checkedId:I
     invoke-static {p2}, Lcom/google/android/material/chip/ChipGroup;->access$700(Lcom/google/android/material/chip/ChipGroup;)I
 
     move-result p2
@@ -135,7 +129,6 @@
 
     iget-object p2, p0, Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;->a:Lcom/google/android/material/chip/ChipGroup;
 
-    # getter for: Lcom/google/android/material/chip/ChipGroup;->singleSelection:Z
     invoke-static {p2}, Lcom/google/android/material/chip/ChipGroup;->access$800(Lcom/google/android/material/chip/ChipGroup;)Z
 
     move-result p2
@@ -145,19 +138,16 @@
     .line 8
     iget-object p2, p0, Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;->a:Lcom/google/android/material/chip/ChipGroup;
 
-    # getter for: Lcom/google/android/material/chip/ChipGroup;->checkedId:I
     invoke-static {p2}, Lcom/google/android/material/chip/ChipGroup;->access$700(Lcom/google/android/material/chip/ChipGroup;)I
 
     move-result v0
 
-    # invokes: Lcom/google/android/material/chip/ChipGroup;->setCheckedStateForView(IZ)V
     invoke-static {p2, v0, v1}, Lcom/google/android/material/chip/ChipGroup;->access$500(Lcom/google/android/material/chip/ChipGroup;IZ)V
 
     .line 9
     :cond_5a
     iget-object p2, p0, Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;->a:Lcom/google/android/material/chip/ChipGroup;
 
-    # invokes: Lcom/google/android/material/chip/ChipGroup;->setCheckedId(I)V
     invoke-static {p2, p1}, Lcom/google/android/material/chip/ChipGroup;->access$900(Lcom/google/android/material/chip/ChipGroup;I)V
 
     goto :goto_6d
@@ -166,7 +156,6 @@
     :cond_60
     iget-object p2, p0, Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;->a:Lcom/google/android/material/chip/ChipGroup;
 
-    # getter for: Lcom/google/android/material/chip/ChipGroup;->checkedId:I
     invoke-static {p2}, Lcom/google/android/material/chip/ChipGroup;->access$700(Lcom/google/android/material/chip/ChipGroup;)I
 
     move-result p2
@@ -176,7 +165,6 @@
     .line 11
     iget-object p1, p0, Lcom/google/android/material/chip/ChipGroup$CheckedStateTracker;->a:Lcom/google/android/material/chip/ChipGroup;
 
-    # invokes: Lcom/google/android/material/chip/ChipGroup;->setCheckedId(I)V
     invoke-static {p1, v0}, Lcom/google/android/material/chip/ChipGroup;->access$900(Lcom/google/android/material/chip/ChipGroup;I)V
 
     :cond_6d

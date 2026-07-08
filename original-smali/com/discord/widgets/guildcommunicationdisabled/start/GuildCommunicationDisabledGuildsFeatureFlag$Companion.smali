@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/widgets/guildcommunicationdisabled/start/GuildCommunicationDisabledGuildsFeatureFlag;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/guildcommunicationdisabled/start/GuildCommunicationDisabledGuildsFeatureFlag;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/guildcommunicationdisabled/start/GuildCommunicationDisabledGuildsFeatureFlag;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

@@ -903,7 +903,6 @@
     move-result-object v1
 
     .line 5
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/AutocompleteViewModel$Companion;->observeStores(Ljava/lang/Long;Lcom/discord/stores/StoreApplicationCommands;Lcom/discord/stores/StoreApplicationCommandFrecency;)Lrx/Observable;
     invoke-static {v0, v3, v2, v1}, Lcom/discord/widgets/chat/input/autocomplete/AutocompleteViewModel$Companion;->access$observeStores(Lcom/discord/widgets/chat/input/autocomplete/AutocompleteViewModel$Companion;Ljava/lang/Long;Lcom/discord/stores/StoreApplicationCommands;Lcom/discord/stores/StoreApplicationCommandFrecency;)Lrx/Observable;
 
     move-result-object v0

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/leave/WidgetLeaveGuildDialog$onResume$4;->this$0:Lcom/discord/widgets/guilds/leave/WidgetLeaveGuildDialog;
 
-    # invokes: Lcom/discord/widgets/guilds/leave/WidgetLeaveGuildDialog;->handleEvent(Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/leave/WidgetLeaveGuildDialog;->access$handleEvent(Lcom/discord/widgets/guilds/leave/WidgetLeaveGuildDialog;Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel$Event;)V
 
     return-void

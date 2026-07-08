@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->handleAsyncData(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$GiftAndPromoData;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->access$handleAsyncData(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$GiftAndPromoData;)V
 
     return-void

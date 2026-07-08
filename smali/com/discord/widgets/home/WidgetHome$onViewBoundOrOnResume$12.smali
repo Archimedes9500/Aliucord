@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/home/WidgetHome$onViewBoundOrOnResume$12;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->showInteractionModal(Lcom/discord/api/interaction/InteractionModalCreate;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/home/WidgetHome;->access$showInteractionModal(Lcom/discord/widgets/home/WidgetHome;Lcom/discord/api/interaction/InteractionModalCreate;)V
 
     return-void

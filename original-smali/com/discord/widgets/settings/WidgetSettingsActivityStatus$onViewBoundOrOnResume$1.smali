@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsActivityStatus$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsActivityStatus;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsActivityStatus;->configureUI(Z)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/WidgetSettingsActivityStatus;->access$configureUI(Lcom/discord/widgets/settings/WidgetSettingsActivityStatus;Z)V
 
     return-void

@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray$handleEvent$pickerSheet$1;->this$0:Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;
 
-    # invokes: Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->getFlexInputViewModel()Lcom/discord/widgets/chat/input/AppFlexInputViewModel;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->access$getFlexInputViewModel$p(Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;)Lcom/discord/widgets/chat/input/AppFlexInputViewModel;
 
     move-result-object v0

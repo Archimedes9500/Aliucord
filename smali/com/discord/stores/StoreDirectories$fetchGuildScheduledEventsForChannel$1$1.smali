@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreDirectories$fetchGuildScheduledEventsForChannel$1;->this$0:Lcom/discord/stores/StoreDirectories;
 
-    # getter for: Lcom/discord/stores/StoreDirectories;->directoryGuildScheduledEventsMap:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreDirectories;->access$getDirectoryGuildScheduledEventsMap$p(Lcom/discord/stores/StoreDirectories;)Ljava/util/Map;
 
     move-result-object v0
@@ -215,7 +214,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreDirectories$fetchGuildScheduledEventsForChannel$1;->this$0:Lcom/discord/stores/StoreDirectories;
 
-    # getter for: Lcom/discord/stores/StoreDirectories;->guildScheduledEventsStore:Lcom/discord/stores/StoreGuildScheduledEvents;
     invoke-static {v0}, Lcom/discord/stores/StoreDirectories;->access$getGuildScheduledEventsStore$p(Lcom/discord/stores/StoreDirectories;)Lcom/discord/stores/StoreGuildScheduledEvents;
 
     move-result-object v0

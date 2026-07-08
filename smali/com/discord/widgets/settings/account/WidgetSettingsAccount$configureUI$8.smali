@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/account/WidgetSettingsAccount$configureUI$8;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccount;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->showRemove2FAModal()V
     invoke-static {p1}, Lcom/discord/widgets/settings/account/WidgetSettingsAccount;->access$showRemove2FAModal(Lcom/discord/widgets/settings/account/WidgetSettingsAccount;)V
 
     return-void

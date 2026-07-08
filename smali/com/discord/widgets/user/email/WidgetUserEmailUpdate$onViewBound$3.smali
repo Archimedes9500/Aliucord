@@ -76,7 +76,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/user/email/WidgetUserEmailUpdate$onViewBound$3;->this$0:Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;
 
-    # invokes: Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;->getBinding()Lcom/discord/databinding/WidgetUserEmailUpdateBinding;
     invoke-static {v1}, Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;->access$getBinding$p(Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;)Lcom/discord/databinding/WidgetUserEmailUpdateBinding;
 
     move-result-object v1
@@ -94,7 +93,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/widgets/user/email/WidgetUserEmailUpdate$onViewBound$3;->this$0:Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;
 
-    # invokes: Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;->getBinding()Lcom/discord/databinding/WidgetUserEmailUpdateBinding;
     invoke-static {v2}, Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;->access$getBinding$p(Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;)Lcom/discord/databinding/WidgetUserEmailUpdateBinding;
 
     move-result-object v2
@@ -133,7 +131,6 @@
     .line 8
     iget-object p1, p0, Lcom/discord/widgets/user/email/WidgetUserEmailUpdate$onViewBound$3;->this$0:Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;
 
-    # invokes: Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;->getBinding()Lcom/discord/databinding/WidgetUserEmailUpdateBinding;
     invoke-static {p1}, Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;->access$getBinding$p(Lcom/discord/widgets/user/email/WidgetUserEmailUpdate;)Lcom/discord/databinding/WidgetUserEmailUpdateBinding;
 
     move-result-object p1

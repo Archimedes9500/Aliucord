@@ -145,7 +145,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetViewModel;->ISSUES_UI_OPTIONS:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetViewModel;->access$getISSUES_UI_OPTIONS$cp()Ljava/util/List;
 
     move-result-object v0
@@ -166,7 +165,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetViewModel;->REASON_CODES:Ljava/util/Map;
     invoke-static {}, Lcom/discord/widgets/voice/feedback/call/CallFeedbackSheetViewModel;->access$getREASON_CODES$cp()Ljava/util/Map;
 
     move-result-object v0

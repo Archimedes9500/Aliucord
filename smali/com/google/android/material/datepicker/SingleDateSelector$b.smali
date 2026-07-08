@@ -65,7 +65,6 @@
 
     check-cast p1, Ljava/lang/Long;
 
-    # setter for: Lcom/google/android/material/datepicker/SingleDateSelector;->selectedItem:Ljava/lang/Long;
     invoke-static {v0, p1}, Lcom/google/android/material/datepicker/SingleDateSelector;->access$102(Lcom/google/android/material/datepicker/SingleDateSelector;Ljava/lang/Long;)Ljava/lang/Long;
 
     return-object v0

@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/memberlist/adapter/ChannelMembersListAdapter$onBindViewHolder$3;->this$0:Lcom/discord/widgets/channels/memberlist/adapter/ChannelMembersListAdapter;
 
-    # getter for: Lcom/discord/widgets/channels/memberlist/adapter/ChannelMembersListAdapter;->onJoinLeaveThreadClicked:Lkotlin/jvm/functions/Function0;
     invoke-static {v0}, Lcom/discord/widgets/channels/memberlist/adapter/ChannelMembersListAdapter;->access$getOnJoinLeaveThreadClicked$p(Lcom/discord/widgets/channels/memberlist/adapter/ChannelMembersListAdapter;)Lkotlin/jvm/functions/Function0;
 
     move-result-object v0

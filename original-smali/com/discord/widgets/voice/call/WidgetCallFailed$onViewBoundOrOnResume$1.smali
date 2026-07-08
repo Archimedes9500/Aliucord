@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/voice/call/WidgetCallFailed$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/voice/call/WidgetCallFailed;
 
-    # invokes: Lcom/discord/widgets/voice/call/WidgetCallFailed;->configureUI(Lcom/discord/models/user/User;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/call/WidgetCallFailed;->access$configureUI(Lcom/discord/widgets/voice/call/WidgetCallFailed;Lcom/discord/models/user/User;)V
 
     return-void

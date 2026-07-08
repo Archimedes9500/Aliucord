@@ -106,7 +106,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsEmptyGuildRoleSubscriptionsViewModel$1;->this$0:Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsEmptyGuildRoleSubscriptionsViewModel;
 
-    # invokes: Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsEmptyGuildRoleSubscriptionsViewModel;->handleMonetizationStatus(Ljava/util/List;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsEmptyGuildRoleSubscriptionsViewModel;->access$handleMonetizationStatus(Lcom/discord/widgets/servers/guild_role_subscription/ServerSettingsEmptyGuildRoleSubscriptionsViewModel;Ljava/util/List;)V
 
     return-void

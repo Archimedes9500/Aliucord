@@ -58,7 +58,6 @@
     .line 2
     iget-object v0, p0, Lcom/google/android/material/datepicker/MaterialCalendar$i;->k:Lcom/google/android/material/datepicker/MaterialCalendar;
 
-    # getter for: Lcom/google/android/material/datepicker/MaterialCalendar;->recyclerView:Landroidx/recyclerview/widget/RecyclerView;
     invoke-static {v0}, Lcom/google/android/material/datepicker/MaterialCalendar;->access$000(Lcom/google/android/material/datepicker/MaterialCalendar;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object v0

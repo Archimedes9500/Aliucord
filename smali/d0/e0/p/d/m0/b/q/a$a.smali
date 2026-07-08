@@ -30,7 +30,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/b/q/a;->f:Ld0/e0/p/d/m0/g/e;
     invoke-static {}, Ld0/e0/p/d/m0/b/q/a;->access$getCLONE_NAME$cp()Ld0/e0/p/d/m0/g/e;
 
     move-result-object v0

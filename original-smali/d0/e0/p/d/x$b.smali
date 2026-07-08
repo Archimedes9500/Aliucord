@@ -55,7 +55,6 @@
 
     move-result-object v1
 
-    # invokes: Ld0/e0/p/d/x;->a(Ld0/e0/p/d/m0/n/c0;)Ld0/e0/d;
     invoke-static {v0, v1}, Ld0/e0/p/d/x;->access$convert(Ld0/e0/p/d/x;Ld0/e0/p/d/m0/n/c0;)Ld0/e0/d;
 
     move-result-object v0

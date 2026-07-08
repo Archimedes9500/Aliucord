@@ -441,7 +441,6 @@
     .line 3
     sget-object v2, Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag;->Companion:Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag$Companion;
 
-    # invokes: Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag$Companion;->isCreatorMonetizable(Lcom/discord/models/guild/Guild;)Z
     invoke-static {v2, v0}, Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag$Companion;->access$isCreatorMonetizable$p(Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag$Companion;Lcom/discord/models/guild/Guild;)Z
 
     move-result v2
@@ -532,7 +531,6 @@
 
     sget-object v1, Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag;->Companion:Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag$Companion;
 
-    # invokes: Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag$Companion;->isCreatorMonetizable(Lcom/discord/models/guild/Guild;)Z
     invoke-static {v1, p1}, Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag$Companion;->access$isCreatorMonetizable$p(Lcom/discord/widgets/guild_role_subscriptions/GuildRoleSubscriptionsFeatureFlag$Companion;Lcom/discord/models/guild/Guild;)Z
 
     move-result p1

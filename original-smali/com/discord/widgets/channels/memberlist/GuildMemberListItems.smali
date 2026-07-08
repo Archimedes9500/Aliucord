@@ -363,12 +363,10 @@
 
     .line 2
     :cond_b
-    # getter for: Lcom/discord/widgets/channels/memberlist/GuildMemberListItemGeneratorKt;->PLACEHOLDER_INSTANCES:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/channels/memberlist/GuildMemberListItemGeneratorKt;->access$getPLACEHOLDER_INSTANCES$p()Ljava/util/List;
 
     move-result-object v0
 
-    # getter for: Lcom/discord/widgets/channels/memberlist/GuildMemberListItemGeneratorKt;->PLACEHOLDER_INSTANCES:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/channels/memberlist/GuildMemberListItemGeneratorKt;->access$getPLACEHOLDER_INSTANCES$p()Ljava/util/List;
 
     move-result-object v1

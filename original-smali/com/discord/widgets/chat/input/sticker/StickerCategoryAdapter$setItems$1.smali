@@ -155,7 +155,6 @@
     .line 6
     iget-object p1, p0, Lcom/discord/widgets/chat/input/sticker/StickerCategoryAdapter$setItems$1;->this$0:Lcom/discord/widgets/chat/input/sticker/StickerCategoryAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/input/sticker/StickerCategoryAdapter;->onSelectedItemAdapterPositionUpdated:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/sticker/StickerCategoryAdapter;->access$getOnSelectedItemAdapterPositionUpdated$p(Lcom/discord/widgets/chat/input/sticker/StickerCategoryAdapter;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

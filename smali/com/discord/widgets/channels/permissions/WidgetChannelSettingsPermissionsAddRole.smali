@@ -63,14 +63,12 @@
     if-eqz p1, :cond_29
 
     .line 1
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;->canManage:Z
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;->access$000(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;)Z
 
     move-result v0
 
     if-eqz v0, :cond_29
 
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;->roleItems:Ljava/util/List;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;->access$100(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;)Ljava/util/List;
 
     move-result-object v0
@@ -85,7 +83,6 @@
 
     .line 2
     :cond_13
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;->channel:Lcom/discord/api/channel/Channel;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;->access$200(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;)Lcom/discord/api/channel/Channel;
 
     move-result-object v0
@@ -95,7 +92,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole;->rolesAdapter:Lcom/discord/widgets/channels/SimpleRolesAdapter;
 
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;->roleItems:Ljava/util/List;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;->access$100(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddRole$Model;)Ljava/util/List;
 
     move-result-object v1

@@ -86,7 +86,6 @@
     :try_start_f
     iget-object p1, p0, Lcom/discord/widgets/chat/input/sticker/StickerViewHolder$configureSticker$1;->this$0:Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;
 
-    # getter for: Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;->binding:Lcom/discord/databinding/StickerPickerStickerItemBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;->access$getBinding$p(Lcom/discord/widgets/chat/input/sticker/StickerViewHolder;)Lcom/discord/databinding/StickerPickerStickerItemBinding;
 
     move-result-object p1

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleMessagesLoaded(Lcom/discord/stores/StoreMessagesLoader$ChannelChunk;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleMessagesLoaded(Lcom/discord/stores/StoreStream;Lcom/discord/stores/StoreMessagesLoader$ChannelChunk;)V
 
     return-void

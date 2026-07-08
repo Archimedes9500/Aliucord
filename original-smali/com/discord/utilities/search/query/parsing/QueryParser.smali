@@ -95,7 +95,6 @@
     .line 2
     sget-object v0, Lcom/discord/utilities/search/query/parsing/QueryParser;->Companion:Lcom/discord/utilities/search/query/parsing/QueryParser$Companion;
 
-    # invokes: Lcom/discord/utilities/search/query/parsing/QueryParser$Companion;->getUserRule()Lcom/discord/simpleast/core/parser/Rule;
     invoke-static {v0}, Lcom/discord/utilities/search/query/parsing/QueryParser$Companion;->access$getUserRule(Lcom/discord/utilities/search/query/parsing/QueryParser$Companion;)Lcom/discord/simpleast/core/parser/Rule;
 
     move-result-object v1
@@ -109,7 +108,6 @@
 
     move-result-object v2
 
-    # invokes: Lcom/discord/utilities/search/query/parsing/QueryParser$Companion;->getFromFilterRule(Ljava/lang/CharSequence;)Lcom/discord/simpleast/core/parser/Rule;
     invoke-static {v0, v2}, Lcom/discord/utilities/search/query/parsing/QueryParser$Companion;->access$getFromFilterRule(Lcom/discord/utilities/search/query/parsing/QueryParser$Companion;Ljava/lang/CharSequence;)Lcom/discord/simpleast/core/parser/Rule;
 
     move-result-object v2
@@ -176,7 +174,6 @@
     move-result-object p1
 
     .line 9
-    # invokes: Lcom/discord/utilities/search/query/parsing/QueryParser$Companion;->getContentRule()Lcom/discord/simpleast/core/parser/Rule;
     invoke-static {v0}, Lcom/discord/utilities/search/query/parsing/QueryParser$Companion;->access$getContentRule(Lcom/discord/utilities/search/query/parsing/QueryParser$Companion;)Lcom/discord/simpleast/core/parser/Rule;
 
     move-result-object v0

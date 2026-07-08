@@ -59,7 +59,6 @@
 
     iget-object v0, p0, Lorg/webrtc/EglRenderer$EglSurfaceCreation;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->eglBase:Lorg/webrtc/EglBase;
     invoke-static {v0}, Lorg/webrtc/EglRenderer;->access$000(Lorg/webrtc/EglRenderer;)Lorg/webrtc/EglBase;
 
     move-result-object v0
@@ -68,7 +67,6 @@
 
     iget-object v0, p0, Lorg/webrtc/EglRenderer$EglSurfaceCreation;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->eglBase:Lorg/webrtc/EglBase;
     invoke-static {v0}, Lorg/webrtc/EglRenderer;->access$000(Lorg/webrtc/EglRenderer;)Lorg/webrtc/EglBase;
 
     move-result-object v0
@@ -89,7 +87,6 @@
     .line 3
     iget-object v0, p0, Lorg/webrtc/EglRenderer$EglSurfaceCreation;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->eglBase:Lorg/webrtc/EglBase;
     invoke-static {v0}, Lorg/webrtc/EglRenderer;->access$000(Lorg/webrtc/EglRenderer;)Lorg/webrtc/EglBase;
 
     move-result-object v0
@@ -111,7 +108,6 @@
     .line 5
     iget-object v0, p0, Lorg/webrtc/EglRenderer$EglSurfaceCreation;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->eglBase:Lorg/webrtc/EglBase;
     invoke-static {v0}, Lorg/webrtc/EglRenderer;->access$000(Lorg/webrtc/EglRenderer;)Lorg/webrtc/EglBase;
 
     move-result-object v0
@@ -126,7 +122,6 @@
     :goto_3e
     iget-object v0, p0, Lorg/webrtc/EglRenderer$EglSurfaceCreation;->this$0:Lorg/webrtc/EglRenderer;
 
-    # getter for: Lorg/webrtc/EglRenderer;->eglBase:Lorg/webrtc/EglBase;
     invoke-static {v0}, Lorg/webrtc/EglRenderer;->access$000(Lorg/webrtc/EglRenderer;)Lorg/webrtc/EglBase;
 
     move-result-object v0

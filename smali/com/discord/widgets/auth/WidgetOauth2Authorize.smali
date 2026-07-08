@@ -1219,7 +1219,6 @@
     .line 1
     sget-object v0, Lcom/discord/widgets/auth/WidgetOauth2Authorize;->Companion:Lcom/discord/widgets/auth/WidgetOauth2Authorize$Companion;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2Authorize$Companion;->createOauthAuthorize(Landroid/net/Uri;)Lcom/discord/widgets/auth/WidgetOauth2Authorize$OAuth2Authorize;
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetOauth2Authorize$Companion;->access$createOauthAuthorize(Lcom/discord/widgets/auth/WidgetOauth2Authorize$Companion;Landroid/net/Uri;)Lcom/discord/widgets/auth/WidgetOauth2Authorize$OAuth2Authorize;
 
     move-result-object p1
@@ -1518,7 +1517,6 @@
 
     invoke-direct {v2, p0}, Lcom/discord/widgets/auth/WidgetOauth2Authorize$onViewBound$1;-><init>(Lcom/discord/widgets/auth/WidgetOauth2Authorize;)V
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2Authorize$Companion;->handleError(Landroid/content/Context;Ljava/lang/Exception;Lkotlin/jvm/functions/Function0;)V
     invoke-static {v0, v1, p1, v2}, Lcom/discord/widgets/auth/WidgetOauth2Authorize$Companion;->access$handleError(Lcom/discord/widgets/auth/WidgetOauth2Authorize$Companion;Landroid/content/Context;Ljava/lang/Exception;Lkotlin/jvm/functions/Function0;)V
 
     return-void

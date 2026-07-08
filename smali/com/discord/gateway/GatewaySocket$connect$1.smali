@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$connect$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->connectionState:I
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getConnectionState$p(Lcom/discord/gateway/GatewaySocket;)I
 
     move-result v0
@@ -102,7 +101,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$connect$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->discover()V
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$discover(Lcom/discord/gateway/GatewaySocket;)V
 
     :cond_13

@@ -134,7 +134,6 @@
     :cond_f
     iget-object p1, p0, Lcom/discord/utilities/rest/RestAPI$addGroupRecipients$2;->this$0:Lcom/discord/utilities/rest/RestAPI;
 
-    # getter for: Lcom/discord/utilities/rest/RestAPI;->_api:Lcom/discord/restapi/RestAPIInterface;
     invoke-static {p1}, Lcom/discord/utilities/rest/RestAPI;->access$get_api$p(Lcom/discord/utilities/rest/RestAPI;)Lcom/discord/restapi/RestAPIInterface;
 
     move-result-object p1

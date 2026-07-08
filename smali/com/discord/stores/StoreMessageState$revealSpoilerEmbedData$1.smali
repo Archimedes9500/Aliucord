@@ -103,7 +103,6 @@
 
     invoke-direct {v3, p0}, Lcom/discord/stores/StoreMessageState$revealSpoilerEmbedData$1$1;-><init>(Lcom/discord/stores/StoreMessageState$revealSpoilerEmbedData$1;)V
 
-    # invokes: Lcom/discord/stores/StoreMessageState;->updateState(JLkotlin/jvm/functions/Function1;)V
     invoke-static {v0, v1, v2, v3}, Lcom/discord/stores/StoreMessageState;->access$updateState(Lcom/discord/stores/StoreMessageState;JLkotlin/jvm/functions/Function1;)V
 
     return-void

@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel$saveThread$2;->this$0:Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;->access$getEventSubject$p(Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

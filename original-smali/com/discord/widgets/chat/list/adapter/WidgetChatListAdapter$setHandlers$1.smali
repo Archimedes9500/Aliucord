@@ -122,7 +122,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$setHandlers$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->lastUpdateJob:Lkotlinx/coroutines/Job;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->access$getLastUpdateJob$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;)Lkotlinx/coroutines/Job;
 
     move-result-object p1
@@ -177,7 +176,6 @@
 
     iget-object p2, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$setHandlers$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->handlerOfTouches:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfTouches;
     invoke-static {p2}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->access$getHandlerOfTouches$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;)Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfTouches;
 
     move-result-object p2
@@ -193,7 +191,6 @@
 
     iget-object p2, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$setHandlers$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->handlerOfScrolls:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfScrolls;
     invoke-static {p2}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->access$getHandlerOfScrolls$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;)Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfScrolls;
 
     move-result-object p2
@@ -209,7 +206,6 @@
 
     iget-object p2, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$setHandlers$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->handlerOfScrolls:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfScrolls;
     invoke-static {p2}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;->access$getHandlerOfScrolls$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter;)Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapter$HandlerOfScrolls;
 
     move-result-object p2

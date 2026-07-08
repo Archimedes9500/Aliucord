@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/AttributionHandler$6;->this$0:Lcom/adjust/sdk/AttributionHandler;
 
-    # invokes: Lcom/adjust/sdk/AttributionHandler;->sendAttributionRequestI()V
     invoke-static {v0}, Lcom/adjust/sdk/AttributionHandler;->access$700(Lcom/adjust/sdk/AttributionHandler;)V
 
     return-void

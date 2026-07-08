@@ -96,7 +96,6 @@
 
     const/4 v0, 0x1
 
-    # invokes: Lcom/discord/stores/StoreAuthentication;->setConsentRequired(Z)V
     invoke-static {p1, v0}, Lcom/discord/stores/StoreAuthentication;->access$setConsentRequired$p(Lcom/discord/stores/StoreAuthentication;Z)V
 
     return-void

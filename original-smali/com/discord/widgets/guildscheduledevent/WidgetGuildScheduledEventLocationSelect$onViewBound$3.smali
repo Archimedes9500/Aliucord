@@ -68,7 +68,6 @@
     .line 1
     iget-object v1, v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect$onViewBound$3;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;
 
-    # getter for: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;->currentViewState:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelectViewModel$ViewState$Valid;
     invoke-static {v1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;->access$getCurrentViewState$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;)Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelectViewModel$ViewState$Valid;
 
     move-result-object v1
@@ -102,7 +101,6 @@
     iget-object v5, v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect$onViewBound$3;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;
 
     .line 5
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;->getGuildId()J
     invoke-static {v5}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;->access$getGuildId$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;)J
 
     move-result-wide v6
@@ -139,7 +137,6 @@
     iget-object v15, v0, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect$onViewBound$3;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;
 
     .line 10
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;->getGuildId()J
     invoke-static {v15}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;->access$getGuildId$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventLocationSelect;)J
 
     move-result-wide v16

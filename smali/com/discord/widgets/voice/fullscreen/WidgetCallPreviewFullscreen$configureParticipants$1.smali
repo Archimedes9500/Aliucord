@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;
 
     .line 2
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->onStreamPreviewClicked(Lcom/discord/utilities/streams/StreamContext;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->access$onStreamPreviewClicked(Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;Lcom/discord/utilities/streams/StreamContext;)V
 
     return-void

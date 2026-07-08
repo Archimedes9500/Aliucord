@@ -76,7 +76,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/l/b/e0/h$c$f;->this$0:Ld0/e0/p/d/m0/l/b/e0/h$c;
 
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/h$c;->c:Ljava/util/Map;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/e0/h$c;->access$getPropertyProtosBytes$p(Ld0/e0/p/d/m0/l/b/e0/h$c;)Ljava/util/Map;
 
     move-result-object v0

@@ -96,7 +96,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lcom/discord/widgets/home/WidgetHomePanelLoading;->setLoadingPanelVisibility(ZZ)V
     invoke-static {v0, p1, v1}, Lcom/discord/widgets/home/WidgetHomePanelLoading;->access$setLoadingPanelVisibility(Lcom/discord/widgets/home/WidgetHomePanelLoading;ZZ)V
 
     return-void

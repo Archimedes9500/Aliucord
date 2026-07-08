@@ -83,7 +83,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity$configureAvatar$2;->this$0:Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->navigateToUpsellModal()V
     invoke-static {p1}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$navigateToUpsellModal(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;)V
 
     goto :goto_28

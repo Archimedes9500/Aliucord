@@ -76,7 +76,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->isExpressionTrayActiveSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {}, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->access$isExpressionTrayActiveSubject$cp()Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

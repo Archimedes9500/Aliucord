@@ -116,14 +116,12 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsAddById;->setInputEditError(Ljava/lang/CharSequence;)V
     invoke-static {v0, v2}, Lcom/discord/widgets/friends/WidgetFriendsAddById;->access$setInputEditError(Lcom/discord/widgets/friends/WidgetFriendsAddById;Ljava/lang/CharSequence;)V
 
     .line 4
     :cond_17
     iget-object v0, p0, Lcom/discord/widgets/friends/WidgetFriendsAddById$onViewBound$2;->this$0:Lcom/discord/widgets/friends/WidgetFriendsAddById;
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsAddById;->getBinding()Lcom/discord/databinding/WidgetFriendsAddByIdBinding;
     invoke-static {v0}, Lcom/discord/widgets/friends/WidgetFriendsAddById;->access$getBinding$p(Lcom/discord/widgets/friends/WidgetFriendsAddById;)Lcom/discord/databinding/WidgetFriendsAddByIdBinding;
 
     move-result-object v0

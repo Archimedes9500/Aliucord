@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/WidgetUserSetCustomStatus;
 
     .line 2
-    # invokes: Lcom/discord/widgets/user/WidgetUserSetCustomStatus;->updateView(Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/WidgetUserSetCustomStatus;->access$updateView(Lcom/discord/widgets/user/WidgetUserSetCustomStatus;Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$ViewState;)V
 
     return-void

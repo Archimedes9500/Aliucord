@@ -66,7 +66,6 @@
     check-cast v2, Ljava/lang/Long;
 
     .line 3
-    # setter for: Lcom/google/android/material/datepicker/RangeDateSelector;->selectedStartItem:Ljava/lang/Long;
     invoke-static {v1, v2}, Lcom/google/android/material/datepicker/RangeDateSelector;->access$302(Lcom/google/android/material/datepicker/RangeDateSelector;Ljava/lang/Long;)Ljava/lang/Long;
 
     .line 4
@@ -80,7 +79,6 @@
 
     check-cast p1, Ljava/lang/Long;
 
-    # setter for: Lcom/google/android/material/datepicker/RangeDateSelector;->selectedEndItem:Ljava/lang/Long;
     invoke-static {v1, p1}, Lcom/google/android/material/datepicker/RangeDateSelector;->access$402(Lcom/google/android/material/datepicker/RangeDateSelector;Ljava/lang/Long;)Ljava/lang/Long;
 
     return-object v1

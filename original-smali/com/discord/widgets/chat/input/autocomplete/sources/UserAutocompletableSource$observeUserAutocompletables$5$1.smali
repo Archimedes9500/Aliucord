@@ -156,7 +156,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/sources/UserAutocompletableSource;->createAutocompletablesForDmUsers(Ljava/util/Map;Ljava/util/Map;Ljava/util/List;)Ljava/util/Map;
     invoke-static {v0, p1, p2, v1}, Lcom/discord/widgets/chat/input/autocomplete/sources/UserAutocompletableSource;->access$createAutocompletablesForDmUsers(Lcom/discord/widgets/chat/input/autocomplete/sources/UserAutocompletableSource;Ljava/util/Map;Ljava/util/Map;Ljava/util/List;)Ljava/util/Map;
 
     move-result-object p1

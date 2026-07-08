@@ -112,7 +112,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreEmojiGuild$fetchGuildEmoji$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreEmojiGuild;->handleGuildEmojisLoaded(JLjava/util/List;)V
     invoke-static {v0, v1, v2, p1}, Lcom/discord/stores/StoreEmojiGuild;->access$handleGuildEmojisLoaded(Lcom/discord/stores/StoreEmojiGuild;JLjava/util/List;)V
 
     return-void

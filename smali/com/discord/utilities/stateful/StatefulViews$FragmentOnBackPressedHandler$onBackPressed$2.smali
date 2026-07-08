@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/utilities/stateful/StatefulViews$FragmentOnBackPressedHandler$onBackPressed$2;->this$0:Lcom/discord/utilities/stateful/StatefulViews$FragmentOnBackPressedHandler;
 
-    # getter for: Lcom/discord/utilities/stateful/StatefulViews$FragmentOnBackPressedHandler;->discardConfirmed:Ljava/util/concurrent/atomic/AtomicBoolean;
     invoke-static {p1}, Lcom/discord/utilities/stateful/StatefulViews$FragmentOnBackPressedHandler;->access$getDiscardConfirmed$p(Lcom/discord/utilities/stateful/StatefulViews$FragmentOnBackPressedHandler;)Ljava/util/concurrent/atomic/AtomicBoolean;
 
     move-result-object p1

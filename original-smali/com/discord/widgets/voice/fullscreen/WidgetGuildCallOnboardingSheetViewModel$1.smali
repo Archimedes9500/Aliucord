@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheetViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheetViewModel;->handleStoreState(Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheetViewModel;Lcom/discord/widgets/voice/fullscreen/WidgetGuildCallOnboardingSheetViewModel$StoreState;)V
 
     return-void

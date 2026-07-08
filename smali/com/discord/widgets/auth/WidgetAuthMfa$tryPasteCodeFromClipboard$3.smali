@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthMfa$tryPasteCodeFromClipboard$3;->this$0:Lcom/discord/widgets/auth/WidgetAuthMfa;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthMfa;->getBinding()Lcom/discord/databinding/WidgetAuthMfaBinding;
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthMfa;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthMfa;)Lcom/discord/databinding/WidgetAuthMfaBinding;
 
     move-result-object v0
@@ -102,7 +101,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthMfa;->evaluateCode(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/auth/WidgetAuthMfa;->access$evaluateCode(Lcom/discord/widgets/auth/WidgetAuthMfa;Ljava/lang/String;)V
 
     return-void

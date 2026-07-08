@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guild_role_subscriptions/PriceTierPickerBottomSheetViewModel$1;->this$0:Lcom/discord/widgets/guild_role_subscriptions/PriceTierPickerBottomSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/guild_role_subscriptions/PriceTierPickerBottomSheetViewModel;->handleStoreState(Lcom/discord/widgets/guild_role_subscriptions/PriceTierPickerBottomSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guild_role_subscriptions/PriceTierPickerBottomSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/guild_role_subscriptions/PriceTierPickerBottomSheetViewModel;Lcom/discord/widgets/guild_role_subscriptions/PriceTierPickerBottomSheetViewModel$StoreState;)V
 
     return-void

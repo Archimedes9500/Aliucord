@@ -67,7 +67,6 @@
     sget-object v1, Ld0/k;->j:Ld0/k$a;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->getBinding()Lcom/discord/databinding/WidgetEmojiPickerBinding;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$getBinding$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)Lcom/discord/databinding/WidgetEmojiPickerBinding;
 
     move-result-object v0
@@ -106,7 +105,6 @@
     :goto_21
     iget-object v0, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$initializeInputButtons$3;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->onBackspacePressedListener:Lcom/discord/widgets/chat/input/OnBackspacePressedListener;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$getOnBackspacePressedListener$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)Lcom/discord/widgets/chat/input/OnBackspacePressedListener;
 
     move-result-object v0

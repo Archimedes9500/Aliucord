@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;->handleChannelFollowError(Lcom/discord/utilities/error/Error;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;->access$handleChannelFollowError(Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;Lcom/discord/utilities/error/Error;)V
 
     return-void

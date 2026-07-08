@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/servers/WidgetServerSettingsInstantInvitesActions;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsInstantInvitesActions;->handleInviteRevoked(Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsInstantInvitesActions;->access$handleInviteRevoked(Lcom/discord/widgets/servers/WidgetServerSettingsInstantInvitesActions;Lcom/discord/models/domain/ModelInvite;)V
 
     return-void

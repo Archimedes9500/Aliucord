@@ -114,7 +114,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/InviteSuggestionsManager$observeInviteSuggestions$1;->this$0:Lcom/discord/widgets/guilds/invite/InviteSuggestionsManager;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/InviteSuggestionsManager;->storeUsers:Lcom/discord/stores/StoreUser;
     invoke-static {v0}, Lcom/discord/widgets/guilds/invite/InviteSuggestionsManager;->access$getStoreUsers$p(Lcom/discord/widgets/guilds/invite/InviteSuggestionsManager;)Lcom/discord/stores/StoreUser;
 
     move-result-object v0
@@ -134,7 +133,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/guilds/invite/InviteSuggestionsManager$observeInviteSuggestions$1;->this$0:Lcom/discord/widgets/guilds/invite/InviteSuggestionsManager;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/InviteSuggestionsManager;->storeUserRelationships:Lcom/discord/stores/StoreUserRelationships;
     invoke-static {v1}, Lcom/discord/widgets/guilds/invite/InviteSuggestionsManager;->access$getStoreUserRelationships$p(Lcom/discord/widgets/guilds/invite/InviteSuggestionsManager;)Lcom/discord/stores/StoreUserRelationships;
 
     move-result-object v1

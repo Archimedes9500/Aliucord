@@ -375,7 +375,6 @@
     .line 4
     sget-object p4, Lcom/discord/widgets/user/WidgetUserStatusSheetViewModel;->Companion:Lcom/discord/widgets/user/WidgetUserStatusSheetViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserStatusSheetViewModel$Companion;->observeStoreState(Lcom/discord/stores/StoreUserPresence;)Lrx/Observable;
     invoke-static {p4, p2}, Lcom/discord/widgets/user/WidgetUserStatusSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/user/WidgetUserStatusSheetViewModel$Companion;Lcom/discord/stores/StoreUserPresence;)Lrx/Observable;
 
     move-result-object p4

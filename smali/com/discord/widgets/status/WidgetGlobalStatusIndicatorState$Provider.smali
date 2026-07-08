@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorState;->callIndicatorState:Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorState;
     invoke-static {}, Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorState;->access$getCallIndicatorState$cp()Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorState;
 
     move-result-object v0

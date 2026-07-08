@@ -164,7 +164,6 @@
     .line 8
     iget-object p1, p0, Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker$drainEventsQueue$2;->this$0:Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker;
 
-    # getter for: Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker;->eventsQueue:Ljava/util/concurrent/ConcurrentLinkedQueue;
     invoke-static {p1}, Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker;->access$getEventsQueue$p(Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker;)Ljava/util/concurrent/ConcurrentLinkedQueue;
 
     move-result-object p1

@@ -98,7 +98,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->authorizeForSamsung(Ljava/lang/String;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->access$authorizeForSamsung(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;Ljava/lang/String;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
 
     return-void

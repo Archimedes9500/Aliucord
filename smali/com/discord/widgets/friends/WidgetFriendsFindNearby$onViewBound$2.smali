@@ -95,7 +95,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/friends/WidgetFriendsFindNearby$onViewBound$2;->this$0:Lcom/discord/widgets/friends/WidgetFriendsFindNearby;
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsFindNearby;->acceptFriendRequest(J)V
     invoke-static {v0, p1, p2}, Lcom/discord/widgets/friends/WidgetFriendsFindNearby;->access$acceptFriendRequest(Lcom/discord/widgets/friends/WidgetFriendsFindNearby;J)V
 
     return-void

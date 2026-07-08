@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/directories/WidgetDirectoryChannel;->configureUi(Lcom/discord/widgets/directories/WidgetDirectoriesViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/directories/WidgetDirectoryChannel;->access$configureUi(Lcom/discord/widgets/directories/WidgetDirectoryChannel;Lcom/discord/widgets/directories/WidgetDirectoriesViewModel$ViewState;)V
 
     return-void

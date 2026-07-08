@@ -100,7 +100,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreAuditLog$fetchAuditLogs$2;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreAuditLog;->handleFetchSuccess(JLcom/discord/models/domain/ModelAuditLog;)V
     invoke-static {v0, v1, v2, p1}, Lcom/discord/stores/StoreAuditLog;->access$handleFetchSuccess(Lcom/discord/stores/StoreAuditLog;JLcom/discord/models/domain/ModelAuditLog;)V
 
     return-void

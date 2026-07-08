@@ -170,7 +170,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/stores/utilities/Batched$onNext$1;->this$0:Lcom/discord/stores/utilities/Batched;
 
-    # getter for: Lcom/discord/stores/utilities/Batched;->debounceDelayMs:J
     invoke-static {p1}, Lcom/discord/stores/utilities/Batched;->access$getDebounceDelayMs$p(Lcom/discord/stores/utilities/Batched;)J
 
     move-result-wide v3

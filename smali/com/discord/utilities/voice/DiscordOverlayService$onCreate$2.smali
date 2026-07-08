@@ -138,7 +138,6 @@
     :cond_2e
     iget-object p1, p0, Lcom/discord/utilities/voice/DiscordOverlayService$onCreate$2;->this$0:Lcom/discord/utilities/voice/DiscordOverlayService;
 
-    # invokes: Lcom/discord/overlay/OverlayService;->getOverlayManager()Lcom/discord/overlay/OverlayManager;
     invoke-static {p1}, Lcom/discord/utilities/voice/DiscordOverlayService;->access$getOverlayManager$p(Lcom/discord/utilities/voice/DiscordOverlayService;)Lcom/discord/overlay/OverlayManager;
 
     move-result-object p1

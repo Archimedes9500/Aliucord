@@ -116,7 +116,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/user/WidgetUserMentions$observeModel$1;->this$0:Lcom/discord/widgets/user/WidgetUserMentions;
 
-    # getter for: Lcom/discord/widgets/user/WidgetUserMentions;->mentionsLoader:Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader;
     invoke-static {v1}, Lcom/discord/widgets/user/WidgetUserMentions;->access$getMentionsLoader$p(Lcom/discord/widgets/user/WidgetUserMentions;)Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader;
 
     move-result-object v1
@@ -134,7 +133,6 @@
     .line 6
     iget-object v1, p0, Lcom/discord/widgets/user/WidgetUserMentions$observeModel$1;->this$0:Lcom/discord/widgets/user/WidgetUserMentions;
 
-    # getter for: Lcom/discord/widgets/user/WidgetUserMentions;->mentionsLoader:Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader;
     invoke-static {v1}, Lcom/discord/widgets/user/WidgetUserMentions;->access$getMentionsLoader$p(Lcom/discord/widgets/user/WidgetUserMentions;)Lcom/discord/widgets/user/WidgetUserMentions$Model$MessageLoader;
 
     move-result-object v1

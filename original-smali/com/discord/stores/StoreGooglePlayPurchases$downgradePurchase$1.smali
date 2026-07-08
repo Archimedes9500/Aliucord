@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGooglePlayPurchases$downgradePurchase$1;->this$0:Lcom/discord/stores/StoreGooglePlayPurchases;
 
-    # getter for: Lcom/discord/stores/StoreGooglePlayPurchases;->storeState:Lcom/discord/stores/StoreGooglePlayPurchases$State;
     invoke-static {v0}, Lcom/discord/stores/StoreGooglePlayPurchases;->access$getStoreState$p(Lcom/discord/stores/StoreGooglePlayPurchases;)Lcom/discord/stores/StoreGooglePlayPurchases$State;
 
     move-result-object v0
@@ -122,7 +121,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/stores/StoreGooglePlayPurchases;->doDowngrade(Lcom/discord/stores/PendingDowngrade;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreGooglePlayPurchases;->access$doDowngrade(Lcom/discord/stores/StoreGooglePlayPurchases;Lcom/discord/stores/PendingDowngrade;)V
 
     :cond_27

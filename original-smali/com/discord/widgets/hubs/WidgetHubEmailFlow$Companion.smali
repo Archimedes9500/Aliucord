@@ -69,7 +69,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->NAME:Ljava/lang/String;
     invoke-static {}, Lcom/discord/widgets/hubs/WidgetHubEmailFlow;->access$getNAME$cp()Ljava/lang/String;
 
     move-result-object v0

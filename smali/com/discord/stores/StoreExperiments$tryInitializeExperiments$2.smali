@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreExperiments$tryInitializeExperiments$2;->this$0:Lcom/discord/stores/StoreExperiments;
 
-    # getter for: Lcom/discord/stores/StoreExperiments;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreExperiments;->access$getDispatcher$p(Lcom/discord/stores/StoreExperiments;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

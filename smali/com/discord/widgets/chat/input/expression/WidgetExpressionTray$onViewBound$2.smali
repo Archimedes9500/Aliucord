@@ -68,7 +68,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray$onViewBound$2;->this$0:Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;
 
-    # getter for: Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->isAtInitialScrollPositionSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->access$isAtInitialScrollPositionSubject$p(Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1

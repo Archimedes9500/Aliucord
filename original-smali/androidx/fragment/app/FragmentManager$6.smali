@@ -66,7 +66,6 @@
     .line 2
     iget-object p1, p0, Landroidx/fragment/app/FragmentManager$6;->this$0:Landroidx/fragment/app/FragmentManager;
 
-    # getter for: Landroidx/fragment/app/FragmentManager;->mResults:Ljava/util/Map;
     invoke-static {p1}, Landroidx/fragment/app/FragmentManager;->access$000(Landroidx/fragment/app/FragmentManager;)Ljava/util/Map;
 
     move-result-object p1
@@ -109,7 +108,6 @@
     .line 7
     iget-object p1, p0, Landroidx/fragment/app/FragmentManager$6;->this$0:Landroidx/fragment/app/FragmentManager;
 
-    # getter for: Landroidx/fragment/app/FragmentManager;->mResultListeners:Ljava/util/Map;
     invoke-static {p1}, Landroidx/fragment/app/FragmentManager;->access$100(Landroidx/fragment/app/FragmentManager;)Ljava/util/Map;
 
     move-result-object p1

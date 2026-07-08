@@ -78,7 +78,6 @@
 
     const-string v2, ""
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->updateVanityUrl(JLjava/lang/String;)V
     invoke-static {p1, v0, v1, v2}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$updateVanityUrl(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;JLjava/lang/String;)V
 
     return-void

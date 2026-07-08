@@ -77,7 +77,6 @@
 
     new-array v2, v1, [Ld0/e0/p/d/m0/e/a/l0/e;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/l0/j;->a:Ld0/e0/p/d/m0/e/a/l0/e;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/l0/j;->access$getNULLABLE$p$s1730278749()Ld0/e0/p/d/m0/e/a/l0/e;
 
     move-result-object v3
@@ -95,14 +94,12 @@
 
     new-array v2, v2, [Ld0/e0/p/d/m0/e/a/l0/e;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/l0/j;->b:Ld0/e0/p/d/m0/e/a/l0/e;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/l0/j;->access$getNOT_PLATFORM$p$s1730278749()Ld0/e0/p/d/m0/e/a/l0/e;
 
     move-result-object v3
 
     aput-object v3, v2, v4
 
-    # getter for: Ld0/e0/p/d/m0/e/a/l0/j;->c:Ld0/e0/p/d/m0/e/a/l0/e;
     invoke-static {}, Ld0/e0/p/d/m0/e/a/l0/j;->access$getNOT_NULLABLE$p$s1730278749()Ld0/e0/p/d/m0/e/a/l0/e;
 
     move-result-object v3

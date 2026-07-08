@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/list/PublishActionDialog;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/list/PublishActionDialog;->handleEvent(Lcom/discord/widgets/chat/list/PublishActionDialogViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/list/PublishActionDialog;->access$handleEvent(Lcom/discord/widgets/chat/list/PublishActionDialog;Lcom/discord/widgets/chat/list/PublishActionDialogViewModel$Event;)V
 
     return-void

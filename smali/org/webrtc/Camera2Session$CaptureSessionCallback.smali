@@ -46,7 +46,6 @@
     iget-object v0, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
     .line 2
-    # getter for: Lorg/webrtc/Camera2Session;->cameraCharacteristics:Landroid/hardware/camera2/CameraCharacteristics;
     invoke-static {v0}, Lorg/webrtc/Camera2Session;->access$1500(Lorg/webrtc/Camera2Session;)Landroid/hardware/camera2/CameraCharacteristics;
 
     move-result-object v0
@@ -113,7 +112,6 @@
     .line 1
     iget-object v0, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->cameraCharacteristics:Landroid/hardware/camera2/CameraCharacteristics;
     invoke-static {v0}, Lorg/webrtc/Camera2Session;->access$1500(Lorg/webrtc/Camera2Session;)Landroid/hardware/camera2/CameraCharacteristics;
 
     move-result-object v0
@@ -182,7 +180,6 @@
     :cond_37
     iget-object v0, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->cameraCharacteristics:Landroid/hardware/camera2/CameraCharacteristics;
     invoke-static {v0}, Lorg/webrtc/Camera2Session;->access$1500(Lorg/webrtc/Camera2Session;)Landroid/hardware/camera2/CameraCharacteristics;
 
     move-result-object v0
@@ -242,13 +239,11 @@
     .line 1
     iget-object v0, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # invokes: Lorg/webrtc/Camera2Session;->checkIsOnCameraThread()V
     invoke-static {v0}, Lorg/webrtc/Camera2Session;->access$000(Lorg/webrtc/Camera2Session;)V
 
     .line 2
     iget-object v0, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->state:Lorg/webrtc/Camera2Session$SessionState;
     invoke-static {v0}, Lorg/webrtc/Camera2Session;->access$200(Lorg/webrtc/Camera2Session;)Lorg/webrtc/Camera2Session$SessionState;
 
     move-result-object v0
@@ -270,7 +265,6 @@
     :cond_17
     iget-object v0, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->firstFrameReported:Z
     invoke-static {v0}, Lorg/webrtc/Camera2Session;->access$1600(Lorg/webrtc/Camera2Session;)Z
 
     move-result v0
@@ -282,7 +276,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/webrtc/Camera2Session;->firstFrameReported:Z
     invoke-static {v0, v1}, Lorg/webrtc/Camera2Session;->access$1602(Lorg/webrtc/Camera2Session;Z)Z
 
     .line 6
@@ -295,7 +288,6 @@
 
     iget-object v3, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->constructionTimeNs:J
     invoke-static {v3}, Lorg/webrtc/Camera2Session;->access$1700(Lorg/webrtc/Camera2Session;)J
 
     move-result-wide v3
@@ -309,7 +301,6 @@
     long-to-int v1, v0
 
     .line 8
-    # getter for: Lorg/webrtc/Camera2Session;->camera2StartTimeMsHistogram:Lorg/webrtc/Histogram;
     invoke-static {}, Lorg/webrtc/Camera2Session;->access$1800()Lorg/webrtc/Histogram;
 
     move-result-object v0
@@ -330,7 +321,6 @@
     iget-object v2, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
     .line 11
-    # getter for: Lorg/webrtc/Camera2Session;->isCameraFrontFacing:Z
     invoke-static {v2}, Lorg/webrtc/Camera2Session;->access$1900(Lorg/webrtc/Camera2Session;)Z
 
     move-result v2
@@ -338,7 +328,6 @@
     iget-object v3, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
     .line 12
-    # getter for: Lorg/webrtc/Camera2Session;->cameraOrientation:I
     invoke-static {v3}, Lorg/webrtc/Camera2Session;->access$2000(Lorg/webrtc/Camera2Session;)I
 
     move-result v3
@@ -353,7 +342,6 @@
     iget-object v2, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
     .line 14
-    # invokes: Lorg/webrtc/Camera2Session;->getFrameOrientation()I
     invoke-static {v2}, Lorg/webrtc/Camera2Session;->access$2100(Lorg/webrtc/Camera2Session;)I
 
     move-result v2
@@ -367,7 +355,6 @@
     .line 15
     iget-object p1, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->events:Lorg/webrtc/CameraSession$Events;
     invoke-static {p1}, Lorg/webrtc/Camera2Session;->access$500(Lorg/webrtc/Camera2Session;)Lorg/webrtc/CameraSession$Events;
 
     move-result-object p1
@@ -398,7 +385,6 @@
     .line 1
     iget-object v0, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # invokes: Lorg/webrtc/Camera2Session;->checkIsOnCameraThread()V
     invoke-static {v0}, Lorg/webrtc/Camera2Session;->access$000(Lorg/webrtc/Camera2Session;)V
 
     .line 2
@@ -409,7 +395,6 @@
 
     const-string v0, "Failed to configure capture session."
 
-    # invokes: Lorg/webrtc/Camera2Session;->reportError(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lorg/webrtc/Camera2Session;->access$600(Lorg/webrtc/Camera2Session;Ljava/lang/String;)V
 
     return-void
@@ -421,7 +406,6 @@
     .line 1
     iget-object v0, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # invokes: Lorg/webrtc/Camera2Session;->checkIsOnCameraThread()V
     invoke-static {v0}, Lorg/webrtc/Camera2Session;->access$000(Lorg/webrtc/Camera2Session;)V
 
     const-string v0, "Camera2Session"
@@ -434,7 +418,6 @@
     .line 3
     iget-object v1, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # setter for: Lorg/webrtc/Camera2Session;->captureSession:Landroid/hardware/camera2/CameraCaptureSession;
     invoke-static {v1, p1}, Lorg/webrtc/Camera2Session;->access$102(Lorg/webrtc/Camera2Session;Landroid/hardware/camera2/CameraCaptureSession;)Landroid/hardware/camera2/CameraCaptureSession;
 
     .line 4
@@ -442,7 +425,6 @@
     iget-object v1, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
     .line 5
-    # getter for: Lorg/webrtc/Camera2Session;->cameraDevice:Landroid/hardware/camera2/CameraDevice;
     invoke-static {v1}, Lorg/webrtc/Camera2Session;->access$700(Lorg/webrtc/Camera2Session;)Landroid/hardware/camera2/CameraDevice;
 
     move-result-object v1
@@ -461,7 +443,6 @@
     iget-object v4, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
     .line 7
-    # getter for: Lorg/webrtc/Camera2Session;->captureFormat:Lorg/webrtc/CameraEnumerationAndroid$CaptureFormat;
     invoke-static {v4}, Lorg/webrtc/Camera2Session;->access$800(Lorg/webrtc/Camera2Session;)Lorg/webrtc/CameraEnumerationAndroid$CaptureFormat;
 
     move-result-object v4
@@ -472,7 +453,6 @@
 
     iget-object v5, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->fpsUnitFactor:I
     invoke-static {v5}, Lorg/webrtc/Camera2Session;->access$1300(Lorg/webrtc/Camera2Session;)I
 
     move-result v5
@@ -486,7 +466,6 @@
     iget-object v5, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
     .line 8
-    # getter for: Lorg/webrtc/Camera2Session;->captureFormat:Lorg/webrtc/CameraEnumerationAndroid$CaptureFormat;
     invoke-static {v5}, Lorg/webrtc/Camera2Session;->access$800(Lorg/webrtc/Camera2Session;)Lorg/webrtc/CameraEnumerationAndroid$CaptureFormat;
 
     move-result-object v5
@@ -497,7 +476,6 @@
 
     iget-object v6, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->fpsUnitFactor:I
     invoke-static {v6}, Lorg/webrtc/Camera2Session;->access$1300(Lorg/webrtc/Camera2Session;)I
 
     move-result v6
@@ -542,7 +520,6 @@
     .line 16
     iget-object v2, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->surface:Landroid/view/Surface;
     invoke-static {v2}, Lorg/webrtc/Camera2Session;->access$1000(Lorg/webrtc/Camera2Session;)Landroid/view/Surface;
 
     move-result-object v2
@@ -562,7 +539,6 @@
 
     iget-object v3, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->cameraThreadHandler:Landroid/os/Handler;
     invoke-static {v3}, Lorg/webrtc/Camera2Session;->access$1200(Lorg/webrtc/Camera2Session;)Landroid/os/Handler;
 
     move-result-object v3
@@ -575,7 +551,6 @@
     .line 19
     iget-object p1, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->surfaceTextureHelper:Lorg/webrtc/SurfaceTextureHelper;
     invoke-static {p1}, Lorg/webrtc/Camera2Session;->access$900(Lorg/webrtc/Camera2Session;)Lorg/webrtc/SurfaceTextureHelper;
 
     move-result-object p1
@@ -594,7 +569,6 @@
     .line 21
     iget-object p1, p0, Lorg/webrtc/Camera2Session$CaptureSessionCallback;->this$0:Lorg/webrtc/Camera2Session;
 
-    # getter for: Lorg/webrtc/Camera2Session;->callback:Lorg/webrtc/CameraSession$CreateSessionCallback;
     invoke-static {p1}, Lorg/webrtc/Camera2Session;->access$400(Lorg/webrtc/Camera2Session;)Lorg/webrtc/CameraSession$CreateSessionCallback;
 
     move-result-object p1
@@ -625,7 +599,6 @@
 
     move-result-object p1
 
-    # invokes: Lorg/webrtc/Camera2Session;->reportError(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lorg/webrtc/Camera2Session;->access$600(Lorg/webrtc/Camera2Session;Ljava/lang/String;)V
 
     return-void

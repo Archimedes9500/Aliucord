@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet$onViewCreated$1;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;->getBinding()Lcom/discord/databinding/WidgetStageStartEventBottomSheetBinding;
     invoke-static {v0}, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;->access$getBinding$p(Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;)Lcom/discord/databinding/WidgetStageStartEventBottomSheetBinding;
 
     move-result-object v0
@@ -112,7 +111,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet$onViewCreated$1;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;->getViewModel()Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;->access$getViewModel$p(Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;)Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;
 
     move-result-object v0

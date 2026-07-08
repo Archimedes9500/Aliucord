@@ -103,7 +103,6 @@
 
     iget-object v1, v1, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDateView$configureCompleteTimeString$$inlined$apply$lambda$1;->$timing$inlined:Lcom/discord/utilities/guildscheduledevent/GuildScheduledEventTiming;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDateView;->getTextColorViaTiming(Lcom/discord/utilities/guildscheduledevent/GuildScheduledEventTiming;)I
     invoke-static {v2, v1}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDateView;->access$getTextColorViaTiming(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDateView;Lcom/discord/utilities/guildscheduledevent/GuildScheduledEventTiming;)I
 
     move-result v1

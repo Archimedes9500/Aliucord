@@ -82,7 +82,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreMessageReactions$observeMessageReactions$2;->this$0:Lcom/discord/stores/StoreMessageReactions;
 
-    # getter for: Lcom/discord/stores/StoreMessageReactions;->reactionsSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreMessageReactions;->access$getReactionsSnapshot$p(Lcom/discord/stores/StoreMessageReactions;)Ljava/util/Map;
 
     move-result-object v0

@@ -137,7 +137,6 @@
     sub-int/2addr v1, v2
 
     .line 5
-    # getter for: Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->offsetDelta:I
     invoke-static {v0}, Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->access$000(Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;)I
 
     move-result v0

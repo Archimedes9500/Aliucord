@@ -96,7 +96,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreStream$deferredInit$1;->this$0:Lcom/discord/stores/StoreStream;
 
-    # invokes: Lcom/discord/stores/StoreStream;->handlePreLogout()V
     invoke-static {p1}, Lcom/discord/stores/StoreStream;->access$handlePreLogout(Lcom/discord/stores/StoreStream;)V
 
     return-void

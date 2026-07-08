@@ -96,7 +96,6 @@
 
     sget-object v0, Lcom/discord/widgets/emoji/EmojiSheetViewModel$ViewState$Dismiss;->INSTANCE:Lcom/discord/widgets/emoji/EmojiSheetViewModel$ViewState$Dismiss;
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/emoji/EmojiSheetViewModel;->access$updateViewState(Lcom/discord/widgets/emoji/EmojiSheetViewModel;Lcom/discord/widgets/emoji/EmojiSheetViewModel$ViewState;)V
 
     return-void

@@ -102,7 +102,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/emoji/WidgetEmojiSheet$bindSubscriptions$1;->this$0:Lcom/discord/widgets/emoji/WidgetEmojiSheet;
 
-    # invokes: Lcom/discord/widgets/emoji/WidgetEmojiSheet;->showLoading()V
     invoke-static {p1}, Lcom/discord/widgets/emoji/WidgetEmojiSheet;->access$showLoading(Lcom/discord/widgets/emoji/WidgetEmojiSheet;)V
 
     sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;
@@ -119,7 +118,6 @@
 
     check-cast p1, Lcom/discord/widgets/emoji/EmojiSheetViewModel$ViewState$EmojiCustom;
 
-    # invokes: Lcom/discord/widgets/emoji/WidgetEmojiSheet;->configureCustomEmoji(Lcom/discord/widgets/emoji/EmojiSheetViewModel$ViewState$EmojiCustom;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/emoji/WidgetEmojiSheet;->access$configureCustomEmoji(Lcom/discord/widgets/emoji/WidgetEmojiSheet;Lcom/discord/widgets/emoji/EmojiSheetViewModel$ViewState$EmojiCustom;)V
 
     sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;
@@ -136,7 +134,6 @@
 
     check-cast p1, Lcom/discord/widgets/emoji/EmojiSheetViewModel$ViewState$EmojiUnicode;
 
-    # invokes: Lcom/discord/widgets/emoji/WidgetEmojiSheet;->configureUnicodeEmoji(Lcom/discord/widgets/emoji/EmojiSheetViewModel$ViewState$EmojiUnicode;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/emoji/WidgetEmojiSheet;->access$configureUnicodeEmoji(Lcom/discord/widgets/emoji/WidgetEmojiSheet;Lcom/discord/widgets/emoji/EmojiSheetViewModel$ViewState$EmojiUnicode;)V
 
     sget-object p1, Lkotlin/Unit;->a:Lkotlin/Unit;

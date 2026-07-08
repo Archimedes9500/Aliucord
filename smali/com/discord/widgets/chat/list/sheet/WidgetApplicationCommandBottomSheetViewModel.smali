@@ -355,7 +355,6 @@
     move-wide/from16 v8, p10
 
     .line 8
-    # invokes: Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel$Companion;->observeStores(Lcom/discord/stores/updates/ObservationDeck;JLjava/lang/Long;JJLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreApplicationInteractions;Lcom/discord/stores/StoreApplicationCommands;)Lrx/Observable;
     invoke-static/range {v1 .. v14}, Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel$Companion;->access$observeStores(Lcom/discord/widgets/chat/list/sheet/WidgetApplicationCommandBottomSheetViewModel$Companion;Lcom/discord/stores/updates/ObservationDeck;JLjava/lang/Long;JJLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreApplicationInteractions;Lcom/discord/stores/StoreApplicationCommands;)Lrx/Observable;
 
     move-result-object v0

@@ -269,7 +269,6 @@
     move-result-object p5
 
     .line 5
-    # invokes: Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreUserSettings;Lcom/discord/stores/StoreReadStates;)Lrx/Observable;
     invoke-static {p4, p1, p2, p6, p5}, Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/guilds/contextmenu/FolderContextMenuViewModel$Companion;JLcom/discord/stores/StoreUserSettings;Lcom/discord/stores/StoreReadStates;)Lrx/Observable;
 
     move-result-object p4

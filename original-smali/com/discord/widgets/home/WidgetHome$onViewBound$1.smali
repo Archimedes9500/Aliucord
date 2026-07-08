@@ -76,7 +76,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/home/WidgetHome$onViewBound$1;->this$0:Lcom/discord/widgets/home/WidgetHome;
 
-    # invokes: Lcom/discord/widgets/home/WidgetHome;->handleBackPressed()Z
     invoke-static {v0}, Lcom/discord/widgets/home/WidgetHome;->access$handleBackPressed(Lcom/discord/widgets/home/WidgetHome;)Z
 
     move-result v0

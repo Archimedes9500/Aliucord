@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreExperiments$clearOverride$1;->$experimentName:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreExperiments;->handleClearOverride(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreExperiments;->access$handleClearOverride(Lcom/discord/stores/StoreExperiments;Ljava/lang/String;)V
 
     return-void

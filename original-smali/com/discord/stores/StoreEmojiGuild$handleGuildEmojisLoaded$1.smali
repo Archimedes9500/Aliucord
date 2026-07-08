@@ -93,7 +93,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreEmojiGuild$handleGuildEmojisLoaded$1;->this$0:Lcom/discord/stores/StoreEmojiGuild;
 
-    # getter for: Lcom/discord/stores/StoreEmojiGuild;->guildEmoji:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreEmojiGuild;->access$getGuildEmoji$p(Lcom/discord/stores/StoreEmojiGuild;)Ljava/util/Map;
 
     move-result-object v0

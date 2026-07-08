@@ -103,7 +103,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/guilds/list/WidgetGuildsList$configureBottomNavSpace$1;->this$0:Lcom/discord/widgets/guilds/list/WidgetGuildsList;
 
-    # invokes: Lcom/discord/widgets/guilds/list/WidgetGuildsList;->getBinding()Lcom/discord/databinding/WidgetGuildsListBinding;
     invoke-static {v0}, Lcom/discord/widgets/guilds/list/WidgetGuildsList;->access$getBinding$p(Lcom/discord/widgets/guilds/list/WidgetGuildsList;)Lcom/discord/databinding/WidgetGuildsListBinding;
 
     move-result-object v0
@@ -139,7 +138,6 @@
     .line 8
     iget-object p1, p0, Lcom/discord/widgets/guilds/list/WidgetGuildsList$configureBottomNavSpace$1;->this$0:Lcom/discord/widgets/guilds/list/WidgetGuildsList;
 
-    # invokes: Lcom/discord/widgets/guilds/list/WidgetGuildsList;->getBinding()Lcom/discord/databinding/WidgetGuildsListBinding;
     invoke-static {p1}, Lcom/discord/widgets/guilds/list/WidgetGuildsList;->access$getBinding$p(Lcom/discord/widgets/guilds/list/WidgetGuildsList;)Lcom/discord/databinding/WidgetGuildsListBinding;
 
     move-result-object p1

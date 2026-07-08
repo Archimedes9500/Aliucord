@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel$1;->this$0:Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;->access$updateViewState(Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel$ViewState;)V
 
     return-void

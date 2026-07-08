@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreNux$updateNux$1;->$updateFunction:Lkotlin/jvm/functions/Function1;
 
-    # getter for: Lcom/discord/stores/StoreNux;->nuxState:Lcom/discord/stores/StoreNux$NuxState;
     invoke-static {v0}, Lcom/discord/stores/StoreNux;->access$getNuxState$p(Lcom/discord/stores/StoreNux;)Lcom/discord/stores/StoreNux$NuxState;
 
     move-result-object v2
@@ -107,12 +106,10 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreNux$updateNux$1;->this$0:Lcom/discord/stores/StoreNux;
 
-    # getter for: Lcom/discord/stores/StoreNux;->nuxState:Lcom/discord/stores/StoreNux$NuxState;
     invoke-static {v0}, Lcom/discord/stores/StoreNux;->access$getNuxState$p(Lcom/discord/stores/StoreNux;)Lcom/discord/stores/StoreNux$NuxState;
 
     move-result-object v1
 
-    # invokes: Lcom/discord/stores/StoreNux;->publishNuxUpdated(Lcom/discord/stores/StoreNux$NuxState;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreNux;->access$publishNuxUpdated(Lcom/discord/stores/StoreNux;Lcom/discord/stores/StoreNux$NuxState;)V
 
     return-void

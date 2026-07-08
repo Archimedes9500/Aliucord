@@ -154,7 +154,6 @@
     .line 8
     iget-object v0, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # getter for: Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
     invoke-static {v0}, Landroidx/work/impl/WorkDatabase_Impl;->access$000(Landroidx/work/impl/WorkDatabase_Impl;)Ljava/util/List;
 
     move-result-object v0
@@ -166,7 +165,6 @@
     .line 9
     iget-object v1, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # getter for: Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
     invoke-static {v1}, Landroidx/work/impl/WorkDatabase_Impl;->access$100(Landroidx/work/impl/WorkDatabase_Impl;)Ljava/util/List;
 
     move-result-object v1
@@ -181,7 +179,6 @@
     .line 10
     iget-object v2, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # getter for: Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
     invoke-static {v2}, Landroidx/work/impl/WorkDatabase_Impl;->access$200(Landroidx/work/impl/WorkDatabase_Impl;)Ljava/util/List;
 
     move-result-object v2
@@ -208,7 +205,6 @@
     .line 1
     iget-object v0, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # getter for: Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
     invoke-static {v0}, Landroidx/work/impl/WorkDatabase_Impl;->access$300(Landroidx/work/impl/WorkDatabase_Impl;)Ljava/util/List;
 
     move-result-object v0
@@ -220,7 +216,6 @@
     .line 2
     iget-object v1, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # getter for: Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
     invoke-static {v1}, Landroidx/work/impl/WorkDatabase_Impl;->access$400(Landroidx/work/impl/WorkDatabase_Impl;)Ljava/util/List;
 
     move-result-object v1
@@ -235,7 +230,6 @@
     .line 3
     iget-object v2, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # getter for: Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
     invoke-static {v2}, Landroidx/work/impl/WorkDatabase_Impl;->access$500(Landroidx/work/impl/WorkDatabase_Impl;)Ljava/util/List;
 
     move-result-object v2
@@ -262,7 +256,6 @@
     .line 1
     iget-object v0, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # setter for: Landroidx/room/RoomDatabase;->mDatabase:Landroidx/sqlite/db/SupportSQLiteDatabase;
     invoke-static {v0, p1}, Landroidx/work/impl/WorkDatabase_Impl;->access$602(Landroidx/work/impl/WorkDatabase_Impl;Landroidx/sqlite/db/SupportSQLiteDatabase;)Landroidx/sqlite/db/SupportSQLiteDatabase;
 
     const-string v0, "PRAGMA foreign_keys = ON"
@@ -273,13 +266,11 @@
     .line 3
     iget-object v0, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # invokes: Landroidx/room/RoomDatabase;->internalInitInvalidationTracker(Landroidx/sqlite/db/SupportSQLiteDatabase;)V
     invoke-static {v0, p1}, Landroidx/work/impl/WorkDatabase_Impl;->access$700(Landroidx/work/impl/WorkDatabase_Impl;Landroidx/sqlite/db/SupportSQLiteDatabase;)V
 
     .line 4
     iget-object v0, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # getter for: Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
     invoke-static {v0}, Landroidx/work/impl/WorkDatabase_Impl;->access$800(Landroidx/work/impl/WorkDatabase_Impl;)Ljava/util/List;
 
     move-result-object v0
@@ -291,7 +282,6 @@
     .line 5
     iget-object v1, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # getter for: Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
     invoke-static {v1}, Landroidx/work/impl/WorkDatabase_Impl;->access$900(Landroidx/work/impl/WorkDatabase_Impl;)Ljava/util/List;
 
     move-result-object v1
@@ -306,7 +296,6 @@
     .line 6
     iget-object v2, p0, Landroidx/work/impl/WorkDatabase_Impl$1;->this$0:Landroidx/work/impl/WorkDatabase_Impl;
 
-    # getter for: Landroidx/room/RoomDatabase;->mCallbacks:Ljava/util/List;
     invoke-static {v2}, Landroidx/work/impl/WorkDatabase_Impl;->access$1000(Landroidx/work/impl/WorkDatabase_Impl;)Ljava/util/List;
 
     move-result-object v2

@@ -98,7 +98,6 @@
 
     invoke-direct {v1, p1}, Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel$Event$RemoveMemberFailure;-><init>(Lcom/discord/utilities/error/Error;)V
 
-    # invokes: Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;->emitEvent(Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel$Event;)V
     invoke-static {v0, v1}, Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;->access$emitEvent(Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel;Lcom/discord/widgets/servers/role_members/ServerSettingsRoleMembersViewModel$Event;)V
 
     return-void

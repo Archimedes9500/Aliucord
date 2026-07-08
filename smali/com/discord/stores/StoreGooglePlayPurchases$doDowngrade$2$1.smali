@@ -89,7 +89,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGooglePlayPurchases$doDowngrade$2;->$newSkuName:Ljava/lang/String;
 
-    # invokes: Lcom/discord/stores/StoreGooglePlayPurchases;->handleDowngradeSuccess(Ljava/lang/String;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreGooglePlayPurchases;->access$handleDowngradeSuccess(Lcom/discord/stores/StoreGooglePlayPurchases;Ljava/lang/String;)V
 
     return-void

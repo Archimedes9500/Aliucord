@@ -30,7 +30,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/e/b/b0/a$a;->k:Ljava/util/Map;
     invoke-static {}, Ld0/e0/p/d/m0/e/b/b0/a$a;->access$getEntryById$cp()Ljava/util/Map;
 
     move-result-object v0

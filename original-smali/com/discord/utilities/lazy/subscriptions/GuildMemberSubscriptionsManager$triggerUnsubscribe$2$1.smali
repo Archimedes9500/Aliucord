@@ -93,7 +93,6 @@
     check-cast v0, Lcom/discord/utilities/lazy/subscriptions/GuildMemberSubscriptionsManager;
 
     .line 2
-    # invokes: Lcom/discord/utilities/lazy/subscriptions/GuildMemberSubscriptionsManager;->flushUnsubscriptions()V
     invoke-static {v0}, Lcom/discord/utilities/lazy/subscriptions/GuildMemberSubscriptionsManager;->access$flushUnsubscriptions(Lcom/discord/utilities/lazy/subscriptions/GuildMemberSubscriptionsManager;)V
 
     return-void

@@ -91,7 +91,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/search/WidgetSearch$configureSearchInput$5;->this$0:Lcom/discord/widgets/search/WidgetSearch;
 
-    # invokes: Lcom/discord/widgets/search/WidgetSearch;->getBinding()Lcom/discord/databinding/WidgetSearchBinding;
     invoke-static {v0}, Lcom/discord/widgets/search/WidgetSearch;->access$getBinding$p(Lcom/discord/widgets/search/WidgetSearch;)Lcom/discord/databinding/WidgetSearchBinding;
 
     move-result-object v0
@@ -107,7 +106,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/search/WidgetSearch$configureSearchInput$5;->this$0:Lcom/discord/widgets/search/WidgetSearch;
 
-    # invokes: Lcom/discord/widgets/search/WidgetSearch;->getBinding()Lcom/discord/databinding/WidgetSearchBinding;
     invoke-static {p1}, Lcom/discord/widgets/search/WidgetSearch;->access$getBinding$p(Lcom/discord/widgets/search/WidgetSearch;)Lcom/discord/databinding/WidgetSearchBinding;
 
     move-result-object p1

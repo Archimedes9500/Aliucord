@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/utilities/auth/RegistrationFlowRepo;
     .locals 2
 
-    # getter for: Lcom/discord/utilities/auth/RegistrationFlowRepo;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/utilities/auth/RegistrationFlowRepo;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

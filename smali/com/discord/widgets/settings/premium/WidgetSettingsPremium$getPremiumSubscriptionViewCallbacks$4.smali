@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium$getPremiumSubscriptionViewCallbacks$4;->this$0:Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->showDesktopManageAlert()V
     invoke-static {v0}, Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;->access$showDesktopManageAlert(Lcom/discord/widgets/settings/premium/WidgetSettingsPremium;)V
 
     return-void

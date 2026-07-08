@@ -67,7 +67,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/utilities/messagesend/MessageQueue$cancel$1;->this$0:Lcom/discord/utilities/messagesend/MessageQueue;
 
-    # getter for: Lcom/discord/utilities/messagesend/MessageQueue;->inFlightRequest:Lcom/discord/utilities/messagesend/MessageQueue$InflightRequest;
     invoke-static {v0}, Lcom/discord/utilities/messagesend/MessageQueue;->access$getInFlightRequest$p(Lcom/discord/utilities/messagesend/MessageQueue;)Lcom/discord/utilities/messagesend/MessageQueue$InflightRequest;
 
     move-result-object v0
@@ -113,7 +112,6 @@
     :cond_29
     iget-object v0, p0, Lcom/discord/utilities/messagesend/MessageQueue$cancel$1;->this$0:Lcom/discord/utilities/messagesend/MessageQueue;
 
-    # getter for: Lcom/discord/utilities/messagesend/MessageQueue;->queue:Ljava/util/ArrayDeque;
     invoke-static {v0}, Lcom/discord/utilities/messagesend/MessageQueue;->access$getQueue$p(Lcom/discord/utilities/messagesend/MessageQueue;)Ljava/util/ArrayDeque;
 
     move-result-object v0
@@ -164,7 +162,6 @@
     .line 8
     iget-object v0, p0, Lcom/discord/utilities/messagesend/MessageQueue$cancel$1;->this$0:Lcom/discord/utilities/messagesend/MessageQueue;
 
-    # getter for: Lcom/discord/utilities/messagesend/MessageQueue;->queue:Ljava/util/ArrayDeque;
     invoke-static {v0}, Lcom/discord/utilities/messagesend/MessageQueue;->access$getQueue$p(Lcom/discord/utilities/messagesend/MessageQueue;)Ljava/util/ArrayDeque;
 
     move-result-object v0
@@ -180,7 +177,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/messagesend/MessageQueue$cancel$1;->this$0:Lcom/discord/utilities/messagesend/MessageQueue;
 
-    # getter for: Lcom/discord/utilities/messagesend/MessageQueue;->queue:Ljava/util/ArrayDeque;
     invoke-static {v2}, Lcom/discord/utilities/messagesend/MessageQueue;->access$getQueue$p(Lcom/discord/utilities/messagesend/MessageQueue;)Ljava/util/ArrayDeque;
 
     move-result-object v2

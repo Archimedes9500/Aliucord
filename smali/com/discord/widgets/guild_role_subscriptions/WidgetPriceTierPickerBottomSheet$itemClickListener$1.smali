@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guild_role_subscriptions/WidgetPriceTierPickerBottomSheet$itemClickListener$1;->this$0:Lcom/discord/widgets/guild_role_subscriptions/WidgetPriceTierPickerBottomSheet;
 
-    # invokes: Lcom/discord/app/AppBottomSheet;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/guild_role_subscriptions/WidgetPriceTierPickerBottomSheet;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/guild_role_subscriptions/WidgetPriceTierPickerBottomSheet;)Landroid/os/Bundle;
 
     move-result-object v0

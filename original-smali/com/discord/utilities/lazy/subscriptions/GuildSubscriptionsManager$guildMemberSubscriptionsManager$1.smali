@@ -133,7 +133,6 @@
     check-cast v0, Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;
 
     .line 2
-    # invokes: Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;->handleMemberSubscriptionsChange(JLjava/util/Set;Z)V
     invoke-static {v0, p1, p2, p3, p4}, Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;->access$handleMemberSubscriptionsChange(Lcom/discord/utilities/lazy/subscriptions/GuildSubscriptionsManager;JLjava/util/Set;Z)V
 
     return-void

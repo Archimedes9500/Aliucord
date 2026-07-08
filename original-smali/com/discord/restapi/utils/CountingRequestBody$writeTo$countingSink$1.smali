@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/restapi/utils/CountingRequestBody;
 
     .line 2
-    # invokes: Lcom/discord/restapi/utils/CountingRequestBody;->updateProgress(J)V
     invoke-static {v0, p1, p2}, Lcom/discord/restapi/utils/CountingRequestBody;->access$updateProgress(Lcom/discord/restapi/utils/CountingRequestBody;J)V
 
     return-void

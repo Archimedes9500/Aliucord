@@ -53,7 +53,6 @@
     iget-object p1, p0, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView$a;->j:Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;
 
     .line 2
-    # getter for: Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->modalListPopup:Landroidx/appcompat/widget/ListPopupWindow;
     invoke-static {p1}, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->access$000(Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;)Landroidx/appcompat/widget/ListPopupWindow;
 
     move-result-object p1
@@ -79,7 +78,6 @@
     :goto_17
     iget-object v0, p0, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView$a;->j:Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;
 
-    # invokes: Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->updateText(Ljava/lang/Object;)V
     invoke-static {v0, p1}, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->access$100(Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;Ljava/lang/Object;)V
 
     .line 4
@@ -99,7 +97,6 @@
     :cond_28
     iget-object p1, p0, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView$a;->j:Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;
 
-    # getter for: Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->modalListPopup:Landroidx/appcompat/widget/ListPopupWindow;
     invoke-static {p1}, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->access$000(Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;)Landroidx/appcompat/widget/ListPopupWindow;
 
     move-result-object p1
@@ -111,7 +108,6 @@
     .line 6
     iget-object p1, p0, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView$a;->j:Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;
 
-    # getter for: Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->modalListPopup:Landroidx/appcompat/widget/ListPopupWindow;
     invoke-static {p1}, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->access$000(Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;)Landroidx/appcompat/widget/ListPopupWindow;
 
     move-result-object p1
@@ -123,7 +119,6 @@
     .line 7
     iget-object p1, p0, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView$a;->j:Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;
 
-    # getter for: Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->modalListPopup:Landroidx/appcompat/widget/ListPopupWindow;
     invoke-static {p1}, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->access$000(Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;)Landroidx/appcompat/widget/ListPopupWindow;
 
     move-result-object p1
@@ -143,7 +138,6 @@
     iget-object p1, p0, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView$a;->j:Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;
 
     .line 9
-    # getter for: Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->modalListPopup:Landroidx/appcompat/widget/ListPopupWindow;
     invoke-static {p1}, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->access$000(Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;)Landroidx/appcompat/widget/ListPopupWindow;
 
     move-result-object p1
@@ -159,7 +153,6 @@
     :cond_56
     iget-object p1, p0, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView$a;->j:Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;
 
-    # getter for: Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->modalListPopup:Landroidx/appcompat/widget/ListPopupWindow;
     invoke-static {p1}, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;->access$000(Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;)Landroidx/appcompat/widget/ListPopupWindow;
 
     move-result-object p1

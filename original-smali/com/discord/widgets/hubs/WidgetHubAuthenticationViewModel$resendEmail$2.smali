@@ -124,7 +124,6 @@
 
     move-result-object p1
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/hubs/WidgetHubAuthenticationViewModel;->access$updateViewState(Lcom/discord/widgets/hubs/WidgetHubAuthenticationViewModel;Lcom/discord/widgets/hubs/HubAuthenticationState;)V
 
     return-void

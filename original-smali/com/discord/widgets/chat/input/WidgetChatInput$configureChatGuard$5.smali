@@ -73,7 +73,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$configureChatGuard$5;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->getBinding()Lcom/discord/databinding/WidgetChatInputBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$getBinding$p(Lcom/discord/widgets/chat/input/WidgetChatInput;)Lcom/discord/databinding/WidgetChatInputBinding;
 
     move-result-object p1

@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsEditRole;Lcom/discord/widgets/servers/WidgetServerSettingsEditRole$Model;)V
 
     return-void

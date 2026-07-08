@@ -77,7 +77,6 @@
     const/4 v1, 0x0
 
     .line 3
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->updateDefaultGuildsRestricted(ZZ)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$updateDefaultGuildsRestricted(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;ZZ)V
 
     return-void

@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configureContactSyncOptions$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object p1
@@ -104,7 +103,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configureContactSyncOptions$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {v1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object v1
@@ -122,7 +120,6 @@
     .line 5
     iget-object v2, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configureContactSyncOptions$2;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {v2}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object v2
@@ -149,7 +146,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->toggleContactSync(Lcom/discord/api/connectedaccounts/ConnectedAccount;Z)V
     invoke-static {v0, v1, p1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$toggleContactSync(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;Lcom/discord/api/connectedaccounts/ConnectedAccount;Z)V
 
     goto :goto_8a

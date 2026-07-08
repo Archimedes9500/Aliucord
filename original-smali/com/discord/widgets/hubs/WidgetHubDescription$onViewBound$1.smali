@@ -80,7 +80,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/hubs/WidgetHubDescription$onViewBound$1;->this$0:Lcom/discord/widgets/hubs/WidgetHubDescription;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubDescription;->getSelectorArgs()Lcom/discord/widgets/hubs/RadioSelectorItems;
     invoke-static {v1}, Lcom/discord/widgets/hubs/WidgetHubDescription;->access$getSelectorArgs$p(Lcom/discord/widgets/hubs/WidgetHubDescription;)Lcom/discord/widgets/hubs/RadioSelectorItems;
 
     move-result-object v1

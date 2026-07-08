@@ -81,7 +81,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/stickers/WidgetGuildStickerSheet$configureButtons$$inlined$with$lambda$2;->this$0:Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;
 
-    # invokes: Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;->getViewModel()Lcom/discord/widgets/stickers/GuildStickerSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;->access$getViewModel$p(Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;)Lcom/discord/widgets/stickers/GuildStickerSheetViewModel;
 
     move-result-object v0

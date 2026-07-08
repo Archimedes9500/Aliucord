@@ -108,7 +108,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # getter for: Lcom/discord/widgets/share/WidgetIncomingShare;->contentPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getContentPublisher$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v1
@@ -116,7 +115,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # getter for: Lcom/discord/widgets/share/WidgetIncomingShare;->contentPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getContentPublisher$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0
@@ -131,7 +129,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # getter for: Lcom/discord/widgets/share/WidgetIncomingShare;->commentPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getCommentPublisher$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0
@@ -155,7 +152,6 @@
     .line 8
     iget-object v4, p0, Lcom/discord/widgets/share/WidgetIncomingShare$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/share/WidgetIncomingShare;
 
-    # getter for: Lcom/discord/widgets/share/WidgetIncomingShare;->searchQueryPublisher:Lrx/subjects/BehaviorSubject;
     invoke-static {v4}, Lcom/discord/widgets/share/WidgetIncomingShare;->access$getSearchQueryPublisher$p(Lcom/discord/widgets/share/WidgetIncomingShare;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v4

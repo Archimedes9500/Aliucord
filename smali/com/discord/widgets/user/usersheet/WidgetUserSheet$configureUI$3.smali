@@ -97,7 +97,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->onStreamPreviewClicked(Lcom/discord/utilities/streams/StreamContext;)V
     invoke-static {v0, v1}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$onStreamPreviewClicked(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;Lcom/discord/utilities/streams/StreamContext;)V
 
     return-void

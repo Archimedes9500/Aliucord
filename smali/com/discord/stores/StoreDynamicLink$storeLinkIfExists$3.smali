@@ -96,7 +96,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreDynamicLink$storeLinkIfExists$3;->$context:Landroid/content/Context;
 
-    # invokes: Lcom/discord/stores/StoreDynamicLink;->handleDataReceived(Lcom/discord/stores/StoreDynamicLink$DynamicLinkData;Landroid/content/Context;)V
     invoke-static {v0, p1, v1}, Lcom/discord/stores/StoreDynamicLink;->access$handleDataReceived(Lcom/discord/stores/StoreDynamicLink;Lcom/discord/stores/StoreDynamicLink$DynamicLinkData;Landroid/content/Context;)V
 
     return-void

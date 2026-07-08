@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$configureUI$3;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsList;->ackPremiumGuildHint()V
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$ackPremiumGuildHint(Lcom/discord/widgets/channels/list/WidgetChannelsList;)V
 
     .line 2

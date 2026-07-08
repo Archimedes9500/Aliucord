@@ -104,7 +104,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete$configureCommandBrowser$1;->this$0:Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->getCurrentlySelectedCategory(I)Ljava/lang/Long;
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->access$getCurrentlySelectedCategory(Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;I)Ljava/lang/Long;
 
     move-result-object v0
@@ -118,7 +117,6 @@
     .line 3
     iget-object v2, p0, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete$configureCommandBrowser$1;->this$0:Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->categoriesAdapter:Lcom/discord/widgets/chat/input/ChatInputApplicationsAdapter;
     invoke-static {v2}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->access$getCategoriesAdapter$p(Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;)Lcom/discord/widgets/chat/input/ChatInputApplicationsAdapter;
 
     move-result-object v2
@@ -128,7 +126,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete$configureCommandBrowser$1;->this$0:Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->categoriesAdapter:Lcom/discord/widgets/chat/input/ChatInputApplicationsAdapter;
     invoke-static {v2}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->access$getCategoriesAdapter$p(Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;)Lcom/discord/widgets/chat/input/ChatInputApplicationsAdapter;
 
     move-result-object v2
@@ -142,7 +139,6 @@
     .line 5
     iget-object v1, p0, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete$configureCommandBrowser$1;->this$0:Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->commandBrowserAppsRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->access$getCommandBrowserAppsRecyclerView$p(Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object v1
@@ -153,14 +149,12 @@
     :cond_2c
     iget-object v0, p0, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete$configureCommandBrowser$1;->this$0:Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->getViewModel()Lcom/discord/widgets/chat/input/autocomplete/AutocompleteViewModel;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->access$getViewModel$p(Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;)Lcom/discord/widgets/chat/input/autocomplete/AutocompleteViewModel;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete$configureCommandBrowser$1;->this$0:Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->autocompleteAdapter:Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->access$getAutocompleteAdapter$p(Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;)Lcom/discord/widgets/chat/input/autocomplete/adapter/ChatInputAutocompleteAdapter;
 
     move-result-object v1

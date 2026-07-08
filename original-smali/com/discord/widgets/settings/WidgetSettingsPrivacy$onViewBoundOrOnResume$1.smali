@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->configureUI(Lcom/discord/widgets/settings/WidgetSettingsPrivacy$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$configureUI(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;Lcom/discord/widgets/settings/WidgetSettingsPrivacy$Model;)V
 
     return-void

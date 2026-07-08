@@ -92,7 +92,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel$onDisableCommunicationConfirm$1;->this$0:Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;
 
-    # getter for: Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;->guildId:J
     invoke-static {v0}, Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;->access$getGuildId$p(Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;)J
 
     move-result-wide v0
@@ -104,7 +103,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel$onDisableCommunicationConfirm$1;->this$0:Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;
 
-    # getter for: Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;->userId:J
     invoke-static {v0}, Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;->access$getUserId$p(Lcom/discord/widgets/guildcommunicationdisabled/start/DisableGuildCommunicationViewModel;)J
 
     move-result-wide v2

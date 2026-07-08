@@ -144,7 +144,6 @@
     move-object v9, p5
 
     .line 7
-    # invokes: Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$Model$Companion;->create(Lcom/discord/models/message/Message;Lcom/discord/models/guild/Guild;Ljava/lang/Long;Lcom/discord/models/user/MeUser;Lcom/discord/models/member/GuildMember;Lcom/discord/api/channel/Channel;Ljava/lang/CharSequence;ILcom/discord/models/domain/emoji/EmojiSet;)Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$Model;
     invoke-static/range {v0 .. v9}, Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$Model$Companion;->access$create(Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$Model$Companion;Lcom/discord/models/message/Message;Lcom/discord/models/guild/Guild;Ljava/lang/Long;Lcom/discord/models/user/MeUser;Lcom/discord/models/member/GuildMember;Lcom/discord/api/channel/Channel;Ljava/lang/CharSequence;ILcom/discord/models/domain/emoji/EmojiSet;)Lcom/discord/widgets/chat/list/actions/WidgetChatListActions$Model;
 
     move-result-object p1

@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/adjust/sdk/scheduler/TimerOnce$1;->this$0:Lcom/adjust/sdk/scheduler/TimerOnce;
 
-    # getter for: Lcom/adjust/sdk/scheduler/TimerOnce;->logger:Lcom/adjust/sdk/ILogger;
     invoke-static {v0}, Lcom/adjust/sdk/scheduler/TimerOnce;->access$100(Lcom/adjust/sdk/scheduler/TimerOnce;)Lcom/adjust/sdk/ILogger;
 
     move-result-object v0
@@ -52,7 +51,6 @@
 
     iget-object v2, p0, Lcom/adjust/sdk/scheduler/TimerOnce$1;->this$0:Lcom/adjust/sdk/scheduler/TimerOnce;
 
-    # getter for: Lcom/adjust/sdk/scheduler/TimerOnce;->name:Ljava/lang/String;
     invoke-static {v2}, Lcom/adjust/sdk/scheduler/TimerOnce;->access$000(Lcom/adjust/sdk/scheduler/TimerOnce;)Ljava/lang/String;
 
     move-result-object v2
@@ -68,7 +66,6 @@
     .line 2
     iget-object v0, p0, Lcom/adjust/sdk/scheduler/TimerOnce$1;->this$0:Lcom/adjust/sdk/scheduler/TimerOnce;
 
-    # getter for: Lcom/adjust/sdk/scheduler/TimerOnce;->command:Ljava/lang/Runnable;
     invoke-static {v0}, Lcom/adjust/sdk/scheduler/TimerOnce;->access$200(Lcom/adjust/sdk/scheduler/TimerOnce;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -80,7 +77,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lcom/adjust/sdk/scheduler/TimerOnce;->waitingTask:Ljava/util/concurrent/ScheduledFuture;
     invoke-static {v0, v1}, Lcom/adjust/sdk/scheduler/TimerOnce;->access$302(Lcom/adjust/sdk/scheduler/TimerOnce;Ljava/util/concurrent/ScheduledFuture;)Ljava/util/concurrent/ScheduledFuture;
 
     return-void

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet$configureUi$9;->this$0:Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;->binding:Lcom/discord/databinding/ViewGuildInviteBottomSheetBinding;
     invoke-static {p1}, Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;)Lcom/discord/databinding/ViewGuildInviteBottomSheetBinding;
 
     move-result-object p1
@@ -78,7 +77,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet$configureUi$9;->this$0:Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;->pendingInviteSettings:Lcom/discord/models/domain/ModelInvite$Settings;
     invoke-static {p1}, Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;->access$getPendingInviteSettings$p(Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;)Lcom/discord/models/domain/ModelInvite$Settings;
 
     move-result-object v0
@@ -87,7 +85,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet$configureUi$9;->this$0:Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;
 
-    # getter for: Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;->binding:Lcom/discord/databinding/ViewGuildInviteBottomSheetBinding;
     invoke-static {v1}, Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/ViewInviteSettingsSheet;)Lcom/discord/databinding/ViewGuildInviteBottomSheetBinding;
 
     move-result-object v1

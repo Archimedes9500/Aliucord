@@ -87,7 +87,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet$configureGuildActions$$inlined$apply$lambda$6;->this$0:Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;->getViewModel()Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;->access$getViewModel$p(Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheet;)Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel;
 
     move-result-object v0

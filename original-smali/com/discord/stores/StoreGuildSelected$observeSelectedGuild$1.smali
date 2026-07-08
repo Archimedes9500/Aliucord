@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildSelected$observeSelectedGuild$1;->this$0:Lcom/discord/stores/StoreGuildSelected;
 
-    # getter for: Lcom/discord/stores/StoreGuildSelected;->guildStore:Lcom/discord/stores/StoreGuilds;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildSelected;->access$getGuildStore$p(Lcom/discord/stores/StoreGuildSelected;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v0

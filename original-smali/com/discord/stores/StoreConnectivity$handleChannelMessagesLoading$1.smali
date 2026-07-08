@@ -96,7 +96,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreConnectivity$handleChannelMessagesLoading$1;->this$0:Lcom/discord/stores/StoreConnectivity;
 
-    # invokes: Lcom/discord/stores/StoreConnectivity;->updateConnectivityState()V
     invoke-static {v0}, Lcom/discord/stores/StoreConnectivity;->access$updateConnectivityState(Lcom/discord/stores/StoreConnectivity;)V
 
     return-void

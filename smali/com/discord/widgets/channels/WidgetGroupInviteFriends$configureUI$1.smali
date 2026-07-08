@@ -138,7 +138,6 @@
     :cond_21
     iget-object p2, p0, Lcom/discord/widgets/channels/WidgetGroupInviteFriends$configureUI$1;->this$0:Lcom/discord/widgets/channels/WidgetGroupInviteFriends;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetGroupInviteFriends;->selectUser(Lcom/discord/models/user/User;)V
     invoke-static {p2, p1}, Lcom/discord/widgets/channels/WidgetGroupInviteFriends;->access$selectUser(Lcom/discord/widgets/channels/WidgetGroupInviteFriends;Lcom/discord/models/user/User;)V
 
     goto :goto_2c
@@ -147,7 +146,6 @@
     :cond_27
     iget-object p2, p0, Lcom/discord/widgets/channels/WidgetGroupInviteFriends$configureUI$1;->this$0:Lcom/discord/widgets/channels/WidgetGroupInviteFriends;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetGroupInviteFriends;->unselectUser(Lcom/discord/models/user/User;)V
     invoke-static {p2, p1}, Lcom/discord/widgets/channels/WidgetGroupInviteFriends;->access$unselectUser(Lcom/discord/widgets/channels/WidgetGroupInviteFriends;Lcom/discord/models/user/User;)V
 
     :goto_2c

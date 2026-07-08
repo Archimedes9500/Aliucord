@@ -77,7 +77,6 @@
     .locals 2
 
     .line 1
-    # getter for: Lcom/discord/utilities/channel/ChannelSelector;->INSTANCE:Lcom/discord/utilities/channel/ChannelSelector;
     invoke-static {}, Lcom/discord/utilities/channel/ChannelSelector;->access$getINSTANCE$cp()Lcom/discord/utilities/channel/ChannelSelector;
 
     move-result-object v0

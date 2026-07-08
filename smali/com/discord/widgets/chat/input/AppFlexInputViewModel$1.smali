@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/AppFlexInputViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/AppFlexInputViewModel;->handleStoreState(Lcom/discord/widgets/chat/input/AppFlexInputViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/AppFlexInputViewModel;->access$handleStoreState(Lcom/discord/widgets/chat/input/AppFlexInputViewModel;Lcom/discord/widgets/chat/input/AppFlexInputViewModel$StoreState;)V
 
     return-void

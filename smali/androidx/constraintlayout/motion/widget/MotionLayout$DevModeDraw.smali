@@ -1666,7 +1666,6 @@
 
     iget-object v2, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$DevModeDraw;->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
-    # getter for: Landroidx/constraintlayout/motion/widget/MotionLayout;->mEndState:I
     invoke-static {v2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->access$000(Landroidx/constraintlayout/motion/widget/MotionLayout;)I
 
     move-result v2

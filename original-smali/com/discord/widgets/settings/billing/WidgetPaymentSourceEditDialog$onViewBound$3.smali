@@ -100,7 +100,6 @@
     :cond_8
     iget-object v0, p0, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$onViewBound$3;->this$0:Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;->initPaymentSourceInfo(Lcom/discord/widgets/settings/billing/PaymentSourceAdapter$PaymentSourceItem;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;->access$initPaymentSourceInfo(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;Lcom/discord/widgets/settings/billing/PaymentSourceAdapter$PaymentSourceItem;)V
 
     :goto_d

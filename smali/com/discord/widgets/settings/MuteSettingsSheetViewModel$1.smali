@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/MuteSettingsSheetViewModel$1;->this$0:Lcom/discord/widgets/settings/MuteSettingsSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/settings/MuteSettingsSheetViewModel;->handleStoreState(Lcom/discord/widgets/settings/MuteSettingsSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/MuteSettingsSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/settings/MuteSettingsSheetViewModel;Lcom/discord/widgets/settings/MuteSettingsSheetViewModel$StoreState;)V
 
     return-void

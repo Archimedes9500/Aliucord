@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/chat/input/ChatInputViewModel$sendMessage$messageSendResultHandler$1;->this$0:Lcom/discord/widgets/chat/input/ChatInputViewModel;
 
-    # getter for: Lcom/discord/widgets/chat/input/ChatInputViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/ChatInputViewModel;->access$getEventSubject$p(Lcom/discord/widgets/chat/input/ChatInputViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object v0

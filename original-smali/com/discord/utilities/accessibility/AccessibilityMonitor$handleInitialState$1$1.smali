@@ -96,7 +96,6 @@
 
     iget-boolean v0, p0, Lcom/discord/utilities/accessibility/AccessibilityMonitor$handleInitialState$1$1;->$enabled:Z
 
-    # invokes: Lcom/discord/utilities/accessibility/AccessibilityMonitor;->handleScreenreaderEnabledUpdate(Z)V
     invoke-static {p1, v0}, Lcom/discord/utilities/accessibility/AccessibilityMonitor;->access$handleScreenreaderEnabledUpdate(Lcom/discord/utilities/accessibility/AccessibilityMonitor;Z)V
 
     return-void

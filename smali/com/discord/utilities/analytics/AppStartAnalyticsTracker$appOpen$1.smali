@@ -151,7 +151,6 @@
     .line 5
     iget-object v2, p0, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker$appOpen$1;->this$0:Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;
 
-    # getter for: Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;->storeUserSettingsSystem:Lcom/discord/stores/StoreUserSettingsSystem;
     invoke-static {v2}, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;->access$getStoreUserSettingsSystem$p(Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;)Lcom/discord/stores/StoreUserSettingsSystem;
 
     move-result-object v2
@@ -178,13 +177,11 @@
 
     iget-object v2, p0, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker$appOpen$1;->$uri:Landroid/net/Uri;
 
-    # invokes: Lcom/discord/utilities/analytics/AppStartAnalyticsTracker$Companion;->insertUriProperties(Ljava/util/Map;Landroid/net/Uri;)Ljava/util/Map;
     invoke-static {v1, v0, v2}, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker$Companion;->access$insertUriProperties(Lcom/discord/utilities/analytics/AppStartAnalyticsTracker$Companion;Ljava/util/Map;Landroid/net/Uri;)Ljava/util/Map;
 
     .line 8
     iget-object v1, p0, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker$appOpen$1;->this$0:Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;
 
-    # getter for: Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;->appOpenTimestamp:Ljava/lang/Long;
     invoke-static {v1}, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;->access$getAppOpenTimestamp$p(Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;)Ljava/lang/Long;
 
     move-result-object v1
@@ -194,7 +191,6 @@
     .line 9
     iget-object v1, p0, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker$appOpen$1;->this$0:Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;
 
-    # getter for: Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;->openAppLoadId:Ljava/lang/String;
     invoke-static {v1}, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;->access$getOpenAppLoadId$p(Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;)Ljava/lang/String;
 
     move-result-object v1
@@ -206,7 +202,6 @@
     .line 10
     iget-object v1, p0, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker$appOpen$1;->this$0:Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;
 
-    # getter for: Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v1}, Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;->access$getClock$p(Lcom/discord/utilities/analytics/AppStartAnalyticsTracker;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v2

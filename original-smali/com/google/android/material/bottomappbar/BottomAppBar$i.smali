@@ -45,7 +45,6 @@
     .line 2
     iget-object p1, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$i;->a:Lcom/google/android/material/bottomappbar/BottomAppBar;
 
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->findDependentFab()Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
     invoke-static {p1}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$2200(Lcom/google/android/material/bottomappbar/BottomAppBar;)Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
     move-result-object p1
@@ -55,7 +54,6 @@
     .line 3
     iget-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$i;->a:Lcom/google/android/material/bottomappbar/BottomAppBar;
 
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->getFabTranslationX()F
     invoke-static {v0}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$2300(Lcom/google/android/material/bottomappbar/BottomAppBar;)F
 
     move-result v0

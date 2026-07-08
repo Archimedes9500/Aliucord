@@ -93,7 +93,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/stores/StoreGifting;->removeGiftCode(Ljava/lang/String;)V
     invoke-static {v1, v0}, Lcom/discord/stores/StoreGifting;->access$removeGiftCode(Lcom/discord/stores/StoreGifting;Ljava/lang/String;)V
 
     return-void

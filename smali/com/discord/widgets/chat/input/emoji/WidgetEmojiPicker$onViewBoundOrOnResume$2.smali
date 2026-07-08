@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$onViewBoundOrOnResume$2;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->handleEvent(Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$handleEvent(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;Lcom/discord/widgets/chat/input/emoji/EmojiPickerViewModel$Event;)V
 
     return-void

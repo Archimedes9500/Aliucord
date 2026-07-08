@@ -76,7 +76,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/utilities/lifecycle/ActivityProvider;->INSTANCE:Lcom/discord/utilities/lifecycle/ActivityProvider;
     invoke-static {}, Lcom/discord/utilities/lifecycle/ActivityProvider;->access$getINSTANCE$cp()Lcom/discord/utilities/lifecycle/ActivityProvider;
 
     move-result-object v0
@@ -110,7 +109,6 @@
     invoke-static {v0}, Lcom/discord/utilities/lifecycle/ActivityProvider;->access$setINSTANCE$cp(Lcom/discord/utilities/lifecycle/ActivityProvider;)V
 
     .line 2
-    # getter for: Lcom/discord/utilities/lifecycle/ActivityProvider;->INSTANCE:Lcom/discord/utilities/lifecycle/ActivityProvider;
     invoke-static {}, Lcom/discord/utilities/lifecycle/ActivityProvider;->access$getINSTANCE$cp()Lcom/discord/utilities/lifecycle/ActivityProvider;
 
     move-result-object v0

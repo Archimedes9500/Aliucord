@@ -110,7 +110,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/nux/WidgetGuildTemplates$adapter$1;->this$0:Lcom/discord/widgets/nux/WidgetGuildTemplates;
 
-    # invokes: Lcom/discord/widgets/nux/WidgetGuildTemplates;->getArgs()Lcom/discord/widgets/nux/GuildCreateArgs;
     invoke-static {p1}, Lcom/discord/widgets/nux/WidgetGuildTemplates;->access$getArgs$p(Lcom/discord/widgets/nux/WidgetGuildTemplates;)Lcom/discord/widgets/nux/GuildCreateArgs;
 
     move-result-object p1
@@ -122,7 +121,6 @@
     .line 6
     iget-object p1, p0, Lcom/discord/widgets/nux/WidgetGuildTemplates$adapter$1;->this$0:Lcom/discord/widgets/nux/WidgetGuildTemplates;
 
-    # invokes: Lcom/discord/widgets/nux/WidgetGuildTemplates;->getArgs()Lcom/discord/widgets/nux/GuildCreateArgs;
     invoke-static {p1}, Lcom/discord/widgets/nux/WidgetGuildTemplates;->access$getArgs$p(Lcom/discord/widgets/nux/WidgetGuildTemplates;)Lcom/discord/widgets/nux/GuildCreateArgs;
 
     move-result-object p1
@@ -139,7 +137,6 @@
     .line 8
     iget-object p1, p0, Lcom/discord/widgets/nux/WidgetGuildTemplates$adapter$1;->this$0:Lcom/discord/widgets/nux/WidgetGuildTemplates;
 
-    # invokes: Lcom/discord/widgets/nux/WidgetGuildTemplates;->getArgs()Lcom/discord/widgets/nux/GuildCreateArgs;
     invoke-static {p1}, Lcom/discord/widgets/nux/WidgetGuildTemplates;->access$getArgs$p(Lcom/discord/widgets/nux/WidgetGuildTemplates;)Lcom/discord/widgets/nux/GuildCreateArgs;
 
     move-result-object p1
@@ -184,7 +181,6 @@
 
     const-string v2, "Server Intent Discovery"
 
-    # invokes: Lcom/discord/widgets/nux/WidgetGuildTemplates;->trackPostRegistrationTransition(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {p1, v1, v2}, Lcom/discord/widgets/nux/WidgetGuildTemplates;->access$trackPostRegistrationTransition(Lcom/discord/widgets/nux/WidgetGuildTemplates;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
@@ -192,7 +188,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/nux/WidgetGuildTemplates$adapter$1;->this$0:Lcom/discord/widgets/nux/WidgetGuildTemplates;
 
-    # invokes: Lcom/discord/widgets/nux/WidgetGuildTemplates;->getArgs()Lcom/discord/widgets/nux/GuildCreateArgs;
     invoke-static {v1}, Lcom/discord/widgets/nux/WidgetGuildTemplates;->access$getArgs$p(Lcom/discord/widgets/nux/WidgetGuildTemplates;)Lcom/discord/widgets/nux/GuildCreateArgs;
 
     move-result-object v2

@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet$configureProfileActionButtons$8;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->ignoreFriendRequest()V
     invoke-static {v0}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$ignoreFriendRequest(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;)V
 
     return-void

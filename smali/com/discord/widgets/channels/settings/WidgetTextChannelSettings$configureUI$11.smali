@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$11;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getState$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1
@@ -88,14 +87,12 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$11;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->state:Lcom/discord/utilities/stateful/StatefulViews;
     invoke-static {p1}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getState$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/utilities/stateful/StatefulViews;
 
     move-result-object p1
 
     iget-object v1, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$11;->this$0:Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->getBinding()Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getBinding$p(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;)Lcom/discord/databinding/WidgetTextChannelSettingsBinding;
 
     move-result-object v1
@@ -109,7 +106,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings$configureUI$11;->$durationsMap:Ljava/util/Map;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->updateRadioState(Ljava/util/Map;I)V
     invoke-static {p1, v1, v0}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$updateRadioState(Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;Ljava/util/Map;I)V
 
     return-void

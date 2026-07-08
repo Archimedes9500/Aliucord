@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreUserSurvey$observeUserSurvey$1;->this$0:Lcom/discord/stores/StoreUserSurvey;
 
-    # invokes: Lcom/discord/stores/StoreUserSurvey;->getUserSurvey()Lcom/discord/api/user/UserSurvey;
     invoke-static {v0}, Lcom/discord/stores/StoreUserSurvey;->access$getUserSurvey(Lcom/discord/stores/StoreUserSurvey;)Lcom/discord/api/user/UserSurvey;
 
     move-result-object v0

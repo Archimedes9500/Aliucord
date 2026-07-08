@@ -108,7 +108,6 @@
 
     iget-object v2, v2, Lcom/discord/stores/StoreMessages$sendMessage$createRequest$1;->this$0:Lcom/discord/stores/StoreMessages;
 
-    # getter for: Lcom/discord/stores/StoreMessages;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v2}, Lcom/discord/stores/StoreMessages;->access$getDispatcher$p(Lcom/discord/stores/StoreMessages;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v2

@@ -168,7 +168,6 @@
     move-result v6
 
     .line 10
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$ViewState$Valid;->computeMenuItems(ZZZLco/discord/media_engine/VideoInputDeviceDescription;Ljava/util/List;Z)Ljava/util/Set;
     invoke-static/range {v0 .. v6}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$ViewState$Valid;->access$computeMenuItems(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreenViewModel$ViewState$Valid;ZZZLco/discord/media_engine/VideoInputDeviceDescription;Ljava/util/List;Z)Ljava/util/Set;
 
     move-result-object v0

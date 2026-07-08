@@ -158,7 +158,6 @@
 
     invoke-static {v0, v4}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->parseMessagePreview(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$StoreState;)Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$MessagePreview;
     invoke-static {v3, v0}, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->access$parseMessagePreview(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$StoreState;)Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$MessagePreview;
 
     move-result-object v3
@@ -179,7 +178,6 @@
     :cond_3d
     iget-object v4, p0, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$2;->this$0:Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->parseChannelPreview(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$StoreState;)Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$ChannelPreview;
     invoke-static {v4, v0}, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->access$parseChannelPreview(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$StoreState;)Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$ChannelPreview;
 
     move-result-object v4
@@ -236,7 +234,6 @@
     .line 13
     iget-object p1, p0, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$2;->this$0:Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->parseDirectoryServerPreview(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$StoreState;)Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$DirectoryServerPreview;
     invoke-static {p1, v0}, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->access$parseDirectoryServerPreview(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$StoreState;)Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$DirectoryServerPreview;
 
     move-result-object v5
@@ -244,7 +241,6 @@
     .line 14
     iget-object p1, p0, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$2;->this$0:Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->parseEventPreview(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$StoreState;)Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$GuildScheduledEventPreview;
     invoke-static {p1, v0}, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->access$parseEventPreview(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$StoreState;)Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$GuildScheduledEventPreview;
 
     move-result-object v6
@@ -264,7 +260,6 @@
 
     .line 16
     :goto_83
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v13, v4}, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->access$updateViewState(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$ViewState;)V
 
     goto :goto_8e
@@ -275,7 +270,6 @@
 
     sget-object v0, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$ViewState$Invalid;->INSTANCE:Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$ViewState$Invalid;
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->access$updateViewState(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$ViewState;)V
 
     :goto_8e

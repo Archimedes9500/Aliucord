@@ -105,7 +105,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity$configureAvatar$2;->this$0:Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->getViewModel()Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$getViewModel$p(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;)Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentityViewModel;
 
     move-result-object p1
@@ -122,7 +121,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity$configureAvatar$2;->this$0:Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;
 
-    # getter for: Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->avatarSelectedResult:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;->access$getAvatarSelectedResult$p(Lcom/discord/widgets/guilds/profile/WidgetChangeGuildIdentity;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

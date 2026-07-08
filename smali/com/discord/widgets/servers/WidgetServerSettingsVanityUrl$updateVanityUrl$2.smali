@@ -96,7 +96,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->showLoadingUI(Z)V
     invoke-static {v0, v1}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$showLoadingUI(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;Z)V
 
     .line 3
@@ -122,7 +121,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl$updateVanityUrl$2;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->getBinding()Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
     invoke-static {p1}, Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsVanityUrl;)Lcom/discord/databinding/WidgetServerSettingsVanityUrlBinding;
 
     move-result-object p1

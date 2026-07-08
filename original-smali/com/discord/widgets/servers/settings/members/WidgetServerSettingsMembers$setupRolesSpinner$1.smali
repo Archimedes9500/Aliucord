@@ -107,7 +107,6 @@
     .line 2
     iget-object p2, p0, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers$setupRolesSpinner$1;->this$0:Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;
 
-    # getter for: Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;->roleFilterPublisher:Lrx/subjects/Subject;
     invoke-static {p2}, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;->access$getRoleFilterPublisher$p(Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;)Lrx/subjects/Subject;
 
     move-result-object p2

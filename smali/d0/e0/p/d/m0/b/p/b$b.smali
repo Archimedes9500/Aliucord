@@ -29,7 +29,6 @@
     .line 1
     iput-object p1, p0, Ld0/e0/p/d/m0/b/p/b$b;->c:Ld0/e0/p/d/m0/b/p/b;
 
-    # getter for: Ld0/e0/p/d/m0/b/p/b;->q:Ld0/e0/p/d/m0/m/o;
     invoke-static {p1}, Ld0/e0/p/d/m0/b/p/b;->access$getStorageManager$p(Ld0/e0/p/d/m0/b/p/b;)Ld0/e0/p/d/m0/m/o;
 
     move-result-object p1
@@ -82,7 +81,6 @@
     new-array v0, v3, [Ld0/e0/p/d/m0/g/a;
 
     .line 2
-    # getter for: Ld0/e0/p/d/m0/b/p/b;->p:Ld0/e0/p/d/m0/g/a;
     invoke-static {}, Ld0/e0/p/d/m0/b/p/b;->access$getKFunctionClassId$cp()Ld0/e0/p/d/m0/g/a;
 
     move-result-object v3
@@ -126,7 +124,6 @@
     new-array v0, v3, [Ld0/e0/p/d/m0/g/a;
 
     .line 3
-    # getter for: Ld0/e0/p/d/m0/b/p/b;->p:Ld0/e0/p/d/m0/g/a;
     invoke-static {}, Ld0/e0/p/d/m0/b/p/b;->access$getKFunctionClassId$cp()Ld0/e0/p/d/m0/g/a;
 
     move-result-object v3
@@ -161,7 +158,6 @@
 
     .line 4
     :cond_60
-    # getter for: Ld0/e0/p/d/m0/b/p/b;->o:Ld0/e0/p/d/m0/g/a;
     invoke-static {}, Ld0/e0/p/d/m0/b/p/b;->access$getFunctionClassId$cp()Ld0/e0/p/d/m0/g/a;
 
     move-result-object v0
@@ -174,7 +170,6 @@
 
     .line 5
     :cond_69
-    # getter for: Ld0/e0/p/d/m0/b/p/b;->o:Ld0/e0/p/d/m0/g/a;
     invoke-static {}, Ld0/e0/p/d/m0/b/p/b;->access$getFunctionClassId$cp()Ld0/e0/p/d/m0/g/a;
 
     move-result-object v0
@@ -187,7 +182,6 @@
     :goto_71
     iget-object v1, p0, Ld0/e0/p/d/m0/b/p/b$b;->c:Ld0/e0/p/d/m0/b/p/b;
 
-    # getter for: Ld0/e0/p/d/m0/b/p/b;->r:Ld0/e0/p/d/m0/c/e0;
     invoke-static {v1}, Ld0/e0/p/d/m0/b/p/b;->access$getContainingDeclaration$p(Ld0/e0/p/d/m0/b/p/b;)Ld0/e0/p/d/m0/c/e0;
 
     move-result-object v1
@@ -406,7 +400,6 @@
     .line 1
     iget-object v0, p0, Ld0/e0/p/d/m0/b/p/b$b;->c:Ld0/e0/p/d/m0/b/p/b;
 
-    # getter for: Ld0/e0/p/d/m0/b/p/b;->w:Ljava/util/List;
     invoke-static {v0}, Ld0/e0/p/d/m0/b/p/b;->access$getParameters$p(Ld0/e0/p/d/m0/b/p/b;)Ljava/util/List;
 
     move-result-object v0

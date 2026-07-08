@@ -39,7 +39,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/chip/Chip$c;->a:Lcom/google/android/material/chip/Chip;
 
-    # invokes: Lcom/google/android/material/chip/Chip;->hasCloseIcon()Z
     invoke-static {v0}, Lcom/google/android/material/chip/Chip;->access$100(Lcom/google/android/material/chip/Chip;)Z
 
     move-result v0
@@ -48,7 +47,6 @@
 
     iget-object v0, p0, Lcom/google/android/material/chip/Chip$c;->a:Lcom/google/android/material/chip/Chip;
 
-    # invokes: Lcom/google/android/material/chip/Chip;->getCloseIconTouchBounds()Landroid/graphics/RectF;
     invoke-static {v0}, Lcom/google/android/material/chip/Chip;->access$200(Lcom/google/android/material/chip/Chip;)Landroid/graphics/RectF;
 
     move-result-object v0
@@ -97,7 +95,6 @@
     .line 2
     iget-object v0, p0, Lcom/google/android/material/chip/Chip$c;->a:Lcom/google/android/material/chip/Chip;
 
-    # invokes: Lcom/google/android/material/chip/Chip;->hasCloseIcon()Z
     invoke-static {v0}, Lcom/google/android/material/chip/Chip;->access$100(Lcom/google/android/material/chip/Chip;)Z
 
     move-result v0
@@ -114,7 +111,6 @@
 
     iget-object v0, p0, Lcom/google/android/material/chip/Chip$c;->a:Lcom/google/android/material/chip/Chip;
 
-    # getter for: Lcom/google/android/material/chip/Chip;->onCloseIconClickListener:Landroid/view/View$OnClickListener;
     invoke-static {v0}, Lcom/google/android/material/chip/Chip;->access$300(Lcom/google/android/material/chip/Chip;)Landroid/view/View$OnClickListener;
 
     move-result-object v0
@@ -353,7 +349,6 @@
     :goto_36
     iget-object p1, p0, Lcom/google/android/material/chip/Chip$c;->a:Lcom/google/android/material/chip/Chip;
 
-    # invokes: Lcom/google/android/material/chip/Chip;->getCloseIconTouchBoundsInt()Landroid/graphics/Rect;
     invoke-static {p1}, Lcom/google/android/material/chip/Chip;->access$500(Lcom/google/android/material/chip/Chip;)Landroid/graphics/Rect;
 
     move-result-object p1
@@ -381,7 +376,6 @@
     invoke-virtual {p2, v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setContentDescription(Ljava/lang/CharSequence;)V
 
     .line 14
-    # getter for: Lcom/google/android/material/chip/Chip;->EMPTY_BOUNDS:Landroid/graphics/Rect;
     invoke-static {}, Lcom/google/android/material/chip/Chip;->access$600()Landroid/graphics/Rect;
 
     move-result-object p1
@@ -402,7 +396,6 @@
     .line 1
     iget-object p1, p0, Lcom/google/android/material/chip/Chip$c;->a:Lcom/google/android/material/chip/Chip;
 
-    # setter for: Lcom/google/android/material/chip/Chip;->closeIconFocused:Z
     invoke-static {p1, p2}, Lcom/google/android/material/chip/Chip;->access$402(Lcom/google/android/material/chip/Chip;Z)Z
 
     .line 2

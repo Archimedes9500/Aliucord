@@ -91,7 +91,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker$track$1;->this$0:Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker;
 
-    # invokes: Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker;->drainEventsQueue()V
     invoke-static {p1}, Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker;->access$drainEventsQueue(Lcom/discord/utilities/analytics/AnalyticsUtils$Tracker;)V
 
     return-void

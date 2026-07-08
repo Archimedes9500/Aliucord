@@ -102,7 +102,6 @@
     iget-object v0, p0, Lcom/discord/stores/StoreGuildRoleSubscriptions$fetchGuildRoleSubscriptionGroup$2$1;->$guildRoleSubscriptionGroupListing:Lcom/discord/api/guildrolesubscription/GuildRoleSubscriptionGroupListing;
 
     .line 5
-    # invokes: Lcom/discord/stores/StoreGuildRoleSubscriptions;->handleGuildRoleSubscriptionGroupFetch(JLcom/discord/api/guildrolesubscription/GuildRoleSubscriptionGroupListing;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$handleGuildRoleSubscriptionGroupFetch(Lcom/discord/stores/StoreGuildRoleSubscriptions;JLcom/discord/api/guildrolesubscription/GuildRoleSubscriptionGroupListing;)V
 
     .line 6
@@ -114,7 +113,6 @@
 
     iget-object v0, p0, Lcom/discord/stores/StoreGuildRoleSubscriptions$fetchGuildRoleSubscriptionGroup$2$1;->$guildRoleSubscriptionTrials:Ljava/util/List;
 
-    # invokes: Lcom/discord/stores/StoreGuildRoleSubscriptions;->handleGuildRoleSubscriptionFreeTrialListFetch(JLjava/util/List;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$handleGuildRoleSubscriptionFreeTrialListFetch(Lcom/discord/stores/StoreGuildRoleSubscriptions;JLjava/util/List;)V
 
     return-void

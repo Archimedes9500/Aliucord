@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildMemberVerificationForm$fetchMemberVerificationForm$1;->this$0:Lcom/discord/stores/StoreGuildMemberVerificationForm;
 
-    # getter for: Lcom/discord/stores/StoreGuildMemberVerificationForm;->memberVerificationFormState:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildMemberVerificationForm;->access$getMemberVerificationFormState$p(Lcom/discord/stores/StoreGuildMemberVerificationForm;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -132,13 +131,11 @@
 
     iget-wide v2, p0, Lcom/discord/stores/StoreGuildMemberVerificationForm$fetchMemberVerificationForm$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreGuildMemberVerificationForm;->handleMemberVerificationFormFetchStart(J)V
     invoke-static {v0, v2, v3}, Lcom/discord/stores/StoreGuildMemberVerificationForm;->access$handleMemberVerificationFormFetchStart(Lcom/discord/stores/StoreGuildMemberVerificationForm;J)V
 
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StoreGuildMemberVerificationForm$fetchMemberVerificationForm$1;->this$0:Lcom/discord/stores/StoreGuildMemberVerificationForm;
 
-    # getter for: Lcom/discord/stores/StoreGuildMemberVerificationForm;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildMemberVerificationForm;->access$getRestAPI$p(Lcom/discord/stores/StoreGuildMemberVerificationForm;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0

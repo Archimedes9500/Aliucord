@@ -397,7 +397,6 @@
     const/4 v1, 0x1
 
     .line 2
-    # setter for: Lcom/google/android/material/shape/MaterialShapeDrawable;->pathDirty:Z
     invoke-static {v0, v1}, Lcom/google/android/material/shape/MaterialShapeDrawable;->access$402(Lcom/google/android/material/shape/MaterialShapeDrawable;Z)Z
 
     return-object v0

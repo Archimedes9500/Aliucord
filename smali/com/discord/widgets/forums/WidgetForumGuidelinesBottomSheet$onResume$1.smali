@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/forums/WidgetForumGuidelinesBottomSheet$onResume$1;->this$0:Lcom/discord/widgets/forums/WidgetForumGuidelinesBottomSheet;
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumGuidelinesBottomSheet;->configureUI(Lcom/discord/api/channel/Channel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/forums/WidgetForumGuidelinesBottomSheet;->access$configureUI(Lcom/discord/widgets/forums/WidgetForumGuidelinesBottomSheet;Lcom/discord/api/channel/Channel;)V
 
     return-void

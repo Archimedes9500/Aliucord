@@ -2781,7 +2781,6 @@
 
     const/4 v3, 0x0
 
-    # invokes: Lcom/discord/gateway/GatewaySocket$Companion;->log(Lcom/discord/utilities/logging/Logger;Ljava/lang/String;Z)V
     invoke-static {v0, v1, v2, v3}, Lcom/discord/gateway/GatewaySocket$Companion;->access$log(Lcom/discord/gateway/GatewaySocket$Companion;Lcom/discord/utilities/logging/Logger;Ljava/lang/String;Z)V
 
     .line 2
@@ -3460,7 +3459,6 @@
 
     const/4 v3, 0x0
 
-    # invokes: Lcom/discord/gateway/GatewaySocket$Companion;->log(Lcom/discord/utilities/logging/Logger;Ljava/lang/String;Z)V
     invoke-static {v0, v1, v2, v3}, Lcom/discord/gateway/GatewaySocket$Companion;->access$log(Lcom/discord/gateway/GatewaySocket$Companion;Lcom/discord/utilities/logging/Logger;Ljava/lang/String;Z)V
 
     .line 2

@@ -370,7 +370,6 @@
     move-object/from16 v23, p11
 
     .line 19
-    # invokes: Lcom/discord/widgets/voice/model/CallModel$Companion;->create(Lcom/discord/api/channel/Channel;Lcom/discord/models/guild/Guild;JJLcom/discord/stores/StoreMediaSettings$VoiceConfiguration;Ljava/util/Map;Ljava/lang/Long;Ljava/util/List;ZLco/discord/media_engine/VideoInputDeviceDescription;Lcom/discord/stores/StoreApplicationStreaming$ActiveApplicationStream;Lcom/discord/rtcconnection/RtcConnection$Metadata;IILcom/discord/stores/StoreAudioManagerV2$State;Lcom/discord/utilities/voice/VoiceChannelJoinability;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)Lcom/discord/widgets/voice/model/CallModel;
     invoke-static/range {v2 .. v23}, Lcom/discord/widgets/voice/model/CallModel$Companion;->access$create(Lcom/discord/widgets/voice/model/CallModel$Companion;Lcom/discord/api/channel/Channel;Lcom/discord/models/guild/Guild;JJLcom/discord/stores/StoreMediaSettings$VoiceConfiguration;Ljava/util/Map;Ljava/lang/Long;Ljava/util/List;ZLco/discord/media_engine/VideoInputDeviceDescription;Lcom/discord/stores/StoreApplicationStreaming$ActiveApplicationStream;Lcom/discord/rtcconnection/RtcConnection$Metadata;IILcom/discord/stores/StoreAudioManagerV2$State;Lcom/discord/utilities/voice/VoiceChannelJoinability;Ljava/util/List;Ljava/util/Map;Ljava/util/Map;)Lcom/discord/widgets/voice/model/CallModel;
 
     move-result-object v1

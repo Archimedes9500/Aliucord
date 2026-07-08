@@ -82,7 +82,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->onItemClick(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$CallStatus;J)V
     invoke-static {p1, v0, v1, v2}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->access$onItemClick(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$CallStatus;J)V
 
     return-void

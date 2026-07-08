@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/stores/StoreSearch;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreSearch;->handleSubscription(Lrx/Subscription;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreSearch;->access$handleSubscription(Lcom/discord/stores/StoreSearch;Lrx/Subscription;)V
 
     return-void

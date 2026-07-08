@@ -98,13 +98,11 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/spotify/SpotifyApiClient$fetchSpotifyTrack$2;->this$0:Lcom/discord/utilities/spotify/SpotifyApiClient;
 
-    # invokes: Lcom/discord/utilities/spotify/SpotifyApiClient;->setCachedTrack(Lcom/discord/models/domain/spotify/ModelSpotifyTrack;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/spotify/SpotifyApiClient;->access$setCachedTrack(Lcom/discord/utilities/spotify/SpotifyApiClient;Lcom/discord/models/domain/spotify/ModelSpotifyTrack;)V
 
     .line 3
     iget-object p1, p0, Lcom/discord/utilities/spotify/SpotifyApiClient$fetchSpotifyTrack$2;->this$0:Lcom/discord/utilities/spotify/SpotifyApiClient;
 
-    # getter for: Lcom/discord/utilities/spotify/SpotifyApiClient;->spotifyTrackSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/utilities/spotify/SpotifyApiClient;->access$getSpotifyTrackSubject$p(Lcom/discord/utilities/spotify/SpotifyApiClient;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1
@@ -113,7 +111,6 @@
 
     iget-object v1, p0, Lcom/discord/utilities/spotify/SpotifyApiClient$fetchSpotifyTrack$2;->$trackId:Ljava/lang/String;
 
-    # invokes: Lcom/discord/utilities/spotify/SpotifyApiClient;->getCachedTrack(Ljava/lang/String;)Lcom/discord/models/domain/spotify/ModelSpotifyTrack;
     invoke-static {v0, v1}, Lcom/discord/utilities/spotify/SpotifyApiClient;->access$getCachedTrack(Lcom/discord/utilities/spotify/SpotifyApiClient;Ljava/lang/String;)Lcom/discord/models/domain/spotify/ModelSpotifyTrack;
 
     move-result-object v0

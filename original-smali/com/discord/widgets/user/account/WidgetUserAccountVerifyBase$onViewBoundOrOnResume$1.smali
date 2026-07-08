@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase;
 
     .line 2
-    # invokes: Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase;->handleIsAuthorized(Z)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase;->access$handleIsAuthorized(Lcom/discord/widgets/user/account/WidgetUserAccountVerifyBase;Z)V
 
     return-void

@@ -50,7 +50,6 @@
     .line 1
     iget-object p1, p0, Landroidx/fragment/app/DialogFragment$2;->this$0:Landroidx/fragment/app/DialogFragment;
 
-    # getter for: Landroidx/fragment/app/DialogFragment;->mDialog:Landroid/app/Dialog;
     invoke-static {p1}, Landroidx/fragment/app/DialogFragment;->access$000(Landroidx/fragment/app/DialogFragment;)Landroid/app/Dialog;
 
     move-result-object p1
@@ -60,7 +59,6 @@
     .line 2
     iget-object p1, p0, Landroidx/fragment/app/DialogFragment$2;->this$0:Landroidx/fragment/app/DialogFragment;
 
-    # getter for: Landroidx/fragment/app/DialogFragment;->mDialog:Landroid/app/Dialog;
     invoke-static {p1}, Landroidx/fragment/app/DialogFragment;->access$000(Landroidx/fragment/app/DialogFragment;)Landroid/app/Dialog;
 
     move-result-object v0

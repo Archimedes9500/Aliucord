@@ -74,7 +74,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostSampleGuildAdapter;->onGuildClickedListener:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostSampleGuildAdapter;->access$getOnGuildClickedListener$p(Lcom/discord/widgets/settings/guildboost/SettingsGuildBoostSampleGuildAdapter;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

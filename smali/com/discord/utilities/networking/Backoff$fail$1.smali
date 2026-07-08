@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/utilities/networking/Backoff$fail$1;->$callback:Lkotlin/jvm/functions/Function0;
 
-    # invokes: Lcom/discord/utilities/networking/Backoff;->executeFailureCallback(Lkotlin/jvm/functions/Function0;)V
     invoke-static {v0, v1}, Lcom/discord/utilities/networking/Backoff;->access$executeFailureCallback(Lcom/discord/utilities/networking/Backoff;Lkotlin/jvm/functions/Function0;)V
 
     return-void

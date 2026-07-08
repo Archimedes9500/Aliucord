@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/models/domain/Consents;->DEFAULT:Lcom/discord/models/domain/Consents;
     invoke-static {}, Lcom/discord/models/domain/Consents;->access$getDEFAULT$cp()Lcom/discord/models/domain/Consents;
 
     move-result-object v0

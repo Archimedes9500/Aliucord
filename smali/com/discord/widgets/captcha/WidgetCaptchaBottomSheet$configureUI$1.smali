@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet$configureUI$1;->this$0:Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;
 
-    # invokes: Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;->openCaptcha()V
     invoke-static {p1}, Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;->access$openCaptcha(Lcom/discord/widgets/captcha/WidgetCaptchaBottomSheet;)V
 
     return-void

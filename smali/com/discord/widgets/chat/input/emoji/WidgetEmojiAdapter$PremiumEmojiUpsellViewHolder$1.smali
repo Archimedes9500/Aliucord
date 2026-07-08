@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter$PremiumEmojiUpsellViewHolder$1;->$adapter:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;->onGetPremiumCtaClicked:Lkotlin/jvm/functions/Function0;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;->access$getOnGetPremiumCtaClicked$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiAdapter;)Lkotlin/jvm/functions/Function0;
 
     move-result-object p1

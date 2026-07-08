@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreDynamicLink$handleDataReceived$1;->this$0:Lcom/discord/stores/StoreDynamicLink;
 
-    # getter for: Lcom/discord/stores/StoreDynamicLink;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreDynamicLink;->access$getStream$p(Lcom/discord/stores/StoreDynamicLink;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0
@@ -133,7 +132,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StoreDynamicLink$handleDataReceived$1;->this$0:Lcom/discord/stores/StoreDynamicLink;
 
-    # getter for: Lcom/discord/stores/StoreDynamicLink;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreDynamicLink;->access$getStream$p(Lcom/discord/stores/StoreDynamicLink;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

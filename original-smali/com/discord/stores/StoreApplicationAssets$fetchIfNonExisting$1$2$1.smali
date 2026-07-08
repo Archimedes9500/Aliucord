@@ -89,7 +89,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreApplicationAssets$fetchIfNonExisting$1;->this$0:Lcom/discord/stores/StoreApplicationAssets;
 
-    # getter for: Lcom/discord/stores/StoreApplicationAssets;->embeddedAppBackgroundsLoading:Ljava/util/HashSet;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationAssets;->access$getEmbeddedAppBackgroundsLoading$p(Lcom/discord/stores/StoreApplicationAssets;)Ljava/util/HashSet;
 
     move-result-object v0

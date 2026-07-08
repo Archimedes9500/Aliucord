@@ -109,7 +109,6 @@
     invoke-virtual {v0, p1}, Lcom/android/billingclient/api/BillingClient;->h(Lb/d/a/a/b;)V
 
     .line 4
-    # getter for: Lcom/discord/utilities/billing/GooglePlayBillingManager;->backoffTimeMs:Ljava/util/concurrent/atomic/AtomicLong;
     invoke-static {p1}, Lcom/discord/utilities/billing/GooglePlayBillingManager;->access$getBackoffTimeMs$p(Lcom/discord/utilities/billing/GooglePlayBillingManager;)Ljava/util/concurrent/atomic/AtomicLong;
 
     move-result-object p1

@@ -76,7 +76,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$initializeAdapter$2;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->getViewModel()Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserViewModel;
     invoke-static {v1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getViewModel$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserViewModel;
 
     move-result-object v1
@@ -87,7 +86,6 @@
 
     iget-object v3, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser$initializeAdapter$2;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->getViewModel()Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserViewModel;
     invoke-static {v3}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;->access$getViewModel$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowser;)Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserViewModel;
 
     move-result-object v3

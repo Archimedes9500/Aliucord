@@ -98,7 +98,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildTemplates$requestGuildTemplate$2;->this$0:Lcom/discord/stores/StoreGuildTemplates;
 
-    # getter for: Lcom/discord/stores/StoreGuildTemplates;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildTemplates;->access$getDispatcher$p(Lcom/discord/stores/StoreGuildTemplates;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

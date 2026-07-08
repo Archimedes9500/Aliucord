@@ -99,7 +99,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember$setupRoles$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->getBinding()Lcom/discord/databinding/WidgetServerSettingsEditMemberBinding;
     invoke-static {v0}, Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;->access$getBinding$p(Lcom/discord/widgets/servers/WidgetServerSettingsEditMember;)Lcom/discord/databinding/WidgetServerSettingsEditMemberBinding;
 
     move-result-object v0

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod$configureUI$2;->this$0:Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;
 
-    # invokes: Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;->getViewModel()Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;->access$getViewModel$p(Lcom/discord/widgets/guild_automod/WidgetReportIssueWithAutoMod;)Lcom/discord/widgets/guild_automod/ReportIssueWithAutoModViewModel;
 
     move-result-object p1

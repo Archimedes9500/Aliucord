@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->configureUI(Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$configureUI(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel$ViewState;)V
 
     return-void

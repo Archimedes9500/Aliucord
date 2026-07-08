@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/billing/SettingsBillingViewModel$2;->this$0:Lcom/discord/widgets/settings/billing/SettingsBillingViewModel;
 
-    # invokes: Lcom/discord/widgets/settings/billing/SettingsBillingViewModel;->handleStoreState(Lcom/discord/widgets/settings/billing/SettingsBillingViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/billing/SettingsBillingViewModel;->access$handleStoreState(Lcom/discord/widgets/settings/billing/SettingsBillingViewModel;Lcom/discord/widgets/settings/billing/SettingsBillingViewModel$StoreState;)V
 
     return-void

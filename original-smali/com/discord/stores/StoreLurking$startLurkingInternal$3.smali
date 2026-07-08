@@ -109,7 +109,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/stores/StoreLurking$startLurkingInternal$3;->this$0:Lcom/discord/stores/StoreLurking;
 
-    # getter for: Lcom/discord/stores/StoreLurking;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreLurking;->access$getDispatcher$p(Lcom/discord/stores/StoreLurking;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

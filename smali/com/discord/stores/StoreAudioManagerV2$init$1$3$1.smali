@@ -95,7 +95,6 @@
 
     iget v1, p0, Lcom/discord/stores/StoreAudioManagerV2$init$1$3$1;->$it:I
 
-    # invokes: Lcom/discord/stores/StoreAudioManagerV2;->updateCurrentMediaVolume(I)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreAudioManagerV2;->access$updateCurrentMediaVolume(Lcom/discord/stores/StoreAudioManagerV2;I)V
 
     return-void

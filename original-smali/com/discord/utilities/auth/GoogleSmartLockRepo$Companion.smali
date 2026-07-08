@@ -68,7 +68,6 @@
 .method public final getINSTANCE()Lcom/discord/utilities/auth/GoogleSmartLockRepo;
     .locals 2
 
-    # getter for: Lcom/discord/utilities/auth/GoogleSmartLockRepo;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/utilities/auth/GoogleSmartLockRepo;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

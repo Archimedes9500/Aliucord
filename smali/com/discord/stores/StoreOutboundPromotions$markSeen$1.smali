@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreOutboundPromotions$markSeen$1;->this$0:Lcom/discord/stores/StoreOutboundPromotions;
 
-    # getter for: Lcom/discord/stores/StoreOutboundPromotions;->state:Lcom/discord/stores/StoreOutboundPromotions$State;
     invoke-static {v0}, Lcom/discord/stores/StoreOutboundPromotions;->access$getState$p(Lcom/discord/stores/StoreOutboundPromotions;)Lcom/discord/stores/StoreOutboundPromotions$State;
 
     move-result-object v0
@@ -229,7 +228,6 @@
     new-instance v2, Lcom/discord/stores/StoreOutboundPromotions$State$Loaded;
 
     .line 21
-    # invokes: Lcom/discord/stores/StoreOutboundPromotions;->getUnseenCount(Ljava/util/List;)I
     invoke-static {v1, v0}, Lcom/discord/stores/StoreOutboundPromotions;->access$getUnseenCount(Lcom/discord/stores/StoreOutboundPromotions;Ljava/util/List;)I
 
     move-result v3

@@ -76,7 +76,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps$onViewBound$3;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;->getViewModel()Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
     invoke-static {v0}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;->access$getViewModel$p(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunitySteps;)Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
 
     move-result-object v0

@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreMessageAck$PendingAck;->EMPTY:Lcom/discord/stores/StoreMessageAck$PendingAck;
     invoke-static {}, Lcom/discord/stores/StoreMessageAck$PendingAck;->access$getEMPTY$cp()Lcom/discord/stores/StoreMessageAck$PendingAck;
 
     move-result-object v0

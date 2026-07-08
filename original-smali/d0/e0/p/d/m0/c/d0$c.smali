@@ -100,7 +100,6 @@
     .line 6
     iget-object v1, p0, Ld0/e0/p/d/m0/c/d0$c;->this$0:Ld0/e0/p/d/m0/c/d0;
 
-    # getter for: Ld0/e0/p/d/m0/c/d0;->c:Ld0/e0/p/d/m0/m/h;
     invoke-static {v1}, Ld0/e0/p/d/m0/c/d0;->access$getPackageFragments$p(Ld0/e0/p/d/m0/c/d0;)Ld0/e0/p/d/m0/m/h;
 
     move-result-object v1
@@ -134,7 +133,6 @@
 
     iget-object v2, p0, Ld0/e0/p/d/m0/c/d0$c;->this$0:Ld0/e0/p/d/m0/c/d0;
 
-    # getter for: Ld0/e0/p/d/m0/c/d0;->a:Ld0/e0/p/d/m0/m/o;
     invoke-static {v2}, Ld0/e0/p/d/m0/c/d0;->access$getStorageManager$p(Ld0/e0/p/d/m0/c/d0;)Ld0/e0/p/d/m0/m/o;
 
     move-result-object v3

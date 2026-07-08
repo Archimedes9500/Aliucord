@@ -319,7 +319,6 @@
     .line 3
     sget-object p3, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->Companion:Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$Companion;->getStoreState(Lcom/discord/widgets/mobile_reports/MobileReportArgs;)Lrx/Observable;
     invoke-static {p3, p2}, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$Companion;->access$getStoreState(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$Companion;Lcom/discord/widgets/mobile_reports/MobileReportArgs;)Lrx/Observable;
 
     move-result-object p5
@@ -1182,7 +1181,6 @@
     .line 6
     sget-object v4, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel;->Companion:Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$Companion;->getLocation(Lcom/discord/api/report/ReportNode;)Ljava/lang/String;
     invoke-static {v4, v1}, Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$Companion;->access$getLocation(Lcom/discord/widgets/mobile_reports/MobileReportsViewModel$Companion;Lcom/discord/api/report/ReportNode;)Ljava/lang/String;
 
     move-result-object v6

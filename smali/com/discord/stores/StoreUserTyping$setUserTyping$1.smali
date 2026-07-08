@@ -119,7 +119,6 @@
     .line 3
     iget-object v4, p0, Lcom/discord/stores/StoreUserTyping$setUserTyping$1;->this$0:Lcom/discord/stores/StoreUserTyping;
 
-    # getter for: Lcom/discord/stores/StoreUserTyping;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v4}, Lcom/discord/stores/StoreUserTyping;->access$getDispatcher$p(Lcom/discord/stores/StoreUserTyping;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v4
@@ -157,7 +156,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/stores/StoreUserTyping$setUserTyping$1;->this$0:Lcom/discord/stores/StoreUserTyping;
 
-    # getter for: Lcom/discord/stores/StoreUserTyping;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreUserTyping;->access$getDispatcher$p(Lcom/discord/stores/StoreUserTyping;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

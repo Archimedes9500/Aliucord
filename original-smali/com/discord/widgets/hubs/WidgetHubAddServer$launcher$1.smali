@@ -133,7 +133,6 @@
 
     move-result-wide v3
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubAddServer;->onServerClickListener(JZ)V
     invoke-static {v0, v3, v4, v2}, Lcom/discord/widgets/hubs/WidgetHubAddServer;->access$onServerClickListener(Lcom/discord/widgets/hubs/WidgetHubAddServer;JZ)V
 
     :cond_2f

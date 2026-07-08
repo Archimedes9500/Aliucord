@@ -99,7 +99,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/stickers/WidgetGuildStickerSheet$bindSubscriptions$1;->this$0:Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;
 
-    # invokes: Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;->showLoading()V
     invoke-static {p1}, Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;->access$showLoading(Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;)V
 
     goto :goto_27
@@ -130,7 +129,6 @@
 
     check-cast p1, Lcom/discord/widgets/stickers/GuildStickerSheetViewModel$ViewState$Loaded;
 
-    # invokes: Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;->configureUI(Lcom/discord/widgets/stickers/GuildStickerSheetViewModel$ViewState$Loaded;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;->access$configureUI(Lcom/discord/widgets/stickers/WidgetGuildStickerSheet;Lcom/discord/widgets/stickers/GuildStickerSheetViewModel$ViewState$Loaded;)V
 
     :cond_27

@@ -104,13 +104,11 @@
     sget-object v1, Lcom/discord/views/phone/PhoneOrEmailInputView$Mode;->EMAIL:Lcom/discord/views/phone/PhoneOrEmailInputView$Mode;
 
     :goto_9
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->setInputMode(Lcom/discord/views/phone/PhoneOrEmailInputView$Mode;)V
     invoke-static {v0, v1}, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->access$setInputMode(Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;Lcom/discord/views/phone/PhoneOrEmailInputView$Mode;)V
 
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity$configureSegmentControl$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->getBinding()Lcom/discord/databinding/WidgetAuthRegisterIdentityBinding;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthRegisterIdentity;)Lcom/discord/databinding/WidgetAuthRegisterIdentityBinding;
 
     move-result-object v0

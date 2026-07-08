@@ -92,7 +92,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreGooglePlayPurchases$doDowngrade$2;->this$0:Lcom/discord/stores/StoreGooglePlayPurchases;
 
-    # getter for: Lcom/discord/stores/StoreGooglePlayPurchases;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreGooglePlayPurchases;->access$getDispatcher$p(Lcom/discord/stores/StoreGooglePlayPurchases;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

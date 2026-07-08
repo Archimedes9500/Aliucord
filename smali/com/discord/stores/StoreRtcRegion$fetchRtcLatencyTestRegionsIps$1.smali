@@ -106,7 +106,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreRtcRegion$fetchRtcLatencyTestRegionsIps$1;->this$0:Lcom/discord/stores/StoreRtcRegion;
 
-    # invokes: Lcom/discord/stores/StoreRtcRegion;->maybePerformLatencyTest(Ljava/util/List;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreRtcRegion;->access$maybePerformLatencyTest(Lcom/discord/stores/StoreRtcRegion;Ljava/util/List;)V
 
     return-void

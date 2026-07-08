@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/channels/WidgetChannelTopic;->configureUI(Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/WidgetChannelTopic;->access$configureUI(Lcom/discord/widgets/channels/WidgetChannelTopic;Lcom/discord/widgets/channels/WidgetChannelTopicViewModel$ViewState;)V
 
     return-void

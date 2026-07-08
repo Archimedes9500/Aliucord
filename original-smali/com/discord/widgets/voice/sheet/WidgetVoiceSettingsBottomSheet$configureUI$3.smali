@@ -83,7 +83,6 @@
 
     iget-object p1, p0, Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet$configureUI$3;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;->getChannelId()J
     invoke-static {p1}, Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;->access$getChannelId$p(Lcom/discord/widgets/voice/sheet/WidgetVoiceSettingsBottomSheet;)J
 
     move-result-wide v2

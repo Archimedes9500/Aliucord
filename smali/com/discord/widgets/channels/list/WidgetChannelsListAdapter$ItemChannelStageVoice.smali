@@ -481,7 +481,6 @@
 
     invoke-static {v9, v10}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelStageVoice$Companion;->getVoiceChannelColor(ZLandroid/content/Context;)I
     invoke-static {v8, v1, v9}, Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelStageVoice$Companion;->access$getVoiceChannelColor(Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemChannelStageVoice$Companion;ZLandroid/content/Context;)I
 
     move-result v8

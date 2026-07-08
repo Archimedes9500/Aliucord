@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreConnectivity$observeState$1;->this$0:Lcom/discord/stores/StoreConnectivity;
 
-    # invokes: Lcom/discord/stores/StoreConnectivity;->getState()Lcom/discord/stores/StoreConnectivity$DelayedState;
     invoke-static {v0}, Lcom/discord/stores/StoreConnectivity;->access$getState$p(Lcom/discord/stores/StoreConnectivity;)Lcom/discord/stores/StoreConnectivity$DelayedState;
 
     move-result-object v0

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreSearchData;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreSearchData;->handleNewData(Lcom/discord/utilities/search/validation/SearchData;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreSearchData;->access$handleNewData(Lcom/discord/stores/StoreSearchData;Lcom/discord/utilities/search/validation/SearchData;)V
 
     return-void

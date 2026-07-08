@@ -82,7 +82,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StorePinnedMessages$observePinnedMessage$1;->this$0:Lcom/discord/stores/StorePinnedMessages;
 
-    # getter for: Lcom/discord/stores/StorePinnedMessages;->pinnedMessages:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StorePinnedMessages;->access$getPinnedMessages$p(Lcom/discord/stores/StorePinnedMessages;)Ljava/util/Map;
 
     move-result-object v0
@@ -114,7 +113,6 @@
 
     iget-wide v2, p0, Lcom/discord/stores/StorePinnedMessages$observePinnedMessage$1;->$messageId:J
 
-    # invokes: Lcom/discord/stores/StorePinnedMessages$Companion;->getMessage(Ljava/util/List;J)Lcom/discord/models/message/Message;
     invoke-static {v1, v0, v2, v3}, Lcom/discord/stores/StorePinnedMessages$Companion;->access$getMessage(Lcom/discord/stores/StorePinnedMessages$Companion;Ljava/util/List;J)Lcom/discord/models/message/Message;
 
     move-result-object v0

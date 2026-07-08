@@ -839,7 +839,6 @@
     move-result-wide v0
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/sources/UserMentionableSourceKt;->isTextOrVoiceChannel(Lcom/discord/api/channel/Channel;)Z
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/sources/UserMentionableSourceKt;->access$isTextOrVoiceChannel(Lcom/discord/api/channel/Channel;)Z
 
     move-result v2
@@ -1021,7 +1020,6 @@
 
     .line 16
     :cond_b5
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/sources/UserMentionableSourceKt;->isDmOrGroupDm(Lcom/discord/api/channel/Channel;)Z
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/sources/UserMentionableSourceKt;->access$isDmOrGroupDm(Lcom/discord/api/channel/Channel;)Z
 
     move-result v0

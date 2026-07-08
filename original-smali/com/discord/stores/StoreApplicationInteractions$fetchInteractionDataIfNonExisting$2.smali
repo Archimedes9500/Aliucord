@@ -91,7 +91,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreApplicationInteractions$fetchInteractionDataIfNonExisting$2;->$interactionId:J
 
-    # invokes: Lcom/discord/stores/StoreApplicationInteractions;->handleInteractionDataFetchStart(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreApplicationInteractions;->access$handleInteractionDataFetchStart(Lcom/discord/stores/StoreApplicationInteractions;J)V
 
     return-void

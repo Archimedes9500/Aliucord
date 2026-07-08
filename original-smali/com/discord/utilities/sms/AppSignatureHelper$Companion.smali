@@ -253,7 +253,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/sms/AppSignatureHelper;->TAG:Ljava/lang/String;
     invoke-static {}, Lcom/discord/utilities/sms/AppSignatureHelper;->access$getTAG$cp()Ljava/lang/String;
 
     move-result-object v0

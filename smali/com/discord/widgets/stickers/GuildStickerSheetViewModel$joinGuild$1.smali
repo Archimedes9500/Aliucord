@@ -96,7 +96,6 @@
 
     sget-object v0, Lcom/discord/widgets/stickers/GuildStickerSheetViewModel$ViewState$Dismiss;->INSTANCE:Lcom/discord/widgets/stickers/GuildStickerSheetViewModel$ViewState$Dismiss;
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/stickers/GuildStickerSheetViewModel;->access$updateViewState(Lcom/discord/widgets/stickers/GuildStickerSheetViewModel;Lcom/discord/widgets/stickers/GuildStickerSheetViewModel$ViewState;)V
 
     return-void

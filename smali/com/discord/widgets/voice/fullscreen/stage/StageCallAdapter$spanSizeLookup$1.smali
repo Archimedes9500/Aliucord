@@ -64,7 +64,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter$spanSizeLookup$1;->this$0:Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;
 
-    # invokes: Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;->getInternalData()Ljava/util/List;
     invoke-static {v0}, Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;->access$getInternalData$p(Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;)Ljava/util/List;
 
     move-result-object v0
@@ -105,7 +104,6 @@
     :cond_1e
     iget-object p1, p0, Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter$spanSizeLookup$1;->this$0:Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;
 
-    # getter for: Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;->numSpeakers:I
     invoke-static {p1}, Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;->access$getNumSpeakers$p(Lcom/discord/widgets/voice/fullscreen/stage/StageCallAdapter;)I
 
     move-result p1

@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/search/WidgetGlobalSearch$onViewBound$5;->this$0:Lcom/discord/widgets/user/search/WidgetGlobalSearch;
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->focusSearchBar()V
     invoke-static {p1}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$focusSearchBar(Lcom/discord/widgets/user/search/WidgetGlobalSearch;)V
 
     return-void

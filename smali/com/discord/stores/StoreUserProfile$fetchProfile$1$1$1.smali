@@ -98,7 +98,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreUserProfile$fetchProfile$1;->this$0:Lcom/discord/stores/StoreUserProfile;
 
-    # getter for: Lcom/discord/stores/StoreUserProfile;->storeStream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreUserProfile;->access$getStoreStream$p(Lcom/discord/stores/StoreUserProfile;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

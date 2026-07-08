@@ -72,7 +72,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen$initializeSystemUiListeners$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->setVoiceControlsSheetPeekHeight()V
     invoke-static {v0}, Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;->access$setVoiceControlsSheetPeekHeight(Lcom/discord/widgets/voice/fullscreen/WidgetCallFullscreen;)V
 
     const-string/jumbo v0, "view"

@@ -394,7 +394,6 @@
     .line 2
     sget-object v1, Lcom/discord/widgets/chat/input/AppFlexInputViewModel;->Companion:Lcom/discord/widgets/chat/input/AppFlexInputViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/chat/input/AppFlexInputViewModel$Companion;->observeStores()Lrx/Observable;
     invoke-static {v1}, Lcom/discord/widgets/chat/input/AppFlexInputViewModel$Companion;->access$observeStores(Lcom/discord/widgets/chat/input/AppFlexInputViewModel$Companion;)Lrx/Observable;
 
     move-result-object v1

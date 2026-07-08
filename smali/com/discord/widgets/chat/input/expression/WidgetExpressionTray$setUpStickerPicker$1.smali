@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->showStickersSearchBar(Z)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->access$showStickersSearchBar(Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;Z)V
 
     return-void

@@ -100,7 +100,6 @@
     iget-object v0, p0, Lcom/discord/stores/StoreGuildWelcomeScreens$fetchIfNonexisting$1$1$1;->$guildWelcomeScreen:Lcom/discord/api/guild/welcome/GuildWelcomeScreen;
 
     .line 5
-    # invokes: Lcom/discord/stores/StoreGuildWelcomeScreens;->handleGuildWelcomeScreen(JLcom/discord/api/guild/welcome/GuildWelcomeScreen;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreGuildWelcomeScreens;->access$handleGuildWelcomeScreen(Lcom/discord/stores/StoreGuildWelcomeScreens;JLcom/discord/api/guild/welcome/GuildWelcomeScreen;)V
 
     return-void

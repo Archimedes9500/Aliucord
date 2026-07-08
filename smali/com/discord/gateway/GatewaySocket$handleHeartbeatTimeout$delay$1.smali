@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$handleHeartbeatTimeout$delay$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->discover()V
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$discover(Lcom/discord/gateway/GatewaySocket;)V
 
     return-void

@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetCreateChannel$onViewBoundOrOnResume$4;->this$0:Lcom/discord/widgets/channels/WidgetCreateChannel;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel;->getBinding()Lcom/discord/databinding/WidgetCreateChannelBinding;
     invoke-static {v0}, Lcom/discord/widgets/channels/WidgetCreateChannel;->access$getBinding$p(Lcom/discord/widgets/channels/WidgetCreateChannel;)Lcom/discord/databinding/WidgetCreateChannelBinding;
 
     move-result-object v0
@@ -88,7 +87,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/WidgetCreateChannel$onViewBoundOrOnResume$4;->this$0:Lcom/discord/widgets/channels/WidgetCreateChannel;
 
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel;->configurePrivateRoles()V
     invoke-static {p1}, Lcom/discord/widgets/channels/WidgetCreateChannel;->access$configurePrivateRoles(Lcom/discord/widgets/channels/WidgetCreateChannel;)V
 
     return-void

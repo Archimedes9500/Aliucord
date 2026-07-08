@@ -92,7 +92,6 @@
     sget-object v1, Lcom/discord/stores/StoreNavigation$PanelAction;->OPEN:Lcom/discord/stores/StoreNavigation$PanelAction;
 
     .line 5
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->onSelected(Lcom/discord/widgets/tabs/NavigationTab;Lcom/discord/stores/StoreNavigation$PanelAction;)V
     invoke-static {p1, v0, v1}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$onSelected(Lcom/discord/widgets/user/search/WidgetGlobalSearch;Lcom/discord/widgets/tabs/NavigationTab;Lcom/discord/stores/StoreNavigation$PanelAction;)V
 
     return-void

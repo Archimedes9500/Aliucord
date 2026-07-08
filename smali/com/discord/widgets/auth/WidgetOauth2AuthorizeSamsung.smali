@@ -512,7 +512,6 @@
 
     move-result-object v4
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->logI(Ljava/lang/String;)V
     invoke-static {v3, v4}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->access$logI(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;Ljava/lang/String;)V
 
     .line 7
@@ -635,7 +634,6 @@
     :cond_12
     sget-object v0, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->Companion:Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->createSAStateId()Ljava/lang/String;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->access$createSAStateId(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;)Ljava/lang/String;
 
     move-result-object v0
@@ -832,7 +830,6 @@
 
     const-string v9, "GET /callback"
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->logI(Ljava/lang/String;)V
     invoke-static {v1, v9}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->access$logI(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;Ljava/lang/String;)V
 
     .line 8
@@ -910,7 +907,6 @@
 
     move-result-object v7
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->logI(Ljava/lang/String;)V
     invoke-static {v1, v7}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->access$logI(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;Ljava/lang/String;)V
 
     .line 15
@@ -979,7 +975,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->logI(Ljava/lang/String;)V
     invoke-static {v6, v1}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->access$logI(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;Ljava/lang/String;)V
 
     .line 21

@@ -54,7 +54,6 @@
 
     check-cast p1, Lcom/discord/panels/OverlappingPanelsLayout;
 
-    # getter for: Lcom/discord/panels/OverlappingPanelsLayout;->isLeftToRight:Z
     invoke-static {p1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$isLeftToRight$p(Lcom/discord/panels/OverlappingPanelsLayout;)Z
 
     move-result p1
@@ -68,7 +67,6 @@
 
     check-cast p1, Lcom/discord/panels/OverlappingPanelsLayout;
 
-    # invokes: Lcom/discord/panels/OverlappingPanelsLayout;->handleEndPanelWidthUpdate()V
     invoke-static {p1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$handleEndPanelWidthUpdate(Lcom/discord/panels/OverlappingPanelsLayout;)V
 
     goto :goto_2e
@@ -79,7 +77,6 @@
 
     check-cast p1, Lcom/discord/panels/OverlappingPanelsLayout;
 
-    # getter for: Lcom/discord/panels/OverlappingPanelsLayout;->isLeftToRight:Z
     invoke-static {p1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$isLeftToRight$p(Lcom/discord/panels/OverlappingPanelsLayout;)Z
 
     move-result p1
@@ -93,7 +90,6 @@
 
     check-cast p1, Lcom/discord/panels/OverlappingPanelsLayout;
 
-    # invokes: Lcom/discord/panels/OverlappingPanelsLayout;->handleEndPanelWidthUpdate()V
     invoke-static {p1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$handleEndPanelWidthUpdate(Lcom/discord/panels/OverlappingPanelsLayout;)V
 
     :cond_2e
@@ -112,7 +108,6 @@
 
     check-cast p1, Lcom/discord/panels/OverlappingPanelsLayout;
 
-    # getter for: Lcom/discord/panels/OverlappingPanelsLayout;->isLeftToRight:Z
     invoke-static {p1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$isLeftToRight$p(Lcom/discord/panels/OverlappingPanelsLayout;)Z
 
     move-result p1
@@ -126,7 +121,6 @@
 
     check-cast p1, Lcom/discord/panels/OverlappingPanelsLayout;
 
-    # invokes: Lcom/discord/panels/OverlappingPanelsLayout;->handleStartPanelWidthUpdate()V
     invoke-static {p1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$handleStartPanelWidthUpdate(Lcom/discord/panels/OverlappingPanelsLayout;)V
 
     goto :goto_58
@@ -137,7 +131,6 @@
 
     check-cast p1, Lcom/discord/panels/OverlappingPanelsLayout;
 
-    # getter for: Lcom/discord/panels/OverlappingPanelsLayout;->isLeftToRight:Z
     invoke-static {p1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$isLeftToRight$p(Lcom/discord/panels/OverlappingPanelsLayout;)Z
 
     move-result p1
@@ -151,7 +144,6 @@
 
     check-cast p1, Lcom/discord/panels/OverlappingPanelsLayout;
 
-    # invokes: Lcom/discord/panels/OverlappingPanelsLayout;->handleStartPanelWidthUpdate()V
     invoke-static {p1}, Lcom/discord/panels/OverlappingPanelsLayout;->access$handleStartPanelWidthUpdate(Lcom/discord/panels/OverlappingPanelsLayout;)V
 
     :cond_58

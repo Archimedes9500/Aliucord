@@ -167,6 +167,14 @@
 
 .field private final username:Ljava/lang/String;
 
+.field public avatarDecorationData:Lcom/discord/api/user/AvatarDecoration;
+
+.field public collectibles:Lcom/discord/api/user/Collectibles;
+
+.field public displayNameStyles:Lcom/discord/api/user/DisplayNameStyle;
+
+.field public primaryGuild:Lcom/discord/api/user/PrimaryGuild;
+
 
 # direct methods
 .method public static constructor <clinit>()V
@@ -1424,6 +1432,22 @@
 
     iput-object v2, v0, Lcom/discord/models/user/MeUser;->globalName:Ljava/lang/String;
 
+    iget-object v2, v1, Lcom/discord/models/user/MeUser;->avatarDecorationData:Lcom/discord/api/user/AvatarDecoration;
+
+    iput-object v2, v0, Lcom/discord/models/user/MeUser;->avatarDecorationData:Lcom/discord/api/user/AvatarDecoration;
+
+    iget-object v2, v1, Lcom/discord/models/user/MeUser;->collectibles:Lcom/discord/api/user/Collectibles;
+
+    iput-object v2, v0, Lcom/discord/models/user/MeUser;->collectibles:Lcom/discord/api/user/Collectibles;
+
+    iget-object v2, v1, Lcom/discord/models/user/MeUser;->displayNameStyles:Lcom/discord/api/user/DisplayNameStyle;
+
+    iput-object v2, v0, Lcom/discord/models/user/MeUser;->displayNameStyles:Lcom/discord/api/user/DisplayNameStyle;
+
+    iget-object v2, v1, Lcom/discord/models/user/MeUser;->primaryGuild:Lcom/discord/api/user/PrimaryGuild;
+
+    iput-object v2, v0, Lcom/discord/models/user/MeUser;->primaryGuild:Lcom/discord/api/user/PrimaryGuild;
+
     return-object v20
 .end method
 
@@ -1798,6 +1822,38 @@
 
     .line 1
     iget-object v0, p0, Lcom/discord/models/user/MeUser;->username:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getAvatarDecorationData()Lcom/discord/api/user/AvatarDecoration;
+    .locals 1
+
+    iget-object v0, p0, Lcom/discord/models/user/MeUser;->avatarDecorationData:Lcom/discord/api/user/AvatarDecoration;
+
+    return-object v0
+.end method
+
+.method public getCollectibles()Lcom/discord/api/user/Collectibles;
+    .locals 1
+
+    iget-object v0, p0, Lcom/discord/models/user/MeUser;->collectibles:Lcom/discord/api/user/Collectibles;
+
+    return-object v0
+.end method
+
+.method public getDisplayNameStyles()Lcom/discord/api/user/DisplayNameStyle;
+    .locals 1
+
+    iget-object v0, p0, Lcom/discord/models/user/MeUser;->displayNameStyles:Lcom/discord/api/user/DisplayNameStyle;
+
+    return-object v0
+.end method
+
+.method public getPrimaryGuild()Lcom/discord/api/user/PrimaryGuild;
+    .locals 1
+
+    iget-object v0, p0, Lcom/discord/models/user/MeUser;->primaryGuild:Lcom/discord/api/user/PrimaryGuild;
 
     return-object v0
 .end method

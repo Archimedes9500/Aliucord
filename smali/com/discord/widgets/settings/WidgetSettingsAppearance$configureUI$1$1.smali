@@ -186,7 +186,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/settings/WidgetSettingsAppearance$configureUI$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAppearance;
 
-    # getter for: Lcom/discord/widgets/settings/WidgetSettingsAppearance;->holyLightEasterEggCounter:Ljava/util/concurrent/atomic/AtomicInteger;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsAppearance;->access$getHolyLightEasterEggCounter$p(Lcom/discord/widgets/settings/WidgetSettingsAppearance;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object p1

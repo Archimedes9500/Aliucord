@@ -108,7 +108,6 @@
 
     iget-object v1, v1, Lcom/discord/widgets/directories/WidgetDirectoriesSearch$configureUI$3;->this$0:Lcom/discord/widgets/directories/WidgetDirectoriesSearch;
 
-    # getter for: Lcom/discord/widgets/directories/WidgetDirectoriesSearch;->activityResult:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v1}, Lcom/discord/widgets/directories/WidgetDirectoriesSearch;->access$getActivityResult$p(Lcom/discord/widgets/directories/WidgetDirectoriesSearch;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v1

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/WidgetUserSetCustomStatus;
 
     .line 2
-    # invokes: Lcom/discord/widgets/user/WidgetUserSetCustomStatus;->handleEvent(Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/WidgetUserSetCustomStatus;->access$handleEvent(Lcom/discord/widgets/user/WidgetUserSetCustomStatus;Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$Event;)V
 
     return-void

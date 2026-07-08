@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/channels/WidgetGroupInviteFriends;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/WidgetGroupInviteFriends;->configureUI(Lcom/discord/widgets/channels/WidgetGroupInviteFriends$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/WidgetGroupInviteFriends;->access$configureUI(Lcom/discord/widgets/channels/WidgetGroupInviteFriends;Lcom/discord/widgets/channels/WidgetGroupInviteFriends$Model;)V
 
     return-void

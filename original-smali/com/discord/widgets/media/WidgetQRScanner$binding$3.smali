@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/media/WidgetQRScanner;
 
     .line 2
-    # invokes: Lcom/discord/widgets/media/WidgetQRScanner;->onViewBindingDestroy(Lcom/discord/databinding/WidgetQrScannerBinding;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/media/WidgetQRScanner;->access$onViewBindingDestroy(Lcom/discord/widgets/media/WidgetQRScanner;Lcom/discord/databinding/WidgetQrScannerBinding;)V
 
     return-void

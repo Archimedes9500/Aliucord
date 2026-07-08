@@ -104,7 +104,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreVoiceStates$observe$1;->this$0:Lcom/discord/stores/StoreVoiceStates;
 
-    # getter for: Lcom/discord/stores/StoreVoiceStates;->voiceStatesSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreVoiceStates;->access$getVoiceStatesSnapshot$p(Lcom/discord/stores/StoreVoiceStates;)Ljava/util/Map;
 
     move-result-object v0

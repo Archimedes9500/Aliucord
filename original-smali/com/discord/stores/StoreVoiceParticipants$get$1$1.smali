@@ -162,7 +162,6 @@
 
     invoke-static {p1, v3}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StoreVoiceParticipants;->getOtherVoiceUsers(Lcom/discord/api/channel/Channel;Ljava/util/Map;)Lrx/Observable;
     invoke-static {v1, v2, p1}, Lcom/discord/stores/StoreVoiceParticipants;->access$getOtherVoiceUsers(Lcom/discord/stores/StoreVoiceParticipants;Lcom/discord/api/channel/Channel;Ljava/util/Map;)Lrx/Observable;
 
     move-result-object v1

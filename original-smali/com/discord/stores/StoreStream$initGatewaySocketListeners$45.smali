@@ -111,7 +111,6 @@
 
     invoke-static {p1, v3}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StoreStream;->handlePresenceUpdate(JLcom/discord/api/presence/Presence;)V
     invoke-static {v0, v1, v2, p1}, Lcom/discord/stores/StoreStream;->access$handlePresenceUpdate(Lcom/discord/stores/StoreStream;JLcom/discord/api/presence/Presence;)V
 
     return-void

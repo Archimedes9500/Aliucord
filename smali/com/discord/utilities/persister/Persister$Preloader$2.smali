@@ -103,7 +103,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/persister/Persister$Preloader$2;->this$0:Lcom/discord/utilities/persister/Persister$Preloader;
 
-    # invokes: Lcom/discord/utilities/persister/Persister$Preloader;->handlePreload(Lcom/discord/utilities/persister/Persister;)V
     invoke-static {v0, p1}, Lcom/discord/utilities/persister/Persister$Preloader;->access$handlePreload(Lcom/discord/utilities/persister/Persister$Preloader;Lcom/discord/utilities/persister/Persister;)V
 
     :cond_7

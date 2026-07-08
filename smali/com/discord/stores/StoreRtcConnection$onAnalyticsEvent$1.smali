@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreRtcConnection$onAnalyticsEvent$1;->this$0:Lcom/discord/stores/StoreRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreRtcConnection;->storeAnalytics:Lcom/discord/stores/StoreAnalytics;
     invoke-static {v0}, Lcom/discord/stores/StoreRtcConnection;->access$getStoreAnalytics$p(Lcom/discord/stores/StoreRtcConnection;)Lcom/discord/stores/StoreAnalytics;
 
     move-result-object v0

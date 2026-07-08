@@ -121,7 +121,6 @@
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthBirthday$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthBirthday;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthBirthday;->getBirthday()Ljava/lang/Long;
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthBirthday;->access$getBirthday(Lcom/discord/widgets/auth/WidgetAuthBirthday;)Ljava/lang/Long;
 
     move-result-object p1

@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel$cancelSubscription$2;->this$0:Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;
 
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;->onCancelError()V
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;->access$onCancelError(Lcom/discord/widgets/settings/premium/SettingsPremiumViewModel;)V
 
     return-void

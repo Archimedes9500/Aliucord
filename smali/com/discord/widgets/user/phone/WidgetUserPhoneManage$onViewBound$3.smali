@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage$onViewBound$3;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;
 
-    # invokes: Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->handlePhoneNumberTextChanged()V
     invoke-static {v0}, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->access$handlePhoneNumberTextChanged(Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;)V
 
     return-void

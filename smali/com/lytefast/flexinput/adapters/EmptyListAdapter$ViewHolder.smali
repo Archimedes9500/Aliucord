@@ -68,7 +68,6 @@
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
     .line 2
-    # getter for: Lcom/lytefast/flexinput/adapters/EmptyListAdapter;->actionBtnId:I
     invoke-static {p1}, Lcom/lytefast/flexinput/adapters/EmptyListAdapter;->access$getActionBtnId$p(Lcom/lytefast/flexinput/adapters/EmptyListAdapter;)I
 
     move-result p1

@@ -101,7 +101,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreUserProfile$fetchProfile$1;->this$0:Lcom/discord/stores/StoreUserProfile;
 
-    # getter for: Lcom/discord/stores/StoreUserProfile;->profilesLoading:Ljava/util/HashSet;
     invoke-static {v0}, Lcom/discord/stores/StoreUserProfile;->access$getProfilesLoading$p(Lcom/discord/stores/StoreUserProfile;)Ljava/util/HashSet;
 
     move-result-object v0
@@ -124,7 +123,6 @@
     :cond_13
     iget-object v0, p0, Lcom/discord/stores/StoreUserProfile$fetchProfile$1;->this$0:Lcom/discord/stores/StoreUserProfile;
 
-    # getter for: Lcom/discord/stores/StoreUserProfile;->profilesLoading:Ljava/util/HashSet;
     invoke-static {v0}, Lcom/discord/stores/StoreUserProfile;->access$getProfilesLoading$p(Lcom/discord/stores/StoreUserProfile;)Ljava/util/HashSet;
 
     move-result-object v0
@@ -140,7 +138,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StoreUserProfile$fetchProfile$1;->this$0:Lcom/discord/stores/StoreUserProfile;
 
-    # getter for: Lcom/discord/stores/StoreUserProfile;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v0}, Lcom/discord/stores/StoreUserProfile;->access$getRestAPI$p(Lcom/discord/stores/StoreUserProfile;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0

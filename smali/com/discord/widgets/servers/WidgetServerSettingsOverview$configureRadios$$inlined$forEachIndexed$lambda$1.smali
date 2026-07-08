@@ -107,7 +107,6 @@
     const/4 v3, 0x1
 
     .line 6
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->configureRadios(IIZZ)V
     invoke-static {p1, v0, v1, v2, v3}, Lcom/discord/widgets/servers/WidgetServerSettingsOverview;->access$configureRadios(Lcom/discord/widgets/servers/WidgetServerSettingsOverview;IIZZ)V
 
     return-void

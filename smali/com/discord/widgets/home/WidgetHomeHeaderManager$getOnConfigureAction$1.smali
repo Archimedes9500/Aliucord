@@ -158,7 +158,6 @@
 
     move-result-object v7
 
-    # invokes: Lcom/discord/widgets/home/WidgetHomeHeaderManager;->isChannelNSFWGated(ZZLcom/discord/api/user/NsfwAllowance;)Z
     invoke-static {v4, v5, v6, v7}, Lcom/discord/widgets/home/WidgetHomeHeaderManager;->access$isChannelNSFWGated(Lcom/discord/widgets/home/WidgetHomeHeaderManager;ZZLcom/discord/api/user/NsfwAllowance;)Z
 
     move-result v4

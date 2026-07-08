@@ -128,7 +128,6 @@
     :goto_13
     iget-object v0, p0, Lcom/discord/utilities/websocket/WebSocket$connect$1;->this$0:Lcom/discord/utilities/websocket/WebSocket;
 
-    # getter for: Lcom/discord/utilities/websocket/WebSocket;->errorLogger:Lkotlin/jvm/functions/Function3;
     invoke-static {v0}, Lcom/discord/utilities/websocket/WebSocket;->access$getErrorLogger$p(Lcom/discord/utilities/websocket/WebSocket;)Lkotlin/jvm/functions/Function3;
 
     move-result-object v0
@@ -142,7 +141,6 @@
 
     const/4 v0, 0x0
 
-    # invokes: Lcom/discord/utilities/websocket/WebSocket;->handleOnFailure(Ljava/lang/Throwable;Lokhttp3/Response;Z)V
     invoke-static {p2, p1, p3, v0}, Lcom/discord/utilities/websocket/WebSocket;->access$handleOnFailure(Lcom/discord/utilities/websocket/WebSocket;Ljava/lang/Throwable;Lokhttp3/Response;Z)V
 
     return-void
@@ -193,7 +191,6 @@
 
     invoke-direct {v0, p0, p2, p3}, Lcom/discord/utilities/websocket/WebSocket$connect$1$onClosed$1;-><init>(Lcom/discord/utilities/websocket/WebSocket$connect$1;ILjava/lang/String;)V
 
-    # invokes: Lcom/discord/utilities/websocket/WebSocket;->schedule(Lkotlin/jvm/functions/Function0;)V
     invoke-static {p1, v0}, Lcom/discord/utilities/websocket/WebSocket;->access$schedule(Lcom/discord/utilities/websocket/WebSocket;Lkotlin/jvm/functions/Function0;)V
 
     return-void
@@ -251,7 +248,6 @@
 
     invoke-direct {v0, p0, p2, p3}, Lcom/discord/utilities/websocket/WebSocket$connect$1$onFailure$1;-><init>(Lcom/discord/utilities/websocket/WebSocket$connect$1;Ljava/lang/Throwable;Lokhttp3/Response;)V
 
-    # invokes: Lcom/discord/utilities/websocket/WebSocket;->schedule(Lkotlin/jvm/functions/Function0;)V
     invoke-static {p1, v0}, Lcom/discord/utilities/websocket/WebSocket;->access$schedule(Lcom/discord/utilities/websocket/WebSocket;Lkotlin/jvm/functions/Function0;)V
 
     return-void
@@ -351,7 +347,6 @@
 
     invoke-direct {v1, p0, p1, p2}, Lcom/discord/utilities/websocket/WebSocket$connect$1$onOpen$1;-><init>(Lcom/discord/utilities/websocket/WebSocket$connect$1;Lokhttp3/WebSocket;Lokhttp3/Response;)V
 
-    # invokes: Lcom/discord/utilities/websocket/WebSocket;->schedule(Lkotlin/jvm/functions/Function0;)V
     invoke-static {v0, v1}, Lcom/discord/utilities/websocket/WebSocket;->access$schedule(Lcom/discord/utilities/websocket/WebSocket;Lkotlin/jvm/functions/Function0;)V
 
     return-void

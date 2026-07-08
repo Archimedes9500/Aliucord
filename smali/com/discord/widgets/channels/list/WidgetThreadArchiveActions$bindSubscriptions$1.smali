@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions;->configureUI(Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions;->access$configureUI(Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions;Lcom/discord/widgets/channels/list/WidgetThreadArchiveActions$Model;)V
 
     return-void

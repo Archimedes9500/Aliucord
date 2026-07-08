@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost$choosePlanLauncher$1;->this$0:Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;
 
-    # invokes: Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;->fetchData()V
     invoke-static {v0}, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;->access$fetchData(Lcom/discord/widgets/servers/guildboost/WidgetGuildBoost;)V
 
     return-void

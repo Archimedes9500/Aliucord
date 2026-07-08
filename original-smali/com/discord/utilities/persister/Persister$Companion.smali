@@ -132,7 +132,6 @@
     .locals 2
 
     .line 1
-    # getter for: Lcom/discord/utilities/persister/Persister;->context:Landroid/content/Context;
     invoke-static {}, Lcom/discord/utilities/persister/Persister;->access$getContext$cp()Landroid/content/Context;
 
     move-result-object v0
@@ -185,7 +184,6 @@
     .locals 13
 
     .line 1
-    # getter for: Lcom/discord/utilities/persister/Persister;->preferences:Ljava/util/List;
     invoke-static {}, Lcom/discord/utilities/persister/Persister;->access$getPreferences$cp()Ljava/util/List;
 
     move-result-object v0
@@ -270,7 +268,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/utilities/persister/Persister;->kryoConfig:Lkotlin/jvm/functions/Function1;
     invoke-static {}, Lcom/discord/utilities/persister/Persister;->access$getKryoConfig$cp()Lkotlin/jvm/functions/Function1;
 
     move-result-object v0
@@ -293,7 +290,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/utilities/persister/Persister;->logger:Lkotlin/jvm/functions/Function3;
     invoke-static {}, Lcom/discord/utilities/persister/Persister;->access$getLogger$cp()Lkotlin/jvm/functions/Function3;
 
     move-result-object v0
@@ -327,7 +323,6 @@
     invoke-static {p3, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lcom/discord/utilities/persister/Persister;->initialized:Z
     invoke-static {}, Lcom/discord/utilities/persister/Persister;->access$getInitialized$cp()Z
 
     move-result v0
@@ -407,7 +402,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/utilities/persister/Persister;->preferencesPreloader:Lcom/discord/utilities/persister/Persister$Preloader;
     invoke-static {}, Lcom/discord/utilities/persister/Persister;->access$getPreferencesPreloader$cp()Lcom/discord/utilities/persister/Persister$Preloader;
 
     move-result-object v0
@@ -430,7 +424,6 @@
     .locals 5
 
     .line 1
-    # getter for: Lcom/discord/utilities/persister/Persister;->preferences:Ljava/util/List;
     invoke-static {}, Lcom/discord/utilities/persister/Persister;->access$getPreferences$cp()Ljava/util/List;
 
     move-result-object v0

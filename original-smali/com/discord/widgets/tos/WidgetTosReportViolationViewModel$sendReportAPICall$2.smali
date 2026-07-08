@@ -95,7 +95,6 @@
 
     sget-object v0, Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel$ViewState$Submitted;->INSTANCE:Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel$ViewState$Submitted;
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel;->access$updateViewState(Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel;Lcom/discord/widgets/tos/WidgetTosReportViolationViewModel$ViewState;)V
 
     return-void

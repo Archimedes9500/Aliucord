@@ -532,7 +532,6 @@
 
     check-cast p1, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogAdapter;
 
-    # getter for: Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogAdapter;->ensureExpandedIsVisible:Z
     invoke-static {p1}, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogAdapter;->access$getEnsureExpandedIsVisible$p(Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLogAdapter;)Z
 
     move-result p1

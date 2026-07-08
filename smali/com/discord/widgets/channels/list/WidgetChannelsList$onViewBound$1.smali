@@ -186,7 +186,6 @@
     :cond_4e
     iget-object p1, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$onViewBound$1;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
-    # getter for: Lcom/discord/widgets/channels/list/WidgetChannelsList;->storeNavigation:Lcom/discord/stores/StoreNavigation;
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$getStoreNavigation$p(Lcom/discord/widgets/channels/list/WidgetChannelsList;)Lcom/discord/stores/StoreNavigation;
 
     move-result-object p1
@@ -202,7 +201,6 @@
     .line 11
     iget-object p1, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$onViewBound$1;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
-    # getter for: Lcom/discord/widgets/channels/list/WidgetChannelsList;->storeNavigation:Lcom/discord/stores/StoreNavigation;
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$getStoreNavigation$p(Lcom/discord/widgets/channels/list/WidgetChannelsList;)Lcom/discord/stores/StoreNavigation;
 
     move-result-object p1

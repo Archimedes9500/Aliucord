@@ -92,7 +92,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/settings/WidgetSettingsAuthorizedApps$deauthorizeApp$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAuthorizedApps;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAuthorizedApps;->loadAuthorizedApps()V
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsAuthorizedApps;->access$loadAuthorizedApps(Lcom/discord/widgets/settings/WidgetSettingsAuthorizedApps;)V
 
     return-void

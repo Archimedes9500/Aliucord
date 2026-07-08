@@ -111,7 +111,6 @@
 
     move-result-object p2
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->confirmDelete(Lcom/discord/api/channel/Channel;)V
     invoke-static {p1, p2}, Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->access$confirmDelete(Lcom/discord/widgets/channels/settings/WidgetThreadSettings;Lcom/discord/api/channel/Channel;)V
 
     :goto_1c

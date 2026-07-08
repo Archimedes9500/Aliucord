@@ -167,7 +167,6 @@
     .line 11
     iget-object v1, p0, Lcom/discord/widgets/channels/UserAkaView$configure$$inlined$doOnPreDraw$1;->this$0:Lcom/discord/widgets/channels/UserAkaView;
 
-    # getter for: Lcom/discord/widgets/channels/UserAkaView;->binding:Lcom/discord/databinding/UserAkaViewBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/UserAkaView;->access$getBinding$p(Lcom/discord/widgets/channels/UserAkaView;)Lcom/discord/databinding/UserAkaViewBinding;
 
     move-result-object v1
@@ -204,7 +203,6 @@
     :goto_70
     iget-object v3, p0, Lcom/discord/widgets/channels/UserAkaView$configure$$inlined$doOnPreDraw$1;->this$0:Lcom/discord/widgets/channels/UserAkaView;
 
-    # getter for: Lcom/discord/widgets/channels/UserAkaView;->binding:Lcom/discord/databinding/UserAkaViewBinding;
     invoke-static {v3}, Lcom/discord/widgets/channels/UserAkaView;->access$getBinding$p(Lcom/discord/widgets/channels/UserAkaView;)Lcom/discord/databinding/UserAkaViewBinding;
 
     move-result-object v3
@@ -224,7 +222,6 @@
     .line 14
     iget-object v4, p0, Lcom/discord/widgets/channels/UserAkaView$configure$$inlined$doOnPreDraw$1;->this$0:Lcom/discord/widgets/channels/UserAkaView;
 
-    # getter for: Lcom/discord/widgets/channels/UserAkaView;->binding:Lcom/discord/databinding/UserAkaViewBinding;
     invoke-static {v4}, Lcom/discord/widgets/channels/UserAkaView;->access$getBinding$p(Lcom/discord/widgets/channels/UserAkaView;)Lcom/discord/databinding/UserAkaViewBinding;
 
     move-result-object v4
@@ -299,7 +296,6 @@
     .line 20
     iget-object v1, p0, Lcom/discord/widgets/channels/UserAkaView$configure$$inlined$doOnPreDraw$1;->this$0:Lcom/discord/widgets/channels/UserAkaView;
 
-    # getter for: Lcom/discord/widgets/channels/UserAkaView;->binding:Lcom/discord/databinding/UserAkaViewBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/UserAkaView;->access$getBinding$p(Lcom/discord/widgets/channels/UserAkaView;)Lcom/discord/databinding/UserAkaViewBinding;
 
     move-result-object v1
@@ -315,7 +311,6 @@
     .line 21
     iget-object v1, p0, Lcom/discord/widgets/channels/UserAkaView$configure$$inlined$doOnPreDraw$1;->this$0:Lcom/discord/widgets/channels/UserAkaView;
 
-    # getter for: Lcom/discord/widgets/channels/UserAkaView;->binding:Lcom/discord/databinding/UserAkaViewBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/UserAkaView;->access$getBinding$p(Lcom/discord/widgets/channels/UserAkaView;)Lcom/discord/databinding/UserAkaViewBinding;
 
     move-result-object v1

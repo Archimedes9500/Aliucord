@@ -65,7 +65,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit$configureUI$1;->this$0:Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;
 
-    # invokes: Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;->getBinding()Lcom/discord/databinding/WidgetSettingsAccountEditBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;->access$getBinding$p(Lcom/discord/widgets/settings/account/WidgetSettingsAccountUsernameEdit;)Lcom/discord/databinding/WidgetSettingsAccountEditBinding;
 
     move-result-object v0

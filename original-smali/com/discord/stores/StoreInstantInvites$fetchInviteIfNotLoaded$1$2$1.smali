@@ -105,7 +105,6 @@
 
     invoke-direct {v2, v3}, Lcom/discord/stores/StoreInstantInvites$InviteState$Resolved;-><init>(Lcom/discord/models/domain/ModelInvite;)V
 
-    # invokes: Lcom/discord/stores/StoreInstantInvites;->setChatInvites(Ljava/lang/String;Lcom/discord/stores/StoreInstantInvites$InviteState;)V
     invoke-static {v1, v0, v2}, Lcom/discord/stores/StoreInstantInvites;->access$setChatInvites(Lcom/discord/stores/StoreInstantInvites;Ljava/lang/String;Lcom/discord/stores/StoreInstantInvites$InviteState;)V
 
     .line 3

@@ -131,7 +131,6 @@
 
     iget-object v3, v0, Lcom/discord/widgets/voice/model/CallModel$Companion$get$1$1;->$channel:Lcom/discord/api/channel/Channel;
 
-    # invokes: Lcom/discord/widgets/voice/model/CallModel$Companion;->observeChunk(Lcom/discord/api/channel/Channel;)Lrx/Observable;
     invoke-static {v2, v3}, Lcom/discord/widgets/voice/model/CallModel$Companion;->access$observeChunk(Lcom/discord/widgets/voice/model/CallModel$Companion;Lcom/discord/api/channel/Channel;)Lrx/Observable;
 
     move-result-object v4

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;->configureUI(Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel$ViewState$Loaded;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;->access$configureUI(Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel$ViewState$Loaded;)V
 
     return-void

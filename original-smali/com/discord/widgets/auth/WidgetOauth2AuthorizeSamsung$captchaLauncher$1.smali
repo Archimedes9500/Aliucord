@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$captchaLauncher$1;->this$0:Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->samsungAuthCode:Ljava/lang/String;
     invoke-static {v0}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->access$getSamsungAuthCode$p(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;)Ljava/lang/String;
 
     move-result-object v0
@@ -103,7 +102,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$captchaLauncher$1;->this$0:Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->authorizeForSamsung(Ljava/lang/String;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
     invoke-static {v1, v0, p1}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->access$authorizeForSamsung(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;Ljava/lang/String;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
 
     goto :goto_1c

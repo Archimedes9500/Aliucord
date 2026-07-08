@@ -95,7 +95,6 @@
 
     iget-object v0, p0, Lcom/discord/stores/StoreGuildIntegrations$requestGuildIntegrations$1$1;->$integrations:Ljava/util/List;
 
-    # invokes: Lcom/discord/stores/StoreGuildIntegrations;->handleIntegrationsLoaded(JLjava/util/List;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreGuildIntegrations;->access$handleIntegrationsLoaded(Lcom/discord/stores/StoreGuildIntegrations;JLjava/util/List;)V
 
     return-void

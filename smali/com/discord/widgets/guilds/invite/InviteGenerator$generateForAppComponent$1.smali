@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/InviteGenerator$generateForAppComponent$1;->this$0:Lcom/discord/widgets/guilds/invite/InviteGenerator;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/InviteGenerator;->handleGeneratedInvite(Lcom/discord/models/domain/ModelInvite;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/invite/InviteGenerator;->access$handleGeneratedInvite(Lcom/discord/widgets/guilds/invite/InviteGenerator;Lcom/discord/models/domain/ModelInvite;)V
 
     return-void

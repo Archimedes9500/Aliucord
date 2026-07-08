@@ -106,7 +106,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsAuthorizedApps$loadAuthorizedApps$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAuthorizedApps;
 
-    # getter for: Lcom/discord/widgets/settings/WidgetSettingsAuthorizedApps;->adapter:Lcom/discord/utilities/views/SimpleRecyclerAdapter;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsAuthorizedApps;->access$getAdapter$p(Lcom/discord/widgets/settings/WidgetSettingsAuthorizedApps;)Lcom/discord/utilities/views/SimpleRecyclerAdapter;
 
     move-result-object v0

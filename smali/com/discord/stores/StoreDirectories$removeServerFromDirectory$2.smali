@@ -119,7 +119,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/stores/StoreDirectories$removeServerFromDirectory$2;->this$0:Lcom/discord/stores/StoreDirectories;
 
-    # getter for: Lcom/discord/stores/StoreDirectories;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreDirectories;->access$getDispatcher$p(Lcom/discord/stores/StoreDirectories;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

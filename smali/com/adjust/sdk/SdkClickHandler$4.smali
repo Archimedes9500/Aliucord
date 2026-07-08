@@ -47,13 +47,11 @@
 
     iget-object v1, p0, Lcom/adjust/sdk/SdkClickHandler$4;->val$sdkClickPackage:Lcom/adjust/sdk/ActivityPackage;
 
-    # invokes: Lcom/adjust/sdk/SdkClickHandler;->sendSdkClickI(Lcom/adjust/sdk/ActivityPackage;)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/SdkClickHandler;->access$500(Lcom/adjust/sdk/SdkClickHandler;Lcom/adjust/sdk/ActivityPackage;)V
 
     .line 2
     iget-object v0, p0, Lcom/adjust/sdk/SdkClickHandler$4;->this$0:Lcom/adjust/sdk/SdkClickHandler;
 
-    # invokes: Lcom/adjust/sdk/SdkClickHandler;->sendNextSdkClick()V
     invoke-static {v0}, Lcom/adjust/sdk/SdkClickHandler;->access$200(Lcom/adjust/sdk/SdkClickHandler;)V
 
     return-void

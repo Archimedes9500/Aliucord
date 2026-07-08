@@ -98,7 +98,6 @@
 
     move-result v1
 
-    # invokes: Lcom/discord/stores/StoreAuthentication;->setConsentRequired(Z)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreAuthentication;->access$setConsentRequired$p(Lcom/discord/stores/StoreAuthentication;Z)V
 
     .line 3

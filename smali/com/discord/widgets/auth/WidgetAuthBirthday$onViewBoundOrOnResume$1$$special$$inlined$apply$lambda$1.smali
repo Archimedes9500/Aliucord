@@ -97,7 +97,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/auth/WidgetAuthBirthday$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/auth/WidgetAuthBirthday;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthBirthday;->setBirthday(J)V
     invoke-static {v0, p1, p2}, Lcom/discord/widgets/auth/WidgetAuthBirthday;->access$setBirthday(Lcom/discord/widgets/auth/WidgetAuthBirthday;J)V
 
     return-void

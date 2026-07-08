@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/auth/WidgetAgeVerify$onViewBound$2;->this$0:Lcom/discord/widgets/auth/WidgetAgeVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAgeVerify;->handleEvent(Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/auth/WidgetAgeVerify;->access$handleEvent(Lcom/discord/widgets/auth/WidgetAgeVerify;Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel$Event;)V
 
     return-void

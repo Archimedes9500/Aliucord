@@ -106,7 +106,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreThreadsActive$observeActiveThreadsForGuild$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreThreadsActive;->getActiveThreadsForGuild(J)Ljava/util/Map;
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreThreadsActive;->access$getActiveThreadsForGuild(Lcom/discord/stores/StoreThreadsActive;J)Ljava/util/Map;
 
     move-result-object v0

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet$configureIncomingFriendRequest$2;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->ignoreFriendRequest()V
     invoke-static {p1}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$ignoreFriendRequest(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;)V
 
     return-void

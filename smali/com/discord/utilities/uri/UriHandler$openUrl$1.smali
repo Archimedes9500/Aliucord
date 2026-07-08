@@ -116,7 +116,6 @@
 
     iget-object v6, p0, Lcom/discord/utilities/uri/UriHandler$openUrl$1;->$onFailure:Lkotlin/jvm/functions/Function0;
 
-    # invokes: Lcom/discord/utilities/uri/UriHandler;->openUrlExternally(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;)V
     invoke-static/range {v1 .. v6}, Lcom/discord/utilities/uri/UriHandler;->access$openUrlExternally(Lcom/discord/utilities/uri/UriHandler;Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;)V
 
     return-void

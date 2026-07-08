@@ -71,7 +71,6 @@
 .method public final getINSTANCE()Lcom/discord/utilities/voice/VoiceEngineServiceController;
     .locals 2
 
-    # getter for: Lcom/discord/utilities/voice/VoiceEngineServiceController;->INSTANCE$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/utilities/voice/VoiceEngineServiceController;->access$getINSTANCE$cp()Lkotlin/Lazy;
 
     move-result-object v0

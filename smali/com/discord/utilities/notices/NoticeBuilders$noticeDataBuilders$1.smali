@@ -96,7 +96,6 @@
     check-cast v0, Lcom/discord/utilities/notices/NoticeBuilders;
 
     .line 2
-    # invokes: Lcom/discord/utilities/notices/NoticeBuilders;->requestRatingModalBuilder(Landroid/content/Context;Lcom/discord/stores/StoreNotices$Dialog;)Lcom/discord/utilities/notices/NoticeBuilders$DialogData;
     invoke-static {v0, p1, p2}, Lcom/discord/utilities/notices/NoticeBuilders;->access$requestRatingModalBuilder(Lcom/discord/utilities/notices/NoticeBuilders;Landroid/content/Context;Lcom/discord/stores/StoreNotices$Dialog;)Lcom/discord/utilities/notices/NoticeBuilders$DialogData;
 
     move-result-object p1

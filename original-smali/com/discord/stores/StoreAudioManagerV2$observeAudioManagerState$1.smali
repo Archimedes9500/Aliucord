@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreAudioManagerV2$observeAudioManagerState$1;->this$0:Lcom/discord/stores/StoreAudioManagerV2;
 
-    # invokes: Lcom/discord/stores/StoreAudioManagerV2;->getAudioManagerState()Lcom/discord/stores/StoreAudioManagerV2$State;
     invoke-static {v0}, Lcom/discord/stores/StoreAudioManagerV2;->access$getAudioManagerState(Lcom/discord/stores/StoreAudioManagerV2;)Lcom/discord/stores/StoreAudioManagerV2$State;
 
     move-result-object v0

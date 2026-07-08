@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/hubs/WidgetHubAddName$onViewBound$1;->this$0:Lcom/discord/widgets/hubs/WidgetHubAddName;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubAddName;->maybeUpdateName()V
     invoke-static {p1}, Lcom/discord/widgets/hubs/WidgetHubAddName;->access$maybeUpdateName(Lcom/discord/widgets/hubs/WidgetHubAddName;)V
 
     return-void

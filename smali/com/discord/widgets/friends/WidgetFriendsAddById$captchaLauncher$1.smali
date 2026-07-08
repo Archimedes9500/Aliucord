@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/friends/WidgetFriendsAddById$captchaLauncher$1;->this$0:Lcom/discord/widgets/friends/WidgetFriendsAddById;
 
-    # invokes: Lcom/discord/widgets/friends/WidgetFriendsAddById;->extractTargetAndSendFriendRequest(Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/friends/WidgetFriendsAddById;->access$extractTargetAndSendFriendRequest(Lcom/discord/widgets/friends/WidgetFriendsAddById;Lcom/discord/utilities/captcha/CaptchaHelper$CaptchaPayload;)V
 
     return-void

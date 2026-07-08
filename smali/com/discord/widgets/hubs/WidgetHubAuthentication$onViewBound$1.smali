@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/hubs/WidgetHubAuthentication$onViewBound$1;->this$0:Lcom/discord/widgets/hubs/WidgetHubAuthentication;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubAuthentication;->getViewModel()Lcom/discord/widgets/hubs/WidgetHubAuthenticationViewModel;
     invoke-static {v0}, Lcom/discord/widgets/hubs/WidgetHubAuthentication;->access$getViewModel$p(Lcom/discord/widgets/hubs/WidgetHubAuthentication;)Lcom/discord/widgets/hubs/WidgetHubAuthenticationViewModel;
 
     move-result-object v0

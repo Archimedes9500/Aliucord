@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/create/WidgetGuildCreate$onResume$2;->this$0:Lcom/discord/widgets/guilds/create/WidgetGuildCreate;
 
-    # invokes: Lcom/discord/widgets/guilds/create/WidgetGuildCreate;->handleEvent(Lcom/discord/widgets/guilds/create/WidgetGuildCreateViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/create/WidgetGuildCreate;->access$handleEvent(Lcom/discord/widgets/guilds/create/WidgetGuildCreate;Lcom/discord/widgets/guilds/create/WidgetGuildCreateViewModel$Event;)V
 
     return-void

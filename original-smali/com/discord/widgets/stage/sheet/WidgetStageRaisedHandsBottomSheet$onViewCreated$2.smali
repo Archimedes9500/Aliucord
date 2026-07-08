@@ -106,7 +106,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet$onViewCreated$2;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;->getChannelId()J
     invoke-static {p1}, Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;->access$getChannelId$p(Lcom/discord/widgets/stage/sheet/WidgetStageRaisedHandsBottomSheet;)J
 
     move-result-wide v4

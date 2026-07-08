@@ -343,7 +343,6 @@
 
     invoke-static {v1, v6}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog$Model$Companion;->resolveChannelName(Ljava/util/Map;Lcom/discord/models/domain/ModelAuditLogEntry;)Ljava/lang/String;
     invoke-static {v8, v1, v5}, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog$Model$Companion;->access$resolveChannelName(Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog$Model$Companion;Ljava/util/Map;Lcom/discord/models/domain/ModelAuditLogEntry;)Ljava/lang/String;
 
     move-result-object v6

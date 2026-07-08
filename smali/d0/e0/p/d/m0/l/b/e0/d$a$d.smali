@@ -72,7 +72,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/l/b/e0/d$a$d;->this$0:Ld0/e0/p/d/m0/l/b/e0/d$a;
 
-    # getter for: Ld0/e0/p/d/m0/l/b/e0/d$a;->g:Ld0/e0/p/d/m0/n/l1/g;
     invoke-static {v0}, Ld0/e0/p/d/m0/l/b/e0/d$a;->access$getKotlinTypeRefiner$p(Ld0/e0/p/d/m0/l/b/e0/d$a;)Ld0/e0/p/d/m0/n/l1/g;
 
     move-result-object v0

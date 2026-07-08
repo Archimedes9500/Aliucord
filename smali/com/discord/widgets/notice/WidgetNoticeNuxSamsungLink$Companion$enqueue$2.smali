@@ -191,7 +191,6 @@
     .line 9
     sget-object p1, Lcom/discord/widgets/notice/WidgetNoticeNuxSamsungLink;->Companion:Lcom/discord/widgets/notice/WidgetNoticeNuxSamsungLink$Companion;
 
-    # invokes: Lcom/discord/widgets/notice/WidgetNoticeNuxSamsungLink$Companion;->internalEnqueue()V
     invoke-static {p1}, Lcom/discord/widgets/notice/WidgetNoticeNuxSamsungLink$Companion;->access$internalEnqueue(Lcom/discord/widgets/notice/WidgetNoticeNuxSamsungLink$Companion;)V
 
     :cond_50

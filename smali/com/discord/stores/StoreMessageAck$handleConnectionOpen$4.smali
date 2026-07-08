@@ -131,7 +131,6 @@
     .line 2
     iget-object v1, p0, Lcom/discord/stores/StoreMessageAck$handleConnectionOpen$4;->this$0:Lcom/discord/stores/StoreMessageAck;
 
-    # getter for: Lcom/discord/stores/StoreMessageAck;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v1}, Lcom/discord/stores/StoreMessageAck;->access$getDispatcher$p(Lcom/discord/stores/StoreMessageAck;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v1

@@ -114,7 +114,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleSpeakingUsers(Ljava/util/Set;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleSpeakingUsers(Lcom/discord/stores/StoreStream;Ljava/util/Set;)V
 
     return-void

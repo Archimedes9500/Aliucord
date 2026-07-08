@@ -125,7 +125,6 @@
     .line 5
     iget-object v2, p0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker$viewModelForSheet$2;->this$0:Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->getInitialStickerPackId()Ljava/lang/Long;
     invoke-static {v2}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$getInitialStickerPackId$p(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)Ljava/lang/Long;
 
     move-result-object v2

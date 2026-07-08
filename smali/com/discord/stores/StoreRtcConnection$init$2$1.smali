@@ -93,7 +93,6 @@
 
     iget-boolean v1, p0, Lcom/discord/stores/StoreRtcConnection$init$2$1;->$isDeafened:Z
 
-    # invokes: Lcom/discord/stores/StoreRtcConnection;->handleSelfDeafened(Z)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreRtcConnection;->access$handleSelfDeafened(Lcom/discord/stores/StoreRtcConnection;Z)V
 
     return-void

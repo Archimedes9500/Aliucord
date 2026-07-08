@@ -92,7 +92,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/user/UserRequestManager$requestUser$1;->this$0:Lcom/discord/utilities/user/UserRequestManager;
 
-    # getter for: Lcom/discord/utilities/user/UserRequestManager;->onFlush:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Lcom/discord/utilities/user/UserRequestManager;->access$getOnFlush$p(Lcom/discord/utilities/user/UserRequestManager;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

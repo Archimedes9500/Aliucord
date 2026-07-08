@@ -71,7 +71,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/friends/NearbyManager$setupListener$1;->this$0:Lcom/discord/widgets/friends/NearbyManager;
 
-    # invokes: Lcom/discord/widgets/friends/NearbyManager;->parseUserId(Lcom/google/android/gms/nearby/messages/Message;)Ljava/lang/Long;
     invoke-static {v0, p1}, Lcom/discord/widgets/friends/NearbyManager;->access$parseUserId(Lcom/discord/widgets/friends/NearbyManager;Lcom/google/android/gms/nearby/messages/Message;)Ljava/lang/Long;
 
     move-result-object p1
@@ -84,7 +83,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/widgets/friends/NearbyManager;->foundUserId(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/friends/NearbyManager;->access$foundUserId(Lcom/discord/widgets/friends/NearbyManager;J)V
 
     :cond_16
@@ -102,7 +100,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/friends/NearbyManager$setupListener$1;->this$0:Lcom/discord/widgets/friends/NearbyManager;
 
-    # invokes: Lcom/discord/widgets/friends/NearbyManager;->parseUserId(Lcom/google/android/gms/nearby/messages/Message;)Ljava/lang/Long;
     invoke-static {v0, p1}, Lcom/discord/widgets/friends/NearbyManager;->access$parseUserId(Lcom/discord/widgets/friends/NearbyManager;Lcom/google/android/gms/nearby/messages/Message;)Ljava/lang/Long;
 
     move-result-object p1
@@ -115,7 +112,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/widgets/friends/NearbyManager;->lostUserId(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/friends/NearbyManager;->access$lostUserId(Lcom/discord/widgets/friends/NearbyManager;J)V
 
     :cond_16

@@ -89,7 +89,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareCompact$initBottomSheetBehavior$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareCompact;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareCompact;->getViewModel()Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;
     invoke-static {v0}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareCompact;->access$getViewModel$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareCompact;)Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareViewModel;
 
     move-result-object v0
@@ -100,7 +99,6 @@
     :cond_11
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareCompact$initBottomSheetBehavior$1;->this$0:Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareCompact;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareCompact;->getBinding()Lcom/discord/databinding/WidgetGuildInviteShareCompactBinding;
     invoke-static {v0}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareCompact;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareCompact;)Lcom/discord/databinding/WidgetGuildInviteShareCompactBinding;
 
     move-result-object v0

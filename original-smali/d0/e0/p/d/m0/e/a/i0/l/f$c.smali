@@ -113,7 +113,6 @@
     check-cast v3, Ld0/e0/p/d/m0/e/a/k0/y;
 
     .line 6
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/f;->u:Ld0/e0/p/d/m0/e/a/i0/g;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/l/f;->access$getC$p(Ld0/e0/p/d/m0/e/a/i0/l/f;)Ld0/e0/p/d/m0/e/a/i0/g;
 
     move-result-object v4

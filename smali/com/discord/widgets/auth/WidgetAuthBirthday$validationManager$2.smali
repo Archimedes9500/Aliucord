@@ -84,7 +84,6 @@
     .line 4
     iget-object v3, p0, Lcom/discord/widgets/auth/WidgetAuthBirthday$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthBirthday;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthBirthday;->getBinding()Lcom/discord/databinding/WidgetAuthBirthdayBinding;
     invoke-static {v3}, Lcom/discord/widgets/auth/WidgetAuthBirthday;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthBirthday;)Lcom/discord/databinding/WidgetAuthBirthdayBinding;
 
     move-result-object v3
@@ -124,7 +123,6 @@
 
     iget-object v3, p0, Lcom/discord/widgets/auth/WidgetAuthBirthday$validationManager$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthBirthday;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthBirthday;->getBinding()Lcom/discord/databinding/WidgetAuthBirthdayBinding;
     invoke-static {v3}, Lcom/discord/widgets/auth/WidgetAuthBirthday;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthBirthday;)Lcom/discord/databinding/WidgetAuthBirthdayBinding;
 
     move-result-object v3

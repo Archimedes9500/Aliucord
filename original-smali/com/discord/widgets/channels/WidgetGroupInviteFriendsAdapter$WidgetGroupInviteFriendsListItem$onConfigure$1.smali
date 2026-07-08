@@ -83,7 +83,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/channels/WidgetGroupInviteFriendsAdapter;->listener:Lkotlin/jvm/functions/Function2;
     invoke-static {p1}, Lcom/discord/widgets/channels/WidgetGroupInviteFriendsAdapter;->access$getListener$p(Lcom/discord/widgets/channels/WidgetGroupInviteFriendsAdapter;)Lkotlin/jvm/functions/Function2;
 
     move-result-object p1

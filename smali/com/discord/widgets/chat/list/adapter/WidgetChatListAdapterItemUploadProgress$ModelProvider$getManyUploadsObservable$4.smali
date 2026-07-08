@@ -93,7 +93,6 @@
 
     iget-wide v3, p1, Lkotlin/jvm/internal/Ref$LongRef;->element:J
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemUploadProgress$ModelProvider;->getPercentage(JJ)I
     invoke-static {v0, v1, v2, v3, v4}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemUploadProgress$ModelProvider;->access$getPercentage(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemUploadProgress$ModelProvider;JJ)I
 
     move-result p1

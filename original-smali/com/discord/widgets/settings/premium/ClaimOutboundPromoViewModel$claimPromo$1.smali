@@ -142,13 +142,11 @@
 
     invoke-direct {v1, v8}, Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel$ViewState$Claimed;-><init>(Lcom/discord/widgets/settings/premium/ClaimStatus$Claimed;)V
 
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {p1, v1}, Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel;->access$updateViewState(Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel;Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel$ViewState;)V
 
     .line 11
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel$claimPromo$1;->this$0:Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel;->access$getEventSubject$p(Lcom/discord/widgets/settings/premium/ClaimOutboundPromoViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

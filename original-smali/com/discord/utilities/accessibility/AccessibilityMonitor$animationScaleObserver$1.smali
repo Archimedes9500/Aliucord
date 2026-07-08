@@ -86,7 +86,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/utilities/accessibility/AccessibilityMonitor$animationScaleObserver$1;->this$0:Lcom/discord/utilities/accessibility/AccessibilityMonitor;
 
-    # invokes: Lcom/discord/utilities/accessibility/AccessibilityMonitor;->handleReduceMotionUpdated()V
     invoke-static {p1}, Lcom/discord/utilities/accessibility/AccessibilityMonitor;->access$handleReduceMotionUpdated(Lcom/discord/utilities/accessibility/AccessibilityMonitor;)V
 
     return-void

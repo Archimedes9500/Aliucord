@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplication$fetchIfNonexisting$1;->this$0:Lcom/discord/stores/StoreApplication;
 
-    # getter for: Lcom/discord/stores/StoreApplication;->applications:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreApplication;->access$getApplications$p(Lcom/discord/stores/StoreApplication;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -109,7 +108,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreApplication$fetchIfNonexisting$1;->this$0:Lcom/discord/stores/StoreApplication;
 
-    # getter for: Lcom/discord/stores/StoreApplication;->applicationsLoading:Ljava/util/HashSet;
     invoke-static {v0}, Lcom/discord/stores/StoreApplication;->access$getApplicationsLoading$p(Lcom/discord/stores/StoreApplication;)Ljava/util/HashSet;
 
     move-result-object v0
@@ -132,7 +130,6 @@
     :cond_25
     iget-object v0, p0, Lcom/discord/stores/StoreApplication$fetchIfNonexisting$1;->this$0:Lcom/discord/stores/StoreApplication;
 
-    # getter for: Lcom/discord/stores/StoreApplication;->applicationsLoading:Ljava/util/HashSet;
     invoke-static {v0}, Lcom/discord/stores/StoreApplication;->access$getApplicationsLoading$p(Lcom/discord/stores/StoreApplication;)Ljava/util/HashSet;
 
     move-result-object v0

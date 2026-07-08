@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/utilities/textprocessing/MessageParseState;->initialState:Lcom/discord/utilities/textprocessing/MessageParseState;
     invoke-static {}, Lcom/discord/utilities/textprocessing/MessageParseState;->access$getInitialState$cp()Lcom/discord/utilities/textprocessing/MessageParseState;
 
     move-result-object v0

@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/contact_sync/WidgetContactSync$requestContactsPermissions$2;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSync;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSync;->onPermissionsDenied()V
     invoke-static {v0}, Lcom/discord/widgets/contact_sync/WidgetContactSync;->access$onPermissionsDenied(Lcom/discord/widgets/contact_sync/WidgetContactSync;)V
 
     return-void

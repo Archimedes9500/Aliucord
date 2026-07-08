@@ -669,7 +669,6 @@
     .line 7
     sget-object p2, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->Companion:Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$Companion;->observeStores()Lrx/Observable;
     invoke-static {p2}, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$Companion;->access$observeStores(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$Companion;)Lrx/Observable;
 
     move-result-object p7

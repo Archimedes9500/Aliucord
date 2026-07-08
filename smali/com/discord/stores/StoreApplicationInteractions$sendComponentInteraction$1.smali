@@ -273,7 +273,6 @@
     .line 10
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationInteractions$sendComponentInteraction$1;->this$0:Lcom/discord/stores/StoreApplicationInteractions;
 
-    # getter for: Lcom/discord/stores/StoreApplicationInteractions;->storeLocalActionComponentState:Lcom/discord/stores/StoreLocalActionComponentState;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationInteractions;->access$getStoreLocalActionComponentState$p(Lcom/discord/stores/StoreApplicationInteractions;)Lcom/discord/stores/StoreLocalActionComponentState;
 
     move-result-object v1
@@ -320,7 +319,6 @@
 
     sget-object v7, Lcom/discord/stores/StoreApplicationInteractions$InteractionSendState$Loading;->INSTANCE:Lcom/discord/stores/StoreApplicationInteractions$InteractionSendState$Loading;
 
-    # invokes: Lcom/discord/stores/StoreApplicationInteractions;->addInteractionStateToComponent(JILcom/discord/stores/StoreApplicationInteractions$InteractionSendState;)V
     invoke-static {v1, v5, v6, v2, v7}, Lcom/discord/stores/StoreApplicationInteractions;->access$addInteractionStateToComponent(Lcom/discord/stores/StoreApplicationInteractions;JILcom/discord/stores/StoreApplicationInteractions$InteractionSendState;)V
 
     .line 13
@@ -359,7 +357,6 @@
     .line 14
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationInteractions$sendComponentInteraction$1;->this$0:Lcom/discord/stores/StoreApplicationInteractions;
 
-    # getter for: Lcom/discord/stores/StoreApplicationInteractions;->restAPI:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationInteractions;->access$getRestAPI$p(Lcom/discord/stores/StoreApplicationInteractions;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v1
@@ -390,7 +387,6 @@
     .line 22
     iget-object v3, v0, Lcom/discord/stores/StoreApplicationInteractions$sendComponentInteraction$1;->this$0:Lcom/discord/stores/StoreApplicationInteractions;
 
-    # getter for: Lcom/discord/stores/StoreApplicationInteractions;->sessionId:Ljava/lang/String;
     invoke-static {v3}, Lcom/discord/stores/StoreApplicationInteractions;->access$getSessionId$p(Lcom/discord/stores/StoreApplicationInteractions;)Ljava/lang/String;
 
     move-result-object v17

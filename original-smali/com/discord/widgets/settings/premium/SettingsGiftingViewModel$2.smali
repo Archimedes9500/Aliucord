@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->handleGooglePlayQueryStateUpdate(Lcom/discord/stores/StoreGooglePlayPurchases$QueryState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->access$handleGooglePlayQueryStateUpdate(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;Lcom/discord/stores/StoreGooglePlayPurchases$QueryState;)V
 
     return-void

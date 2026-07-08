@@ -127,7 +127,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model$Companion$get$1;->$filterPublisher:Lrx/Observable;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model$Companion;->getBanItems(JLrx/Observable;)Lrx/Observable;
     invoke-static {p1, v0, v1, v2}, Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model$Companion;->access$getBanItems(Lcom/discord/widgets/servers/WidgetServerSettingsBans$Model$Companion;JLrx/Observable;)Lrx/Observable;
 
     move-result-object p1

@@ -815,7 +815,7 @@
 
     move-object/from16 v0, p7
 
-    const-wide v1, 0x17ffff7feffL
+    const-wide v1, 0xa017ffff7feffL
 
     cmp-long v3, p4, p0
 

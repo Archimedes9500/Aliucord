@@ -104,7 +104,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;->emitSetStatusSuccessEvent(Lcom/discord/api/channel/Channel;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;->access$emitSetStatusSuccessEvent(Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel;Lcom/discord/api/channel/Channel;)V
 
     return-void

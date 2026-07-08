@@ -226,7 +226,6 @@
 
     iget-object v10, v0, Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion$observeStoreState$1;->$storeUsers:Lcom/discord/stores/StoreUser;
 
-    # invokes: Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;->getVerificationLevelTriggeredObservable(JLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUser;)Lrx/Observable;
     invoke-static {v2, v8, v9, v3, v10}, Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;->access$getVerificationLevelTriggeredObservable(Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;JLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUser;)Lrx/Observable;
 
     move-result-object v8
@@ -249,7 +248,6 @@
 
     iget-object v3, v0, Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion$observeStoreState$1;->$storeSlowMode:Lcom/discord/stores/StoreSlowMode;
 
-    # invokes: Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;->getIsOnCooldownObservable(JLcom/discord/stores/StoreSlowMode;)Lrx/Observable;
     invoke-static {v2, v10, v11, v3}, Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;->access$getIsOnCooldownObservable(Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;JLcom/discord/stores/StoreSlowMode;)Lrx/Observable;
 
     move-result-object v10
@@ -276,7 +274,6 @@
 
     iget-object v3, v0, Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion$observeStoreState$1;->$storePendingReplies:Lcom/discord/stores/StorePendingReplies;
 
-    # invokes: Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;->getPendingReplyStateObservable(JLcom/discord/stores/StorePendingReplies;)Lrx/Observable;
     invoke-static {v2, v12, v13, v3}, Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;->access$getPendingReplyStateObservable(Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;JLcom/discord/stores/StorePendingReplies;)Lrx/Observable;
 
     move-result-object v12

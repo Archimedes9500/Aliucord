@@ -77,7 +77,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/WidgetCreateChannel$RolesAdapter$RoleListItem$onConfigure$1;->this$0:Lcom/discord/widgets/channels/WidgetCreateChannel$RolesAdapter$RoleListItem;
 
-    # getter for: Lcom/discord/widgets/channels/WidgetCreateChannel$RolesAdapter$RoleListItem;->binding:Lcom/discord/databinding/ViewCheckableRoleListItemThemedBinding;
     invoke-static {v0}, Lcom/discord/widgets/channels/WidgetCreateChannel$RolesAdapter$RoleListItem;->access$getBinding$p(Lcom/discord/widgets/channels/WidgetCreateChannel$RolesAdapter$RoleListItem;)Lcom/discord/databinding/ViewCheckableRoleListItemThemedBinding;
 
     move-result-object v0
@@ -109,7 +108,6 @@
     move-result-wide v2
 
     .line 5
-    # invokes: Lcom/discord/widgets/channels/WidgetCreateChannel$RolesAdapter;->onRoleClicked(ZIJ)V
     invoke-static {p1, v0, v1, v2, v3}, Lcom/discord/widgets/channels/WidgetCreateChannel$RolesAdapter;->access$onRoleClicked(Lcom/discord/widgets/channels/WidgetCreateChannel$RolesAdapter;ZIJ)V
 
     return-void

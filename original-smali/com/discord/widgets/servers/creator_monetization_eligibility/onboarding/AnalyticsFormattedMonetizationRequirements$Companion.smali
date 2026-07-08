@@ -82,7 +82,6 @@
 .method private final getGsonInstance()Lcom/google/gson/Gson;
     .locals 2
 
-    # getter for: Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/AnalyticsFormattedMonetizationRequirements;->gsonInstance$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/widgets/servers/creator_monetization_eligibility/onboarding/AnalyticsFormattedMonetizationRequirements;->access$getGsonInstance$cp()Lkotlin/Lazy;
 
     move-result-object v0

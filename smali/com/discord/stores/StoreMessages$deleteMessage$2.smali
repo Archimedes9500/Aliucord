@@ -116,7 +116,6 @@
 
     iget-wide v2, p0, Lcom/discord/stores/StoreMessages$deleteMessage$2;->$channelId:J
 
-    # invokes: Lcom/discord/stores/StoreMessages;->getOrCreateMessageQueue(J)Lcom/discord/utilities/messagesend/MessageQueue;
     invoke-static {v1, v2, v3}, Lcom/discord/stores/StoreMessages;->access$getOrCreateMessageQueue(Lcom/discord/stores/StoreMessages;J)Lcom/discord/utilities/messagesend/MessageQueue;
 
     move-result-object v1
@@ -129,7 +128,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreMessages$deleteMessage$2;->$message:Lcom/discord/models/message/Message;
 
-    # invokes: Lcom/discord/stores/StoreMessages;->handleLocalMessageDelete(Lcom/discord/models/message/Message;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreMessages;->access$handleLocalMessageDelete(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;)V
 
     .line 5
@@ -159,7 +157,6 @@
 
     sget-object v2, Lcom/discord/stores/FailedMessageResolutionType;->DELETED:Lcom/discord/stores/FailedMessageResolutionType;
 
-    # invokes: Lcom/discord/stores/StoreMessages;->trackFailedLocalMessageResolved(Lcom/discord/models/message/Message;Lcom/discord/stores/FailedMessageResolutionType;)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreMessages;->access$trackFailedLocalMessageResolved(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;Lcom/discord/stores/FailedMessageResolutionType;)V
 
     goto :goto_52
@@ -192,7 +189,6 @@
     :goto_52
     iget-object v0, p0, Lcom/discord/stores/StoreMessages$deleteMessage$2;->this$0:Lcom/discord/stores/StoreMessages;
 
-    # getter for: Lcom/discord/stores/StoreMessages;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreMessages;->access$getStream$p(Lcom/discord/stores/StoreMessages;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

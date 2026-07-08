@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/user/search/WidgetGlobalSearch$onViewBound$3;->this$0:Lcom/discord/widgets/user/search/WidgetGlobalSearch;
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->showFilterPickerDialog()V
     invoke-static {p1}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$showFilterPickerDialog(Lcom/discord/widgets/user/search/WidgetGlobalSearch;)V
 
     return-void

@@ -76,7 +76,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment$configureUI$7;->$attachment:Lcom/discord/api/message/attachment/MessageAttachment;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment$Companion;->navigateToAttachment(Landroid/content/Context;Lcom/discord/api/message/attachment/MessageAttachment;)V
     invoke-static {v0, p1, v1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment$Companion;->access$navigateToAttachment(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemAttachment$Companion;Landroid/content/Context;Lcom/discord/api/message/attachment/MessageAttachment;)V
 
     return-void

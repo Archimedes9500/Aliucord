@@ -100,7 +100,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreForumPostReadStates$observeThreadUnreadCounts$1;->this$0:Lcom/discord/stores/StoreForumPostReadStates;
 
-    # getter for: Lcom/discord/stores/StoreForumPostReadStates;->threadUnreadCountsSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreForumPostReadStates;->access$getThreadUnreadCountsSnapshot$p(Lcom/discord/stores/StoreForumPostReadStates;)Ljava/util/Map;
 
     move-result-object v0

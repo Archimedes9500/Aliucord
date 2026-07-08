@@ -47,7 +47,6 @@
 
     iget-object v1, p0, Lcom/adjust/sdk/ActivityHandler$26;->val$subscription:Lcom/adjust/sdk/AdjustPlayStoreSubscription;
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->trackSubscriptionI(Lcom/adjust/sdk/AdjustPlayStoreSubscription;)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/ActivityHandler;->access$2600(Lcom/adjust/sdk/ActivityHandler;Lcom/adjust/sdk/AdjustPlayStoreSubscription;)V
 
     return-void

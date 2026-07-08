@@ -132,7 +132,6 @@
     .line 2
     iget-object v1, p0, Lcom/discord/stores/StoreGuildRoleSubscriptions$fetchGuildRoleSubscriptionGroupsForGuild$2;->this$0:Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleSubscriptions;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$getDispatcher$p(Lcom/discord/stores/StoreGuildRoleSubscriptions;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v1

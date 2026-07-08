@@ -58,7 +58,6 @@
 
     iget-object v1, p0, Ld0/e0/p/d/m0/c/i1/y$b;->this$0:Ld0/e0/p/d/m0/c/i1/y;
 
-    # getter for: Ld0/e0/p/d/m0/c/i1/y;->l:Ld0/e0/p/d/m0/m/o;
     invoke-static {v1}, Ld0/e0/p/d/m0/c/i1/y;->access$getStorageManager$p(Ld0/e0/p/d/m0/c/i1/y;)Ld0/e0/p/d/m0/m/o;
 
     move-result-object v2

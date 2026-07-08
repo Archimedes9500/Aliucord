@@ -271,7 +271,6 @@
 
     iget-object p3, p0, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers$configureUI$2;->this$0:Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;
 
-    # invokes: Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;->getBinding()Lcom/discord/databinding/WidgetServerSettingsMembersBinding;
     invoke-static {p3}, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;->access$getBinding$p(Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembers;)Lcom/discord/databinding/WidgetServerSettingsMembersBinding;
 
     move-result-object p3

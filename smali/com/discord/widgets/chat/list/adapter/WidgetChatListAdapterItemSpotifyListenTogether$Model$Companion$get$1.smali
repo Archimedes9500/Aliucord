@@ -144,7 +144,6 @@
     const/4 p3, 0x0
 
     :goto_1c
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSpotifyListenTogether$Model$Companion;->create(Lcom/discord/models/presence/Presence;Ljava/util/Map;Lcom/discord/widgets/chat/list/entries/SpotifyListenTogetherEntry;Z)Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSpotifyListenTogether$Model;
     invoke-static {v0, p1, p2, v1, p3}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSpotifyListenTogether$Model$Companion;->access$create(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSpotifyListenTogether$Model$Companion;Lcom/discord/models/presence/Presence;Ljava/util/Map;Lcom/discord/widgets/chat/list/entries/SpotifyListenTogetherEntry;Z)Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemSpotifyListenTogether$Model;
 
     move-result-object p1

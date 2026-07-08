@@ -76,7 +76,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->showRegionDialog(Ljava/util/List;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$showRegionDialog(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;Ljava/util/List;)V
 
     return-void

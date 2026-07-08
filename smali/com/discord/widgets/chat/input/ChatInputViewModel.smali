@@ -871,7 +871,6 @@
     move-object/from16 p12, v12
 
     .line 22
-    # invokes: Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;->observeStoreState(Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChat;Lcom/discord/stores/StoreUserRelationships;Lcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreLurking;Lcom/discord/stores/StoreSlowMode;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StorePendingReplies;Lcom/discord/stores/StoreGuildJoinRequest;Lcom/discord/stores/StoreThreadDraft;)Lrx/Observable;
     invoke-static/range {p1 .. p12}, Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/chat/input/ChatInputViewModel$Companion;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChat;Lcom/discord/stores/StoreUserRelationships;Lcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreLurking;Lcom/discord/stores/StoreSlowMode;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StorePendingReplies;Lcom/discord/stores/StoreGuildJoinRequest;Lcom/discord/stores/StoreThreadDraft;)Lrx/Observable;
 
     move-result-object v0

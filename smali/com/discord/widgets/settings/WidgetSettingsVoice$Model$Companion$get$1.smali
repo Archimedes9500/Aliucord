@@ -142,7 +142,6 @@
 
     .line 5
     :cond_16
-    # getter for: Lcom/discord/widgets/settings/WidgetSettingsVoice;->LOCAL_VOICE_STATUS_ENGINE_UNINITIALIZED:Lcom/discord/rtcconnection/mediaengine/MediaEngine$LocalVoiceStatus;
     invoke-static {}, Lcom/discord/widgets/settings/WidgetSettingsVoice;->access$getLOCAL_VOICE_STATUS_ENGINE_UNINITIALIZED$cp()Lcom/discord/rtcconnection/mediaengine/MediaEngine$LocalVoiceStatus;
 
     move-result-object p1

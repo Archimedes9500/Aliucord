@@ -156,7 +156,6 @@
 
     invoke-static {v6, v8}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/utilities/sms/AppSignatureHelper$Companion;->hash(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v7, v1, v6}, Lcom/discord/utilities/sms/AppSignatureHelper$Companion;->access$hash(Lcom/discord/utilities/sms/AppSignatureHelper$Companion;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6

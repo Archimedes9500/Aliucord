@@ -103,7 +103,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$configureBottomNavSpace$1;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsList;->getBinding()Lcom/discord/databinding/WidgetChannelsListBinding;
     invoke-static {v0}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$getBinding$p(Lcom/discord/widgets/channels/list/WidgetChannelsList;)Lcom/discord/databinding/WidgetChannelsListBinding;
 
     move-result-object v0
@@ -139,7 +138,6 @@
     .line 8
     iget-object p1, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$configureBottomNavSpace$1;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelsList;->getBinding()Lcom/discord/databinding/WidgetChannelsListBinding;
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$getBinding$p(Lcom/discord/widgets/channels/list/WidgetChannelsList;)Lcom/discord/databinding/WidgetChannelsListBinding;
 
     move-result-object p1

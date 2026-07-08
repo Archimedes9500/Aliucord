@@ -80,7 +80,6 @@
     xor-int/lit8 v0, v0, 0x1
 
     .line 3
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->showDefaultGuildsRestrictedExistingServers(Z)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$showDefaultGuildsRestrictedExistingServers(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;Z)V
 
     return-void

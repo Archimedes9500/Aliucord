@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleThreadMemberUpdate(Lcom/discord/api/thread/ThreadMemberUpdate;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleThreadMemberUpdate(Lcom/discord/stores/StoreStream;Lcom/discord/api/thread/ThreadMemberUpdate;)V
 
     return-void

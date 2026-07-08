@@ -95,7 +95,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections$onViewBound$$inlined$let$lambda$1;->this$0:Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections;
 
-    # invokes: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections;->getViewModel()Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;
     invoke-static {v0}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections;->access$getViewModel$p(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnections;)Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;
 
     move-result-object v0

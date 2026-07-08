@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu$configureValidUI$3;->this$0:Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;
 
-    # invokes: Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;->doCircularRemove()V
     invoke-static {p1}, Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;->access$doCircularRemove(Lcom/discord/widgets/guilds/contextmenu/WidgetGuildContextMenu;)V
 
     .line 2

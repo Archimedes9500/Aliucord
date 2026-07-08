@@ -109,7 +109,6 @@
 
     invoke-static {v5, v3}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StoreOutboundPromotions;->getUnseenCount(Ljava/util/List;)I
     invoke-static {v4, v5}, Lcom/discord/stores/StoreOutboundPromotions;->access$getUnseenCount(Lcom/discord/stores/StoreOutboundPromotions;Ljava/util/List;)I
 
     move-result v3

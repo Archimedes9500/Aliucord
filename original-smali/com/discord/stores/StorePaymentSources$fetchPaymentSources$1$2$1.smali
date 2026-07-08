@@ -101,7 +101,6 @@
     invoke-static {v1, v2}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    # invokes: Lcom/discord/stores/StorePaymentSources;->handlePaymentSourcesFetchSuccess(Ljava/util/List;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StorePaymentSources;->access$handlePaymentSourcesFetchSuccess(Lcom/discord/stores/StorePaymentSources;Ljava/util/List;)V
 
     return-void

@@ -74,7 +74,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$onQuickAddReactionClicked$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;->userReactionHandler:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$UserReactionHandler;
     invoke-static {v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;->access$getUserReactionHandler$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler;)Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterEventsHandler$UserReactionHandler;
 
     move-result-object v1

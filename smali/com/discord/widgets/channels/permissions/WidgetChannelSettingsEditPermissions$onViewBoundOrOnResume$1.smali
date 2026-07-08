@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->configureUI(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissionsModel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$configureUI(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissionsModel;)V
 
     return-void

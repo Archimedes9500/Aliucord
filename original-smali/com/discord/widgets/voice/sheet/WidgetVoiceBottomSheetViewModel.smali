@@ -916,7 +916,6 @@
 
     move-wide/from16 v3, p1
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel$Companion;->observeStoreState(JLcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreChannels;)Lrx/Observable;
     invoke-static {v0, v3, v4, v7, v6}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel$Companion;JLcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreChannels;)Lrx/Observable;
 
     move-result-object v0

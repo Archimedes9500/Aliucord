@@ -96,7 +96,6 @@
 
     iget-object v3, p0, Lcom/discord/gateway/GatewaySocket$connect$3;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->connectionStartTime:J
     invoke-static {v3}, Lcom/discord/gateway/GatewaySocket;->access$getConnectionStartTime$p(Lcom/discord/gateway/GatewaySocket;)J
 
     move-result-wide v3
@@ -124,7 +123,6 @@
     const/4 v2, 0x0
 
     .line 4
-    # invokes: Lcom/discord/gateway/GatewaySocket;->handleClose(ZILjava/lang/String;)V
     invoke-static {v0, v2, v2, v1}, Lcom/discord/gateway/GatewaySocket;->access$handleClose(Lcom/discord/gateway/GatewaySocket;ZILjava/lang/String;)V
 
     return-void

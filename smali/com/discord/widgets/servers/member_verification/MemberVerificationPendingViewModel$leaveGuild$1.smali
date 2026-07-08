@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel$leaveGuild$1;->this$0:Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;
 
-    # getter for: Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;->access$getEventSubject$p(Lcom/discord/widgets/servers/member_verification/MemberVerificationPendingViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

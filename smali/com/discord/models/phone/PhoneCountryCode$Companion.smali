@@ -70,7 +70,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/models/phone/PhoneCountryCode;->DEFAULT_COUNTRY_CODE:Lcom/discord/models/phone/PhoneCountryCode;
     invoke-static {}, Lcom/discord/models/phone/PhoneCountryCode;->access$getDEFAULT_COUNTRY_CODE$cp()Lcom/discord/models/phone/PhoneCountryCode;
 
     move-result-object v0
@@ -82,7 +81,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/models/phone/PhoneCountryCode;->MISSING_COUNTRY_CODE:Lcom/discord/models/phone/PhoneCountryCode;
     invoke-static {}, Lcom/discord/models/phone/PhoneCountryCode;->access$getMISSING_COUNTRY_CODE$cp()Lcom/discord/models/phone/PhoneCountryCode;
 
     move-result-object v0

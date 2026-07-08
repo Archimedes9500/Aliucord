@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreThreadDraft$clearDraftState$1;->this$0:Lcom/discord/stores/StoreThreadDraft;
 
-    # getter for: Lcom/discord/stores/StoreThreadDraft;->draftStateSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreThreadDraft;->access$getDraftStateSubject$p(Lcom/discord/stores/StoreThreadDraft;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

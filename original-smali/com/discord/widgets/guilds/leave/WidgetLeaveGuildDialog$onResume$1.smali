@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/leave/WidgetLeaveGuildDialog$onResume$1;->this$0:Lcom/discord/widgets/guilds/leave/WidgetLeaveGuildDialog;
 
-    # invokes: Lcom/discord/widgets/guilds/leave/WidgetLeaveGuildDialog;->getViewModel()Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guilds/leave/WidgetLeaveGuildDialog;->access$getViewModel$p(Lcom/discord/widgets/guilds/leave/WidgetLeaveGuildDialog;)Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel;
 
     move-result-object p1

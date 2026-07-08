@@ -96,7 +96,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreSearchQuery$parseAndQuery$4;->this$0:Lcom/discord/stores/StoreSearchQuery;
 
-    # invokes: Lcom/discord/stores/StoreSearchQuery;->handleError()V
     invoke-static {p1}, Lcom/discord/stores/StoreSearchQuery;->access$handleError(Lcom/discord/stores/StoreSearchQuery;)V
 
     goto :goto_f
@@ -107,7 +106,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreSearchQuery$parseAndQuery$4;->$searchTarget:Lcom/discord/stores/StoreSearch$SearchTarget;
 
-    # invokes: Lcom/discord/stores/StoreSearchQuery;->performInitialLoad(Lcom/discord/stores/StoreSearch$SearchTarget;Lcom/discord/utilities/search/network/SearchQuery;)V
     invoke-static {v0, v1, p1}, Lcom/discord/stores/StoreSearchQuery;->access$performInitialLoad(Lcom/discord/stores/StoreSearchQuery;Lcom/discord/stores/StoreSearch$SearchTarget;Lcom/discord/utilities/search/network/SearchQuery;)V
 
     :goto_f

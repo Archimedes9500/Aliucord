@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/playstation/WidgetPlaystationIntegrationUpsellBottomSheet$onViewCreated$2;->this$0:Lcom/discord/widgets/playstation/WidgetPlaystationIntegrationUpsellBottomSheet;
 
-    # invokes: Lcom/discord/widgets/playstation/WidgetPlaystationIntegrationUpsellBottomSheet;->logConfirm()V
     invoke-static {p1}, Lcom/discord/widgets/playstation/WidgetPlaystationIntegrationUpsellBottomSheet;->access$logConfirm(Lcom/discord/widgets/playstation/WidgetPlaystationIntegrationUpsellBottomSheet;)V
 
     .line 2

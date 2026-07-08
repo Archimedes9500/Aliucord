@@ -182,7 +182,6 @@
     iput p1, p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$SavedState;->state:I
 
     .line 10
-    # getter for: Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->peekHeight:I
     invoke-static {p2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->access$600(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)I
 
     move-result p1
@@ -190,7 +189,6 @@
     iput p1, p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$SavedState;->peekHeight:I
 
     .line 11
-    # getter for: Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->fitToContents:Z
     invoke-static {p2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->access$500(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)Z
 
     move-result p1
@@ -203,7 +201,6 @@
     iput-boolean p1, p0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior$SavedState;->hideable:Z
 
     .line 13
-    # getter for: Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->skipCollapsed:Z
     invoke-static {p2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->access$700(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)Z
 
     move-result p1

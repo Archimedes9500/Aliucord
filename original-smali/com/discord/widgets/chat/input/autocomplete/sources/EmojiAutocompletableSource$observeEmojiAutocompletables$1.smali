@@ -133,7 +133,6 @@
 
     move-result p2
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/sources/EmojiAutocompletableSource;->createFromEmojiSet(Lcom/discord/models/domain/emoji/EmojiSet;Z)Ljava/util/Map;
     invoke-static {v0, p1, p2}, Lcom/discord/widgets/chat/input/autocomplete/sources/EmojiAutocompletableSource;->access$createFromEmojiSet(Lcom/discord/widgets/chat/input/autocomplete/sources/EmojiAutocompletableSource;Lcom/discord/models/domain/emoji/EmojiSet;Z)Ljava/util/Map;
 
     move-result-object p1

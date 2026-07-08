@@ -106,7 +106,6 @@
     .line 4
     iget-object p1, p0, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived$onViewBound$3;->this$0:Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;
 
-    # invokes: Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;->getViewModel()Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
     invoke-static {p1}, Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;->access$getViewModel$p(Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchived;)Lcom/discord/widgets/channels/threads/browser/WidgetThreadBrowserArchivedViewModel;
 
     move-result-object p1

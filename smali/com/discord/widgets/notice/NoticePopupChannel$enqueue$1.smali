@@ -193,7 +193,6 @@
     move-object/from16 v7, p6
 
     .line 2
-    # invokes: Lcom/discord/widgets/notice/NoticePopupChannel;->createModel(Landroid/content/Context;Lcom/discord/models/message/Message;Lcom/discord/models/guild/Guild;Lcom/discord/api/channel/Channel;Ljava/util/Map;Ljava/lang/Long;Lcom/discord/models/user/User;Ljava/util/Map;Ljava/util/Map;)Lcom/discord/widgets/notice/NoticePopupChannel$Model;
     invoke-static/range {v1 .. v10}, Lcom/discord/widgets/notice/NoticePopupChannel;->access$createModel(Lcom/discord/widgets/notice/NoticePopupChannel;Landroid/content/Context;Lcom/discord/models/message/Message;Lcom/discord/models/guild/Guild;Lcom/discord/api/channel/Channel;Ljava/util/Map;Ljava/lang/Long;Lcom/discord/models/user/User;Ljava/util/Map;Ljava/util/Map;)Lcom/discord/widgets/notice/NoticePopupChannel$Model;
 
     move-result-object v1

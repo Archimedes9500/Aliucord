@@ -84,7 +84,6 @@
     .line 2
     sget-object v0, Lcom/discord/utilities/debug/HistoricalProcessExitReason;->INSTANCE:Lcom/discord/utilities/debug/HistoricalProcessExitReason;
 
-    # invokes: Lcom/discord/utilities/debug/HistoricalProcessExitReason;->createLastReason()Lcom/discord/utilities/debug/HistoricalProcessExitReason$Reason;
     invoke-static {v0}, Lcom/discord/utilities/debug/HistoricalProcessExitReason;->access$createLastReason(Lcom/discord/utilities/debug/HistoricalProcessExitReason;)Lcom/discord/utilities/debug/HistoricalProcessExitReason$Reason;
 
     move-result-object v0

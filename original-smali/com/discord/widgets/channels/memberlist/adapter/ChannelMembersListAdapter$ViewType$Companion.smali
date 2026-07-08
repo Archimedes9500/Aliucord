@@ -71,7 +71,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/channels/memberlist/adapter/ChannelMembersListAdapter$ViewType;->cachedValues:[Lcom/discord/widgets/channels/memberlist/adapter/ChannelMembersListAdapter$ViewType;
     invoke-static {}, Lcom/discord/widgets/channels/memberlist/adapter/ChannelMembersListAdapter$ViewType;->access$getCachedValues$cp()[Lcom/discord/widgets/channels/memberlist/adapter/ChannelMembersListAdapter$ViewType;
 
     move-result-object v0

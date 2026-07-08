@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify$onViewBound$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->bailoutToEmail()V
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;->access$bailoutToEmail(Lcom/discord/widgets/auth/WidgetAuthPhoneVerify;)V
 
     return-void

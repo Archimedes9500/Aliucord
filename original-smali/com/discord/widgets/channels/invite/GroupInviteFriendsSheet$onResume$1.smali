@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet$onResume$1;->this$0:Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;
 
-    # invokes: Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;->updateView(Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;->access$updateView(Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheet;Lcom/discord/widgets/channels/invite/GroupInviteFriendsSheetViewModel$ViewState;)V
 
     return-void

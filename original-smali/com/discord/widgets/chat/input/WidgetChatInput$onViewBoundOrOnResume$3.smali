@@ -96,7 +96,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/WidgetChatInput$onViewBoundOrOnResume$3;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInput;
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->setWindowInsetsListeners(Z)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$setWindowInsetsListeners(Lcom/discord/widgets/chat/input/WidgetChatInput;Z)V
 
     return-void

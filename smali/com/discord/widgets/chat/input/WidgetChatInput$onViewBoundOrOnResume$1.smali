@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/WidgetChatInput;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInput;->configureUI(Lcom/discord/widgets/chat/input/ChatInputViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/WidgetChatInput;->access$configureUI(Lcom/discord/widgets/chat/input/WidgetChatInput;Lcom/discord/widgets/chat/input/ChatInputViewModel$ViewState;)V
 
     return-void

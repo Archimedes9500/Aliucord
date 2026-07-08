@@ -95,7 +95,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreGuildProfiles$fetchGuildProfile$1$1$1;->$guildPreview:Lcom/discord/api/guild/preview/GuildPreview;
 
-    # invokes: Lcom/discord/stores/StoreGuildProfiles;->handleGuildProfileFetchSuccess(Lcom/discord/api/guild/preview/GuildPreview;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreGuildProfiles;->access$handleGuildProfileFetchSuccess(Lcom/discord/stores/StoreGuildProfiles;Lcom/discord/api/guild/preview/GuildPreview;)V
 
     return-void

@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership;Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership$Model;)V
 
     return-void

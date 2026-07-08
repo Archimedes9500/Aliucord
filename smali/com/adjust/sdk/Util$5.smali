@@ -69,7 +69,6 @@
     aget-object p1, p1, v1
 
     .line 4
-    # invokes: Lcom/adjust/sdk/Util;->getGoogleAdId(Landroid/content/Context;)Ljava/lang/String;
     invoke-static {p1}, Lcom/adjust/sdk/Util;->access$000(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1

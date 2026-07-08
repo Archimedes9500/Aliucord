@@ -51,7 +51,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/c/i1/y$a;->this$0:Ld0/e0/p/d/m0/c/i1/y;
 
-    # getter for: Ld0/e0/p/d/m0/c/i1/y;->o:Ld0/e0/p/d/m0/c/i1/w;
     invoke-static {v0}, Ld0/e0/p/d/m0/c/i1/y;->access$getDependencies$p(Ld0/e0/p/d/m0/c/i1/y;)Ld0/e0/p/d/m0/c/i1/w;
 
     move-result-object v0
@@ -125,7 +124,6 @@
     check-cast v2, Ld0/e0/p/d/m0/c/i1/y;
 
     .line 10
-    # getter for: Ld0/e0/p/d/m0/c/i1/y;->p:Ld0/e0/p/d/m0/c/f0;
     invoke-static {v2}, Ld0/e0/p/d/m0/c/i1/y;->access$getPackageFragmentProviderForModuleContent$p(Ld0/e0/p/d/m0/c/i1/y;)Ld0/e0/p/d/m0/c/f0;
 
     move-result-object v2
@@ -152,7 +150,6 @@
 
     move-result-object v0
 
-    # invokes: Ld0/e0/p/d/m0/c/i1/y;->b()Ljava/lang/String;
     invoke-static {v1}, Ld0/e0/p/d/m0/c/i1/y;->access$getId(Ld0/e0/p/d/m0/c/i1/y;)Ljava/lang/String;
 
     move-result-object v1

@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/community/WidgetConfirmRemoveCommunityDialog$viewModel$2;->this$0:Lcom/discord/widgets/servers/community/WidgetConfirmRemoveCommunityDialog;
 
-    # invokes: Lcom/discord/app/AppDialog;->getArgumentsOrDefault()Landroid/os/Bundle;
     invoke-static {v0}, Lcom/discord/widgets/servers/community/WidgetConfirmRemoveCommunityDialog;->access$getArgumentsOrDefault$p(Lcom/discord/widgets/servers/community/WidgetConfirmRemoveCommunityDialog;)Landroid/os/Bundle;
 
     move-result-object v0

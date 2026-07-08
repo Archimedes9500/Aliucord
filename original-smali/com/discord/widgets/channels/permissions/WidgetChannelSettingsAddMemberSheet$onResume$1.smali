@@ -100,7 +100,6 @@
     :cond_8
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet$onResume$1;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;->configureUI(Lcom/discord/api/channel/Channel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;->access$configureUI(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsAddMemberSheet;Lcom/discord/api/channel/Channel;)V
 
     :goto_d

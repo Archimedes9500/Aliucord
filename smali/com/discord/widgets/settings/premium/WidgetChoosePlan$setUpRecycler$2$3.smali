@@ -95,7 +95,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/settings/premium/WidgetChoosePlan$setUpRecycler$2;->this$0:Lcom/discord/widgets/settings/premium/WidgetChoosePlan;
 
-    # invokes: Lcom/discord/widgets/settings/premium/WidgetChoosePlan;->getViewModel()Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;
     invoke-static {v0}, Lcom/discord/widgets/settings/premium/WidgetChoosePlan;->access$getViewModel$p(Lcom/discord/widgets/settings/premium/WidgetChoosePlan;)Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;
 
     move-result-object v0

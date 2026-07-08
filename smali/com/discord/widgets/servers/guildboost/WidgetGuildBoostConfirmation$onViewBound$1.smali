@@ -66,21 +66,18 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation$onViewBound$1;->this$0:Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;
 
-    # invokes: Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;->getViewModel()Lcom/discord/widgets/servers/guildboost/GuildBoostInProgressViewModel;
     invoke-static {p1}, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;->access$getViewModel$p(Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;)Lcom/discord/widgets/servers/guildboost/GuildBoostInProgressViewModel;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation$onViewBound$1;->this$0:Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;
 
-    # invokes: Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;->getGuildId()J
     invoke-static {v0}, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;->access$getGuildId$p(Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;)J
 
     move-result-wide v0
 
     iget-object v2, p0, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation$onViewBound$1;->this$0:Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;
 
-    # invokes: Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;->getSlotId()J
     invoke-static {v2}, Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;->access$getSlotId$p(Lcom/discord/widgets/servers/guildboost/WidgetGuildBoostConfirmation;)J
 
     move-result-wide v2

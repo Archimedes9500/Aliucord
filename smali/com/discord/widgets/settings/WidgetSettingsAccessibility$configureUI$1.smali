@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsAccessibility$configureUI$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAccessibility;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAccessibility;->getBinding()Lcom/discord/databinding/WidgetSettingsAccessibilityBinding;
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsAccessibility;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsAccessibility;)Lcom/discord/databinding/WidgetSettingsAccessibilityBinding;
 
     move-result-object p1
@@ -76,7 +75,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsAccessibility$configureUI$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsAccessibility;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsAccessibility;->getBinding()Lcom/discord/databinding/WidgetSettingsAccessibilityBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsAccessibility;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsAccessibility;)Lcom/discord/databinding/WidgetSettingsAccessibilityBinding;
 
     move-result-object v0

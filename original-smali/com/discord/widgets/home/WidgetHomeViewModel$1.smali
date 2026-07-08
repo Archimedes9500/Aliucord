@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/home/WidgetHomeViewModel;->handleStoreState(Lcom/discord/widgets/home/WidgetHomeViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/home/WidgetHomeViewModel;->access$handleStoreState(Lcom/discord/widgets/home/WidgetHomeViewModel;Lcom/discord/widgets/home/WidgetHomeViewModel$StoreState;)V
 
     return-void

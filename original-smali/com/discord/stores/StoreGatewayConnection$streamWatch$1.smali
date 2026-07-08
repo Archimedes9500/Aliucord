@@ -98,7 +98,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGatewayConnection$streamWatch$1;->this$0:Lcom/discord/stores/StoreGatewayConnection;
 
-    # getter for: Lcom/discord/stores/StoreGatewayConnection;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreGatewayConnection;->access$getStream$p(Lcom/discord/stores/StoreGatewayConnection;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

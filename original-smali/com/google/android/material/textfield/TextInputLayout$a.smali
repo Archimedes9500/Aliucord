@@ -45,7 +45,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/textfield/TextInputLayout$a;->j:Lcom/google/android/material/textfield/TextInputLayout;
 
-    # getter for: Lcom/google/android/material/textfield/TextInputLayout;->restoringSavedState:Z
     invoke-static {v0}, Lcom/google/android/material/textfield/TextInputLayout;->access$000(Lcom/google/android/material/textfield/TextInputLayout;)Z
 
     move-result v1
@@ -72,7 +71,6 @@
     :cond_18
     iget-object v0, p0, Lcom/google/android/material/textfield/TextInputLayout$a;->j:Lcom/google/android/material/textfield/TextInputLayout;
 
-    # getter for: Lcom/google/android/material/textfield/TextInputLayout;->placeholderEnabled:Z
     invoke-static {v0}, Lcom/google/android/material/textfield/TextInputLayout;->access$100(Lcom/google/android/material/textfield/TextInputLayout;)Z
 
     move-result v0
@@ -86,7 +84,6 @@
 
     move-result p1
 
-    # invokes: Lcom/google/android/material/textfield/TextInputLayout;->updatePlaceholderText(I)V
     invoke-static {v0, p1}, Lcom/google/android/material/textfield/TextInputLayout;->access$200(Lcom/google/android/material/textfield/TextInputLayout;I)V
 
     :cond_29

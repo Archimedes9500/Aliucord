@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps$showPasswordModal$1;->this$0:Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;
 
-    # invokes: Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;->getViewModel()Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAViewModel;
     invoke-static {v0}, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;->access$getViewModel$p(Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFASteps;)Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAViewModel;
 
     move-result-object v0

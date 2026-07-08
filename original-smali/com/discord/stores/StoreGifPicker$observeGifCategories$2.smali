@@ -96,7 +96,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGifPicker$observeGifCategories$2;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->getGifCategories()Ljava/util/List;
     invoke-static {v0}, Lcom/discord/stores/StoreGifPicker;->access$getGifCategories(Lcom/discord/stores/StoreGifPicker;)Ljava/util/List;
 
     move-result-object v0

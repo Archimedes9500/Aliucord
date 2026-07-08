@@ -177,7 +177,6 @@
     iput p4, p0, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->mConstraintSetEnd:I
 
     .line 50
-    # getter for: Landroidx/constraintlayout/motion/widget/MotionScene;->mDefaultDuration:I
     invoke-static {p2}, Landroidx/constraintlayout/motion/widget/MotionScene;->access$900(Landroidx/constraintlayout/motion/widget/MotionScene;)I
 
     move-result p1
@@ -185,7 +184,6 @@
     iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->mDuration:I
 
     .line 51
-    # getter for: Landroidx/constraintlayout/motion/widget/MotionScene;->mLayoutDuringTransition:I
     invoke-static {p2}, Landroidx/constraintlayout/motion/widget/MotionScene;->access$1000(Landroidx/constraintlayout/motion/widget/MotionScene;)I
 
     move-result p1
@@ -271,7 +269,6 @@
     iput v1, p0, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->mTransitionFlags:I
 
     .line 70
-    # getter for: Landroidx/constraintlayout/motion/widget/MotionScene;->mDefaultDuration:I
     invoke-static {p1}, Landroidx/constraintlayout/motion/widget/MotionScene;->access$900(Landroidx/constraintlayout/motion/widget/MotionScene;)I
 
     move-result v0
@@ -279,7 +276,6 @@
     iput v0, p0, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->mDuration:I
 
     .line 71
-    # getter for: Landroidx/constraintlayout/motion/widget/MotionScene;->mLayoutDuringTransition:I
     invoke-static {p1}, Landroidx/constraintlayout/motion/widget/MotionScene;->access$1000(Landroidx/constraintlayout/motion/widget/MotionScene;)I
 
     move-result v0
@@ -663,7 +659,6 @@
     invoke-virtual {v3, p2, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->load(Landroid/content/Context;I)V
 
     .line 9
-    # getter for: Landroidx/constraintlayout/motion/widget/MotionScene;->mConstraintSetMap:Landroid/util/SparseArray;
     invoke-static {p1}, Landroidx/constraintlayout/motion/widget/MotionScene;->access$1100(Landroidx/constraintlayout/motion/widget/MotionScene;)Landroid/util/SparseArray;
 
     move-result-object v4
@@ -718,7 +713,6 @@
     invoke-virtual {v3, p2, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->load(Landroid/content/Context;I)V
 
     .line 16
-    # getter for: Landroidx/constraintlayout/motion/widget/MotionScene;->mConstraintSetMap:Landroid/util/SparseArray;
     invoke-static {p1}, Landroidx/constraintlayout/motion/widget/MotionScene;->access$1100(Landroidx/constraintlayout/motion/widget/MotionScene;)Landroid/util/SparseArray;
 
     move-result-object v4

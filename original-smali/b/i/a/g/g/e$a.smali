@@ -41,7 +41,6 @@
     .line 2
     iget-object p1, p0, Lb/i/a/g/g/e$a;->a:Lb/i/a/g/g/e;
 
-    # invokes: Lb/i/a/g/g/e;->dispatchAnimationStart()V
     invoke-static {p1}, Lb/i/a/g/g/e;->access$000(Lb/i/a/g/g/e;)V
 
     return-void

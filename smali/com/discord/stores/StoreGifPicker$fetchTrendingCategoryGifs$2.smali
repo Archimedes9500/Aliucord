@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreGifPicker$fetchTrendingCategoryGifs$2;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->handleFetchTrendingGifsError()V
     invoke-static {p1}, Lcom/discord/stores/StoreGifPicker;->access$handleFetchTrendingGifsError(Lcom/discord/stores/StoreGifPicker;)V
 
     return-void

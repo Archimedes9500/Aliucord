@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/voice/call/WidgetVoiceCallInline;
 
     .line 2
-    # invokes: Lcom/discord/widgets/voice/call/WidgetVoiceCallInline;->onViewBindingDestroy(Lcom/discord/databinding/WidgetVoiceCallInlineBinding;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/call/WidgetVoiceCallInline;->access$onViewBindingDestroy(Lcom/discord/widgets/voice/call/WidgetVoiceCallInline;Lcom/discord/databinding/WidgetVoiceCallInlineBinding;)V
 
     return-void

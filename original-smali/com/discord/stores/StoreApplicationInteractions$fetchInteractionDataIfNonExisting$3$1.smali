@@ -95,7 +95,6 @@
 
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationInteractions$fetchInteractionDataIfNonExisting$3$1;->$interactionDetail:Lcom/discord/api/commands/ApplicationCommandData;
 
-    # invokes: Lcom/discord/stores/StoreApplicationInteractions;->handleInteractionDataFetchSuccess(JLcom/discord/api/commands/ApplicationCommandData;)V
     invoke-static {v1, v2, v3, v0}, Lcom/discord/stores/StoreApplicationInteractions;->access$handleInteractionDataFetchSuccess(Lcom/discord/stores/StoreApplicationInteractions;JLcom/discord/api/commands/ApplicationCommandData;)V
 
     return-void

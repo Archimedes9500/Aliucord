@@ -78,7 +78,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAuthMfa$evaluateCode$2;->this$0:Lcom/discord/widgets/auth/WidgetAuthMfa;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAuthMfa;->getBinding()Lcom/discord/databinding/WidgetAuthMfaBinding;
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAuthMfa;->access$getBinding$p(Lcom/discord/widgets/auth/WidgetAuthMfa;)Lcom/discord/databinding/WidgetAuthMfaBinding;
 
     move-result-object p1

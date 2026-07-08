@@ -75,7 +75,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lcom/discord/models/domain/StreamType;->VALUES:[Lcom/discord/models/domain/StreamType;
     invoke-static {}, Lcom/discord/models/domain/StreamType;->access$getVALUES$cp()[Lcom/discord/models/domain/StreamType;
 
     move-result-object v0

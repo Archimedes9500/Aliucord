@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->onStreamPreviewClicked(Lcom/discord/utilities/streams/StreamContext;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->access$onStreamPreviewClicked(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;Lcom/discord/utilities/streams/StreamContext;)V
 
     return-void

@@ -117,7 +117,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/stores/StorePaymentSources;->ensureDefaultPaymentSource(Ljava/util/List;)Ljava/util/List;
     invoke-static {v0, p1}, Lcom/discord/stores/StorePaymentSources;->access$ensureDefaultPaymentSource(Lcom/discord/stores/StorePaymentSources;Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1

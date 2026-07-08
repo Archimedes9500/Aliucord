@@ -119,7 +119,6 @@
 
     const-string v0, "Not Logged into Samsung Account"
 
-    # invokes: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->logI(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;->access$logI(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$Companion;Ljava/lang/String;)V
 
     .line 7
@@ -127,7 +126,6 @@
     :try_start_33
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung$configureUI$1;->this$0:Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;
 
-    # getter for: Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->samsungDisclaimerLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;->access$getSamsungDisclaimerLauncher$p(Lcom/discord/widgets/auth/WidgetOauth2AuthorizeSamsung;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object p1

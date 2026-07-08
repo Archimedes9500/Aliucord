@@ -122,7 +122,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/channels/list/WidgetChannelsList$onViewBound$13;->this$0:Lcom/discord/widgets/channels/list/WidgetChannelsList;
 
-    # getter for: Lcom/discord/widgets/channels/list/WidgetChannelsList;->channelListUnreads:Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelsList;->access$getChannelListUnreads$p(Lcom/discord/widgets/channels/list/WidgetChannelsList;)Lcom/discord/widgets/channels/list/WidgetChannelListUnreads;
 
     move-result-object p1

@@ -80,7 +80,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreGifPicker;->searchResultsLoadingList:Ljava/util/List;
     invoke-static {}, Lcom/discord/stores/StoreGifPicker;->access$getSearchResultsLoadingList$cp()Ljava/util/List;
 
     move-result-object v0
@@ -100,7 +99,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreGifPicker;->searchTermsLoadingList:Ljava/util/List;
     invoke-static {}, Lcom/discord/stores/StoreGifPicker;->access$getSearchTermsLoadingList$cp()Ljava/util/List;
 
     move-result-object v0

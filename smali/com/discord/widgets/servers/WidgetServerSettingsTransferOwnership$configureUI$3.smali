@@ -99,7 +99,6 @@
 
     iget-object v6, p0, Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership$configureUI$3;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership;->getMfaCode()Ljava/lang/String;
     invoke-static {v6}, Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership;->access$getMfaCode$p(Lcom/discord/widgets/servers/WidgetServerSettingsTransferOwnership;)Ljava/lang/String;
 
     move-result-object v6

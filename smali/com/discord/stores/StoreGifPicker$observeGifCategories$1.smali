@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGifPicker$observeGifCategories$1;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # getter for: Lcom/discord/stores/StoreGifPicker;->gifCategories:Ljava/util/List;
     invoke-static {v0}, Lcom/discord/stores/StoreGifPicker;->access$getGifCategories$p(Lcom/discord/stores/StoreGifPicker;)Ljava/util/List;
 
     move-result-object v0
@@ -98,7 +97,6 @@
 
     iget-object v0, p0, Lcom/discord/stores/StoreGifPicker$observeGifCategories$1;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # getter for: Lcom/discord/stores/StoreGifPicker;->isFetchingGifCategories:Z
     invoke-static {v0}, Lcom/discord/stores/StoreGifPicker;->access$isFetchingGifCategories$p(Lcom/discord/stores/StoreGifPicker;)Z
 
     move-result v0

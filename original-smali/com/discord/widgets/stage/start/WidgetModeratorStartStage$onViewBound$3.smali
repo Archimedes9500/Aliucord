@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/stage/start/WidgetModeratorStartStage$onViewBound$3;->this$0:Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;
 
-    # invokes: Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;->getViewModel()Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel;
     invoke-static {p1}, Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;->access$getViewModel$p(Lcom/discord/widgets/stage/start/WidgetModeratorStartStage;)Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel;
 
     move-result-object p1

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;
 
-    # invokes: Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->handleViewState(Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->access$handleViewState(Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel$ViewState;)V
 
     return-void

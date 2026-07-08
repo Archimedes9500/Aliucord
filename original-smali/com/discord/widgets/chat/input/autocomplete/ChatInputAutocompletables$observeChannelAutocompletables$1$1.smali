@@ -191,7 +191,6 @@
     .line 3
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/InputAutocompletablesKt;->merge(Ljava/util/Map;Ljava/util/Map;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocompletablesKt;->access$merge(Ljava/util/Map;Ljava/util/Map;)V
 
     const-string p1, "emojis"
@@ -199,7 +198,6 @@
     .line 4
     invoke-static {p2, p1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/InputAutocompletablesKt;->merge(Ljava/util/Map;Ljava/util/Map;)V
     invoke-static {v0, p2}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocompletablesKt;->access$merge(Ljava/util/Map;Ljava/util/Map;)V
 
     const-string p1, "channels"
@@ -207,7 +205,6 @@
     .line 5
     invoke-static {p3, p1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/InputAutocompletablesKt;->merge(Ljava/util/Map;Ljava/util/Map;)V
     invoke-static {v0, p3}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocompletablesKt;->access$merge(Ljava/util/Map;Ljava/util/Map;)V
 
     const-string/jumbo p1, "users"
@@ -215,7 +212,6 @@
     .line 6
     invoke-static {p4, p1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/InputAutocompletablesKt;->merge(Ljava/util/Map;Ljava/util/Map;)V
     invoke-static {v0, p4}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocompletablesKt;->access$merge(Ljava/util/Map;Ljava/util/Map;)V
 
     return-object v0

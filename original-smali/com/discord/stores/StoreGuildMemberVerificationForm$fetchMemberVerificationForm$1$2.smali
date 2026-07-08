@@ -96,7 +96,6 @@
 
     iget-object p1, p1, Lcom/discord/stores/StoreGuildMemberVerificationForm$fetchMemberVerificationForm$1;->this$0:Lcom/discord/stores/StoreGuildMemberVerificationForm;
 
-    # getter for: Lcom/discord/stores/StoreGuildMemberVerificationForm;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreGuildMemberVerificationForm;->access$getDispatcher$p(Lcom/discord/stores/StoreGuildMemberVerificationForm;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

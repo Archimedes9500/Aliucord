@@ -132,7 +132,6 @@
 
     iget-object v0, p0, Lcom/discord/utilities/voice/DiscordOverlayService$onStartCommand$2;->$intent:Landroid/content/Intent;
 
-    # invokes: Lcom/discord/overlay/OverlayService;->handleStart(Landroid/content/Intent;)V
     invoke-static {p1, v0}, Lcom/discord/utilities/voice/DiscordOverlayService;->access$handleStart$s1927314545(Lcom/discord/utilities/voice/DiscordOverlayService;Landroid/content/Intent;)V
     :try_end_21
     .catch Ljava/lang/Exception; {:try_start_1a .. :try_end_21} :catch_22

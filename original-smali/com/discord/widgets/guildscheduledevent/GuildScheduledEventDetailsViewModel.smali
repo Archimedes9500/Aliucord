@@ -473,7 +473,6 @@
 
     move-object/from16 v12, v20
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDetailsViewModel$Companion;->observeStores(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDetailsArgs;Lcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreGuildScheduledEvents;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreUserSettings;Lcom/discord/stores/StoreVoiceChannelSelected;Lcom/discord/stores/StoreDirectories;)Lrx/Observable;
     invoke-static/range {v2 .. v12}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDetailsViewModel$Companion;->access$observeStores(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDetailsViewModel$Companion;Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDetailsArgs;Lcom/discord/stores/updates/ObservationDeck;Lcom/discord/stores/StoreGuildScheduledEvents;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreUserSettings;Lcom/discord/stores/StoreVoiceChannelSelected;Lcom/discord/stores/StoreDirectories;)Lrx/Observable;
 
     move-result-object v2

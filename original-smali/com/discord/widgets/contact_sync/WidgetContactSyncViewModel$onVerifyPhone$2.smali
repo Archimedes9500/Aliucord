@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$onVerifyPhone$2;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->handlePhoneVerifiedError(Lcom/discord/utilities/error/Error;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->access$handlePhoneVerifiedError(Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;Lcom/discord/utilities/error/Error;)V
 
     return-void

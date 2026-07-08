@@ -132,7 +132,6 @@
     :cond_25
     iget-object v0, p0, Lcom/discord/stores/StoreRtcRegion$maybePerformLatencyTest$1;->this$0:Lcom/discord/stores/StoreRtcRegion;
 
-    # getter for: Lcom/discord/stores/StoreRtcRegion;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v0}, Lcom/discord/stores/StoreRtcRegion;->access$getClock$p(Lcom/discord/stores/StoreRtcRegion;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v0
@@ -144,7 +143,6 @@
     .line 8
     iget-object v0, p0, Lcom/discord/stores/StoreRtcRegion$maybePerformLatencyTest$1;->this$0:Lcom/discord/stores/StoreRtcRegion;
 
-    # invokes: Lcom/discord/stores/StoreRtcRegion;->shouldPerformLatencyTest(Ljava/util/List;J)Z
     invoke-static {v0, v1, v2, v3}, Lcom/discord/stores/StoreRtcRegion;->access$shouldPerformLatencyTest(Lcom/discord/stores/StoreRtcRegion;Ljava/util/List;J)Z
 
     move-result v0
@@ -154,7 +152,6 @@
     .line 9
     iget-object v0, p0, Lcom/discord/stores/StoreRtcRegion$maybePerformLatencyTest$1;->this$0:Lcom/discord/stores/StoreRtcRegion;
 
-    # getter for: Lcom/discord/stores/StoreRtcRegion;->storeMediaEngine:Lcom/discord/stores/StoreMediaEngine;
     invoke-static {v0}, Lcom/discord/stores/StoreRtcRegion;->access$getStoreMediaEngine$p(Lcom/discord/stores/StoreRtcRegion;)Lcom/discord/stores/StoreMediaEngine;
 
     move-result-object v0

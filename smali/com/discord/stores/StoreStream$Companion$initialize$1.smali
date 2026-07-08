@@ -95,7 +95,6 @@
     .line 2
     sget-object v0, Lcom/discord/stores/StoreStream;->Companion:Lcom/discord/stores/StoreStream$Companion;
 
-    # invokes: Lcom/discord/stores/StoreStream$Companion;->getCollector()Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreStream$Companion;->access$getCollector$p(Lcom/discord/stores/StoreStream$Companion;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

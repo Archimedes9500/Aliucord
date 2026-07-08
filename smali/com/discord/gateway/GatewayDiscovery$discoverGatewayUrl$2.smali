@@ -124,7 +124,6 @@
     .line 5
     iget-object v0, p0, Lcom/discord/gateway/GatewayDiscovery$discoverGatewayUrl$2;->this$0:Lcom/discord/gateway/GatewayDiscovery;
 
-    # getter for: Lcom/discord/gateway/GatewayDiscovery;->log:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Lcom/discord/gateway/GatewayDiscovery;->access$getLog$p(Lcom/discord/gateway/GatewayDiscovery;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0

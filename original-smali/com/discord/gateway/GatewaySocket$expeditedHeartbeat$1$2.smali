@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->heartbeatAck:Z
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getHeartbeatAck$p(Lcom/discord/gateway/GatewaySocket;)Z
 
     move-result v0
@@ -99,7 +98,6 @@
 
     iget-object v0, v0, Lcom/discord/gateway/GatewaySocket$expeditedHeartbeat$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # invokes: Lcom/discord/gateway/GatewaySocket;->handleHeartbeatTimeout()V
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$handleHeartbeatTimeout(Lcom/discord/gateway/GatewaySocket;)V
 
     :cond_11

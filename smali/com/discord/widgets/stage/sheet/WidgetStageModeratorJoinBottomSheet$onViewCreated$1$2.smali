@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/stage/sheet/WidgetStageModeratorJoinBottomSheet$onViewCreated$1;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageModeratorJoinBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageModeratorJoinBottomSheet;->setSelfSpeaker()V
     invoke-static {v0}, Lcom/discord/widgets/stage/sheet/WidgetStageModeratorJoinBottomSheet;->access$setSelfSpeaker(Lcom/discord/widgets/stage/sheet/WidgetStageModeratorJoinBottomSheet;)V
 
     return-void

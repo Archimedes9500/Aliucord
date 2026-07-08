@@ -98,7 +98,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/stores/StoreGuildStickers$handleFetchedSticker$1;->this$0:Lcom/discord/stores/StoreGuildStickers;
 
-    # getter for: Lcom/discord/stores/StoreGuildStickers;->allGuildStickers:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildStickers;->access$getAllGuildStickers$p(Lcom/discord/stores/StoreGuildStickers;)Ljava/util/Map;
 
     move-result-object v1
@@ -145,7 +144,6 @@
     .line 5
     iget-object v1, p0, Lcom/discord/stores/StoreGuildStickers$handleFetchedSticker$1;->this$0:Lcom/discord/stores/StoreGuildStickers;
 
-    # getter for: Lcom/discord/stores/StoreGuildStickers;->allGuildStickers:Ljava/util/Map;
     invoke-static {v1}, Lcom/discord/stores/StoreGuildStickers;->access$getAllGuildStickers$p(Lcom/discord/stores/StoreGuildStickers;)Ljava/util/Map;
 
     move-result-object v1

@@ -109,7 +109,6 @@
 
     iget v4, p0, Lcom/discord/stores/StoreExperiments$getUserExperiment$experiment$1;->$revision:I
 
-    # invokes: Lcom/discord/stores/StoreExperiments;->trackExposureToUserExperiment(Ljava/lang/String;III)V
     invoke-static {v0, v1, v2, v3, v4}, Lcom/discord/stores/StoreExperiments;->access$trackExposureToUserExperiment(Lcom/discord/stores/StoreExperiments;Ljava/lang/String;III)V
 
     return-void

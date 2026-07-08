@@ -554,7 +554,7 @@
 
     if-eqz v4, :cond_89
 
-    const-wide v4, 0x17ffff7feffL
+    const-wide v4, 0xa017ffff7feffL
 
     goto :goto_ac
 

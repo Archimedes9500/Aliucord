@@ -227,7 +227,6 @@
     :cond_1b
     iget-object v0, p0, Lorg/webrtc/voiceengine/WebRtcAudioManager;->volumeLogger:Lorg/webrtc/voiceengine/WebRtcAudioManager$VolumeLogger;
 
-    # invokes: Lorg/webrtc/voiceengine/WebRtcAudioManager$VolumeLogger;->stop()V
     invoke-static {v0}, Lorg/webrtc/voiceengine/WebRtcAudioManager$VolumeLogger;->access$100(Lorg/webrtc/voiceengine/WebRtcAudioManager$VolumeLogger;)V
 
     return-void

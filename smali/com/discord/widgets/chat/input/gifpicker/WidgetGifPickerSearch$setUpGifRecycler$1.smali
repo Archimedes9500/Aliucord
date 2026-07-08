@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch$setUpGifRecycler$1;->this$0:Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;
 
-    # invokes: Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;->getGifPickerViewModel()Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;->access$getGifPickerViewModel$p(Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;)Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel;
 
     move-result-object v0
@@ -104,7 +103,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch$setUpGifRecycler$1;->this$0:Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;
 
-    # getter for: Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;->onGifSelected:Lkotlin/jvm/functions/Function0;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;->access$getOnGifSelected$p(Lcom/discord/widgets/chat/input/gifpicker/WidgetGifPickerSearch;)Lkotlin/jvm/functions/Function0;
 
     move-result-object p1

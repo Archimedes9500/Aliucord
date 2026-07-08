@@ -539,7 +539,6 @@
 
     move-object/from16 p10, v9
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreenViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreMentions;Lcom/discord/stores/StoreVoiceChannelSelected;)Lrx/Observable;
     invoke-static/range {p3 .. p10}, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreenViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreenViewModel$Companion;JLcom/discord/stores/StoreUser;Lcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreChannelsSelected;Lcom/discord/stores/StoreMentions;Lcom/discord/stores/StoreVoiceChannelSelected;)Lrx/Observable;
 
     move-result-object v1

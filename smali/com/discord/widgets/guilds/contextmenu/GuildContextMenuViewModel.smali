@@ -239,7 +239,6 @@
     move-wide v1, p1
 
     .line 7
-    # invokes: Lcom/discord/widgets/guilds/contextmenu/GuildContextMenuViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreReadStates;Lcom/discord/stores/StoreGuildSelected;)Lrx/Observable;
     invoke-static/range {v0 .. v6}, Lcom/discord/widgets/guilds/contextmenu/GuildContextMenuViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/guilds/contextmenu/GuildContextMenuViewModel$Companion;JLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreReadStates;Lcom/discord/stores/StoreGuildSelected;)Lrx/Observable;
 
     move-result-object p4

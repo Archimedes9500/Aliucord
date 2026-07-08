@@ -180,7 +180,6 @@
 
     iget-object v3, p0, Landroidx/lifecycle/BlockRunner$maybeRun$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
-    # getter for: Landroidx/lifecycle/BlockRunner;->liveData:Landroidx/lifecycle/CoroutineLiveData;
     invoke-static {v3}, Landroidx/lifecycle/BlockRunner;->access$getLiveData$p(Landroidx/lifecycle/BlockRunner;)Landroidx/lifecycle/CoroutineLiveData;
 
     move-result-object v3
@@ -194,7 +193,6 @@
     .line 5
     iget-object p1, p0, Landroidx/lifecycle/BlockRunner$maybeRun$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
-    # getter for: Landroidx/lifecycle/BlockRunner;->block:Lkotlin/jvm/functions/Function2;
     invoke-static {p1}, Landroidx/lifecycle/BlockRunner;->access$getBlock$p(Landroidx/lifecycle/BlockRunner;)Lkotlin/jvm/functions/Function2;
 
     move-result-object p1
@@ -214,7 +212,6 @@
     :goto_3c
     iget-object p1, p0, Landroidx/lifecycle/BlockRunner$maybeRun$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
-    # getter for: Landroidx/lifecycle/BlockRunner;->onDone:Lkotlin/jvm/functions/Function0;
     invoke-static {p1}, Landroidx/lifecycle/BlockRunner;->access$getOnDone$p(Landroidx/lifecycle/BlockRunner;)Lkotlin/jvm/functions/Function0;
 
     move-result-object p1

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheet$onResume$1;->this$0:Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheet;
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheet;->handleEvent(Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheetViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheet;->access$handleEvent(Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheet;Lcom/discord/widgets/voice/sheet/WidgetNoiseCancellationBottomSheetViewModel$Event;)V
 
     return-void

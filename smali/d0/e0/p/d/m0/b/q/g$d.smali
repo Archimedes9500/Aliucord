@@ -51,7 +51,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/b/q/g$d;->this$0:Ld0/e0/p/d/m0/b/q/g;
 
-    # getter for: Ld0/e0/p/d/m0/b/q/g;->b:Ld0/e0/p/d/m0/c/c0;
     invoke-static {v0}, Ld0/e0/p/d/m0/b/q/g;->access$getModuleDescriptor$p(Ld0/e0/p/d/m0/b/q/g;)Ld0/e0/p/d/m0/c/c0;
 
     move-result-object v0

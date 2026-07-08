@@ -51,7 +51,6 @@
 
     move-result v0
 
-    # setter for: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->extraBottomMarginWindowInset:I
     invoke-static {p1, v0}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$902(Lcom/google/android/material/snackbar/BaseTransientBottomBar;I)I
 
     .line 2
@@ -61,7 +60,6 @@
 
     move-result v0
 
-    # setter for: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->extraLeftMarginWindowInset:I
     invoke-static {p1, v0}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$1002(Lcom/google/android/material/snackbar/BaseTransientBottomBar;I)I
 
     .line 3
@@ -71,13 +69,11 @@
 
     move-result v0
 
-    # setter for: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->extraRightMarginWindowInset:I
     invoke-static {p1, v0}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$1102(Lcom/google/android/material/snackbar/BaseTransientBottomBar;I)I
 
     .line 4
     iget-object p1, p0, Lcom/google/android/material/snackbar/BaseTransientBottomBar$m;->a:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
 
-    # invokes: Lcom/google/android/material/snackbar/BaseTransientBottomBar;->updateMargins()V
     invoke-static {p1}, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->access$300(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
 
     return-object p2

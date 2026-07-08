@@ -99,7 +99,6 @@
 
     iget-object v2, p0, Lcom/discord/stores/StoreMessageAck$handleConnectionOpen$4$1;->$newThreadIds:Ljava/util/Set;
 
-    # invokes: Lcom/discord/stores/StoreMessageAck;->updateThreadAcks(Ljava/util/Set;Ljava/util/Set;)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreMessageAck;->access$updateThreadAcks(Lcom/discord/stores/StoreMessageAck;Ljava/util/Set;Ljava/util/Set;)V
 
     return-void

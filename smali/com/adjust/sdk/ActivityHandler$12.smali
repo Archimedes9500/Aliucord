@@ -47,7 +47,6 @@
 
     iget-object v1, p0, Lcom/adjust/sdk/ActivityHandler$12;->val$sdkClickResponseData:Lcom/adjust/sdk/SdkClickResponseData;
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->launchSdkClickResponseTasksI(Lcom/adjust/sdk/SdkClickResponseData;)V
     invoke-static {v0, v1}, Lcom/adjust/sdk/ActivityHandler;->access$1800(Lcom/adjust/sdk/ActivityHandler;Lcom/adjust/sdk/SdkClickResponseData;)V
 
     return-void

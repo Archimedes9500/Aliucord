@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/voice/VoiceEngineServiceController$init$3;->this$0:Lcom/discord/utilities/voice/VoiceEngineServiceController;
 
-    # getter for: Lcom/discord/utilities/voice/VoiceEngineServiceController;->mediaSettingsStore:Lcom/discord/stores/StoreMediaSettings;
     invoke-static {v0}, Lcom/discord/utilities/voice/VoiceEngineServiceController;->access$getMediaSettingsStore$p(Lcom/discord/utilities/voice/VoiceEngineServiceController;)Lcom/discord/stores/StoreMediaSettings;
 
     move-result-object v0

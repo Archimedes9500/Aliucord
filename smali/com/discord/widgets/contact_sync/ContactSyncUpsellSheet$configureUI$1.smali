@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/contact_sync/ContactSyncUpsellSheet$configureUI$1;->this$0:Lcom/discord/widgets/contact_sync/ContactSyncUpsellSheet;
 
-    # invokes: Lcom/discord/widgets/contact_sync/ContactSyncUpsellSheet;->getViewModel()Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
     invoke-static {p1}, Lcom/discord/widgets/contact_sync/ContactSyncUpsellSheet;->access$getViewModel$p(Lcom/discord/widgets/contact_sync/ContactSyncUpsellSheet;)Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
 
     move-result-object p1

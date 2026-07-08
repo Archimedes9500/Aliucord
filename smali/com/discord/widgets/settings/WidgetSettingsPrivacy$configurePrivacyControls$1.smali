@@ -82,7 +82,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configurePrivacyControls$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object v0
@@ -117,7 +116,6 @@
 
     iget-object v2, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configurePrivacyControls$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->getBinding()Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
     invoke-static {v2}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getBinding$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/databinding/WidgetSettingsPrivacyBinding;
 
     move-result-object v2
@@ -128,7 +126,6 @@
 
     const-string/jumbo v1, "usage_statistics"
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->toggleConsent(ZLjava/lang/String;Lcom/discord/views/CheckedSetting;)V
     invoke-static {v0, p1, v1, v2}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$toggleConsent(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;ZLjava/lang/String;Lcom/discord/views/CheckedSetting;)V
 
     goto :goto_40
@@ -143,7 +140,6 @@
 
     invoke-direct {v2, p0, p1}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configurePrivacyControls$1$1;-><init>(Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configurePrivacyControls$1;Ljava/lang/Boolean;)V
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->confirmConsent(Landroid/content/Context;Lkotlin/jvm/functions/Function5;)V
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$confirmConsent(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;Landroid/content/Context;Lkotlin/jvm/functions/Function5;)V
 
     :goto_40

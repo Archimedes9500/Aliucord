@@ -301,7 +301,6 @@
 
     move-object v13, v2
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite$Model$Companion;->speakersFromLocalStore(Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreStageChannels;JJ)Ljava/util/List;
     invoke-static/range {v10 .. v17}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite$Model$Companion;->access$speakersFromLocalStore(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite$Model$Companion;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreStageChannels;JJ)Ljava/util/List;
 
     move-result-object v2
@@ -312,7 +311,6 @@
 
     .line 14
     :cond_ac
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite$Model$Companion;->speakersFromRequest(Lcom/discord/stores/StoreRequestedStageChannels$StageInstanceState;)Ljava/util/List;
     invoke-static {v9, v8}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite$Model$Companion;->access$speakersFromRequest(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemStageInvite$Model$Companion;Lcom/discord/stores/StoreRequestedStageChannels$StageInstanceState;)Ljava/util/List;
 
     move-result-object v2

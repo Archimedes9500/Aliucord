@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/search/results/WidgetSearchResults;
 
     .line 2
-    # invokes: Lcom/discord/widgets/search/results/WidgetSearchResults;->configureUI(Lcom/discord/widgets/search/results/WidgetSearchResults$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/search/results/WidgetSearchResults;->access$configureUI(Lcom/discord/widgets/search/results/WidgetSearchResults;Lcom/discord/widgets/search/results/WidgetSearchResults$Model;)V
 
     return-void

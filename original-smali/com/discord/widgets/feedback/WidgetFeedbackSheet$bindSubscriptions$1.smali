@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/feedback/WidgetFeedbackSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/feedback/WidgetFeedbackSheet;->updateView(Lcom/discord/widgets/feedback/FeedbackSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/feedback/WidgetFeedbackSheet;->access$updateView(Lcom/discord/widgets/feedback/WidgetFeedbackSheet;Lcom/discord/widgets/feedback/FeedbackSheetViewModel$ViewState;)V
 
     return-void

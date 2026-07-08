@@ -106,7 +106,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreMessageReplies$observeMessageReferencesForChannel$1;->$channelId:J
 
-    # invokes: Lcom/discord/stores/StoreMessageReplies;->getCachedChannelMessages(J)Ljava/util/Map;
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreMessageReplies;->access$getCachedChannelMessages(Lcom/discord/stores/StoreMessageReplies;J)Ljava/util/Map;
 
     move-result-object v0

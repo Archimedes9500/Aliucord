@@ -128,7 +128,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreMessageAck$getPendingAck$2;->this$0:Lcom/discord/stores/StoreMessageAck;
 
-    # getter for: Lcom/discord/stores/StoreMessageAck;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreMessageAck;->access$getStream$p(Lcom/discord/stores/StoreMessageAck;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0
@@ -153,7 +152,6 @@
     .line 5
     iget-object v1, p0, Lcom/discord/stores/StoreMessageAck$getPendingAck$2;->this$0:Lcom/discord/stores/StoreMessageAck;
 
-    # getter for: Lcom/discord/stores/StoreMessageAck;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v1}, Lcom/discord/stores/StoreMessageAck;->access$getStream$p(Lcom/discord/stores/StoreMessageAck;)Lcom/discord/stores/StoreStream;
 
     move-result-object v1
@@ -178,7 +176,6 @@
 
     move-result-wide v3
 
-    # invokes: Lcom/discord/stores/StoreMessageAck;->observeThreadAckState(J)Lrx/Observable;
     invoke-static {v2, v3, v4}, Lcom/discord/stores/StoreMessageAck;->access$observeThreadAckState(Lcom/discord/stores/StoreMessageAck;J)Lrx/Observable;
 
     move-result-object v2

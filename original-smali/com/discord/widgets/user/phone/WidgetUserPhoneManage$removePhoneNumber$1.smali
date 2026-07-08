@@ -102,7 +102,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage$removePhoneNumber$1;->this$0:Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;
 
-    # getter for: Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->passwordVerifyLauncher:Landroidx/activity/result/ActivityResultLauncher;
     invoke-static {v1}, Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;->access$getPasswordVerifyLauncher$p(Lcom/discord/widgets/user/phone/WidgetUserPhoneManage;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object v1

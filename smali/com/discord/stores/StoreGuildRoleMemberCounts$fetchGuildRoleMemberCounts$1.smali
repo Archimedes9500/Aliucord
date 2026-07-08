@@ -91,7 +91,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreGuildRoleMemberCounts$fetchGuildRoleMemberCounts$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreGuildRoleMemberCounts;->fetchGuildRoleMemberCountsIfNecessary(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreGuildRoleMemberCounts;->access$fetchGuildRoleMemberCountsIfNecessary(Lcom/discord/stores/StoreGuildRoleMemberCounts;J)V
 
     return-void

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet$configureUI$4;->this$0:Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;
 
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->getViewModel()Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;
     invoke-static {p1}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->access$getViewModel$p(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;)Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel;
 
     move-result-object p1

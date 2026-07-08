@@ -135,7 +135,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/utilities/voice/VoiceEngineForegroundService;->onDisconnect:Lkotlin/jvm/functions/Function0;
     invoke-static {}, Lcom/discord/utilities/voice/VoiceEngineForegroundService;->access$getOnDisconnect$cp()Lkotlin/jvm/functions/Function0;
 
     move-result-object v0
@@ -155,7 +154,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/utilities/voice/VoiceEngineForegroundService;->onToggleSelfDeafen:Lkotlin/jvm/functions/Function0;
     invoke-static {}, Lcom/discord/utilities/voice/VoiceEngineForegroundService;->access$getOnToggleSelfDeafen$cp()Lkotlin/jvm/functions/Function0;
 
     move-result-object v0
@@ -175,7 +173,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/utilities/voice/VoiceEngineForegroundService;->onToggleSelfMute:Lkotlin/jvm/functions/Function0;
     invoke-static {}, Lcom/discord/utilities/voice/VoiceEngineForegroundService;->access$getOnToggleSelfMute$cp()Lkotlin/jvm/functions/Function0;
 
     move-result-object v0

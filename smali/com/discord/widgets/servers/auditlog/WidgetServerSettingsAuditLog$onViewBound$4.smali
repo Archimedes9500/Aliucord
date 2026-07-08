@@ -78,7 +78,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog$onViewBound$4;->this$0:Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;
 
-    # getter for: Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;->guildId:J
     invoke-static {v1}, Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;->access$getGuildId$p(Lcom/discord/widgets/servers/auditlog/WidgetServerSettingsAuditLog;)J
 
     move-result-wide v1

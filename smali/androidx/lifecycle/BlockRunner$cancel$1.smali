@@ -170,7 +170,6 @@
     .line 4
     iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
-    # getter for: Landroidx/lifecycle/BlockRunner;->timeoutInMs:J
     invoke-static {p1}, Landroidx/lifecycle/BlockRunner;->access$getTimeoutInMs$p(Landroidx/lifecycle/BlockRunner;)J
 
     move-result-wide v3
@@ -190,7 +189,6 @@
     :goto_29
     iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
-    # getter for: Landroidx/lifecycle/BlockRunner;->liveData:Landroidx/lifecycle/CoroutineLiveData;
     invoke-static {p1}, Landroidx/lifecycle/BlockRunner;->access$getLiveData$p(Landroidx/lifecycle/BlockRunner;)Landroidx/lifecycle/CoroutineLiveData;
 
     move-result-object p1
@@ -204,7 +202,6 @@
     .line 6
     iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
-    # getter for: Landroidx/lifecycle/BlockRunner;->runningJob:Lkotlinx/coroutines/Job;
     invoke-static {p1}, Landroidx/lifecycle/BlockRunner;->access$getRunningJob$p(Landroidx/lifecycle/BlockRunner;)Lkotlinx/coroutines/Job;
 
     move-result-object p1

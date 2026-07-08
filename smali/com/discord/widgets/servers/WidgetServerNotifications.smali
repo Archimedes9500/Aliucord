@@ -1377,7 +1377,6 @@
     .line 6
     sget-object v2, Lcom/discord/widgets/servers/WidgetServerNotifications;->Companion:Lcom/discord/widgets/servers/WidgetServerNotifications$Companion;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerNotifications$Companion;->getNotificationOverrides(J)Lrx/Observable;
     invoke-static {v2, v0, v1}, Lcom/discord/widgets/servers/WidgetServerNotifications$Companion;->access$getNotificationOverrides(Lcom/discord/widgets/servers/WidgetServerNotifications$Companion;J)Lrx/Observable;
 
     move-result-object v0

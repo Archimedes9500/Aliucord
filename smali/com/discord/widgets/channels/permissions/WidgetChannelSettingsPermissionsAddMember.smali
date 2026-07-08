@@ -95,7 +95,6 @@
     if-eqz p1, :cond_2e
 
     .line 1
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->canManage:Z
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->access$000(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;)Z
 
     move-result v0
@@ -106,7 +105,6 @@
 
     .line 2
     :cond_9
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->channel:Lcom/discord/api/channel/Channel;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->access$100(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;)Lcom/discord/api/channel/Channel;
 
     move-result-object v0
@@ -116,7 +114,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember;->membersAdapter:Lcom/discord/widgets/channels/SimpleMembersAdapter;
 
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->memberItems:Ljava/util/List;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->access$200(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;)Ljava/util/List;
 
     move-result-object v1
@@ -133,7 +130,6 @@
     if-eqz v0, :cond_2d
 
     .line 5
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->memberItems:Ljava/util/List;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->access$200(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;)Ljava/util/List;
 
     move-result-object p1

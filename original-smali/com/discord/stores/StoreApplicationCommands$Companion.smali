@@ -83,7 +83,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->AutocompleteResultsUpdate:Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
     invoke-static {}, Lcom/discord/stores/StoreApplicationCommands;->access$getAutocompleteResultsUpdate$cp()Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
 
     move-result-object v0
@@ -95,7 +94,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->DiscoverCommandsUpdate:Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
     invoke-static {}, Lcom/discord/stores/StoreApplicationCommands;->access$getDiscoverCommandsUpdate$cp()Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
 
     move-result-object v0
@@ -107,7 +105,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->FrecencyCommandsUpdate:Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
     invoke-static {}, Lcom/discord/stores/StoreApplicationCommands;->access$getFrecencyCommandsUpdate$cp()Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
 
     move-result-object v0
@@ -119,7 +116,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->GuildApplicationsUpdate:Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
     invoke-static {}, Lcom/discord/stores/StoreApplicationCommands;->access$getGuildApplicationsUpdate$cp()Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
 
     move-result-object v0
@@ -131,7 +127,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->QueryCommandsUpdate:Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
     invoke-static {}, Lcom/discord/stores/StoreApplicationCommands;->access$getQueryCommandsUpdate$cp()Lcom/discord/stores/updates/ObservationDeck$UpdateSource;
 
     move-result-object v0

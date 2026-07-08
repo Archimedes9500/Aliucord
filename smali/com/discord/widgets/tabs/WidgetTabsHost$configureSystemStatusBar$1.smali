@@ -102,7 +102,6 @@
 
     move-result v1
 
-    # invokes: Lcom/discord/widgets/tabs/WidgetTabsHost;->setPanelWindowInsetsListeners(Z)V
     invoke-static {v0, v1}, Lcom/discord/widgets/tabs/WidgetTabsHost;->access$setPanelWindowInsetsListeners(Lcom/discord/widgets/tabs/WidgetTabsHost;Z)V
 
     .line 3

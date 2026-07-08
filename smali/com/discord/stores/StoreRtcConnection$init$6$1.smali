@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreRtcConnection$init$6$1;->$usersMuted:Ljava/util/Map;
 
-    # invokes: Lcom/discord/stores/StoreRtcConnection;->handleUsersMuted(Ljava/util/Map;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreRtcConnection;->access$handleUsersMuted(Lcom/discord/stores/StoreRtcConnection;Ljava/util/Map;)V
 
     return-void

@@ -96,7 +96,6 @@
 
     const/4 v0, 0x0
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite;->configureInvalidUI(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite$Model$Invalid;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite;->access$configureInvalidUI(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite;Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemInvite$Model$Invalid;)V
 
     return-void

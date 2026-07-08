@@ -190,7 +190,6 @@
     iget-object v11, v0, Lcom/discord/widgets/channels/memberlist/GuildMemberListItemGeneratorKt$generateGuildMemberListItems$listItems$1;->$guildRoles:Ljava/util/Map;
 
     .line 16
-    # invokes: Lcom/discord/widgets/channels/memberlist/GuildMemberListItemGeneratorKt;->calculateCanDisplayStatusEmoji(Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreEmojiCustom;JLcom/discord/models/guild/Guild;Lcom/discord/api/channel/Channel;Lcom/discord/models/presence/Presence;Ljava/util/Map;)Z
     invoke-static/range {v4 .. v11}, Lcom/discord/widgets/channels/memberlist/GuildMemberListItemGeneratorKt;->access$calculateCanDisplayStatusEmoji(Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreEmojiCustom;JLcom/discord/models/guild/Guild;Lcom/discord/api/channel/Channel;Lcom/discord/models/presence/Presence;Ljava/util/Map;)Z
 
     move-result v26

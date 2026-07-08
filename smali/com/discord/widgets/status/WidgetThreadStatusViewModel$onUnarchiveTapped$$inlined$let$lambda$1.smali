@@ -107,7 +107,6 @@
 
     move-result p1
 
-    # invokes: Lcom/discord/widgets/status/WidgetThreadStatusViewModel;->emitError(I)V
     invoke-static {v0, p1}, Lcom/discord/widgets/status/WidgetThreadStatusViewModel;->access$emitError(Lcom/discord/widgets/status/WidgetThreadStatusViewModel;I)V
 
     return-void

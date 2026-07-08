@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->configureUI(Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/usersheet/WidgetUserSheet;->access$configureUI(Lcom/discord/widgets/user/usersheet/WidgetUserSheet;Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel$ViewState;)V
 
     return-void

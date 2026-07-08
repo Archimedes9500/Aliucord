@@ -107,7 +107,6 @@
     sget-object v4, Lcom/discord/utilities/platform/Platform;->XBOX:Lcom/discord/utilities/platform/Platform;
 
     .line 5
-    # invokes: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox;->getBinding()Lcom/discord/databinding/WidgetConnectionsAddXboxBinding;
     invoke-static {v2}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox;->access$getBinding$p(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsAddXbox;)Lcom/discord/databinding/WidgetConnectionsAddXboxBinding;
 
     move-result-object v0

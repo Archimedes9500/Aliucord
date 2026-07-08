@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial$configureMedia$2;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->getBinding()Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$getBinding$p(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;)Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
 
     move-result-object p1
@@ -86,13 +85,11 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial$configureMedia$2;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->showVideoOverlay()V
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$showVideoOverlay(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;)V
 
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial$configureMedia$2;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->getBinding()Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$getBinding$p(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;)Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
 
     move-result-object p1
@@ -107,13 +104,11 @@
     :cond_24
     iget-object p1, p0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial$configureMedia$2;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->hideVideoOverlay()V
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$hideVideoOverlay(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;)V
 
     .line 5
     iget-object p1, p0, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial$configureMedia$2;->this$0:Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;
 
-    # invokes: Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->getBinding()Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
     invoke-static {p1}, Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;->access$getBinding$p(Lcom/discord/widgets/changelog/WidgetChangeLogSpecial;)Lcom/discord/databinding/WidgetChangeLogSpecialBinding;
 
     move-result-object p1

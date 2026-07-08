@@ -104,7 +104,6 @@
 
     iget-object v1, v1, Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent$onViewBound$3;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;->getViewModel()Lcom/discord/widgets/guildscheduledevent/PreviewGuildScheduledEventViewModel;
     invoke-static {v1}, Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;->access$getViewModel$p(Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;)Lcom/discord/widgets/guildscheduledevent/PreviewGuildScheduledEventViewModel;
 
     move-result-object v1
@@ -131,7 +130,6 @@
 
     iget-object v5, v5, Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent$onViewBound$3;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;->getEventModel()Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventModel;
     invoke-static {v5}, Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;->access$getEventModel$p(Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;)Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventModel;
 
     move-result-object v5
@@ -168,7 +166,6 @@
 
     iget-object v5, v5, Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent$onViewBound$3;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;->getEventModel()Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventModel;
     invoke-static {v5}, Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;->access$getEventModel$p(Lcom/discord/widgets/guildscheduledevent/WidgetPreviewGuildScheduledEvent;)Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventModel;
 
     move-result-object v5

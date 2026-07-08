@@ -72,7 +72,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet$launchColorPicker$1;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->getViewModel()Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel;
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->access$getViewModel$p(Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;)Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel;
 
     move-result-object p1
@@ -99,7 +98,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet$launchColorPicker$1;->this$0:Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;
 
-    # invokes: Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->getViewModel()Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel;
     invoke-static {p1}, Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;->access$getViewModel$p(Lcom/discord/widgets/settings/profile/WidgetEditProfileBannerSheet;)Lcom/discord/widgets/settings/profile/EditProfileBannerSheetViewModel;
 
     move-result-object p1

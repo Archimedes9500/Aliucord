@@ -114,7 +114,6 @@
     check-cast v0, Lcom/discord/stores/StoreStream;
 
     .line 2
-    # invokes: Lcom/discord/stores/StoreStream;->handleFriendSuggestionsFetched(Ljava/util/List;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$handleFriendSuggestionsFetched(Lcom/discord/stores/StoreStream;Ljava/util/List;)V
 
     return-void

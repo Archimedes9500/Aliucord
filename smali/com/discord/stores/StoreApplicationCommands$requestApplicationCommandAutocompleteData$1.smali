@@ -99,7 +99,6 @@
     .line 2
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommandAutocompleteData$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->generateNonce()Ljava/lang/String;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$generateNonce(Lcom/discord/stores/StoreApplicationCommands;)Ljava/lang/String;
 
     move-result-object v1
@@ -242,7 +241,6 @@
     :goto_78
     iget-object v2, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommandAutocompleteData$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->sessionId:Ljava/lang/String;
     invoke-static {v2}, Lcom/discord/stores/StoreApplicationCommands;->access$getSessionId$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/lang/String;
 
     move-result-object v10
@@ -330,7 +328,6 @@
     .line 18
     iget-object v4, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommandAutocompleteData$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->autocompleteNonceData:Ljava/util/Map;
     invoke-static {v4}, Lcom/discord/stores/StoreApplicationCommands;->access$getAutocompleteNonceData$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/util/Map;
 
     move-result-object v4
@@ -340,7 +337,6 @@
     .line 19
     iget-object v1, v0, Lcom/discord/stores/StoreApplicationCommands$requestApplicationCommandAutocompleteData$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->restApi:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getRestApi$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v1

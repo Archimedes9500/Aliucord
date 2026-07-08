@@ -97,7 +97,6 @@
 
     iget-object v3, p0, Lcom/discord/widgets/forums/ForumUtils$observeCanCreateForumChannels$1;->$experimentsStore:Lcom/discord/stores/StoreExperiments;
 
-    # invokes: Lcom/discord/widgets/forums/ForumUtils;->canAccessForumChannels(JLcom/discord/stores/StoreExperiments;)Z
     invoke-static {v0, v1, v2, v3}, Lcom/discord/widgets/forums/ForumUtils;->access$canAccessForumChannels(Lcom/discord/widgets/forums/ForumUtils;JLcom/discord/stores/StoreExperiments;)Z
 
     move-result v0

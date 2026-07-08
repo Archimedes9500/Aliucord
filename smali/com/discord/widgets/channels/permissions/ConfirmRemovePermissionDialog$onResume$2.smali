@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog$onResume$2;->this$0:Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;->getViewModel()Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialogViewModel;
     invoke-static {p1}, Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;->access$getViewModel$p(Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialog;)Lcom/discord/widgets/channels/permissions/ConfirmRemovePermissionDialogViewModel;
 
     move-result-object p1

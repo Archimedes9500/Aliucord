@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$initializeSearchBar$2;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->emojiPickerMode:Lcom/discord/widgets/chat/input/emoji/EmojiPickerMode;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$getEmojiPickerMode$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)Lcom/discord/widgets/chat/input/emoji/EmojiPickerMode;
 
     move-result-object p1
@@ -78,7 +77,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$initializeSearchBar$2;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->launchBottomSheet()V
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$launchBottomSheet(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)V
 
     goto :goto_1d
@@ -87,7 +85,6 @@
     :cond_10
     iget-object p1, p0, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$initializeSearchBar$2;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->getBinding()Lcom/discord/databinding/WidgetEmojiPickerBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$getBinding$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)Lcom/discord/databinding/WidgetEmojiPickerBinding;
 
     move-result-object p1

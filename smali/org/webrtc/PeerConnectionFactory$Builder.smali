@@ -106,7 +106,6 @@
     move-object/from16 v0, p0
 
     .line 1
-    # invokes: Lorg/webrtc/PeerConnectionFactory;->checkInitializeHasBeenCalled()V
     invoke-static {}, Lorg/webrtc/PeerConnectionFactory;->access$100()V
 
     .line 2
@@ -253,7 +252,6 @@
     move-wide/from16 v20, v22
 
     .line 16
-    # invokes: Lorg/webrtc/PeerConnectionFactory;->nativeCreatePeerConnectionFactory(Landroid/content/Context;Lorg/webrtc/PeerConnectionFactory$Options;JJJLorg/webrtc/VideoEncoderFactory;Lorg/webrtc/VideoDecoderFactory;JJJJJ)Lorg/webrtc/PeerConnectionFactory;
     invoke-static/range {v2 .. v21}, Lorg/webrtc/PeerConnectionFactory;->access$200(Landroid/content/Context;Lorg/webrtc/PeerConnectionFactory$Options;JJJLorg/webrtc/VideoEncoderFactory;Lorg/webrtc/VideoDecoderFactory;JJJJJ)Lorg/webrtc/PeerConnectionFactory;
 
     move-result-object v1

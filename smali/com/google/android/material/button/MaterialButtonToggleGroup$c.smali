@@ -45,7 +45,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/button/MaterialButtonToggleGroup$c;->a:Lcom/google/android/material/button/MaterialButtonToggleGroup;
 
-    # getter for: Lcom/google/android/material/button/MaterialButtonToggleGroup;->skipCheckedStateTracker:Z
     invoke-static {v0}, Lcom/google/android/material/button/MaterialButtonToggleGroup;->access$300(Lcom/google/android/material/button/MaterialButtonToggleGroup;)Z
 
     move-result v0
@@ -58,7 +57,6 @@
     :cond_9
     iget-object v0, p0, Lcom/google/android/material/button/MaterialButtonToggleGroup$c;->a:Lcom/google/android/material/button/MaterialButtonToggleGroup;
 
-    # getter for: Lcom/google/android/material/button/MaterialButtonToggleGroup;->singleSelection:Z
     invoke-static {v0}, Lcom/google/android/material/button/MaterialButtonToggleGroup;->access$400(Lcom/google/android/material/button/MaterialButtonToggleGroup;)Z
 
     move-result v0
@@ -80,7 +78,6 @@
     const/4 v1, -0x1
 
     :goto_1b
-    # setter for: Lcom/google/android/material/button/MaterialButtonToggleGroup;->checkedId:I
     invoke-static {v0, v1}, Lcom/google/android/material/button/MaterialButtonToggleGroup;->access$502(Lcom/google/android/material/button/MaterialButtonToggleGroup;I)I
 
     .line 4
@@ -91,7 +88,6 @@
 
     move-result v1
 
-    # invokes: Lcom/google/android/material/button/MaterialButtonToggleGroup;->updateCheckedStates(IZ)Z
     invoke-static {v0, v1, p2}, Lcom/google/android/material/button/MaterialButtonToggleGroup;->access$600(Lcom/google/android/material/button/MaterialButtonToggleGroup;IZ)Z
 
     move-result p2
@@ -109,7 +105,6 @@
 
     move-result p1
 
-    # invokes: Lcom/google/android/material/button/MaterialButtonToggleGroup;->dispatchOnButtonChecked(IZ)V
     invoke-static {p2, v0, p1}, Lcom/google/android/material/button/MaterialButtonToggleGroup;->access$700(Lcom/google/android/material/button/MaterialButtonToggleGroup;IZ)V
 
     .line 6

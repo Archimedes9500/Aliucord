@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/forums/WidgetForumBrowser$configureListState$$inlined$apply$lambda$3;->this$0:Lcom/discord/widgets/forums/WidgetForumBrowser;
 
-    # invokes: Lcom/discord/widgets/forums/WidgetForumBrowser;->getViewModel()Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;
     invoke-static {v0}, Lcom/discord/widgets/forums/WidgetForumBrowser;->access$getViewModel$p(Lcom/discord/widgets/forums/WidgetForumBrowser;)Lcom/discord/widgets/forums/WidgetForumBrowserViewModel;
 
     move-result-object v0

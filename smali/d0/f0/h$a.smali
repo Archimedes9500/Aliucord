@@ -59,7 +59,6 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    # getter for: Ld0/f0/h;->a:Lkotlin/sequences/Sequence;
     invoke-static {p1}, Ld0/f0/h;->access$getSequence$p(Ld0/f0/h;)Lkotlin/sequences/Sequence;
 
     move-result-object p1
@@ -126,14 +125,12 @@
     .line 6
     iget-object v2, p0, Ld0/f0/h$a;->l:Ld0/f0/h;
 
-    # getter for: Ld0/f0/h;->c:Lkotlin/jvm/functions/Function1;
     invoke-static {v2}, Ld0/f0/h;->access$getIterator$p(Ld0/f0/h;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v2
 
     iget-object v3, p0, Ld0/f0/h$a;->l:Ld0/f0/h;
 
-    # getter for: Ld0/f0/h;->b:Lkotlin/jvm/functions/Function1;
     invoke-static {v3}, Ld0/f0/h;->access$getTransformer$p(Ld0/f0/h;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v3

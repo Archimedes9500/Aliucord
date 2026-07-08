@@ -57,7 +57,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/shape/ShapePath$c;->b:Lcom/google/android/material/shape/ShapePath$PathLineOperation;
 
-    # getter for: Lcom/google/android/material/shape/ShapePath$PathLineOperation;->y:F
     invoke-static {v0}, Lcom/google/android/material/shape/ShapePath$PathLineOperation;->access$100(Lcom/google/android/material/shape/ShapePath$PathLineOperation;)F
 
     move-result v0
@@ -69,7 +68,6 @@
     .line 2
     iget-object v1, p0, Lcom/google/android/material/shape/ShapePath$c;->b:Lcom/google/android/material/shape/ShapePath$PathLineOperation;
 
-    # getter for: Lcom/google/android/material/shape/ShapePath$PathLineOperation;->x:F
     invoke-static {v1}, Lcom/google/android/material/shape/ShapePath$PathLineOperation;->access$000(Lcom/google/android/material/shape/ShapePath$PathLineOperation;)F
 
     move-result v1
@@ -126,7 +124,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/shape/ShapePath$c;->b:Lcom/google/android/material/shape/ShapePath$PathLineOperation;
 
-    # getter for: Lcom/google/android/material/shape/ShapePath$PathLineOperation;->y:F
     invoke-static {v0}, Lcom/google/android/material/shape/ShapePath$PathLineOperation;->access$100(Lcom/google/android/material/shape/ShapePath$PathLineOperation;)F
 
     move-result v0
@@ -137,7 +134,6 @@
 
     iget-object v1, p0, Lcom/google/android/material/shape/ShapePath$c;->b:Lcom/google/android/material/shape/ShapePath$PathLineOperation;
 
-    # getter for: Lcom/google/android/material/shape/ShapePath$PathLineOperation;->x:F
     invoke-static {v1}, Lcom/google/android/material/shape/ShapePath$PathLineOperation;->access$000(Lcom/google/android/material/shape/ShapePath$PathLineOperation;)F
 
     move-result v1

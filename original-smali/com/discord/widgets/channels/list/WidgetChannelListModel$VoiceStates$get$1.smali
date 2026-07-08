@@ -246,7 +246,6 @@
     move-object v6, p6
 
     .line 10
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelListModel$VoiceStates;->createVoiceStates(Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Comparator;)Ljava/util/Map;
     invoke-static/range {v0 .. v7}, Lcom/discord/widgets/channels/list/WidgetChannelListModel$VoiceStates;->access$createVoiceStates(Lcom/discord/widgets/channels/list/WidgetChannelListModel$VoiceStates;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Comparator;)Ljava/util/Map;
 
     move-result-object p1

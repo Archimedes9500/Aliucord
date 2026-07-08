@@ -98,7 +98,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreGifPicker$fetchGifsForSearchQuery$2;->this$0:Lcom/discord/stores/StoreGifPicker;
 
-    # getter for: Lcom/discord/stores/StoreGifPicker;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreGifPicker;->access$getDispatcher$p(Lcom/discord/stores/StoreGifPicker;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1

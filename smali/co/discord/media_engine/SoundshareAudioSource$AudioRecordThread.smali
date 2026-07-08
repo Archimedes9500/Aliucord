@@ -160,7 +160,6 @@
     const/4 v1, 0x0
 
     :goto_14
-    # invokes: Lco/discord/media_engine/SoundshareAudioSource$Companion;->assertTrue(Z)V
     invoke-static {v0, v1}, Lco/discord/media_engine/SoundshareAudioSource$Companion;->access$assertTrue(Lco/discord/media_engine/SoundshareAudioSource$Companion;Z)V
 
     .line 3
@@ -202,7 +201,6 @@
     if-ne v0, v3, :cond_55
 
     .line 7
-    # getter for: Lco/discord/media_engine/SoundshareAudioSource;->microphoneMute:Z
     invoke-static {}, Lco/discord/media_engine/SoundshareAudioSource;->access$getMicrophoneMute$cp()Z
 
     move-result v1
@@ -232,7 +230,6 @@
 
     iget-wide v3, p0, Lco/discord/media_engine/SoundshareAudioSource$AudioRecordThread;->timestamp:J
 
-    # invokes: Lco/discord/media_engine/SoundshareAudioSource;->dataIsRecorded(IJ)V
     invoke-static {v1, v0, v3, v4}, Lco/discord/media_engine/SoundshareAudioSource;->access$dataIsRecorded(Lco/discord/media_engine/SoundshareAudioSource;IJ)V
 
     goto :goto_17
@@ -266,7 +263,6 @@
     .line 15
     iget-object v0, p0, Lco/discord/media_engine/SoundshareAudioSource$AudioRecordThread;->this$0:Lco/discord/media_engine/SoundshareAudioSource;
 
-    # invokes: Lco/discord/media_engine/SoundshareAudioSource;->reportSoundshareAudioSourceError(Ljava/lang/String;)V
     invoke-static {v0, v3}, Lco/discord/media_engine/SoundshareAudioSource;->access$reportSoundshareAudioSourceError(Lco/discord/media_engine/SoundshareAudioSource;Ljava/lang/String;)V
 
     goto :goto_17

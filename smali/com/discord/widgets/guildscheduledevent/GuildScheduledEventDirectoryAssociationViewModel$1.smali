@@ -121,7 +121,6 @@
     move-result-object p1
 
     .line 5
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v1, p1}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDirectoryAssociationViewModel;->access$updateViewState(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDirectoryAssociationViewModel;Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventDirectoryAssociationState;)V
 
     :cond_16

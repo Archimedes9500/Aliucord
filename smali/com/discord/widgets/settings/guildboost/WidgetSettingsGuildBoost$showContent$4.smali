@@ -103,7 +103,6 @@
     check-cast v0, Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;->handleSampleGuildSelected(J)V
     invoke-static {v0, p1, p2}, Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;->access$handleSampleGuildSelected(Lcom/discord/widgets/settings/guildboost/WidgetSettingsGuildBoost;J)V
 
     return-void

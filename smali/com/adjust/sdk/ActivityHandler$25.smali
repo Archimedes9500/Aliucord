@@ -53,7 +53,6 @@
 
     iget-object v2, p0, Lcom/adjust/sdk/ActivityHandler$25;->val$adRevenueJson:Lorg/json/JSONObject;
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->trackAdRevenueI(Ljava/lang/String;Lorg/json/JSONObject;)V
     invoke-static {v0, v1, v2}, Lcom/adjust/sdk/ActivityHandler;->access$2500(Lcom/adjust/sdk/ActivityHandler;Ljava/lang/String;Lorg/json/JSONObject;)V
 
     return-void

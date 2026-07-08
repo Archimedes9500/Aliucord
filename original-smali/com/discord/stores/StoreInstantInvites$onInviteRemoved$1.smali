@@ -117,7 +117,6 @@
     .line 4
     iget-object v2, p0, Lcom/discord/stores/StoreInstantInvites$onInviteRemoved$1;->this$0:Lcom/discord/stores/StoreInstantInvites;
 
-    # getter for: Lcom/discord/stores/StoreInstantInvites;->invites:Ljava/util/Map;
     invoke-static {v2}, Lcom/discord/stores/StoreInstantInvites;->access$getInvites$p(Lcom/discord/stores/StoreInstantInvites;)Ljava/util/Map;
 
     move-result-object v2

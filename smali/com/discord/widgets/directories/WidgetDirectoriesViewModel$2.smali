@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/directories/WidgetDirectoriesViewModel;
 
     .line 2
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/directories/WidgetDirectoriesViewModel;->access$updateViewState(Lcom/discord/widgets/directories/WidgetDirectoriesViewModel;Lcom/discord/widgets/directories/WidgetDirectoriesViewModel$ViewState;)V
 
     return-void

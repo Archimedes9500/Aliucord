@@ -1889,7 +1889,6 @@
     move-wide/from16 v12, v19
 
     .line 42
-    # invokes: Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel$Companion;->buildGuildStickersListItems(Ljava/util/List;Lcom/discord/models/guild/Guild;ILjava/lang/String;Lcom/discord/models/user/MeUser;Ljava/util/Locale;Lcom/discord/api/channel/Channel;J)Ljava/util/List;
     invoke-static/range {v4 .. v13}, Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel$Companion;->access$buildGuildStickersListItems(Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel$Companion;Ljava/util/List;Lcom/discord/models/guild/Guild;ILjava/lang/String;Lcom/discord/models/user/MeUser;Ljava/util/Locale;Lcom/discord/api/channel/Channel;J)Ljava/util/List;
 
     move-result-object v4
@@ -1962,7 +1961,6 @@
     move v7, v14
 
     .line 49
-    # invokes: Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel$Companion;->buildStickerListItems(Lcom/discord/models/sticker/dto/ModelStickerPack;Ljava/lang/String;ILjava/util/Locale;Lcom/discord/models/user/MeUser;)Ljava/util/List;
     invoke-static/range {v4 .. v9}, Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel$Companion;->access$buildStickerListItems(Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel$Companion;Lcom/discord/models/sticker/dto/ModelStickerPack;Ljava/lang/String;ILjava/util/Locale;Lcom/discord/models/user/MeUser;)Ljava/util/List;
 
     move-result-object v4

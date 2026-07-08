@@ -68,7 +68,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/models/domain/ModelCustomStatusSetting;->CLEAR:Lcom/discord/models/domain/ModelCustomStatusSetting;
     invoke-static {}, Lcom/discord/models/domain/ModelCustomStatusSetting;->access$getCLEAR$cp()Lcom/discord/models/domain/ModelCustomStatusSetting;
 
     move-result-object v0

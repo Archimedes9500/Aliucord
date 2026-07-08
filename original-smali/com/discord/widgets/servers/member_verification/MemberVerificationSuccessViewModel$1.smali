@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel$1;->this$0:Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel;
 
-    # invokes: Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel;->handleStoreState(Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel;->access$handleStoreState(Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel;Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel$StoreState;)V
 
     return-void

@@ -96,7 +96,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$configureRequestDataButton$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->onRequestDataClick(Landroid/content/Context;Lcom/discord/utilities/rest/RestAPI$HarvestState;)V
     invoke-static {v1, p1, v0}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$onRequestDataClick(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;Landroid/content/Context;Lcom/discord/utilities/rest/RestAPI$HarvestState;)V
 
     goto :goto_25

@@ -93,7 +93,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/bugreports/WidgetBugReport;->priorityLevels:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/bugreports/WidgetBugReport;->access$getPriorityLevels$cp()Ljava/util/List;
 
     move-result-object v0

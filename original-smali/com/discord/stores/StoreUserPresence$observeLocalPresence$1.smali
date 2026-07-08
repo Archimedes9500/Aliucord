@@ -75,7 +75,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreUserPresence$observeLocalPresence$1;->this$0:Lcom/discord/stores/StoreUserPresence;
 
-    # getter for: Lcom/discord/stores/StoreUserPresence;->localPresenceSnapshot:Lcom/discord/models/presence/Presence;
     invoke-static {v0}, Lcom/discord/stores/StoreUserPresence;->access$getLocalPresenceSnapshot$p(Lcom/discord/stores/StoreUserPresence;)Lcom/discord/models/presence/Presence;
 
     move-result-object v0

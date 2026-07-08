@@ -760,7 +760,6 @@
     :cond_92
     iget-object v0, p0, Lcom/google/android/material/internal/NavigationMenuPresenter$c;->d:Lcom/google/android/material/internal/NavigationMenuPresenter;
 
-    # getter for: Lcom/google/android/material/internal/NavigationMenuPresenter;->itemMaxLines:I
     invoke-static {v0}, Lcom/google/android/material/internal/NavigationMenuPresenter;->access$000(Lcom/google/android/material/internal/NavigationMenuPresenter;)I
 
     move-result v0

@@ -90,12 +90,10 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreNotifications$tryTokenPersist$1;->this$0:Lcom/discord/stores/StoreNotifications;
 
-    # getter for: Lcom/discord/stores/StoreNotifications;->pushToken:Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/stores/StoreNotifications;->access$getPushToken$p(Lcom/discord/stores/StoreNotifications;)Ljava/lang/String;
 
     move-result-object v0
 
-    # invokes: Lcom/discord/stores/StoreNotifications;->handleRegistrationTokenPersisted(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/stores/StoreNotifications;->access$handleRegistrationTokenPersisted(Lcom/discord/stores/StoreNotifications;Ljava/lang/String;)V
 
     return-void

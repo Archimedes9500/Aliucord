@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationStreaming$observeActiveStream$1;->this$0:Lcom/discord/stores/StoreApplicationStreaming;
 
-    # getter for: Lcom/discord/stores/StoreApplicationStreaming;->activeApplicationStream:Lcom/discord/stores/StoreApplicationStreaming$ActiveApplicationStream;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationStreaming;->access$getActiveApplicationStream$p(Lcom/discord/stores/StoreApplicationStreaming;)Lcom/discord/stores/StoreApplicationStreaming$ActiveApplicationStream;
 
     move-result-object v0

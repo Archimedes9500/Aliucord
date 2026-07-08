@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreUserProfile$updateUser$1;->$user:Lcom/discord/api/user/User;
 
-    # invokes: Lcom/discord/stores/StoreUserProfile;->handleUser(Lcom/discord/api/user/User;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreUserProfile;->access$handleUser(Lcom/discord/stores/StoreUserProfile;Lcom/discord/api/user/User;)V
 
     return-void

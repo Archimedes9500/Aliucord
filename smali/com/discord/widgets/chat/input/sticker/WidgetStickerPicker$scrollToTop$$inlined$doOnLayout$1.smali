@@ -85,7 +85,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker$scrollToTop$$inlined$doOnLayout$1;->this$0:Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;
 
-    # invokes: Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->getBinding()Lcom/discord/databinding/WidgetStickerPickerBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;->access$getBinding$p(Lcom/discord/widgets/chat/input/sticker/WidgetStickerPicker;)Lcom/discord/databinding/WidgetStickerPickerBinding;
 
     move-result-object p1

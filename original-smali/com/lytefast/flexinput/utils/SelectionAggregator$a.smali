@@ -68,7 +68,6 @@
     .line 3
     iget-object v0, p0, Lcom/lytefast/flexinput/utils/SelectionAggregator$a;->a:Lcom/lytefast/flexinput/utils/SelectionAggregator;
 
-    # invokes: Lcom/lytefast/flexinput/utils/SelectionAggregator;->addItem(Lcom/lytefast/flexinput/model/Attachment;)V
     invoke-static {v0, p1}, Lcom/lytefast/flexinput/utils/SelectionAggregator;->access$addItem(Lcom/lytefast/flexinput/utils/SelectionAggregator;Lcom/lytefast/flexinput/model/Attachment;)V
 
     return-void
@@ -88,7 +87,6 @@
     .line 3
     iget-object v0, p0, Lcom/lytefast/flexinput/utils/SelectionAggregator$a;->a:Lcom/lytefast/flexinput/utils/SelectionAggregator;
 
-    # invokes: Lcom/lytefast/flexinput/utils/SelectionAggregator;->removeItem(Lcom/lytefast/flexinput/model/Attachment;)Z
     invoke-static {v0, p1}, Lcom/lytefast/flexinput/utils/SelectionAggregator;->access$removeItem(Lcom/lytefast/flexinput/utils/SelectionAggregator;Lcom/lytefast/flexinput/model/Attachment;)Z
 
     return-void

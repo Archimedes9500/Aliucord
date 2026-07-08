@@ -58,7 +58,6 @@
 
     iget-object v0, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView$1;->this$0:Landroidx/constraintlayout/utils/widget/ImageFilterView;
 
-    # getter for: Landroidx/constraintlayout/utils/widget/ImageFilterView;->mRoundPercent:F
     invoke-static {v0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->access$000(Landroidx/constraintlayout/utils/widget/ImageFilterView;)F
 
     move-result v0

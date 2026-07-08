@@ -47,7 +47,6 @@
 
     iget-object v1, p0, Lorg/webrtc/SurfaceTextureHelper$3;->this$0:Lorg/webrtc/SurfaceTextureHelper;
 
-    # getter for: Lorg/webrtc/SurfaceTextureHelper;->pendingListener:Lorg/webrtc/VideoSink;
     invoke-static {v1}, Lorg/webrtc/SurfaceTextureHelper;->access$300(Lorg/webrtc/SurfaceTextureHelper;)Lorg/webrtc/VideoSink;
 
     move-result-object v1
@@ -65,12 +64,10 @@
     .line 2
     iget-object v0, p0, Lorg/webrtc/SurfaceTextureHelper$3;->this$0:Lorg/webrtc/SurfaceTextureHelper;
 
-    # getter for: Lorg/webrtc/SurfaceTextureHelper;->pendingListener:Lorg/webrtc/VideoSink;
     invoke-static {v0}, Lorg/webrtc/SurfaceTextureHelper;->access$300(Lorg/webrtc/SurfaceTextureHelper;)Lorg/webrtc/VideoSink;
 
     move-result-object v1
 
-    # setter for: Lorg/webrtc/SurfaceTextureHelper;->listener:Lorg/webrtc/VideoSink;
     invoke-static {v0, v1}, Lorg/webrtc/SurfaceTextureHelper;->access$402(Lorg/webrtc/SurfaceTextureHelper;Lorg/webrtc/VideoSink;)Lorg/webrtc/VideoSink;
 
     .line 3
@@ -78,13 +75,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/webrtc/SurfaceTextureHelper;->pendingListener:Lorg/webrtc/VideoSink;
     invoke-static {v0, v1}, Lorg/webrtc/SurfaceTextureHelper;->access$302(Lorg/webrtc/SurfaceTextureHelper;Lorg/webrtc/VideoSink;)Lorg/webrtc/VideoSink;
 
     .line 4
     iget-object v0, p0, Lorg/webrtc/SurfaceTextureHelper$3;->this$0:Lorg/webrtc/SurfaceTextureHelper;
 
-    # getter for: Lorg/webrtc/SurfaceTextureHelper;->hasPendingTexture:Z
     invoke-static {v0}, Lorg/webrtc/SurfaceTextureHelper;->access$500(Lorg/webrtc/SurfaceTextureHelper;)Z
 
     move-result v0
@@ -94,7 +89,6 @@
     .line 5
     iget-object v0, p0, Lorg/webrtc/SurfaceTextureHelper$3;->this$0:Lorg/webrtc/SurfaceTextureHelper;
 
-    # invokes: Lorg/webrtc/SurfaceTextureHelper;->updateTexImage()V
     invoke-static {v0}, Lorg/webrtc/SurfaceTextureHelper;->access$600(Lorg/webrtc/SurfaceTextureHelper;)V
 
     .line 6
@@ -102,7 +96,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/webrtc/SurfaceTextureHelper;->hasPendingTexture:Z
     invoke-static {v0, v1}, Lorg/webrtc/SurfaceTextureHelper;->access$502(Lorg/webrtc/SurfaceTextureHelper;Z)Z
 
     :cond_3a

@@ -73,7 +73,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->resetCurrentChatListEntry()V
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->access$resetCurrentChatListEntry(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;)V
 
     return-void
@@ -89,7 +88,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;
 
-    # invokes: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->clearSubscriptions()V
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;->access$clearSubscriptions(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemCallMessage;)V
 
     return-void

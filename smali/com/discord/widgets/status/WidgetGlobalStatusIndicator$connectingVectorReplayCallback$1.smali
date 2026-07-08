@@ -69,7 +69,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/status/WidgetGlobalStatusIndicator$connectingVectorReplayCallback$1;->this$0:Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;
 
-    # getter for: Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;->connectingVector:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
     invoke-static {p1}, Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;->access$getConnectingVector$p(Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;)Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
 
     move-result-object p1

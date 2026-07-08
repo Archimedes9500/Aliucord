@@ -90,7 +90,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel$kickUser$1;->this$0:Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->emitDismissSheetEvent()V
     invoke-static {p1}, Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;->access$emitDismissSheetEvent(Lcom/discord/widgets/user/usersheet/WidgetUserSheetViewModel;)V
 
     return-void

@@ -53,13 +53,11 @@
 
     move-result-object v1
 
-    # setter for: Lorg/webrtc/VideoFileRenderer;->eglBase:Lorg/webrtc/EglBase;
     invoke-static {v0, v1}, Lorg/webrtc/VideoFileRenderer;->access$002(Lorg/webrtc/VideoFileRenderer;Lorg/webrtc/EglBase;)Lorg/webrtc/EglBase;
 
     .line 2
     iget-object v0, p0, Lorg/webrtc/VideoFileRenderer$1;->this$0:Lorg/webrtc/VideoFileRenderer;
 
-    # getter for: Lorg/webrtc/VideoFileRenderer;->eglBase:Lorg/webrtc/EglBase;
     invoke-static {v0}, Lorg/webrtc/VideoFileRenderer;->access$000(Lorg/webrtc/VideoFileRenderer;)Lorg/webrtc/EglBase;
 
     move-result-object v0
@@ -69,7 +67,6 @@
     .line 3
     iget-object v0, p0, Lorg/webrtc/VideoFileRenderer$1;->this$0:Lorg/webrtc/VideoFileRenderer;
 
-    # getter for: Lorg/webrtc/VideoFileRenderer;->eglBase:Lorg/webrtc/EglBase;
     invoke-static {v0}, Lorg/webrtc/VideoFileRenderer;->access$000(Lorg/webrtc/VideoFileRenderer;)Lorg/webrtc/EglBase;
 
     move-result-object v0
@@ -83,7 +80,6 @@
 
     invoke-direct {v1}, Lorg/webrtc/YuvConverter;-><init>()V
 
-    # setter for: Lorg/webrtc/VideoFileRenderer;->yuvConverter:Lorg/webrtc/YuvConverter;
     invoke-static {v0, v1}, Lorg/webrtc/VideoFileRenderer;->access$102(Lorg/webrtc/VideoFileRenderer;Lorg/webrtc/YuvConverter;)Lorg/webrtc/YuvConverter;
 
     return-void

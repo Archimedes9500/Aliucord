@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen$onStreamPreviewClicked$1;->this$0:Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;
 
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->getViewModel()Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreenViewModel;
     invoke-static {v0}, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->access$getViewModel$p(Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;)Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreenViewModel;
 
     move-result-object v0

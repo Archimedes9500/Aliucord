@@ -264,7 +264,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/widgets/search/suggestions/WidgetSearchSuggestionsAdapter$HasViewHolder$Companion;->getIconRes(Lcom/discord/utilities/search/query/node/answer/HasAnswerOption;)I
     invoke-static {v0, v1}, Lcom/discord/widgets/search/suggestions/WidgetSearchSuggestionsAdapter$HasViewHolder$Companion;->access$getIconRes(Lcom/discord/widgets/search/suggestions/WidgetSearchSuggestionsAdapter$HasViewHolder$Companion;Lcom/discord/utilities/search/query/node/answer/HasAnswerOption;)I
 
     move-result v0

@@ -41,7 +41,6 @@
     .line 1
     iget-object v0, p0, Lcom/google/android/material/navigation/NavigationView$b;->j:Lcom/google/android/material/navigation/NavigationView;
 
-    # getter for: Lcom/google/android/material/navigation/NavigationView;->tmpLocation:[I
     invoke-static {v0}, Lcom/google/android/material/navigation/NavigationView;->access$000(Lcom/google/android/material/navigation/NavigationView;)[I
 
     move-result-object v1
@@ -51,7 +50,6 @@
     .line 2
     iget-object v0, p0, Lcom/google/android/material/navigation/NavigationView$b;->j:Lcom/google/android/material/navigation/NavigationView;
 
-    # getter for: Lcom/google/android/material/navigation/NavigationView;->tmpLocation:[I
     invoke-static {v0}, Lcom/google/android/material/navigation/NavigationView;->access$000(Lcom/google/android/material/navigation/NavigationView;)[I
 
     move-result-object v0
@@ -75,7 +73,6 @@
     :goto_18
     iget-object v3, p0, Lcom/google/android/material/navigation/NavigationView$b;->j:Lcom/google/android/material/navigation/NavigationView;
 
-    # getter for: Lcom/google/android/material/navigation/NavigationView;->presenter:Lcom/google/android/material/internal/NavigationMenuPresenter;
     invoke-static {v3}, Lcom/google/android/material/navigation/NavigationView;->access$100(Lcom/google/android/material/navigation/NavigationView;)Lcom/google/android/material/internal/NavigationMenuPresenter;
 
     move-result-object v3

@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/StoreAuditLog$fetchAuditLogs$1;->this$0:Lcom/discord/stores/StoreAuditLog;
 
-    # invokes: Lcom/discord/stores/StoreAuditLog;->handleFetchFailure()V
     invoke-static {p1}, Lcom/discord/stores/StoreAuditLog;->access$handleFetchFailure(Lcom/discord/stores/StoreAuditLog;)V
 
     return-void

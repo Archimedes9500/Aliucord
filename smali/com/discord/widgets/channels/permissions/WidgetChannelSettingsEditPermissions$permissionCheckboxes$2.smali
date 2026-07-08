@@ -100,7 +100,6 @@
     .line 2
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -114,7 +113,6 @@
     .line 3
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -128,7 +126,6 @@
     .line 4
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -142,7 +139,6 @@
     .line 5
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -156,7 +152,6 @@
     .line 6
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -170,7 +165,6 @@
     .line 7
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -184,7 +178,6 @@
     .line 8
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -198,7 +191,6 @@
     .line 9
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -212,7 +204,6 @@
     .line 10
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -226,7 +217,6 @@
     .line 11
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -240,7 +230,6 @@
     .line 12
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -254,7 +243,6 @@
     .line 13
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -268,7 +256,6 @@
     .line 14
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -282,7 +269,6 @@
     .line 15
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -296,7 +282,6 @@
     .line 16
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -310,7 +295,6 @@
     .line 17
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -324,7 +308,6 @@
     .line 18
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -338,7 +321,6 @@
     .line 19
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -352,7 +334,6 @@
     .line 20
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -366,7 +347,6 @@
     .line 21
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -380,7 +360,6 @@
     .line 22
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -394,7 +373,6 @@
     .line 23
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -408,7 +386,6 @@
     .line 24
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -422,7 +399,6 @@
     .line 25
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -436,7 +412,6 @@
     .line 26
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -450,7 +425,6 @@
     .line 27
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -464,7 +438,6 @@
     .line 28
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -478,7 +451,6 @@
     .line 29
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -492,7 +464,6 @@
     .line 30
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1
@@ -506,7 +477,6 @@
     .line 31
     iget-object v1, p0, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions$permissionCheckboxes$2;->this$0:Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;
 
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->getBinding()Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;->access$getBinding$p(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsEditPermissions;)Lcom/discord/databinding/WidgetChannelSettingsEditPermissionsBinding;
 
     move-result-object v1

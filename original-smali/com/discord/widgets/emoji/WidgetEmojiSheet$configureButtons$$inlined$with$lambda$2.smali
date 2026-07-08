@@ -81,7 +81,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/emoji/WidgetEmojiSheet$configureButtons$$inlined$with$lambda$2;->this$0:Lcom/discord/widgets/emoji/WidgetEmojiSheet;
 
-    # invokes: Lcom/discord/widgets/emoji/WidgetEmojiSheet;->getViewModel()Lcom/discord/widgets/emoji/EmojiSheetViewModel;
     invoke-static {v0}, Lcom/discord/widgets/emoji/WidgetEmojiSheet;->access$getViewModel$p(Lcom/discord/widgets/emoji/WidgetEmojiSheet;)Lcom/discord/widgets/emoji/EmojiSheetViewModel;
 
     move-result-object v0

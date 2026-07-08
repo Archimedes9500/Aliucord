@@ -104,7 +104,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGameParty$observeUsersForPartyId$1;->this$0:Lcom/discord/stores/StoreGameParty;
 
-    # getter for: Lcom/discord/stores/StoreGameParty;->partiesSnapshot:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreGameParty;->access$getPartiesSnapshot$p(Lcom/discord/stores/StoreGameParty;)Ljava/util/HashMap;
 
     move-result-object v0

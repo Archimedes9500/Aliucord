@@ -56,7 +56,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/h$a;->this$0:Ld0/e0/p/d/m0/e/a/i0/h;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/h;->d:Ljava/util/Map;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/h;->access$getTypeParameters$p(Ld0/e0/p/d/m0/e/a/i0/h;)Ljava/util/Map;
 
     move-result-object v0
@@ -84,7 +83,6 @@
     new-instance v2, Ld0/e0/p/d/m0/e/a/i0/l/s;
 
     .line 4
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/h;->a:Ld0/e0/p/d/m0/e/a/i0/g;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/h;->access$getC$p(Ld0/e0/p/d/m0/e/a/i0/h;)Ld0/e0/p/d/m0/e/a/i0/g;
 
     move-result-object v3
@@ -93,7 +91,6 @@
 
     move-result-object v3
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/h;->b:Ld0/e0/p/d/m0/c/m;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/h;->access$getContainingDeclaration$p(Ld0/e0/p/d/m0/e/a/i0/h;)Ld0/e0/p/d/m0/c/m;
 
     move-result-object v4
@@ -107,14 +104,12 @@
     move-result-object v3
 
     .line 5
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/h;->c:I
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/h;->access$getTypeParametersIndexOffset$p(Ld0/e0/p/d/m0/e/a/i0/h;)I
 
     move-result v4
 
     add-int/2addr v4, v0
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/h;->b:Ld0/e0/p/d/m0/c/m;
     invoke-static {v1}, Ld0/e0/p/d/m0/e/a/i0/h;->access$getContainingDeclaration$p(Ld0/e0/p/d/m0/e/a/i0/h;)Ld0/e0/p/d/m0/c/m;
 
     move-result-object v0

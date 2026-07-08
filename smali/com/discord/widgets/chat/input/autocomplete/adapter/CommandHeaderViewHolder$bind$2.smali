@@ -98,7 +98,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/input/autocomplete/adapter/CommandHeaderViewHolder$bind$2;->this$0:Lcom/discord/widgets/chat/input/autocomplete/adapter/CommandHeaderViewHolder;
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/adapter/CommandHeaderViewHolder;->binding:Lcom/discord/databinding/WidgetChatInputCommandApplicationHeaderItemBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/autocomplete/adapter/CommandHeaderViewHolder;->access$getBinding$p(Lcom/discord/widgets/chat/input/autocomplete/adapter/CommandHeaderViewHolder;)Lcom/discord/databinding/WidgetChatInputCommandApplicationHeaderItemBinding;
 
     move-result-object p1
@@ -136,7 +135,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/chat/input/autocomplete/adapter/CommandHeaderViewHolder$bind$2;->this$0:Lcom/discord/widgets/chat/input/autocomplete/adapter/CommandHeaderViewHolder;
 
-    # getter for: Lcom/discord/widgets/chat/input/autocomplete/adapter/CommandHeaderViewHolder;->binding:Lcom/discord/databinding/WidgetChatInputCommandApplicationHeaderItemBinding;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/autocomplete/adapter/CommandHeaderViewHolder;->access$getBinding$p(Lcom/discord/widgets/chat/input/autocomplete/adapter/CommandHeaderViewHolder;)Lcom/discord/databinding/WidgetChatInputCommandApplicationHeaderItemBinding;
 
     move-result-object v0

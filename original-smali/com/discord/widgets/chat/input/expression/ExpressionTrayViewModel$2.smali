@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel;->handleExpressionPickerEvents(Lcom/discord/widgets/chat/input/expression/ExpressionPickerEvent;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel;->access$handleExpressionPickerEvents(Lcom/discord/widgets/chat/input/expression/ExpressionTrayViewModel;Lcom/discord/widgets/chat/input/expression/ExpressionPickerEvent;)V
 
     return-void

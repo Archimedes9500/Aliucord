@@ -111,7 +111,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreApplicationCommands$getApplicationCommandsViaRest$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->applications:Ljava/util/List;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getApplications$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/util/List;
 
     move-result-object v1
@@ -201,7 +200,6 @@
 
     iget-object v5, v5, Lcom/discord/stores/StoreApplicationCommands$getApplicationCommandsViaRest$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->applications:Ljava/util/List;
     invoke-static {v5}, Lcom/discord/stores/StoreApplicationCommands;->access$getApplications$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/util/List;
 
     move-result-object v5
@@ -345,7 +343,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreApplicationCommands$getApplicationCommandsViaRest$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->applications:Ljava/util/List;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getApplications$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/util/List;
 
     move-result-object v6
@@ -354,7 +351,6 @@
 
     move-result-object v6
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->handleGuildApplicationsUpdate(Ljava/util/List;)V
     invoke-static {v1, v6}, Lcom/discord/stores/StoreApplicationCommands;->access$handleGuildApplicationsUpdate(Lcom/discord/stores/StoreApplicationCommands;Ljava/util/List;)V
 
     .line 27
@@ -362,7 +358,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreApplicationCommands$getApplicationCommandsViaRest$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->storeApplicationCommandFrecency:Lcom/discord/stores/StoreApplicationCommandFrecency;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getStoreApplicationCommandFrecency$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/StoreApplicationCommandFrecency;
 
     move-result-object v1
@@ -486,7 +481,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreApplicationCommands$getApplicationCommandsViaRest$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->builtInCommandsProvider:Lcom/discord/stores/BuiltInCommandsProvider;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getBuiltInCommandsProvider$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/BuiltInCommandsProvider;
 
     move-result-object v1
@@ -504,7 +498,6 @@
 
     iget-object v10, v10, Lcom/discord/stores/StoreApplicationCommands$getApplicationCommandsViaRest$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->frecencyCommands:Ljava/util/Map;
     invoke-static {v10}, Lcom/discord/stores/StoreApplicationCommands;->access$getFrecencyCommands$p(Lcom/discord/stores/StoreApplicationCommands;)Ljava/util/Map;
 
     move-result-object v10
@@ -616,7 +609,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreApplicationCommands$getApplicationCommandsViaRest$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->handleDiscoverCommandsUpdate(Ljava/util/List;)V
     invoke-static {v1, v5}, Lcom/discord/stores/StoreApplicationCommands;->access$handleDiscoverCommandsUpdate(Lcom/discord/stores/StoreApplicationCommands;Ljava/util/List;)V
 
     .line 46
@@ -672,7 +664,6 @@
 
     iget-object v1, v1, Lcom/discord/stores/StoreApplicationCommands$getApplicationCommandsViaRest$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->builtInCommandsProvider:Lcom/discord/stores/BuiltInCommandsProvider;
     invoke-static {v1}, Lcom/discord/stores/StoreApplicationCommands;->access$getBuiltInCommandsProvider$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/BuiltInCommandsProvider;
 
     move-result-object v1
@@ -690,7 +681,6 @@
 
     iget-object v2, v2, Lcom/discord/stores/StoreApplicationCommands$getApplicationCommandsViaRest$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # invokes: Lcom/discord/stores/StoreApplicationCommands;->handleQueryCommandsUpdate(Ljava/util/List;)V
     invoke-static {v2, v1}, Lcom/discord/stores/StoreApplicationCommands;->access$handleQueryCommandsUpdate(Lcom/discord/stores/StoreApplicationCommands;Ljava/util/List;)V
 
     :cond_1ee

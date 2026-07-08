@@ -72,7 +72,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog$initPaymentSourceInfo$4;->$paymentSource:Lcom/discord/models/domain/ModelPaymentSource;
 
-    # invokes: Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;->updatePaymentSource(Lcom/discord/models/domain/ModelPaymentSource;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;->access$updatePaymentSource(Lcom/discord/widgets/settings/billing/WidgetPaymentSourceEditDialog;Lcom/discord/models/domain/ModelPaymentSource;)V
 
     return-void

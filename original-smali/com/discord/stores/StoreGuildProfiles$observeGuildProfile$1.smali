@@ -91,7 +91,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreGuildProfiles$observeGuildProfile$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreGuildProfiles;->fetchIfNonexisting(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreGuildProfiles;->access$fetchIfNonexisting(Lcom/discord/stores/StoreGuildProfiles;J)V
 
     return-void

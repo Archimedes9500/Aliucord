@@ -85,14 +85,12 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings$launchColorPicker$1;->this$0:Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;
 
-    # invokes: Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->getViewModel()Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;
     invoke-static {v0}, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->access$getViewModel$p(Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;)Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings$launchColorPicker$1;->this$0:Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;
 
-    # invokes: Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->argbColorToRGB(I)I
     invoke-static {v1, p1}, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->access$argbColorToRGB(Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;I)I
 
     move-result p1
@@ -112,14 +110,12 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings$launchColorPicker$1;->this$0:Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;
 
-    # invokes: Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->getViewModel()Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->access$getViewModel$p(Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;)Lcom/discord/widgets/guilds/WidgetGuildFolderSettingsViewModel;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings$launchColorPicker$1;->this$0:Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;
 
-    # invokes: Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->argbColorToRGB(I)I
     invoke-static {v0, p2}, Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;->access$argbColorToRGB(Lcom/discord/widgets/guilds/WidgetGuildFolderSettings;I)I
 
     move-result p2

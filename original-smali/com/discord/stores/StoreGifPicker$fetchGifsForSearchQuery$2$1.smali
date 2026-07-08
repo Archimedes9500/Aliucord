@@ -93,7 +93,6 @@
 
     move-result-object v2
 
-    # invokes: Lcom/discord/stores/StoreGifPicker;->handleGifSearchResults(Ljava/lang/String;Ljava/util/List;)V
     invoke-static {v1, v0, v2}, Lcom/discord/stores/StoreGifPicker;->access$handleGifSearchResults(Lcom/discord/stores/StoreGifPicker;Ljava/lang/String;Ljava/util/List;)V
 
     return-void

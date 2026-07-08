@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel$saveStatus$2;->this$0:Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel;->emitSetStatusFailureEvent()V
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel;->access$emitSetStatusFailureEvent(Lcom/discord/widgets/user/WidgetUserSetCustomStatusViewModel;)V
 
     return-void

@@ -127,7 +127,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/user/search/WidgetGlobalSearch$configureUI$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/user/search/WidgetGlobalSearch;
 
-    # getter for: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->filterString:Ljava/lang/String;
     invoke-static {p1}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$getFilterString$p(Lcom/discord/widgets/user/search/WidgetGlobalSearch;)Ljava/lang/String;
 
     move-result-object p1
@@ -149,7 +148,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/user/search/WidgetGlobalSearch$configureUI$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/user/search/WidgetGlobalSearch;
 
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->getBinding()Lcom/discord/databinding/WidgetGlobalSearchBinding;
     invoke-static {p1}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$getBinding$p(Lcom/discord/widgets/user/search/WidgetGlobalSearch;)Lcom/discord/databinding/WidgetGlobalSearchBinding;
 
     move-result-object p1

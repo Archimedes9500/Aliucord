@@ -114,7 +114,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lcom/discord/utilities/view/text/TextWatcherKt;->bindedTextWatchers:Ljava/util/HashMap;
     invoke-static {}, Lcom/discord/utilities/view/text/TextWatcherKt;->access$getBindedTextWatchers$p()Ljava/util/HashMap;
 
     move-result-object v0
@@ -186,7 +185,6 @@
 
     .line 5
     :cond_45
-    # getter for: Lcom/discord/utilities/view/text/TextWatcherKt;->bindedTextWatchers:Ljava/util/HashMap;
     invoke-static {}, Lcom/discord/utilities/view/text/TextWatcherKt;->access$getBindedTextWatchers$p()Ljava/util/HashMap;
 
     move-result-object v0

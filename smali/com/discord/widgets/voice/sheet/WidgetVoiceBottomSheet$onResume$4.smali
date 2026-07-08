@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->handleEvent(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;->access$handleEvent(Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheet;Lcom/discord/widgets/voice/sheet/WidgetVoiceBottomSheetViewModel$Event;)V
 
     return-void

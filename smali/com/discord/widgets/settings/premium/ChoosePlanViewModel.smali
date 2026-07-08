@@ -268,7 +268,6 @@
     .line 1
     sget-object p3, Lcom/discord/widgets/settings/premium/ChoosePlanViewModel;->Companion:Lcom/discord/widgets/settings/premium/ChoosePlanViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/settings/premium/ChoosePlanViewModel$Companion;->observeStores()Lrx/Observable;
     invoke-static {p3}, Lcom/discord/widgets/settings/premium/ChoosePlanViewModel$Companion;->access$observeStores(Lcom/discord/widgets/settings/premium/ChoosePlanViewModel$Companion;)Lrx/Observable;
 
     move-result-object p3

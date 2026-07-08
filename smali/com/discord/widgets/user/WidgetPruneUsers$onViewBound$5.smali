@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetPruneUsers$onViewBound$5;->this$0:Lcom/discord/widgets/user/WidgetPruneUsers;
 
-    # invokes: Lcom/discord/widgets/user/WidgetPruneUsers;->getViewModel()Lcom/discord/widgets/user/WidgetPruneUsersViewModel;
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetPruneUsers;->access$getViewModel$p(Lcom/discord/widgets/user/WidgetPruneUsers;)Lcom/discord/widgets/user/WidgetPruneUsersViewModel;
 
     move-result-object p1

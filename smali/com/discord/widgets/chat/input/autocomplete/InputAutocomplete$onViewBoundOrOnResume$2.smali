@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->applyEditTextAction(Lcom/discord/widgets/chat/input/autocomplete/InputEditTextAction;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;->access$applyEditTextAction(Lcom/discord/widgets/chat/input/autocomplete/InputAutocomplete;Lcom/discord/widgets/chat/input/autocomplete/InputEditTextAction;)V
 
     return-void

@@ -101,7 +101,6 @@
 
     invoke-static {p2, v0}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettings;->showLogoutDialog(Landroid/content/Context;)V
     invoke-static {p1, p2}, Lcom/discord/widgets/settings/WidgetSettings;->access$showLogoutDialog(Lcom/discord/widgets/settings/WidgetSettings;Landroid/content/Context;)V
 
     goto :goto_20

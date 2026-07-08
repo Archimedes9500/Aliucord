@@ -74,7 +74,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/e/a/i0/l/e$a;->this$0:Ld0/e0/p/d/m0/e/a/i0/l/e;
 
-    # getter for: Ld0/e0/p/d/m0/e/a/i0/l/e;->c:Ld0/e0/p/d/m0/e/a/k0/a;
     invoke-static {v0}, Ld0/e0/p/d/m0/e/a/i0/l/e;->access$getJavaAnnotation$p(Ld0/e0/p/d/m0/e/a/i0/l/e;)Ld0/e0/p/d/m0/e/a/k0/a;
 
     move-result-object v0
@@ -121,7 +120,6 @@
 
     .line 7
     :cond_29
-    # invokes: Ld0/e0/p/d/m0/e/a/i0/l/e;->a(Ld0/e0/p/d/m0/e/a/k0/b;)Ld0/e0/p/d/m0/k/v/g;
     invoke-static {v1, v3}, Ld0/e0/p/d/m0/e/a/i0/l/e;->access$resolveAnnotationArgument(Ld0/e0/p/d/m0/e/a/i0/l/e;Ld0/e0/p/d/m0/e/a/k0/b;)Ld0/e0/p/d/m0/k/v/g;
 
     move-result-object v3

@@ -723,7 +723,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/utilities/analytics/AnalyticsUtilsKt;->fill(Lcom/discord/analytics/generated/traits/TrackGuild;)Lcom/discord/analytics/generated/traits/TrackGuild;
     invoke-static {v1}, Lcom/discord/utilities/analytics/AnalyticsUtilsKt;->access$fill(Lcom/discord/analytics/generated/traits/TrackGuild;)Lcom/discord/analytics/generated/traits/TrackGuild;
 
     move-result-object v1
@@ -938,7 +937,6 @@
     .line 2
     sget-object p2, Lcom/discord/utilities/analytics/AnalyticsUtils;->INSTANCE:Lcom/discord/utilities/analytics/AnalyticsUtils;
 
-    # getter for: Lcom/discord/utilities/analytics/AnalyticsUtils;->fireBaseInstance:Lcom/google/firebase/analytics/FirebaseAnalytics;
     invoke-static {p2}, Lcom/discord/utilities/analytics/AnalyticsUtils;->access$getFireBaseInstance$p(Lcom/discord/utilities/analytics/AnalyticsUtils;)Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     move-result-object p2

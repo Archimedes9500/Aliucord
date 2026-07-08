@@ -73,7 +73,6 @@
     .locals 1
 
     .line 1
-    # getter for: Ld0/e0/p/d/m0/f/z/i;->b:Ld0/e0/p/d/m0/f/z/i;
     invoke-static {}, Ld0/e0/p/d/m0/f/z/i;->access$getEMPTY$cp()Ld0/e0/p/d/m0/f/z/i;
 
     move-result-object v0

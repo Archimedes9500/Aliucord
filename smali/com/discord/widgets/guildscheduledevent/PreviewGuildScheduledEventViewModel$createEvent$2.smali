@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guildscheduledevent/PreviewGuildScheduledEventViewModel$createEvent$2;->this$0:Lcom/discord/widgets/guildscheduledevent/PreviewGuildScheduledEventViewModel;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/PreviewGuildScheduledEventViewModel;->setRequestFinished()V
     invoke-static {v0}, Lcom/discord/widgets/guildscheduledevent/PreviewGuildScheduledEventViewModel;->access$setRequestFinished(Lcom/discord/widgets/guildscheduledevent/PreviewGuildScheduledEventViewModel;)V
 
     .line 3

@@ -130,7 +130,6 @@
     .line 4
     sget-object v6, Lcom/discord/utilities/textprocessing/Rules;->INSTANCE:Lcom/discord/utilities/textprocessing/Rules;
 
-    # getter for: Lcom/discord/utilities/textprocessing/Rules;->PATHOLOGICAL_MASKED_LINK_ATTACK_SUSPICIOUS_CHARS:Ljava/util/Set;
     invoke-static {v6}, Lcom/discord/utilities/textprocessing/Rules;->access$getPATHOLOGICAL_MASKED_LINK_ATTACK_SUSPICIOUS_CHARS$p(Lcom/discord/utilities/textprocessing/Rules;)Ljava/util/Set;
 
     move-result-object v6

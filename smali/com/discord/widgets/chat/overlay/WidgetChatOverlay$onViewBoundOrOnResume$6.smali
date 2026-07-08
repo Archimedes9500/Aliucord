@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;->configureStickerSuggestions(Lcom/discord/widgets/chat/overlay/WidgetChatOverlay$StickerAutocompleteState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;->access$configureStickerSuggestions(Lcom/discord/widgets/chat/overlay/WidgetChatOverlay;Lcom/discord/widgets/chat/overlay/WidgetChatOverlay$StickerAutocompleteState;)V
 
     return-void

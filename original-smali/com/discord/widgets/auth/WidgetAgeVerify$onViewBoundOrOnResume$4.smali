@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/auth/WidgetAgeVerify$onViewBoundOrOnResume$4;->this$0:Lcom/discord/widgets/auth/WidgetAgeVerify;
 
-    # invokes: Lcom/discord/widgets/auth/WidgetAgeVerify;->getViewModel()Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;
     invoke-static {p1}, Lcom/discord/widgets/auth/WidgetAgeVerify;->access$getViewModel$p(Lcom/discord/widgets/auth/WidgetAgeVerify;)Lcom/discord/widgets/auth/WidgetAgeVerifyViewModel;
 
     move-result-object p1

@@ -248,7 +248,6 @@
     move-result-object p4
 
     .line 5
-    # invokes: Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel$Companion;->observeStoreState(JLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreLurking;)Lrx/Observable;
     invoke-static {p3, p1, p2, p4, v4}, Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/guilds/leave/LeaveGuildDialogViewModel$Companion;JLcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreLurking;)Lrx/Observable;
 
     move-result-object p5

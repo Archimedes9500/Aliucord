@@ -91,7 +91,6 @@
 
     iget-wide v2, v0, Lcom/discord/stores/StoreChannelFollowerStats$fetchIfNonexistingOrStale$1;->$channelId:J
 
-    # invokes: Lcom/discord/stores/StoreChannelFollowerStats;->handleChannelFollowerStatsFetchFailed(J)V
     invoke-static {v1, v2, v3}, Lcom/discord/stores/StoreChannelFollowerStats;->access$handleChannelFollowerStatsFetchFailed(Lcom/discord/stores/StoreChannelFollowerStats;J)V
 
     return-void

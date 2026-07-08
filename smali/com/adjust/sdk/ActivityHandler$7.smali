@@ -53,7 +53,6 @@
 
     iget-wide v2, p0, Lcom/adjust/sdk/ActivityHandler$7;->val$clickTime:J
 
-    # invokes: Lcom/adjust/sdk/ActivityHandler;->readOpenUrlI(Landroid/net/Uri;J)V
     invoke-static {v0, v1, v2, v3}, Lcom/adjust/sdk/ActivityHandler;->access$1300(Lcom/adjust/sdk/ActivityHandler;Landroid/net/Uri;J)V
 
     return-void

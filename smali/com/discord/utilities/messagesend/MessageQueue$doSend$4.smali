@@ -106,7 +106,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/messagesend/MessageQueue$doSend$4;->$message:Lcom/discord/models/message/Message;
 
-    # invokes: Lcom/discord/utilities/messagesend/MessageQueue;->handleError(Lcom/discord/utilities/error/Error;Lcom/discord/utilities/messagesend/MessageQueue$DrainListener;Lcom/discord/models/message/Message;)V
     invoke-static {v0, p1, v1, v2}, Lcom/discord/utilities/messagesend/MessageQueue;->access$handleError(Lcom/discord/utilities/messagesend/MessageQueue;Lcom/discord/utilities/error/Error;Lcom/discord/utilities/messagesend/MessageQueue$DrainListener;Lcom/discord/models/message/Message;)V
 
     return-void

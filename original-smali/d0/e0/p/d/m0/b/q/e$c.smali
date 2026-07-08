@@ -58,14 +58,12 @@
     .line 3
     iget-object v0, p0, Ld0/e0/p/d/m0/b/q/e$c;->this$0:Ld0/e0/p/d/m0/b/q/e;
 
-    # getter for: Ld0/e0/p/d/m0/b/q/e;->g:Lkotlin/jvm/functions/Function1;
     invoke-static {v0}, Ld0/e0/p/d/m0/b/q/e;->access$getComputeContainingDeclaration$p(Ld0/e0/p/d/m0/b/q/e;)Lkotlin/jvm/functions/Function1;
 
     move-result-object v0
 
     iget-object v1, p0, Ld0/e0/p/d/m0/b/q/e$c;->this$0:Ld0/e0/p/d/m0/b/q/e;
 
-    # getter for: Ld0/e0/p/d/m0/b/q/e;->f:Ld0/e0/p/d/m0/c/c0;
     invoke-static {v1}, Ld0/e0/p/d/m0/b/q/e;->access$getModuleDescriptor$p(Ld0/e0/p/d/m0/b/q/e;)Ld0/e0/p/d/m0/c/c0;
 
     move-result-object v1
@@ -79,7 +77,6 @@
     check-cast v1, Ld0/e0/p/d/m0/c/m;
 
     .line 4
-    # getter for: Ld0/e0/p/d/m0/b/q/e;->d:Ld0/e0/p/d/m0/g/e;
     invoke-static {}, Ld0/e0/p/d/m0/b/q/e;->access$getCLONEABLE_NAME$cp()Ld0/e0/p/d/m0/g/e;
 
     move-result-object v2
@@ -90,7 +87,6 @@
 
     iget-object v0, p0, Ld0/e0/p/d/m0/b/q/e$c;->this$0:Ld0/e0/p/d/m0/b/q/e;
 
-    # getter for: Ld0/e0/p/d/m0/b/q/e;->f:Ld0/e0/p/d/m0/c/c0;
     invoke-static {v0}, Ld0/e0/p/d/m0/b/q/e;->access$getModuleDescriptor$p(Ld0/e0/p/d/m0/b/q/e;)Ld0/e0/p/d/m0/c/c0;
 
     move-result-object v0

@@ -134,7 +134,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/restapi/PayloadJSON$ConverterFactory$RequestBodyConverter;->gsonRequestBodyConverter:Li0/h;
 
-    # getter for: Lcom/discord/restapi/PayloadJSON;->data:Ljava/lang/Object;
     invoke-static {p1}, Lcom/discord/restapi/PayloadJSON;->access$getData$p(Lcom/discord/restapi/PayloadJSON;)Ljava/lang/Object;
 
     move-result-object p1

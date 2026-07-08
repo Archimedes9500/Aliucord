@@ -89,7 +89,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/ArchivedThreadsStore$fetchListing$1;->this$0:Lcom/discord/stores/ArchivedThreadsStore;
 
-    # getter for: Lcom/discord/stores/ArchivedThreadsStore;->listings:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/ArchivedThreadsStore;->access$getListings$p(Lcom/discord/stores/ArchivedThreadsStore;)Ljava/util/Map;
 
     move-result-object v0

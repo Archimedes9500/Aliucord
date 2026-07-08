@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/hubs/events/WidgetHubEventsViewModel;
 
     .line 2
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/hubs/events/WidgetHubEventsViewModel;->access$updateViewState(Lcom/discord/widgets/hubs/events/WidgetHubEventsViewModel;Lcom/discord/widgets/hubs/events/WidgetHubEventsState;)V
 
     return-void

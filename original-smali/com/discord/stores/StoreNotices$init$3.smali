@@ -102,7 +102,6 @@
 
     iget-object v2, p0, Lcom/discord/stores/StoreNotices$init$3;->this$0:Lcom/discord/stores/StoreNotices;
 
-    # getter for: Lcom/discord/stores/StoreNotices;->noticeQueue:Ljava/util/PriorityQueue;
     invoke-static {v2}, Lcom/discord/stores/StoreNotices;->access$getNoticeQueue$p(Lcom/discord/stores/StoreNotices;)Ljava/util/PriorityQueue;
 
     move-result-object v2

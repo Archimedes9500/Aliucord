@@ -104,7 +104,6 @@
 
     iget-object v6, p0, Lcom/discord/utilities/channel/ChannelSelector$selectChannel$1;->$analyticsLocation:Lcom/discord/stores/SelectedChannelAnalyticsLocation;
 
-    # invokes: Lcom/discord/utilities/channel/ChannelSelector;->gotoChannel(JJLjava/lang/Long;Lcom/discord/stores/SelectedChannelAnalyticsLocation;)V
     invoke-static/range {v0 .. v6}, Lcom/discord/utilities/channel/ChannelSelector;->access$gotoChannel(Lcom/discord/utilities/channel/ChannelSelector;JJLjava/lang/Long;Lcom/discord/stores/SelectedChannelAnalyticsLocation;)V
 
     return-void

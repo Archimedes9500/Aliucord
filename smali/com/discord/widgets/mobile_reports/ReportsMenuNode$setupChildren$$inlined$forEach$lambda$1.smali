@@ -73,7 +73,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/mobile_reports/ReportsMenuNode$setupChildren$$inlined$forEach$lambda$1;->$child$inlined:Lcom/discord/api/report/ReportNodeChild;
 
-    # invokes: Lcom/discord/widgets/mobile_reports/ReportsMenuNode;->childClickListener(Lcom/discord/api/report/ReportNodeChild;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/mobile_reports/ReportsMenuNode;->access$childClickListener(Lcom/discord/widgets/mobile_reports/ReportsMenuNode;Lcom/discord/api/report/ReportNodeChild;)V
 
     return-void

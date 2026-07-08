@@ -102,14 +102,12 @@
     .line 2
     iget-object v1, v0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$saveGuildMemberChanges$2;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->storeGuilds:Lcom/discord/stores/StoreGuilds;
     invoke-static {v1}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getStoreGuilds$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v1
 
     iget-object v2, v0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$saveGuildMemberChanges$2;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->guildId:Ljava/lang/Long;
     invoke-static {v2}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getGuildId$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Ljava/lang/Long;
 
     move-result-object v2
@@ -158,7 +156,6 @@
 
     iget-object v3, v0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$saveGuildMemberChanges$2;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->guildId:Ljava/lang/Long;
     invoke-static {v3}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getGuildId$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Ljava/lang/Long;
 
     move-result-object v3
@@ -176,7 +173,6 @@
 
     iget-object v1, v0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$saveGuildMemberChanges$2;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->guildId:Ljava/lang/Long;
     invoke-static {v1}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getGuildId$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Ljava/lang/Long;
 
     move-result-object v1
@@ -187,7 +183,6 @@
 
     iget-object v1, v0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$saveGuildMemberChanges$2;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->storeGuilds:Lcom/discord/stores/StoreGuilds;
     invoke-static {v1}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getStoreGuilds$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Lcom/discord/stores/StoreGuilds;
 
     move-result-object v7
@@ -231,13 +226,11 @@
     move-result-object v2
 
     .line 6
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v1, v2}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$updateViewState(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$ViewState;)V
 
     .line 7
     iget-object v1, v0, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel$saveGuildMemberChanges$2;->this$0:Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->eventSubject:Lrx/subjects/PublishSubject;
     invoke-static {v1}, Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;->access$getEventSubject$p(Lcom/discord/widgets/settings/profile/SettingsUserProfileViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object v1

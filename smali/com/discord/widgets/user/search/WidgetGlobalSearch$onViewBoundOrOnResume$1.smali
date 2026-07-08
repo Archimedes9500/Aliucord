@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/user/search/WidgetGlobalSearch;
 
     .line 2
-    # invokes: Lcom/discord/widgets/user/search/WidgetGlobalSearch;->configureUI(Lcom/discord/widgets/user/search/WidgetGlobalSearchModel;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/user/search/WidgetGlobalSearch;->access$configureUI(Lcom/discord/widgets/user/search/WidgetGlobalSearch;Lcom/discord/widgets/user/search/WidgetGlobalSearchModel;)V
 
     return-void

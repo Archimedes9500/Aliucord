@@ -93,7 +93,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreUserSurvey$fetchUserSurvey$2$1;->$res:Lcom/discord/api/user/UserSurveyFetchResponse;
 
-    # invokes: Lcom/discord/stores/StoreUserSurvey;->handleUserSurveyFetchSuccess(Lcom/discord/api/user/UserSurveyFetchResponse;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreUserSurvey;->access$handleUserSurveyFetchSuccess(Lcom/discord/stores/StoreUserSurvey;Lcom/discord/api/user/UserSurveyFetchResponse;)V
 
     return-void

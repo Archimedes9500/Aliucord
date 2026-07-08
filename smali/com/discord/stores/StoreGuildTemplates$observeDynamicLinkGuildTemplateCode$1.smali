@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildTemplates$observeDynamicLinkGuildTemplateCode$1;->this$0:Lcom/discord/stores/StoreGuildTemplates;
 
-    # getter for: Lcom/discord/stores/StoreGuildTemplates;->dynamicLinkGuildTemplateCode:Ljava/lang/String;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildTemplates;->access$getDynamicLinkGuildTemplateCode$p(Lcom/discord/stores/StoreGuildTemplates;)Ljava/lang/String;
 
     move-result-object v0

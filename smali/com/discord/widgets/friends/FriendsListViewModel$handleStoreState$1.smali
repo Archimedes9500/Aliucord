@@ -121,7 +121,6 @@
     move-result v5
 
     .line 9
-    # invokes: Lcom/discord/widgets/friends/FriendsListViewModel;->getItems(Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;ZLjava/util/Map;)Lcom/discord/widgets/friends/FriendsListViewModel$ListSections;
     invoke-static/range {v0 .. v6}, Lcom/discord/widgets/friends/FriendsListViewModel;->access$getItems(Lcom/discord/widgets/friends/FriendsListViewModel;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;ZLjava/util/Map;)Lcom/discord/widgets/friends/FriendsListViewModel$ListSections;
 
     move-result-object v0

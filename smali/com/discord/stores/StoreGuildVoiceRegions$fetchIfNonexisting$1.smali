@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildVoiceRegions$fetchIfNonexisting$1;->this$0:Lcom/discord/stores/StoreGuildVoiceRegions;
 
-    # getter for: Lcom/discord/stores/StoreGuildVoiceRegions;->guildVoiceRegionsState:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildVoiceRegions;->access$getGuildVoiceRegionsState$p(Lcom/discord/stores/StoreGuildVoiceRegions;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -123,7 +122,6 @@
 
     iget-wide v1, p0, Lcom/discord/stores/StoreGuildVoiceRegions$fetchIfNonexisting$1;->$guildId:J
 
-    # invokes: Lcom/discord/stores/StoreGuildVoiceRegions;->handleGuildVoiceRegionsFetchStart(J)V
     invoke-static {v0, v1, v2}, Lcom/discord/stores/StoreGuildVoiceRegions;->access$handleGuildVoiceRegionsFetchStart(Lcom/discord/stores/StoreGuildVoiceRegions;J)V
 
     .line 5

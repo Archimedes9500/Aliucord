@@ -114,7 +114,6 @@
 
     iget-object v2, v2, Lcom/discord/stores/StoreGuildJoinRequest$fetchPendingGuilds$1;->this$0:Lcom/discord/stores/StoreGuildJoinRequest;
 
-    # getter for: Lcom/discord/stores/StoreGuildJoinRequest;->pendingGuilds:Ljava/util/HashMap;
     invoke-static {v2}, Lcom/discord/stores/StoreGuildJoinRequest;->access$getPendingGuilds$p(Lcom/discord/stores/StoreGuildJoinRequest;)Ljava/util/HashMap;
 
     move-result-object v2

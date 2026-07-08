@@ -103,7 +103,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/widgets/botuikit/BotComponentExperiments;->botComponentExperiments:Lcom/discord/widgets/botuikit/BotComponentExperiments;
     invoke-static {}, Lcom/discord/widgets/botuikit/BotComponentExperiments;->access$getBotComponentExperiments$cp()Lcom/discord/widgets/botuikit/BotComponentExperiments;
 
     move-result-object v0

@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/user/WidgetUserSetCustomStatus$onViewBound$1;->this$0:Lcom/discord/widgets/user/WidgetUserSetCustomStatus;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserSetCustomStatus;->openEmojiPicker()V
     invoke-static {p1}, Lcom/discord/widgets/user/WidgetUserSetCustomStatus;->access$openEmojiPicker(Lcom/discord/widgets/user/WidgetUserSetCustomStatus;)V
 
     return-void

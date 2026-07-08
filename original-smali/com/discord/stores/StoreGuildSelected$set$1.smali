@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildSelected$set$1;->this$0:Lcom/discord/stores/StoreGuildSelected;
 
-    # getter for: Lcom/discord/stores/StoreGuildSelected;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildSelected;->access$getStream$p(Lcom/discord/stores/StoreGuildSelected;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

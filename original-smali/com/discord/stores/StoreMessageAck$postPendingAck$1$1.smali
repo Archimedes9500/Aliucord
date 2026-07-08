@@ -99,7 +99,6 @@
 
     iget-object v3, p0, Lcom/discord/stores/StoreMessageAck$postPendingAck$1$1;->$ack:Lcom/discord/stores/StoreMessageAck$Ack;
 
-    # invokes: Lcom/discord/stores/StoreMessageAck;->updateAcks(JLcom/discord/stores/StoreMessageAck$Ack;)V
     invoke-static {v0, v1, v2, v3}, Lcom/discord/stores/StoreMessageAck;->access$updateAcks(Lcom/discord/stores/StoreMessageAck;JLcom/discord/stores/StoreMessageAck$Ack;)V
 
     return-void

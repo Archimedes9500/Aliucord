@@ -110,7 +110,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->SLOWMODE_COOLDOWN_VALUES:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/channels/settings/WidgetTextChannelSettings;->access$getSLOWMODE_COOLDOWN_VALUES$cp()Ljava/util/List;
 
     move-result-object v0

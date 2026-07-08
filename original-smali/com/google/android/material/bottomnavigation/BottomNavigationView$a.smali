@@ -45,7 +45,6 @@
     .line 1
     iget-object p1, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationView$a;->j:Lcom/google/android/material/bottomnavigation/BottomNavigationView;
 
-    # getter for: Lcom/google/android/material/bottomnavigation/BottomNavigationView;->reselectedListener:Lcom/google/android/material/bottomnavigation/BottomNavigationView$OnNavigationItemReselectedListener;
     invoke-static {p1}, Lcom/google/android/material/bottomnavigation/BottomNavigationView;->access$000(Lcom/google/android/material/bottomnavigation/BottomNavigationView;)Lcom/google/android/material/bottomnavigation/BottomNavigationView$OnNavigationItemReselectedListener;
 
     move-result-object p1
@@ -69,7 +68,6 @@
     .line 2
     iget-object p1, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationView$a;->j:Lcom/google/android/material/bottomnavigation/BottomNavigationView;
 
-    # getter for: Lcom/google/android/material/bottomnavigation/BottomNavigationView;->reselectedListener:Lcom/google/android/material/bottomnavigation/BottomNavigationView$OnNavigationItemReselectedListener;
     invoke-static {p1}, Lcom/google/android/material/bottomnavigation/BottomNavigationView;->access$000(Lcom/google/android/material/bottomnavigation/BottomNavigationView;)Lcom/google/android/material/bottomnavigation/BottomNavigationView$OnNavigationItemReselectedListener;
 
     move-result-object p1
@@ -82,7 +80,6 @@
     :cond_1f
     iget-object p1, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationView$a;->j:Lcom/google/android/material/bottomnavigation/BottomNavigationView;
 
-    # getter for: Lcom/google/android/material/bottomnavigation/BottomNavigationView;->selectedListener:Lcom/google/android/material/bottomnavigation/BottomNavigationView$OnNavigationItemSelectedListener;
     invoke-static {p1}, Lcom/google/android/material/bottomnavigation/BottomNavigationView;->access$100(Lcom/google/android/material/bottomnavigation/BottomNavigationView;)Lcom/google/android/material/bottomnavigation/BottomNavigationView$OnNavigationItemSelectedListener;
 
     move-result-object p1
@@ -91,7 +88,6 @@
 
     iget-object p1, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationView$a;->j:Lcom/google/android/material/bottomnavigation/BottomNavigationView;
 
-    # getter for: Lcom/google/android/material/bottomnavigation/BottomNavigationView;->selectedListener:Lcom/google/android/material/bottomnavigation/BottomNavigationView$OnNavigationItemSelectedListener;
     invoke-static {p1}, Lcom/google/android/material/bottomnavigation/BottomNavigationView;->access$100(Lcom/google/android/material/bottomnavigation/BottomNavigationView;)Lcom/google/android/material/bottomnavigation/BottomNavigationView$OnNavigationItemSelectedListener;
 
     move-result-object p1

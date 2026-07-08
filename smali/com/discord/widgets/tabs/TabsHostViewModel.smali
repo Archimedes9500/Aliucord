@@ -482,7 +482,6 @@
     move-object v2, p2
 
     .line 9
-    # invokes: Lcom/discord/widgets/tabs/TabsHostViewModel$Companion;->observeStoreState(Lcom/discord/stores/StoreNavigation;Lcom/discord/stores/StoreTabsNavigation;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreMentions;Lcom/discord/stores/StoreUserRelationships;)Lrx/Observable;
     invoke-static/range {v0 .. v6}, Lcom/discord/widgets/tabs/TabsHostViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/tabs/TabsHostViewModel$Companion;Lcom/discord/stores/StoreNavigation;Lcom/discord/stores/StoreTabsNavigation;Lcom/discord/stores/StoreUser;Lcom/discord/stores/StoreGuilds;Lcom/discord/stores/StoreMentions;Lcom/discord/stores/StoreUserRelationships;)Lrx/Observable;
 
     move-result-object p4

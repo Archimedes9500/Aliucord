@@ -113,7 +113,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/utilities/view/grid/FrameGridLayout$bindViews$1;->this$0:Lcom/discord/utilities/view/grid/FrameGridLayout;
 
-    # getter for: Lcom/discord/utilities/view/grid/FrameGridLayout;->onBindView:Lkotlin/jvm/functions/Function2;
     invoke-static {v0}, Lcom/discord/utilities/view/grid/FrameGridLayout;->access$getOnBindView$p(Lcom/discord/utilities/view/grid/FrameGridLayout;)Lkotlin/jvm/functions/Function2;
 
     move-result-object v0

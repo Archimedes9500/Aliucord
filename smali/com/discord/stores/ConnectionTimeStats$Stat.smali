@@ -456,7 +456,6 @@
 
     iget-object v0, p0, Lcom/discord/stores/ConnectionTimeStats$Stat;->type:Lcom/discord/stores/ConnectionTimeStats$StatType;
 
-    # invokes: Lcom/discord/stores/ConnectionTimeStats;->sendAnalyticsEvent(Lcom/discord/stores/ConnectionTimeStats$StatType;)V
     invoke-static {p1, v0}, Lcom/discord/stores/ConnectionTimeStats;->access$sendAnalyticsEvent(Lcom/discord/stores/ConnectionTimeStats;Lcom/discord/stores/ConnectionTimeStats$StatType;)V
 
     return-void

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;->handleEvent(Lcom/discord/widgets/settings/MuteSettingsSheetViewModel$Event;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;->access$handleEvent(Lcom/discord/widgets/settings/WidgetMuteSettingsSheet;Lcom/discord/widgets/settings/MuteSettingsSheetViewModel$Event;)V
 
     return-void

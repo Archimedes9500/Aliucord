@@ -96,7 +96,6 @@
 
     iget-object v0, p0, Lcom/discord/utilities/voice/ScreenShareManager$startStream$3;->$intent:Landroid/content/Intent;
 
-    # invokes: Lcom/discord/utilities/voice/ScreenShareManager;->handleStartStream(Landroid/content/Intent;)V
     invoke-static {p1, v0}, Lcom/discord/utilities/voice/ScreenShareManager;->access$handleStartStream(Lcom/discord/utilities/voice/ScreenShareManager;Landroid/content/Intent;)V
 
     return-void

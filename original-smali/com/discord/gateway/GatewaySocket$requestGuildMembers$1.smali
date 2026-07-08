@@ -129,7 +129,6 @@
 
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$requestGuildMembers$1;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->logger:Lcom/discord/utilities/logging/Logger;
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getLogger$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/utilities/logging/Logger;
 
     move-result-object v10
@@ -165,7 +164,6 @@
 
     invoke-direct {v1, v2, v8}, Lcom/discord/gateway/io/Outgoing;-><init>(Lcom/discord/gateway/opcodes/Opcode;Ljava/lang/Object;)V
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->gsonOmitNulls:Lcom/google/gson/Gson;
     invoke-static {}, Lcom/discord/gateway/GatewaySocket;->access$getGsonOmitNulls$cp()Lcom/google/gson/Gson;
 
     move-result-object v3

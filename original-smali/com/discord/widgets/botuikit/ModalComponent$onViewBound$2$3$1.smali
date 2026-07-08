@@ -78,7 +78,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/botuikit/ModalComponent$onViewBound$2;->this$0:Lcom/discord/widgets/botuikit/ModalComponent;
 
-    # invokes: Lcom/discord/widgets/botuikit/ModalComponent;->getBinding()Lcom/discord/databinding/ViewInteractionModalBinding;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/ModalComponent;->access$getBinding$p(Lcom/discord/widgets/botuikit/ModalComponent;)Lcom/discord/databinding/ViewInteractionModalBinding;
 
     move-result-object v0
@@ -100,7 +99,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/botuikit/ModalComponent$onViewBound$2;->this$0:Lcom/discord/widgets/botuikit/ModalComponent;
 
-    # invokes: Lcom/discord/widgets/botuikit/ModalComponent;->getBinding()Lcom/discord/databinding/ViewInteractionModalBinding;
     invoke-static {v0}, Lcom/discord/widgets/botuikit/ModalComponent;->access$getBinding$p(Lcom/discord/widgets/botuikit/ModalComponent;)Lcom/discord/databinding/ViewInteractionModalBinding;
 
     move-result-object v0

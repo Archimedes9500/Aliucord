@@ -72,7 +72,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$1;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->gatewayConnection:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {p1}, Lcom/discord/stores/ConnectionTimeStats;->access$getGatewayConnection$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object p1
@@ -88,7 +87,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$1;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->gatewayHello:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {p1}, Lcom/discord/stores/ConnectionTimeStats;->access$getGatewayHello$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object p1
@@ -108,7 +106,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$1;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->gatewayConnection:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {p1}, Lcom/discord/stores/ConnectionTimeStats;->access$getGatewayConnection$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object p1
@@ -134,7 +131,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$1;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->gatewayConnection:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {p1}, Lcom/discord/stores/ConnectionTimeStats;->access$getGatewayConnection$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object p1
@@ -144,7 +140,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$1;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->gatewayHello:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {p1}, Lcom/discord/stores/ConnectionTimeStats;->access$getGatewayHello$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object p1
@@ -164,7 +159,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/stores/ConnectionTimeStats$addListener$1;->this$0:Lcom/discord/stores/ConnectionTimeStats;
 
-    # getter for: Lcom/discord/stores/ConnectionTimeStats;->gatewayHello:Lcom/discord/stores/ConnectionTimeStats$Stat;
     invoke-static {p1}, Lcom/discord/stores/ConnectionTimeStats;->access$getGatewayHello$p(Lcom/discord/stores/ConnectionTimeStats;)Lcom/discord/stores/ConnectionTimeStats$Stat;
 
     move-result-object p1

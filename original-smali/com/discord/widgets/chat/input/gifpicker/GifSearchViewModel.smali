@@ -321,7 +321,6 @@
     .line 5
     sget-object v4, Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel;->Companion:Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$Companion;
 
-    # invokes: Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$Companion;->observeStoreState(Lrx/subjects/BehaviorSubject;Lcom/discord/stores/StoreAnalytics;Lcom/discord/stores/StoreGifPicker;)Lrx/Observable;
     invoke-static {v4, v0, v2, v1}, Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$Companion;->access$observeStoreState(Lcom/discord/widgets/chat/input/gifpicker/GifSearchViewModel$Companion;Lrx/subjects/BehaviorSubject;Lcom/discord/stores/StoreAnalytics;Lcom/discord/stores/StoreGifPicker;)Lrx/Observable;
 
     move-result-object v4

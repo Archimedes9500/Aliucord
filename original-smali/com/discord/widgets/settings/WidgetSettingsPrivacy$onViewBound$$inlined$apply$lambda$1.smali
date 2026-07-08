@@ -83,7 +83,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/settings/WidgetSettingsPrivacy$onViewBound$$inlined$apply$lambda$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsPrivacy;
 
-    # getter for: Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->userSettings:Lcom/discord/stores/StoreUserSettings;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsPrivacy;->access$getUserSettings$p(Lcom/discord/widgets/settings/WidgetSettingsPrivacy;)Lcom/discord/stores/StoreUserSettings;
 
     move-result-object v0

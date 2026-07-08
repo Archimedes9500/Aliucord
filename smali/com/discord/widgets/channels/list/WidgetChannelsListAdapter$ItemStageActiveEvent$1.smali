@@ -170,7 +170,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter$ItemStageActiveEvent$1;->$adapter:Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;
 
-    # getter for: Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;->fragmentManager:Landroidx/fragment/app/FragmentManager;
     invoke-static {v1}, Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;->access$getFragmentManager$p(Lcom/discord/widgets/channels/list/WidgetChannelsListAdapter;)Landroidx/fragment/app/FragmentManager;
 
     move-result-object v1

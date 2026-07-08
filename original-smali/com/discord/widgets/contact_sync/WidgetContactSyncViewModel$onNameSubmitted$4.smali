@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$onNameSubmitted$4;->this$0:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;
 
-    # invokes: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->handleContactsEnabled()V
     invoke-static {p1}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;->access$handleContactsEnabled(Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel;)V
 
     return-void

@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$joinConnectionIntegrationGuild$2;->this$0:Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->joinStatusMap:Ljava/util/Map;
     invoke-static {p1}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->access$getJoinStatusMap$p(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;)Ljava/util/Map;
 
     move-result-object p1
@@ -108,14 +107,12 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$joinConnectionIntegrationGuild$2;->this$0:Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->joinStateSubject:Lrx/subjects/BehaviorSubject;
     invoke-static {p1}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->access$getJoinStateSubject$p(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;)Lrx/subjects/BehaviorSubject;
 
     move-result-object p1
 
     iget-object v0, p0, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel$joinConnectionIntegrationGuild$2;->this$0:Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->joinStatusMap:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;->access$getJoinStatusMap$p(Lcom/discord/widgets/settings/connections/WidgetSettingsUserConnectionsViewModel;)Ljava/util/Map;
 
     move-result-object v0

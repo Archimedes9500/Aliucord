@@ -189,7 +189,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/stores/StoreReadStates;->wasMessageSentAfterTimestamp(Lcom/discord/api/utcdatetime/UtcDateTime;Ljava/lang/Long;)Z
     invoke-static {v3, v4, v1}, Lcom/discord/stores/StoreReadStates;->access$wasMessageSentAfterTimestamp(Lcom/discord/stores/StoreReadStates;Lcom/discord/api/utcdatetime/UtcDateTime;Ljava/lang/Long;)Z
 
     move-result v1

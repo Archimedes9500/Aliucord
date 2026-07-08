@@ -104,7 +104,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/stores/StoreStickers$fetchStickerPack$1;->this$0:Lcom/discord/stores/StoreStickers;
 
-    # getter for: Lcom/discord/stores/StoreStickers;->api:Lcom/discord/utilities/rest/RestAPI;
     invoke-static {v0}, Lcom/discord/stores/StoreStickers;->access$getApi$p(Lcom/discord/stores/StoreStickers;)Lcom/discord/utilities/rest/RestAPI;
 
     move-result-object v0

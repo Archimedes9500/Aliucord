@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheet;
 
     .line 2
-    # invokes: Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheet;->handleViewState(Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheet;->access$handleViewState(Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheet;Lcom/discord/widgets/guilds/join/WidgetGuildWelcomeSheetViewModel$ViewState;)V
 
     return-void

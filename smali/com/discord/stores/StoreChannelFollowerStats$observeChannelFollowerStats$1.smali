@@ -78,7 +78,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreChannelFollowerStats$observeChannelFollowerStats$1;->this$0:Lcom/discord/stores/StoreChannelFollowerStats;
 
-    # getter for: Lcom/discord/stores/StoreChannelFollowerStats;->channelFollowerStatsStateSnapshot:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreChannelFollowerStats;->access$getChannelFollowerStatsStateSnapshot$p(Lcom/discord/stores/StoreChannelFollowerStats;)Ljava/util/Map;
 
     move-result-object v0

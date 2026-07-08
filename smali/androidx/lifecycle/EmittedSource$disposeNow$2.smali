@@ -145,7 +145,6 @@
     .line 2
     iget-object p1, p0, Landroidx/lifecycle/EmittedSource$disposeNow$2;->this$0:Landroidx/lifecycle/EmittedSource;
 
-    # invokes: Landroidx/lifecycle/EmittedSource;->removeSource()V
     invoke-static {p1}, Landroidx/lifecycle/EmittedSource;->access$removeSource(Landroidx/lifecycle/EmittedSource;)V
 
     .line 3

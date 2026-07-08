@@ -74,7 +74,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/guilds/WidgetGuildSelector$Adapter;->dialog:Lcom/discord/widgets/guilds/WidgetGuildSelector;
     invoke-static {p1}, Lcom/discord/widgets/guilds/WidgetGuildSelector$Adapter;->access$getDialog$p(Lcom/discord/widgets/guilds/WidgetGuildSelector$Adapter;)Lcom/discord/widgets/guilds/WidgetGuildSelector;
 
     move-result-object p1
@@ -85,7 +84,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/widgets/guilds/WidgetGuildSelector;->onGuildSelected(Lcom/discord/models/guild/Guild;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/guilds/WidgetGuildSelector;->access$onGuildSelected(Lcom/discord/widgets/guilds/WidgetGuildSelector;Lcom/discord/models/guild/Guild;)V
 
     return-void

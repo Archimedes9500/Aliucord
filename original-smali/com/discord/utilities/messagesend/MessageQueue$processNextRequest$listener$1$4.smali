@@ -69,7 +69,6 @@
 
     iget-object v0, v0, Lcom/discord/utilities/messagesend/MessageQueue$processNextRequest$listener$1;->this$0:Lcom/discord/utilities/messagesend/MessageQueue;
 
-    # invokes: Lcom/discord/utilities/messagesend/MessageQueue;->onDrainingCompleted()V
     invoke-static {v0}, Lcom/discord/utilities/messagesend/MessageQueue;->access$onDrainingCompleted(Lcom/discord/utilities/messagesend/MessageQueue;)V
 
     .line 2
@@ -87,7 +86,6 @@
 
     iget-object v2, v2, Lcom/discord/utilities/messagesend/MessageQueue$processNextRequest$listener$1;->this$0:Lcom/discord/utilities/messagesend/MessageQueue;
 
-    # getter for: Lcom/discord/utilities/messagesend/MessageQueue;->queue:Ljava/util/ArrayDeque;
     invoke-static {v2}, Lcom/discord/utilities/messagesend/MessageQueue;->access$getQueue$p(Lcom/discord/utilities/messagesend/MessageQueue;)Ljava/util/ArrayDeque;
 
     move-result-object v2
@@ -107,7 +105,6 @@
 
     iget-object v0, v0, Lcom/discord/utilities/messagesend/MessageQueue$processNextRequest$listener$1;->this$0:Lcom/discord/utilities/messagesend/MessageQueue;
 
-    # getter for: Lcom/discord/utilities/messagesend/MessageQueue;->networkBackoff:Lcom/discord/utilities/networking/Backoff;
     invoke-static {v0}, Lcom/discord/utilities/messagesend/MessageQueue;->access$getNetworkBackoff$p(Lcom/discord/utilities/messagesend/MessageQueue;)Lcom/discord/utilities/networking/Backoff;
 
     move-result-object v0
@@ -119,7 +116,6 @@
 
     iget-object v0, v0, Lcom/discord/utilities/messagesend/MessageQueue$processNextRequest$listener$1;->this$0:Lcom/discord/utilities/messagesend/MessageQueue;
 
-    # invokes: Lcom/discord/utilities/messagesend/MessageQueue;->processNextRequest()V
     invoke-static {v0}, Lcom/discord/utilities/messagesend/MessageQueue;->access$processNextRequest(Lcom/discord/utilities/messagesend/MessageQueue;)V
 
     return-void

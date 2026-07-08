@@ -69,7 +69,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEphemeralMessage$onConfigure$1;->this$0:Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEphemeralMessage;
 
-    # getter for: Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEphemeralMessage;->binding:Lcom/discord/databinding/WidgetChatListAdapterItemEphemeralMessageBinding;
     invoke-static {p1}, Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEphemeralMessage;->access$getBinding$p(Lcom/discord/widgets/chat/list/adapter/WidgetChatListAdapterItemEphemeralMessage;)Lcom/discord/databinding/WidgetChatListAdapterItemEphemeralMessageBinding;
 
     move-result-object p1

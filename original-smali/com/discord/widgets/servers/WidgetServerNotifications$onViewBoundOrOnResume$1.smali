@@ -90,7 +90,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerNotifications$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/servers/WidgetServerNotifications;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerNotifications;->configureUI(Lcom/discord/widgets/servers/WidgetServerNotifications$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/WidgetServerNotifications;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerNotifications;Lcom/discord/widgets/servers/WidgetServerNotifications$Model;)V
 
     return-void

@@ -109,7 +109,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreMediaSettings$init$1;->this$0:Lcom/discord/stores/StoreMediaSettings;
 
-    # getter for: Lcom/discord/stores/StoreMediaSettings;->storeChannels:Lcom/discord/stores/StoreChannels;
     invoke-static {v0}, Lcom/discord/stores/StoreMediaSettings;->access$getStoreChannels$p(Lcom/discord/stores/StoreMediaSettings;)Lcom/discord/stores/StoreChannels;
 
     move-result-object v0

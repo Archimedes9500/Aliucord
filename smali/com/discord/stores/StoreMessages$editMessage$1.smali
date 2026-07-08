@@ -123,7 +123,6 @@
     .line 2
     iget-object p2, p0, Lcom/discord/stores/StoreMessages$editMessage$1;->this$0:Lcom/discord/stores/StoreMessages;
 
-    # getter for: Lcom/discord/stores/StoreMessages;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p2}, Lcom/discord/stores/StoreMessages;->access$getDispatcher$p(Lcom/discord/stores/StoreMessages;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p2

@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreRtcConnection$onVideoMetadata$1;->this$0:Lcom/discord/stores/StoreRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreRtcConnection;->stream:Lcom/discord/stores/StoreStream;
     invoke-static {v0}, Lcom/discord/stores/StoreRtcConnection;->access$getStream$p(Lcom/discord/stores/StoreRtcConnection;)Lcom/discord/stores/StoreStream;
 
     move-result-object v0

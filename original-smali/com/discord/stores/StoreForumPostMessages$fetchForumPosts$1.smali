@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreForumPostMessages$fetchForumPosts$1;->this$0:Lcom/discord/stores/StoreForumPostMessages;
 
-    # getter for: Lcom/discord/stores/StoreForumPostMessages;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreForumPostMessages;->access$getDispatcher$p(Lcom/discord/stores/StoreForumPostMessages;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0

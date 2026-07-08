@@ -113,7 +113,6 @@
 
     iget-object v2, p0, Lcom/discord/utilities/fcm/NotificationRenderer$displayAndUpdateCache$5;->$notificationBuilder:Landroidx/core/app/NotificationCompat$Builder;
 
-    # invokes: Lcom/discord/utilities/fcm/NotificationRenderer;->displayNotification(Landroid/content/Context;ILandroidx/core/app/NotificationCompat$Builder;)V
     invoke-static {v0, p1, v1, v2}, Lcom/discord/utilities/fcm/NotificationRenderer;->access$displayNotification(Lcom/discord/utilities/fcm/NotificationRenderer;Landroid/content/Context;ILandroidx/core/app/NotificationCompat$Builder;)V
 
     .line 3

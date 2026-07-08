@@ -143,7 +143,6 @@
     move-object v6, p5
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/list/ViewEmbedGameInvite$Model$Companion;->create(Lcom/discord/widgets/chat/list/entries/GameInviteEntry;Lcom/discord/models/user/MeUser;Lcom/discord/api/application/Application;Lcom/discord/api/activity/Activity;Ljava/util/Map;)Lcom/discord/widgets/chat/list/ViewEmbedGameInvite$Model;
     invoke-static/range {v1 .. v6}, Lcom/discord/widgets/chat/list/ViewEmbedGameInvite$Model$Companion;->access$create(Lcom/discord/widgets/chat/list/ViewEmbedGameInvite$Model$Companion;Lcom/discord/widgets/chat/list/entries/GameInviteEntry;Lcom/discord/models/user/MeUser;Lcom/discord/api/application/Application;Lcom/discord/api/activity/Activity;Ljava/util/Map;)Lcom/discord/widgets/chat/list/ViewEmbedGameInvite$Model;
 
     move-result-object p1

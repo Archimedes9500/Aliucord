@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet$onResume$2;->this$0:Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;
 
-    # invokes: Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;->configureUI(Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;->access$configureUI(Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheet;Lcom/discord/widgets/stage/sheet/WidgetStageStartEventBottomSheetViewModel$ViewState;)V
 
     return-void

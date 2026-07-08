@@ -94,7 +94,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/settings/WidgetSettingsVoice$configureUI$$inlined$forEach$lambda$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsVoice;
 
-    # invokes: Lcom/discord/widgets/settings/WidgetSettingsVoice;->onOpenSLESConfigChanged()V
     invoke-static {p1}, Lcom/discord/widgets/settings/WidgetSettingsVoice;->access$onOpenSLESConfigChanged(Lcom/discord/widgets/settings/WidgetSettingsVoice;)V
 
     return-void

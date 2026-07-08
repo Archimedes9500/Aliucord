@@ -112,7 +112,6 @@
 
     iget-object v3, p0, Lcom/discord/stores/StoreThreadsActive$observeActiveThreadsForChannel$1;->$channelId:Ljava/lang/Long;
 
-    # invokes: Lcom/discord/stores/StoreThreadsActive;->getActiveThreadsForChannel(JLjava/lang/Long;)Ljava/util/Map;
     invoke-static {v0, v1, v2, v3}, Lcom/discord/stores/StoreThreadsActive;->access$getActiveThreadsForChannel(Lcom/discord/stores/StoreThreadsActive;JLjava/lang/Long;)Ljava/util/Map;
 
     move-result-object v0

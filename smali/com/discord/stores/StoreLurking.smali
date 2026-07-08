@@ -1246,7 +1246,6 @@
     const/4 v2, 0x0
 
     .line 13
-    # invokes: Lcom/discord/stores/StoreLurking$Companion;->isLurking(ZJLjava/util/Set;)Z
     invoke-static {v0, v2, p1, p2, v1}, Lcom/discord/stores/StoreLurking$Companion;->access$isLurking(Lcom/discord/stores/StoreLurking$Companion;ZJLjava/util/Set;)Z
 
     move-result p1
@@ -1294,7 +1293,6 @@
     move-result-object p1
 
     .line 10
-    # invokes: Lcom/discord/stores/StoreLurking$Companion;->isLurking(ZJLjava/util/Set;)Z
     invoke-static {v0, v1, v2, v3, p1}, Lcom/discord/stores/StoreLurking$Companion;->access$isLurking(Lcom/discord/stores/StoreLurking$Companion;ZJLjava/util/Set;)Z
 
     move-result p1
@@ -1342,7 +1340,6 @@
     move-result-object p1
 
     .line 5
-    # invokes: Lcom/discord/stores/StoreLurking$Companion;->isLurking(ZJLjava/util/Set;)Z
     invoke-static {v0, v1, v2, v3, p1}, Lcom/discord/stores/StoreLurking$Companion;->access$isLurking(Lcom/discord/stores/StoreLurking$Companion;ZJLjava/util/Set;)Z
 
     move-result p1

@@ -104,7 +104,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/servers/member_verification/MemberVerificationRulesAdapter$TextInputItemHolder$1;->this$0:Lcom/discord/widgets/servers/member_verification/MemberVerificationRulesAdapter$TextInputItemHolder;
 
-    # getter for: Lcom/discord/widgets/servers/member_verification/MemberVerificationRulesAdapter$TextInputItemHolder;->fieldIndex:I
     invoke-static {v1}, Lcom/discord/widgets/servers/member_verification/MemberVerificationRulesAdapter$TextInputItemHolder;->access$getFieldIndex$p(Lcom/discord/widgets/servers/member_verification/MemberVerificationRulesAdapter$TextInputItemHolder;)I
 
     move-result v1

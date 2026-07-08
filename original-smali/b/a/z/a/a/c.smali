@@ -41,7 +41,6 @@
 
     move-result-object v2
 
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->channel:Lcom/discord/api/channel/Channel;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->access$100(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;)Lcom/discord/api/channel/Channel;
 
     move-result-object v0
@@ -50,7 +49,6 @@
 
     move-result-wide v3
 
-    # getter for: Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->channel:Lcom/discord/api/channel/Channel;
     invoke-static {v1}, Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;->access$100(Lcom/discord/widgets/channels/permissions/WidgetChannelSettingsPermissionsAddMember$Model;)Lcom/discord/api/channel/Channel;
 
     move-result-object v0

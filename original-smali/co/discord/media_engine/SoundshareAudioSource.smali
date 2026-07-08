@@ -543,7 +543,6 @@
     const/4 v3, 0x0
 
     :goto_65
-    # invokes: Lco/discord/media_engine/SoundshareAudioSource$Companion;->assertTrue(Z)V
     invoke-static {v1, v3}, Lco/discord/media_engine/SoundshareAudioSource$Companion;->access$assertTrue(Lco/discord/media_engine/SoundshareAudioSource$Companion;Z)V
     :try_end_68
     .catchall {:try_start_5c .. :try_end_68} :catchall_c1

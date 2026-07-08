@@ -100,7 +100,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreApplicationCommands$observeFrecencyCommands$1;->this$0:Lcom/discord/stores/StoreApplicationCommands;
 
-    # getter for: Lcom/discord/stores/StoreApplicationCommands;->storeExperiments:Lcom/discord/stores/StoreExperiments;
     invoke-static {v0}, Lcom/discord/stores/StoreApplicationCommands;->access$getStoreExperiments$p(Lcom/discord/stores/StoreApplicationCommands;)Lcom/discord/stores/StoreExperiments;
 
     move-result-object v0

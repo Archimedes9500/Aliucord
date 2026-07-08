@@ -98,7 +98,6 @@
     check-cast v0, Lcom/discord/widgets/servers/settings/invites/WidgetServerSettingsInstantInvites;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/settings/invites/WidgetServerSettingsInstantInvites;->configureUI(Lcom/discord/widgets/servers/settings/invites/WidgetServerSettingsInstantInvites$Model;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/settings/invites/WidgetServerSettingsInstantInvites;->access$configureUI(Lcom/discord/widgets/servers/settings/invites/WidgetServerSettingsInstantInvites;Lcom/discord/widgets/servers/settings/invites/WidgetServerSettingsInstantInvites$Model;)V
 
     return-void

@@ -104,7 +104,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsBans;->showConfirmUnbanDialog(JLcom/discord/models/domain/ModelBan;)V
     invoke-static {v0, v1, v2, p1}, Lcom/discord/widgets/servers/WidgetServerSettingsBans;->access$showConfirmUnbanDialog(Lcom/discord/widgets/servers/WidgetServerSettingsBans;JLcom/discord/models/domain/ModelBan;)V
 
     return-void

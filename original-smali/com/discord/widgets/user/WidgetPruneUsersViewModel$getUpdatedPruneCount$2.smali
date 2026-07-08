@@ -83,7 +83,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/user/WidgetPruneUsersViewModel$getUpdatedPruneCount$2;->this$0:Lcom/discord/widgets/user/WidgetPruneUsersViewModel;
 
-    # getter for: Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->whichPruneDays:Lcom/discord/widgets/user/WidgetPruneUsersViewModel$PruneDays;
     invoke-static {v0}, Lcom/discord/widgets/user/WidgetPruneUsersViewModel;->access$getWhichPruneDays$p(Lcom/discord/widgets/user/WidgetPruneUsersViewModel;)Lcom/discord/widgets/user/WidgetPruneUsersViewModel$PruneDays;
 
     move-result-object v1

@@ -626,7 +626,6 @@
     invoke-virtual {v0, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 8
-    # invokes: Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->getBinding()Lcom/discord/databinding/WidgetGuildInviteShareSheetBinding;
     invoke-static {p0}, Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;->access$getBinding$p(Lcom/discord/widgets/guilds/invite/WidgetGuildInviteShareSheet;)Lcom/discord/databinding/WidgetGuildInviteShareSheetBinding;
 
     move-result-object v0

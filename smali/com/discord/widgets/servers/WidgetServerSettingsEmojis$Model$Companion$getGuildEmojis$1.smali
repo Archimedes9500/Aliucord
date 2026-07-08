@@ -127,7 +127,6 @@
     iget-object v3, p0, Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model$Companion$getGuildEmojis$1;->$guild:Lcom/discord/models/guild/Guild;
 
     .line 7
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model$Companion;->create(Lcom/discord/models/guild/Guild;Ljava/util/List;Ljava/util/Map;)Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model;
     invoke-static {v1, v3, v2, v0}, Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model$Companion;->access$create(Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model$Companion;Lcom/discord/models/guild/Guild;Ljava/util/List;Ljava/util/Map;)Lcom/discord/widgets/servers/WidgetServerSettingsEmojis$Model;
 
     move-result-object v0

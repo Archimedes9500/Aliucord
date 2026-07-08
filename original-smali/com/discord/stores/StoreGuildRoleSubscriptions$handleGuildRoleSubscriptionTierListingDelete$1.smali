@@ -93,7 +93,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreGuildRoleSubscriptions$handleGuildRoleSubscriptionTierListingDelete$1;->this$0:Lcom/discord/stores/StoreGuildRoleSubscriptions;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleSubscriptions;->guildRoleSubscriptionTiers:Ljava/util/Map;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildRoleSubscriptions;->access$getGuildRoleSubscriptionTiers$p(Lcom/discord/stores/StoreGuildRoleSubscriptions;)Ljava/util/Map;
 
     move-result-object v0

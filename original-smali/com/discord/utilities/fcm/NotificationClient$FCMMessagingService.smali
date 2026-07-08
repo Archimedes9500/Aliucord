@@ -243,7 +243,6 @@
     .line 22
     sget-object v3, Lcom/discord/utilities/fcm/NotificationClient;->INSTANCE:Lcom/discord/utilities/fcm/NotificationClient;
 
-    # getter for: Lcom/discord/utilities/fcm/NotificationClient;->context:Landroid/content/Context;
     invoke-static {v3}, Lcom/discord/utilities/fcm/NotificationClient;->access$getContext$p(Lcom/discord/utilities/fcm/NotificationClient;)Landroid/content/Context;
 
     move-result-object v7
@@ -256,7 +255,6 @@
     :cond_aa
     sget-object v2, Lcom/discord/utilities/fcm/NotificationClient;->INSTANCE:Lcom/discord/utilities/fcm/NotificationClient;
 
-    # getter for: Lcom/discord/utilities/fcm/NotificationClient;->context:Landroid/content/Context;
     invoke-static {v2}, Lcom/discord/utilities/fcm/NotificationClient;->access$getContext$p(Lcom/discord/utilities/fcm/NotificationClient;)Landroid/content/Context;
 
     move-result-object v3
@@ -451,7 +449,6 @@
 
     .line 39
     :cond_150
-    # getter for: Lcom/discord/utilities/fcm/NotificationClient;->isBackgrounded:Z
     invoke-static {v2}, Lcom/discord/utilities/fcm/NotificationClient;->access$isBackgrounded$p(Lcom/discord/utilities/fcm/NotificationClient;)Z
 
     move-result v4
@@ -473,7 +470,6 @@
 
     .line 41
     :cond_162
-    # getter for: Lcom/discord/utilities/fcm/NotificationClient;->isBackgrounded:Z
     invoke-static {v2}, Lcom/discord/utilities/fcm/NotificationClient;->access$isBackgrounded$p(Lcom/discord/utilities/fcm/NotificationClient;)Z
 
     move-result v2

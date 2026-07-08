@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/guilds/list/GuildListViewHolder$FolderViewHolder$configure$2;->this$0:Lcom/discord/widgets/guilds/list/GuildListViewHolder$FolderViewHolder;
 
-    # getter for: Lcom/discord/widgets/guilds/list/GuildListViewHolder$FolderViewHolder;->onClicked:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/guilds/list/GuildListViewHolder$FolderViewHolder;->access$getOnClicked$p(Lcom/discord/widgets/guilds/list/GuildListViewHolder$FolderViewHolder;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

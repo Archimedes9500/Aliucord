@@ -100,7 +100,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # invokes: Lcom/discord/utilities/attachments/AttachmentUtilsKt;->getREGEX_FILE_NAME_PATTERN()Ljava/util/regex/Pattern;
     invoke-static {}, Lcom/discord/utilities/attachments/AttachmentUtilsKt;->access$getREGEX_FILE_NAME_PATTERN$p()Ljava/util/regex/Pattern;
 
     move-result-object v0

@@ -186,7 +186,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker$initializeSearchBar$1;->this$0:Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;
 
-    # getter for: Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->onEmojiSearchOpenedListener:Lkotlin/jvm/functions/Function0;
     invoke-static {p1}, Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;->access$getOnEmojiSearchOpenedListener$p(Lcom/discord/widgets/chat/input/emoji/WidgetEmojiPicker;)Lkotlin/jvm/functions/Function0;
 
     move-result-object p1

@@ -79,7 +79,6 @@
 
     iget-object v1, p0, Lcom/discord/utilities/auditlogs/AuditLogChangeUtils$renderPermissionList$1;->$auditLogEntry:Lcom/discord/models/domain/ModelAuditLogEntry;
 
-    # invokes: Lcom/discord/utilities/auditlogs/AuditLogChangeUtils;->getStringForPermission(JLcom/discord/models/domain/ModelAuditLogEntry;)I
     invoke-static {v0, p1, p2, v1}, Lcom/discord/utilities/auditlogs/AuditLogChangeUtils;->access$getStringForPermission(Lcom/discord/utilities/auditlogs/AuditLogChangeUtils;JLcom/discord/models/domain/ModelAuditLogEntry;)I
 
     move-result p1

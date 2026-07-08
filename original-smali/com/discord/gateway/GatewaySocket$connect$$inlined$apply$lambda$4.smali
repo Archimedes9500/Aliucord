@@ -80,7 +80,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$connect$$inlined$apply$lambda$4;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->gatewaySocketLogger:Lcom/discord/gateway/GatewaySocketLogger;
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getGatewaySocketLogger$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/gateway/GatewaySocketLogger;
 
     move-result-object v0
@@ -100,7 +99,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/gateway/GatewaySocket$connect$$inlined$apply$lambda$4;->this$0:Lcom/discord/gateway/GatewaySocket;
 
-    # getter for: Lcom/discord/gateway/GatewaySocket;->gatewaySocketLogger:Lcom/discord/gateway/GatewaySocketLogger;
     invoke-static {v0}, Lcom/discord/gateway/GatewaySocket;->access$getGatewaySocketLogger$p(Lcom/discord/gateway/GatewaySocket;)Lcom/discord/gateway/GatewaySocketLogger;
 
     move-result-object v0

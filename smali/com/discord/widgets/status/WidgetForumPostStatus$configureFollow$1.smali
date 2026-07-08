@@ -79,7 +79,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/status/WidgetForumPostStatus$configureFollow$1;->this$0:Lcom/discord/widgets/status/WidgetForumPostStatus;
 
-    # invokes: Lcom/discord/widgets/status/WidgetForumPostStatus;->getViewModel()Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;
     invoke-static {p1}, Lcom/discord/widgets/status/WidgetForumPostStatus;->access$getViewModel$p(Lcom/discord/widgets/status/WidgetForumPostStatus;)Lcom/discord/widgets/status/WidgetForumPostStatusViewModel;
 
     move-result-object v0

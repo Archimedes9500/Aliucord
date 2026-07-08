@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreExperiments$tryInitializeExperiments$2;->this$0:Lcom/discord/stores/StoreExperiments;
 
-    # invokes: Lcom/discord/stores/StoreExperiments;->setInitialized()V
     invoke-static {v0}, Lcom/discord/stores/StoreExperiments;->access$setInitialized(Lcom/discord/stores/StoreExperiments;)V
 
     return-void

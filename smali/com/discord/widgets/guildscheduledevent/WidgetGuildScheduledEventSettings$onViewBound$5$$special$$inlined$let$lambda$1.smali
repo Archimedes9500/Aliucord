@@ -72,7 +72,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings$onViewBound$5;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;->getViewModel()Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventSettingsViewModel;
     invoke-static {p1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;->access$getViewModel$p(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;)Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventSettingsViewModel;
 
     move-result-object p1
@@ -88,7 +87,6 @@
 
     iget-object p2, p2, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings$onViewBound$5;->this$0:Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;
 
-    # invokes: Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;->showDateErrorToast(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventSettingsViewModel$DateError;)V
     invoke-static {p2, p1}, Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;->access$showDateErrorToast(Lcom/discord/widgets/guildscheduledevent/WidgetGuildScheduledEventSettings;Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventSettingsViewModel$DateError;)V
 
     :cond_15

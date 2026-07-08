@@ -501,7 +501,6 @@
 .method private final getCollector()Lcom/discord/stores/StoreStream;
     .locals 2
 
-    # getter for: Lcom/discord/stores/StoreStream;->collector$delegate:Lkotlin/Lazy;
     invoke-static {}, Lcom/discord/stores/StoreStream;->access$getCollector$cp()Lkotlin/Lazy;
 
     move-result-object v0
@@ -902,7 +901,6 @@
 
     move-result-object v0
 
-    # getter for: Lcom/discord/stores/StoreStream;->customEmojis:Lcom/discord/stores/StoreEmojiCustom;
     invoke-static {v0}, Lcom/discord/stores/StoreStream;->access$getCustomEmojis$p(Lcom/discord/stores/StoreStream;)Lcom/discord/stores/StoreEmojiCustom;
 
     move-result-object v0
@@ -933,7 +931,6 @@
 
     move-result-object v0
 
-    # getter for: Lcom/discord/stores/StoreStream;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreStream;->access$getDispatcher$p(Lcom/discord/stores/StoreStream;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0
@@ -2040,7 +2037,6 @@
     .locals 2
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreStream;->STORE_THREAD_ID:J
     invoke-static {}, Lcom/discord/stores/StoreStream;->access$getSTORE_THREAD_ID$cp()J
 
     move-result-wide v0
@@ -2052,7 +2048,6 @@
     .locals 1
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreStream;->STORE_THREAD_NAME:Ljava/lang/String;
     invoke-static {}, Lcom/discord/stores/StoreStream;->access$getSTORE_THREAD_NAME$cp()Ljava/lang/String;
 
     move-result-object v0
@@ -2188,7 +2183,6 @@
 
     move-result-object v0
 
-    # getter for: Lcom/discord/stores/StoreStream;->streamRtcConnection:Lcom/discord/stores/StoreStreamRtcConnection;
     invoke-static {v0}, Lcom/discord/stores/StoreStream;->access$getStreamRtcConnection$p(Lcom/discord/stores/StoreStream;)Lcom/discord/stores/StoreStreamRtcConnection;
 
     move-result-object v0
@@ -2549,7 +2543,6 @@
     invoke-static {p1, v0}, Ld0/z/d/m;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    # getter for: Lcom/discord/stores/StoreStream;->isInitialized:Z
     invoke-static {}, Lcom/discord/stores/StoreStream;->access$isInitialized$cp()Z
 
     move-result v0
@@ -2575,7 +2568,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/stores/StoreStream;->init(Landroid/app/Application;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$init(Lcom/discord/stores/StoreStream;Landroid/app/Application;)V
 
     .line 4
@@ -2598,7 +2590,6 @@
 
     move-result-object v0
 
-    # invokes: Lcom/discord/stores/StoreStream;->deferredInit(Landroid/app/Application;)V
     invoke-static {v0, p1}, Lcom/discord/stores/StoreStream;->access$deferredInit(Lcom/discord/stores/StoreStream;Landroid/app/Application;)V
 
     const/4 p1, 0x1
@@ -2627,7 +2618,6 @@
 
     move-result-object v0
 
-    # getter for: Lcom/discord/stores/StoreStream;->initialized:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreStream;->access$getInitialized$p(Lcom/discord/stores/StoreStream;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

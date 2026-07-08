@@ -95,7 +95,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel;->handleStoreState(Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel;->access$handleStoreState(Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel;Lcom/discord/widgets/chat/input/sticker/StickerPickerViewModel$StoreState;)V
 
     return-void

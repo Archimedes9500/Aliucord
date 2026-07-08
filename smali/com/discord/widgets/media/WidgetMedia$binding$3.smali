@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/media/WidgetMedia;
 
     .line 2
-    # invokes: Lcom/discord/widgets/media/WidgetMedia;->onViewBindingDestroy(Lcom/discord/databinding/WidgetMediaBinding;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/media/WidgetMedia;->access$onViewBindingDestroy(Lcom/discord/widgets/media/WidgetMedia;Lcom/discord/databinding/WidgetMediaBinding;)V
 
     return-void

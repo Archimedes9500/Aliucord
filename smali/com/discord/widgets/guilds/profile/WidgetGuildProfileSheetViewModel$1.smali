@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel$1;->this$0:Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel;
 
-    # invokes: Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel;->handleStoreState(Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel;->access$handleStoreState(Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel;Lcom/discord/widgets/guilds/profile/WidgetGuildProfileSheetViewModel$StoreState;)V
 
     return-void

@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/announcements/WidgetChannelFollowSheet$configureChannelSelector$2;->this$0:Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;
 
-    # invokes: Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;->getViewModel()Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;
     invoke-static {p1}, Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;->access$getViewModel$p(Lcom/discord/widgets/announcements/WidgetChannelFollowSheet;)Lcom/discord/widgets/announcements/WidgetChannelFollowSheetViewModel;
 
     move-result-object p1

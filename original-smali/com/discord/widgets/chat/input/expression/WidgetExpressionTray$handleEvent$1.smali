@@ -93,7 +93,6 @@
     check-cast v0, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;
 
     .line 2
-    # invokes: Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->onGifSelected()V
     invoke-static {v0}, Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;->access$onGifSelected(Lcom/discord/widgets/chat/input/expression/WidgetExpressionTray;)V
 
     return-void

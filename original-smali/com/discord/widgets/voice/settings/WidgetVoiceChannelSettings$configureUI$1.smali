@@ -109,7 +109,6 @@
 
     move-result-object p2
 
-    # invokes: Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->confirmDelete(Lcom/discord/api/channel/Channel;)V
     invoke-static {p1, p2}, Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;->access$confirmDelete(Lcom/discord/widgets/voice/settings/WidgetVoiceChannelSettings;Lcom/discord/api/channel/Channel;)V
 
     :goto_1b

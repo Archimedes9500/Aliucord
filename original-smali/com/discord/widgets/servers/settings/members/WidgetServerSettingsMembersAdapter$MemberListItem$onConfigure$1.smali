@@ -74,7 +74,6 @@
 
     move-result-object p1
 
-    # getter for: Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersAdapter;->memberSelectedListener:Lkotlin/jvm/functions/Function2;
     invoke-static {p1}, Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersAdapter;->access$getMemberSelectedListener$p(Lcom/discord/widgets/servers/settings/members/WidgetServerSettingsMembersAdapter;)Lkotlin/jvm/functions/Function2;
 
     move-result-object p1

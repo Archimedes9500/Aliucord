@@ -84,7 +84,6 @@
     .line 4
     iget-object v4, p0, Lcom/discord/widgets/user/WidgetUserPasswordVerify$validationManager$2;->this$0:Lcom/discord/widgets/user/WidgetUserPasswordVerify;
 
-    # invokes: Lcom/discord/widgets/user/WidgetUserPasswordVerify;->getBinding()Lcom/discord/databinding/WidgetUserPasswordVerifyBinding;
     invoke-static {v4}, Lcom/discord/widgets/user/WidgetUserPasswordVerify;->access$getBinding$p(Lcom/discord/widgets/user/WidgetUserPasswordVerify;)Lcom/discord/databinding/WidgetUserPasswordVerifyBinding;
 
     move-result-object v4

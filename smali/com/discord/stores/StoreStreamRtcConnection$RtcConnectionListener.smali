@@ -133,7 +133,6 @@
     :cond_15
     iget-object p1, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->analyticsStore:Lcom/discord/stores/StoreAnalytics;
     invoke-static {p1}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getAnalyticsStore$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/stores/StoreAnalytics;
 
     move-result-object p1
@@ -146,7 +145,6 @@
     :cond_1f
     iget-object p1, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p1}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getDispatcher$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p1
@@ -167,7 +165,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->listenerSubject:Lcom/discord/utilities/collections/ListenerCollectionSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getListenerSubject$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/utilities/collections/ListenerCollectionSubject;
 
     move-result-object v0
@@ -187,7 +184,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->listenerSubject:Lcom/discord/utilities/collections/ListenerCollectionSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getListenerSubject$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/utilities/collections/ListenerCollectionSubject;
 
     move-result-object v0
@@ -205,7 +201,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getDispatcher$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0
@@ -229,7 +224,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getDispatcher$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0
@@ -267,7 +261,6 @@
 
     move-result-object v1
 
-    # invokes: Lcom/discord/stores/StoreStreamRtcConnection;->recordBreadcrumb(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreStreamRtcConnection;->access$recordBreadcrumb(Lcom/discord/stores/StoreStreamRtcConnection;Ljava/lang/String;)V
 
     .line 2
@@ -285,7 +278,6 @@
     .line 4
     iget-object v0, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->listenerSubject:Lcom/discord/utilities/collections/ListenerCollectionSubject;
     invoke-static {v0}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getListenerSubject$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/utilities/collections/ListenerCollectionSubject;
 
     move-result-object v0
@@ -298,7 +290,6 @@
     :cond_32
     iget-object v0, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getDispatcher$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0
@@ -322,7 +313,6 @@
     .line 1
     iget-object v0, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {v0}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getDispatcher$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/stores/Dispatcher;
 
     move-result-object v0
@@ -342,7 +332,6 @@
     .line 1
     iget-object p4, p0, Lcom/discord/stores/StoreStreamRtcConnection$RtcConnectionListener;->this$0:Lcom/discord/stores/StoreStreamRtcConnection;
 
-    # getter for: Lcom/discord/stores/StoreStreamRtcConnection;->dispatcher:Lcom/discord/stores/Dispatcher;
     invoke-static {p4}, Lcom/discord/stores/StoreStreamRtcConnection;->access$getDispatcher$p(Lcom/discord/stores/StoreStreamRtcConnection;)Lcom/discord/stores/Dispatcher;
 
     move-result-object p4

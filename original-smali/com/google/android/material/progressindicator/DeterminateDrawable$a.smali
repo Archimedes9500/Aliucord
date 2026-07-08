@@ -41,7 +41,6 @@
     check-cast p1, Lcom/google/android/material/progressindicator/DeterminateDrawable;
 
     .line 2
-    # invokes: Lcom/google/android/material/progressindicator/DeterminateDrawable;->getIndicatorFraction()F
     invoke-static {p1}, Lcom/google/android/material/progressindicator/DeterminateDrawable;->access$000(Lcom/google/android/material/progressindicator/DeterminateDrawable;)F
 
     move-result p1
@@ -64,7 +63,6 @@
     div-float/2addr p2, v0
 
     .line 2
-    # invokes: Lcom/google/android/material/progressindicator/DeterminateDrawable;->setIndicatorFraction(F)V
     invoke-static {p1, p2}, Lcom/google/android/material/progressindicator/DeterminateDrawable;->access$100(Lcom/google/android/material/progressindicator/DeterminateDrawable;F)V
 
     return-void

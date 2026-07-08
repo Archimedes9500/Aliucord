@@ -170,7 +170,6 @@
     move-result-object p1
 
     .line 7
-    # invokes: Lb/a/d/d0;->updateViewState(Ljava/lang/Object;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel;->access$updateViewState(Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel;Lcom/discord/widgets/directories/WidgetDirectoriesSearchViewModel$ViewState;)V
 
     return-void

@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;
 
     .line 2
-    # invokes: Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;->configureUI(Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;->access$configureUI(Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessDialog;Lcom/discord/widgets/servers/member_verification/MemberVerificationSuccessViewModel$ViewState;)V
 
     return-void

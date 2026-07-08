@@ -66,7 +66,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/debugging/WidgetDebugging$Adapter$Item$onConfigure$3;->this$0:Lcom/discord/widgets/debugging/WidgetDebugging$Adapter$Item;
 
-    # getter for: Lcom/discord/widgets/debugging/WidgetDebugging$Adapter$Item;->binding:Lcom/discord/databinding/WidgetDebuggingAdapterItemBinding;
     invoke-static {p1}, Lcom/discord/widgets/debugging/WidgetDebugging$Adapter$Item;->access$getBinding$p(Lcom/discord/widgets/debugging/WidgetDebugging$Adapter$Item;)Lcom/discord/databinding/WidgetDebuggingAdapterItemBinding;
 
     move-result-object p1
@@ -79,7 +78,6 @@
 
     iget-object v1, p0, Lcom/discord/widgets/debugging/WidgetDebugging$Adapter$Item$onConfigure$3;->this$0:Lcom/discord/widgets/debugging/WidgetDebugging$Adapter$Item;
 
-    # getter for: Lcom/discord/widgets/debugging/WidgetDebugging$Adapter$Item;->binding:Lcom/discord/databinding/WidgetDebuggingAdapterItemBinding;
     invoke-static {v1}, Lcom/discord/widgets/debugging/WidgetDebugging$Adapter$Item;->access$getBinding$p(Lcom/discord/widgets/debugging/WidgetDebugging$Adapter$Item;)Lcom/discord/databinding/WidgetDebuggingAdapterItemBinding;
 
     move-result-object v1

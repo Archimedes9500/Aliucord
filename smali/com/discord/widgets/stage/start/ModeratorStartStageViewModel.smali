@@ -342,7 +342,6 @@
 
     move-object/from16 p9, v8
 
-    # invokes: Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel$Companion;->observeStores(JLcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuildScheduledEvents;Lcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreVoiceParticipants;)Lrx/Observable;
     invoke-static/range {p3 .. p9}, Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel$Companion;->access$observeStores(Lcom/discord/widgets/stage/start/ModeratorStartStageViewModel$Companion;JLcom/discord/stores/StoreChannels;Lcom/discord/stores/StoreGuildScheduledEvents;Lcom/discord/stores/StorePermissions;Lcom/discord/stores/StoreVoiceParticipants;)Lrx/Observable;
 
     move-result-object v0

@@ -72,7 +72,6 @@
 
     iget-object p1, p1, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventRsvpUserListAdapter$UserViewHolder;->this$0:Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventRsvpUserListAdapter;
 
-    # getter for: Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventRsvpUserListAdapter;->onItemClick:Lkotlin/jvm/functions/Function1;
     invoke-static {p1}, Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventRsvpUserListAdapter;->access$getOnItemClick$p(Lcom/discord/widgets/guildscheduledevent/GuildScheduledEventRsvpUserListAdapter;)Lkotlin/jvm/functions/Function1;
 
     move-result-object p1

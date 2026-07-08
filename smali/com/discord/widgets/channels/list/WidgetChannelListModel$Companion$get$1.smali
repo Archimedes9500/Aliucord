@@ -134,7 +134,6 @@
 
     sget-object p1, Lcom/discord/widgets/channels/list/WidgetChannelListModel;->Companion:Lcom/discord/widgets/channels/list/WidgetChannelListModel$Companion;
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelListModel$Companion;->getPrivateChannelList()Lrx/Observable;
     invoke-static {p1}, Lcom/discord/widgets/channels/list/WidgetChannelListModel$Companion;->access$getPrivateChannelList(Lcom/discord/widgets/channels/list/WidgetChannelListModel$Companion;)Lrx/Observable;
 
     move-result-object p1
@@ -154,7 +153,6 @@
 
     move-result-wide v1
 
-    # invokes: Lcom/discord/widgets/channels/list/WidgetChannelListModel$Companion;->getSelectedGuildChannelList(J)Lrx/Observable;
     invoke-static {v0, v1, v2}, Lcom/discord/widgets/channels/list/WidgetChannelListModel$Companion;->access$getSelectedGuildChannelList(Lcom/discord/widgets/channels/list/WidgetChannelListModel$Companion;J)Lrx/Observable;
 
     move-result-object p1

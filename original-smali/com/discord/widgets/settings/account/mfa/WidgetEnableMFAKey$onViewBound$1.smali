@@ -78,7 +78,6 @@
 
     invoke-static {p1, v1}, Ld0/z/d/m;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    # invokes: Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAKey;->copyCodeToClipboard(Landroid/content/Context;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAKey;->access$copyCodeToClipboard(Lcom/discord/widgets/settings/account/mfa/WidgetEnableMFAKey;Landroid/content/Context;)V
 
     return-void

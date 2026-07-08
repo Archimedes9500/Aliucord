@@ -280,7 +280,6 @@
     if-ne v6, v7, :cond_47
 
     .line 14
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModelKt;->TOOLBAR_CONFIG_DEFAULT:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ToolbarConfig;
     invoke-static {}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModelKt;->access$getTOOLBAR_CONFIG_DEFAULT$p()Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ToolbarConfig;
 
     move-result-object v6
@@ -296,7 +295,6 @@
 
     .line 15
     :cond_4d
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModelKt;->TOOLBAR_CONFIG_ONBOARDING:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ToolbarConfig;
     invoke-static {}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModelKt;->access$getTOOLBAR_CONFIG_ONBOARDING$p()Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ToolbarConfig;
 
     move-result-object v6
@@ -634,7 +632,6 @@
     if-ne p1, v0, :cond_e
 
     .line 2
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModelKt;->TOOLBAR_CONFIG_DEFAULT:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ToolbarConfig;
     invoke-static {}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModelKt;->access$getTOOLBAR_CONFIG_DEFAULT$p()Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ToolbarConfig;
 
     move-result-object p1
@@ -650,7 +647,6 @@
 
     .line 3
     :cond_14
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModelKt;->TOOLBAR_CONFIG_ONBOARDING:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ToolbarConfig;
     invoke-static {}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModelKt;->access$getTOOLBAR_CONFIG_ONBOARDING$p()Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ToolbarConfig;
 
     move-result-object p1
@@ -2683,7 +2679,6 @@
     const/16 v17, 0x0
 
     .line 4
-    # getter for: Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModelKt;->TOOLBAR_CONFIG_DEFAULT:Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ToolbarConfig;
     invoke-static {}, Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModelKt;->access$getTOOLBAR_CONFIG_DEFAULT$p()Lcom/discord/widgets/contact_sync/WidgetContactSyncViewModel$ToolbarConfig;
 
     move-result-object v18

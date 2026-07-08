@@ -92,7 +92,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreGuildRoleMemberCounts$fetchGuildRoleMemberCountsIfNecessary$1;->this$0:Lcom/discord/stores/StoreGuildRoleMemberCounts;
 
-    # getter for: Lcom/discord/stores/StoreGuildRoleMemberCounts;->guildRoleMemberCounts:Ljava/util/HashMap;
     invoke-static {v0}, Lcom/discord/stores/StoreGuildRoleMemberCounts;->access$getGuildRoleMemberCounts$p(Lcom/discord/stores/StoreGuildRoleMemberCounts;)Ljava/util/HashMap;
 
     move-result-object v0

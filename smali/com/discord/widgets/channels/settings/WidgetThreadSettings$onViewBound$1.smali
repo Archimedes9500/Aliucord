@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/channels/settings/WidgetThreadSettings$onViewBound$1;->this$0:Lcom/discord/widgets/channels/settings/WidgetThreadSettings;
 
-    # invokes: Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->getViewModel()Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;
     invoke-static {v0}, Lcom/discord/widgets/channels/settings/WidgetThreadSettings;->access$getViewModel$p(Lcom/discord/widgets/channels/settings/WidgetThreadSettings;)Lcom/discord/widgets/channels/settings/WidgetThreadSettingsViewModel;
 
     move-result-object v0

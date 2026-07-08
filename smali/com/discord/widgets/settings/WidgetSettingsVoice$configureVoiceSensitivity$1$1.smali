@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/settings/WidgetSettingsVoice$configureVoiceSensitivity$1;->this$0:Lcom/discord/widgets/settings/WidgetSettingsVoice;
 
-    # getter for: Lcom/discord/widgets/settings/WidgetSettingsVoice;->requestListenForSensitivitySubject:Lrx/subjects/BehaviorSubject;
     invoke-static {v0}, Lcom/discord/widgets/settings/WidgetSettingsVoice;->access$getRequestListenForSensitivitySubject$p(Lcom/discord/widgets/settings/WidgetSettingsVoice;)Lrx/subjects/BehaviorSubject;
 
     move-result-object v0

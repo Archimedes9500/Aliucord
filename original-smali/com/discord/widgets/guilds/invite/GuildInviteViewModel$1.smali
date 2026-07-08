@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/guilds/invite/GuildInviteViewModel$1;->this$0:Lcom/discord/widgets/guilds/invite/GuildInviteViewModel;
 
-    # invokes: Lcom/discord/widgets/guilds/invite/GuildInviteViewModel;->handleStoreState(Lcom/discord/widgets/guilds/invite/GuildInviteViewModel$StoreState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/guilds/invite/GuildInviteViewModel;->access$handleStoreState(Lcom/discord/widgets/guilds/invite/GuildInviteViewModel;Lcom/discord/widgets/guilds/invite/GuildInviteViewModel$StoreState;)V
 
     return-void

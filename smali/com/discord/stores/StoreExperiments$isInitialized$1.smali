@@ -89,7 +89,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/stores/StoreExperiments$isInitialized$1;->this$0:Lcom/discord/stores/StoreExperiments;
 
-    # getter for: Lcom/discord/stores/StoreExperiments;->initialized:Z
     invoke-static {v0}, Lcom/discord/stores/StoreExperiments;->access$getInitialized$p(Lcom/discord/stores/StoreExperiments;)Z
 
     move-result v0

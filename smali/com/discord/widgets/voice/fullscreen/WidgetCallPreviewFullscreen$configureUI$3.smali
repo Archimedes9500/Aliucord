@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;
 
     .line 2
-    # invokes: Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->onNsfwToggle(Z)V
     invoke-static {v0, p1}, Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;->access$onNsfwToggle(Lcom/discord/widgets/voice/fullscreen/WidgetCallPreviewFullscreen;Z)V
 
     return-void

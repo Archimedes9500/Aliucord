@@ -122,7 +122,6 @@
 
     iget-object v0, p0, Lcom/discord/widgets/servers/WidgetServerSettingsRoles$createRole$2;->$dataSnapshot:Lcom/discord/widgets/servers/WidgetServerSettingsRoles$Model;
 
-    # invokes: Lcom/discord/widgets/servers/WidgetServerSettingsRoles;->configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsRoles$Model;)V
     invoke-static {p1, v0}, Lcom/discord/widgets/servers/WidgetServerSettingsRoles;->access$configureUI(Lcom/discord/widgets/servers/WidgetServerSettingsRoles;Lcom/discord/widgets/servers/WidgetServerSettingsRoles$Model;)V
 
     :goto_1b

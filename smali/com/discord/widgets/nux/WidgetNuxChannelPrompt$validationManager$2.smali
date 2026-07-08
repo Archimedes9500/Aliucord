@@ -84,7 +84,6 @@
     .line 4
     iget-object v3, p0, Lcom/discord/widgets/nux/WidgetNuxChannelPrompt$validationManager$2;->this$0:Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;
 
-    # invokes: Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;->getBinding()Lcom/discord/databinding/WidgetNuxChannelPromptBinding;
     invoke-static {v3}, Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;->access$getBinding$p(Lcom/discord/widgets/nux/WidgetNuxChannelPrompt;)Lcom/discord/databinding/WidgetNuxChannelPromptBinding;
 
     move-result-object v3

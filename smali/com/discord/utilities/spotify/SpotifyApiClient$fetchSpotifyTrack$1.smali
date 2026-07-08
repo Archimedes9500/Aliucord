@@ -117,13 +117,11 @@
 
     iget-object v0, p0, Lcom/discord/utilities/spotify/SpotifyApiClient$fetchSpotifyTrack$1;->$trackId:Ljava/lang/String;
 
-    # invokes: Lcom/discord/utilities/spotify/SpotifyApiClient;->setTrackIdToFetch(Ljava/lang/String;)V
     invoke-static {p1, v0}, Lcom/discord/utilities/spotify/SpotifyApiClient;->access$setTrackIdToFetch(Lcom/discord/utilities/spotify/SpotifyApiClient;Ljava/lang/String;)V
 
     .line 4
     iget-object p1, p0, Lcom/discord/utilities/spotify/SpotifyApiClient$fetchSpotifyTrack$1;->this$0:Lcom/discord/utilities/spotify/SpotifyApiClient;
 
-    # invokes: Lcom/discord/utilities/spotify/SpotifyApiClient;->refreshSpotifyToken()V
     invoke-static {p1}, Lcom/discord/utilities/spotify/SpotifyApiClient;->access$refreshSpotifyToken(Lcom/discord/utilities/spotify/SpotifyApiClient;)V
 
     :cond_22

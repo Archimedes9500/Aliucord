@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$handleGooglePlayPurchaseEvent$1;->this$0:Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->storeEntitlements:Lcom/discord/stores/StoreEntitlements;
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->access$getStoreEntitlements$p(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;)Lcom/discord/stores/StoreEntitlements;
 
     move-result-object p1
@@ -104,7 +103,6 @@
     .line 3
     iget-object p1, p0, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel$handleGooglePlayPurchaseEvent$1;->this$0:Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;
 
-    # getter for: Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->giftPurchaseEventSubject:Lrx/subjects/PublishSubject;
     invoke-static {p1}, Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;->access$getGiftPurchaseEventSubject$p(Lcom/discord/widgets/settings/premium/SettingsGiftingViewModel;)Lrx/subjects/PublishSubject;
 
     move-result-object p1

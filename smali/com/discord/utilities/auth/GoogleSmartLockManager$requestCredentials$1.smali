@@ -238,7 +238,6 @@
 
     iget v2, p0, Lcom/discord/utilities/auth/GoogleSmartLockManager$requestCredentials$1;->$requestCode:I
 
-    # invokes: Lcom/discord/utilities/auth/GoogleSmartLockManager;->resolveResult(Landroidx/fragment/app/Fragment;ILcom/google/android/gms/common/api/ResolvableApiException;)V
     invoke-static {p1, v1, v2, v0}, Lcom/discord/utilities/auth/GoogleSmartLockManager;->access$resolveResult(Lcom/discord/utilities/auth/GoogleSmartLockManager;Landroidx/fragment/app/Fragment;ILcom/google/android/gms/common/api/ResolvableApiException;)V
 
     goto :goto_90

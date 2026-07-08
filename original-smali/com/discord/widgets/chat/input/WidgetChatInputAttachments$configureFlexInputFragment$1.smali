@@ -96,7 +96,6 @@
     .line 3
     iget-object v0, p0, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$configureFlexInputFragment$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->flexInputFragment:Lcom/lytefast/flexinput/fragment/FlexInputFragment;
     invoke-static {v0}, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->access$getFlexInputFragment$p(Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;)Lcom/lytefast/flexinput/fragment/FlexInputFragment;
 
     move-result-object v0
@@ -129,7 +128,6 @@
     .line 9
     iget-object v2, p0, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$configureFlexInputFragment$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->flexInputFragment:Lcom/lytefast/flexinput/fragment/FlexInputFragment;
     invoke-static {v2}, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->access$getFlexInputFragment$p(Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;)Lcom/lytefast/flexinput/fragment/FlexInputFragment;
 
     move-result-object v2
@@ -153,7 +151,6 @@
 
     move-result-object v3
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->createPreviewAdapter(Landroid/content/Context;)Lcom/lytefast/flexinput/adapters/AttachmentPreviewAdapter;
     invoke-static {v2, v3}, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->access$createPreviewAdapter(Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;Landroid/content/Context;)Lcom/lytefast/flexinput/adapters/AttachmentPreviewAdapter;
 
     move-result-object v2
@@ -213,7 +210,6 @@
 
     iget-object v4, p0, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments$configureFlexInputFragment$1;->this$0:Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;
 
-    # getter for: Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->flexInputFragment:Lcom/lytefast/flexinput/fragment/FlexInputFragment;
     invoke-static {v4}, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->access$getFlexInputFragment$p(Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;)Lcom/lytefast/flexinput/fragment/FlexInputFragment;
 
     move-result-object v4
@@ -222,7 +218,6 @@
 
     move-result-object v4
 
-    # invokes: Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->createAndConfigureExpressionFragment(Landroidx/fragment/app/FragmentManager;Landroid/widget/TextView;)Landroidx/fragment/app/Fragment;
     invoke-static {v2, v3, v4}, Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;->access$createAndConfigureExpressionFragment(Lcom/discord/widgets/chat/input/WidgetChatInputAttachments;Landroidx/fragment/app/FragmentManager;Landroid/widget/TextView;)Landroidx/fragment/app/Fragment;
 
     move-result-object v2

@@ -91,7 +91,6 @@
 
     iget-object v1, p0, Lcom/discord/stores/StoreMessages$resendMessage$1;->$message:Lcom/discord/models/message/Message;
 
-    # invokes: Lcom/discord/stores/StoreMessages;->handleLocalMessageDelete(Lcom/discord/models/message/Message;)V
     invoke-static {v0, v1}, Lcom/discord/stores/StoreMessages;->access$handleLocalMessageDelete(Lcom/discord/stores/StoreMessages;Lcom/discord/models/message/Message;)V
 
     return-void

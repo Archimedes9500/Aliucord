@@ -70,7 +70,6 @@
     .line 1
     iget-object p1, p0, Lcom/discord/widgets/channels/ChannelPickerViewHolder$ChannelItemViewHolder$1;->this$0:Lcom/discord/widgets/channels/ChannelPickerViewHolder$ChannelItemViewHolder;
 
-    # getter for: Lcom/discord/widgets/channels/ChannelPickerViewHolder$ChannelItemViewHolder;->item:Lcom/discord/widgets/channels/ChannelPickerAdapterItem$ChannelItem;
     invoke-static {p1}, Lcom/discord/widgets/channels/ChannelPickerViewHolder$ChannelItemViewHolder;->access$getItem$p(Lcom/discord/widgets/channels/ChannelPickerViewHolder$ChannelItemViewHolder;)Lcom/discord/widgets/channels/ChannelPickerAdapterItem$ChannelItem;
 
     move-result-object p1

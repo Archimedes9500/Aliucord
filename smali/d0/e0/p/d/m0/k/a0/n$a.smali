@@ -72,7 +72,6 @@
     .line 2
     iget-object v0, p0, Ld0/e0/p/d/m0/k/a0/n$a;->this$0:Ld0/e0/p/d/m0/k/a0/n;
 
-    # getter for: Ld0/e0/p/d/m0/k/a0/n;->b:Ld0/e0/p/d/m0/k/a0/i;
     invoke-static {v0}, Ld0/e0/p/d/m0/k/a0/n;->access$getWorkerScope$p(Ld0/e0/p/d/m0/k/a0/n;)Ld0/e0/p/d/m0/k/a0/i;
 
     move-result-object v1
@@ -85,7 +84,6 @@
 
     move-result-object v1
 
-    # invokes: Ld0/e0/p/d/m0/k/a0/n;->a(Ljava/util/Collection;)Ljava/util/Collection;
     invoke-static {v0, v1}, Ld0/e0/p/d/m0/k/a0/n;->access$substitute(Ld0/e0/p/d/m0/k/a0/n;Ljava/util/Collection;)Ljava/util/Collection;
 
     move-result-object v0

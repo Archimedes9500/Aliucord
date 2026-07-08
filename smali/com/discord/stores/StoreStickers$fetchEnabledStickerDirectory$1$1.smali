@@ -91,7 +91,6 @@
 
     iget-object v0, v0, Lcom/discord/stores/StoreStickers$fetchEnabledStickerDirectory$1;->this$0:Lcom/discord/stores/StoreStickers;
 
-    # getter for: Lcom/discord/stores/StoreStickers;->clock:Lcom/discord/utilities/time/Clock;
     invoke-static {v0}, Lcom/discord/stores/StoreStickers;->access$getClock$p(Lcom/discord/stores/StoreStickers;)Lcom/discord/utilities/time/Clock;
 
     move-result-object v1

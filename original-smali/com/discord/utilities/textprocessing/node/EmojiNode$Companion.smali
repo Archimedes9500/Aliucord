@@ -145,7 +145,6 @@
     if-eqz p3, :cond_8
 
     .line 3
-    # getter for: Lcom/discord/utilities/textprocessing/node/EmojiNode;->EMOJI_SIZE:I
     invoke-static {}, Lcom/discord/utilities/textprocessing/node/EmojiNode;->access$getEMOJI_SIZE$cp()I
 
     move-result p1
@@ -166,7 +165,6 @@
     if-eqz p3, :cond_8
 
     .line 1
-    # getter for: Lcom/discord/utilities/textprocessing/node/EmojiNode;->EMOJI_SIZE:I
     invoke-static {}, Lcom/discord/utilities/textprocessing/node/EmojiNode;->access$getEMOJI_SIZE$cp()I
 
     move-result p2
@@ -187,7 +185,6 @@
     if-eqz p3, :cond_8
 
     .line 2
-    # getter for: Lcom/discord/utilities/textprocessing/node/EmojiNode;->EMOJI_SIZE:I
     invoke-static {}, Lcom/discord/utilities/textprocessing/node/EmojiNode;->access$getEMOJI_SIZE$cp()I
 
     move-result p2
@@ -208,7 +205,6 @@
     if-eqz p5, :cond_8
 
     .line 1
-    # getter for: Lcom/discord/utilities/textprocessing/node/EmojiNode;->EMOJI_SIZE:I
     invoke-static {}, Lcom/discord/utilities/textprocessing/node/EmojiNode;->access$getEMOJI_SIZE$cp()I
 
     move-result p4

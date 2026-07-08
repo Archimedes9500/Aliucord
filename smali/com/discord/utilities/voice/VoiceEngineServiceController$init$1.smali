@@ -85,7 +85,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/utilities/voice/VoiceEngineServiceController$init$1;->this$0:Lcom/discord/utilities/voice/VoiceEngineServiceController;
 
-    # getter for: Lcom/discord/utilities/voice/VoiceEngineServiceController;->voiceChannelSelectedStore:Lcom/discord/stores/StoreVoiceChannelSelected;
     invoke-static {v0}, Lcom/discord/utilities/voice/VoiceEngineServiceController;->access$getVoiceChannelSelectedStore$p(Lcom/discord/utilities/voice/VoiceEngineServiceController;)Lcom/discord/stores/StoreVoiceChannelSelected;
 
     move-result-object v0

@@ -94,7 +94,6 @@
     .line 2
     iget-object v0, p0, Lcom/discord/widgets/hubs/WidgetHubDescription$onViewBoundOrOnResume$1;->this$0:Lcom/discord/widgets/hubs/WidgetHubDescription;
 
-    # invokes: Lcom/discord/widgets/hubs/WidgetHubDescription;->configureUI(Lcom/discord/widgets/hubs/HubDescriptionState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/hubs/WidgetHubDescription;->access$configureUI(Lcom/discord/widgets/hubs/WidgetHubDescription;Lcom/discord/widgets/hubs/HubDescriptionState;)V
 
     return-void

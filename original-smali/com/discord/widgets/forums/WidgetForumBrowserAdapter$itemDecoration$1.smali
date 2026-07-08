@@ -116,7 +116,6 @@
     :goto_28
     iget-object v1, p0, Lcom/discord/widgets/forums/WidgetForumBrowserAdapter$itemDecoration$1;->this$0:Lcom/discord/widgets/forums/WidgetForumBrowserAdapter;
 
-    # invokes: Lcom/discord/utilities/mg_recycler/MGRecyclerAdapterSimple;->getInternalData()Ljava/util/List;
     invoke-static {v1}, Lcom/discord/widgets/forums/WidgetForumBrowserAdapter;->access$getInternalData$p(Lcom/discord/widgets/forums/WidgetForumBrowserAdapter;)Ljava/util/List;
 
     move-result-object v1

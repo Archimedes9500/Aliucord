@@ -94,7 +94,6 @@
     .line 2
     iget-object p1, p0, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel$patchRole$1;->this$0:Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;
 
-    # invokes: Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->handleGuildUpdateError()V
     invoke-static {p1}, Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;->access$handleGuildUpdateError(Lcom/discord/widgets/servers/community/WidgetServerSettingsEnableCommunityViewModel;)V
 
     return-void

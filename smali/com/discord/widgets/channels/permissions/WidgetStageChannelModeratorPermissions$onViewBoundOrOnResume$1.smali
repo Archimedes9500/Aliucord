@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;->configureUI(Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissionsViewModel$ViewState;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;->access$configureUI(Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissionsViewModel$ViewState;)V
 
     return-void

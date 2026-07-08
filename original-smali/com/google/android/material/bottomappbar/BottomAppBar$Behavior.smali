@@ -159,7 +159,6 @@
     iput-object v0, p0, Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;->viewRef:Ljava/lang/ref/WeakReference;
 
     .line 3
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->findDependentView()Landroid/view/View;
     invoke-static {p2}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$3100(Lcom/google/android/material/bottomappbar/BottomAppBar;)Landroid/view/View;
 
     move-result-object v0
@@ -204,12 +203,10 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
     .line 11
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->addFabAnimationListeners(Lcom/google/android/material/floatingactionbutton/FloatingActionButton;)V
     invoke-static {p2, v0}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$3200(Lcom/google/android/material/bottomappbar/BottomAppBar;Lcom/google/android/material/floatingactionbutton/FloatingActionButton;)V
 
     .line 12
     :cond_2f
-    # invokes: Lcom/google/android/material/bottomappbar/BottomAppBar;->setCutoutState()V
     invoke-static {p2}, Lcom/google/android/material/bottomappbar/BottomAppBar;->access$1300(Lcom/google/android/material/bottomappbar/BottomAppBar;)V
 
     .line 13

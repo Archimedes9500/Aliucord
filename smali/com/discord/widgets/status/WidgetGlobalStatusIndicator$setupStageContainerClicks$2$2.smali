@@ -87,7 +87,6 @@
 
     iget-object v0, v0, Lcom/discord/widgets/status/WidgetGlobalStatusIndicator$setupStageContainerClicks$2;->this$0:Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;
 
-    # invokes: Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;->getViewModel()Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel;
     invoke-static {v0}, Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;->access$getViewModel$p(Lcom/discord/widgets/status/WidgetGlobalStatusIndicator;)Lcom/discord/widgets/status/WidgetGlobalStatusIndicatorViewModel;
 
     move-result-object v0

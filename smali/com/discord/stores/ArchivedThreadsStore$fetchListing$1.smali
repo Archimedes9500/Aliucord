@@ -116,7 +116,6 @@
     .line 3
     iget-object v2, v0, Lcom/discord/stores/ArchivedThreadsStore$fetchListing$1;->this$0:Lcom/discord/stores/ArchivedThreadsStore;
 
-    # getter for: Lcom/discord/stores/ArchivedThreadsStore;->listings:Ljava/util/Map;
     invoke-static {v2}, Lcom/discord/stores/ArchivedThreadsStore;->access$getListings$p(Lcom/discord/stores/ArchivedThreadsStore;)Ljava/util/Map;
 
     move-result-object v2
@@ -156,7 +155,6 @@
     :goto_2f
     iget-object v5, v0, Lcom/discord/stores/ArchivedThreadsStore$fetchListing$1;->this$0:Lcom/discord/stores/ArchivedThreadsStore;
 
-    # getter for: Lcom/discord/stores/ArchivedThreadsStore;->listings:Ljava/util/Map;
     invoke-static {v5}, Lcom/discord/stores/ArchivedThreadsStore;->access$getListings$p(Lcom/discord/stores/ArchivedThreadsStore;)Ljava/util/Map;
 
     move-result-object v5
@@ -204,7 +202,6 @@
     .line 11
     iget-object v2, v0, Lcom/discord/stores/ArchivedThreadsStore$fetchListing$1;->this$0:Lcom/discord/stores/ArchivedThreadsStore;
 
-    # getter for: Lcom/discord/stores/ArchivedThreadsStore;->fetchSubscriptions:Ljava/util/Map;
     invoke-static {v2}, Lcom/discord/stores/ArchivedThreadsStore;->access$getFetchSubscriptions$p(Lcom/discord/stores/ArchivedThreadsStore;)Ljava/util/Map;
 
     move-result-object v2

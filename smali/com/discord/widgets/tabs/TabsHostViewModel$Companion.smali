@@ -176,7 +176,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/tabs/TabsHostViewModel;->AT_LEAST_ONE_GUILD_TABS:Ljava/util/Set;
     invoke-static {}, Lcom/discord/widgets/tabs/TabsHostViewModel;->access$getAT_LEAST_ONE_GUILD_TABS$cp()Ljava/util/Set;
 
     move-result-object v0
@@ -196,7 +195,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/tabs/TabsHostViewModel;->NON_HOME_TAB_DESTINATIONS:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/tabs/TabsHostViewModel;->access$getNON_HOME_TAB_DESTINATIONS$cp()Ljava/util/List;
 
     move-result-object v0
@@ -216,7 +214,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/tabs/TabsHostViewModel;->NO_GUILD_TABS:Ljava/util/Set;
     invoke-static {}, Lcom/discord/widgets/tabs/TabsHostViewModel;->access$getNO_GUILD_TABS$cp()Ljava/util/Set;
 
     move-result-object v0
@@ -236,7 +233,6 @@
     .end annotation
 
     .line 1
-    # getter for: Lcom/discord/widgets/tabs/TabsHostViewModel;->TAB_DESTINATIONS:Ljava/util/List;
     invoke-static {}, Lcom/discord/widgets/tabs/TabsHostViewModel;->access$getTAB_DESTINATIONS$cp()Ljava/util/List;
 
     move-result-object v0

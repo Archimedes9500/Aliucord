@@ -102,7 +102,6 @@
     check-cast v0, Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;
 
     .line 2
-    # invokes: Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;->confirmRemoveModerator(Lcom/discord/widgets/channels/permissions/PermissionOwner;)V
     invoke-static {v0, p1}, Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;->access$confirmRemoveModerator(Lcom/discord/widgets/channels/permissions/WidgetStageChannelModeratorPermissions;Lcom/discord/widgets/channels/permissions/PermissionOwner;)V
 
     return-void

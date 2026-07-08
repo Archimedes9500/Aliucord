@@ -132,7 +132,6 @@
     const/4 v3, 0x1
 
     .line 5
-    # invokes: Ld0/e0/n;->a(Lkotlin/reflect/KType;Z)Ljava/lang/reflect/Type;
     invoke-static {v2, v3}, Ld0/e0/n;->access$computeJavaType(Lkotlin/reflect/KType;Z)Ljava/lang/reflect/Type;
 
     move-result-object v2
