@@ -3048,22 +3048,20 @@
     .end annotation
 .end method
 
-.method public abstract getBans(JLjava.lang.Integer;)Lrx/Observable;
+.method public abstract getBans(JI)Lrx/Observable;
     .param p1    # J
         .annotation runtime Li0/f0/s;
             value = "guildId"
         .end annotation
     .end param
-    .param p2    # Ljava.lang.Integer;
+    .param p2    # I
         .annotation runtime Li0/f0/t;
             value = "limit"
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(J",
-            "Ljava.lang.Integer;"
-            ")",
+            "(JI)",
             "Lrx/Observable<",
             "Ljava/util/List<",
             "Lcom/discord/models/domain/ModelBan;",
