@@ -15,6 +15,7 @@ import com.aliucord.wrappers.embeds.MessageEmbedWrapper.Companion.rawVideo
 import com.aliucord.wrappers.users.globalName
 import com.discord.api.channel.Channel
 import com.discord.api.channel.`ChannelUtils$getDisplayName$1`
+import com.discord.api.message.attachment.MessageAttachment
 import com.discord.api.message.embed.EmbedType
 import com.discord.api.message.embed.MessageEmbed
 import com.discord.api.role.GuildRoleColors
@@ -284,6 +285,16 @@ fun patchAuditLog() {
                 }
             }
             it.result = colors
+        }
+    })
+}
+
+fun patchSpoilers(){
+    Patcher.addPatch(MessageAttachment::class.java.getDeclaredMethod("h"/*"isSpoiler"*/), Hook {
+        val isSpoiler = it.result as Boolean
+        if (isSpoiler) return@Hook
+        with (it.thisObject as MessageAttachment) {
+            it.result = (0 != (flags and 8/*MessageAttachment.SPOILER*/))
         }
     })
 }
