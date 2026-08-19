@@ -11,6 +11,7 @@ import android.net.Uri
 import android.view.View
 import com.aliucord.api.rn.user.RNUserProfile
 import com.aliucord.patcher.*
+import com.aliucord.utils.accessField
 import com.aliucord.wrappers.embeds.MessageEmbedWrapper.Companion.rawVideo
 import com.aliucord.wrappers.users.globalName
 import com.discord.api.channel.Channel
@@ -289,6 +290,7 @@ fun patchAuditLog() {
     })
 }
 
+val MessageAttachment.flags: Int by accessField();
 fun patchSpoilers(){
     Patcher.addPatch(MessageAttachment::class.java.getDeclaredMethod("h"/*"isSpoiler"*/), Hook {
         val isSpoiler = it.result as Boolean
