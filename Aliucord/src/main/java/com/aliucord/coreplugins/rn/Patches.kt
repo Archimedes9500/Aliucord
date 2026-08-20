@@ -294,7 +294,7 @@ val MessageAttachment.flags: Int by accessField();
 fun patchSpoilers(){
     Patcher.addPatch(MessageAttachment::class.java.getDeclaredMethod("h"/*"isSpoiler"*/), Hook {
         val isSpoiler = it.result as Boolean
-        if (isSpoiler || frame.thisObject == null) return@Hook
+        if (isSpoiler || it.thisObject == null) return@Hook
         with (it.thisObject as MessageAttachment) {
             it.result = (0 != (flags and 8/*MessageAttachment.SPOILER*/))
         }
