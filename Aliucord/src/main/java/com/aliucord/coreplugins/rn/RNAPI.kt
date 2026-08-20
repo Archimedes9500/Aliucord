@@ -31,6 +31,8 @@ internal class RNAPI : CorePlugin(Manifest("RNAPI")) {
 
         if (ManagerBuild.hasInjector("2.1.2")) patchAuditLog()
         else logger.warn("Base app outdated, cannot patch audit log")
+        if (ManagerBuild.hasInjector("2.4.0")) patchSpoilers()
+        else logger.warn("Base app outdated, cannot patch attachment spoilers")
     }
 
     override fun start(context: Context) {}
