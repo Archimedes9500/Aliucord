@@ -171,10 +171,12 @@ public class SettingsAPI {
 
     /**
      * Gets an {@link Object} stored in the settings.
+     * Broken for parameterized types, in kotlin use the {@link SettingsAPI#getObject(String, Object) inline extension}, in java use the {@link #getObject(String, Object, Type) explicit type variant}
      * @param key Key of the setting.
      * @param defValue Default value of the setting.
      * @return Stored value, or default value if it doesn't exist.
      */
+    @kotlin.Deprecated("Java only", level = kotlin.DeprecationLevel.HIDDEN)
     public <T> T getObject(String key, T defValue) {
         return settings.getObject(key, defValue);
     }
