@@ -206,7 +206,7 @@ class SettingsUtilsJSON(private val pluginName: String) {
      * @param defValue Default value
      * @return Value if found, else the defValue
      */
-    fun <T> getObject(key: String, defValue: T): T = getObject(key, defValue, defValue!!::class.java)
+    inline fun <reified T> getObject(key: String, defValue: T): T = getObject(key, defValue, (object : TypeToken<T>() {}).type)
 
     /**
      * Get an [Object] from the preferences
@@ -222,8 +222,7 @@ class SettingsUtilsJSON(private val pluginName: String) {
             return cached as T
         } catch (ignored: Throwable) {
         }
-        val t: T? = if (settings.has(key)) gson.fromJson(settings.getString(key), type) else null
-        return t ?: defValue
+        return if (settings.has(key)) gson.fromJson(settings.getString(key), type) else defValue
     }
 
     /**
