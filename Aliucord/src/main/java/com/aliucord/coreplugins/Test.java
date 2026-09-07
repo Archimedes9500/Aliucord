@@ -1,5 +1,6 @@
 package com.aliucord.coreplugins;
 
+import java.util.*;
 import com.aliucord.entities.CorePlugin;
 import com.aliucord.entities.Plugin.Manifest;
 import com.aliucord.api.SettingsAPI;
@@ -13,7 +14,7 @@ class TestJava extends CorePlugin{
     };
 	SettingsAPI _settings = new SettingsAPI("Test");
     
-    @Override void start(Context context){
+    @Override public void start(Context context){
         var thing = _settings.getObject("thing", new ArrayList<Balls>(), (new TypeToken<List<Balls>>(){}).getType());
         var logger = new Logger("TestJava");
         logger.debug(thing.toArray(new Balls[0]).toString());
