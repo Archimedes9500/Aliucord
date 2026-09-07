@@ -206,8 +206,19 @@ class SettingsUtilsJSON(private val pluginName: String) {
      * @param defValue Default value
      * @return Value if found, else the defValue
      */
+    @JvmName("getObjectInline")
     inline fun <reified T> getObject(key: String, defValue: T): T = getObject(key, defValue, (object : TypeToken<T>() {}).type)
 
+    /**
+     * Get an [Object] from the preferences
+     * Broken for parameterized types, in kotlin use the inline variant, in java use the {@link #getObject(String, Object, Type) explicit type variant}
+     * @param key Key of the value
+     * @param defValue Default value
+     * @return Value if found, else the defValue
+     */
+    @Deprecated("Java only", level = DeprecationLevel.HIDDEN)
+    fun <T> getObject(key: String, defValue: T): T = getObject(key, defValue, defValue!!::class.java)
+    
     /**
      * Get an [Object] from the preferences
      * @param key Key of the value
