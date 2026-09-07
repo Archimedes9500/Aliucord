@@ -8,7 +8,7 @@ import android.content.Context;
 import com.google.gson.reflect.TypeToken;
 import com.aliucord.Logger;
 
-class TestJava extends CorePlugin{
+public class TestJava extends CorePlugin{
     public TestJava(){
         super(new Manifest("TestJava"));
     };
