@@ -21,7 +21,7 @@ class TestJava extends CorePlugin{
         try{
             thing = _settings.getObject("thing", new ArrayList<Balls>());
             for(Balls balls : thing){
-                var temp = balls.balls;
+                var temp = balls.getBalls();
             };
         }catch(Throwable e){
             logger.error("Yop, it crashed", e);
