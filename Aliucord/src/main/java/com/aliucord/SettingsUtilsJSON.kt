@@ -207,7 +207,6 @@ class SettingsUtilsJSON(private val pluginName: String) {
      * @param defValue Default value
      * @return Value if found, else the defValue
      */
-    @Deprecated("Java only", level = DeprecationLevel.HIDDEN)
     fun <T> getObject(key: String, defValue: T): T = getObject(key, defValue, defValue!!::class.java)
     
     /**
