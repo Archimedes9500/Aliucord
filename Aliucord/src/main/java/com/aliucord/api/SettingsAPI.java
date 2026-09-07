@@ -175,7 +175,10 @@ public class SettingsAPI {
      * @param defValue Default value of the setting.
      * @return Stored value, or default value if it doesn't exist.
      */
-    @kotlin.Deprecated("Java only", level = kotlin.DeprecationLevel.HIDDEN)
+    @kotlin.Deprecated(
+        message = "For use in java only, for non-parameterized types. Otherwise specify type explicitly.",
+        level = kotlin.DeprecationLevel.HIDDEN
+    )
     public <T> T getObject(String key, T defValue) {
         return settings.getObject(key, defValue);
     }
