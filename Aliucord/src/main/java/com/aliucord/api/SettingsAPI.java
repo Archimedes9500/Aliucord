@@ -5,7 +5,6 @@
 
 package com.aliucord.api;
 
-
 import com.aliucord.SettingsUtilsJSON;
 
 import java.lang.reflect.Type;
@@ -13,7 +12,7 @@ import java.util.List;
 
 @SuppressWarnings("unused")
 public class SettingsAPI {
-    private SettingsUtilsJSON settings;
+    SettingsUtilsJSON settings;
     private final String pluginName;
 
     /**
