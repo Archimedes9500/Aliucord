@@ -14,11 +14,11 @@ class TestJava extends CorePlugin{
 	SettingsAPI _settings = new SettingsAPI("Test");
     
     @Override void start(Context context){
-        var thing = _settings.getObject("thing", ArrayList<Balls>(), (new TypeToken<List<Balls>>(){}).getType());
+        var thing = _settings.getObject("thing", new ArrayList<Balls>(), (new TypeToken<List<Balls>>(){}).getType());
         var logger = new Logger("TestJava");
         logger.debug(thing.toArray(new Balls[0]).toString());
         try{
-            thing = _settings.getObject("thing", ArrayList<Balls>());
+            thing = _settings.getObject("thing", new ArrayList<Balls>());
             for(Balls balls : thing){
                 var temp = balls.balls;
             };
