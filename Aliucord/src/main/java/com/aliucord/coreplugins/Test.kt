@@ -3,6 +3,7 @@ package com.aliucord.coreplugins;
 import com.aliucord.entities.CorePlugin;
 import com.aliucord.entities.Plugin.Manifest;
 import com.aliucord.api.SettingsAPI;
+import com aliucord.api.getObject;
 import com.google.gson.reflect.TypeToken;
 import com.aliucord.Logger;
 
